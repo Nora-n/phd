@@ -1,0 +1,365 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{phd-preambulle}
+
+\RequirePackage[utf8x]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[french]{babel}
+\frenchbsetup{StandardLists=true}
+
+% Test adding text
+\RequirePackage{lipsum}
+
+% To make a landscape document
+\RequirePackage{pdflscape} 
+\RequirePackage[margin=2.5cm, top=3cm, bottom=3cm]{geometry}
+
+% Include external figures
+\makeatletter
+\def\input@path{{../figures/}}
+%or: \def\input@path{{/path/to/folder/}{/path/to/other/folder/}}
+\makeatother
+
+%%% En-tête et pied de page
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[RE]{\nouppercase\leftmark}
+\fancyhead[LE]{\thepage}
+\fancyhead[LO]{\nouppercase\rightmark}
+\fancyhead[RO]{\thepage}
+%\fancyfoot[C]{\thepage}
+\setlength{\headheight}{28pt}
+% Make sure empty pages between chapters don't have a ruler
+\RequirePackage{emptypage}
+
+\RequirePackage{cancel}
+\RequirePackage{physics}
+% Pour \Aboxed dans un environnement align
+\RequirePackage{mathtools}
+% Pour empheq, qui pourrait remplacer à la fois équations et align
+\RequirePackage{empheq}
+% Pour \endnote
+\RequirePackage{endnotes}
+
+% Pour écrire côte à côte dans les tcolorboxes
+\RequirePackage{multicol}
+\setlength\columnseprule{.4pt}
+
+% Figures
+\RequirePackage{graphicx}%[pdftex]{graphicx}
+\graphicspath{{./figures/}{../figures/}}
+\RequirePackage{wrapfig}
+\RequirePackage[rightcaption]{sidecap}
+\sidecaptionvpos{figure}{c}
+\RequirePackage{caption}
+\RequirePackage{subcaption}
+
+% Nice chapter
+% \RequirePackage[Rejne]{fncychap}
+\RequirePackage{titlesec}
+\makeatletter
+\titleformat{\chapter}[frame]
+  {\normalfont}{\filright\enspace \@chapapp~\thechapter\enspace}
+  {8pt}{\LARGE\bfseries\filcenter}
+\titlespacing*{\chapter}
+  {0pt}{0pt}{20pt}
+\makeatother
+% Nice epigraph
+\RequirePackage{epigraph}
+% For local TOC compatible with titlesec
+% \RequirePackage{titletoc}
+% Pour local TOC
+\RequirePackage{minitoc}
+\renewcommand{\mtctitle}{Sommaire}
+
+\RequirePackage[pdftex,
+    linktoc=all,
+    backref=section,
+    colorlinks=true,
+    pdfstartview=FitV,
+    linkcolor=linkcolor,
+    citecolor=linkcolor,
+    urlcolor=linkcolor,
+    hyperindex=true,
+    hyperfigures=false]{hyperref}
+
+% Colors
+\RequirePackage[svgnames, dvipsnames, table]{xcolor}
+\definecolor{linkcolor}{rgb}{0,0,0}
+
+% Pour les plots
+\RequirePackage{pgfplots}
+\pgfplotsset{compat=newest}
+
+\RequirePackage{microtype}
+
+% Pour des flèches entre les lignes d'un align: need more recent LaTeX...
+% \RequirePackage{witharrows}
+\RequirePackage{amsmath, amssymb}
+\RequirePackage{textcomp}
+\RequirePackage{gensymb}
+
+% Resume enumerate
+\RequirePackage{enumitem}
+
+% Pretty tables
+\RequirePackage{booktabs}
+% Other tables
+\RequirePackage{tabularx}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\renewcommand\tabularxcolumn[1]{m{#1}}
+% Emojis
+\RequirePackage{twemojis}
+
+% Pretty units
+\RequirePackage{siunitx}
+\sisetup{%
+  detect-all,
+  free-standing-units,          % create standalone commands
+  locale=FR,
+  inter-unit-product={\,},      % character between units
+  separate-uncertainty,         % x ± dx
+  retain-explicit-plus,         % p.ex. +45°
+  angle-symbol-over-decimal,    % p.ex. 0.''11
+}
+\def\Lsun{\ensuremath{L_{\odot}}}
+\def\Rsun{\ensuremath{R_{\odot}}}
+\def\Tsun{\ensuremath{T_{\odot}}}
+\def\Msun{\ensuremath{M_{\odot}}}
+\def\Rearth{\ensuremath{R_{\oplus}}}
+\def\Mearth{\ensuremath{M_{\oplus}}}
+\def\Tearth{\ensuremath{T_{\oplus}}}
+\DeclareSIUnit\pc{pc}           % parsec
+\DeclareSIUnit\as{as}           % arcsec
+\DeclareSIUnit\mag{mag}         % mag
+
+% Math in section names
+\RequirePackage{bookmark} % http://tex.stackexchange.com/questions/119079
+
+% All other packages
+\RequirePackage{listings}
+
+% Profondeur des sections dans la table of contents
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{4}
+
+% Sections fantômes dans la table of contents
+\makeatletter
+\newcommand{\appsec}[2]{%
+  \phantomsection
+  \refstepcounter{section}%
+  \section*{#1}%
+  \addtocounter{section}{-1}%
+  \def\@currentlabelname{App: #1}%
+  \def\@currentlabel{\thesection}%
+  \label{#2}%
+  \addcontentsline{toc}{section}{#1}%
+}
+\newcommand{\appssec}[2]{%
+  \refstepcounter{subsection}%
+  \subsection*{#1}%
+  \addtocounter{subsection}{-1}%
+  \def\@currentlabelname{App: #1}%
+  \def\@currentlabel{\thesubsection}%
+  \label{#2}%
+  \addcontentsline{toc}{subsection}{#1}
+}
+\newcommand{\appsssec}[2]{%
+  \refstepcounter{subsubsection}%
+  \subsubsection*{#1}%
+  \addtocounter{subsubsection}{-1}%
+  \def\@currentlabelname{App: #1}%
+  \def\@currentlabel{\thesubsubsection}%
+  \label{#2}%
+  \addcontentsline{toc}{subsubsection}{#1}
+}
+\makeatother
+
+% Idk really
+\makeatletter
+\newcommand*{\toccontents}{\@starttoc{toc}}
+\def\enoteheading{\section*{\notesname
+  \@mkboth{\MakeUppercase{\notesname}}{\MakeUppercase{\notesname}}}%
+  \mbox{}\par\vskip-2.3\baselineskip\noindent\rule{.5\textwidth}{0.4pt}
+  \par\vskip\baselineskip}
+\makeatother
+
+% Définition des puces des listes
+\setlist[enumerate,1]{label = \arabic*)}
+\setlist[enumerate,2]{label = \alph*-}
+\setlist[enumerate,3]{label = \roman*.}
+\setlist[itemize, 1]{label = --}
+\setlist[itemize, 2]{label = *}
+
+% Custom code writing
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=L,
+  xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+}
+
+\newcommand{\ed}[2]{#1\endnote{\textcolor{black}{#1} : #2}}
+\newcommand{\obar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+\newcommand{\opto}[2]{\ensuremath\underset{#2}{\overset{#1}{\longrightarrow}}}
+
+%Journal abbreviations
+\newcommand*{\apj}{The Astrophysical Journal}
+\newcommand*{\apjl}{The Astrophysical Journal, Letters}
+\newcommand*{\apjs}{The Astrophysical Journal, Supplement}
+\newcommand*{\aj}{The Astronomical Journal}
+\newcommand*{\jcp}{The Journal of Chemical Physics}
+\newcommand*{\mnras}{Monthly Notices of the Royal Astronomical Society}
+\newcommand*{\aap}{Astronomy and Astrophysics}
+\newcommand*{\aaps}{Astronomy \& Astrophysics, Supplement}
+\newcommand*{\apss}{Astrophysics \& Space Science}
+\newcommand*{\pasp}{Publications of the Astronomical Society of the Pacific}
+\newcommand*{\na}{New Astronomy}
+\newcommand*{\prd}{Physical Review D: Particles, Fields, Gravitation and Cosmology}
+\newcommand*{\araa}{Annual Review of Astronomy \& Astrophysics}
+\newcommand*{\prl}{Physical Review Letters}
+\newcommand*{\jrasc}{Journal of the Royal Astronomical Society of Canada}
+\newcommand*{\nat}{Nature}
+\newcommand*{\aapr}{Astronomy and Astrophysics Reviews}
+\newcommand*{\pasa}{Publications of the Astronomical Society of Australia}
+\newcommand*{\physrep}{Physics Reports}
+
+% Local def for ease of use
+\def\DS{\displaystyle}
+\def\Sc{\mathcal{S}}
+\def\Cc{\mathcal{C}}
+\def\Ac{\mathcal{A}}
+\def\Bc{\mathcal{B}}
+\def\Dc{\mathcal{D}}
+\def\Ec{\mathcal{E}}
+\def\Rc{\mathcal{R}}
+\def\Nc{\mathcal{N}}
+\def\Pc{\mathcal{P}}
+\def\Lc{\mathcal{L}}
+\def\Hc{\mathcal{H}}
+\def\Dc{\mathcal{D}}
+\def\Fc{\mathcal{F}}
+\def\VC{\mathcal{V}}
+\def\Pc{\mathcal{P}}
+\def\Gc{\mathcal{G}}
+\def\Sr{\mathrm{S}}
+\def\d{\mathrm{d}}
+\def\dt{\d t}
+\def\Er{\mathrm{e}}
+\def\Ir{\mathrm{i}}
+\def\A{\mathring{\mathrm{A}}}
+\def\Ar{\mathrm{A}}
+\def\Hr{\mathrm{H}}
+\def\Er{\mathrm{E}}
+\def\Ll{\mathrm{L}} \def\Llr{\Ll^2(\Rb)}
+\def\IM{\mathrm{Im}}
+\def\RE{\mathrm{Re}}
+\def\arg{\mathrm{arg}}
+\def\Nb{\mathbb{N}}
+\def\Zb{\mathbb{Z}}
+\def\Qb{\mathbb{Q}}
+\def\Db{\mathbb{D}}
+\def\Rb{\mathbb{R}}
+\def\Cb{\mathbb{C}}
+\def\ep{\varepsilon}
+\def\a{\alpha}
+\def\ap{\dot{a}}
+\def\app{\ddot{a}}
+\def\b{\beta}
+\def\w{\omega}\def\O{\Omega} \def\Of{\overrightarrow{\O}}
+\def\wt{\w t}
+\def\m{\mu} \def\ma{^\m} \def\mb{_\m}
+\def\v{\nu} \def\va{^\v} \def\vb{_\v}
+\def\mv{\m\v}
+\def\de{\delta}
+\def\D{\Delta}
+\def\n{\eta}
+\def\g{\gamma}\def\G{\Gamma}
+\def\t{\theta}\def\T{\Theta} \def\tp{\dot{\t}} \def\tpp{\ddot{\t}}
+\def\f{\varphi}\def\F{\phi} \def\fp{\dot{\f}}
+\def\p{\psi}\def\P{\Psi} \def\psp{\dot{\p}}
+\def\l{\lambda}\def\L{\Lambda}
+\newcommand{\lcdm}{\ensuremath{\Lambda}CDM\@\xspace}
+\def\k{\chi}
+\def\kk{\kappa}
+\def\r{\rho}
+\def\s{\sigma}
+\def\S{\Sigma}
+\def\eau{_\mathrm{eau}}
+\def\air{_\mathrm{air}}
+\def\rf{\overrightarrow{r}\!} \def\rp{\dot{r}} \def\rfa{\rf_{1}} \def\rfb{\rf_{2}}
+\def\xf{\overrightarrow{x}\!} \def\xp{\dot{x}} \def\xpp{\ddot{x}}
+\def\xm{x^{\m}} \def\xma{x^{\m_1}} \def\xmr{x^{\m_r}} \def\xv{x^{\v}} \def\dmr{_{\m_1\ldots\m_r}}
+\def\pf{\overrightarrow{p}\!} \def\pp{\dot{p}} \def\pfa{\pf_{1}} \def\pfb{\pf_{2}}
+\def\Pf{\overrightarrow{P}}
+\def\af{\overrightarrow{a}}
+\def\bf{\overrightarrow{b}}
+\def\cf{\overrightarrow{c}}
+\def\If{\overrightarrow{i}}
+\def\gf{\overrightarrow{g}}
+\def\uf{\overrightarrow{u}}
+\def\ux{\overrightarrow{u_x}}
+\def\uy{\overrightarrow{u_y}}
+\def\uz{\overrightarrow{u_z}}
+\def\ur{\overrightarrow{u_r}}
+\def\ut{\overrightarrow{u_\t}}
+\def\yf{\overrightarrow{y}}
+\def\wf{\overrightarrow{\w}}
+\def\muf{\overrightarrow{\m}}
+\def\vf{\overrightarrow{v}}
+\def\Vf{\overrightarrow{V}}
+\def\vfa{\overrightarrow{v_1}}
+\def\vfb{\overrightarrow{v_2}}
+\def\vfg{\overrightarrow{v_G}}
+\def\kf{\overrightarrow{k}\!}
+\def\Kf{\overrightarrow{K}\!}
+\def\jf{\overrightarrow{j}\!}
+\def\jm{\overrightarrow{j_m}}
+\def\Ff{\overrightarrow{F}\!}
+\def\Ef{\overrightarrow{E}}
+\def\Af{\overrightarrow{A}}
+\def\OM{\overrightarrow{OM}}
+\def\Bf{\overrightarrow{B}\!}
+\def\Hf{\overrightarrow{H}\!}
+\def\Mf{\overrightarrow{M}\!}
+\def\mf{\overrightarrow{m}\!}
+\def\of{\overrightarrow{0}\!}
+\def\pif{\overrightarrow{\pi}} \def\Pif{\overrightarrow{\Pi}}
+\def\OM{\overrightarrow{OM}}
+\def\AB{\overrightarrow{AB}}
+\def\OA{\obar{OA}}
+\def\OAp{\obar{OA'}}
+\def\OF{\obar{OF'}}
+\def\ABb{\obar{AB}}
+\def\ABp{\obar{A'B'}}
+\def\ABa{\obar{A_1B_1}}
+\def\bp{$'$}
+\def\SC{\obar{SC}}
+\def\SA{\obar{SA}}
+\def\SAp{\obar{SA'}}
+\def\SF{\obar{SF}}
+\def\SFp{\obar{SF'}}
+\def\nf{\overrightarrow{n}\!}
+\def\ff{\overrightarrow{f}\!}
+\def\lf{\overrightarrow{l}\!}
+\def\ef{\overrightarrow{e}\!}
+\def\gf{\overrightarrow{g}}
+\def\qf{\overrightarrow{q}\!}
+\def\Tf{\overrightarrow{T}}
+\def\Gf{\Vect{G}}
+\def\Lfo{\overrightarrow{L_O}}
+\def\Lfg{\overrightarrow{L_G}}
+\def\cte{\overrightarrow{\text{cte}}}
+\def\h{\hbar}
+\def\parr{/\!\!/}
+
+%%% Fin du package
+\endinput

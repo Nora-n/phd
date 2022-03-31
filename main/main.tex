@@ -1,0 +1,30 @@
+\documentclass[a4paper, 12pt, final, garamond]{book}
+\usepackage{phd-preambulle}
+
+% \renewcommand{\arraystretch}{1.5}
+% \newcolumntype{C}[1]{>{\arraybackslash\centering}p{#1}}
+% \newcolumntype{R}[1]{>{\arraybackslash\raggedleft}p{#1}}
+% \newcolumntype{L}[1]{>{\arraybackslash\raggedright}p{#1}}
+% \addto\captionsenglish{\renewcommand*\contentsname{Table des matières}}
+
+\usepackage{subfiles}
+
+\begin{document}
+    \subfile{../chapters/00_cover}
+    \subfile{../chapters/10_remerciements}
+    \subfile{../chapters/11_resume}
+    \subfile{../chapters/12_abstract}
+    \subfile{../chapters/13_introduction}
+    \cleardoublepage
+    \dominitoc
+    \tableofcontents
+    \subfile{../chapters/01_cosmology}
+    \subfile{../chapters/02_sne}
+    \subfile{../chapters/03_sample}
+    \subfile{../chapters/04_stretch}
+    \subfile{../chapters/05_snana}
+    \subfile{../chapters/06_results}
+    \subfile{../chapters/98_conclusions}
+    \bibliographystyle{francais-mb}
+    \bibliography{../chapters/99_references}
+\end{document}
