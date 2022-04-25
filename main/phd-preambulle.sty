@@ -1,6 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{phd-preambulle}
 
+\RequirePackage[authoryear]{natbib}
 \RequirePackage[utf8x]{inputenc}
 \RequirePackage[T1]{fontenc}
 \RequirePackage[french]{babel}
@@ -11,7 +12,10 @@
 
 % To make a landscape document
 \RequirePackage{pdflscape} 
+% Define margins globally
 \RequirePackage[margin=2.5cm, top=3cm, bottom=3cm]{geometry}
+% To locally change margins
+\RequirePackage{changepage}
 
 % Include external figures
 \makeatletter
@@ -42,15 +46,11 @@
 % Pour \endnote
 \RequirePackage{endnotes}
 
-% Pour écrire côte à côte dans les tcolorboxes
-\RequirePackage{multicol}
-\setlength\columnseprule{.4pt}
-
 % Figures
 \RequirePackage{graphicx}%[pdftex]{graphicx}
 \graphicspath{{./figures/}{../figures/}}
 \RequirePackage{wrapfig}
-\RequirePackage[rightcaption]{sidecap}
+\RequirePackage[leftcaption]{sidecap}
 \sidecaptionvpos{figure}{c}
 \RequirePackage{caption}
 \RequirePackage{subcaption}
@@ -74,19 +74,31 @@
 \renewcommand{\mtctitle}{Sommaire}
 
 \RequirePackage[pdftex,
-    linktoc=all,
-    backref=section,
-    colorlinks=true,
-    pdfstartview=FitV,
-    linkcolor=linkcolor,
-    citecolor=linkcolor,
-    urlcolor=linkcolor,
+    pdftitle={Variabilit\'es intrins\`eques des supernovae de type Ia et leurs
+    cons\'equences sur les param\`etres cosmologiques},
+    pdfauthor={Nora NICOLAS},
+    pdfsubject={Manuscrit de th\`ese pour l'obtention du dipl\^ome de doctorat},
+    pdfkeywords={cosmology, phd, supernovae},
+    linktoc=all,            % Titre et page
+    backref=page,           % Add link to go back to section
+    colorlinks=true,        % false: boxed links; true: colored links
+    linkcolor=linkcolor,    % color of internal links
+    citecolor=linkcolor,    % color of links to bibliography
+    urlcolor=linkcolor,     % color of external links
+    pdfencoding=auto,       % http://tex.stackexchange.com/questions/119079
+    psdextra=true,          % for '$' in title
+    pdfstartview=FitV,      % open fitting view as default
     hyperindex=true,
     hyperfigures=false]{hyperref}
 
+% Add an upward arrow next to backref
+\renewcommand\backrefxxx[3]{%
+  \hyperlink{page.#1}{$\uparrow$~Page #1}%
+}
+
 % Colors
 \RequirePackage[svgnames, dvipsnames, table]{xcolor}
-\definecolor{linkcolor}{rgb}{0,0,0}
+\definecolor{linkcolor}{rgb}{0,0,1}
 
 % Pour les plots
 \RequirePackage{pgfplots}
@@ -105,6 +117,13 @@
 
 % Pretty tables
 \RequirePackage{booktabs}
+% Title, table and notes
+\RequirePackage{threeparttable}
+% Self-explanatory
+\RequirePackage{multirow}
+% Pour écrire côte à côte dans les tcolorboxes
+\RequirePackage{multicol}
+\setlength\columnseprule{.4pt}
 % Other tables
 \RequirePackage{tabularx}
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
@@ -133,6 +152,7 @@
 \DeclareSIUnit\pc{pc}           % parsec
 \DeclareSIUnit\as{as}           % arcsec
 \DeclareSIUnit\mag{mag}         % mag
+\DeclareSIUnit{\angstrom}{\textup{\AA}}
 
 % Math in section names
 \RequirePackage{bookmark} % http://tex.stackexchange.com/questions/119079
@@ -141,7 +161,7 @@
 \RequirePackage{listings}
 
 % Profondeur des sections dans la table of contents
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{3}
 \setcounter{secnumdepth}{4}
 
 % Sections fantômes dans la table of contents
@@ -211,26 +231,67 @@
 \newcommand{\obar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
 \newcommand{\opto}[2]{\ensuremath\underset{#2}{\overset{#1}{\longrightarrow}}}
 
-%Journal abbreviations
-\newcommand*{\apj}{The Astrophysical Journal}
-\newcommand*{\apjl}{The Astrophysical Journal, Letters}
-\newcommand*{\apjs}{The Astrophysical Journal, Supplement}
-\newcommand*{\aj}{The Astronomical Journal}
-\newcommand*{\jcp}{The Journal of Chemical Physics}
-\newcommand*{\mnras}{Monthly Notices of the Royal Astronomical Society}
-\newcommand*{\aap}{Astronomy and Astrophysics}
-\newcommand*{\aaps}{Astronomy \& Astrophysics, Supplement}
-\newcommand*{\apss}{Astrophysics \& Space Science}
-\newcommand*{\pasp}{Publications of the Astronomical Society of the Pacific}
-\newcommand*{\na}{New Astronomy}
-\newcommand*{\prd}{Physical Review D: Particles, Fields, Gravitation and Cosmology}
-\newcommand*{\araa}{Annual Review of Astronomy \& Astrophysics}
-\newcommand*{\prl}{Physical Review Letters}
-\newcommand*{\jrasc}{Journal of the Royal Astronomical Society of Canada}
-\newcommand*{\nat}{Nature}
-\newcommand*{\aapr}{Astronomy and Astrophysics Reviews}
-\newcommand*{\pasa}{Publications of the Astronomical Society of Australia}
-\newcommand*{\physrep}{Physics Reports}
+% Journal abbreviations
+\newcommand*\aap{A\&A}
+\let\astap=\aap
+\newcommand*\aapr{A\&A~Rev.}
+\newcommand*\aaps{A\&AS}
+\newcommand*\actaa{Acta Astron.}
+\newcommand*\aj{AJ}
+\newcommand*\ao{Appl.~Opt.}
+\let\applopt\ao
+\newcommand*\apj{ApJ}
+\newcommand*\apjl{ApJ}
+\let\apjlett\apjl
+\newcommand*\apjs{ApJS}
+\let\apjsupp\apjs
+\newcommand*\aplett{Astrophys.~Lett.}
+\newcommand*\apspr{Astrophys.~Space~Phys.~Res.}
+\newcommand*\apss{Ap\&SS}
+\newcommand*\araa{ARA\&A}
+\newcommand*\azh{AZh}
+\newcommand*\baas{BAAS}
+\newcommand*\bac{Bull. astr. Inst. Czechosl.}
+\newcommand*\bain{Bull.~Astron.~Inst.~Netherlands}
+\newcommand*\caa{Chinese Astron. Astrophys.}
+\newcommand*\cjaa{Chinese J. Astron. Astrophys.}
+\newcommand*\fcp{Fund.~Cosmic~Phys.}
+\newcommand*\gca{Geochim.~Cosmochim.~Acta}
+\newcommand*\grl{Geophys.~Res.~Lett.}
+\newcommand*\iaucirc{IAU~Circ.}
+\newcommand*\icarus{Icarus}
+\newcommand*\jcap{J. Cosmology Astropart. Phys.}
+\newcommand*\jcp{J.~Chem.~Phys.}
+\newcommand*\jgr{J.~Geophys.~Res.}
+\newcommand*\jqsrt{J.~Quant.~Spectr.~Rad.~Transf.}
+\newcommand*\jrasc{JRASC}
+\newcommand*\memras{MmRAS}
+\newcommand*\memsai{Mem.~Soc.~Astron.~Italiana}
+\newcommand*\mnras{MNRAS}
+\newcommand*\na{New A}
+\newcommand*\nar{New A Rev.}
+\newcommand*\nat{Nature}
+\newcommand*\nphysa{Nucl.~Phys.~A}
+\newcommand*\pasa{PASA}
+\newcommand*\pasj{PASJ}
+\newcommand*\pasp{PASP}
+\newcommand*\physrep{Phys.~Rep.}
+\newcommand*\physscr{Phys.~Scr}
+\newcommand*\planss{Planet.~Space~Sci.}
+\newcommand*\pra{Phys.~Rev.~A}
+\newcommand*\prb{Phys.~Rev.~B}
+\newcommand*\prc{Phys.~Rev.~C}
+\newcommand*\prd{Phys.~Rev.~D}
+\newcommand*\pre{Phys.~Rev.~E}
+\newcommand*\prl{Phys.~Rev.~Lett.}
+\newcommand*\procspie{Proc.~SPIE}
+\newcommand*\qjras{QJRAS}
+\newcommand*\rmxaa{Rev. Mexicana Astron. Astrofis.}
+\newcommand*\skytel{S\&T}
+\newcommand*\solphys{Sol.~Phys.}
+\newcommand*\sovast{Soviet~Ast.}
+\newcommand*\ssr{Space~Sci.~Rev.}
+\newcommand*\zap{ZAp}
 
 % Local def for ease of use
 \def\DS{\displaystyle}
@@ -255,7 +316,6 @@
 \def\dt{\d t}
 \def\Er{\mathrm{e}}
 \def\Ir{\mathrm{i}}
-\def\A{\mathring{\mathrm{A}}}
 \def\Ar{\mathrm{A}}
 \def\Hr{\mathrm{H}}
 \def\Er{\mathrm{E}}
@@ -290,7 +350,6 @@
 \newcommand{\lcdm}{\ensuremath{\Lambda}CDM\@\xspace}
 \def\k{\chi}
 \def\kk{\kappa}
-\def\r{\rho}
 \def\s{\sigma}
 \def\S{\Sigma}
 \def\eau{_\mathrm{eau}}

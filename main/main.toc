@@ -13,38 +13,69 @@
 \contentsline {subsection}{\numberline {1.3.2}Distance de luminosit\IeC {\'e}}{14}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Int\IeC {\'e}r\IeC {\^e}t des supernovae de type Ia}{14}{subsection.1.3.3}
 \contentsline {chapter}{\numberline {2}Supernovae de type Ia}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}XXX}{18}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}XXX}{18}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}XXX}{18}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}XXX}{18}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}XXX}{18}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}XXX}{18}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.1}Fin de vie des \IeC {\'e}toiles}{18}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Classification}{18}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Physique de l'explosion}{18}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Propri\IeC {\'e}t\IeC {\'e}s}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Courbe de lumi\IeC {\`e}re}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Spectroscopie}{18}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Variabilit\IeC {\'e}s}{18}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Prog\IeC {\'e}niteur}{18}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Galaxie h\IeC {\^o}te}{18}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Standardisation}{18}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Corr\IeC {\'e}lations}{18}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Mod\IeC {\`e}le \texttt {SALT2.4}}{18}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Cosmologie avec les SNe~Ia}{18}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Diagramme de Hubble}{18}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}D\IeC {\'e}termination des param\IeC {\`e}tres cosmologiques}{18}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Biais actuels}{18}{subsection.2.5.3}
 \contentsline {chapter}{\numberline {3}Cr\'eation d'un \'echantillon complet}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}XXX}{20}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}XXX}{20}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}XXX}{20}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}XXX}{20}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}XXX}{20}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}XXX}{20}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}\'Etude du \textit {stretch} des SNe~Ia}{21}{chapter.4}
-\contentsline {section}{\numberline {4.1}XXX}{22}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}XXX}{22}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}XXX}{22}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}XXX}{22}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}XXX}{22}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}XXX}{22}{subsection.4.2.2}
-\contentsline {chapter}{\numberline {5}Impact sur la cosmologie~: simulations}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}XXX}{24}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}XXX}{24}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}XXX}{24}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}XXX}{24}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}XXX}{24}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}XXX}{24}{subsection.5.2.2}
-\contentsline {chapter}{\numberline {6}R\IeC {\'e}sultats et discussion}{25}{chapter.6}
-\contentsline {section}{\numberline {6.1}XXX}{26}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}XXX}{26}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}XXX}{26}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}XXX}{26}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}XXX}{26}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}XXX}{26}{subsection.6.2.2}
-\contentsline {chapter}{Conclusions}{27}{chapter*.7}
+\contentsline {section}{\numberline {3.1}Notion de compl\IeC {\'e}tude}{20}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Strat\IeC {\'e}gies d'observations}{20}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Biais de Malmquist et solution}{20}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Pr\IeC {\'e}sentation des sondages}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The Nearby Supernova factory}{21}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Introduction}{21}{subsubsection.3.2.1.1}
+\contentsline {subsubsection}{\numberline {3.2.1.2}D\IeC {\'e}tection des supernovae}{21}{subsubsection.3.2.1.2}
+\contentsline {subsubsection}{\numberline {3.2.1.3}Suivi spectro-photom\IeC {\'e}trie}{22}{subsubsection.3.2.1.3}
+\contentsline {subsubsection}{\numberline {3.2.1.4}Taux de formation stellaire sp\IeC {\'e}cifique spectroscopique}{22}{subsubsection.3.2.1.4}
+\contentsline {subsubsection}{\numberline {3.2.1.5}Description des donn\IeC {\'e}es conserv\IeC {\'e}es}{22}{subsubsection.3.2.1.5}
+\contentsline {subsection}{\numberline {3.2.2}Sloan Digital Sky Survey}{23}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Panoramic Survey Telescope and Rapid Response System}{23}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}SuperNovae Legacy Survey}{23}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Hubble Space Telescope}{23}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Autres sondages : CfA1-4 et CSP}{24}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.3}\IeC {\'E}chantillon d'\IeC {\'e}tude}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Confection}{24}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Approche statistique}{24}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Approche analytique}{26}{subsubsection.3.3.1.2}
+\contentsline {subsection}{\numberline {3.3.2}Pr\IeC {\'e}sentation}{28}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Confirmation d'hypoth\IeC {\`e}se}{30}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {4}\'Evolution avec le \textit {redshift}}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Concept d'\^age}{34}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Travaux pr\IeC {\'e}c\IeC {\'e}dents}{34}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Implications}{34}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Mod\IeC {\'e}lisation du \textit {stretch}}{34}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Param\IeC {\'e}trisations}{34}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Impl\IeC {\'e}mentation}{34}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}R\IeC {\'e}sultats}{34}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Comparaison aux donn\IeC {\'e}es}{34}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Pr\IeC {\'e}dictions}{34}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}Impact sur la cosmologie~: simulations}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}SNANA : overview}{36}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Inputs}{36}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Tools}{36}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}La masse comme traceur}{36}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Mod\IeC {\'e}lisation}{36}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Utilisation}{36}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Impl\IeC {\'e}mentation}{36}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Corr\IeC {\'e}lations test\IeC {\'e}es}{36}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}R\IeC {\'e}sultats}{36}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {6}R\IeC {\'e}sultats et discussion}{37}{chapter.6}
+\contentsline {section}{\numberline {6.1}XXX}{38}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}XXX}{38}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}XXX}{38}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}XXX}{38}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}XXX}{38}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}XXX}{38}{subsection.6.2.2}
+\contentsline {chapter}{Conclusions}{39}{chapter*.15}

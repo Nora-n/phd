@@ -1,13 +1,15 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: main.aux
+The top-level auxiliary file: 03_sample.aux
 The style file: ../main/aa_url.bst
 Database file #1: ../chapters/99_references.bib
-Warning--I didn't find a database entry for "gunn2004"
+Warning--I didn't find a database entry for "gunn2006"
+Warning--I didn't find a database entry for "gunn1998"
+Warning--I didn't find a database entry for "fukugita1996"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 25 entries,
             3146 wiz_defined-function locations,
-            913 strings with 27899 characters,
+            915 strings with 27929 characters,
 and the built_in function-call counts, 50611 in all, are:
 = -- 3473
 > -- 8081
@@ -46,4 +48,4 @@ warning$ -- 0
 while$ -- 106
 width$ -- 0
 write$ -- 279
-(There was 1 warning)
+(There were 3 warnings)

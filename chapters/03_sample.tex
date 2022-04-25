@@ -1,39 +1,636 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
 
-
 \chapter{Cr\'eation d'un \'echantillon complet}\label{ch:sample}
 
--- XXX --
+\epigraph{Citation}{Autaire}
 
+Afin d'améliorer l'état de l'art dans le domaine de la cosmologie
+observationnelle à l'aide de SNe~Ia et en vue de tester l'évolution de leurs
+propriétés avec le reshift, la première étape de ce projet a été de choisir
+l'échantillon d'étude.
+
+%\dominitoc
+%\tableofcontents
 \minitoc
-\begin{enumerate}
-    \item Pantheon
-    \item SNf
-    \item Télescopes
-    \item Magnitudes limites
-    \item Redshift limite
-    \item Tests
-\end{enumerate}
 \newpage
 
-\section{XXX}
-%\label{sec:xxx}
+\section{Notion de complétude}\label{sec:compl}
 
-\subsection{XXX}
-%\label{ssec:xxx}
+Cette thèse repose sur l'étude statistique des propriétés des SNe~Ia, et repose
+donc en premier lieu sur l'échantillon de données sur lesquelles développer
+notre raisonnement. Pour qu'il soit intéressant il doit être suffisamment grand,
+mais également représentatif de la population des SNe~Ia, c'est-à-dire au plus
+proche d'être un tirage aléatoire de tout ce qu'il peut exister comme SNe~Ia
+dans la nature. On parle alors d'échantillon complet. Ce concept est donc
+largement dépendant de la manière dont les données sont relevées.
 
-\subsection{XXX}
-%\label{ssec:xxx}
+\subsection{Stratégies d'observations}\label{ssec:startobs}
+
+Les supernovae sont des phénomènes transitoires, c'est-à-dire des objets dont le
+flux lumineux varie dans le temps, mais qui sont également brefs et rares~:
+elles durent typiquement quelques semaines et surviennent environ une fois par
+siècle et par galaxie. Leur observation requiert donc des stratégies
+particulières. Pour déterminer leurs courbes de lumière (\ref{ssec:lc}) il est
+nécessaire d'avoir un champ de mesure suffisamment profond pour ne pas se
+contenter que de leur luminosité au maximum. Différentes approches peuvent
+entrer en jeu~: les recherches ciblées et les recherches non ciblées.
+
+\paragraph*{Les recherches ciblées} consistent à se focaliser sur des amas de
+galaxies connus en vue d'augmenter la probabilité d'observer des supernovae~; il
+paraît en effet évident que plus la concentration en étoiles est forte, plus on
+s'attend à avoir une haute probabilité que certaines d'entre elles entament leur
+fin de vie et leur explosion en supernova. Cependant, une telle pratique
+implique une sélection des environnements des SNe et donc un biais sur la nature
+des données recueillies~; dans le cas des amas de galaxies, l'environnement
+favorisé sera celui contenant des progéniteurs vieux, dans des galaxies massives
+avec peu de formation stellaire. Afin d'étudier la potentielle évolution de la
+population des SNe, il faut réduire au maximum ces biais et favoriser la réculte
+d'un échantillon représentatif de toute la zoologie des SNe~Ia.
+
+\paragraph*{Les recherches non-ciblées} utilisent de grands champ de caméra pour
+sonder de larges portions du ciel. Originellement
+\citep[SCP,][]{perlmutter1999}, leur procédé était d'effectuer une
+détection photométrique avant d'opérer une identification spectroscopique,
+confirmant leur caractère de SN~Ia ou non, pour finalement décider de programmer
+ou non un suivi photométrique permettant l'établissement de leur courbe de
+lumière. Une telle pratique limite les biais mais donne des courbes de lumières
+pauvres en points de mesure avant le maximum de luminosité, impactant
+l'ajustement des courbes. Ces méthodes ont évolué pour devenir des recherches
+\textit{glissantes}~\citep{astier2006}. Elles consistent à balayer régulièrement
+le ciel en observant un même champ dans un même filtre de manière répétée tous
+les quelques jours, afin d'à la fois détecter et extraire les courbes de
+lumières des SNe~Ia, même si leur identification est effectuée après leur
+maximum de luminosité.
+
+\subsection{Biais de Malmquist et solution}\label{ssec:malm}
+
+De tels sondages ne sont cependant pas exempts d'effets de sélection. En effet,
+même une recherche glissante s'effectue avec un appareil de mesure ayant une
+capacité limitée à détecter une source lumineuse~: les objets de magnitude
+apparente plus élevée (luminosité plus faible) que ce seuil de détection ne
+seront pas inclus. Or, comme chaque astre voit sa luminosité décroître avec le
+carré de la distance qui le sépare de l'observation (\ref{ssec:dl}), cette
+limite implique que les astres de magnitude absolue plus élevée seront relevés à
+de plus grandes distances que les autres, laissant croire qu'à partir d'une
+certaine distance les objets sont intrinsèquement plus lumineux.
+
+Dans le cadre des SNe~Ia dont on suppose la magnitude absolue similaire, on
+pourrait en première approche négliger cet effet. Cependant, comme exposé en
+Section~\ref{ssec:corr}, il a été déterminé que la magnitude absolue des
+supernovae de type Ia est corrélée avec leur \textit{stretch} et leur couleur de
+telle sorte que les plus faibles soient celles de petit stretch et de couleur
+rouge. Ainsi, proche du seuil de détection, les SNe~Ia ne sont pas sélectionnées
+de manière homogène, et l'échantillon recueilli sera une sous-population
+laissant penser qu'avec la distance, les SNe~Ia ont en moyenne un plus haut
+stretch et sont de couleur bleue. De tels sondages sont dits à magnitude
+limitée.
+
+Le cadre de notre étude nécessite un échantillon qu'on appelle
+«~volume-limité~», pour lequel on suppose que la population résulte bien d'un
+tirage aléatoire de ce qui existe dans la nature. Les sondages modernes reposant
+sur des recherches glissantes, il nous a donc fallu les réduire pour les
+utiliser.
+
+\section{Présentation des sondages}\label{sec:surveys}
+On présente dans cette section les différents sondages utilisés dans notre
+étude, principalement non-ciblés.
+
+\subsection{The Nearby Supernova factory}\label{ssec:snf}
+\subsubsection{Introduction}\label{sssec:snfintro}
+
+La collaboration \textit{The Nearby Supernova factory}
+\citep[SNfactory,][]{aldering2002} est créée peu de temps après la découverte de
+l'expansion accélérée de l'Univers \citep{riess1998, perlmutter1999} avec pour
+but un suivi spectro-photométrique d'une précision d'environ 1\% de SNe~Ia
+proches. L'objectif est de peupler la partie basse du diagramme de Hubble ($0.03
+< z < 0.08$), qui ne contenait alors qu'une vingtaine de SNe~Ia
+\citep{hamuy1996}, permettant une meilleure détermination de la constante de
+Hubble $H_0{}^2$. La faible distance du sondage permet d'éviter d'appliquer des
+corrections photométriques dues au décalage vers le rouge (corrections $K$, voir
+Section \textbf{?}). La mission tente également d'étudier précisément les
+propriétés des SNe~Ia grâce au traceur LsSFR (Section \textbf{?}) afin de mieux
+comprendre leur diversité, mettre en évidence différentes populations de
+supernovae et améliorer leur standardisation grâce à une meilleure compréhension
+de leurs variabilités et ainsi réduire les erreurs systématiques dans les
+mesures de paramètres cosmologiques.
+
+\subsubsection{Détection des supernovae}\label{sssec:snfdetec}
+
+Le programme a été sujet à plusieurs évolutions au cours de son fonctionnement,
+notamment pour la découverte de nouveaux candidats. Ce sont d'autres télescopes
+qui alertent la communauté. En premier lieu, jusqu'à fin 2008, le télescope de
+\SI{1.2}{m} du mont Palomar en Californie \citep{rabinowitz2003} scannait
+\SI{500}{deg^2} du ciel chaque soir avec la caméra QUEST de 112 capteurs CCD. À
+partir de 2010, les canditats de SNe proviennent d'une coopération avec
+\textit{Palomar Transient Factory} \citep[PTF,][]{law2009} et de données
+publiques. La caméra QUEST fut ensuite déplacée à La Silla au Chili
+\citep[LSQ,][]{hadjiyska2012} pour reprendre, mi-2012, l'activité de recherche
+de SNe pour SNfactory. Les candidats potentiels sont à chaque fois programmés
+pour observation spectroscopique afin de les identifier en tant que SNe~Ia et
+décider de leur suivi selon des critères de qualité (nombre de points de mesure,
+proche et avant du maximum, non-contamination pas la luminosité de la Lune
+notamment).
+
+\subsubsection{Suivi spectro-photométrique}\label{sssec:snfspectro}
+
+Le typage spectroscopique, quand il n'a pas déjà été réalisé par d'autres
+collaboration ayant donné l'alerte, est assuré par le \textit{SuperNovae
+Integral Field Spectrograph} \citep[SNIFS,][]{lantz2004} du télescope de
+l'Université d'Hawaii de \SI{2.2}{m} au sommet du Mauna Kea, mis en service en
+2004. Il s'avère plus efficace qu'un typage photométrique qui nécessite
+plusieurs observations dans différents filtres de couleur, bien que ces
+dernières soient plus simple à mettre en place.
+
+Ce spectrographe dit «~à champ intégral~» récolte des «~cubes~», des données en
+3 dimensions, deux spatiales représentant un point dans le ciel plus une
+dimension de longueur d'onde~; chaque point de ce relevé se nomme
+\textit{spaxel}, pour «~spatial picture element~», et ensemble forment une
+grille de 15 $\times$ 15 pour un champ de vue total de \ang{;;6.4} $\times$
+\ang{;;6.4} dans deux longueurs d'ondes~: une voie bleue ($B$) de 3200 à
+\SI{5200}{\angstrom} et une voie rouge ($R$) de 5100 à \SI{10000}{\angstrom}.
+
+En plus de cette voie, SNIFS possède une voie photométrique utilisant 5 filtres
+$ugriz$ pour suivre l'absorption atmosphérique, et une voie de guidage avec un
+filtre $V$ pour aider le télescope à la focalisation. Le champ de ces caméras
+est de \ang{;4.5;} $\times$ \ang{;9;}.
+
+\subsubsection{Taux de formation stellaire spécifique
+spectroscopique}\label{sssec:snflssfr}
+
+La spécificité de SNIFS est de permettre des mesures spectroscopiques de
+l'environnement immédiat des SNe, développée dans~\cite{rigault2013} et résumée
+dans~\cite{rigault2020}. Ce procédé commence par modéliser le spectre du ciel
+que l'on soustrait aux cubes avant d'extraire le spectre de l'environnement dans
+un rayon de \SI{1}{kpc} projeté autour de la position des SNe~Ia. Ces données
+permettent de détecter l'émission de raies H$\a$, l'un des indicateurs
+traditionnellement les plus utilisés pour mesurer le taux de formation stellaire
+(\textit{stellar formation rate}, SFR~; cf.~\cite{kennicutt1998}).
+
+\NN{Description principe}
+
+\subsubsection{Description des données conservées}\label{sssec:snfdata}
+
+De 2004 à 2013, SNfactory a classifé 1364 objets dont plus de 1000 supernovae,
+observé 645 SNe~Ia au moins une fois et en a suivi plus de 271 SNe~Ia, avec au
+moins 5 points de mesure \citep{copin2013}.
+
+Sur celles-ci, 198 ont des mesures satisfaisant les contraintes nécessaires à
+l'établissement de leur courbe de lumière et sont associées à une galaxie hôte
+permettant de déterminer leur redshift~; pour efficacement déterminer les
+propriétés locales de leur environnement, seules les SNe entre $z = 0.02$ et $z
+= 0.08$ sont conservées, amenant l'échantillon à 160 objets.
+
+Les données pour lesquelles les images des galaxies hôtes dans les bandes
+photométriques $g$ et $i$ sont contaminées par la luminosité des SNe sont
+également rejetées~; ces bandes s'avèrent en effet nécessaires à la
+détermination de la masse stellaire de la galaxie. Cette coupe réduit
+l'échantillon à 147 objets.
+
+Les SNe considérées comme trop «~anormales~» sont exclues car supposées non
+représentatives de la population générale que l'on souhaite étudier. Elles sont
+au nombre de 6.
+
+Finalement, parmi ces 141, ne sont conservées que celles provenant directement
+des collaborations internes \NN{ou uniquement celles SNIFSées ?}, c'est-à-dire
+celles de SNf, PTF et LSQ. L'échantillon final est alors de 114 données.  
+L'ensemble de ces critères de sélection est résumé Table~\ref{tab:snfcuts}.
+
+Grâce au suivi spectroscopique de tous les candidats à $r \lesssim
+\SI{19.5}{mag}$ et ces limitations en redshift, ces données sont considérées
+comme étant limitées en volume, c'est-à-dire un tirage aléatoire des populations
+sous-jacentes de SNe~Ia.
+
+\begin{table}[]
+    \centering
+    \caption{Critères de sélection des SNe~Ia suivies par SNfactory.}
+    \label{tab:snfcuts}
+    \begin{tabular}{lc}
+        \toprule
+        Critères de sélection           & Nb de SNe~Ia \\
+        \midrule
+        Suivies                         & 271 \\
+        Courbe de lumière + hôte        & 198 \\
+        $0.02 < z < 0.08$               & 160 \\
+        Hôte $g$ et $i$ non contaminées & 147 \\
+        SNe~Ia «~normales~»             & 141 \\
+        SNf LSQ ou PTF seulement        & 114 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Sloan Digital Sky Survey}\label{ssec:sdss}
+\subsubsection{Introduction}\label{sssec:sdssintro}
+
+Le sondage \textit{Sloan Digital Sky Survey} \citep[SDSS,][?]{sako2008} est un
+programme d'observation astronomique majeur qui a débuté en 2000 et est encore
+actif aujourd'hui. Le programme se divise en cinq phases d'observation de
+différents objets astrophysiques, de simples étoiles aux grandes structures de
+l'Univers. La partie supernova du sondage se limite à la seconde phase entre
+2005 et 2008, qui sera la seule que nous détaillerons ici. L'intervalle de
+redshift sondés est entre $0.05 \lesssim z \lesssim 0.4$, partie encore peu
+sondée à l'époque par les autres relevés.
+
+\subsubsection{Détection des supernovae}\label{sssec:sdssdetec}
+
+La stratégie d'observation de SDSS se concentre sur \SI{300}{deg^2} du ciel en y
+répétant l'acquisition. Elle est réalisé grâce au télescope optique dédié de
+\SI{2.5}{m} \citep{gunn2006} à Apache Point au Nouveau Mexique, couplé à une
+caméra CCD \citep{gunn1998} à 5 filtres optiques
+\citep[$ugriz$,][]{fukugita1996} qui tournent avec une cadence relativement
+haute, entre 4 et 5 acquisition par nuit. Le procédé est similaire à celui de
+SNf, étant tous les deux des sondages à recherche glissante~: différentes images
+du ciel sont comparées pour détecter les phénomènes transitoires et créer des
+débuts de courbes de lumière.
+
+Pour discriminer entre bruit de fond et réelle variation astronomique, une
+inspection visuelle par un humain était systématiquement nécessaire jusqu'en
+2006, \textit{via} une interface web comportant les images dans les filtres
+$gri$ et d'autres informations pertinentes. Après cette date, la détection est
+en partie laissée au logiciel \textit{autoscanner}. Sur les trois saisons
+d'observation, ce sont 10258 nouveaux objets transitoires qui ont été
+découverts.
+
+\subsubsection{Suivi spectro-photométrique}\label{sssec:sdssspectro}
+
+Le typage de SDSS utilise de nombreux différents télescopes~: le HET de
+\SI{9.2}{m}, le NTT de \SI{3.6}{m}, le ARC de \SI{3.5}{m}, Subaru de
+\SI{8.2}{m}, le MDM Hiltner de \SI{2.4}{m}, le WHT de \SI{4.2}{m}, le KNPO
+Mayall de \SI{4}{m}, le Keck de \SI{10}{m}, le NOT de \SI{2.5}{m} et le SALT de
+\SI{11}{m}~; plusieurs de ces télescopes pouvaient être prévus pour observation
+la même nuit, rendant au total le temps alloué à la spectroscopie supérieur au
+temps alloué à l'acquisition optique.
+
+Cependant, le nombre de candidat par nuit excède largement les capacités de
+suivi spectroscopique, obligeant les opérateurs à faire une sélection des cibles
+à analyser. Ainsi, un typage photométrique a également été réalisé en comparant
+les courbes de lumière dans les bandes $gri$ avec des librairies de différents
+\NN{template} pour en estimer les paramètres (redshift, date du maximum de flux,
+magnitude apparente, contamination galactique...) et permettre de prioriser les
+cibles à suivre spectroscopiquement. L'algorithme choisi par SDSS se rapproche
+fortement de celui du sondage SNLS, cf Section~\ref{ssec:snls}.
+
+\subsubsection{Données conservées}\label{sssec:sdssdata}
+
+Le sondage requiert généralement deux détections avant le suivi spectroscopique,
+mais par manque de ressources ce critère a pu être réduit. 
+
+Data: Sako 2014 ; télescope Gunn 2006 ; camera Gunn 1998 ; filtres $ugriz$
+Fukugita 1996.
+
+\subsection{Panoramic Survey Telescope and Rapid Response
+System}\label{ssec:ps1}
+
+\subsection{SuperNovae Legacy Survey}\label{ssec:snls}
 
 
-\section{XXX}
-%\label{sec:xxx}
 
-\subsection{XXX}
-%\label{ssec:xxx}
+\subsection{Hubble Space Telescope}\label{ssec:hst}
 
-\subsection{XXX}
-%\label{ssec:xxx}
+Ces données à haut redshift, inclues dans Pantheon, se révèlent d'une grande
+importance par leur poids dans le diagramme de Hubble pour tester l'évolution
+des propriétés des SNe. À ces distances, le typage peut s'avérer difficile mais
+la classification était suffisamment robuste pour les inclure dans l'analyse
+cosmologique \citep{scolnic2018}~; ces données ne sont donc pas sujettes aux
+coupes en redshifts de la Section~\ref{ssec:cuts}.
+
+\subsection{Autres sondages : CfA1-4 et CSP}\label{ssec:lowz}
+
+
+\section{Échantillon d'étude}\label{sec:sample}
+
+Nous détaillons dans cette Section la procédure de construction de notre
+échantillon volume-limité comme expliqué partie~\ref{ssec:malm}. Notre étude se
+base sur les données de la combinaison de sondage Pantheon \citep{scolnic2018},
+en remplaçant la combinaison ciblée LOWZ par les données SNfactory dont la
+sélection est maîtrisée et permettant une étude de sous-population grâce au
+LsSFR. Les données de HST étant complètes, la confection de notre échantillon se
+concentre sur les sondages SDSS, PS1 et SNLS~; leur nature non-ciblée et limitée
+en magnitude permet d'en construire une portion limitée en volume.
+
+\subsection{Confection}\label{ssec:cuts}
+
+Nous détaillons ici deux des approches mises en place visant à déterminer la
+portion des sondages que l'on peut considérer limitées en volume.
+
+\subsubsection{Approche statistique}\label{sssec:baserate}
+
+À partir des données publiées dans \cite{scolnic2018}\footnote{\href{
+https://archive.stsci.edu/hlsps/ps1cosmo/scolnic/data_fitres/}
+{https://archive.stsci.edu/hlsps/ps1cosmo/scolnic/data\_fitres}}, il est
+possible de tracer l'histogramme des SNe~Ia en fonction du redshift~; un exemple
+est montré Figure~\ref{fig:zmax_method} pour les données de SNLS. En supposant
+une densité volumique de supernovae uniforme, chaque intervalle de redshift
+comprend un volume de plus en plus grand et on s'attend donc à observer toujours
+plus de SNe~Ia avec la distance.
+
+\begin{figure}[]
+    \centering
+    \begin{subfigure}[]{.49\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{zmax_method_snls-01.pdf}
+        \captionsetup{justification=centering}
+        \caption{11 intervalles, ajustement sur 6}
+        \label{fig:zmax_method1}
+    \end{subfigure}
+    \begin{subfigure}[]{.49\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{zmax_method_snls-02.pdf}
+        \captionsetup{justification=centering}
+        \caption{7 intervalles, ajustement sur 6}
+        \label{fig:zmax_method2}
+    \end{subfigure}
+    \captionsetup{justification=centering}
+    \caption{Exemple d'ajustement statistique pour deux tirages aléatoires
+    d'histogrammes de SNLS}
+    \label{fig:zmax_method}
+\end{figure}
+
+La chute de nombre de SNe~Ia provient de cette limitation du sondage à mesurer
+la luminosité. Notre première approche a été de se baser sur une étude
+statistique pour essayer de récupérer la valeur estimée à partir de laquelle
+chaque sondage s'écarte d'un modèle volumétrique. Le protocole est le suivant~:
+\begin{itemize}
+    \item Les bornes minimales et maximales des données sont augmentées d'une
+        faible valeur aléatoire (entre 0.06 et 0.12 à gauche et entre 1.10 et
+        1.15 à droite, pour SNLS) afin d'assurer une variation du centre des
+        intervalles~;
+    \item On choisit aléatoirement entre 5 et 20 intervalles pour tracer
+        l'histogramme~;
+    \item On initialise un modèle volumétrique $a\times
+        \left(V(z_2)-V(z_1)\right)$ avec $a$ la densité volumique de SNe~Ia,
+        paramètre libre du modèle, auquel on passe comme donnée les bords des
+        intervalles.
+    \item Les valeurs du modèle sont comparées aux hauteurs des
+        intervalles de l'histogramme, permettant l'ajustement du modèle par une
+        loi de Poisson cumulée~:
+        \begin{equation}\label{eq:poisson}
+            P(x<X) = \lambda e^(x/b)
+        \end{equation}
+    \item On choisit aléatoirement un intervalle maximal après lequel
+        l'ajustement s'arrête, avec un minimum de 3 intervalles (cas de la
+        Figure~\ref{fig:zmax_method1}), 10 fois pour chaque histogramme~;
+    \item On sauve les positions et valeurs de probabilité des intervalles
+        ajustés et créé une interpolation linéaire des résultats~;
+    \item Ces 5 étapes sont répétées 1000 fois et on calcule la médiane et
+        l'écart type des 10 000 interpolations calculées.
+\end{itemize}
+
+% Deux modèles ont été testés. Le premier est issu de \textbf{perrett2012} donnant
+% un taux volumétrique co-mobile~:
+% \begin{equation}\label{eq:perrett}
+%     R(z) = 1.75\times10^{-5}(1+z)^{2.11}\,{\rm yr^{-1}Mpc^{-3}}
+% \end{equation}
+% Le second est directement issu du calcul d'un volume co-mobile dérivé des
+% équations de la relativité générale~:
+
+Le modèle retenu dans notre analyse est défini par~:
+\begin{equation}\label{eq:comobvol}
+    V(z) = \frac{4\pi}{3}\times d_C{}^3(z)
+\end{equation}
+avec $d_C(z)$ la distance comobile
+\begin{align}
+    d_C(z)                           & =
+    \frac{c}{H_0} \int_{0}^{z} \frac{\d z'}{E(z')}
+    \quad\text{avec}\quad\\
+    E(z) \triangleq \frac{H(z)}{H_0} & =
+    \left[\Omega_R(1+z)^4 + \Omega_M(1+z)^3 +
+        \Omega_k(1+z)^2 + \Omega_\Lambda
+    \right]^{1/2}
+\end{align}
+On a choisi la cosmologie issue de la collaboration Planck~\citep{planck2018}~:
+\begin{itemize}
+    \item $H_0 = \SI{67.74}{km.Mpc^{-1}.s^{-1}}$~;
+    \item $\Omega_R = 5.389\times10^{-5}$~;
+    \item $\Omega_M = 0.3075$~;
+    \item $\Omega_k = 0$~;
+    \item $\Omega_\Lambda = 0.6910$
+\end{itemize}
+
+Le résultat de ces calculs donne une estimation du redshift à partir duquel
+chaque sondage n'a plus la capacité à recueillir toutes les SNe~Ia, représentée
+Figure~\ref{fig:zmax_method_results}. En estimant $z_{\lim}$ comme étant la
+valeur à laquelle la médiane des distributions cumulées chute à 0.5 et les
+erreurs basse et haute à 0.525 et 0.475 respectivement, on obtient les valeurs
+de la Table~\ref{tab:zlimsample}.
+
+\begin{SCfigure}[0.5]
+    \centering
+    \includegraphics[width=.7\linewidth]{zmax_method_results.pdf}
+    \captionsetup{justification=centering}
+    \caption{Résultat graphique de l'évolution médiane de l'étude statistique du
+    redshift limite pour les sondages SDSS, PS1, et SNLS}
+    \label{fig:zmax_method_results}
+\end{SCfigure}
+
+Cette première approche présente une robustesse certaine dans l'établissement
+des évolutions statistiques en répétant le processus précédent. Cependant, le
+sens de variation non constant du résultat de SNLS et de PS1 ne permettent pas
+de forte confiance dans la correspondance de ce protocole au but de cette
+étude~; de plus, le choix de la valeur de la fonction de répartition à laquelle
+on peut considérer le sondage complet n'est pas motivée mathématiquement ou
+physiquement de manière systématique. Cette conclusion nous a amenæ à une
+approche combinant à la fois la réalité de la sélection astrophysique
+instrumentale et les équations de distribution de luminosité de SN~Ia avec leurs
+paramètres $x_1$, $c$ et $z$.
+
+\subsubsection{Approche analytique}\label{sssec:maglim}
+
+En supposant que ces sondages ont un typage spectroscopique et suivi
+photométrique suffisant, ils devraient avoir des effets de sélection de
+sous-population de SNe~Ia négligeables en deçà d'un certain redshift permettant
+l'acquisition de toute la zoologie de stretch et couleur. Les données de SNe~Ia
+issues de l'ajustement par \texttt{SALT2.4} ne contiennent que des données avec
+un maximum de $x_1 = \pm 3$ et de $c = \pm 0.3$ \citep[][cf
+Section~\ref{ssec:salt}]{guy2007, betoule2014}.
+
+La magnitude absolue d'une supernova à son maximum de luminosité est, d'après
+l'équation~\ref{eq:mxc}~:
+
+\begin{equation*}
+    M = M_0 -\alpha x_1 + \beta c
+\end{equation*}
+avec $M_0 = \SI{-19.36}{mag}$ dans le filtre photométrique $B$ de Bessell
+\citep{kessler2009a, scolnic2014}, $\alpha=0.158$ et $\beta=3.14$
+\citep[Table 7,][]{scolnic2018}. On détermine cette quantité sur l'ellipse limite
+des paramètres grâce au paquet \texttt{sncosmo}
+\footnote{\href{https://sncosmo.readthedocs.io/en/stable/}
+{https://sncosmo.readthedocs.io/en/stable/}}, représentée par un gradient de
+couleur Figure~\ref{fig:maglim}. On trouve alors que la supernova la moins
+lumineuse est celle de paramètres $x_1 = -1.65$ et $c = 0.25$ dont le maximum de
+magnitude absolue standardisée est $M_{\min}^{t_0}=\SI{-18.31}{mag}$.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.95\linewidth]{zmax_maglim_snls.pdf}
+    \caption{Distribution des paramètres de courbe de lumière de stretch ($x_1$)
+        et de couleur ($c$) issus d'un ajustement par \texttt{SALT2.4} pour les
+        données de SNe~Ia des sondages SDSS, PS1 et SNLS combinés du catalogue
+        Pantheon. Chaque supernova est représentée par un point bleu. L'ellipse
+        limite des paramètres $(x_1=\pm3, c=\pm0.3)$ est représentée avec un
+        gradient de couleur correspondant à la magnitude absolue standardisée en
+        utilisant les valeurs de \cite{scolnic2018} pour les coefficients
+        $\alpha$ et $\beta$. Les lignes diagonales grises représentent
+        l'évolution de $m = m_{\lim}$ en fonction de $z$ dans le plan $(x_1,c)$
+        entre $z=0.50$ et $z=1.70$ pour la magnitude limite
+    $m_{\lim}=\SI{24.8}{mag}$ du sondage SNLS.}
+    \label{fig:maglim}
+\end{figure}
+
+Cependant, pour établir une courbe de lumière, une supernova doit être observée
+typiquement au moins 5 jours avant et une semaine après son pic de luminosité,
+donnant une magnitude absolue limite effective d'approximativement $M_{\lim}
+= \SI{-18.00}{mag}$. En connaissant les magnitudes limites de chaque sondage et
+avec l'équation reliant le module de distance aux magnitudes observée et
+absolue
+\begin{equation}\label{eq:distmod}
+    \mu(z) = m - M
+\end{equation}
+on peut déterminer le redshift limite $z_{\lim}$ en-delà duquel la SN~Ia la
+moins lumineuse ne sera pas observée. On a ainsi défini un ensemble de redshifts
+limites définissant un échantillon fiduciel en prenant la limite suggérée par
+cette analyse.
+
+Cependant, cette solution pourrait ne pas être optimale étant donné qu'elle
+ignore les efficacités de suivi spectroscopiques pour les redshifts en-dessous
+de $z_{\lim}$~; c'est pourquoi nous avons également déterminé un autre ensemble
+de coupes définissant un échantillon «~conservatif~». Cet échantillon est plus
+petit et donc sera statistiquement moins pertinent, mais également moins sujet
+aux effets de sélection. Ainsi si l'évolution des propriétés des SNe~Ia avec le
+redshift est encore sondable dans l'échantillon conservatif, il serait encore
+plus présent dans un échantillon dont l'absence d'effets de sélection est
+effectuée avec plus de précision que nos coupes en redshift.
+
+\paragraph*{Pour SNLS} dont les supernovae sont typiquement entre $0.4 < z <
+0.8$, la bande $B$ de Bessell dans un référentiel au repos correspond
+approximativement à son filtre $i$, de magnitude limite à 5$\sigma$ de
+\SI{24.8}{mag}\footnote{\href{
+    https://www.cfht.hawaii.edu/Science/CFHTLS/cfhtlsfinalreleaseexecsummary.html}
+{https://www.cfht.hawaii.edu/Science/CFHTLS/cfhtlsfinalreleaseexecsummary.html}}.
+Ceci implique $z_{\lim} = 0.60$, en accord avec \cite{neill2006, perrett2010},
+et \cite{bazin2011}. D'autre part, la Figure~14 de \cite{perrett2010}, suggère
+une plus basse limite à $z_{\lim} = 0.55$. Nous avons donc choisi $z=0.60$ et
+$z=0.55$ comme redshifts limites de SNLS pour les échantillons fiduciel et
+conservatif respectivement.
+
+\paragraph*{De la même manière pour PS1} leurs SNe~Ia sont entre $0.2 < z <
+0.4$~; la profondeur à 5$\sigma$ dans la bande $g$ est de \SI{23.1}{mag} d'après
+\cite{rest2014} et mène à $z_{\lim}=0.31$, en correspondance avec la Figure~6
+de \cite{scolnic2018} par exemple. De manière conservative, cette figure
+suggère une limite plus prononcée à $z_{\lim}=0.27$~; ces deux valeurs
+constituent donc les redshifts limites de PS1 pour la partie fiducielle et
+conservative, respectivement, de notre échantillon.
+
+\paragraph*{Dans le même intervalle pour SDSS} la magnitude limite est de
+\SI{22.5}{mag} d'après \cite{dilday2008} et \cite{sako2008}~; cette valeur 
+impliquerait $z_{\lim}=0.24$, mais les sondages SDSS se sont confrontés à une
+limitation dans leurs capacités spectroscopiques. Comme indiqué dans
+\cite{kessler2009a} Section~2, les données de la première année de SDSS ont
+favorisé les SNe~Ia de magnitude $r < \SI{20.5}{mag}$ pour identification
+spectroscopique, ce qui correspondrait à une coupe de redshift à 0.15. Le reste
+du programme a bénéficié de meilleures ressources spectroscopiques et
+\cite{kessler2009a} et \cite{dilday2008} font preuve d'une complétude
+raisonnable jusqu'à $z=0.2$. En nous basant sur ces faits, on a choisi
+$z_{\lim}=0.20$ et $z_{\lim}=0.15$ pour nos échantillons fiduciel et
+conservatif respectivement.
+
+Cette approche est totalement systématique et reproductible, \textbf{insert
+github pages notebook?} et donne des $z_{\lim}$ similaires à l'approche
+statistique~; cette observation conforte donc les résultats et choix de
+magnitude limite, et ce sont ces résultats analytiques que l'on a conservés dans
+notre étude.
+
+\subsection{Présentation}\label{ssec:dataset}
+
+\begin{table}[]
+    \centering
+    \begin{threeparttable}
+        \caption{Composition en SNe~Ia de notre échantillon.}
+        \label{tab:zlimsample}
+        \begin{tabular}{lccc}
+            \toprule
+            \multirow{2}[3]{*}{Sondage} &
+            \multicolumn{2}{c}{$z_{\lim}$} &
+            \multirow{2}[3]{*}{$N_{\rm SN}$}\\
+            \cmidrule(lr){2-3}
+            & Statistique & Analytique & \\
+            \midrule
+            SNf &
+            \multicolumn{2}{c}{0.08} &
+            114 \\
+            SDSS & 
+            0.204$^{+0.001}_{-0.001}$ & 0.20 (0.15) &
+            167 (82) \\
+            PS1 &
+            0.284$^{+0.006}_{-0.008}$ & 0.31 (0.27) &
+            160 (122) \\
+            SNLS &
+            0.615$^{+0.003}_{-0.003}$ & 0.60 (0.55) &
+            102 (78) \\
+            HST &
+            \multicolumn{2}{c}{--} &
+            26 \\
+            \midrule
+            Total & \multicolumn{2}{c}{--} &
+            569 (422)\\
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}[flushleft]
+        \item \textbf{notes.} L'échantillon et notamment le nombre de SNe
+            utilisées suivent les limites analytiques. Les nombres entre
+            parenthèse correspondent aux limites conservatives.
+        \end{tablenotes}
+    \end{threeparttable}
+\end{table}
+
+La composition finale de notre échantillon est synthétisée
+Table~\ref{tab:zlimsample}. Les distributions en redshift des 3 sondages coupés
+sont présentées Figure~\ref{fig:cuts}. On y observe que les limites sont
+globalement situées avant le pic de ces histogrammes, suivant la logique guidant
+cette chute (cf. Section~\ref{sec:compl}).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.80\linewidth]{hist_surveys_cuts}
+    \caption{\textit{De haut en bas}: Histogrammes en redshift des SNe~Ia des
+        sondages SDSS, PS1 et SNLS \citep[données de Pantheon,][]{scolnic2018}.
+        Les parties colorées représentent les distribution de SNe~Ia conservées
+        dans notre analyse, considérées exemptes d'effets de sélection
+        observationnels (cf. Section~\ref{sssec:maglim}). Les couleurs foncées
+        (claires) représentent les limites conservatives (fiducielles) nos
+    coupes de sélection indiquées dans la Table~\ref{tab:zlimsample}.}
+    \label{fig:cuts}
+\end{figure}
+
+En combinant les 5 sondages de notre analyse, on peut tracer leur distribution
+de stretch en fonction du redshift. On en présente un graphique
+Figure~\ref{fig:sample}. Supposant l'échantillon affranchi d'effets de
+sélection, on peut lire sur ce graphique une première idée de l'évolution en
+redshift que l'on suppose issue du changement des propriétés moyennes des SNe~Ia
+avec l'âge de leur environnement. En effet, on observe que la fraction de SNe~Ia
+présentant un faible stretch, typiquement $x_1 < -1$, semble décroître avec le
+redshift alors que la population de stretch $> 1$ semble toujours peuplée~; à
+noter qu'ici le redshift est en échelle logarithmique, expliquant le tassement
+horizontal. Cette idée est confirmée dans le chapitre suivant,
+Section~\ref{sec:xres}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.95\linewidth]{stretchs-cut_btw_hist_stac.pdf}
+    \caption{\textit{En bas}~: stretch des courbes de lumière ajustées avec
+        \textsc{\texttt{SALT2.4}} en fonction du redshift en échelle
+        logarithmique pour chaque sondage de cette analyse (cf.~légende). Les
+        points pleins (creux) correspondent aux limites conservatives
+        (fiducielles). \textit{En haut}~: histogrammes en redshift superposés,
+        en sombre (clair) pour les limites conservatives
+    (fiducielles).}\label{fig:sample}
+\end{figure}
+
+
+\subsection{Confirmation d'hypothèse}\label{ssec:testvl}
+
+\bibliographystyle{../main/aa_url}
+\shorthandoff{:}
+\bibliography{../chapters/99_references}
 
 \end{document}
