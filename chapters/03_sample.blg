@@ -3,49 +3,48 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: 03_sample.aux
 The style file: ../main/aa_url.bst
 Database file #1: ../chapters/99_references.bib
-Warning--I didn't find a database entry for "gunn2006"
-Warning--I didn't find a database entry for "gunn1998"
-Warning--I didn't find a database entry for "fukugita1996"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "?"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 25 entries,
-            3146 wiz_defined-function locations,
-            915 strings with 27929 characters,
-and the built_in function-call counts, 50611 in all, are:
-= -- 3473
-> -- 8081
-< -- 7
-+ -- 2701
-- -- 2676
-* -- 5290
-:= -- 9481
-add.period$ -- 25
-call.type$ -- 25
-change.case$ -- 990
-chr.to.int$ -- 25
-cite$ -- 25
-duplicate$ -- 551
-empty$ -- 830
-format.name$ -- 2727
-if$ -- 9786
-int.to.chr$ -- 1
+You've used 50 entries,
+            3173 wiz_defined-function locations,
+            1122 strings with 47619 characters,
+and the built_in function-call counts, 103932 in all, are:
+= -- 6539
+> -- 14604
+< -- 16
++ -- 4896
+- -- 4845
+* -- 16297
+:= -- 17507
+add.period$ -- 50
+call.type$ -- 50
+change.case$ -- 1808
+chr.to.int$ -- 49
+cite$ -- 50
+duplicate$ -- 1179
+empty$ -- 1758
+format.name$ -- 4958
+if$ -- 18269
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 19
-newline$ -- 79
-num.names$ -- 104
-pop$ -- 992
+missing$ -- 35
+newline$ -- 154
+num.names$ -- 212
+pop$ -- 1835
 preamble$ -- 1
-purify$ -- 989
+purify$ -- 1807
 quote$ -- 0
-skip$ -- 439
+skip$ -- 957
 stack$ -- 0
-substring$ -- 558
-swap$ -- 120
-text.length$ -- 5
+substring$ -- 1247
+swap$ -- 3570
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 225
+type$ -- 450
 warning$ -- 0
-while$ -- 106
+while$ -- 220
 width$ -- 0
-write$ -- 279
-(There were 3 warnings)
+write$ -- 553
+(There were 2 warnings)

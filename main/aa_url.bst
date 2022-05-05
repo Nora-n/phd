@@ -257,6 +257,13 @@ FUNCTION {emphasize}
   if$
 }
 
+FUNCTION {quote}
+{ duplicate$ empty$
+    { pop$ "" }
+    { "«~" swap$ * "~»" * }
+  if$
+}
+
 FUNCTION {capitalize}
 { "u" change.case$ "t" change.case$ }
 
@@ -267,7 +274,7 @@ FUNCTION {space.word}
  % Each function has a name bbl.xxx where xxx is the English word.
  % The language selected here is ENGLISH
 FUNCTION {bbl.and}
-{ "and"}
+{ "et"}
 
 FUNCTION {bbl.editors}
 { "eds." }
@@ -276,7 +283,7 @@ FUNCTION {bbl.editor}
 { "ed." }
 
 FUNCTION {bbl.edby}
-{ "edited by" }
+{ "édité par" }
 
 FUNCTION {bbl.edition}
 { "edn." }
@@ -294,7 +301,7 @@ FUNCTION {bbl.nr}
 { "no." }
 
 FUNCTION {bbl.in}
-{ "in" }
+{ "dans" }
 
 FUNCTION {bbl.pages}
 { "" }
@@ -437,7 +444,8 @@ FUNCTION {format.names}
   numnames 'namesleft :=
     { namesleft #0 > }
     { s nameptr
-      "{vv~}{ll}{, jj}{, f.}" format.name$
+      "{vv~}{ll}{, jj}{ f.}" format.name$
+      "\textsc{" swap$ * "}" *      % wrap the name with \textsc{ }
     't :=
 
 numnames #5 >
@@ -446,7 +454,7 @@ numnames #5 >
         {
 	      nameptr #4 =
                 {
-                  ", {et~al.}" *
+                  " {et~al.}" *
                 }
 				{
       				nameptr #4 >
@@ -467,7 +475,7 @@ numnames #5 >
             { ", " * t * }
             {
               numnames #2 >
-                { "," * }
+                { "" * }
                 'skip$
               if$
               s nameptr "{ll}" format.name$ duplicate$ "others" =
@@ -478,7 +486,7 @@ numnames #5 >
                 {
                   " {et~al.}" *
                 }
-                { " \& " * t * }
+                { " et " * t * }
               if$
             }
           if$
@@ -601,7 +609,7 @@ FUNCTION {format.eprint}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 FUNCTION {format.title}
-{ title emphasize
+{ title quote
 }
 
 FUNCTION {format.full.names}
@@ -612,16 +620,17 @@ FUNCTION {format.full.names}
     { namesleft #0 > }
     { s nameptr
       "{vv~}{ll}" format.name$
+      "\textsc{" swap$ * "}" *      % wrap the name with \textsc{ }
       't :=
       nameptr #1 >
         {
           namesleft #1 >
             { ", " * t * }
             {
-              numnames #2 >
-                { "," * }
-                'skip$
-              if$
+              % numnames #2 >
+              %   { "," * }
+              %   'skip$
+              % if$
               s nameptr "{ll}" format.name$ duplicate$ "others" =
                 { 't := }
                 { pop$ }
@@ -630,7 +639,7 @@ FUNCTION {format.full.names}
                 {
                   " {et~al.}" *
                 }
-                { " \& " * t * }
+                { " et " * t * }
               if$
             }
           if$
@@ -1065,7 +1074,7 @@ FUNCTION {format.ed.booktitle} % The title should be on the stack.
   { editor empty$
     author empty$ or  % Empty author means editor already given.
       'format.edn.btitle
-      { format.edn.btitle ", " * bbl.editor * " " * format.in.editors * }
+      { emphasize format.edn.btitle ", " * bbl.editor * " " * format.in.editors * }
       if$
   }
   if$
@@ -1460,6 +1469,7 @@ FUNCTION {chop.word}
 FUNCTION {format.lab.names}
 { 's :=
   s #1 "{vv~}{ll}" format.name$
+  "\textsc{" swap$ * "}" *      % wrap the name with \textsc{ }
   s num.names$ duplicate$
   #2 >
     { pop$
@@ -1471,7 +1481,8 @@ FUNCTION {format.lab.names}
             {
               " {et~al.}" *
             }
-            { " \& " * s #2 "{vv~}{ll}" format.name$
+            { " et " * s #2 "{vv~}{ll}" format.name$
+              "\textsc{" swap$ * "}" *      % wrap the name with \textsc{ }
               * }
           if$
         }
