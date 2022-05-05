@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex 03_sample"] 1651779644 "03_sample.aux" "03_sample.bbl" "03_sample" 1651779646
+["bibtex 03_sample"] 1651779847 "03_sample.aux" "03_sample.bbl" "03_sample" 1651779849
   "../chapters/99_references.bib" 1651749818 164648 2235795852a116ee3669b9b51f29597d ""
   "../main/aa_url.bst" 1651311379 33733 a4922b0422b87700067c0a6e1c8df3f0 ""
-  "03_sample.aux" 1651779645 69770 85b489d8225450786e1ae0ac18ad14f7 ""
+  "03_sample.aux" 1651779849 69770 85b489d8225450786e1ae0ac18ad14f7 ""
   "03_sample.bcf" 0 -1 0 ""
   (generated)
   "03_sample.bbl"
   "03_sample.blg"
-["pdflatex"] 1651779644 "03_sample.tex" "03_sample.pdf" "03_sample" 1651779646
+["pdflatex"] 1651779847 "03_sample.tex" "03_sample.pdf" "03_sample" 1651779849
   "../figures/bands_HST.pdf" 1651763855 223741 937833ff341c6535370f8336b8c0ae94 ""
   "../figures/bands_PS1.pdf" 1651763854 113606 40fc2f7d06dbbc3451bedaded26849b8 ""
   "../figures/bands_SDSS.pdf" 1651763853 107969 ffdc8e5b6e2e9975f4fb20ec98bfaf6e ""
@@ -560,13 +560,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1574355709 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1574355731 4126118 3219b18f729588c7f78ea00d1865c641 ""
-  "03_sample.aux" 1651779645 69770 85b489d8225450786e1ae0ac18ad14f7 ""
-  "03_sample.bbl" 1651779644 53320 ec6f939e9743f173db1c474664194d09 "bibtex 03_sample"
-  "03_sample.brf" 1651779645 4151 8d1c5370ea93234be0641a97127b1b25 ""
+  "03_sample.aux" 1651779849 69770 85b489d8225450786e1ae0ac18ad14f7 ""
+  "03_sample.bbl" 1651779847 53320 ec6f939e9743f173db1c474664194d09 "bibtex 03_sample"
+  "03_sample.brf" 1651779849 4151 8d1c5370ea93234be0641a97127b1b25 ""
   "03_sample.mlf1" 1651779639 4934 a797ca781ace86f3c33a835692700efb ""
   "03_sample.mlt1" 1651779639 898 db212839e677cdadbe3610b833b43623 ""
   "03_sample.mtc1" 1649258879 3401 6283c7cd62f15fdbf0148256a437b66b ""
-  "03_sample.tex" 1651779640 60000 561ff9b7b89e5c2195743b2e95624455 ""
+  "03_sample.tex" 1651779840 60000 561ff9b7b89e5c2195743b2e95624455 ""
   (generated)
   "03_sample.maf"
   "03_sample.log"
