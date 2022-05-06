@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{65}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Aldering}} {et~al.}(2002)\textsc{{Aldering}},
@@ -35,6 +35,22 @@
   data set}~»,
   \href{http://dx.doi.org/10.1051/0004-6361:20054185}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2006A&A...447...31A}{447, 31}
+
+\bibitem[{\textsc{{Balland}} {et~al.}(2009)\textsc{{Balland}},
+  \textsc{{Baumont}}, \textsc{{Basa}}, \textsc{{Mouchet}}, \textsc{{Howell}},
+  \textsc{{Astier}}, \textsc{{Carlberg}}, \textsc{{Conley}},
+  \textsc{{Fouchez}}, \textsc{{Guy}}, \textsc{{Hardin}}, \textsc{{Hook}},
+  \textsc{{Pain}}, \textsc{{Perrett}}, \textsc{{Pritchet}},
+  \textsc{{Regnault}}, \textsc{{Rich}}, \textsc{{Sullivan}},
+  \textsc{{Antilogus}}, \textsc{{Arsenijevic}}, \textsc{{Le Du}},
+  \textsc{{Fabbro}}, \textsc{{Lidman}}, \textsc{{Mour{\~a}o}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{P{\'e}contal}} et
+  \textsc{{Ruhlmann-Kleider}}}]{balland2009}
+\textsc{{Balland} C.}, \textsc{{Baumont} S.}, \textsc{{Basa} S.} {et~al.} 2009,
+  «~{The ESO/VLT 3rd year Type Ia supernova data set from the supernova legacy
+  survey}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/200912246}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2009A&A...507...85B}{507, 85}
 
 \bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
   \textsc{{Kessler}}, \textsc{{Guy}}, \textsc{{Mosher}}, \textsc{{Hardin}},
@@ -147,6 +163,19 @@
   \href{http://dx.doi.org/10.1088/0067-0049/192/1/1}{\color{magenta}\apjs},
   \href{https://ui.adsabs.harvard.edu/abs/2011ApJS..192....1C}{192, 1}
 
+\bibitem[{\textsc{{Contreras}} {et~al.}(2010)\textsc{{Contreras}},
+  \textsc{{Hamuy}}, \textsc{{Phillips}}, \textsc{{Folatelli}},
+  \textsc{{Suntzeff}}, \textsc{{Persson}}, \textsc{{Stritzinger}},
+  \textsc{{Boldt}}, \textsc{{Gonz{\'a}lez}}, \textsc{{Krzeminski}},
+  \textsc{{Morrell}}, \textsc{{Roth}}, \textsc{{Salgado}}, \textsc{{Maureira}},
+  \textsc{{Burns}}, \textsc{{Freedman}}, \textsc{{Madore}}, \textsc{{Murphy}},
+  \textsc{{Wyatt}}, \textsc{{Li}} et \textsc{{Filippenko}}}]{contreras2010}
+\textsc{{Contreras} C.}, \textsc{{Hamuy} M.}, \textsc{{Phillips} M.~M.}
+  {et~al.} 2010, «~{The Carnegie Supernova Project: First Photometry Data
+  Release of Low-Redshift Type Ia Supernovae}~»,
+  \href{http://dx.doi.org/10.1088/0004-6256/139/2/519}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/2010AJ....139..519C}{139, 519}
+
 \bibitem[{\textsc{Copin}(2013)}]{copin2013}
 \textsc{Copin Y.} 2013, «~{Spectro-photométrie à champ intégral dans le
   cadre du projet ``The Nearby Supernova Factory''}~», Habilitation à diriger
@@ -196,6 +225,18 @@
   \href{http://dx.doi.org/10.1086/658908}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2011PASP..123..288D}{123, 288}
 
+\bibitem[{\textsc{{Ellis}} {et~al.}(2008)\textsc{{Ellis}}, \textsc{{Sullivan}},
+  \textsc{{Nugent}}, \textsc{{Howell}}, \textsc{{Gal-Yam}}, \textsc{{Astier}},
+  \textsc{{Balam}}, \textsc{{Balland}}, \textsc{{Basa}}, \textsc{{Carlberg}},
+  \textsc{{Conley}}, \textsc{{Fouchez}}, \textsc{{Guy}}, \textsc{{Hardin}},
+  \textsc{{Hook}}, \textsc{{Pain}}, \textsc{{Perrett}}, \textsc{{Pritchet}} et
+  \textsc{{Regnault}}}]{ellis2008}
+\textsc{{Ellis} R.~S.}, \textsc{{Sullivan} M.}, \textsc{{Nugent} P.~E.}
+  {et~al.} 2008, «~{Verifying the Cosmological Utility of Type Ia Supernovae:
+  Implications of a Dispersion in the Ultraviolet Spectra}~»,
+  \href{http://dx.doi.org/10.1086/524981}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2008ApJ...674...51E}{674, 51}
+
 \bibitem[{\textsc{{Faber}} {et~al.}(2003)\textsc{{Faber}}, \textsc{{Phillips}},
   \textsc{{Kibrick}}, \textsc{{Alcott}}, \textsc{{Allen}}, \textsc{{Burrous}},
   \textsc{{Cantrall}}, \textsc{{Clarke}}, \textsc{{Coil}}, \textsc{{Cowley}},
@@ -225,6 +266,20 @@
   «~{Hectospec, the MMT's 300 Optical Fiber-Fed Spectrograph}~»,
   \href{http://dx.doi.org/10.1086/497385}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2005PASP..117.1411F}{117, 1411}
+
+\bibitem[{\textsc{{Folatelli}} {et~al.}(2010)\textsc{{Folatelli}},
+  \textsc{{Phillips}}, \textsc{{Burns}}, \textsc{{Contreras}},
+  \textsc{{Hamuy}}, \textsc{{Freedman}}, \textsc{{Persson}},
+  \textsc{{Stritzinger}}, \textsc{{Suntzeff}}, \textsc{{Krisciunas}},
+  \textsc{{Boldt}}, \textsc{{Gonz{\'a}lez}}, \textsc{{Krzeminski}},
+  \textsc{{Morrell}}, \textsc{{Roth}}, \textsc{{Salgado}}, \textsc{{Madore}},
+  \textsc{{Murphy}}, \textsc{{Wyatt}}, \textsc{{Li}}, \textsc{{Filippenko}} et
+  \textsc{{Miller}}}]{folatelli2010}
+\textsc{{Folatelli} G.}, \textsc{{Phillips} M.~M.}, \textsc{{Burns} C.~R.}
+  {et~al.} 2010, «~{The Carnegie Supernova Project: Analysis of the First
+  Sample of Low-Redshift Type-Ia Supernovae}~»,
+  \href{http://dx.doi.org/10.1088/0004-6256/139/1/120}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/2010AJ....139..120F}{139, 120}
 
 \bibitem[{\textsc{{Frieman}} {et~al.}(2008)\textsc{{Frieman}},
   \textsc{{Bassett}}, \textsc{{Becker}}, \textsc{{Choi}}, \textsc{{Cinabro}},
@@ -270,6 +325,51 @@
   1996, «~{The Sloan Digital Sky Survey Photometric System}~»,
   \href{http://dx.doi.org/10.1086/117915}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/1996AJ....111.1748F}{111, 1748}
+
+\bibitem[{\textsc{{Giavalisco}} {et~al.}(2004)\textsc{{Giavalisco}},
+  \textsc{{Ferguson}}, \textsc{{Koekemoer}}, \textsc{{Dickinson}},
+  \textsc{{Alexander}}, \textsc{{Bauer}}, \textsc{{Bergeron}},
+  \textsc{{Biagetti}}, \textsc{{Brandt}}, \textsc{{Casertano}},
+  \textsc{{Cesarsky}}, \textsc{{Chatzichristou}}, \textsc{{Conselice}},
+  \textsc{{Cristiani}}, \textsc{{Da Costa}}, \textsc{{Dahlen}}, \textsc{{de
+  Mello}}, \textsc{{Eisenhardt}}, \textsc{{Erben}}, \textsc{{Fall}},
+  \textsc{{Fassnacht}}, \textsc{{Fosbury}}, \textsc{{Fruchter}},
+  \textsc{{Gardner}}, \textsc{{Grogin}}, \textsc{{Hook}},
+  \textsc{{Hornschemeier}}, \textsc{{Idzi}}, \textsc{{Jogee}},
+  \textsc{{Kretchmer}}, \textsc{{Laidler}}, \textsc{{Lee}}, \textsc{{Livio}},
+  \textsc{{Lucas}}, \textsc{{Madau}}, \textsc{{Mobasher}},
+  \textsc{{Moustakas}}, \textsc{{Nonino}}, \textsc{{Padovani}},
+  \textsc{{Papovich}}, \textsc{{Park}}, \textsc{{Ravindranath}},
+  \textsc{{Renzini}}, \textsc{{Richardson}}, \textsc{{Riess}},
+  \textsc{{Rosati}}, \textsc{{Schirmer}}, \textsc{{Schreier}},
+  \textsc{{Somerville}}, \textsc{{Spinrad}}, \textsc{{Stern}},
+  \textsc{{Stiavelli}}, \textsc{{Strolger}}, \textsc{{Urry}},
+  \textsc{{Vandame}}, \textsc{{Williams}} et \textsc{{Wolf}}}]{giavalisco2004}
+\textsc{{Giavalisco} M.}, \textsc{{Ferguson} H.~C.}, \textsc{{Koekemoer} A.~M.}
+  {et~al.} 2004, «~{The Great Observatories Origins Deep Survey: Initial
+  Results from Optical and Near-Infrared Imaging}~»,
+  \href{http://dx.doi.org/10.1086/379232}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2004ApJ...600L..93G}{600, L93}
+
+\bibitem[{\textsc{{Graur}} {et~al.}(2014)\textsc{{Graur}}, \textsc{{Rodney}},
+  \textsc{{Maoz}}, \textsc{{Riess}}, \textsc{{Jha}}, \textsc{{Postman}},
+  \textsc{{Dahlen}}, \textsc{{Holoien}}, \textsc{{McCully}}, \textsc{{Patel}},
+  \textsc{{Strolger}}, \textsc{{Ben{\'\i}tez}}, \textsc{{Coe}},
+  \textsc{{Jouvel}}, \textsc{{Medezinski}}, \textsc{{Molino}},
+  \textsc{{Nonino}}, \textsc{{Bradley}}, \textsc{{Koekemoer}},
+  \textsc{{Balestra}}, \textsc{{Cenko}}, \textsc{{Clubb}},
+  \textsc{{Dickinson}}, \textsc{{Filippenko}}, \textsc{{Frederiksen}},
+  \textsc{{Garnavich}}, \textsc{{Hjorth}}, \textsc{{Jones}},
+  \textsc{{Leibundgut}}, \textsc{{Matheson}}, \textsc{{Mobasher}},
+  \textsc{{Rosati}}, \textsc{{Silverman}}, \textsc{{U}},
+  \textsc{{Jedruszczuk}}, \textsc{{Li}}, \textsc{{Lin}},
+  \textsc{{Mirmelstein}}, \textsc{{Neustadt}}, \textsc{{Ovadia}} et
+  \textsc{{Rogers}}}]{graur2014}
+\textsc{{Graur} O.}, \textsc{{Rodney} S.~A.}, \textsc{{Maoz} D.} {et~al.} 2014,
+  «~{Type-Ia Supernova Rates to Redshift 2.4 from CLASH: The Cluster Lensing
+  And Supernova Survey with Hubble}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/783/1/28}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2014ApJ...783...28G}{783, 28}
 
 \bibitem[{\textsc{{Gunn}} {et~al.}(1998)\textsc{{Gunn}}, \textsc{{Carr}},
   \textsc{{Rockosi}}, \textsc{{Sekiguchi}}, \textsc{{Berry}}, \textsc{{Elms}},
@@ -343,6 +443,65 @@
   Supernovae}~», \href{http://dx.doi.org/10.1086/118190}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/1996AJ....112.2391H}{112, 2391}
 
+\bibitem[{\textsc{{Hicken}} {et~al.}(2009{\natexlab{a}})\textsc{{Hicken}},
+  \textsc{{Challis}}, \textsc{{Jha}}, \textsc{{Kirshner}}, \textsc{{Matheson}},
+  \textsc{{Modjaz}}, \textsc{{Rest}}, \textsc{{Wood-Vasey}}, \textsc{{Bakos}},
+  \textsc{{Barton}}, \textsc{{Berlind}}, \textsc{{Bragg}},
+  \textsc{{Brice{\~n}o}}, \textsc{{Brown}}, \textsc{{Caldwell}},
+  \textsc{{Calkins}}, \textsc{{Cho}}, \textsc{{Ciupik}}, \textsc{{Contreras}},
+  \textsc{{Dendy}}, \textsc{{Dosaj}}, \textsc{{Durham}}, \textsc{{Eriksen}},
+  \textsc{{Esquerdo}}, \textsc{{Everett}}, \textsc{{Falco}},
+  \textsc{{Fernandez}}, \textsc{{Gaba}}, \textsc{{Garnavich}},
+  \textsc{{Graves}}, \textsc{{Green}}, \textsc{{Groner}},
+  \textsc{{Hergenrother}}, \textsc{{Holman}}, \textsc{{Hradecky}},
+  \textsc{{Huchra}}, \textsc{{Hutchison}}, \textsc{{Jerius}},
+  \textsc{{Jordan}}, \textsc{{Kilgard}}, \textsc{{Krauss}}, \textsc{{Luhman}},
+  \textsc{{Macri}}, \textsc{{Marrone}}, \textsc{{McDowell}},
+  \textsc{{McIntosh}}, \textsc{{McNamara}}, \textsc{{Megeath}},
+  \textsc{{Mochejska}}, \textsc{{Munoz}}, \textsc{{Muzerolle}},
+  \textsc{{Naranjo}}, \textsc{{Narayan}}, \textsc{{Pahre}}, \textsc{{Peters}},
+  \textsc{{Peterson}}, \textsc{{Rines}}, \textsc{{Ripman}},
+  \textsc{{Roussanova}}, \textsc{{Schild}}, \textsc{{Sicilia-Aguilar}},
+  \textsc{{Sokoloski}}, \textsc{{Smalley}}, \textsc{{Smith}}, \textsc{{Spahr}},
+  \textsc{{Stanek}}, \textsc{{Barmby}}, \textsc{{Blondin}}, \textsc{{Stubbs}},
+  \textsc{{Szentgyorgyi}}, \textsc{{Torres}}, \textsc{{Vaz}},
+  \textsc{{Vikhlinin}}, \textsc{{Wang}}, \textsc{{Westover}}, \textsc{{Woods}}
+  et \textsc{{Zhao}}}]{hicken2009a}
+\textsc{{Hicken} M.}, \textsc{{Challis} P.}, \textsc{{Jha} S.} {et~al.}
+  2009{\natexlab{a}}, «~{CfA3: 185 Type Ia Supernova Light Curves from the
+  CfA}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/700/1/331}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2009ApJ...700..331H}{700, 331}
+
+\bibitem[{\textsc{{Hicken}} {et~al.}(2012)\textsc{{Hicken}},
+  \textsc{{Challis}}, \textsc{{Kirshner}}, \textsc{{Rest}}, \textsc{{Cramer}},
+  \textsc{{Wood-Vasey}}, \textsc{{Bakos}}, \textsc{{Berlind}},
+  \textsc{{Brown}}, \textsc{{Caldwell}}, \textsc{{Calkins}}, \textsc{{Currie}},
+  \textsc{{de Kleer}}, \textsc{{Esquerdo}}, \textsc{{Everett}},
+  \textsc{{Falco}}, \textsc{{Fernandez}}, \textsc{{Friedman}},
+  \textsc{{Groner}}, \textsc{{Hartman}}, \textsc{{Holman}},
+  \textsc{{Hutchins}}, \textsc{{Keys}}, \textsc{{Kipping}}, \textsc{{Latham}},
+  \textsc{{Marion}}, \textsc{{Narayan}}, \textsc{{Pahre}}, \textsc{{Pal}},
+  \textsc{{Peters}}, \textsc{{Perumpilly}}, \textsc{{Ripman}},
+  \textsc{{Sipocz}}, \textsc{{Szentgyorgyi}}, \textsc{{Tang}},
+  \textsc{{Torres}}, \textsc{{Vaz}}, \textsc{{Wolk}} et
+  \textsc{{Zezas}}}]{hicken2012}
+\textsc{{Hicken} M.}, \textsc{{Challis} P.}, \textsc{{Kirshner} R.~P.} {et~al.}
+  2012, «~{CfA4: Light Curves for 94 Type Ia Supernovae}~»,
+  \href{http://dx.doi.org/10.1088/0067-0049/200/2/12}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2012ApJS..200...12H}{200, 12}
+
+\bibitem[{\textsc{{Hicken}} {et~al.}(2009{\natexlab{b}})\textsc{{Hicken}},
+  \textsc{{Wood-Vasey}}, \textsc{{Blondin}}, \textsc{{Challis}},
+  \textsc{{Jha}}, \textsc{{Kelly}}, \textsc{{Rest}} et
+  \textsc{{Kirshner}}}]{hicken2009b}
+\textsc{{Hicken} M.}, \textsc{{Wood-Vasey} W.~M.}, \textsc{{Blondin} S.}
+  {et~al.} 2009{\natexlab{b}}, «~{Improved Dark Energy Constraints from
+  \raisebox{-0.5ex}\textasciitilde100 New CfA Supernova Type Ia Light
+  Curves}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/700/2/1097}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2009ApJ...700.1097H}{700, 1097}
+
 \bibitem[{\textsc{{Hill}} {et~al.}(1998)\textsc{{Hill}}, \textsc{{Nicklas}},
   \textsc{{MacQueen}}, \textsc{{Tejada}}, \textsc{{Cobos Duenas}} et
   \textsc{{Mitsch}}}]{hill1998}
@@ -376,6 +535,37 @@
   Performance in Imaging, Long-Slit, and Multi-Object Spectroscopic Modes}~»,
   \href{http://dx.doi.org/10.1086/383624}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2004PASP..116..425H}{116, 425}
+
+\bibitem[{\textsc{{Jha}} {et~al.}(2006)\textsc{{Jha}}, \textsc{{Kirshner}},
+  \textsc{{Challis}}, \textsc{{Garnavich}}, \textsc{{Matheson}},
+  \textsc{{Soderberg}}, \textsc{{Graves}}, \textsc{{Hicken}}, \textsc{{Alves}},
+  \textsc{{Arce}}, \textsc{{Balog}}, \textsc{{Barmby}}, \textsc{{Barton}},
+  \textsc{{Berlind}}, \textsc{{Bragg}}, \textsc{{Brice{\~n}o}},
+  \textsc{{Brown}}, \textsc{{Buckley}}, \textsc{{Caldwell}},
+  \textsc{{Calkins}}, \textsc{{Carter}}, \textsc{{Concannon}},
+  \textsc{{Donnelly}}, \textsc{{Eriksen}}, \textsc{{Fabricant}},
+  \textsc{{Falco}}, \textsc{{Fiore}}, \textsc{{Garcia}}, \textsc{{G{\'o}mez}},
+  \textsc{{Grogin}}, \textsc{{Groner}}, \textsc{{Groot}}, \textsc{{Haisch}},
+  \textsc{{Hartmann}}, \textsc{{Hergenrother}}, \textsc{{Holman}},
+  \textsc{{Huchra}}, \textsc{{Jayawardhana}}, \textsc{{Jerius}},
+  \textsc{{Kannappan}}, \textsc{{Kim}}, \textsc{{Kleyna}}, \textsc{{Kochanek}},
+  \textsc{{Koranyi}}, \textsc{{Krockenberger}}, \textsc{{Lada}},
+  \textsc{{Luhman}}, \textsc{{Luu}}, \textsc{{Macri}}, \textsc{{Mader}},
+  \textsc{{Mahdavi}}, \textsc{{Marengo}}, \textsc{{Marsden}},
+  \textsc{{McLeod}}, \textsc{{McNamara}}, \textsc{{Megeath}},
+  \textsc{{Moraru}}, \textsc{{Mossman}}, \textsc{{Muench}},
+  \textsc{{Mu{\~n}oz}}, \textsc{{Muzerolle}}, \textsc{{Naranjo}},
+  \textsc{{Nelson-Patel}}, \textsc{{Pahre}}, \textsc{{Patten}},
+  \textsc{{Peters}}, \textsc{{Peters}}, \textsc{{Raymond}}, \textsc{{Rines}},
+  \textsc{{Schild}}, \textsc{{Sobczak}}, \textsc{{Spahr}}, \textsc{{Stauffer}},
+  \textsc{{Stefanik}}, \textsc{{Szentgyorgyi}}, \textsc{{Tollestrup}},
+  \textsc{{V{\"a}is{\"a}nen}}, \textsc{{Vikhlinin}}, \textsc{{Wang}},
+  \textsc{{Willner}}, \textsc{{Wolk}}, \textsc{{Zajac}}, \textsc{{Zhao}} et
+  \textsc{{Stanek}}}]{jha2006}
+\textsc{{Jha} S.}, \textsc{{Kirshner} R.~P.}, \textsc{{Challis} P.} {et~al.}
+  2006, «~{UBVRI Light Curves of 44 Type Ia Supernovae}~»,
+  \href{http://dx.doi.org/10.1086/497989}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/2006AJ....131..527J}{131, 527}
 
 \bibitem[{\textsc{{Kaiser}} {et~al.}(2010)\textsc{{Kaiser}},
   \textsc{{Burgett}}, \textsc{{Chambers}}, \textsc{{Denneau}},
@@ -658,6 +848,37 @@
   \href{http://dx.doi.org/10.1086/300499}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/1998AJ....116.1009R}{116, 1009}
 
+\bibitem[{\textsc{{Riess}} {et~al.}(1999)\textsc{{Riess}}, \textsc{{Kirshner}},
+  \textsc{{Schmidt}}, \textsc{{Jha}}, \textsc{{Challis}}, \textsc{{Garnavich}},
+  \textsc{{Esin}}, \textsc{{Carpenter}}, \textsc{{Grashius}},
+  \textsc{{Schild}}, \textsc{{Berlind}}, \textsc{{Huchra}}, \textsc{{Prosser}},
+  \textsc{{Falco}}, \textsc{{Benson}}, \textsc{{Brice{\~n}o}},
+  \textsc{{Brown}}, \textsc{{Caldwell}}, \textsc{{dell'Antonio}},
+  \textsc{{Filippenko}}, \textsc{{Goodman}}, \textsc{{Grogin}},
+  \textsc{{Groner}}, \textsc{{Hughes}}, \textsc{{Green}}, \textsc{{Jansen}},
+  \textsc{{Kleyna}}, \textsc{{Luu}}, \textsc{{Macri}}, \textsc{{McLeod}},
+  \textsc{{McLeod}}, \textsc{{McNamara}}, \textsc{{McLean}}, \textsc{{Milone}},
+  \textsc{{Mohr}}, \textsc{{Moraru}}, \textsc{{Peng}}, \textsc{{Peters}},
+  \textsc{{Prestwich}}, \textsc{{Stanek}}, \textsc{{Szentgyorgyi}} et
+  \textsc{{Zhao}}}]{riess1999}
+\textsc{{Riess} A.~G.}, \textsc{{Kirshner} R.~P.}, \textsc{{Schmidt} B.~P.}
+  {et~al.} 1999, «~{BVRI Light Curves for 22 Type IA Supernovae}~»,
+  \href{http://dx.doi.org/10.1086/300738}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/1999AJ....117..707R}{117, 707}
+
+\bibitem[{\textsc{{Riess}} {et~al.}(2007)\textsc{{Riess}}, \textsc{{Strolger}},
+  \textsc{{Casertano}}, \textsc{{Ferguson}}, \textsc{{Mobasher}},
+  \textsc{{Gold}}, \textsc{{Challis}}, \textsc{{Filippenko}}, \textsc{{Jha}},
+  \textsc{{Li}}, \textsc{{Tonry}}, \textsc{{Foley}}, \textsc{{Kirshner}},
+  \textsc{{Dickinson}}, \textsc{{MacDonald}}, \textsc{{Eisenstein}},
+  \textsc{{Livio}}, \textsc{{Younger}}, \textsc{{Xu}}, \textsc{{Dahl{\'e}n}} et
+  \textsc{{Stern}}}]{riess2007}
+\textsc{{Riess} A.~G.}, \textsc{{Strolger} L.-G.}, \textsc{{Casertano} S.}
+  {et~al.} 2007, «~{New Hubble Space Telescope Discoveries of Type Ia
+  Supernovae at z >= 1: Narrowing Constraints on the Early Behavior of Dark
+  Energy}~», \href{http://dx.doi.org/10.1086/510378}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...659...98R}{659, 98}
+
 \bibitem[{\textsc{{Rigault}} {et~al.}(2020)\textsc{{Rigault}},
   \textsc{{Brinnel}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
   \textsc{{Aragon}}, \textsc{{Bailey}}, \textsc{{Baltay}}, \textsc{{Barbary}},
@@ -695,6 +916,24 @@
   the Nearby Supernova Factory indicated by local H{\ensuremath{\alpha}}}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201322104}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2013A&A...560A..66R}{560, A66}
+
+\bibitem[{\textsc{{Rodney}} {et~al.}(2014)\textsc{{Rodney}}, \textsc{{Riess}},
+  \textsc{{Strolger}}, \textsc{{Dahlen}}, \textsc{{Graur}},
+  \textsc{{Casertano}}, \textsc{{Dickinson}}, \textsc{{Ferguson}},
+  \textsc{{Garnavich}}, \textsc{{Hayden}}, \textsc{{Jha}}, \textsc{{Jones}},
+  \textsc{{Kirshner}}, \textsc{{Koekemoer}}, \textsc{{McCully}},
+  \textsc{{Mobasher}}, \textsc{{Patel}}, \textsc{{Weiner}}, \textsc{{Cenko}},
+  \textsc{{Clubb}}, \textsc{{Cooper}}, \textsc{{Filippenko}},
+  \textsc{{Frederiksen}}, \textsc{{Hjorth}}, \textsc{{Leibundgut}},
+  \textsc{{Matheson}}, \textsc{{Nayyeri}}, \textsc{{Penner}}, \textsc{{Trump}},
+  \textsc{{Silverman}}, \textsc{{U}}, \textsc{{Azalee Bostroem}},
+  \textsc{{Challis}}, \textsc{{Rajan}}, \textsc{{Wolff}}, \textsc{{Faber}},
+  \textsc{{Grogin}} et \textsc{{Kocevski}}}]{rodney2014}
+\textsc{{Rodney} S.~A.}, \textsc{{Riess} A.~G.}, \textsc{{Strolger} L.-G.}
+  {et~al.} 2014, «~{Type Ia Supernova Rate Measurements to Redshift 2.5 from
+  CANDELS: Searching for Prompt Explosions in the Early Universe}~»,
+  \href{http://dx.doi.org/10.1088/0004-6256/148/1/13}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/2014AJ....148...13R}{148, 13}
 
 \bibitem[{\textsc{{Sako}} {et~al.}(2008)\textsc{{Sako}}, \textsc{{Bassett}},
   \textsc{{Becker}}, \textsc{{Cinabro}}, \textsc{{DeJongh}}, \textsc{{Depoy}},
@@ -789,6 +1028,21 @@
   \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
 
+\bibitem[{\textsc{{Stritzinger}} {et~al.}(2011)\textsc{{Stritzinger}},
+  \textsc{{Phillips}}, \textsc{{Boldt}}, \textsc{{Burns}},
+  \textsc{{Campillay}}, \textsc{{Contreras}}, \textsc{{Gonzalez}},
+  \textsc{{Folatelli}}, \textsc{{Morrell}}, \textsc{{Krzeminski}},
+  \textsc{{Roth}}, \textsc{{Salgado}}, \textsc{{DePoy}}, \textsc{{Hamuy}},
+  \textsc{{Freedman}}, \textsc{{Madore}}, \textsc{{Marshall}},
+  \textsc{{Persson}}, \textsc{{Rheault}}, \textsc{{Suntzeff}},
+  \textsc{{Villanueva}}, \textsc{{Li}} et
+  \textsc{{Filippenko}}}]{stritzinger2011}
+\textsc{{Stritzinger} M.~D.}, \textsc{{Phillips} M.~M.}, \textsc{{Boldt} L.~N.}
+  {et~al.} 2011, «~{The Carnegie Supernova Project: Second Photometry Data
+  Release of Low-redshift Type Ia Supernovae}~»,
+  \href{http://dx.doi.org/10.1088/0004-6256/142/5/156}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/2011AJ....142..156S}{142, 156}
+
 \bibitem[{\textsc{{Strolger}} {et~al.}(2004)\textsc{{Strolger}},
   \textsc{{Riess}}, \textsc{{Dahlen}}, \textsc{{Livio}}, \textsc{{Panagia}},
   \textsc{{Challis}}, \textsc{{Tonry}}, \textsc{{Filippenko}},
@@ -824,6 +1078,34 @@
   Three-year Data with Other Probes}~»,
   \href{http://dx.doi.org/10.1088/0004-637X/737/2/102}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2011ApJ...737..102S}{737, 102}
+
+\bibitem[{\textsc{{Suzuki}} {et~al.}(2012)\textsc{{Suzuki}}, \textsc{{Rubin}},
+  \textsc{{Lidman}}, \textsc{{Aldering}}, \textsc{{Amanullah}},
+  \textsc{{Barbary}}, \textsc{{Barrientos}}, \textsc{{Botyanszki}},
+  \textsc{{Brodwin}}, \textsc{{Connolly}}, \textsc{{Dawson}}, \textsc{{Dey}},
+  \textsc{{Doi}}, \textsc{{Donahue}}, \textsc{{Deustua}},
+  \textsc{{Eisenhardt}}, \textsc{{Ellingson}}, \textsc{{Faccioli}},
+  \textsc{{Fadeyev}}, \textsc{{Fakhouri}}, \textsc{{Fruchter}},
+  \textsc{{Gilbank}}, \textsc{{Gladders}}, \textsc{{Goldhaber}},
+  \textsc{{Gonzalez}}, \textsc{{Goobar}}, \textsc{{Gude}}, \textsc{{Hattori}},
+  \textsc{{Hoekstra}}, \textsc{{Hsiao}}, \textsc{{Huang}}, \textsc{{Ihara}},
+  \textsc{{Jee}}, \textsc{{Johnston}}, \textsc{{Kashikawa}},
+  \textsc{{Koester}}, \textsc{{Konishi}}, \textsc{{Kowalski}},
+  \textsc{{Linder}}, \textsc{{Lubin}}, \textsc{{Melbourne}}, \textsc{{Meyers}},
+  \textsc{{Morokuma}}, \textsc{{Munshi}}, \textsc{{Mullis}}, \textsc{{Oda}},
+  \textsc{{Panagia}}, \textsc{{Perlmutter}}, \textsc{{Postman}},
+  \textsc{{Pritchard}}, \textsc{{Rhodes}}, \textsc{{Ripoche}},
+  \textsc{{Rosati}}, \textsc{{Schlegel}}, \textsc{{Spadafora}},
+  \textsc{{Stanford}}, \textsc{{Stanishev}}, \textsc{{Stern}},
+  \textsc{{Strovink}}, \textsc{{Takanashi}}, \textsc{{Tokita}},
+  \textsc{{Wagner}}, \textsc{{Wang}}, \textsc{{Yasuda}}, \textsc{{Yee}} et
+  \textsc{{Supernova Cosmology Project}}}]{suzuki2012}
+\textsc{{Suzuki} N.}, \textsc{{Rubin} D.}, \textsc{{Lidman} C.} {et~al.} 2012,
+  «~{The Hubble Space Telescope Cluster Supernova Survey. V. Improving the
+  Dark-energy Constraints above z > 1 and Building an Early-type-hosted
+  Supernova Sample}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/746/1/85}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2012ApJ...746...85S}{746, 85}
 
 \bibitem[{\textsc{{Tonry}} {et~al.}(2006)\textsc{{Tonry}}, \textsc{{Onaka}},
   \textsc{{Luppino}} et \textsc{{Isani}}}]{tonry2006}

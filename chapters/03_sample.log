@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  5 MAY 2022 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  6 MAY 2022 18:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1603,6 +1603,18 @@ File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count299
 \c@bookmark@seq@number=\count300
 \Hy@SectionHShift=\skip81
+) (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks32
+\footnotemargin=\dimen197
+\c@pp@next@reset=\count301
+\c@@fnserial=\count302
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
 ) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -1613,16 +1625,16 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen197
-\extrarowheight=\dimen198
-\NC@list=\toks32
+\col@sep=\dimen198
+\extrarowheight=\dimen199
+\NC@list=\toks33
 \extratabsurround=\skip82
 \backup@length=\skip83
 )
-\everycr=\toks33
+\everycr=\toks34
 \minrowclearance=\skip84
 )
-\rownum=\count301
+\rownum=\count303
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -1639,9 +1651,9 @@ File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
  (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks34
-\pgfutil@tempdima=\dimen199
-\pgfutil@tempdimb=\dimen256
+\pgfutil@everybye=\toks35
+\pgfutil@tempdima=\dimen256
+\pgfutil@tempdimb=\dimen257
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box51
  (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
@@ -1652,30 +1664,30 @@ Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
  (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks35
-\pgfkeys@temptoks=\toks36
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks37
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks38
 ))
-\pgf@x=\dimen257
-\pgf@y=\dimen258
-\pgf@xa=\dimen259
-\pgf@ya=\dimen260
-\pgf@xb=\dimen261
-\pgf@yb=\dimen262
-\pgf@xc=\dimen263
-\pgf@yc=\dimen264
+\pgf@x=\dimen258
+\pgf@y=\dimen259
+\pgf@xa=\dimen260
+\pgf@ya=\dimen261
+\pgf@xb=\dimen262
+\pgf@yb=\dimen263
+\pgf@xc=\dimen264
+\pgf@yc=\dimen265
 \w@pgf@writea=\write5
 \r@pgf@reada=\read2
-\c@pgf@counta=\count302
-\c@pgf@countb=\count303
-\c@pgf@countc=\count304
-\c@pgf@countd=\count305
-\t@pgf@toka=\toks38
-\t@pgf@tokb=\toks39
-\t@pgf@tokc=\toks40
+\c@pgf@counta=\count304
+\c@pgf@countb=\count305
+\c@pgf@countc=\count306
+\c@pgf@countd=\count307
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -1686,60 +1698,60 @@ File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count306
-\pgfsyssoftpath@bigbuffer@items=\count307
+\pgfsyssoftpath@smallbuffer@items=\count308
+\pgfsyssoftpath@bigbuffer@items=\count309
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen265
-\pgfmath@count=\count308
+\pgfmath@dimen=\dimen266
+\pgfmath@count=\count310
 \pgfmath@box=\box52
-\pgfmath@toks=\toks41
-\pgfmath@stack@operand=\toks42
-\pgfmath@stack@operation=\toks43
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count309
+\c@pgfmathroundto@lastzeros=\count311
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen266
-\pgf@picmaxx=\dimen267
-\pgf@picminy=\dimen268
-\pgf@picmaxy=\dimen269
-\pgf@pathminx=\dimen270
-\pgf@pathmaxx=\dimen271
-\pgf@pathminy=\dimen272
-\pgf@pathmaxy=\dimen273
-\pgf@xx=\dimen274
-\pgf@xy=\dimen275
-\pgf@yx=\dimen276
-\pgf@yy=\dimen277
-\pgf@zx=\dimen278
-\pgf@zy=\dimen279
+\pgf@picminx=\dimen267
+\pgf@picmaxx=\dimen268
+\pgf@picminy=\dimen269
+\pgf@picmaxy=\dimen270
+\pgf@pathminx=\dimen271
+\pgf@pathmaxx=\dimen272
+\pgf@pathminy=\dimen273
+\pgf@pathmaxy=\dimen274
+\pgf@xx=\dimen275
+\pgf@xy=\dimen276
+\pgf@yx=\dimen277
+\pgf@yy=\dimen278
+\pgf@zx=\dimen279
+\pgf@zy=\dimen280
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen280
-\pgf@path@lasty=\dimen281
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen282
-\pgf@shorten@start@additional=\dimen283
+\pgf@path@lastx=\dimen281
+\pgf@path@lasty=\dimen282
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen283
+\pgf@shorten@start@additional=\dimen284
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box53
 \pgf@hbox=\box54
 \pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count310
+\pgf@picture@serial@count=\count312
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen284
+\pgflinewidth=\dimen285
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen285
-\pgf@pt@y=\dimen286
-\pgf@pt@temp=\dimen287
+\pgf@pt@x=\dimen286
+\pgf@pt@y=\dimen287
+\pgf@pt@temp=\dimen288
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -1748,11 +1760,11 @@ File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen288
+\pgfarrowsep=\dimen289
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen289
-\pgf@sys@shading@range@num=\count311
+\pgf@max=\dimen290
+\pgf@sys@shading@range@num=\count313
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -1771,98 +1783,97 @@ File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen290
-\pgf@nodesepend=\dimen291
+\pgf@nodesepstart=\dimen291
+\pgf@nodesepend=\dimen292
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen292
-\pgffor@skip=\dimen293
-\pgffor@stack=\toks44
-\pgffor@toks=\toks45
+\pgffor@iter=\dimen293
+\pgffor@skip=\dimen294
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count312
-\pgfplotmarksize=\dimen294
+\pgf@plot@mark@count=\count314
+\pgfplotmarksize=\dimen295
 )
-\tikz@lastx=\dimen295
-\tikz@lasty=\dimen296
-\tikz@lastxsaved=\dimen297
-\tikz@lastysaved=\dimen298
-\tikzleveldistance=\dimen299
-\tikzsiblingdistance=\dimen300
+\tikz@lastx=\dimen296
+\tikz@lasty=\dimen297
+\tikz@lastxsaved=\dimen298
+\tikz@lastysaved=\dimen299
+\tikzleveldistance=\dimen300
+\tikzsiblingdistance=\dimen301
 \tikz@figbox=\box58
 \tikz@figbox@bg=\box59
 \tikz@tempbox=\box60
 \tikz@tempbox@bg=\box61
-\tikztreelevel=\count313
-\tikznumberofchildren=\count314
-\tikznumberofcurrentchild=\count315
-\tikz@fig@count=\count316
+\tikztreelevel=\count315
+\tikznumberofchildren=\count316
+\tikznumberofcurrentchild=\count317
+\tikz@fig@count=\count318
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count317
-\pgfmatrixcurrentcolumn=\count318
-\pgf@matrix@numberofcolumns=\count319
+\pgfmatrixcurrentrow=\count319
+\pgfmatrixcurrentcolumn=\count320
+\pgf@matrix@numberofcolumns=\count321
 )
-\tikz@expandcount=\count320
+\tikz@expandcount=\count322
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks46
-\t@pgfplots@tokb=\toks47
-\t@pgfplots@tokc=\toks48
-\pgfplots@tmpa=\dimen301
-\c@pgfplots@coordindex=\count321
-\c@pgfplots@scanlineindex=\count322
+\t@pgfplots@toka=\toks47
+\t@pgfplots@tokb=\toks48
+\t@pgfplots@tokc=\toks49
+\pgfplots@tmpa=\dimen302
+\c@pgfplots@coordindex=\count323
+\c@pgfplots@scanlineindex=\count324
  (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary arithmetics for your pgf version...
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count323
+\c@pgfmathroundto@lastzeros=\count325
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count324
+\c@pgfplotsarray@tmp=\count326
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count325
-\t@pgfplotstable@a=\toks49
+\c@pgfplotstable@counta=\count327
+\t@pgfplotstable@a=\toks50
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count326
+\c@pgfplotslibrarysurf@no=\count328
  (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen302
-\pgfdecoratedremainingdistance=\dimen303
-\pgfdecoratedinputsegmentcompleteddistance=\dimen304
-\pgfdecoratedinputsegmentremainingdistance=\dimen305
-\pgf@decorate@distancetomove=\dimen306
-\pgf@decorate@repeatstate=\count327
-\pgfdecorationsegmentamplitude=\dimen307
-\pgfdecorationsegmentlength=\dimen308
+\pgfdecoratedcompleteddistance=\dimen303
+\pgfdecoratedremainingdistance=\dimen304
+\pgfdecoratedinputsegmentcompleteddistance=\dimen305
+\pgfdecoratedinputsegmentremainingdistance=\dimen306
+\pgf@decorate@distancetomove=\dimen307
+\pgf@decorate@repeatstate=\count329
+\pgfdecorationsegmentamplitude=\dimen308
+\pgfdecorationsegmentlength=\dimen309
 )
 \tikz@lib@dec@box=\box62
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count328
-\pgfplots@xmin@reg=\dimen309
-\pgfplots@xmax@reg=\dimen310
-\pgfplots@ymin@reg=\dimen311
-\pgfplots@ymax@reg=\dimen312
-\pgfplots@zmin@reg=\dimen313
-\pgfplots@zmax@reg=\dimen314
+\pgfplots@numplots=\count330
+\pgfplots@xmin@reg=\dimen310
+\pgfplots@xmax@reg=\dimen311
+\pgfplots@ymin@reg=\dimen312
+\pgfplots@ymax@reg=\dimen313
+\pgfplots@zmin@reg=\dimen314
+\pgfplots@zmax@reg=\dimen315
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks50
-\MT@count=\count329
+\MT@toks=\toks51
+\MT@count=\count331
 LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen315
+\MT@outer@kern=\dimen316
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count330
+\MT@listname@count=\count332
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 913.
@@ -1964,58 +1975,58 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip86
-\enit@outerparindent=\dimen316
-\enit@toks=\toks51
+\enit@outerparindent=\dimen317
+\enit@toks=\toks52
 \enit@inbox=\box63
-\enitdp@description=\count331
+\enitdp@description=\count333
 ) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen317
-\lightrulewidth=\dimen318
-\cmidrulewidth=\dimen319
-\belowrulesep=\dimen320
-\belowbottomsep=\dimen321
-\aboverulesep=\dimen322
-\abovetopsep=\dimen323
-\cmidrulesep=\dimen324
-\cmidrulekern=\dimen325
-\defaultaddspace=\dimen326
-\@cmidla=\count332
-\@cmidlb=\count333
-\@aboverulesep=\dimen327
-\@belowrulesep=\dimen328
-\@thisruleclass=\count334
-\@lastruleclass=\count335
-\@thisrulewidth=\dimen329
+\heavyrulewidth=\dimen318
+\lightrulewidth=\dimen319
+\cmidrulewidth=\dimen320
+\belowrulesep=\dimen321
+\belowbottomsep=\dimen322
+\aboverulesep=\dimen323
+\abovetopsep=\dimen324
+\cmidrulesep=\dimen325
+\cmidrulekern=\dimen326
+\defaultaddspace=\dimen327
+\@cmidla=\count334
+\@cmidlb=\count335
+\@aboverulesep=\dimen328
+\@belowrulesep=\dimen329
+\@thisruleclass=\count336
+\@lastruleclass=\count337
+\@thisrulewidth=\dimen330
 ) (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box64
 ) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip87
-\multirow@cntb=\count336
+\multirow@cntb=\count338
 \multirow@dima=\skip88
-\bigstrutjot=\dimen330
+\bigstrutjot=\dimen331
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count337
+\c@tracingmulticols=\count339
 \mult@box=\box65
-\multicol@leftmargin=\dimen331
-\c@unbalance=\count338
-\c@collectmore=\count339
-\doublecol@number=\count340
-\multicoltolerance=\count341
-\multicolpretolerance=\count342
-\full@width=\dimen332
-\page@free=\dimen333
-\premulticols=\dimen334
-\postmulticols=\dimen335
+\multicol@leftmargin=\dimen332
+\c@unbalance=\count340
+\c@collectmore=\count341
+\doublecol@number=\count342
+\multicoltolerance=\count343
+\multicolpretolerance=\count344
+\full@width=\dimen333
+\page@free=\dimen334
+\premulticols=\dimen335
+\postmulticols=\dimen336
 \multicolsep=\skip89
 \multicolbaselineskip=\skip90
 \partial@page=\box66
 \last@line=\box67
-\maxbalancingoverflow=\dimen336
+\maxbalancingoverflow=\dimen337
 \mult@rightbox=\box68
 \mult@grightbox=\box69
 \mult@gfirstbox=\box70
@@ -2037,23 +2048,23 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box86
 \@tempa=\box87
 \@tempa=\box88
-\c@columnbadness=\count343
-\c@finalcolumnbadness=\count344
-\last@try=\dimen337
-\multicolovershoot=\dimen338
-\multicolundershoot=\dimen339
+\c@columnbadness=\count345
+\c@finalcolumnbadness=\count346
+\last@try=\dimen338
+\multicolovershoot=\dimen339
+\multicolundershoot=\dimen340
 \mult@nat@firstbox=\box89
 \colbreak@box=\box90
-\mc@col@check@num=\count345
+\mc@col@check@num=\count347
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
-\TX@col@width=\dimen340
-\TX@old@table=\dimen341
-\TX@old@col=\dimen342
-\TX@target=\dimen343
-\TX@delta=\dimen344
-\TX@cols=\count346
-\TX@ftn=\toks52
+\TX@col@width=\dimen341
+\TX@old@table=\dimen342
+\TX@old@col=\dimen343
+\TX@target=\dimen344
+\TX@delta=\dimen345
+\TX@cols=\count348
+\TX@ftn=\toks53
 ) (/home/nicolas/texmf/tex/latex/local/twemojis/twemojis.sty
 Package: twemojis 2021/04/19 v1.2 LaTeX twemojis (twemoji v13.0.2)
 \twemojiDefaultHeight=\skip91
@@ -2063,39 +2074,39 @@ Package: siunitx 2017/11/26 v2.7k A comprehensive (SI) units package
 Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box91
-\l__siunitx_tmp_dim=\dimen345
-\l__siunitx_tmp_int=\count347
-\l__siunitx_number_mantissa_length_int=\count348
-\l__siunitx_number_uncert_length_int=\count349
-\l__siunitx_round_int=\count350
-\l__siunitx_process_decimal_int=\count351
-\l__siunitx_process_uncertainty_int=\count352
-\l__siunitx_process_fixed_int=\count353
-\l__siunitx_process_integer_min_int=\count354
-\l__siunitx_process_precision_int=\count355
-\l__siunitx_group_min_int=\count356
+\l__siunitx_tmp_dim=\dimen346
+\l__siunitx_tmp_int=\count349
+\l__siunitx_number_mantissa_length_int=\count350
+\l__siunitx_number_uncert_length_int=\count351
+\l__siunitx_round_int=\count352
+\l__siunitx_process_decimal_int=\count353
+\l__siunitx_process_uncertainty_int=\count354
+\l__siunitx_process_fixed_int=\count355
+\l__siunitx_process_integer_min_int=\count356
+\l__siunitx_process_precision_int=\count357
+\l__siunitx_group_min_int=\count358
 \l__siunitx_angle_marker_box=\box92
 \l__siunitx_angle_unit_box=\box93
-\l__siunitx_angle_marker_dim=\dimen346
-\l__siunitx_angle_unit_dim=\dimen347
-\l__siunitx_unit_int=\count357
-\l__siunitx_unit_denominator_int=\count358
-\l__siunitx_unit_numerator_int=\count359
-\l__siunitx_unit_prefix_int=\count360
-\l__siunitx_unit_prefix_base_int=\count361
-\l__siunitx_unit_prefix_gram_int=\count362
-\l__siunitx_number_product_int=\count363
+\l__siunitx_angle_marker_dim=\dimen347
+\l__siunitx_angle_unit_dim=\dimen348
+\l__siunitx_unit_int=\count359
+\l__siunitx_unit_denominator_int=\count360
+\l__siunitx_unit_numerator_int=\count361
+\l__siunitx_unit_prefix_int=\count362
+\l__siunitx_unit_prefix_base_int=\count363
+\l__siunitx_unit_prefix_gram_int=\count364
+\l__siunitx_number_product_int=\count365
 \c__siunitx_one_fill_skip=\skip92
 \l__siunitx_table_unit_align_skip=\skip93
-\l__siunitx_table_exponent_dim=\dimen348
-\l__siunitx_table_integer_dim=\dimen349
-\l__siunitx_table_mantissa_dim=\dimen350
-\l__siunitx_table_marker_dim=\dimen351
-\l__siunitx_table_result_dim=\dimen352
-\l__siunitx_table_uncert_dim=\dimen353
-\l__siunitx_table_fill_pre_dim=\dimen354
-\l__siunitx_table_fill_post_dim=\dimen355
-\l__siunitx_table_fill_mid_dim=\dimen356
+\l__siunitx_table_exponent_dim=\dimen349
+\l__siunitx_table_integer_dim=\dimen350
+\l__siunitx_table_mantissa_dim=\dimen351
+\l__siunitx_table_marker_dim=\dimen352
+\l__siunitx_table_result_dim=\dimen353
+\l__siunitx_table_uncert_dim=\dimen354
+\l__siunitx_table_fill_pre_dim=\dimen355
+\l__siunitx_table_fill_post_dim=\dimen356
+\l__siunitx_table_fill_mid_dim=\dimen357
 \l__siunitx_table_pre_box=\box94
 \l__siunitx_table_post_box=\box95
 \l__siunitx_table_mantissa_box=\box96
@@ -2224,24 +2235,24 @@ Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count364
+\BKM@id=\count366
 )) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count365
+\lst@mode=\count367
 \lst@gtempboxa=\box98
-\lst@token=\toks53
-\lst@length=\count366
-\lst@currlwidth=\dimen357
-\lst@column=\count367
-\lst@pos=\count368
-\lst@lostspace=\dimen358
-\lst@width=\dimen359
-\lst@newlines=\count369
-\lst@lineno=\count370
-\lst@maxwidth=\dimen360
+\lst@token=\toks54
+\lst@length=\count368
+\lst@currlwidth=\dimen358
+\lst@column=\count369
+\lst@pos=\count370
+\lst@lostspace=\dimen359
+\lst@width=\dimen360
+\lst@newlines=\count371
+\lst@lineno=\count372
+\lst@maxwidth=\dimen361
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count371
-\lst@skipnumbers=\count372
+\c@lstnumber=\count373
+\lst@skipnumbers=\count374
 \lst@framebox=\box99
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -2254,7 +2265,14 @@ Package: subfiles 2012/05/23 Federico Garcia
 LaTeX Warning: Unused global option(s):
     [garamond].
 
-(./03_sample.aux)
+(./03_sample.aux
+
+LaTeX Warning: Label `fig:ps1bands' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ps1bands' multiply defined.
+
+)
 \openout1 = `03_sample.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -2287,17 +2305,17 @@ LaTeX Info: Redefining \dots on input line 2.
 LaTeX Info: Redefining \up on input line 2.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count373
-\scratchdimen=\dimen361
+\scratchcounter=\count375
+\scratchdimen=\dimen362
 \scratchbox=\box100
-\nofMPsegments=\count374
-\nofMParguments=\count375
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count376
-\MPscratchDim=\dimen362
-\MPnumerator=\count377
-\makeMPintoPDFobject=\count378
-\everyMPtoPDFconversion=\toks55
+\nofMPsegments=\count376
+\nofMParguments=\count377
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count378
+\MPscratchDim=\dimen363
+\MPnumerator=\count379
+\makeMPintoPDFobject=\count380
+\everyMPtoPDFconversion=\toks56
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -2409,7 +2427,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count379
+\c@section@level=\count381
 )
 LaTeX Info: Redefining \ref on input line 2.
 LaTeX Info: Redefining \pageref on input line 2.
@@ -3265,7 +3283,7 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 . 
 . Defining command \ms with sig. '' on line 2.
 .................................................
-\c@lstlisting=\count380
+\c@lstlisting=\count382
 
 Chapitre 1.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def
@@ -3294,52 +3312,52 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `ssec:lc' on page 2 undefined on input line 36.
+LaTeX Warning: Reference `ssec:lc' on page 2 undefined on input line 37.
 
 
-LaTeX Warning: Reference `ssec:dl' on page 2 undefined on input line 75.
+LaTeX Warning: Reference `ssec:dl' on page 2 undefined on input line 76.
 
 [2]
 
-LaTeX Warning: Reference `ssec:corr' on page 3 undefined on input line 82.
+LaTeX Warning: Reference `ssec:corr' on page 3 undefined on input line 83.
 
 
 Underfull \vbox (badness 3019) has occurred while \output is active []
 
  [3]
-<../figures/bands_SNF.pdf, id=103, 404.80768pt x 301.15501pt>
+<../figures/bands_SNF.pdf, id=92, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNF.pdf Graphic file (type pdf)
 <use ../figures/bands_SNF.pdf>
-Package pdftex.def Info: ../figures/bands_SNF.pdf  used on input line 141.
+Package pdftex.def Info: ../figures/bands_SNF.pdf  used on input line 142.
 (pdftex.def)             Requested size: 364.19667pt x 270.9589pt.
  [4 <../figures/bands_SNF.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 216.
+               Default added (so using `tbp') on input line 217.
 
-<../figures/hist_SNF_zxc.pdf, id=144, 731.13103pt x 225.24101pt>
+<../figures/hist_SNF_zxc.pdf, id=133, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNF_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNF_zxc.pdf>
-Package pdftex.def Info: ../figures/hist_SNF_zxc.pdf  used on input line 236.
+Package pdftex.def Info: ../figures/hist_SNF_zxc.pdf  used on input line 237.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5] [6 <../figures/hist_SNF_zxc.pdf>]
-<../figures/bands_SDSS.pdf, id=200, 404.80768pt x 301.15501pt>
+<../figures/bands_SDSS.pdf, id=189, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SDSS.pdf Graphic file (type pdf)
 <use ../figures/bands_SDSS.pdf>
-Package pdftex.def Info: ../figures/bands_SDSS.pdf  used on input line 284.
+Package pdftex.def Info: ../figures/bands_SDSS.pdf  used on input line 285.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_2005gg.pdf, id=201, 406.34096pt x 296.715pt>
+<../figures/lc_2005gg.pdf, id=190, 406.34096pt x 296.715pt>
 File: ../figures/lc_2005gg.pdf Graphic file (type pdf)
 <use ../figures/lc_2005gg.pdf>
-Package pdftex.def Info: ../figures/lc_2005gg.pdf  used on input line 291.
+Package pdftex.def Info: ../figures/lc_2005gg.pdf  used on input line 292.
 (pdftex.def)             Requested size: 223.07211pt x 162.8904pt.
  [7 <../figures/bands_SDSS.pdf> <../figures/lc_2005gg.pdf>] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 386.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 387.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -3349,194 +3367,192 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-LaTeX Warning: Reference `ssec:salt' on page 8 undefined on input line 387.
+LaTeX Warning: Reference `ssec:salt' on page 8 undefined on input line 388.
 
-<../figures/hist_SDSS_zxc.pdf, id=282, 731.13103pt x 225.24101pt>
+<../figures/hist_SDSS_zxc.pdf, id=271, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SDSS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SDSS_zxc.pdf>
-Package pdftex.def Info: ../figures/hist_SDSS_zxc.pdf  used on input line 396.
+Package pdftex.def Info: ../figures/hist_SDSS_zxc.pdf  used on input line 397.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8]
-<../figures/bands_PS1.pdf, id=313, 404.80768pt x 301.15501pt>
+
+LaTeX Warning: Reference `fig:lc_550041' on page 9 undefined on input line 438.
+
+<../figures/bands_PS1.pdf, id=301, 404.80768pt x 301.15501pt>
 File: ../figures/bands_PS1.pdf Graphic file (type pdf)
 <use ../figures/bands_PS1.pdf>
-Package pdftex.def Info: ../figures/bands_PS1.pdf  used on input line 440.
-(pdftex.def)             Requested size: 364.19667pt x 270.9589pt.
-
+Package pdftex.def Info: ../figures/bands_PS1.pdf  used on input line 444.
+(pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
+<../figures/lc_550041.pdf, id=302, 406.34096pt x 296.715pt>
+File: ../figures/lc_550041.pdf Graphic file (type pdf)
+<use ../figures/lc_550041.pdf>
+Package pdftex.def Info: ../figures/lc_550041.pdf  used on input line 452.
+(pdftex.def)             Requested size: 223.07211pt x 162.8904pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9 <../figures/hist_SDSS_zxc.pdf>] [10 <../figures/bands_PS1.pdf>] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-34.def
+[9 <../figures/hist_SDSS_zxc.pdf>] [10 <../figures/bands_PS1.pdf> <../figures/lc_550041.pdf>] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
 )
 
-LaTeX Warning: Reference `ch:snana' on page 11 undefined on input line 505.
+LaTeX Warning: Reference `ch:snana' on page 11 undefined on input line 520.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 509.
+               Default added (so using `tbp') on input line 524.
 
-<../figures/hist_PS1_zxc.pdf, id=395, 731.13103pt x 225.24101pt>
+<../figures/hist_PS1_zxc.pdf, id=406, 731.13103pt x 225.24101pt>
 File: ../figures/hist_PS1_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_PS1_zxc.pdf>
-Package pdftex.def Info: ../figures/hist_PS1_zxc.pdf  used on input line 539.
+Package pdftex.def Info: ../figures/hist_PS1_zxc.pdf  used on input line 554.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
 [11 <../figures/hist_PS1_zxc.pdf>]
-<../figures/bands_SNLS.pdf, id=436, 404.80768pt x 301.15501pt>
+<../figures/bands_SNLS.pdf, id=446, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNLS.pdf Graphic file (type pdf)
 <use ../figures/bands_SNLS.pdf>
-Package pdftex.def Info: ../figures/bands_SNLS.pdf  used on input line 589.
+Package pdftex.def Info: ../figures/bands_SNLS.pdf  used on input line 602.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_04D1hx.pdf, id=437, 406.34096pt x 296.715pt>
+<../figures/lc_04D1hx.pdf, id=447, 406.34096pt x 296.715pt>
 File: ../figures/lc_04D1hx.pdf Graphic file (type pdf)
 <use ../figures/lc_04D1hx.pdf>
-Package pdftex.def Info: ../figures/lc_04D1hx.pdf  used on input line 596.
+Package pdftex.def Info: ../figures/lc_04D1hx.pdf  used on input line 609.
 (pdftex.def)             Requested size: 223.07211pt x 162.8904pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12]
-<../figures/hist_SNLS_zxc.pdf, id=456, 731.13103pt x 225.24101pt>
+<../figures/hist_SNLS_zxc.pdf, id=476, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNLS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNLS_zxc.pdf>
-Package pdftex.def Info: ../figures/hist_SNLS_zxc.pdf  used on input line 637.
+Package pdftex.def Info: ../figures/hist_SNLS_zxc.pdf  used on input line 651.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-
-Underfull \vbox (badness 3098) has occurred while \output is active []
-
  [13 <../figures/bands_SNLS.pdf> <../figures/lc_04D1hx.pdf> <../figures/hist_SNLS_zxc.pdf>]
-
-Package natbib Warning: Citation `?' on page 14 undefined on input line 666.
-
-
-Package natbib Warning: Citation `?' on page 14 undefined on input line 667.
-
-
-Package natbib Warning: Citation `?' on page 14 undefined on input line 668.
-
-<../figures/bands_HST.pdf, id=507, 411.85757pt x 301.15501pt>
+<../figures/bands_HST.pdf, id=545, 411.85757pt x 301.15501pt>
 File: ../figures/bands_HST.pdf Graphic file (type pdf)
 <use ../figures/bands_HST.pdf>
-Package pdftex.def Info: ../figures/bands_HST.pdf  used on input line 684.
+Package pdftex.def Info: ../figures/bands_HST.pdf  used on input line 717.
 (pdftex.def)             Requested size: 273.14923pt x 199.73251pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[14]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 707.
+               Default added (so using `tbp') on input line 749.
 
-<../figures/hist_HST_zxc.pdf, id=511, 731.13103pt x 225.24101pt>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 774.
+
+<../figures/hist_HST_zxc.pdf, id=572, 731.13103pt x 225.24101pt>
 File: ../figures/hist_HST_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_HST_zxc.pdf>
-Package pdftex.def Info: ../figures/hist_HST_zxc.pdf  used on input line 709.
+Package pdftex.def Info: ../figures/hist_HST_zxc.pdf  used on input line 776.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-[14]
-<../figures/hist_LOWZ_zxc.pdf, id=522, 731.13103pt x 225.24101pt>
+
+LaTeX Warning: Reference `ch:snana' on page 15 undefined on input line 793.
+
+[15 <../figures/bands_HST.pdf> <../figures/hist_HST_zxc.pdf>]
+<../figures/hist_LOWZ_zxc.pdf, id=621, 731.13103pt x 225.24101pt>
 File: ../figures/hist_LOWZ_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_LOWZ_zxc.pdf>
-Package pdftex.def Info: ../figures/hist_LOWZ_zxc.pdf  used on input line 727.
+Package pdftex.def Info: ../figures/hist_LOWZ_zxc.pdf  used on input line 802.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../figures/speceff-all.pdf, id=523, 468.07358pt x 340.17519pt>
+<../figures/speceff-all.pdf, id=622, 468.07358pt x 340.17519pt>
 File: ../figures/speceff-all.pdf Graphic file (type pdf)
 <use ../figures/speceff-all.pdf>
-Package pdftex.def Info: ../figures/speceff-all.pdf  used on input line 741.
+Package pdftex.def Info: ../figures/speceff-all.pdf  used on input line 817.
 (pdftex.def)             Requested size: 227.62206pt x 165.42596pt.
 
-Underfull \hbox (badness 1325) in paragraph at lines 746--746
+Underfull \hbox (badness 1325) in paragraph at lines 822--822
 [][] \T1/cmr/m/n/12 (+20) ^^U |Com-
  []
 
 
-Underfull \hbox (badness 7925) in paragraph at lines 746--746
+Underfull \hbox (badness 7925) in paragraph at lines 822--822
 \T1/cmr/m/n/12 (+20) spec-tro-sco-piques des
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15 <../figures/bands_HST.pdf> <../figures/hist_HST_zxc.pdf>]
+ [16 <../figures/hist_LOWZ_zxc.pdf>] [17 <../figures/speceff-all.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 815.
+               Default added (so using `tbp') on input line 897.
 
-<../figures/zmax_method_snls-01.pdf, id=562, 499.71544pt x 253.45119pt>
+<../figures/zmax_method_snls-01.pdf, id=684, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-01.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-01.pdf>
-Package pdftex.def Info: ../figures/zmax_method_snls-01.pdf  used on input line 819.
+Package pdftex.def Info: ../figures/zmax_method_snls-01.pdf  used on input line 901.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
-<../figures/zmax_method_snls-02.pdf, id=563, 499.71544pt x 253.45119pt>
+<../figures/zmax_method_snls-02.pdf, id=685, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-02.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-02.pdf>
-Package pdftex.def Info: ../figures/zmax_method_snls-02.pdf  used on input line 826.
+Package pdftex.def Info: ../figures/zmax_method_snls-02.pdf  used on input line 908.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
-[16 <../figures/hist_LOWZ_zxc.pdf> <../figures/speceff-all.pdf>] [17 <../figures/zmax_method_snls-01.pdf> <../figures/zmax_method_snls-02.pdf>]
-<../figures/zmax_method_results.pdf, id=626, 518.83969pt x 356.1977pt>
+[18 <../figures/zmax_method_snls-01.pdf> <../figures/zmax_method_snls-02.pdf>]
+<../figures/zmax_method_results.pdf, id=719, 518.83969pt x 356.1977pt>
 File: ../figures/zmax_method_results.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_results.pdf>
-Package pdftex.def Info: ../figures/zmax_method_results.pdf  used on input line 907.
+Package pdftex.def Info: ../figures/zmax_method_results.pdf  used on input line 989.
 (pdftex.def)             Requested size: 318.66948pt x 218.7858pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `ssec:salt' on page 18 undefined on input line 933.
+LaTeX Warning: Reference `ssec:salt' on page 19 undefined on input line 1015.
 
 
-LaTeX Warning: Reference `eq:mxc' on page 18 undefined on input line 936.
+LaTeX Warning: Reference `eq:mxc' on page 19 undefined on input line 1018.
 
-[18]
-<../figures/zmax_maglim_snls.pdf, id=653, 536.6527pt x 345.17519pt>
+[19]
+<../figures/zmax_maglim_snls.pdf, id=746, 536.6527pt x 345.17519pt>
 File: ../figures/zmax_maglim_snls.pdf Graphic file (type pdf)
 <use ../figures/zmax_maglim_snls.pdf>
-Package pdftex.def Info: ../figures/zmax_maglim_snls.pdf  used on input line 953.
+Package pdftex.def Info: ../figures/zmax_maglim_snls.pdf  used on input line 1035.
 (pdftex.def)             Requested size: 432.48051pt x 278.1841pt.
- [19 <../figures/zmax_method_results.pdf>] [20 <../figures/zmax_maglim_snls.pdf>]
-<../figures/sdss_malquist.png, id=739, 1279.78125pt x 866.23625pt>
+ [20 <../figures/zmax_method_results.pdf>] [21 <../figures/zmax_maglim_snls.pdf>]
+<../figures/sdss_malquist.png, id=832, 1279.78125pt x 866.23625pt>
 File: ../figures/sdss_malquist.png Graphic file (type png)
 <use ../figures/sdss_malquist.png>
-Package pdftex.def Info: ../figures/sdss_malquist.png  used on input line 1032.
+Package pdftex.def Info: ../figures/sdss_malquist.png  used on input line 1113.
 (pdftex.def)             Requested size: 227.62206pt x 154.06532pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1050.
+               Default added (so using `tbp') on input line 1131.
 
-[21]
-<../figures/hist_surveys_cuts.pdf, id=761, 444.45978pt x 433.04216pt>
+[22]
+<../figures/hist_surveys_cuts.pdf, id=854, 444.45978pt x 433.04216pt>
 File: ../figures/hist_surveys_cuts.pdf Graphic file (type pdf)
 <use ../figures/hist_surveys_cuts.pdf>
-Package pdftex.def Info: ../figures/hist_surveys_cuts.pdf  used on input line 1099.
+Package pdftex.def Info: ../figures/hist_surveys_cuts.pdf  used on input line 1180.
 (pdftex.def)             Requested size: 364.19667pt x 354.85237pt.
 
 
-LaTeX Warning: Reference `sec:xres' on page 22 undefined on input line 1121.
+LaTeX Warning: Reference `sec:xres' on page 23 undefined on input line 1202.
 
-<../figures/stretchs-cut_btw_hist_stac.pdf, id=771, 400.39952pt x 330.81483pt>
+<../figures/stretchs-cut_btw_hist_stac.pdf, id=864, 400.39952pt x 330.81483pt>
 File: ../figures/stretchs-cut_btw_hist_stac.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_hist_stac.pdf>
-Package pdftex.def Info: ../figures/stretchs-cut_btw_hist_stac.pdf  used on input line 1125.
+Package pdftex.def Info: ../figures/stretchs-cut_btw_hist_stac.pdf  used on input line 1206.
 (pdftex.def)             Requested size: 432.48051pt x 357.34032pt.
-\openout4 = `03_sample.mtc'.
-
-\openout4 = `03_sample.mtc'.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <../figures/sdss_malquist.png>] [23 <../figures/hist_surveys_cuts.pdf>] [24 <../figures/stretchs-cut_btw_hist_stac.pdf>] (./03_sample.mlf1)
+ [23 <../figures/sdss_malquist.png>] [24 <../figures/hist_surveys_cuts.pdf>] [25 <../figures/stretchs-cut_btw_hist_stac.pdf>] [26]
+\openout4 = `03_sample.mtc'.
+
+\openout4 = `03_sample.mtc'.
+
+ (./03_sample.mlf1)
 \openout4 = `03_sample.mtc'.
 
 \openout4 = `03_sample.mtc'.
@@ -3545,16 +3561,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \tf@brf=\write6
 \openout6 = `03_sample.brf'.
 
- [25] [26
+ [27] [28
 
-] [27] [28] [29] [30])
-
-Package natbib Warning: There were undefined citations.
-
+] [29] [30] [31] [32] [33])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 03_sample.maf file.
 \openout4 = `03_sample.maf'.
+
 
 
 Package minitoc(hints) Warning: W0059
@@ -3594,32 +3608,89 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 03_sample.log file.
 
-[31]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1149.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1149.
+[34]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1232.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1232.
  (./03_sample.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1149.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1149.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1232.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1232.
 Package rerunfilecheck Info: File `03_sample.brf' has not changed.
-(rerunfilecheck)             Checksum: 8D1C5370EA93234BE0641A97127B1B25;4151.
+(rerunfilecheck)             Checksum: A6E0D6D6A7C0614F16C6958756671ED9;5450.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 62999 strings out of 492982
- 1331226 string characters out of 6134895
- 1810295 words of memory out of 5000000
- 65217 multiletter control sequences out of 15000+600000
- 560179 words of font info for 180 fonts, out of 8000000 for 9000
+ 63280 strings out of 492982
+ 1335643 string characters out of 6134895
+ 1821890 words of memory out of 5000000
+ 65437 multiletter control sequences out of 15000+600000
+ 561296 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,15n,132p,10452b,2587s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb>
-Output written on 03_sample.pdf (31 pages, 1608057 bytes).
+ 90i,16n,132p,10452b,2619s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.caption.26} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.20} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.15} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.9} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.3} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.28} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.18} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.13} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.7} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.2} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb>
+Output written on 03_sample.pdf (34 pages, 1623999 bytes).
 PDF statistics:
- 1311 PDF objects out of 1440 (max. 8388607)
- 1186 compressed objects within 12 object streams
- 177 named destinations out of 1000 (max. 500000)
- 28070 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1456 PDF objects out of 1728 (max. 8388607)
+ 1322 compressed objects within 14 object streams
+ 211 named destinations out of 1000 (max. 500000)
+ 29619 words of extra memory for PDF output out of 29859 (max. 10000000)
 

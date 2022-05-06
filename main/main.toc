@@ -55,18 +55,19 @@
 \contentsline {subsubsection}{\numberline {3.2.4.2}D\IeC {\'e}tection des supernovae}{36}{subsubsection.3.2.4.2}
 \contentsline {subsubsection}{\numberline {3.2.4.3}Suivi spectro-photom\IeC {\'e}trique}{36}{subsubsection.3.2.4.3}
 \contentsline {subsubsection}{\numberline {3.2.4.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{37}{subsubsection.3.2.4.4}
-\contentsline {subsection}{\numberline {3.2.5}\textsc {Hubble} Space Telescope}{38}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.5}\textsc {Hubble} Space Telescope}{37}{subsection.3.2.5}
 \contentsline {subsubsection}{\numberline {3.2.5.1}Introduction}{38}{subsubsection.3.2.5.1}
 \contentsline {subsubsection}{\numberline {3.2.5.2}D\IeC {\'e}tection des supernovae}{38}{subsubsection.3.2.5.2}
 \contentsline {subsubsection}{\numberline {3.2.5.3}Suivi spectro-photom\IeC {\'e}trique}{38}{subsubsection.3.2.5.3}
-\contentsline {subsection}{\numberline {3.2.6}Autres sondages : CfA1-4 et CSP}{39}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}R\IeC {\'e}sum\IeC {\'e} et comparaison}{39}{subsection.3.2.7}
-\contentsline {section}{\numberline {3.3}\IeC {\'E}chantillon d'\IeC {\'e}tude}{39}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Confection}{40}{subsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.1.1}Approche statistique}{40}{subsubsection.3.3.1.1}
-\contentsline {subsubsection}{\numberline {3.3.1.2}Approche analytique}{43}{subsubsection.3.3.1.2}
-\contentsline {subsection}{\numberline {3.3.2}Pr\IeC {\'e}sentation}{46}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Confirmation d'hypoth\IeC {\`e}se}{49}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.2.5.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{39}{subsubsection.3.2.5.4}
+\contentsline {subsection}{\numberline {3.2.6}Autres sondages~: CfA1-4 et CSP}{40}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}R\IeC {\'e}sum\IeC {\'e} et comparaison}{41}{subsection.3.2.7}
+\contentsline {section}{\numberline {3.3}\IeC {\'E}chantillon d'\IeC {\'e}tude}{41}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Confection}{42}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Approche statistique}{42}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Approche analytique}{44}{subsubsection.3.3.1.2}
+\contentsline {subsection}{\numberline {3.3.2}Pr\IeC {\'e}sentation}{47}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Confirmation d'hypoth\IeC {\`e}se}{50}{subsection.3.3.3}
 \contentsline {chapter}{\numberline {4}\'Evolution avec le \textit {redshift}}{51}{chapter.4}
 \contentsline {section}{\numberline {4.1}Concept d'\^age}{52}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Travaux pr\IeC {\'e}c\IeC {\'e}dents}{52}{subsection.4.1.1}
@@ -94,4 +95,4 @@
 \contentsline {section}{\numberline {6.2}XXX}{56}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}XXX}{56}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}XXX}{56}{subsection.6.2.2}
-\contentsline {chapter}{Conclusions}{57}{chapter*.34}
+\contentsline {chapter}{Conclusions}{57}{chapter*.36}

@@ -82,12 +82,12 @@
     pdfauthor={Nora NICOLAS},
     pdfsubject={Manuscrit de th\`ese pour l'obtention du dipl\^ome de doctorat},
     pdfkeywords={cosmology, phd, supernovae},
-    linktoc=all,            % Titre et page
+    linktoc=page,           % Titre et page
     backref=section,        % Add link to go back to section
     colorlinks=true,        % false: boxed links; true: colored links
-    linkcolor=linkcolor,    % color of internal links
-    citecolor=linkcolor,    % color of links to bibliography
-    urlcolor=linkcolor,     % color of external links
+    linkcolor=dgreen,       % color of internal links
+    citecolor=magenta,      % color of links to bibliography
+    urlcolor=urlcolor,      % color of external links
     pdfencoding=auto,       % http://tex.stackexchange.com/questions/119079
     psdextra=true,          % for '$' in title
     pdfstartview=FitV,      % open fitting view as default
@@ -100,9 +100,13 @@
   \hyperlink{page.#1}{$\uparrow$~Section #2}%
 }
 
+% Reinitialise footnote number each page
+\RequirePackage[perpage]{footmisc}
+
 % Colors
 \RequirePackage[svgnames, dvipsnames, table]{xcolor}
-\definecolor{linkcolor}{rgb}{0,0,1}
+\definecolor{urlcolor}{rgb}{0,0,1}
+\definecolor{dgreen}{rgb}{.1,.6,.1}
 
 % Pour les plots
 \RequirePackage{pgfplots}

@@ -4,15 +4,16 @@
 \chapter{Cr\'eation d'un \'echantillon complet}\label{ch:sample}
 
 \epigraph{Citation}{Autaire}
-
 Afin d'améliorer l'état de l'art dans le domaine de la cosmologie
 observationnelle à l'aide de SNe~Ia et en vue de tester l'évolution de leurs
 propriétés avec le reshift, la première étape de ce projet a été de choisir
 l'échantillon d'étude.
 
-%\dominitoc
-%\tableofcontents
+% \dominitoc
+% \tableofcontents
+\vfill
 \minitoc
+\vfill
 \newpage
 
 \section{Notion de complétude}\label{sec:compl}
@@ -433,14 +434,28 @@ filtres $grizy_{\rm P1}$. Ils sont globalement similaires à ceux de SDSS (voir
 Section~\ref{ssec:sdss}) à l'exception de la bande $g_{\rm P1}$ qui est
 \SI{20}{nm} plus étendu du côté rouge du spectre et la bande $z_{\rm P1}$ qui a
 une coupe plus nette à \SI{922}{nm}. Les transmissions des filtres sont tracées
-Figure~\ref{fig:ps1bands}.
+Figure~\ref{fig:ps1bands}, et un exemple de courbe de lumière est présenté
+Figure~\ref{fig:lc_550041}.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=.8\linewidth]{bands_PS1.pdf}
-    \captionsetup{justification=centering}
-    \caption{Transmissions des filtres utilisés par PS1.}
-    \label{fig:ps1bands}
+    \begin{subfigure}[]{.49\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{bands_PS1.pdf}
+        \captionsetup{justification=centering}
+        \caption{Transmissions des filtres $grizy$ de la caméra utilisée par
+        PS1.}
+        \label{fig:ps1bands}
+    \end{subfigure}
+    \begin{subfigure}[]{.49\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{lc_550041.pdf}
+        \captionsetup{justification=centering}
+        \caption{Courbe de lumière en bandes $gri$ de la SN Ia confirmée 550041,
+        à $z = 0.26$.}
+        \label{fig:ps1bands}
+    \end{subfigure}
+    \caption{Caractéristiques du sondage PS1.}
 \end{figure}
 
 \subsubsection{Suivi spectro-photométrique}\label{sssec:ps1spectro}
@@ -528,8 +543,8 @@ redshifts, stretch et couleur de ces 279 données.
             \bottomrule
         \end{tabular}
         \begin{tablenotes}[flushleft]
-        \item \textbf{Notes.} Le nombre de SNe est tiré de l'analyse de
-            Pantheon.
+        \item \textbf{\hspace{-3.2pt}Notes.} Le nombre de SNe est tiré de
+            l'analyse de Pantheon.
         \end{tablenotes}
     \end{threeparttable}
 \end{table}
@@ -544,8 +559,6 @@ redshifts, stretch et couleur de ces 279 données.
 \end{figure}
 
 \subsection{SuperNovae Legacy Survey}\label{ssec:snls}
-conley2011, sullivan2011
-
 \subsubsection{Introduction}\label{sssec:snlsintro}
 
 Le \textit{Supernova Legacy Survey}~\citep[SNLS,][]{astier2006, sullivan2011}
@@ -570,8 +583,8 @@ CFHTLS\footnote{\href{https://www.cfht.hawaii.edu/Science/CFHTLS/}
 {https://www.cfht.hawaii.edu/Science/CFHTLS/}} représentant \SI{4}{deg^2} du
 ciel réparti sur 4 champs de \SI{1}{deg^2} chacun et à faible extinction
 galactique. L'acquisition se fait en 4 bandes $g'r'i'z'$ avec une cadence de
-\SI{7}{jours} et une profondeur de \SI{24.1}{mag} en bande
-$i$\footnote{\href{https://www.cfht.hawaii.edu/Science/CFHTLS/cfhtlsfinalreleaseexecsummary.html}
+\SI{7}{jours} et une profondeur de \SI{25.0}{mag} en bande
+$r$\footnote{\href{https://www.cfht.hawaii.edu/Science/CFHTLS/cfhtlsfinalreleaseexecsummary.html}
 {https://www.cfht.hawaii.edu/Science/CFHTLS/cfhtlsfinalreleaseexecsummary.html}}
 (et \SI{25.5}{mag} en bande $g$). Le système de filtre de SNLS est similaire à
 celui de SDSS (cf. Section~\ref{ssec:sdss}), mais la spécificité de SNLS est de
@@ -605,8 +618,9 @@ Figure~\ref{fig:snlslc}
 \subsubsection{Suivi spectro-photométrique}\label{sssec:snlsspectro}
 
 Par la profondeur de son acquisition, SNLS utilise des télescopes dont les
-miroirs ont un diamètre entre 8 et \SI{10}{m}~: le Keck, le Very Large Telescope
-\citep[VLT,][]{} et les télescopes Gemini pour le typage et la détermination du
+miroirs ont un diamètre entre 8 et \SI{10}{m}~: le Keck~\citep{oke1995,
+ellis2008}, le Very Large Telescope \citep[VLT,][]{balland2009} et les
+télescopes Gemini~\citep{hook2004} pour le typage et la détermination du
 redshift. Toutes les données de SNLS doivent être confirmées
 spectroscopiquement. La partie photométrique du sondage délivrant plus de
 candidats qu'il n'est possible d'observer spectroscopiquement, un classement des
@@ -616,7 +630,7 @@ photométrique réalisant un ajustement de courbe de lumières en temps réel po
 éviter la contamination avec d'autres types de SNe~Ia, mais utilise également
 une base de données de tous les phénomènes transitoires observés pour écarter
 les étoiles variables qui varient sur de longs temps (plus d'une année). Les
-candidates les moins lumineux, $i > \SI{24.5}{mag}$ (probablement à $z > 1$) et
+candidats les moins lumineux, $i > \SI{24.5}{mag}$ (probablement à $z > 1$) et
 ceux dont la luminosité n'est que faiblement supérieure à celle de leur galaxie
 hôte (complexifiant l'identification) ne sont pas observés~: avec cette méthode,
 environ 70\% des candidats observés se sont avérés être des SNe~Ia. Sur la
@@ -643,41 +657,60 @@ Figure~\ref{fig:snlshist}.
 
 \subsection{\textsc{Hubble} Space Telescope}\label{ssec:hst}
 
+Plusieurs sondages permettant l'acquisition de données de SNe~Ia ont été
+effectués avec le télescope spatial \textsc{Hubble}
+(HST\footnote{\href{https://www.nasa.gov/mission_pages/hubble/story/index.html}
+{https://www.nasa.gov/mission\_pages/hubble/story/index.html}})~: le
+\textit{Great Observatories Origins Deep
+Survey}~\citep[GOODS,][]{giavalisco2004, strolger2004, riess2007}, le
+\textit{Supernova Cosmology Project} \citep[SCP,][]{suzuki2012}, et les sondages
+\textit{Cosmic Assembly Near-infrared Deep Extragalactic Legacy
+Survey}~\citep[CANDELS,][]{rodney2014} et \textit{Cluster Lensing And Supernova
+Survey with Hubble}~\citep[CLASH,][]{graur2014}. Tous ces sondages recueillent
+des données à $z > 1$ qui se révèlent d'une grande importance par leur poids
+dans le diagramme de \textsc{Hubble} pour tester l'évolution des propriétés des
+SNe. Ils sont combinés par la suite sous le nom «~HST~»~; ainsi, par souci
+d'efficacité, nous ne détaillons ici que les résultats issus de GOODS qui
+constituent la plus grande part des données à haut redshift de notre
+échantillon.
+
 \subsubsection{Introduction}\label{sssec:hstintro}
 
 Le sondage \textit{\textsc{Hubble} Higher $z$ Supernova
-Search}~\citep[HHZSS,][]{strolger2004} est le premier sondage de recherche de
-SNe depuis l'espace. Son but principal est d'étudier la présence de biais
-astrophysiques rendant les SNe~Ia intrinsèquement moins lumineuses avec la
-distance, imitant une preuve de l'existence de l'énergie sombre. Ce programme
-vise à relever des données au-delà de $z = 1$, entre $1 < z < 2$. Dans cette
-plage, les SNe~Ia devraient exploser à une époque de décélération cosmique,
-devenant ainsi relativement plus brillantes qu'à des décalages vers le rouge
-plus faibles. On s'attend à ce que cela se distingue clairement des simples
-effets de mesure astrophysiques, permettant une meilleure connaissance des
-SNe~Ia. Étudier de manière approfondie et fiable ces SNe~Ia et réaliser les
-observations de suivi nécessaires pour une telle étude nécessite des
-observations plus profondes que ce qui peut être réalisé avec des télescopes
-terrestres. Les observations de ce sondage s'étendent sur une plage \SI{8}{mois}
+Search}~\citep[HHZSS,][]{strolger2004}, sous-programme de GOODS, est un des
+premiers sondages de recherche de SNe depuis l'espace. Son but principal est
+d'étudier la présence de biais astrophysiques rendant les SNe~Ia intrinsèquement
+moins lumineuses avec la distance, imitant une preuve de l'existence de
+l'énergie sombre. Ce programme vise à relever des données au-delà de $z = 1$,
+entre $1 < z < 2$. Dans cette plage, les SNe~Ia devraient exploser à une époque
+de décélération cosmique, devenant ainsi relativement plus brillantes qu'à des
+décalages vers le rouge plus faibles. On s'attend à ce que cela se distingue
+clairement des simples effets de mesure astrophysiques, permettant une meilleure
+connaissance des SNe~Ia. Étudier de manière approfondie et fiable ces SNe~Ia et
+réaliser les observations de suivi nécessaires pour une telle étude nécessite
+des observations plus profondes que ce qui peut être réalisé avec des télescopes
+terrestres. Les observations de ce sondage s'étendent sur une plage
+\SI{8}{mois}.
 
 \subsubsection{Détection des supernovae}\label{sssec:hstdetec}
 
-Ce programme utilise le sondage \textit{Great Observatories Origins Deep
-Survey}~\citep[GOODS,][]{?} et les caractéristiques du \textit{\textsc{Hubble}
-Space Telescope}~\citep[HST,][, donnant usuellement son nom au sondage]{?} et de
-\textit{Advanced Camera for Surveys}~\citep[ACS,][]{?}. GOODS combine des
-observations multibandes extrêmement profondes de l'ultraviolet à l'optique
-(dans le référentiel au repos) par le biais des filtres F435W, F606W, F775W et
-F850LP. Deux champs ont été observés pour une surface totale d'acquisition de
-\SI{300}{arcmin^2}, chacun à haute latitude écliptique pour permettre aux
-opérations au sol d'observer depuis les deux hémisphères. Sa cadence est
-d'environ \SI{45}{jours}, suffisante pour détecter les SNe~Ia vers le maximum
-d'émission pour $z \approx 1$ et avant le maximum pour $z > 1.3$ (dû à
-l'étalement de la courbe de lumière du fait de l'expansion~; dans le référentiel
-au repos le temps de montée typique est de $\approx \SI{20}{jours}$), mais
-permet également de s'assurer qu'une SN dépassant le seuil de détection ne
-repasse pas en-dessous avant seconde observation. Les transmissions des filtres
-utilisés par le sondage sont tracées Figure~\ref{fig:hstbands}.
+Ce programme utilise la \textit{Advanced Camera for
+Surveys}\footnote{\href{https://www.nasa.gov/content/hubble-space-telescope-advanced-camera-for-surveys}
+{https://www.nasa.gov/content/hubble-space-telescope-advanced-camera-for-surveys}}
+(ACS). GOODS combine des observations multibandes extrêmement profondes de
+l'ultraviolet à l'optique (dans le référentiel au repos) par le biais des
+filtres F435W, F606W, F775W et F850LP, avec une magnitude limite pour F850LP
+$\approx$ 26. Deux champs ont été observés pour une
+surface totale d'acquisition de \SI{300}{arcmin^2}, chacun à haute latitude
+écliptique pour permettre aux opérations au sol d'observer depuis les deux
+hémisphères. Sa cadence est d'environ \SI{45}{jours}, suffisante pour détecter
+les SNe~Ia vers le maximum d'émission pour $z \approx 1$ et avant le maximum
+pour $z > 1.3$ (dû à l'étalement de la courbe de lumière du fait de
+l'expansion~; dans le référentiel au repos le temps de montée typique est de
+$\approx \SI{20}{jours}$), mais permet également de s'assurer qu'une SN
+dépassant le seuil de détection ne repasse pas en-dessous avant seconde
+observation. Les transmissions des filtres utilisés par le sondage sont tracées
+Figure~\ref{fig:hstbands}.
 
 \begin{figure}[h!]
     \centering
@@ -695,14 +728,48 @@ est possible d'atteindre par rapport à un instrument au sol. Il est cependant
 limité par sa faible résolution spectrale et le recouvrement de multiples ordres
 spectraux d'autres sources proches~: ainsi, seules les SNe avec un séparation
 angulaire notable avec leur hôte et d'autres sources lumineuses ont été
-observées.
+observées. Une méthode secondaire d'identification des SNe~Ia par photométrie a
+été utilisée pour optimiser la confirmation spectroscopique. \cite{riess2007}
+détaillent les données ayant la plus haute qualité, qualifiées de «~dorées~»~:
+celles dont la classification est certaine (rapport signal sur bruit $\gtrsim$
+20) et dont la photométrie est suffisante pour amener à une estimation de
+distance robuste, facilement caractérisée par les erreurs de mesure. On relève
+42 données de~\cite{strolger2004} et 21 de~\cite{riess2007}.
 
-Ces données à haut redshift, inclues dans Pantheon, se révèlent d'une grande
-importance par leur poids dans le diagramme de \textsc{Hubble} pour tester
-l'évolution des propriétés des SNe. À ces distances, le typage peut s'avérer
-difficile mais la classification était suffisamment robuste pour les inclure
-dans l'analyse cosmologique~\citep{scolnic2018}~; ces données ne sont donc pas
-sujettes aux coupes en redshifts de la Section~\ref{ssec:cuts}.
+\subsubsection{Données conservées}\label{sssec:hstdata}
+
+À ces distances, le typage peut s'avérer difficile mais la classification des
+données «~dorées~» est suffisamment robuste pour les inclure dans l'analyse
+cosmologique de~\citep{scolnic2018}~; ces données ne sont donc pas sujettes à
+d'autres coupes. En combinant SCP, GOODS, CLASH et CANDELS, ce sont 26 données
+qui constituent l'échantillon HST~; le détail des données par sondage est
+indique Table~\ref{tab:hstcuts}, et la distribution des paramètres en redshift,
+stretch et couleur est montrée Figure~\ref{fig:hsthist}.
+
+\begin{table}[]
+    \centering
+    \begin{threeparttable}
+        \caption{Nombre de SNe~Ia composant notre échantillon HST selon les
+        sondages à haut redshifts.}
+        \label{tab:hstcuts}
+        \begin{tabular}{lcc}
+            \toprule\toprule
+            Sondage & Nb de SNe~Ia & $z$ moyen \\
+            \midrule
+            SCP     & 3            & 1.092 \\
+            GOODS   & 15           & 1.120 \\
+            CLASH   & 2            & 1.555\\
+            CANDELS & 6            & 1.732 \\
+            \midrule
+            Total   & 26           & \\
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}[flushleft]
+        \item \textbf{\hspace{-3.2pt}Notes.} Le nombre de SNe est tiré de
+            l'analyse de Pantheon.
+        \end{tablenotes}
+    \end{threeparttable}
+\end{table}
 
 \begin{figure}[]
     \centering
@@ -713,14 +780,22 @@ sujettes aux coupes en redshifts de la Section~\ref{ssec:cuts}.
     \label{fig:hsthist}
 \end{figure}
 
-\subsection{Autres sondages : CfA1-4 et CSP}\label{ssec:lowz}
+\subsection{Autres sondages~: CfA1-4 et CSP}\label{ssec:lowz}
 
-conley2011:
-The current nearby SN set is dominated by five main samples:
-Calán/Tololo (Hamuy et al. 1996, 29 SNe), CfAI (Riess et al.
-1999, 22 SNe), CfAII (Jha et al. 2006, 44 SNe), CfAIII (Hicken
-et al. 2009b, 185 SNe), and CSP (Contreras et al. 2010, 35
-SNe).
+Enfin, bien que ces sondages n'apparaissent pas dans la première partie de cette
+étude, nous utilisons d'autres données à bas redshifts que celles issues de
+SNfactory. Comme pour la section précédente, ces données proviennent d'une
+combinaison de sondages~: celles des 4 relevés du \textit{Center for
+Astrophysics} de Harvard, nommés CfA1 à 4~\citep{riess1999, jha2006,
+hicken2009a, hicken2009b, hicken2012} et des 2 publications du \textit{Carnegie
+Supernova Project}~\citep[CSP,][]{contreras2010, folatelli2010,
+stritzinger2011}. Ils ne feront pas l'objet de plus de détail avant le chapitre
+pertinent (Chapitre~\ref{ch:snana}), étant donné que ce sont tous les sondages à
+recherche ciblée que l'on écarte de notre échantillon. Cette combinaison de
+sondage, résultant en 172 SNe~Ia après les coupes de~\cite{scolnic2018}, est
+appelée \textit{LOWZ}, leur données s'étalant entre $0.01 < z < 0.07$. Une
+présentation de leurs distributions de paramètres en redshift, stretch et
+couleur est cependant donnée Figure~\ref{fig:lowzhist}.
 
 \begin{figure}[h]
     \centering
@@ -733,8 +808,9 @@ SNe).
 
 \subsection{Résumé et comparaison}\label{ssec:sondcomp}
 
-Différentes techniques et c'est bien compliqué tout ça. Beaucoup de calibration,
-etc.
+La variété des intervalles de redshifts et donc des caractéristiques des
+sondages impose de calibrations différentes, c'est compliqué. Travail en commun,
+grandes collaborations
 
 \begin{SCfigure}[0.5][h!]
     \centering
@@ -752,35 +828,41 @@ etc.
         \label{tab:sondcomp}
         \begin{tabular}{lcccccc}
             \toprule
-            Sondage           &
-            Surface (deg$^2$) & Cadence (jours) & Filtres &
-            Profondeur (mag)  & Intervalle $z$  & $N_{\rm SN}$\\
+            Sondage              &
+            Surface (deg$^2$)    & Cadence (jours)   & Filtres          &
+            Profondeur (mag)     & Intervalle $z$    & $N_{\rm SN}$\\
             \midrule
-            SNf               &
-            500               & 1                  & BR               &
-            $r \lesssim 19.5$ & $0.023 < z < 0.08$ & 114\\
-            LOWZ              &
-            ?                 & ?                  & ?                &
-            ?                 & $0.009 < z < 0.07$ & 172\\
-            SDSS              &
-            300               & 4                  & $ugriz$          &
-            $r \lesssim 20.5$ & $0.037 < z < 0.40$ & 335\\
-            PS1               &
-            70                & 7                  & $grizy_{\rm P1}$ &
-            $r \lesssim 23.1$ & $0.026 < z < 0.63$ & 279\\
-            SNLS              &
-            4                 & 7                  & $g'r'i'z'$       &
-            $i \lesssim 24.1$ & $0.125 < z < 1.06$ & 236\\
-            HST               &
-            ?                 & ?                  & ?                &
-            ?                 & $0.735 < z < 2.26$ & 26\\
+            \hyperref[ssec:snf]{SNf} &
+            500                      & 1                 & BR               &
+            $r \lesssim 19.5$        & $0.02 < z < 0.08$ & 114\\
+            \hyperref[ssec:lowz]{LOWZ}\tnote{1}            &
+            --                       & --                & $UBVRI$          &
+            --                       & $0.01 < z < 0.07$ & 172\\
+            \hyperref[ssec:sdss]{SDSS}                     &
+            300                      & 4                 & $ugriz$          &
+            $r \lesssim 22.5$        & $0.04 < z < 0.40$ & 335\\
+            \hyperref[ssec:ps1]{PS1}                      &
+            70                       & 7                 & $grizy_{\rm P1}$ &
+            $r \lesssim 23.1$        & $0.03 < z < 0.63$ & 279\\
+            \hyperref[ssec:snls]{SNLS}                     &
+            4                        & 7                 & $g'r'i'z'$       &
+            $r \lesssim 25.0$        & $0.13 < z < 1.06$ & 236\\
+            \hyperref[ssec:hst]{HST}\tnote{1}             &
+            0.08                     & 45                & $griz$\tnote{2}  &
+            F850LP $\lesssim 26$     & $0.74 < z < 2.26$ & 26\\
             \midrule
-            Total & \multicolumn{5}{c}{--} & 1162\\
+            Total & \multicolumn{5}{c}{--} & 1162\tnote{3}\\
             \bottomrule
         \end{tabular}
         \begin{tablenotes}[flushleft]
-        \item \textbf{Notes.} Le nombre de SNe est tiré de l'analyse de
-            Pantheon.
+        \item \textbf{\hspace{-3.2pt}Notes.} Le nombre de SNe est tiré de
+            l'analyse de Pantheon.
+        \item [1] Caractéristiques non pertinentes en temps que sondages ciblés.
+        \item [2] Caractéristiques pour GOODS, intervalle et nombre de SNe~Ia
+            pour tous les sondages HST.
+        \item [3] Relativement équivalent, cf. Figure~\ref{fig:hstbands}.
+        \item [4] 1048 sans SNf \citep{scolnic2018}, 990 sans LOWZ (base de
+            notre échantillon).
         \end{tablenotes}
     \end{threeparttable}
 \end{table}
@@ -951,20 +1033,19 @@ magnitude absolue standardisée est $M_{\min}^{t_0}=\SI{-18.31}{mag}$.
 \begin{figure}
     \centering
     \includegraphics[width=0.95\linewidth]{zmax_maglim_snls.pdf}
-    \caption[Distribution des paramètres de courbe de lumière de stretch ($x_1$)
-    et de couleur ($c$) issus d'un ajustement par \texttt{SALT2.4} pour les
-    données de SNe~Ia des sondages SDSS, PS1 et SNLS combinés du catalogue
-    Pantheon.]{Distribution des paramètres de courbe de lumière de stretch
-        ($x_1$) et de couleur ($c$) issus d'un ajustement par \texttt{SALT2.4}
-        pour les données de SNe~Ia des sondages SDSS, PS1 et SNLS combinés du
-        catalogue Pantheon. Chaque supernova est représentée par un point bleu.
-        L'ellipse limite des paramètres $(x_1=\pm3, c=\pm0.3)$ est représentée
-        avec un gradient de couleur correspondant à la magnitude absolue
-        standardisée en utilisant les valeurs de~\cite{scolnic2018} pour les
-        coefficients $\alpha$ et $\beta$. Les lignes diagonales grises
-        représentent l'évolution de $m = m_{\lim}$ en fonction de $z$ dans le
-        plan $(x_1,c)$ entre $z=0.50$ et $z=1.70$ pour la magnitude limite
-    $m_{\lim}=\SI{24.8}{mag}$ du sondage SNLS.}
+    \caption[Distribution et limite des paramètres de courbe de lumière de
+    stretch ($x_1$) et de couleur ($c$) des sondages SDSS, PS1 et SNLS combinés
+    du catalogue Pantheon.]{Distribution des paramètres de courbe de lumière de
+        stretch ($x_1$) et de couleur ($c$) issus d'un ajustement par
+        \texttt{SALT2.4} pour les données de SNe~Ia des sondages SDSS, PS1 et
+        SNLS combinés du catalogue Pantheon. Chaque supernova est représentée
+        par un point bleu. L'ellipse limite des paramètres $(x_1=\pm3,
+        c=\pm0.3)$ est représentée avec un gradient de couleur correspondant à
+        la magnitude absolue standardisée en utilisant les valeurs
+        de~\cite{scolnic2018} pour les coefficients $\alpha$ et $\beta$. Les
+        lignes diagonales grises représentent l'évolution de $m = m_{\lim}$ en
+        fonction de $z$ dans le plan $(x_1,c)$ entre $z=0.50$ et $z=1.70$ pour
+    la magnitude limite $m_{\lim}=\SI{24.8}{mag}$ du sondage SNLS.}
     \label{fig:maglim}
 \end{figure}
 
@@ -1054,9 +1135,9 @@ notre étude.
         \label{tab:zlimsample}
         \begin{tabular}{lccc}
             \toprule
-            \multirow{2}[3]{*}{Sondage} &
+            \multirow{2}[2]{*}{Sondage} &
             \multicolumn{2}{c}{$z_{\lim}$} &
-            \multirow{2}[3]{*}{$N_{\rm SN}$}\\
+            \multirow{2}[2]{*}{$N_{\rm SN}$}\\
             \cmidrule(lr){2-3}
             & Statistique & Analytique & \\
             \midrule
@@ -1081,9 +1162,9 @@ notre étude.
             \bottomrule
         \end{tabular}
         \begin{tablenotes}[flushleft]
-        \item \textbf{Notes.} L'échantillon et notamment le nombre de SNe
-            utilisées suivent les limites analytiques. Les nombres entre
-            parenthèse correspondent aux limites conservatives.
+        \item \textbf{\hspace{-3.2pt}Notes.} L'échantillon et notamment le
+            nombre de SNe utilisées suivent les limites analytiques. Les nombres
+            entre parenthèse correspondent aux limites conservatives.
         \end{tablenotes}
     \end{threeparttable}
 \end{table}
@@ -1134,6 +1215,8 @@ Section~\ref{sec:xres}.
 \end{figure}
 
 \subsection{Confirmation d'hypothèse}\label{ssec:testvl}
+
+\newpage
 
 % \dominilof
 % \listoffigures

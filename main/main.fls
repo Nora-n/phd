@@ -388,6 +388,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -816,6 +818,9 @@ INPUT ../figures/hist_SDSS_zxc.pdf
 INPUT ../figures/bands_PS1.pdf
 INPUT ../figures/bands_PS1.pdf
 INPUT ../figures/bands_PS1.pdf
+INPUT ../figures/lc_550041.pdf
+INPUT ../figures/lc_550041.pdf
+INPUT ../figures/lc_550041.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-34.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-34.def
 INPUT ../figures/hist_PS1_zxc.pdf

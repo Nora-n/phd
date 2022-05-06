@@ -6,16 +6,35 @@
 \contentsline {section}{\numberline {1.2}Pr\IeC {\'e}sentation des sondages}{5}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}The Nearby Supernova factory}{5}{subsection.1.2.1}
 \contentsline {subsubsection}{\numberline {1.2.1.1}Introduction}{5}{subsubsection.1.2.1.1}
-\contentsline {subsubsection}{\numberline {1.2.1.2}D\IeC {\'e}tection des supernovae}{5}{subsubsection.1.2.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1.3}Suivi spectro-photom\IeC {\'e}trie}{6}{subsubsection.1.2.1.3}
-\contentsline {subsubsection}{\numberline {1.2.1.4}Description des donn\IeC {\'e}es conserv\IeC {\'e}es}{6}{subsubsection.1.2.1.4}
-\contentsline {subsubsection}{\numberline {1.2.1.5}Taux de formation stellaire sp\IeC {\'e}cifique spectroscopique}{7}{subsubsection.1.2.1.5}
-\contentsline {subsection}{\numberline {1.2.2}Sloan Digital Sky Survey}{7}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Panoramic Survey Telescope and Rapid Response System}{7}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}SuperNovae Legacy Survey}{7}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Hubble Space Telescope}{7}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}Autres sondages : CfA1-4 et CSP}{7}{subsection.1.2.6}
-\contentsline {section}{\numberline {1.3}\IeC {\'E}chantillon d'\IeC {\'e}tude}{7}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Confection}{7}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Pr\IeC {\'e}sentation}{7}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Confirmation d'hypoth\IeC {\`e}se}{7}{subsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.2.1.2}D\IeC {\'e}tection des supernovae}{6}{subsubsection.1.2.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1.3}Suivi spectro-photom\IeC {\'e}trique}{6}{subsubsection.1.2.1.3}
+\contentsline {subsubsection}{\numberline {1.2.1.4}Taux de formation stellaire sp\IeC {\'e}cifique spectroscopique}{7}{subsubsection.1.2.1.4}
+\contentsline {subsubsection}{\numberline {1.2.1.5}Description des donn\IeC {\'e}es conserv\IeC {\'e}es}{7}{subsubsection.1.2.1.5}
+\contentsline {subsection}{\numberline {1.2.2}Sloan Digital Sky Survey}{8}{subsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.1}Introduction}{8}{subsubsection.1.2.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2.2}D\IeC {\'e}tection des supernovae}{8}{subsubsection.1.2.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.3}Suivi spectro-photom\IeC {\'e}trique}{9}{subsubsection.1.2.2.3}
+\contentsline {subsubsection}{\numberline {1.2.2.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{10}{subsubsection.1.2.2.4}
+\contentsline {subsection}{\numberline {1.2.3}Panoramic Survey Telescope and Rapid Response System}{10}{subsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Introduction}{10}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {1.2.3.2}D\IeC {\'e}tection des supernovae}{11}{subsubsection.1.2.3.2}
+\contentsline {subsubsection}{\numberline {1.2.3.3}Suivi spectro-photom\IeC {\'e}trique}{11}{subsubsection.1.2.3.3}
+\contentsline {subsubsection}{\numberline {1.2.3.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{12}{subsubsection.1.2.3.4}
+\contentsline {subsection}{\numberline {1.2.4}SuperNovae Legacy Survey}{14}{subsection.1.2.4}
+\contentsline {subsubsection}{\numberline {1.2.4.1}Introduction}{14}{subsubsection.1.2.4.1}
+\contentsline {subsubsection}{\numberline {1.2.4.2}D\IeC {\'e}tection des supernovae}{14}{subsubsection.1.2.4.2}
+\contentsline {subsubsection}{\numberline {1.2.4.3}Suivi spectro-photom\IeC {\'e}trique}{14}{subsubsection.1.2.4.3}
+\contentsline {subsubsection}{\numberline {1.2.4.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{15}{subsubsection.1.2.4.4}
+\contentsline {subsection}{\numberline {1.2.5}\textsc {Hubble} Space Telescope}{15}{subsection.1.2.5}
+\contentsline {subsubsection}{\numberline {1.2.5.1}Introduction}{16}{subsubsection.1.2.5.1}
+\contentsline {subsubsection}{\numberline {1.2.5.2}D\IeC {\'e}tection des supernovae}{16}{subsubsection.1.2.5.2}
+\contentsline {subsubsection}{\numberline {1.2.5.3}Suivi spectro-photom\IeC {\'e}trique}{16}{subsubsection.1.2.5.3}
+\contentsline {subsubsection}{\numberline {1.2.5.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{17}{subsubsection.1.2.5.4}
+\contentsline {subsection}{\numberline {1.2.6}Autres sondages~: CfA1-4 et CSP}{18}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.7}R\IeC {\'e}sum\IeC {\'e} et comparaison}{19}{subsection.1.2.7}
+\contentsline {section}{\numberline {1.3}\IeC {\'E}chantillon d'\IeC {\'e}tude}{19}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Confection}{20}{subsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.1.1}Approche statistique}{20}{subsubsection.1.3.1.1}
+\contentsline {subsubsection}{\numberline {1.3.1.2}Approche analytique}{22}{subsubsection.1.3.1.2}
+\contentsline {subsection}{\numberline {1.3.2}Pr\IeC {\'e}sentation}{25}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Confirmation d'hypoth\IeC {\`e}se}{28}{subsection.1.3.3}
