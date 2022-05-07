@@ -3,46 +3,46 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: ../main/aa_url.bst
 Database file #1: ../chapters/99_references.bib
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 65 entries,
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 68 entries,
             3173 wiz_defined-function locations,
-            1238 strings with 63015 characters,
-and the built_in function-call counts, 139780 in all, are:
-= -- 8738
-> -- 19884
+            1262 strings with 74040 characters,
+and the built_in function-call counts, 165684 in all, are:
+= -- 10241
+> -- 24108
 < -- 16
-+ -- 6667
-- -- 6600
-* -- 22070
-:= -- 23606
-add.period$ -- 65
-call.type$ -- 65
-change.case$ -- 2453
-chr.to.int$ -- 63
-cite$ -- 65
-duplicate$ -- 1479
-empty$ -- 2217
-format.name$ -- 6743
-if$ -- 24476
++ -- 8077
+- -- 8007
+* -- 26399
+:= -- 28001
+add.period$ -- 68
+call.type$ -- 68
+change.case$ -- 2934
+chr.to.int$ -- 66
+cite$ -- 68
+duplicate$ -- 1539
+empty$ -- 2316
+format.name$ -- 8156
+if$ -- 28907
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 50
-newline$ -- 199
-num.names$ -- 272
-pop$ -- 2475
+missing$ -- 53
+newline$ -- 208
+num.names$ -- 284
+pop$ -- 2953
 preamble$ -- 1
-purify$ -- 2452
+purify$ -- 2933
 quote$ -- 0
-skip$ -- 1178
+skip$ -- 1232
 stack$ -- 0
-substring$ -- 1544
-swap$ -- 4802
+substring$ -- 1625
+swap$ -- 5752
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 585
+type$ -- 612
 warning$ -- 0
-while$ -- 280
+while$ -- 292
 width$ -- 0
-write$ -- 718
+write$ -- 751

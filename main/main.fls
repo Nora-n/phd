@@ -124,6 +124,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/frame.tss
 INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/frame.tss
 INPUT /usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty

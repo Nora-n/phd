@@ -1,4 +1,4 @@
-\begin{thebibliography}{65}
+\begin{thebibliography}{68}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Aldering}} {et~al.}(2002)\textsc{{Aldering}},
@@ -51,6 +51,46 @@
   survey}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/200912246}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2009A&A...507...85B}{507, 85}
+
+\bibitem[{\textsc{{Bellm}} {et~al.}(2019)\textsc{{Bellm}}, \textsc{{Kulkarni}},
+  \textsc{{Graham}}, \textsc{{Dekany}}, \textsc{{Smith}}, \textsc{{Riddle}},
+  \textsc{{Masci}}, \textsc{{Helou}}, \textsc{{Prince}}, \textsc{{Adams}},
+  \textsc{{Barbarino}}, \textsc{{Barlow}}, \textsc{{Bauer}}, \textsc{{Beck}},
+  \textsc{{Belicki}}, \textsc{{Biswas}}, \textsc{{Blagorodnova}},
+  \textsc{{Bodewits}}, \textsc{{Bolin}}, \textsc{{Brinnel}}, \textsc{{Brooke}},
+  \textsc{{Bue}}, \textsc{{Bulla}}, \textsc{{Burruss}}, \textsc{{Cenko}},
+  \textsc{{Chang}}, \textsc{{Connolly}}, \textsc{{Coughlin}},
+  \textsc{{Cromer}}, \textsc{{Cunningham}}, \textsc{{De}},
+  \textsc{{Delacroix}}, \textsc{{Desai}}, \textsc{{Duev}}, \textsc{{Eadie}},
+  \textsc{{Farnham}}, \textsc{{Feeney}}, \textsc{{Feindt}}, \textsc{{Flynn}},
+  \textsc{{Franckowiak}}, \textsc{{Frederick}}, \textsc{{Fremling}},
+  \textsc{{Gal-Yam}}, \textsc{{Gezari}}, \textsc{{Giomi}},
+  \textsc{{Goldstein}}, \textsc{{Golkhou}}, \textsc{{Goobar}},
+  \textsc{{Groom}}, \textsc{{Hacopians}}, \textsc{{Hale}}, \textsc{{Henning}},
+  \textsc{{Ho}}, \textsc{{Hover}}, \textsc{{Howell}}, \textsc{{Hung}},
+  \textsc{{Huppenkothen}}, \textsc{{Imel}}, \textsc{{Ip}},
+  \textsc{{Ivezi{\'c}}}, \textsc{{Jackson}}, \textsc{{Jones}},
+  \textsc{{Juric}}, \textsc{{Kasliwal}}, \textsc{{Kaspi}}, \textsc{{Kaye}},
+  \textsc{{Kelley}}, \textsc{{Kowalski}}, \textsc{{Kramer}}, \textsc{{Kupfer}},
+  \textsc{{Landry}}, \textsc{{Laher}}, \textsc{{Lee}}, \textsc{{Lin}},
+  \textsc{{Lin}}, \textsc{{Lunnan}}, \textsc{{Giomi}}, \textsc{{Mahabal}},
+  \textsc{{Mao}}, \textsc{{Miller}}, \textsc{{Monkewitz}}, \textsc{{Murphy}},
+  \textsc{{Ngeow}}, \textsc{{Nordin}}, \textsc{{Nugent}}, \textsc{{Ofek}},
+  \textsc{{Patterson}}, \textsc{{Penprase}}, \textsc{{Porter}},
+  \textsc{{Rauch}}, \textsc{{Rebbapragada}}, \textsc{{Reiley}},
+  \textsc{{Rigault}}, \textsc{{Rodriguez}}, \textsc{{van Roestel}},
+  \textsc{{Rusholme}}, \textsc{{van Santen}}, \textsc{{Schulze}},
+  \textsc{{Shupe}}, \textsc{{Singer}}, \textsc{{Soumagnac}}, \textsc{{Stein}},
+  \textsc{{Surace}}, \textsc{{Sollerman}}, \textsc{{Szkody}},
+  \textsc{{Taddia}}, \textsc{{Terek}}, \textsc{{Van Sistine}}, \textsc{{van
+  Velzen}}, \textsc{{Vestrand}}, \textsc{{Walters}}, \textsc{{Ward}},
+  \textsc{{Ye}}, \textsc{{Yu}}, \textsc{{Yan}} et
+  \textsc{{Zolkower}}}]{bellm2019}
+\textsc{{Bellm} E.~C.}, \textsc{{Kulkarni} S.~R.}, \textsc{{Graham} M.~J.}
+  {et~al.} 2019, «~{The Zwicky Transient Facility: System Overview,
+  Performance, and First Results}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/aaecbe}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8002B}{131, 018002}
 
 \bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
   \textsc{{Kessler}}, \textsc{{Guy}}, \textsc{{Mosher}}, \textsc{{Hardin}},
@@ -181,6 +221,19 @@
   cadre du projet ``The Nearby Supernova Factory''}~», Habilitation à diriger
   des recherches, {Université Claude Bernard -- Lyon I},
   \href{https://tel.archives-ouvertes.fr/tel-00855585}{HAL thèses}
+
+\bibitem[{\textsc{{Dekany}} {et~al.}(2020)\textsc{{Dekany}}, \textsc{{Smith}},
+  \textsc{{Riddle}}, \textsc{{Feeney}}, \textsc{{Porter}}, \textsc{{Hale}},
+  \textsc{{Zolkower}}, \textsc{{Belicki}}, \textsc{{Kaye}}, \textsc{{Henning}},
+  \textsc{{Walters}}, \textsc{{Cromer}}, \textsc{{Delacroix}},
+  \textsc{{Rodriguez}}, \textsc{{Reiley}}, \textsc{{Mao}}, \textsc{{Hover}},
+  \textsc{{Murphy}}, \textsc{{Burruss}}, \textsc{{Baker}}, \textsc{{Kowalski}},
+  \textsc{{Reif}}, \textsc{{Mueller}}, \textsc{{Bellm}}, \textsc{{Graham}} et
+  \textsc{{Kulkarni}}}]{dekany2020}
+\textsc{{Dekany} R.}, \textsc{{Smith} R.~M.}, \textsc{{Riddle} R.} {et~al.}
+  2020, «~{The Zwicky Transient Facility: Observing System}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/ab4ca2}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2020PASP..132c8001D}{132, 038001}
 
 \bibitem[{\textsc{{Dekker}} {et~al.}(1986)\textsc{{Dekker}}, \textsc{{Delabre}}
   et \textsc{{Dodorico}}}]{dekker1986}
@@ -535,6 +588,105 @@
   Performance in Imaging, Long-Slit, and Multi-Object Spectroscopic Modes}~»,
   \href{http://dx.doi.org/10.1086/383624}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2004PASP..116..425H}{116, 425}
+
+\bibitem[{\textsc{{Ivezi{\'c}}} {et~al.}(2019)\textsc{{Ivezi{\'c}}},
+  \textsc{{Kahn}}, \textsc{{Tyson}}, \textsc{{Abel}}, \textsc{{Acosta}},
+  \textsc{{Allsman}}, \textsc{{Alonso}}, \textsc{{AlSayyad}},
+  \textsc{{Anderson}}, \textsc{{Andrew}}, \textsc{{Angel}}, \textsc{{Angeli}},
+  \textsc{{Ansari}}, \textsc{{Antilogus}}, \textsc{{Araujo}},
+  \textsc{{Armstrong}}, \textsc{{Arndt}}, \textsc{{Astier}},
+  \textsc{{Aubourg}}, \textsc{{Auza}}, \textsc{{Axelrod}}, \textsc{{Bard}},
+  \textsc{{Barr}}, \textsc{{Barrau}}, \textsc{{Bartlett}}, \textsc{{Bauer}},
+  \textsc{{Bauman}}, \textsc{{Baumont}}, \textsc{{Bechtol}},
+  \textsc{{Bechtol}}, \textsc{{Becker}}, \textsc{{Becla}}, \textsc{{Beldica}},
+  \textsc{{Bellavia}}, \textsc{{Bianco}}, \textsc{{Biswas}}, \textsc{{Blanc}},
+  \textsc{{Blazek}}, \textsc{{Blandford}}, \textsc{{Bloom}}, \textsc{{Bogart}},
+  \textsc{{Bond}}, \textsc{{Booth}}, \textsc{{Borgland}}, \textsc{{Borne}},
+  \textsc{{Bosch}}, \textsc{{Boutigny}}, \textsc{{Brackett}},
+  \textsc{{Bradshaw}}, \textsc{{Brandt}}, \textsc{{Brown}}, \textsc{{Bullock}},
+  \textsc{{Burchat}}, \textsc{{Burke}}, \textsc{{Cagnoli}},
+  \textsc{{Calabrese}}, \textsc{{Callahan}}, \textsc{{Callen}},
+  \textsc{{Carlin}}, \textsc{{Carlson}}, \textsc{{Chandrasekharan}},
+  \textsc{{Charles-Emerson}}, \textsc{{Chesley}}, \textsc{{Cheu}},
+  \textsc{{Chiang}}, \textsc{{Chiang}}, \textsc{{Chirino}}, \textsc{{Chow}},
+  \textsc{{Ciardi}}, \textsc{{Claver}}, \textsc{{Cohen-Tanugi}},
+  \textsc{{Cockrum}}, \textsc{{Coles}}, \textsc{{Connolly}}, \textsc{{Cook}},
+  \textsc{{Cooray}}, \textsc{{Covey}}, \textsc{{Cribbs}}, \textsc{{Cui}},
+  \textsc{{Cutri}}, \textsc{{Daly}}, \textsc{{Daniel}}, \textsc{{Daruich}},
+  \textsc{{Daubard}}, \textsc{{Daues}}, \textsc{{Dawson}}, \textsc{{Delgado}},
+  \textsc{{Dellapenna}}, \textsc{{de Peyster}}, \textsc{{de Val-Borro}},
+  \textsc{{Digel}}, \textsc{{Doherty}}, \textsc{{Dubois}},
+  \textsc{{Dubois-Felsmann}}, \textsc{{Durech}}, \textsc{{Economou}},
+  \textsc{{Eifler}}, \textsc{{Eracleous}}, \textsc{{Emmons}}, \textsc{{Fausti
+  Neto}}, \textsc{{Ferguson}}, \textsc{{Figueroa}}, \textsc{{Fisher-Levine}},
+  \textsc{{Focke}}, \textsc{{Foss}}, \textsc{{Frank}}, \textsc{{Freemon}},
+  \textsc{{Gangler}}, \textsc{{Gawiser}}, \textsc{{Geary}}, \textsc{{Gee}},
+  \textsc{{Geha}}, \textsc{{Gessner}}, \textsc{{Gibson}}, \textsc{{Gilmore}},
+  \textsc{{Glanzman}}, \textsc{{Glick}}, \textsc{{Goldina}},
+  \textsc{{Goldstein}}, \textsc{{Goodenow}}, \textsc{{Graham}},
+  \textsc{{Gressler}}, \textsc{{Gris}}, \textsc{{Guy}}, \textsc{{Guyonnet}},
+  \textsc{{Haller}}, \textsc{{Harris}}, \textsc{{Hascall}}, \textsc{{Haupt}},
+  \textsc{{Hernandez}}, \textsc{{Herrmann}}, \textsc{{Hileman}},
+  \textsc{{Hoblitt}}, \textsc{{Hodgson}}, \textsc{{Hogan}}, \textsc{{Howard}},
+  \textsc{{Huang}}, \textsc{{Huffer}}, \textsc{{Ingraham}}, \textsc{{Innes}},
+  \textsc{{Jacoby}}, \textsc{{Jain}}, \textsc{{Jammes}}, \textsc{{Jee}},
+  \textsc{{Jenness}}, \textsc{{Jernigan}}, \textsc{{Jevremovi{\'c}}},
+  \textsc{{Johns}}, \textsc{{Johnson}}, \textsc{{Johnson}}, \textsc{{Jones}},
+  \textsc{{Juramy-Gilles}}, \textsc{{Juri{\'c}}}, \textsc{{Kalirai}},
+  \textsc{{Kallivayalil}}, \textsc{{Kalmbach}}, \textsc{{Kantor}},
+  \textsc{{Karst}}, \textsc{{Kasliwal}}, \textsc{{Kelly}}, \textsc{{Kessler}},
+  \textsc{{Kinnison}}, \textsc{{Kirkby}}, \textsc{{Knox}}, \textsc{{Kotov}},
+  \textsc{{Krabbendam}}, \textsc{{Krughoff}}, \textsc{{Kub{\'a}nek}},
+  \textsc{{Kuczewski}}, \textsc{{Kulkarni}}, \textsc{{Ku}}, \textsc{{Kurita}},
+  \textsc{{Lage}}, \textsc{{Lambert}}, \textsc{{Lange}}, \textsc{{Langton}},
+  \textsc{{Le Guillou}}, \textsc{{Levine}}, \textsc{{Liang}}, \textsc{{Lim}},
+  \textsc{{Lintott}}, \textsc{{Long}}, \textsc{{Lopez}}, \textsc{{Lotz}},
+  \textsc{{Lupton}}, \textsc{{Lust}}, \textsc{{MacArthur}}, \textsc{{Mahabal}},
+  \textsc{{Mandelbaum}}, \textsc{{Markiewicz}}, \textsc{{Marsh}},
+  \textsc{{Marshall}}, \textsc{{Marshall}}, \textsc{{May}},
+  \textsc{{McKercher}}, \textsc{{McQueen}}, \textsc{{Meyers}},
+  \textsc{{Migliore}}, \textsc{{Miller}}, \textsc{{Mills}}, \textsc{{Miraval}},
+  \textsc{{Moeyens}}, \textsc{{Moolekamp}}, \textsc{{Monet}},
+  \textsc{{Moniez}}, \textsc{{Monkewitz}}, \textsc{{Montgomery}},
+  \textsc{{Morrison}}, \textsc{{Mueller}}, \textsc{{Muller}},
+  \textsc{{Mu{\~n}oz Arancibia}}, \textsc{{Neill}}, \textsc{{Newbry}},
+  \textsc{{Nief}}, \textsc{{Nomerotski}}, \textsc{{Nordby}},
+  \textsc{{O'Connor}}, \textsc{{Oliver}}, \textsc{{Olivier}}, \textsc{{Olsen}},
+  \textsc{{O'Mullane}}, \textsc{{Ortiz}}, \textsc{{Osier}}, \textsc{{Owen}},
+  \textsc{{Pain}}, \textsc{{Palecek}}, \textsc{{Parejko}}, \textsc{{Parsons}},
+  \textsc{{Pease}}, \textsc{{Peterson}}, \textsc{{Peterson}},
+  \textsc{{Petravick}}, \textsc{{Libby Petrick}}, \textsc{{Petry}},
+  \textsc{{Pierfederici}}, \textsc{{Pietrowicz}}, \textsc{{Pike}},
+  \textsc{{Pinto}}, \textsc{{Plante}}, \textsc{{Plate}}, \textsc{{Plutchak}},
+  \textsc{{Price}}, \textsc{{Prouza}}, \textsc{{Radeka}}, \textsc{{Rajagopal}},
+  \textsc{{Rasmussen}}, \textsc{{Regnault}}, \textsc{{Reil}}, \textsc{{Reiss}},
+  \textsc{{Reuter}}, \textsc{{Ridgway}}, \textsc{{Riot}}, \textsc{{Ritz}},
+  \textsc{{Robinson}}, \textsc{{Roby}}, \textsc{{Roodman}}, \textsc{{Rosing}},
+  \textsc{{Roucelle}}, \textsc{{Rumore}}, \textsc{{Russo}}, \textsc{{Saha}},
+  \textsc{{Sassolas}}, \textsc{{Schalk}}, \textsc{{Schellart}},
+  \textsc{{Schindler}}, \textsc{{Schmidt}}, \textsc{{Schneider}},
+  \textsc{{Schneider}}, \textsc{{Schoening}}, \textsc{{Schumacher}},
+  \textsc{{Schwamb}}, \textsc{{Sebag}}, \textsc{{Selvy}}, \textsc{{Sembroski}},
+  \textsc{{Seppala}}, \textsc{{Serio}}, \textsc{{Serrano}}, \textsc{{Shaw}},
+  \textsc{{Shipsey}}, \textsc{{Sick}}, \textsc{{Silvestri}}, \textsc{{Slater}},
+  \textsc{{Smith}}, \textsc{{Smith}}, \textsc{{Sobhani}}, \textsc{{Soldahl}},
+  \textsc{{Storrie-Lombardi}}, \textsc{{Stover}}, \textsc{{Strauss}},
+  \textsc{{Street}}, \textsc{{Stubbs}}, \textsc{{Sullivan}},
+  \textsc{{Sweeney}}, \textsc{{Swinbank}}, \textsc{{Szalay}},
+  \textsc{{Takacs}}, \textsc{{Tether}}, \textsc{{Thaler}}, \textsc{{Thayer}},
+  \textsc{{Thomas}}, \textsc{{Thornton}}, \textsc{{Thukral}}, \textsc{{Tice}},
+  \textsc{{Trilling}}, \textsc{{Turri}}, \textsc{{Van Berg}}, \textsc{{Vanden
+  Berk}}, \textsc{{Vetter}}, \textsc{{Virieux}}, \textsc{{Vucina}},
+  \textsc{{Wahl}}, \textsc{{Walkowicz}}, \textsc{{Walsh}}, \textsc{{Walter}},
+  \textsc{{Wang}}, \textsc{{Wang}}, \textsc{{Warner}}, \textsc{{Wiecha}},
+  \textsc{{Willman}}, \textsc{{Winters}}, \textsc{{Wittman}}, \textsc{{Wolff}},
+  \textsc{{Wood-Vasey}}, \textsc{{Wu}}, \textsc{{Xin}}, \textsc{{Yoachim}} et
+  \textsc{{Zhan}}}]{ivezic2019}
+\textsc{{Ivezi{\'c}} {\v{Z}}.}, \textsc{{Kahn} S.~M.}, \textsc{{Tyson} J.~A.}
+  {et~al.} 2019, «~{LSST: From Science Drivers to Reference Design and
+  Anticipated Data Products}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/ab042c}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...873..111I}{873, 111}
 
 \bibitem[{\textsc{{Jha}} {et~al.}(2006)\textsc{{Jha}}, \textsc{{Kirshner}},
   \textsc{{Challis}}, \textsc{{Garnavich}}, \textsc{{Matheson}},
