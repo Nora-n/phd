@@ -5,44 +5,46 @@ The style file: ../main/aa_url.bst
 Database file #1: ../chapters/99_references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 68 entries,
+Warning--empty publisher in calzetti2013
+You've used 76 entries,
             3173 wiz_defined-function locations,
-            1262 strings with 74040 characters,
-and the built_in function-call counts, 165684 in all, are:
-= -- 10241
-> -- 24108
-< -- 16
-+ -- 8077
-- -- 8007
-* -- 26399
-:= -- 28001
-add.period$ -- 68
-call.type$ -- 68
-change.case$ -- 2934
-chr.to.int$ -- 66
-cite$ -- 68
-duplicate$ -- 1539
-empty$ -- 2316
-format.name$ -- 8156
-if$ -- 28907
+            1327 strings with 76958 characters,
+and the built_in function-call counts, 172613 in all, are:
+= -- 10739
+> -- 24819
+< -- 23
++ -- 8316
+- -- 8238
+* -- 27339
+:= -- 29166
+add.period$ -- 76
+call.type$ -- 76
+change.case$ -- 3045
+chr.to.int$ -- 80
+cite$ -- 77
+duplicate$ -- 1716
+empty$ -- 2588
+format.name$ -- 8407
+if$ -- 30188
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 53
-newline$ -- 208
-num.names$ -- 284
-pop$ -- 2953
+missing$ -- 58
+newline$ -- 232
+num.names$ -- 318
+pop$ -- 3065
 preamble$ -- 1
-purify$ -- 2933
+purify$ -- 3041
 quote$ -- 0
-skip$ -- 1232
+skip$ -- 1387
 stack$ -- 0
-substring$ -- 1625
-swap$ -- 5752
+substring$ -- 1800
+swap$ -- 5950
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 612
-warning$ -- 0
-while$ -- 292
+type$ -- 684
+warning$ -- 1
+while$ -- 327
 width$ -- 0
-write$ -- 751
+write$ -- 839
+(There was 1 warning)

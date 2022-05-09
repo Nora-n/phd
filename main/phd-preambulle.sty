@@ -66,28 +66,6 @@
 \renewcommand{\thechapter}{\Roman{chapter}}
 % For TOC with chapter numbers right-aligned, fixing the spilling of VII on text
 \RequirePackage[rightlabels]{titletoc}
-% \titlecontents{chapter}
-% [2em] %
-% {\bigskip}
-% {\contentslabel[\thecontentslabel.]{2em}\hspace{0.333em}}%\thecontentslabel
-% {\hspace*{-2em}}
-% {\hfill\contentspage}[\smallskip]%\hfill
-% 
-% \titlecontents{section}% <section>
-% [2.35em]% <left>
-% {\small\contentsmargin{1.5em}}% <above-code>
-% {\thecontentslabel.\hspace{3pt}}% <numbered-entry-format>; you could also use {\thecontentslabel. } to show the numbers
-% {}% <numberless-entry-format>
-% {\enspace\titlerule*[0.5pc]{.}~\contentspage}% <filler-page-format>
-% 
-% \titlecontents*{subsection}% <section>
-% [3.23em]% <left>
-% {\footnotesize\contentsmargin{0em}}% <above-code>
-% {\thecontentslabel. \hspace{3pt}}% <numbered-entry-format>; you could also use {\thecontentslabel. } to show the numbers
-% {}% <numberless-entry-format>
-% {}% <filler-page-format>
-% [ --- \ ]% <separator>
-% []% <end>
 % Make chapter with frame
 \makeatletter
 \titleformat{\chapter}[frame]
@@ -98,6 +76,7 @@
 \makeatother
 % Nice epigraph
 \RequirePackage{epigraph}
+\setlength\epigraphwidth{.5\textwidth}
 % Pour local TOC
 \RequirePackage{minitoc}
 \renewcommand{\mtctitle}{Sommaire}
@@ -137,6 +116,18 @@
 % Pour les plots
 \RequirePackage{pgfplots}
 \pgfplotsset{compat=newest}
+
+% Draw nice quotes in TiKz
+\RequirePackage{tikz}
+\newcommand*{\openquote}{%
+  \tikz[remember picture, overlay, xshift=-5pt, yshift=-5pt]
+  \node[black!30] (OQ) {\fontfamily{qbk}\fontsize{50}{60}\selectfont``};%
+  \kern4pt
+}
+\newcommand*{\closequote}{%
+  \tikz[remember picture,overlay,xshift=10pt,yshift=-5pt]
+  \node[black!30] (CQ) {\fontfamily{qbk}\fontsize{50}{60}\selectfont''};%
+}
 
 \RequirePackage{microtype}
 

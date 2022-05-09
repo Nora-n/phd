@@ -1,4 +1,4 @@
-\begin{thebibliography}{70}
+\begin{thebibliography}{76}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{Ahmed}(2015)}]{syed2015}
@@ -139,6 +139,24 @@
   {Moorwood},
   \href{https://ui.adsabs.harvard.edu/abs/2003SPIE.4841...72B}{72--81}
 
+\bibitem[{\textsc{Briday}(2021)}]{briday2021}
+\textsc{Briday M.} 2021, «~{{\'E}tude de l'impact de l'environnement
+  galactique sur la standardisation des Supernovae de Type Ia}~», Theses,
+  {Université Claude Bernard -- Lyon I},
+  \href{https://tel.archives-ouvertes.fr/tel-03621515}{HAL thèses}
+
+\bibitem[{\textsc{{Briday}} {et~al.}(2022)\textsc{{Briday}},
+  \textsc{{Rigault}}, \textsc{{Graziani}}, \textsc{{Copin}},
+  \textsc{{Aldering}}, \textsc{{Amenouche}}, \textsc{{Brinnel}},
+  \textsc{{Kim}}, \textsc{{Kim}}, \textsc{{Lezmy}}, \textsc{{Nicolas}},
+  \textsc{{Nordin}}, \textsc{{Perlmutter}}, \textsc{{Rosnet}} et
+  \textsc{{Smith}}}]{briday2022}
+\textsc{{Briday} M.}, \textsc{{Rigault} M.}, \textsc{{Graziani} R.} {et~al.}
+  2022, «~{Accuracy of environmental tracers and consequences for determining
+  the Type Ia supernova magnitude step}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/202141160}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2022A&A...657A..22B}{657, A22}
+
 \bibitem[{\textsc{{Burgh}} {et~al.}(2003)\textsc{{Burgh}},
   \textsc{{Nordsieck}}, \textsc{{Kobulnicky}}, \textsc{{Williams}},
   \textsc{{O'Donoghue}}, \textsc{{Smith}} et \textsc{{Percival}}}]{burgh2003}
@@ -150,12 +168,9 @@
   Telescopes}, ed. M.~{Iye} \& A.~F.~M. {Moorwood},
   \href{https://ui.adsabs.harvard.edu/abs/2003SPIE.4841.1463B}{1463--1471}
 
-\bibitem[{\textsc{{Calzetti}} {et~al.}(2012)\textsc{{Calzetti}}, \textsc{{Liu}}
-  et \textsc{{Koda}}}]{calzetti2012}
-\textsc{{Calzetti} D.}, \textsc{{Liu} G.} et \textsc{{Koda} J.} 2012, «~{Star
-  Formation Laws: The Effects of Gas Cloud Sampling}~»,
-  \href{http://dx.doi.org/10.1088/0004-637X/752/2/98}{\color{magenta}\apj},
-  \href{https://ui.adsabs.harvard.edu/abs/2012ApJ...752...98C}{752, 98}
+\bibitem[{\textsc{{Calzetti}}(2013)}]{calzetti2013}
+\textsc{{Calzetti} D.} 2013, dans {\em Secular Evolution of Galaxies}, ed.
+  J.~{Falc{\'o}n-Barroso} \& J.~H. {Knapen}, 419
 
 \bibitem[{\textsc{{Chambers}} {et~al.}(2016)\textsc{{Chambers}},
   \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Flewelling}},
@@ -832,6 +847,21 @@
   \href{http://dx.doi.org/10.1086/648598}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2009PASP..121.1395L}{121, 1395}
 
+\bibitem[{\textsc{{Madau}} et \textsc{{Dickinson}}(2014)}]{madau2015}
+\textsc{{Madau} P.} et \textsc{{Dickinson} M.} 2014, «~{Cosmic Star-Formation
+  History}~»,
+  \href{http://dx.doi.org/10.1146/annurev-astro-081811-125615}{\color{magenta}\araa},
+  \href{https://ui.adsabs.harvard.edu/abs/2014ARA&A..52..415M}{52, 415}
+
+\bibitem[{\textsc{{Mannucci}} {et~al.}(2005)\textsc{{Mannucci}}, \textsc{{Della
+  Valle}}, \textsc{{Panagia}}, \textsc{{Cappellaro}}, \textsc{{Cresci}},
+  \textsc{{Maiolino}}, \textsc{{Petrosian}} et
+  \textsc{{Turatto}}}]{mannucci2005}
+\textsc{{Mannucci} F.}, \textsc{{Della Valle} M.}, \textsc{{Panagia} N.}
+  {et~al.} 2005, «~{The supernova rate per unit mass}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361:20041411}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2005A&A...433..807M}{433, 807}
+
 \bibitem[{\textsc{{Marshall}} {et~al.}(2008)\textsc{{Marshall}},
   \textsc{{Burles}}, \textsc{{Thompson}}, \textsc{{Shectman}},
   \textsc{{Bigelow}}, \textsc{{Burley}}, \textsc{{Birk}}, \textsc{{Estrada}},
@@ -1142,6 +1172,13 @@
   \href{http://dx.doi.org/10.1088/1538-3873/aab4e0}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2018PASP..130f4002S}{130, 064002}
 
+\bibitem[{\textsc{{Scannapieco}} et
+  \textsc{{Bildsten}}(2005)}]{scannapieco2005}
+\textsc{{Scannapieco} E.} et \textsc{{Bildsten} L.} 2005, «~{The Type Ia
+  Supernova Rate}~»,
+  \href{http://dx.doi.org/10.1086/452632}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2005ApJ...629L..85S}{629, L85}
+
 \bibitem[{\textsc{{Schmidt}} {et~al.}(1989)\textsc{{Schmidt}},
   \textsc{{Weymann}} et \textsc{{Foltz}}}]{schmidt1989}
 \textsc{{Schmidt} G.~D.}, \textsc{{Weymann} R.~J.} et \textsc{{Foltz} C.~B.}
@@ -1270,6 +1307,29 @@
   Supernova Sample}~»,
   \href{http://dx.doi.org/10.1088/0004-637X/746/1/85}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2012ApJ...746...85S}{746, 85}
+
+\bibitem[{\textsc{{Tasca}} {et~al.}(2015)\textsc{{Tasca}}, \textsc{{Le
+  F{\`e}vre}}, \textsc{{Hathi}}, \textsc{{Schaerer}}, \textsc{{Ilbert}},
+  \textsc{{Zamorani}}, \textsc{{Lemaux}}, \textsc{{Cassata}},
+  \textsc{{Garilli}}, \textsc{{Le Brun}}, \textsc{{Maccagni}},
+  \textsc{{Pentericci}}, \textsc{{Thomas}}, \textsc{{Vanzella}},
+  \textsc{{Zucca}}, \textsc{{Amorin}}, \textsc{{Bardelli}},
+  \textsc{{Cassar{\`a}}}, \textsc{{Castellano}}, \textsc{{Cimatti}},
+  \textsc{{Cucciati}}, \textsc{{Durkalec}}, \textsc{{Fontana}},
+  \textsc{{Giavalisco}}, \textsc{{Grazian}}, \textsc{{Paltani}},
+  \textsc{{Ribeiro}}, \textsc{{Scodeggio}}, \textsc{{Sommariva}},
+  \textsc{{Talia}}, \textsc{{Tresse}}, \textsc{{Vergani}}, \textsc{{Capak}},
+  \textsc{{Charlot}}, \textsc{{Contini}}, \textsc{{de la Torre}},
+  \textsc{{Dunlop}}, \textsc{{Fotopoulou}}, \textsc{{Koekemoer}},
+  \textsc{{L{\'o}pez-Sanjuan}}, \textsc{{Mellier}}, \textsc{{Pforr}},
+  \textsc{{Salvato}}, \textsc{{Scoville}}, \textsc{{Taniguchi}} et
+  \textsc{{Wang}}}]{tasca2015}
+\textsc{{Tasca} L.~A.~M.}, \textsc{{Le F{\`e}vre} O.}, \textsc{{Hathi} N.~P.}
+  {et~al.} 2015, «~{The evolving star formation rate:
+  M$_{{\ensuremath{\star}}}$ relation and sSFR since z ≃ 5 from the VUDS
+  spectroscopic survey}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201425379}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2015A&A...581A..54T}{581, A54}
 
 \bibitem[{\textsc{{Tonry}} {et~al.}(2006)\textsc{{Tonry}}, \textsc{{Onaka}},
   \textsc{{Luppino}} et \textsc{{Isani}}}]{tonry2006}
