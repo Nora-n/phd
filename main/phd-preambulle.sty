@@ -178,6 +178,8 @@
 \DeclareSIUnit\as{as}           % arcsec
 \DeclareSIUnit\mag{mag}         % mag
 \DeclareSIUnit{\angstrom}{\textup{\AA}}
+% For \numprint command when using spaces or decimal
+\RequirePackage[np]{numprint}
 
 % Math in section names
 \RequirePackage{bookmark} % http://tex.stackexchange.com/questions/119079
@@ -255,6 +257,7 @@
 \newcommand{\ed}[2]{#1\endnote{\textcolor{black}{#1} : #2}}
 \newcommand{\obar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
 \newcommand{\opto}[2]{\ensuremath\underset{#2}{\overset{#1}{\longrightarrow}}}
+\newcommand{\prob}[2]{\mathcal{P}\left(#1 \mid #2\right)}
 
 % Journal abbreviations
 \newcommand*\aap{A\&A}
