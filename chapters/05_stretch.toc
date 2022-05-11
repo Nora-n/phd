@@ -1,0 +1,13 @@
+\babel@toc {french}{}
+\contentsline {chapter}{\numberline {I}\'Evolution avec le redshift}{1}{chapter.1}
+\contentsline {section}{\numberline {I.1}Concept d'\^age}{4}{section.1.1}
+\contentsline {subsection}{\numberline {I.1.1}Travaux pr\IeC {\'e}c\IeC {\'e}dents}{4}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {I.1.2}Implications}{4}{subsection.1.1.2}
+\contentsline {section}{\numberline {I.2}Mod\IeC {\'e}lisation de l'\IeC {\'e}tirement}{5}{section.1.2}
+\contentsline {subsection}{\numberline {I.2.1}Param\IeC {\'e}trisations}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {I.2.2}Impl\IeC {\'e}mentation}{9}{subsection.1.2.2}
+\contentsline {section}{\numberline {I.3}R\IeC {\'e}sultats}{9}{section.1.3}
+\contentsline {subsection}{\numberline {I.3.1}Comparaison aux donn\IeC {\'e}es}{9}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {I.3.2}Discussion}{13}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {I.3.3}Pr\IeC {\'e}dictions et am\IeC {\'e}lioration}{15}{subsection.1.3.3}
+\contentsfinish 

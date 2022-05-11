@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  10 MAY 2022 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  11 MAY 2022 20:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -151,14 +151,16 @@ Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
 \f@nch@O@erf=\skip56
 \f@nch@O@olf=\skip57
 \f@nch@O@orf=\skip58
+) (/usr/share/texlive/texmf-dist/tex/latex/emptypage/emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty pages
 ) (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (/usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
- (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2018/02/21 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+ (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/02/21 L3 programming layer (code)
 \c_max_int=\count106
 \l_tmpa_int=\count107
@@ -2226,47 +2228,28 @@ Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 \g__file_internal_ior=\read2
  (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
-)) (/usr/share/texlive/texmf-dist/tex/latex/numprint/numprint.sty
-Package: numprint 2012/08/20 v1.39 Print numbers (HH)
-\c@nprt@mantissa@digitsbefore=\count366
-\c@nprt@mantissa@digitsafter=\count367
-\c@nprt@exponent@digitsbefore=\count368
-\c@nprt@exponent@digitsafter=\count369
-\nprt@digitwidth=\skip96
-\nprt@sepwidth=\skip97
-\nprt@decimalwidth=\skip98
-\nprt@blockwidth=\skip99
-\nprt@digittoks=\toks52
-\nprt@pretoks=\toks53
-\nprt@posttoks=\toks54
-\nprt@thisdigit=\count370
-\nprt@curpos=\count371
-\nprt@rndpos=\count372
-\c@nprt@digitsfirstblock=\count373
-\c@nprt@blockcnt=\count374
-\c@nprt@cntprint=\count375
- No configuration file `numprint.cfg' found.) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count376
+\BKM@id=\count366
 )) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count377
+\lst@mode=\count367
 \lst@gtempboxa=\box98
-\lst@token=\toks55
-\lst@length=\count378
+\lst@token=\toks52
+\lst@length=\count368
 \lst@currlwidth=\dimen359
-\lst@column=\count379
-\lst@pos=\count380
+\lst@column=\count369
+\lst@pos=\count370
 \lst@lostspace=\dimen360
 \lst@width=\dimen361
-\lst@newlines=\count381
-\lst@lineno=\count382
+\lst@newlines=\count371
+\lst@lineno=\count372
 \lst@maxwidth=\dimen362
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count383
-\lst@skipnumbers=\count384
+\c@lstnumber=\count373
+\lst@skipnumbers=\count374
 \lst@framebox=\box99
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -2276,8 +2259,8 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 Package: subfiles 2012/05/23 Federico Garcia
  (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks56
-\verbatim@line=\toks57
+\every@verbatim=\toks53
+\verbatim@line=\toks54
 \verbatim@in@stream=\read3
 ))
 
@@ -2285,6 +2268,15 @@ LaTeX Warning: Unused global option(s):
     [garamond].
 
 (./main.aux
+
+LaTeX Warning: Label `ch:sne' multiply defined.
+
+
+LaTeX Warning: Label `ssec:spectro' multiply defined.
+
+
+LaTeX Warning: Label `sssec:lssfr' multiply defined.
+
 
 LaTeX Warning: Label `ssec:xxx' multiply defined.
 
@@ -2324,17 +2316,17 @@ LaTeX Info: Redefining \dots on input line 14.
 LaTeX Info: Redefining \up on input line 14.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count385
+\scratchcounter=\count375
 \scratchdimen=\dimen363
 \scratchbox=\box100
-\nofMPsegments=\count386
-\nofMParguments=\count387
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count388
+\nofMPsegments=\count376
+\nofMParguments=\count377
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count378
 \MPscratchDim=\dimen364
-\MPnumerator=\count389
-\makeMPintoPDFobject=\count390
-\everyMPtoPDFconversion=\toks59
+\MPnumerator=\count379
+\makeMPintoPDFobject=\count380
+\everyMPtoPDFconversion=\toks56
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -2388,20 +2380,20 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip100
-\RaggedLeftLeftskip=\skip101
-\RaggedRightLeftskip=\skip102
-\CenteringRightskip=\skip103
-\RaggedLeftRightskip=\skip104
-\RaggedRightRightskip=\skip105
-\CenteringParfillskip=\skip106
-\RaggedLeftParfillskip=\skip107
-\RaggedRightParfillskip=\skip108
-\JustifyingParfillskip=\skip109
-\CenteringParindent=\skip110
-\RaggedLeftParindent=\skip111
-\RaggedRightParindent=\skip112
-\JustifyingParindent=\skip113
+\CenteringLeftskip=\skip96
+\RaggedLeftLeftskip=\skip97
+\RaggedRightLeftskip=\skip98
+\CenteringRightskip=\skip99
+\RaggedLeftRightskip=\skip100
+\RaggedRightRightskip=\skip101
+\CenteringParfillskip=\skip102
+\RaggedLeftParfillskip=\skip103
+\RaggedRightParfillskip=\skip104
+\JustifyingParfillskip=\skip105
+\CenteringParindent=\skip106
+\RaggedLeftParindent=\skip107
+\RaggedRightParindent=\skip108
+\JustifyingParindent=\skip109
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
@@ -2452,7 +2444,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count391
+\c@section@level=\count381
 )
 LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
@@ -3308,8 +3300,8 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 . 
 . Defining command \ms with sig. '' on line 14.
 .................................................
-\c@lstlisting=\count392
-\c__siunitx_mathsf_int=\count393
+\c@lstlisting=\count382
+\c__siunitx_mathsf_int=\count383
 LaTeX Font Info:    Try loading font information for U+msa on input line 14.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -3326,7 +3318,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count394
+\c__siunitx_mathtt_int=\count384
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -3384,10 +3376,14 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc7.
 \openout4 = `main.mtc7'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc8.
+\openout4 = `main.mtc8'.
+
  [9] [10
 
 ] (./main.toc
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 27.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -3425,6 +3421,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mlf6.
 \openout4 = `main.mlf6'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlf7.
+\openout4 = `main.mlf7'.
+
  [13] [14
 
 ] (./main.lof)
@@ -3457,6 +3457,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mlt6.
 \openout4 = `main.mlt6'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlt7.
+\openout4 = `main.mlt7'.
+
  [15] [16
 
 ] (./main.lot)
@@ -3467,25 +3471,6 @@ Package minitoc Info: I0033
 
 ]
 Chapitre I.
-\openout4 = `main.mtc'.
-
-\openout4 = `main.mtc'.
-
-(./main.mtc1) [1
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\spacefactor' on input line 36.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@m' on input line 36.
-
-) (../chapters/02_sne.tex [2] [3] [4
-
-]
-Chapitre II.
 LaTeX Font Info:    Try loading font information for T1+qbk on input line 8.
 (/usr/share/texmf/tex/latex/tex-gyre/t1qbk.fd
 File: t1qbk.fd 2009/09/25 v1.2 font definition file for T1/qbk
@@ -3498,19 +3483,61 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 \openout4 = `main.mtc'.
 
- (./main.mtc2) [5]
+ (./main.mtc1) [1
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\spacefactor' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@m' on input line 31.
+
+[2]
+Package minitoc Info: I0006
+(minitoc)             main.mlf1 is empty on input line 45.
+Package minitoc Info: I0006
+(minitoc)             main.mlt1 is empty on input line 46.
+) (../chapters/02_sne.tex
+Chapitre II.
+\openout4 = `main.mtc'.
+
+\openout4 = `main.mtc'.
+
+(./main.mtc2) [3
+
+]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 44.
-) (../chapters/03_sample.tex [6]
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 31.
+ [4]
+Package minitoc Info: I0006
+(minitoc)             main.mlf2 is empty on input line 47.
+Package minitoc Info: I0006
+(minitoc)             main.mlt2 is empty on input line 48.
+) (../chapters/03_env.tex
 Chapitre III.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc3) [7
+(./main.mtc3) [5
+
+] [6]
+Package minitoc Info: I0006
+(minitoc)             main.mlf3 is empty on input line 44.
+Package minitoc Info: I0006
+(minitoc)             main.mlt3 is empty on input line 45.
+) (../chapters/04_sample.tex
+Chapitre IV.
+\openout4 = `main.mtc'.
+
+\openout4 = `main.mtc'.
+
+(./main.mtc4) [7
 
 ] [8] [9]
-<../figures/bands_SNF.pdf, id=494, 404.80768pt x 301.15501pt>
+<../figures/bands_SNF.pdf, id=530, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNF.pdf Graphic file (type pdf)
 <use ../figures/bands_SNF.pdf>
 Package pdftex.def Info: ../figures/bands_SNF.pdf  used on input line 161.
@@ -3518,35 +3545,35 @@ Package pdftex.def Info: ../figures/bands_SNF.pdf  used on input line 161.
  [10 <../figures/bands_SNF.pdf>] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [11]
-<../figures/hist_SNF_zxc.pdf, id=573, 731.13103pt x 225.24101pt>
+<../figures/hist_SNF_zxc.pdf, id=610, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNF_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNF_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SNF_zxc.pdf  used on input line 312.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
  [12]
-<../figures/bands_SDSS.pdf, id=596, 404.80768pt x 301.15501pt>
+<../figures/bands_SDSS.pdf, id=633, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SDSS.pdf Graphic file (type pdf)
 <use ../figures/bands_SDSS.pdf>
 Package pdftex.def Info: ../figures/bands_SDSS.pdf  used on input line 360.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_2005gg.pdf, id=597, 406.34096pt x 296.715pt>
+<../figures/lc_2005gg.pdf, id=634, 406.34096pt x 296.715pt>
 File: ../figures/lc_2005gg.pdf Graphic file (type pdf)
 <use ../figures/lc_2005gg.pdf>
 Package pdftex.def Info: ../figures/lc_2005gg.pdf  used on input line 367.
 (pdftex.def)             Requested size: 223.07211pt x 162.8904pt.
  [13 <../figures/hist_SNF_zxc.pdf>] [14 <../figures/bands_SDSS.pdf> <../figures/lc_2005gg.pdf>]
-<../figures/hist_SDSS_zxc.pdf, id=700, 731.13103pt x 225.24101pt>
+<../figures/hist_SDSS_zxc.pdf, id=737, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SDSS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SDSS_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SDSS_zxc.pdf  used on input line 472.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
  [15 <../figures/hist_SDSS_zxc.pdf>]
-<../figures/bands_PS1.pdf, id=741, 404.80768pt x 301.15501pt>
+<../figures/bands_PS1.pdf, id=777, 404.80768pt x 301.15501pt>
 File: ../figures/bands_PS1.pdf Graphic file (type pdf)
 <use ../figures/bands_PS1.pdf>
 Package pdftex.def Info: ../figures/bands_PS1.pdf  used on input line 519.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_550041.pdf, id=742, 406.34096pt x 296.715pt>
+<../figures/lc_550041.pdf, id=778, 406.34096pt x 296.715pt>
 File: ../figures/lc_550041.pdf Graphic file (type pdf)
 <use ../figures/lc_550041.pdf>
 Package pdftex.def Info: ../figures/lc_550041.pdf  used on input line 527.
@@ -3558,7 +3585,7 @@ File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 599.
 
-<../figures/hist_PS1_zxc.pdf, id=807, 731.13103pt x 225.24101pt>
+<../figures/hist_PS1_zxc.pdf, id=843, 731.13103pt x 225.24101pt>
 File: ../figures/hist_PS1_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_PS1_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_PS1_zxc.pdf  used on input line 629.
@@ -3567,24 +3594,24 @@ Package pdftex.def Info: ../figures/hist_PS1_zxc.pdf  used on input line 629.
 Underfull \vbox (badness 2726) has occurred while \output is active []
 
  [18 <../figures/hist_PS1_zxc.pdf>]
-<../figures/bands_SNLS.pdf, id=862, 404.80768pt x 301.15501pt>
+<../figures/bands_SNLS.pdf, id=898, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNLS.pdf Graphic file (type pdf)
 <use ../figures/bands_SNLS.pdf>
 Package pdftex.def Info: ../figures/bands_SNLS.pdf  used on input line 677.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_04D1hx.pdf, id=863, 406.34096pt x 296.715pt>
+<../figures/lc_04D1hx.pdf, id=899, 406.34096pt x 296.715pt>
 File: ../figures/lc_04D1hx.pdf Graphic file (type pdf)
 <use ../figures/lc_04D1hx.pdf>
 Package pdftex.def Info: ../figures/lc_04D1hx.pdf  used on input line 684.
 (pdftex.def)             Requested size: 223.07211pt x 162.8904pt.
  [19 <../figures/bands_SNLS.pdf> <../figures/lc_04D1hx.pdf>]
-<../figures/hist_SNLS_zxc.pdf, id=915, 731.13103pt x 225.24101pt>
+<../figures/hist_SNLS_zxc.pdf, id=952, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNLS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNLS_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SNLS_zxc.pdf  used on input line 726.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
  [20 <../figures/hist_SNLS_zxc.pdf>]
-<../figures/bands_HST.pdf, id=960, 411.85757pt x 301.15501pt>
+<../figures/bands_HST.pdf, id=996, 411.85757pt x 301.15501pt>
 File: ../figures/bands_HST.pdf Graphic file (type pdf)
 <use ../figures/bands_HST.pdf>
 Package pdftex.def Info: ../figures/bands_HST.pdf  used on input line 792.
@@ -3598,18 +3625,18 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 849.
 
-<../figures/hist_HST_zxc.pdf, id=986, 731.13103pt x 225.24101pt>
+<../figures/hist_HST_zxc.pdf, id=1022, 731.13103pt x 225.24101pt>
 File: ../figures/hist_HST_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_HST_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_HST_zxc.pdf  used on input line 851.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
 [22 <../figures/hist_HST_zxc.pdf>]
-<../figures/hist_LOWZ_zxc.pdf, id=1024, 731.13103pt x 225.24101pt>
+<../figures/hist_LOWZ_zxc.pdf, id=1060, 731.13103pt x 225.24101pt>
 File: ../figures/hist_LOWZ_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_LOWZ_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_LOWZ_zxc.pdf  used on input line 877.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-<../figures/speceff-all.pdf, id=1040, 468.07358pt x 340.17519pt>
+<../figures/speceff-all.pdf, id=1076, 468.07358pt x 340.17519pt>
 File: ../figures/speceff-all.pdf Graphic file (type pdf)
 <use ../figures/speceff-all.pdf>
 Package pdftex.def Info: ../figures/speceff-all.pdf  used on input line 956.
@@ -3620,18 +3647,18 @@ Underfull \hbox (badness 7925) in paragraph at lines 961--961
  []
 
 [23 <../figures/hist_LOWZ_zxc.pdf>] [24 <../figures/speceff-all.pdf>]
-<../figures/zmax_method_snls-01.pdf, id=1098, 499.71544pt x 253.45119pt>
+<../figures/zmax_method_snls-01.pdf, id=1133, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-01.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-01.pdf>
 Package pdftex.def Info: ../figures/zmax_method_snls-01.pdf  used on input line 1033.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
-<../figures/zmax_method_snls-02.pdf, id=1099, 499.71544pt x 253.45119pt>
+<../figures/zmax_method_snls-02.pdf, id=1134, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-02.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-02.pdf>
 Package pdftex.def Info: ../figures/zmax_method_snls-02.pdf  used on input line 1040.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
  [25]
-<../figures/zmax_method_results.pdf, id=1114, 518.83969pt x 356.1977pt>
+<../figures/zmax_method_results.pdf, id=1149, 518.83969pt x 356.1977pt>
 File: ../figures/zmax_method_results.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_results.pdf>
 Package pdftex.def Info: ../figures/zmax_method_results.pdf  used on input line 1102.
@@ -3640,13 +3667,13 @@ Package pdftex.def Info: ../figures/zmax_method_results.pdf  used on input line 
 
 LaTeX Warning: Reference `eq:mxc' on page 27 undefined on input line 1131.
 
-<../figures/zmax_maglim_snls.pdf, id=1159, 536.6527pt x 345.17519pt>
+<../figures/zmax_maglim_snls.pdf, id=1195, 536.6527pt x 345.17519pt>
 File: ../figures/zmax_maglim_snls.pdf Graphic file (type pdf)
 <use ../figures/zmax_maglim_snls.pdf>
 Package pdftex.def Info: ../figures/zmax_maglim_snls.pdf  used on input line 1147.
 (pdftex.def)             Requested size: 432.48051pt x 278.1841pt.
 [27 <../figures/zmax_method_results.pdf>] [28 <../figures/zmax_maglim_snls.pdf>]
-<../figures/sdss_malquist.png, id=1243, 1279.78125pt x 866.23625pt>
+<../figures/sdss_malquist.png, id=1278, 1279.78125pt x 866.23625pt>
 File: ../figures/sdss_malquist.png Graphic file (type png)
 <use ../figures/sdss_malquist.png>
 Package pdftex.def Info: ../figures/sdss_malquist.png  used on input line 1225.
@@ -3667,19 +3694,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1234--1234
  []
 
 [29]
-<../figures/hist_surveys_cuts.pdf, id=1265, 444.45978pt x 433.04216pt>
+<../figures/hist_surveys_cuts.pdf, id=1299, 444.45978pt x 433.04216pt>
 File: ../figures/hist_surveys_cuts.pdf Graphic file (type pdf)
 <use ../figures/hist_surveys_cuts.pdf>
 Package pdftex.def Info: ../figures/hist_surveys_cuts.pdf  used on input line 1298.
 (pdftex.def)             Requested size: 364.19667pt x 354.85237pt.
  [30 <../figures/sdss_malquist.png>] [31 <../figures/hist_surveys_cuts.pdf>]
-<../figures/stretchs-cut_btw_hist_stac.pdf, id=1296, 400.39952pt x 330.81483pt>
+<../figures/stretchs-cut_btw_hist_stac.pdf, id=1331, 400.39952pt x 330.81483pt>
 File: ../figures/stretchs-cut_btw_hist_stac.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_hist_stac.pdf>
 Package pdftex.def Info: ../figures/stretchs-cut_btw_hist_stac.pdf  used on input line 1327.
 (pdftex.def)             Requested size: 432.48051pt x 357.34032pt.
  [32 <../figures/stretchs-cut_btw_hist_stac.pdf>]
-<../figures/both-cut_SDSS_SNLS_PS1.pdf, id=1340, 511.96727pt x 263.33275pt>
+<../figures/both-cut_SDSS_SNLS_PS1.pdf, id=1374, 511.96727pt x 263.33275pt>
 File: ../figures/both-cut_SDSS_SNLS_PS1.pdf Graphic file (type pdf)
 <use ../figures/both-cut_SDSS_SNLS_PS1.pdf>
 Package pdftex.def Info: ../figures/both-cut_SDSS_SNLS_PS1.pdf  used on input line 1391.
@@ -3689,85 +3716,95 @@ Package pdftex.def Info: ../figures/both-cut_SDSS_SNLS_PS1.pdf  used on input li
 
 \openout4 = `main.mtc'.
 
- (./main.mlf3)
-\openout4 = `main.mtc'.
-
-\openout4 = `main.mtc'.
-
- (./main.mlt3 [35])) (../chapters/04_stretch.tex [36]
-Chapitre IV.
-\openout4 = `main.mtc'.
-
-\openout4 = `main.mtc'.
-
-(./main.mtc4) [37
-
-]
-<../figures/deltaz_hist.pdf, id=1436, 411.4159pt x 222.40985pt>
-File: ../figures/deltaz_hist.pdf Graphic file (type pdf)
-<use ../figures/deltaz_hist.pdf>
-Package pdftex.def Info: ../figures/deltaz_hist.pdf  used on input line 60.
-(pdftex.def)             Requested size: 455.24411pt x 246.10748pt.
- [38] [39 <../figures/deltaz_hist.pdf>]
-<../figures/model_base_hist.pdf, id=1481, 486.55167pt x 252.65123pt>
-File: ../figures/model_base_hist.pdf Graphic file (type pdf)
-<use ../figures/model_base_hist.pdf>
-Package pdftex.def Info: ../figures/model_base_hist.pdf  used on input line 126.
-(pdftex.def)             Requested size: 455.24411pt x 236.40117pt.
- [40 <../figures/model_base_hist.pdf>]
-Overfull \hbox (20.13852pt too wide) in paragraph at lines 172--175
-[]\T1/cmr/m/n/12 (-20) L'estimation du maxi-mum de vrai-sem-blance des cinq pa-ra-mètres libres $[] \OMS/cmsy/m/n/12 ^^Q \OT1/cmr/m/n/12 (-20) ([])$
- []
-
-[41]
-<../figures//stretchevol_all_vs_snf-mean.pdf, id=1527, 530.03967pt x 340.17519pt>
-File: ../figures//stretchevol_all_vs_snf-mean.pdf Graphic file (type pdf)
-<use ../figures//stretchevol_all_vs_snf-mean.pdf>
-Package pdftex.def Info: ../figures//stretchevol_all_vs_snf-mean.pdf  used on input line 254.
-(pdftex.def)             Requested size: 455.24411pt x 292.17122pt.
- (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
-File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
-) [42] [43 <../figures//stretchevol_all_vs_snf-mean.pdf>]
-<../figures/mod_comp.pdf, id=1590, 355.69597pt x 255.42525pt>
-File: ../figures/mod_comp.pdf Graphic file (type pdf)
-<use ../figures/mod_comp.pdf>
-Package pdftex.def Info: ../figures/mod_comp.pdf  used on input line 392.
-(pdftex.def)             Requested size: 455.24411pt x 326.9159pt.
- [44] [45 <../figures/mod_comp.pdf>]
-
-LaTeX Warning: Reference `sec:pmod' on page 46 undefined on input line 539.
-
-[46] [47]
-<../figures/bbc_comp_PS1_hist-nr.pdf, id=1688, 403.14243pt x 282.02486pt>
-File: ../figures/bbc_comp_PS1_hist-nr.pdf Graphic file (type pdf)
-<use ../figures/bbc_comp_PS1_hist-nr.pdf>
-Package pdftex.def Info: ../figures/bbc_comp_PS1_hist-nr.pdf  used on input line 609.
-(pdftex.def)             Requested size: 455.24411pt x 318.4821pt.
- [48] [49 <../figures/bbc_comp_PS1_hist-nr.pdf>] [50]
-\openout4 = `main.mtc'.
-
-\openout4 = `main.mtc'.
-
  (./main.mlf4)
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
- (./main.mlt4)) (../chapters/05_snana.tex [51] [52
-
-]
+ (./main.mlt4 [35])) (../chapters/05_stretch.tex [36]
 Chapitre V.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc5) [53]) (../chapters/06_results.tex [54]
+(./main.mtc5) [37
+
+]
+<../figures/deltaz_hist.pdf, id=1491, 411.4159pt x 222.40985pt>
+File: ../figures/deltaz_hist.pdf Graphic file (type pdf)
+<use ../figures/deltaz_hist.pdf>
+Package pdftex.def Info: ../figures/deltaz_hist.pdf  used on input line 102.
+(pdftex.def)             Requested size: 455.24411pt x 246.10748pt.
+
+
+LaTeX Warning: Reference `ssec:host' on page 38 undefined on input line 122.
+
+[38] [39 <../figures/deltaz_hist.pdf>]
+<../figures/model_base_hist.pdf, id=1536, 486.55167pt x 252.65123pt>
+File: ../figures/model_base_hist.pdf Graphic file (type pdf)
+<use ../figures/model_base_hist.pdf>
+Package pdftex.def Info: ../figures/model_base_hist.pdf  used on input line 168.
+(pdftex.def)             Requested size: 455.24411pt x 236.40117pt.
+ [40 <../figures/model_base_hist.pdf>]
+Overfull \hbox (20.13852pt too wide) in paragraph at lines 214--217
+[]\T1/cmr/m/n/12 (-20) L'estimation du maxi-mum de vrai-sem-blance des cinq pa-ra-mètres libres $[] \OMS/cmsy/m/n/12 ^^Q \OT1/cmr/m/n/12 (-20) ([])$
+ []
+
+[41]
+<../figures/stretchevol_all_vs_snf-mean.pdf, id=1582, 530.03967pt x 340.17519pt>
+File: ../figures/stretchevol_all_vs_snf-mean.pdf Graphic file (type pdf)
+<use ../figures/stretchevol_all_vs_snf-mean.pdf>
+Package pdftex.def Info: ../figures/stretchevol_all_vs_snf-mean.pdf  used on input line 296.
+(pdftex.def)             Requested size: 455.24411pt x 292.17122pt.
+ (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
+File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
+) [42] [43 <../figures/stretchevol_all_vs_snf-mean.pdf>]
+<../figures/mod_comp.pdf, id=1644, 355.69597pt x 255.87701pt>
+File: ../figures/mod_comp.pdf Graphic file (type pdf)
+<use ../figures/mod_comp.pdf>
+Package pdftex.def Info: ../figures/mod_comp.pdf  used on input line 434.
+(pdftex.def)             Requested size: 455.24411pt x 327.49413pt.
+ [44] [45 <../figures/mod_comp.pdf>]
+
+LaTeX Warning: Reference `sec:pmod' on page 46 undefined on input line 581.
+
+[46]
+<../figures/mod_comp_zonly.pdf, id=1712, 355.69597pt x 253.91283pt>
+File: ../figures/mod_comp_zonly.pdf Graphic file (type pdf)
+<use ../figures/mod_comp_zonly.pdf>
+Package pdftex.def Info: ../figures/mod_comp_zonly.pdf  used on input line 597.
+(pdftex.def)             Requested size: 273.14923pt x 194.99043pt.
+ [47 <../figures/mod_comp_zonly.pdf>] [48]
+<../figures/bbc_comp_PS1_hist-nr.pdf, id=1768, 403.14243pt x 282.02486pt>
+File: ../figures/bbc_comp_PS1_hist-nr.pdf Graphic file (type pdf)
+<use ../figures/bbc_comp_PS1_hist-nr.pdf>
+Package pdftex.def Info: ../figures/bbc_comp_PS1_hist-nr.pdf  used on input line 720.
+(pdftex.def)             Requested size: 455.24411pt x 318.4821pt.
+ [49] [50 <../figures/bbc_comp_PS1_hist-nr.pdf>]
+\openout4 = `main.mtc'.
+
+\openout4 = `main.mtc'.
+
+ (./main.mlf5)
+\openout4 = `main.mtc'.
+
+\openout4 = `main.mtc'.
+
+ (./main.mlt5)) (../chapters/06_snana.tex [51] [52
+
+]
 Chapitre VI.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc6) [55
+(./main.mtc6) [53]) (../chapters/07_results.tex [54]
+Chapitre VII.
+\openout4 = `main.mtc'.
+
+\openout4 = `main.mtc'.
+
+(./main.mtc7) [55
 
 ]) (../chapters/98_conclusions.tex [56]) (./main.bbl (./main.brf)
 \tf@brf=\write9
@@ -3790,13 +3827,13 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the main.log file.
 
 [66]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: BE5668A39B7164C06CC51D0AB71A0D18;9302.
+(rerunfilecheck)             Checksum: 7A9AB1524FD03CD1B3CB7275B7D28343;9446.
 
 
 LaTeX Warning: There were undefined references.
@@ -3804,14 +3841,14 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 65128 strings out of 492982
- 1360502 string characters out of 6134895
- 1874063 words of memory out of 5000000
- 66929 multiletter control sequences out of 15000+600000
- 575906 words of font info for 262 fonts, out of 8000000 for 9000
+ 64932 strings out of 492982
+ 1357177 string characters out of 6134895
+ 1867828 words of memory out of 5000000
+ 66713 multiletter control sequences out of 15000+600000
+ 575589 words of font info for 259 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,21n,130p,10407b,3049s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
@@ -3848,10 +3885,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb>
-Output written on main.pdf (84 pages, 2543339 bytes).
+Output written on main.pdf (84 pages, 2537995 bytes).
 PDF statistics:
- 2634 PDF objects out of 2984 (max. 8388607)
- 2410 compressed objects within 25 object streams
- 376 named destinations out of 1000 (max. 500000)
- 54190 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 2764 PDF objects out of 2984 (max. 8388607)
+ 2534 compressed objects within 26 object streams
+ 395 named destinations out of 1000 (max. 500000)
+ 54283 words of extra memory for PDF output out of 61914 (max. 10000000)
 

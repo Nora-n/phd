@@ -2,6 +2,7 @@
 \ProvidesPackage{phd-preambulle}
 
 \RequirePackage[authoryear]{natbib}
+\setcitestyle{aysep={}}
 \RequirePackage[utf8x]{inputenc}
 \RequirePackage[T1]{fontenc}
 \RequirePackage[french]{babel}
@@ -30,6 +31,7 @@
 % Space before ruler
 \setlength{\headheight}{28pt}
 % Make sure empty pages between chapters don't have a ruler
+\RequirePackage{emptypage}
 
 % For \cancel and \bcancel functions
 \RequirePackage{cancel}
@@ -77,6 +79,8 @@
 % Nice epigraph
 \RequirePackage{epigraph}
 \setlength\epigraphwidth{.5\textwidth}
+\newenvironment{myepistyle}{\hspace{-7.8pt}}{}
+\renewcommand{\textflush}{myepistyle}
 % Pour local TOC
 \RequirePackage{minitoc}
 \renewcommand{\mtctitle}{Sommaire}
@@ -120,13 +124,13 @@
 % Draw nice quotes in TiKz
 \RequirePackage{tikz}
 \newcommand*{\openquote}{%
-  \tikz[remember picture, overlay, xshift=-5pt, yshift=-5pt]
-  \node[black!30] (OQ) {\fontfamily{qbk}\fontsize{50}{60}\selectfont``};%
+  \tikz[remember picture, overlay, xshift=-5pt, yshift=0pt]
+  \node[black!30] (OQ) {\fontfamily{qbk}\fontsize{50}{60}\selectfont«};%
   \kern4pt
 }
 \newcommand*{\closequote}{%
-  \tikz[remember picture,overlay,xshift=10pt,yshift=-5pt]
-  \node[black!30] (CQ) {\fontfamily{qbk}\fontsize{50}{60}\selectfont''};%
+  \tikz[remember picture,overlay,xshift=10pt,yshift=0pt]
+  \node[black!30] (CQ) {\fontfamily{qbk}\fontsize{50}{60}\selectfont»};%
 }
 
 \RequirePackage{microtype}
@@ -178,8 +182,6 @@
 \DeclareSIUnit\as{as}           % arcsec
 \DeclareSIUnit\mag{mag}         % mag
 \DeclareSIUnit{\angstrom}{\textup{\AA}}
-% For \numprint command when using spaces or decimal
-\RequirePackage[np]{numprint}
 
 % Math in section names
 \RequirePackage{bookmark} % http://tex.stackexchange.com/questions/119079
@@ -238,21 +240,6 @@
 \setlist[enumerate,3]{label = \roman*.}
 \setlist[itemize, 1]{label = --}
 \setlist[itemize, 2]{label = *}
-
-% Custom code writing
-\lstdefinestyle{customc}{
-  belowcaptionskip=1\baselineskip,
-  breaklines=true,
-  frame=L,
-  xleftmargin=\parindent,
-  language=C,
-  showstringspaces=false,
-  basicstyle=\footnotesize\ttfamily,
-  keywordstyle=\bfseries\color{green!40!black},
-  commentstyle=\color{purple!40!black},
-  identifierstyle=\color{blue},
-  stringstyle=\color{orange},
-}
 
 \newcommand{\ed}[2]{#1\endnote{\textcolor{black}{#1} : #2}}
 \newcommand{\obar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
