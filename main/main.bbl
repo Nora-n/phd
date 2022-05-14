@@ -1,4 +1,4 @@
-\begin{thebibliography}{98}
+\begin{thebibliography}{87}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abbott}} {et~al.}(2019)\textsc{{Abbott}}, \textsc{{Allam}},
@@ -267,13 +267,6 @@
   {et~al.} 2016, «~{The Pan-STARRS1 Surveys}~»,
   \href{https://ui.adsabs.harvard.edu/abs/2016arXiv161205560C}{arXiv e-prints,
   arXiv:1612.05560}
-
-\bibitem[{\textsc{{Childress}} {et~al.}(2014)\textsc{{Childress}},
-  \textsc{{Wolf}} et \textsc{{Zahid}}}]{childress2014}
-\textsc{{Childress} M.~J.}, \textsc{{Wolf} C.} et \textsc{{Zahid} H.~J.} 2014,
-  «~{Ages of Type Ia supernovae over cosmic time}~»,
-  \href{http://dx.doi.org/10.1093/mnras/stu1892}{\color{magenta}\mnras},
-  \href{https://ui.adsabs.harvard.edu/abs/2014MNRAS.445.1898C}{445, 1898}
 
 \bibitem[{\textsc{{Conley}} {et~al.}(2011)\textsc{{Conley}}, \textsc{{Guy}},
   \textsc{{Sullivan}}, \textsc{{Regnault}}, \textsc{{Astier}},
@@ -625,15 +618,6 @@
   Supernovae}~», \href{http://dx.doi.org/10.1086/118190}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/1996AJ....112.2391H}{112, 2391}
 
-\bibitem[{\textsc{{Hayden}} {et~al.}(2013)\textsc{{Hayden}}, \textsc{{Gupta}},
-  \textsc{{Garnavich}}, \textsc{{Mannucci}}, \textsc{{Nichol}} et
-  \textsc{{Sako}}}]{hayden2013}
-\textsc{{Hayden} B.~T.}, \textsc{{Gupta} R.~R.}, \textsc{{Garnavich} P.~M.}
-  {et~al.} 2013, «~{The Fundamental Metallicity Relation Reduces Type Ia SN
-  Hubble Residuals More than Host Mass Alone}~»,
-  \href{http://dx.doi.org/10.1088/0004-637X/764/2/191}{\color{magenta}\apj},
-  \href{https://ui.adsabs.harvard.edu/abs/2013ApJ...764..191H}{764, 191}
-
 \bibitem[{\textsc{{Hicken}} {et~al.}(2009{\natexlab{a}})\textsc{{Hicken}},
   \textsc{{Challis}}, \textsc{{Jha}}, \textsc{{Kirshner}}, \textsc{{Matheson}},
   \textsc{{Modjaz}}, \textsc{{Rest}}, \textsc{{Wood-Vasey}}, \textsc{{Bakos}},
@@ -916,15 +900,6 @@
   Detectors}, ed. M.~{Iye} \& A.~F. {Moorwood},
   \href{https://ui.adsabs.harvard.edu/abs/2000SPIE.4008..104K}{104--113}
 
-\bibitem[{\textsc{{Kelly}} {et~al.}(2010)\textsc{{Kelly}}, \textsc{{Hicken}},
-  \textsc{{Burke}}, \textsc{{Mandel}} et \textsc{{Kirshner}}}]{kelly2010}
-\textsc{{Kelly} P.~L.}, \textsc{{Hicken} M.}, \textsc{{Burke} D.~L.},
-  \textsc{{Mandel} K.~S.} et \textsc{{Kirshner} R.~P.} 2010, «~{Hubble
-  Residuals of Nearby Type Ia Supernovae are Correlated with Host Galaxy
-  Masses}~»,
-  \href{http://dx.doi.org/10.1088/0004-637X/715/2/743}{\color{magenta}\apj},
-  \href{https://ui.adsabs.harvard.edu/abs/2010ApJ...715..743K}{715, 743}
-
 \bibitem[{\textsc{{Kennicutt}}(1998)}]{kennicutt1998}
 \textsc{{Kennicutt} R.} 1998, «~{Emission-Line Diagnostics of Galaxy Evolution
   with NGST}~», dans ESA Special Publication, Vol. 429, {\em LIA Colloq. 34:
@@ -1007,13 +982,6 @@
   \href{http://dx.doi.org/10.1146/annurev-astro-081811-125615}{\color{magenta}\araa},
   \href{https://ui.adsabs.harvard.edu/abs/2014ARA&A..52..415M}{52, 415}
 
-\bibitem[{\textsc{{Mannucci}} {et~al.}(2006)\textsc{{Mannucci}}, \textsc{{Della
-  Valle}} et \textsc{{Panagia}}}]{mannucci2006}
-\textsc{{Mannucci} F.}, \textsc{{Della Valle} M.} et \textsc{{Panagia} N.}
-  2006, «~{Two populations of progenitors for Type Ia supernovae?}~»,
-  \href{http://dx.doi.org/10.1111/j.1365-2966.2006.10501.x}{\color{magenta}\mnras},
-  \href{https://ui.adsabs.harvard.edu/abs/2006MNRAS.370..773M}{370, 773}
-
 \bibitem[{\textsc{{Mannucci}} {et~al.}(2005)\textsc{{Mannucci}}, \textsc{{Della
   Valle}}, \textsc{{Panagia}}, \textsc{{Cappellaro}}, \textsc{{Cresci}},
   \textsc{{Maiolino}}, \textsc{{Petrosian}} et
@@ -1022,19 +990,6 @@
   {et~al.} 2005, «~{The supernova rate per unit mass}~»,
   \href{http://dx.doi.org/10.1051/0004-6361:20041411}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2005A&A...433..807M}{433, 807}
-
-\bibitem[{\textsc{{Maoz}} et \textsc{{Mannucci}}(2012)}]{maoz2012}
-\textsc{{Maoz} D.} et \textsc{{Mannucci} F.} 2012, «~{Type-Ia Supernova Rates
-  and the Progenitor Problem: A Review}~»,
-  \href{http://dx.doi.org/10.1071/AS11052}{\color{magenta}\pasa},
-  \href{https://ui.adsabs.harvard.edu/abs/2012PASA...29..447M}{29, 447}
-
-\bibitem[{\textsc{{Maoz}} {et~al.}(2014)\textsc{{Maoz}}, \textsc{{Mannucci}} et
-  \textsc{{Nelemans}}}]{maoz2014}
-\textsc{{Maoz} D.}, \textsc{{Mannucci} F.} et \textsc{{Nelemans} G.} 2014,
-  «~{Observational Clues to the Progenitors of Type Ia Supernovae}~»,
-  \href{http://dx.doi.org/10.1146/annurev-astro-082812-141031}{\color{magenta}\araa},
-  \href{https://ui.adsabs.harvard.edu/abs/2014ARA&A..52..107M}{52, 107}
 
 \bibitem[{\textsc{{Marshall}} {et~al.}(2008)\textsc{{Marshall}},
   \textsc{{Burles}}, \textsc{{Thompson}}, \textsc{{Shectman}},
@@ -1173,16 +1128,6 @@
   {et~al.} 2020, «~{Planck 2018 results. VI. Cosmological parameters}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201833910}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2020A&A...641A...6P}{641, A6}
-
-\bibitem[{\textsc{{Popovic}} {et~al.}(2021)\textsc{{Popovic}},
-  \textsc{{Brout}}, \textsc{{Kessler}}, \textsc{{Scolnic}} et
-  \textsc{{Lu}}}]{popovic2021a}
-\textsc{{Popovic} B.}, \textsc{{Brout} D.}, \textsc{{Kessler} R.},
-  \textsc{{Scolnic} D.} et \textsc{{Lu} L.} 2021, «~{Improved Treatment of
-  Host-galaxy Correlations in Cosmological Analyses with Type Ia
-  Supernovae}~»,
-  \href{http://dx.doi.org/10.3847/1538-4357/abf14f}{\color{magenta}\apj},
-  \href{https://ui.adsabs.harvard.edu/abs/2021ApJ...913...49P}{913, 49}
 
 \bibitem[{\textsc{{Rabinowitz}} {et~al.}(2003)\textsc{{Rabinowitz}},
   \textsc{{Baltay}}, \textsc{{Emmet}}, \textsc{{Hurteau}}, \textsc{{Snyder}},
@@ -1341,19 +1286,6 @@
   \href{http://dx.doi.org/10.1088/0004-6256/148/1/13}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/2014AJ....148...13R}{148, 13}
 
-\bibitem[{\textsc{{Roman}} {et~al.}(2018)\textsc{{Roman}}, \textsc{{Hardin}},
-  \textsc{{Betoule}}, \textsc{{Astier}}, \textsc{{Balland}}, \textsc{{Ellis}},
-  \textsc{{Fabbro}}, \textsc{{Guy}}, \textsc{{Hook}}, \textsc{{Howell}},
-  \textsc{{Lidman}}, \textsc{{Mitra}}, \textsc{{M{\"o}ller}},
-  \textsc{{Mour{\~a}o}}, \textsc{{Neveu}}, \textsc{{Palanque-Delabrouille}},
-  \textsc{{Pritchet}}, \textsc{{Regnault}}, \textsc{{Ruhlmann-Kleider}},
-  \textsc{{Saunders}} et \textsc{{Sullivan}}}]{roman2018}
-\textsc{{Roman} M.}, \textsc{{Hardin} D.}, \textsc{{Betoule} M.} {et~al.} 2018,
-  «~{Dependence of Type Ia supernova luminosities on their local
-  environment}~»,
-  \href{http://dx.doi.org/10.1051/0004-6361/201731425}{\color{magenta}\aap},
-  \href{https://ui.adsabs.harvard.edu/abs/2018A&A...615A..68R}{615, A68}
-
 \bibitem[{\textsc{{Rubin}} {et~al.}(2015)\textsc{{Rubin}}, \textsc{{Aldering}},
   \textsc{{Barbary}}, \textsc{{Boone}}, \textsc{{Chappell}}, \textsc{{Currie}},
   \textsc{{Deustua}}, \textsc{{Fagrelius}}, \textsc{{Fruchter}},
@@ -1481,52 +1413,6 @@
   \href{http://dx.doi.org/10.3847/0004-637X/827/1/1}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...827....1S}{827, 1}
 
-\bibitem[{\textsc{{Smith}} {et~al.}(2012)\textsc{{Smith}}, \textsc{{Nichol}},
-  \textsc{{Dilday}}, \textsc{{Marriner}}, \textsc{{Kessler}},
-  \textsc{{Bassett}}, \textsc{{Cinabro}}, \textsc{{Frieman}},
-  \textsc{{Garnavich}}, \textsc{{Jha}}, \textsc{{Lampeitl}}, \textsc{{Sako}},
-  \textsc{{Schneider}} et \textsc{{Sollerman}}}]{smith2012}
-\textsc{{Smith} M.}, \textsc{{Nichol} R.~C.}, \textsc{{Dilday} B.} {et~al.}
-  2012, «~{The SDSS-II Supernova Survey: Parameterizing the Type Ia Supernova
-  Rate as a Function of Host Galaxy Properties}~»,
-  \href{http://dx.doi.org/10.1088/0004-637X/755/1/61}{\color{magenta}\apj},
-  \href{https://ui.adsabs.harvard.edu/abs/2012ApJ...755...61S}{755, 61}
-
-\bibitem[{\textsc{{Smith}} {et~al.}(2020)\textsc{{Smith}}, \textsc{{Sullivan}},
-  \textsc{{Wiseman}}, \textsc{{Kessler}}, \textsc{{Scolnic}}, \textsc{{Brout}},
-  \textsc{{D'Andrea}}, \textsc{{Davis}}, \textsc{{Foley}},
-  \textsc{{Frohmaier}}, \textsc{{Galbany}}, \textsc{{Gupta}},
-  \textsc{{Guti{\'e}rrez}}, \textsc{{Hinton}}, \textsc{{Kelsey}},
-  \textsc{{Lidman}}, \textsc{{Macaulay}}, \textsc{{M{\"o}ller}},
-  \textsc{{Nichol}}, \textsc{{Nugent}}, \textsc{{Palmese}},
-  \textsc{{Pursiainen}}, \textsc{{Sako}}, \textsc{{Swann}}, \textsc{{Thomas}},
-  \textsc{{Tucker}}, \textsc{{Vincenzi}}, \textsc{{Carollo}}, \textsc{{Lewis}},
-  \textsc{{Sommer}}, \textsc{{Abbott}}, \textsc{{Aguena}}, \textsc{{Allam}},
-  \textsc{{Avila}}, \textsc{{Bertin}}, \textsc{{Bhargava}}, \textsc{{Brooks}},
-  \textsc{{Buckley-Geer}}, \textsc{{Burke}}, \textsc{{Carnero Rosell}},
-  \textsc{{Carrasco Kind}}, \textsc{{Costanzi}}, \textsc{{da Costa}},
-  \textsc{{De Vicente}}, \textsc{{Desai}}, \textsc{{Diehl}}, \textsc{{Doel}},
-  \textsc{{Eifler}}, \textsc{{Everett}}, \textsc{{Flaugher}},
-  \textsc{{Fosalba}}, \textsc{{Frieman}}, \textsc{{Garc{\'\i}a-Bellido}},
-  \textsc{{Gaztanaga}}, \textsc{{Glazebrook}}, \textsc{{Gruen}},
-  \textsc{{Gruendl}}, \textsc{{Gschwend}}, \textsc{{Gutierrez}},
-  \textsc{{Hartley}}, \textsc{{Hollowood}}, \textsc{{Honscheid}},
-  \textsc{{James}}, \textsc{{Krause}}, \textsc{{Kuehn}}, \textsc{{Kuropatkin}},
-  \textsc{{Lima}}, \textsc{{MacCrann}}, \textsc{{Maia}}, \textsc{{Marshall}},
-  \textsc{{Martini}}, \textsc{{Melchior}}, \textsc{{Menanteau}},
-  \textsc{{Miquel}}, \textsc{{Paz-Chinch{\'o}n}}, \textsc{{Plazas}},
-  \textsc{{Romer}}, \textsc{{Roodman}}, \textsc{{Rykoff}}, \textsc{{Sanchez}},
-  \textsc{{Scarpine}}, \textsc{{Schubnell}}, \textsc{{Serrano}},
-  \textsc{{Sevilla-Noarbe}}, \textsc{{Suchyta}}, \textsc{{Swanson}},
-  \textsc{{Tarle}}, \textsc{{Thomas}}, \textsc{{Tucker}}, \textsc{{Varga}},
-  \textsc{{Walker}} et \textsc{{DES Collaboration}}}]{smith2020}
-\textsc{{Smith} M.}, \textsc{{Sullivan} M.}, \textsc{{Wiseman} P.} {et~al.}
-  2020, «~{First cosmology results using type Ia supernovae from the Dark
-  Energy Survey: the effect of host galaxy properties on supernova
-  luminosity}~»,
-  \href{http://dx.doi.org/10.1093/mnras/staa946}{\color{magenta}\mnras},
-  \href{https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.4426S}{494, 4426}
-
 \bibitem[{\textsc{{Stritzinger}} {et~al.}(2011)\textsc{{Stritzinger}},
   \textsc{{Phillips}}, \textsc{{Boldt}}, \textsc{{Burns}},
   \textsc{{Campillay}}, \textsc{{Contreras}}, \textsc{{Gonzalez}},
@@ -1577,21 +1463,6 @@
   Three-year Data with Other Probes}~»,
   \href{http://dx.doi.org/10.1088/0004-637X/737/2/102}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2011ApJ...737..102S}{737, 102}
-
-\bibitem[{\textsc{{Sullivan}} {et~al.}(2006)\textsc{{Sullivan}}, \textsc{{Le
-  Borgne}}, \textsc{{Pritchet}}, \textsc{{Hodsman}}, \textsc{{Neill}},
-  \textsc{{Howell}}, \textsc{{Carlberg}}, \textsc{{Astier}},
-  \textsc{{Aubourg}}, \textsc{{Balam}}, \textsc{{Basa}}, \textsc{{Conley}},
-  \textsc{{Fabbro}}, \textsc{{Fouchez}}, \textsc{{Guy}}, \textsc{{Hook}},
-  \textsc{{Pain}}, \textsc{{Palanque-Delabrouille}}, \textsc{{Perrett}},
-  \textsc{{Regnault}}, \textsc{{Rich}}, \textsc{{Taillet}}, \textsc{{Baumont}},
-  \textsc{{Bronder}}, \textsc{{Ellis}}, \textsc{{Filiol}}, \textsc{{Lusset}},
-  \textsc{{Perlmutter}}, \textsc{{Ripoche}} et \textsc{{Tao}}}]{sullivan2006}
-\textsc{{Sullivan} M.}, \textsc{{Le Borgne} D.}, \textsc{{Pritchet} C.~J.}
-  {et~al.} 2006, «~{Rates and Properties of Type Ia Supernovae as a Function
-  of Mass and Star Formation in Their Host Galaxies}~»,
-  \href{http://dx.doi.org/10.1086/506137}{\color{magenta}\apj},
-  \href{https://ui.adsabs.harvard.edu/abs/2006ApJ...648..868S}{648, 868}
 
 \bibitem[{\textsc{{Suzuki}} {et~al.}(2012)\textsc{{Suzuki}}, \textsc{{Rubin}},
   \textsc{{Lidman}}, \textsc{{Aldering}}, \textsc{{Amanullah}},

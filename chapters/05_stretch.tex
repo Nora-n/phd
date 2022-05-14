@@ -2,6 +2,13 @@
 \begin{document}
 \raggedbottom
 
+\dominitoc
+\faketableofcontents
+\dominilof
+\fakelistoffigures
+\dominilot
+\fakelistoftables
+
 \chapter{\'Evolution avec le redshift}\label{ch:stretch}
 
 \epigraph{\openquote Citation test\closequote}{Autaire}
@@ -9,135 +16,32 @@
 Comme présenté Chapitre~\ref{ch:sne}, la nature détaillée des SNe~Ia reste
 incertaine, et à mesure que les statistiques des relevés augmentent, la question
 des incertitudes systématiques astrophysiques se pose, notamment celle de
-l'évolution des populations de SNe~Ia. De nombreuses études des propriétés
-globales de galaxies hôtes ont montré des correlations significatives entre les
-propriété d'un hôte et ses SNe~Ia \citep{kelly2010, hayden2013, roman2018},
-amenant à l'utilisation répandue d'une marche de magnitude en fonction de la
-masse de la galaxie dans la standardisation des SNe~Ia \citep{scolnic2018,
-smith2020, popovic2021a}, les SNe dans une galaxie massive étant plus lumineuses
-en moyenne. Dans leurs travaux, \cite{rigault2020} ont montré une
-corrélation avec un traceur local
+l'évolution des populations de SNe~Ia. Dans cette perspective, nous avons
+discuté Chapitre~\ref{ch:env} des tentatives d'amélioration de notre
+connaissance de la physique des SNe~Ia par le biais de l'étude de corrélations
+entre leurs propriétés et leur environnement. Nous avons montré l'existence d'un
+biais en lien avec la masse globale de la galaxie hôte d'une SN, et mis en
+évidence l'exitence de sous-populations basées sur l'âge qui pourraient être
+plus pertinentes en tant que traceur de la différence des propriétés observées
+dans les SNe.
 
-À cet effet, nous étudions la dépendance au redshift de l'étirement de courbe de
-lumière issu d'un ajustement par \texttt{SALT2.4} de SNe~Ia, qui est une
-propriété purement intrinsèque des SNe, afin de sonder sa dérive potentielle
-avec le redshift.
-
-% Il a été démontré que l'étirement des SN est fortement corrélé avec
-% l'environnement des SN, notamment avec les traceurs de l'âge stellaire. Nous
-% avons modélisé la distribution sous-jacente de l'étirement en fonction du
-% décalage vers le rouge, en utilisant l'évolution de la fraction de SNe Ia jeunes
-% et vieux telle que prédite par l'ensemble de données SNfactory, et en supposant
-% une distribution sous-jacente de l'étirement constante pour chaque population
-% d'âge constituée de mélanges gaussiens. Nous avons testé notre prédiction par
-% rapport à des échantillons publiés qui ont été coupés pour avoir des effets de
-% sélection de magnitude marginale, de sorte que tout changement observé est bien
-% d'origine astrophysique et non observationnelle. Dans cette première étude, il y
-% a des indications que la distribution d'étirement sous-jacente des SN Ia évolue
-% en fonction du décalage vers le rouge, et que le modèle de dérive de l'âge est
-% une meilleure description des données que tout modèle constant dans le temps, y
-% compris les distributions asymétriques basées sur l'échantillon qui sont souvent
-% utilisées pour corriger le biais de Malmquist à une signification supérieure à
-% 5$\sigma$. Le modèle d'étirement sous-jacent favorisé est bimodal, composé d'un mode
-% d'étirement élevé partagé par les environnements jeunes et anciens, et d'un mode
-% d'étirement faible qui est exclusif aux environnements anciens. L'effet précis
-% de l'évolution au redshift des propriétés intrinsèques d'une population de SN Ia
-% sur la cosmologie reste à étudier. Cependant, la dérive astrophysique de la
-% distribution d'étirement des SN affecte les corrections actuelles du biais de
-% Malmquist et, par conséquent, les distances qui sont dérivées sur la base des SN
-% qui sont affectés par les effets de sélection observationnels. Nous soulignons
-% que ce biais augmentera avec les relevés couvrant des plages de redshift de plus
-% en plus larges, ce qui est particulièrement important pour le Large Synoptic
-% Survey Telescope.
+Notre thèse s'appuie sur cette hypothèse et le lien établi
+par~\cite{rigault2020} entre l'étirement des SNe et leur âge. Dans ce chapitre,
+nous étudions la dépendance au redshift de l'étirement de courbe de lumière issu
+d'un ajustement par \texttt{SALT2.4} de SNe~Ia, qui est une propriété purement
+intrinsèque des SNe, afin de sonder sa dérive potentielle avec le redshift. Nous
+modélisons différentes dépendances Section~\ref{sec:xmod} et donnons les
+résultats de notre analyse Section~\ref{sec:xres}~: nous y verrons que la dérive
+astrophysique des propriétés des SNe~Ia est fortement favorisée et que les
+modèles de distribution sous-jacente d'étirements constants avec le redshift
+sont exclus comme étant de bonnes représentations des données par rapport à
+notre modèle de référence.
 
 \vfill
-
-% \dominitoc
-% \tableofcontents
 \minitoc
-
 \vfill
 
 \newpage
-
-\section{Concept d'\^age}\label{sec:age}
-
-\subsection{Travaux précédents}\label{ssec:rates}
-
-De nombreuses études discutent des distributions de taux de formation de SNe~Ia
-et de délais entre la création de l'étoile (progéniteur) et son explosion en
-supernova \citep[par exemple,][]{mannucci2005, scannapieco2005, sullivan2006,
-smith2012, childress2014, maoz2014}. En effet, les deux scénarios décrits
-Section~\ref{ssec:explo} menant à l'explosion d'une naine blanche en supernova
-Ia se déroulent sur des échelles pouvant extrêmement varier. Ces scénarios
-peuvent se produire sur toute une variété d'échelles de temps, de quelques
-centaines de \si{Mans} à l'âge de l'Univers. Ceci s'observe par l'existence de
-taux de formation de SNe~Ia différents en fonction de l'âge des progéniteurs, ce
-qu'on appelle distribution du temps de retard \citep[DTD en anglais pour Delay
-Time Distribution, voir][]{mannucci2006}~: certaines explosent rapidement après
-un bref pic de formation stellaire.
-
-\cite{maoz2012} indiquent obtenir le taux de formation de SNe~Ia «~simplement~»
-en divisant le nombre total de supernovae acquises par un sondage par le temps
-effectif pendant lequel chaque SN aurait pu être détectée (différent selon la
-stratégie d'observation et l'efficacité du sondage).
-
-% Mannucci 2005 alone
-% In figure 3 we show that also these measurements are well reproduced by
-% the two populations model introduced above. Figure 3 also shows that the slow
-% exploders dominate the total rate at z< 1, while the fast events are more common
-% before this epoch.
-
-\subsection{Implications}\label{ssec:ageimpl}
-
-Cette distinction entre SNe~Ia rapides («~jeunes~») et lentes («~vieilles~») en
-fonction du taux de formation stellaire implique une évolution des
-sous-populations en fonction du redshift, comme présenté
-Section~\ref{sssec:snflssfr}. Nous pouvons notamment tracer l'évolution de la
-fraction de jeunes étoiles en fonction du redshift, $\delta(z)$, donnée
-Équation~\ref{eq:deltaz}, voir Figure~\ref{fig:deltaz}.
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\linewidth]{deltaz_hist.pdf}
-    % \captionsetup{justification=centering}
-    \caption[Évolution de la fraction de jeunes étoiles en fonction du redshift,
-    $\delta(z)$.]{Évolution de la fraction de jeunes étoiles en fonction du
-        redshift, $\delta(z)$. Le point noir indique la valeur fixée
-        par~\cite{rigault2020}. En couleur sont les histogrammes complets des
-    sondages SDSS, PS1 et SNLS de~\cite{scolnic2018}. Nous pouvons y lire que
-les SNe~Ia de SDSS sont en moyenne dans un environnement composé
-d'approximativement 60\% de jeunes supernovae, alors que celles à l'extrêmité
-haute de l'intervalle de redshift couvert par SNLS sont dans un environnement
-composé d'approximativement 80\% de jeunes étoiles.}
-    \label{fig:deltaz}
-\end{figure}
-
-Mise à part cette évolution venant naturellement avec la définition du critère
-jeune/vieux, ces deux sous-populations présentent des caractéristiques qui leur
-sont propres. \cite{rigault2020} présentent dans leur travaux une différence de
-magnitude basée sur cette dichotomie, trouvant que les vieilles SNe~Ia sont en
-moyenne \SI{0.065}{mag} plus lumineuses que les jeunes. D'autres études
-définissent des marches de magnitude selon d'autres critères, par exemple la
-masse de l'hôte (voir Section~\ref{ssec:host}), mais la particularité de celle
-basée sur l'âge est double~:
-\begin{enumerate}
-    \item Elle permet de définir une marche évoluant avec le redshift~;
-    \item Elle permet de retrouver les valeurs déterminées par le biais d'autres
-        traceurs comme démontré dans~\cite{briday2022}.
-\end{enumerate}
-
-Dans le cadre de cette thèse, c'est la distribution de l'étirement qui nous
-intéresse. En effet, si ces deux sous-populations de SNe~Ia présentent des
-distributions différentes, on s'attend à avoir une évolution de cette propriété
-en moyenne, améliorant notre compréhension de ces objets. Bien que cela
-n'intervienne pas directement dans l'amélioration du calcul des paramètres
-cosmologiques qui utilisent la standardisation \textit{via} la relation de
-\textsc{Tripp} (voir Section~\ref{sec:stand}), celle-ci se basant uniquement sur
-la valeur de l'étirement sans supposer une quelconque distribution, cette
-évolution impactera les études qui utilisent une distribution sous-jacente
-d'étirement, comme c'est le cas dans le cadre de simulations de données où des
-SNe~Ia sont générées à partir d'expressions mathématiques.
 
 \section{Modélisation de l'étirement}\label{sec:xmod}
 
@@ -147,11 +51,11 @@ SNe pour chaque sous-échantillon d'âge étant donné notre modèle susmentionn
 l'évolution de la fraction des SNe~Ia jeunes et vieilles avec le temps cosmique.
 \cite{rigault2020} ont présenté la relation entre l'étirement des SN et la
 mesure du LsSFR, un traceur de l'âge des progéniteurs, en utilisant
-l'échantillon SNfactory. Cette relation est illustrée dans la
-Fig.~\ref{fig:stretchlssfr} pour les SNe de SNfactory utilisés dans l'analyse
-actuelle. Étant donné la structure du nuage de points étirement-LsSFR, notre
-modèle de la distribution sous-jacente de l'étirement des SN~Ia est défini comme
-suit~:
+l'échantillon SNfactory (voir Section~\ref{ssec:snf}). Cette relation est
+illustrée dans la Fig.~\ref{fig:stretchlssfr} pour les SNe de SNfactory
+utilisées dans l'analyse actuelle. Étant donné la structure du nuage de points
+étirement-LsSFR, notre modèle de la distribution sous-jacente de l'étirement des
+SN~Ia est défini comme suit~:
 \begin{itemize}
     \item la distribution de l'étirement de la population la plus jeune
         ($\log(\mathrm{LsSFR})\geq-10,82$) est modélisée comme une distribution
@@ -562,6 +466,17 @@ dans la Section~\ref{ssec:disc}.
     \end{threeparttable}
 \end{table}
 
+\begin{figure}[]
+    \centering
+    \includegraphics[width=\linewidth]{model_all_025.pdf}
+    \captionsetup{justification=centering}
+    \caption{Modèles implémentés et testés dans l'étude de l'évolution de
+    l'étirement avec le redshift}
+    \label{fig:mod_all}
+\end{figure}
+
+\subsection{Tests supplémentaires}\label{ssec:testsupp}
+
 Nous avons également effectué des tests permettant au mode d'étirement élevé de
 la population âgée de différer de celui de la population jeune, ajoutant ainsi
 deux degrés de liberté ($\mu_3, \sigma_3$). L'ajustement correspondant n'est pas
@@ -572,10 +487,7 @@ pouvons nous demander si un mode de faible étirement pourrait également existe
 dans la population jeune (voir la Figure~\ref{fig:stretchlssfr}). Nous avons
 testé cette hypothèse en permettant à cette population d'être également
 bimodale, et nous avons constaté que l'amplitude d'un tel mode de faible
-étirement était compatible avec 0 (< 2\%) dans cette jeune population. Plus
-généralement, cela soulève la question de savoir dans quelle mesure un traceur
-environnemental (ici le LsSFR) trace l'âge. Cette question a reçu une analyse
-dédiée dans~\cite{briday2022}.
+étirement était compatible avec 0 (< 2\%) dans cette jeune population. 
 
 Enfin, le fait d'ignorer les mesures du LsSFR, qui ne sont disponibles que pour
 l'ensemble de données SNfactory (voir la Section~\ref{sec:pmod}), réduit la
@@ -589,7 +501,9 @@ LsSFR dans leur ajustement sont les modèles dérivants~: fixer la fraction de
 jeunes SNe~Ia rend les modèles insensible à ce paramètre. Ces résultats
 permettent de marquer la forte information apportée par ce traceur, expliquant
 pourquoi les études de distributions sous-jacentes n'utilisant pas le LsSFR sont
-moins clivantes que celle-ci.
+moins clivantes que celle-ci. Plus généralement, cela soulève la question de
+savoir dans quelle mesure un traceur environnemental (ici le LsSFR) trace l'âge.
+Cette question a reçu une analyse dédiée dans~\cite{briday2022}.
 
 \sidecaptionvpos{figure}{t}
 \begin{SCfigure}[0.8][ht]
@@ -768,15 +682,11 @@ extrêmement riche à bas-redshift (2000 SNe~Ia à $z \lesssim 0,7$).
 
 \newpage
 
-% \dominilof
-% \listoffigures
-% \dominilot
-% \listoftables
 \minilof
 \minilot
 
-% \bibliographystyle{../main/aa_url}
-% \shorthandoff{:}
-% \bibliography{../chapters/99_references}
+\bibliographystyle{../main/aa_url}
+\shorthandoff{:}
+\bibliography{../chapters/99_references}
 
 \end{document}

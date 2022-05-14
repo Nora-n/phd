@@ -79,33 +79,30 @@
 \contentsline {subsubsection}{\numberline {IV.3.1.2}Approche analytique}{27}{subsubsection.4.3.1.2}
 \contentsline {subsection}{\numberline {IV.3.2}Pr\IeC {\'e}sentation}{30}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {IV.3.3}Confirmation d'hypoth\IeC {\`e}se}{32}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {V}\'Evolution avec le redshift}{37}{chapter.5}
-\contentsline {section}{\numberline {V.1}Concept d'\^age}{38}{section.5.1}
-\contentsline {subsection}{\numberline {V.1.1}Travaux pr\IeC {\'e}c\IeC {\'e}dents}{38}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {V.1.2}Implications}{38}{subsection.5.1.2}
-\contentsline {section}{\numberline {V.2}Mod\IeC {\'e}lisation de l'\IeC {\'e}tirement}{39}{section.5.2}
-\contentsline {subsection}{\numberline {V.2.1}Param\IeC {\'e}trisations}{40}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {V.2.2}Impl\IeC {\'e}mentation}{42}{subsection.5.2.2}
-\contentsline {section}{\numberline {V.3}R\IeC {\'e}sultats}{44}{section.5.3}
-\contentsline {subsection}{\numberline {V.3.1}Comparaison aux donn\IeC {\'e}es}{44}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {V.3.2}Discussion}{47}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {V.3.3}Pr\IeC {\'e}dictions et am\IeC {\'e}lioration}{49}{subsection.5.3.3}
-\contentsline {chapter}{\numberline {VI}Impact sur la cosmologie~: simulations}{53}{chapter.6}
-\contentsline {section}{\numberline {VI.1}SNANA : overview}{54}{section.6.1}
-\contentsline {subsection}{\numberline {VI.1.1}Inputs}{54}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {VI.1.2}Tools}{54}{subsection.6.1.2}
-\contentsline {section}{\numberline {VI.2}La masse comme traceur}{54}{section.6.2}
-\contentsline {subsection}{\numberline {VI.2.1}Mod\IeC {\'e}lisation}{54}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {VI.2.2}Utilisation}{54}{subsection.6.2.2}
-\contentsline {section}{\numberline {VI.3}Impl\IeC {\'e}mentation}{54}{section.6.3}
-\contentsline {subsection}{\numberline {VI.3.1}Corr\IeC {\'e}lations test\IeC {\'e}es}{54}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {VI.3.2}R\IeC {\'e}sultats}{54}{subsection.6.3.2}
-\contentsline {chapter}{\numberline {VII}R\IeC {\'e}sultats et discussion}{55}{chapter.7}
-\contentsline {section}{\numberline {VII.1}XXX}{56}{section.7.1}
-\contentsline {subsection}{\numberline {VII.1.1}XXX}{56}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {VII.1.2}XXX}{56}{subsection.7.1.2}
-\contentsline {section}{\numberline {VII.2}XXX}{56}{section.7.2}
-\contentsline {subsection}{\numberline {VII.2.1}XXX}{56}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {VII.2.2}XXX}{56}{subsection.7.2.2}
-\contentsline {chapter}{Conclusions}{57}{chapter*.51}
+\contentsline {chapter}{\numberline {V}\'Evolution avec le redshift}{35}{chapter.5}
+\contentsline {section}{\numberline {V.1}Mod\IeC {\'e}lisation de l'\IeC {\'e}tirement}{36}{section.5.1}
+\contentsline {subsection}{\numberline {V.1.1}Param\IeC {\'e}trisations}{37}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {V.1.2}Impl\IeC {\'e}mentation}{38}{subsection.5.1.2}
+\contentsline {section}{\numberline {V.2}R\IeC {\'e}sultats}{40}{section.5.2}
+\contentsline {subsection}{\numberline {V.2.1}Comparaison aux donn\IeC {\'e}es}{40}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {V.2.2}Discussion}{44}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {V.2.3}Pr\IeC {\'e}dictions et am\IeC {\'e}lioration}{47}{subsection.5.2.3}
+\contentsline {chapter}{\numberline {VI}Impact sur la cosmologie~: simulations}{57}{chapter.6}
+\contentsline {section}{\numberline {VI.1}SNANA : overview}{58}{section.6.1}
+\contentsline {subsection}{\numberline {VI.1.1}Inputs}{58}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {VI.1.2}Tools}{58}{subsection.6.1.2}
+\contentsline {section}{\numberline {VI.2}La masse comme traceur}{58}{section.6.2}
+\contentsline {subsection}{\numberline {VI.2.1}Mod\IeC {\'e}lisation}{58}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {VI.2.2}Utilisation}{58}{subsection.6.2.2}
+\contentsline {section}{\numberline {VI.3}Impl\IeC {\'e}mentation}{58}{section.6.3}
+\contentsline {subsection}{\numberline {VI.3.1}Corr\IeC {\'e}lations test\IeC {\'e}es}{58}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {VI.3.2}R\IeC {\'e}sultats}{58}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {VII}R\IeC {\'e}sultats et discussion}{59}{chapter.7}
+\contentsline {section}{\numberline {VII.1}XXX}{60}{section.7.1}
+\contentsline {subsection}{\numberline {VII.1.1}XXX}{60}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {VII.1.2}XXX}{60}{subsection.7.1.2}
+\contentsline {section}{\numberline {VII.2}XXX}{60}{section.7.2}
+\contentsline {subsection}{\numberline {VII.2.1}XXX}{60}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {VII.2.2}XXX}{60}{subsection.7.2.2}
+\contentsline {chapter}{Conclusions}{61}{chapter*.51}
 \contentsfinish 

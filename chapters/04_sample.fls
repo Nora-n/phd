@@ -637,6 +637,15 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictio
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 INPUT /usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+INPUT 04_sample.toc
+OUTPUT 04_sample.mtc1
+OUTPUT 04_sample.toc
+INPUT 04_sample.lof
+OUTPUT 04_sample.mlf1
+OUTPUT 04_sample.lof
+INPUT 04_sample.lot
+OUTPUT 04_sample.mlt1
+OUTPUT 04_sample.lot
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def
