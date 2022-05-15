@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  14 MAY 2022 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  15 MAY 2022 20:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1610,6 +1610,19 @@ File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count299
 \c@bookmark@seq@number=\count300
 \Hy@SectionHShift=\skip81
+) (/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/02/08 v0.21.1 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2301.
+LaTeX Info: Redefining \cref on input line 2301.
+LaTeX Info: Redefining \Cref on input line 2301.
+LaTeX Info: Redefining \crefrange on input line 2301.
+LaTeX Info: Redefining \Crefrange on input line 2301.
+LaTeX Info: Redefining \cpageref on input line 2301.
+LaTeX Info: Redefining \Cpageref on input line 2301.
+LaTeX Info: Redefining \cpagerefrange on input line 2301.
+LaTeX Info: Redefining \Cpagerefrange on input line 2301.
+LaTeX Info: Redefining \labelcref on input line 2301.
+LaTeX Info: Redefining \labelcpageref on input line 2301.
 ) (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks32
@@ -1669,10 +1682,10 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
- (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks36
 \pgfkeys@temptoks=\toks37
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
@@ -1736,12 +1749,12 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@yy=\dimen279
 \pgf@zx=\dimen280
 \pgf@zy=\dimen281
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen282
 \pgf@path@lasty=\dimen283
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen284
 \pgf@shorten@start@additional=\dimen285
@@ -1794,7 +1807,8 @@ Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepend=\dimen293
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen294
@@ -3370,11 +3384,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 LaTeX Warning: Reference `ssec:snf' on page 2 undefined on input line 54.
 
-<../figures/model_base_hist.pdf, id=46, 486.55167pt x 252.65123pt>
+<../figures/model_base_hist.pdf, id=46, 486.55167pt x 255.0512pt>
 File: ../figures/model_base_hist.pdf Graphic file (type pdf)
 <use ../figures/model_base_hist.pdf>
 Package pdftex.def Info: ../figures/model_base_hist.pdf  used on input line 72.
-(pdftex.def)             Requested size: 455.24411pt x 236.40117pt.
+(pdftex.def)             Requested size: 455.24411pt x 238.64677pt.
 
 LaTeX Warning: Reference `eq:deltaz' on page 2 undefined on input line 89.
 
@@ -3387,69 +3401,66 @@ Overfull \hbox (20.13852pt too wide) in paragraph at lines 118--121
 LaTeX Warning: Reference `eq:deltaz' on page 3 undefined on input line 171.
 
 [3]
-<../figures/stretchevol_all_vs_snf-mean.pdf, id=110, 530.03967pt x 340.17519pt>
-File: ../figures/stretchevol_all_vs_snf-mean.pdf Graphic file (type pdf)
-<use ../figures/stretchevol_all_vs_snf-mean.pdf>
-Package pdftex.def Info: ../figures/stretchevol_all_vs_snf-mean.pdf  used on input line 200.
+<../figures/stretchevol_all-oth_vs_snf-mean.pdf, id=110, 530.03967pt x 340.17519pt>
+File: ../figures/stretchevol_all-oth_vs_snf-mean.pdf Graphic file (type pdf)
+<use ../figures/stretchevol_all-oth_vs_snf-mean.pdf>
+Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_snf-mean.pdf  used on input line 200.
 (pdftex.def)             Requested size: 455.24411pt x 292.17122pt.
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 )
 
-LaTeX Warning: Reference `eq:deltaz' on page 4 undefined on input line 240.
+LaTeX Warning: Reference `eq:deltaz' on page 4 undefined on input line 242.
 
-[4] [5 <../figures/stretchevol_all_vs_snf-mean.pdf>]
+[4] [5 <../figures/stretchevol_all-oth_vs_snf-mean.pdf>]
 
-LaTeX Warning: Reference `ch:sample' on page 6 undefined on input line 277.
+LaTeX Warning: Reference `ch:sample' on page 6 undefined on input line 280.
 
-<../figures/mod_comp.pdf, id=168, 355.69597pt x 255.87701pt>
+<../figures/mod_comp.pdf, id=171, 355.69597pt x 255.87701pt>
 File: ../figures/mod_comp.pdf Graphic file (type pdf)
 <use ../figures/mod_comp.pdf>
-Package pdftex.def Info: ../figures/mod_comp.pdf  used on input line 338.
+Package pdftex.def Info: ../figures/mod_comp.pdf  used on input line 342.
 (pdftex.def)             Requested size: 455.24411pt x 327.49413pt.
 [6]
 
-LaTeX Warning: Reference `eq:deltaz' on page 7 undefined on input line 386.
+LaTeX Warning: Reference `eq:deltaz' on page 7 undefined on input line 390.
 
 [7 <../figures/mod_comp.pdf>]
 
-LaTeX Warning: Reference `ch:sample' on page 8 undefined on input line 419.
+LaTeX Warning: Reference `ch:sample' on page 8 undefined on input line 423.
 
 
-LaTeX Warning: Reference `ch:snana' on page 8 undefined on input line 425.
+LaTeX Warning: Reference `ch:snana' on page 8 undefined on input line 429.
+
+[8] [9]
+<../figures/model_all_evol.pdf, id=257, 731.13103pt x 1020.21103pt>
+File: ../figures/model_all_evol.pdf Graphic file (type pdf)
+<use ../figures/model_all_evol.pdf>
+Package pdftex.def Info: ../figures/model_all_evol.pdf  used on input line 535.
+(pdftex.def)             Requested size: 500.77129pt x 698.76251pt.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 469.
+LaTeX Warning: Float too large for page by 66.5739pt on input line 560.
 
-<../figures/model_all_025.pdf, id=233, 875.67104pt x 1309.29103pt>
-File: ../figures/model_all_025.pdf Graphic file (type pdf)
-<use ../figures/model_all_025.pdf>
-Package pdftex.def Info: ../figures/model_all_025.pdf  used on input line 471.
-(pdftex.def)             Requested size: 455.24411pt x 680.67545pt.
 
-LaTeX Warning: Float too large for page by 45.34511pt on input line 476.
+LaTeX Warning: Reference `sec:pmod' on page 10 undefined on input line 563.
 
-[8] [9 <../figures/model_all_025.pdf>]
-
-LaTeX Warning: Reference `sec:pmod' on page 10 undefined on input line 493.
-
-<../figures/mod_comp_zonly.pdf, id=272, 355.69597pt x 253.91283pt>
+<../figures/mod_comp_zonly.pdf, id=263, 355.69597pt x 253.91283pt>
 File: ../figures/mod_comp_zonly.pdf Graphic file (type pdf)
 <use ../figures/mod_comp_zonly.pdf>
-Package pdftex.def Info: ../figures/mod_comp_zonly.pdf  used on input line 511.
+Package pdftex.def Info: ../figures/mod_comp_zonly.pdf  used on input line 631.
 (pdftex.def)             Requested size: 273.14923pt x 194.99043pt.
-[10] [11 <../figures/mod_comp_zonly.pdf>]
-<../figures/bbc_comp_PS1_hist-nr.pdf, id=334, 403.14243pt x 282.02486pt>
-File: ../figures/bbc_comp_PS1_hist-nr.pdf Graphic file (type pdf)
-<use ../figures/bbc_comp_PS1_hist-nr.pdf>
-Package pdftex.def Info: ../figures/bbc_comp_PS1_hist-nr.pdf  used on input line 634.
-(pdftex.def)             Requested size: 455.24411pt x 318.4821pt.
+[10] [11 <../figures/model_all_evol.pdf>] [12 <../figures/mod_comp_zonly.pdf>]
+<../figures/bbc_comp_PS1_hist-nr_viridis.pdf, id=349, 403.14243pt x 282.02518pt>
+File: ../figures/bbc_comp_PS1_hist-nr_viridis.pdf Graphic file (type pdf)
+<use ../figures/bbc_comp_PS1_hist-nr_viridis.pdf>
+Package pdftex.def Info: ../figures/bbc_comp_PS1_hist-nr_viridis.pdf  used on input line 704.
+(pdftex.def)             Requested size: 455.24411pt x 318.48247pt.
 
 
-LaTeX Warning: Reference `ch:snana' on page 12 undefined on input line 655.
+LaTeX Warning: Reference `ch:snana' on page 13 undefined on input line 725.
 
-[12] [13 <../figures/bbc_comp_PS1_hist-nr.pdf>] [14]
+[13] [14 <../figures/bbc_comp_PS1_hist-nr_viridis.pdf>]
 \openout4 = `05_stretch.mtc'.
 
 \openout4 = `05_stretch.mtc'.
@@ -3478,31 +3489,31 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the 05_stretch.log file.
 
 [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 692.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 692.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 762.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 762.
  (./05_stretch.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 692.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 692.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 762.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 762.
 Package rerunfilecheck Info: File `05_stretch.brf' has not changed.
-(rerunfilecheck)             Checksum: E31EA17C40600E1A0EDD7F673E988CCB;2116.
+(rerunfilecheck)             Checksum: C4C137327AEEE542AA2ABE41CEC1E4C9;2099.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 62605 strings out of 492982
- 1324764 string characters out of 6134895
- 1809532 words of memory out of 5000000
- 64966 multiletter control sequences out of 15000+600000
- 559753 words of font info for 162 fonts, out of 8000000 for 9000
+ 64229 strings out of 492982
+ 1362838 string characters out of 6134895
+ 1831865 words of memory out of 5000000
+ 66588 multiletter control sequences out of 15000+600000
+ 559732 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,21n,132p,10453b,2519s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on 05_stretch.pdf (18 pages, 2079597 bytes).
+ 90i,21n,132p,10453b,2520s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on 05_stretch.pdf (18 pages, 5884279 bytes).
 PDF statistics:
- 595 PDF objects out of 1000 (max. 8388607)
- 523 compressed objects within 6 object streams
+ 610 PDF objects out of 1000 (max. 8388607)
+ 535 compressed objects within 6 object streams
  65 named destinations out of 1000 (max. 500000)
  25203 words of extra memory for PDF output out of 29859 (max. 10000000)
 

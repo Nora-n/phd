@@ -2,12 +2,12 @@
 \begin{document}
 \raggedbottom
 
-\dominitoc
-\faketableofcontents
-\dominilof
-\fakelistoffigures
-\dominilot
-\fakelistoftables
+% \dominitoc
+% \faketableofcontents
+% \dominilof
+% \fakelistoffigures
+% \dominilot
+% \fakelistoftables
 
 \chapter{\'Evolution avec le redshift}\label{ch:stretch}
 
@@ -71,13 +71,13 @@ SN~Ia est défini comme suit~:
     \centering
     \includegraphics[width=\linewidth]{model_base_hist.pdf}
     \caption[Étirement en fonction du LsSFR des SNe~Ia de SNfactory et modèles
-    d'étirement de référence ajustés]{\textit{Principal}: étirement de courbe de
+    d'étirement de base ajustés]{\textit{Principal}: étirement de courbe de
         lumière ($x_1$) issu d'un ajustement par \textsc{\texttt{SALT2.4}} en
         fonction du LsSFR pour les SNe de SNfactory. La couleur correspond à la
         probabilité $p_y$ que la SN~Ia soit jeune, c'est-à-dire qu'elle ait
         $\log\mathrm{LsSFR} \geq -10.82$ \citep[voir][]{rigault2020}. \textit{À
         droite}: histogramme pondéré par $p_y$ des étirements des SNe, ainsi que
-        le modèle de référence ajusté~; les contributions de la population jeune
+        le modèle de base ajusté~; les contributions de la population jeune
     et âgée sont indiquées en violet et en jaune, respectivement.}
     \label{fig:stretchlssfr}
 \end{figure}
@@ -94,12 +94,12 @@ par~:
     (1-\delta(z))&\times \left[ a\times\mathcal{N}(\mu_1,\sigma_1{}^2) +
     (1-a)\times\mathcal{N}(\mu_2,\sigma_2{}^2) \right]
 \end{align}
-Ceci constitue notre modèle de dérive de référence.
+Ceci constitue notre modèle de dérive de base.
 
 \subsection{Paramétrisations}\label{ssec:pmod}
 
 Compte tenu de la probabilité $y^i$ qu'une SN donnée soit jeune et supposant
-notre modèle de référence (voir Section~\ref{sec:xmod}), la probabilité de
+notre modèle de base (voir Section~\ref{sec:xmod}), la probabilité de
 mesurer un étirement \texttt{SALT2.4} $x_1^i$ avec une erreur $\d x_1^i$ est
 donné par~:
 \begin{align}\label{eq:likelihoodsnf}
@@ -133,13 +133,13 @@ probabilité d'avoir $\log(\mathrm{LsSFR}) \geq -10,82$ (voir
 Figure~\ref{fig:stretchlssfr}) afin de minimiser l'Équation~\ref{eq:likelihood}
 par rapport à $\overrightarrow{\theta}$. Les résultats de l'ajustement de ce
 modèle avec les SNe~Ia de SNf sont présentés dans la
-Tableau~\ref{tab:modelresults} et illustrés Figure~\ref{fig:modelall}.
+Tableau~\ref{tab:modelresults} et illustrés Figure~\ref{fig:evol_all}.
 
 \begin{table*}
     \centering
-    \caption[Valeurs des paramètres du modèle d'étirement de référence selon
-    l'échantillon.]{Valeurs des paramètres issus des meilleurs ajustements du
-        modèle de distribution de l'étirement de référence lorsqu'il est
+    \caption[Valeurs des paramètres du modèle d'étirement de base selon
+    l'échantillon]{Valeurs des paramètres issus des meilleurs ajustements du
+        modèle de distribution de l'étirement de base lorsqu'il est
         appliqué à l'ensemble de données de SNfactory seulement (114 SNe~Ia), à
         l'échantillon fiduciel (569 SNe~Ia) ou à l'échantillon conservatif
     (422).}
@@ -186,7 +186,7 @@ Les résultats de l'ajustement de ce modèle à l'ensemble des 569 (respectiveme
 Tableau~\ref{tab:modelresults}, et l'évolution prédite de l'étirement avec le
 redshift ($x_1$ attendu compte tenu de la distribution de
 l'équation~\ref{eq:stretchz}) est illustrée sous la forme d'une bande bleue dans
-la Figure~\ref{fig:modelall} qui tient compte des erreurs des paramètres et de
+la Figure~\ref{fig:evol_all} qui tient compte des erreurs des paramètres et de
 leurs covariances. Cette figure montre que l'étirement moyen mesuré des SNe~Ia
 par intervalle de redshift (contenant tous le même nombre de données) suit de
 près notre modélisation de la dérive avec le redshift. C'est en effet ce que
@@ -197,12 +197,12 @@ résultats Section~\ref{sec:xres}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{stretchevol_all_vs_snf-mean.pdf}
+    \includegraphics[width=\linewidth]{stretchevol_all-oth_vs_snf-mean.pdf}
     \caption[Évolution de l'étirement moyen des SNe~Ia en fonction du redshift
-    issu de la prédiction de notre modèle de référence selon l'échantillon
-    utilisé.]{Évolution de l'étirement moyen ($x_1$) des SNe~Ia issus d'un
+    issu de la prédiction de notre modèle de base selon l'échantillon
+    utilisé]{Évolution de l'étirement moyen ($x_1$) des SNe~Ia issus d'un
         ajustement \texttt{SALT2.4} en fonction du redshift pour notre modèle de
-        référence. Les marqueurs montrent la simple moyenne de l'étirement (les
+        base. Les marqueurs montrent la simple moyenne de l'étirement (les
         erreurs sont estimées à partir de la dispersion) mesurée dans des
         intervalles de redshift de tailles d'échantillon égales, indiquées en
         gris clair en bas de chaque intervalle. Les marqueurs opaques et
@@ -210,14 +210,16 @@ résultats Section~\ref{sec:xres}.
         conservatif sont considérés, respectivement. La ligne horizontale orange
         représente l'étirement moyen pour le modèle Gaussien sans dérive
         (dernière ligne de le Tableau~\ref{tab:comp}) sur l'échantillon fiduciel.
-        Les meilleurs ajustements de notre modèle de dérive de référence sont
+        Les meilleurs ajustements de notre modèle de dérive de base sont
         présentés en bleu, bleu pointillé et gris lorsqu'ils sont ajustés sur
         l'échantillon fiduciel, conservatif ou l'ensemble de données SNfactory
         uniquement, respectivement~; ils sont tous compatibles entre eux et avec
         les données. La bande bleu clair illustre l'amplitude de l'erreur
         (covariance comprise) du modèle le mieux ajusté lorsqu'on considère
-    l'ensemble de données fiduciel.}
-    \label{fig:modelall}
+    l'ensemble de données fiduciel. Les lignes verte et violette représentent
+les meilleurs ajustements d'autres modèles dérivants, voir
+Sections~\ref{ssec:modimpl},~\ref{ssec:testsupp}.}
+    \label{fig:evol_all}
 \end{figure}
 
 \subsection{Implémentation}\label{ssec:modimpl}
@@ -228,7 +230,7 @@ c'est-à-dire avec une unique Gaussienne pour les jeunes SNe et un mélange de
 deux Gaussiennes pour la population des vieilles SNe~Ia, la première étant la
 même que pour la jeune population et la seconde une qui est spécifique aux SNe à
 déclin rapide qui semblent n'exister que dans les environnements localement
-vieux. C'est ce que nous appelons notre modèle de référence. Cependant, pour
+vieux. C'est ce que nous appelons notre modèle de base. Cependant, pour
 tester différents choix de modélisation, nous avons mis en œuvre une suite de
 paramétrisations alternatives que nous avons également ajustées aux données en
 suivant la procédure décrite dans la Section~\ref{ssec:pmod}.
@@ -237,13 +239,14 @@ suivant la procédure décrite dans la Section~\ref{ssec:pmod}.
 d'âge, en supposant une distribution normale unique pour chacune des populations
 jeune et âgée. Nous avons donc considéré un modèle «~Howell+dérive~», comportant
 une seule Gaussienne par groupe d'âge et intégrant la dérive avec $\delta(z)$ de
-l'équation~\ref{eq:deltaz}.
+l'équation~\ref{eq:deltaz}. L'évolution moyenne de l'étirement avec le redshift
+ce modèle est tracé en vert Figure~\ref{fig:evol_all}.
 
 Alternativement, comme nous cherchons à vérifier l'existence d'une évolution
 avec le redshift, nous avons également testé des modèles constants en limitant
-les modèles de référence et de \textsc{Howell} à utiliser une fraction de jeunes
+les modèles de base et de \textsc{Howell} à utiliser une fraction de jeunes
 SNe~Ia $\delta(z) \equiv f$ indépendante du redshift~; ces modèles sont appelés
-ci-après «~référence+constant~» et «~Howell+constant~».
+ci-après «~base+constant~» et «~Howell+constant~».
 
 Nous avons également considéré un autre modèle intrinsèquement non-dérivant, la
 forme fonctionnelle développée pour la méthode \textit{BEAMS with Bias
@@ -264,7 +267,7 @@ cette approche par échantillon est double~\citep{scolnic2016, scolnic2018}~:
 \end{enumerate}
 Une discussion plus détaillée sur BBC se trouve Section~\ref{ssec:disc}. Enfin,
 par souci d'exhaustivité, nous avons également considéré des modèles Gaussiens
-purs en asymétriques indépendants du redshift.
+purs et asymétriques indépendants du redshift.
 
 \section{Résultats}\label{sec:xres}
 
@@ -282,9 +285,9 @@ Figure~\ref{fig:mod_comp}.
     \centerfloat
     \begin{threeparttable}
         \caption[Comparaison de la capacité relative de chaque modèle à décrire
-        les données par rapport au modèle de référence]{Comparaison de la
-            capacité relative de chaque modèle à décrire les données par rapport
-        au modèle de référence.}\label{tab:comp}
+        les données par rapport au modèle de base]{Comparaison de la
+            capacité relative de chaque modèle à décrire les données.}
+            \label{tab:comp}
         \begin{tabular}{lcccccccc}
             \toprule
             & & & \multicolumn{3}{c}{Échantillon fiduciel (569 SNe)}
@@ -293,7 +296,7 @@ Figure~\ref{fig:mod_comp}.
             Nom & dérive & $k$ &
             $-2\ln(L)$ & AIC & $\Delta$AIC & $-2\ln(L)$ & AIC & $\Delta$AIC\\
             \midrule
-            Référence & $\delta(z)$ & 5
+            Base & $\delta(z)$ & 5
             & 1456,7 & 1466,7 & -- 
             & 1079,5 & 1089,5 & -- \\
             Howell+dérive & $\delta(z)$ & 4
@@ -308,7 +311,7 @@ Figure~\ref{fig:mod_comp}.
             & 1484,2 & 1494,2 & $-27,5$
             & 1101,2 & 1111,2 & $-21,7$ 
             \\
-            Référence+const & $f$ & 6
+            Base+const & $f$ & 6
             & 1484,2 & 1496,2 & $-29,5$
             & 1101,2 & 1113,2 & $-23,7$ 
             \\
@@ -328,7 +331,8 @@ Figure~\ref{fig:mod_comp}.
                 paramètres libres $k$, et pour les échantillons fiduciel et
                 conservatif, $-2\ln(L)$ (voir Équation~\ref{eq:likelihood}),
                 l'AIC et la différence d'AIC ($\Delta$AIC) entre ce modèle et le
-                modèle de référence, choisi car présentant l'AIC le plus faible.
+                modèle de base, choisi comme référence car présentant l'AIC le
+                plus faible.
         \end{tablenotes}
     \end{threeparttable}
 \end{table}
@@ -380,7 +384,7 @@ relativement au modèle de base. Le meilleur modèle  non-dérivant (le modèle
 asymétrique) a une chance très marginale ($p \equiv \exp(\Delta\mathrm{AIC}/2) =
 \num{5e-6}$) de décrire les données aussi bien que le modèle de base. Ce
 résultat n'est qu'une évaluation quantitative de faits qualitatifs qui sont
-clairement visibles sur la Figure~\ref{fig:modelall}~: l'étirement moyen des SNe
+clairement visibles sur la Figure~\ref{fig:evol_all}~: l'étirement moyen des SNe
 par intervalle de redshift suggère fortement une évolution significative du
 redshift plutôt qu'une valeur constante, et cette évolution est bien décrite par
 l'Équation~\ref{eq:deltaz}.
@@ -439,7 +443,7 @@ dans la Section~\ref{ssec:disc}.
     \begin{threeparttable}
         \caption[Paramètres de meilleur ajustement pour notre modélisation
         asymétrique par échantillon de la distribution d'étirement
-        sous-jacente.]{Paramètres de meilleur ajustement pour notre modélisation
+        sous-jacente]{Paramètres de meilleur ajustement pour notre modélisation
         asymétrique par échantillon de la distribution d'étirement sous-jacente.}
         \label{tab:bbc}
         \begin{tabular}{lcccccc}
@@ -466,61 +470,112 @@ dans la Section~\ref{ssec:disc}.
     \end{threeparttable}
 \end{table}
 
-\begin{figure}[]
-    \centering
-    \includegraphics[width=\linewidth]{model_all_025.pdf}
-    \captionsetup{justification=centering}
-    \caption{Modèles implémentés et testés dans l'étude de l'évolution de
-    l'étirement avec le redshift}
-    \label{fig:mod_all}
-\end{figure}
-
 \subsection{Tests supplémentaires}\label{ssec:testsupp}
 
 Nous avons également effectué des tests permettant au mode d'étirement élevé de
 la population âgée de différer de celui de la population jeune, ajoutant ainsi
-deux degrés de liberté ($\mu_3, \sigma_3$). L'ajustement correspondant n'est pas
-significativement meilleur, avec un $\Delta$AIC de \num{-0.4}. Cela renforce
-notre hypothèse selon laquelle les populations jeune et âgée semblent
-effectivement partager le même mode sous-jacent d'étirement élevé. De plus, nous
-pouvons nous demander si un mode de faible étirement pourrait également exister
-dans la population jeune (voir la Figure~\ref{fig:stretchlssfr}). Nous avons
-testé cette hypothèse en permettant à cette population d'être également
-bimodale, et nous avons constaté que l'amplitude d'un tel mode de faible
-étirement était compatible avec 0 (< 2\%) dans cette jeune population. 
+deux degrés de liberté ($\mu_1^{\rm O}, \sigma_1^{\rm O}$, voir ligne 3
+Figure~\ref{fig:mod_all}). L'ajustement correspondant n'est pas
+significativement meilleur, avec un $\Delta$AIC de \num{-0.4} du fait de la
+pénalisation de cet estimateur. Cela renforce notre hypothèse selon laquelle les
+populations jeune et âgée semblent effectivement partager le même mode
+sous-jacent d'étirement élevé. De plus, nous pouvons nous demander si un mode de
+faible étirement pourrait également exister dans la population jeune (voir la
+Figure~\ref{fig:stretchlssfr}). Nous avons testé cette hypothèse en permettant à
+cette population d'être également bimodale, en rajoutant également deux
+paramètres ($\mu_2^{\rm Y}, \sigma_2^{\rm Y}$, ligne 4
+Figure~\ref{fig:mod_all}). Nous avons constaté que l'amplitude d'un tel mode de
+faible étirement est fondamentalement 0 dans cette jeune population, n'apportant
+aucune amélioration dans la qualité de l'ajustement (même $-2\ln(L)$ que le
+modèle de base), et donc discriminé négativement par la réduction de son AIC
+($\Delta$AIC = -2,0).
+
+Finalement, nous avons également implémenté un modèle combinant ces deux
+hypothèses, c'est-à-dire avec deux Gaussiennes par catégorie d'âge, chacune de
+ces quatre Gaussiennes pouvant différer les unes des autres. Celui-ci présente
+alors quatre valeurs moyennes sensiblement différentes, d'amplitudes
+non-compatibles avec 0 (voir ligne 1 Figure~\ref{fig:mod_all}). Une telle
+liberté dans la paramétrisation permet alors à ce modèle d'être considéré comme
+une bien meilleure représentation des données que notre modèle de référence,
+avec un $\Delta$AIC = 6,17. Sa version constante avec le redshift reste
+cependant complètement défavorisée avec un $\Delta$AIC = -32,07. L'évolution
+moyenne de l'étirement avec le redshift de ce modèle est représenté en violet
+Figure~\ref{fig:evol_all} sous la légende «~Quad. Gauss~». Bien que sa qualité
+d'ajustement soit nettement supérieure à notre modèle de base, il n'a pas été
+conservé dans cette analyse étant donné la complexité de sa composition, peu
+motivée physiquement, et la grande similitude dans l'évolution moyenne en
+résultant. Cette implémentation semblerait principalement représenter une limite
+à la définition de l'AIC et à sa capacité à permettre de discriminer deux
+modèles censés représenter une réalité physique. L'ensemble des modèles testés
+sont présentés Figure~\ref{fig:mod_all}.
+
+% , dans
+% laquelle les modèles dérivants sont tracés dans la colonne de gauche et leur
+% version constante dans la colonne de droite. Les deux modèles ne se basant pas
+% sur des catégories d'âge (la simple Gaussienne et la Gaussienne asymétriques)
+% sont représentées dans la dernière ligne côte à côte conjointement à
+% l'histogramme des étirements de notre échantillon. Les quantités
+% $\Delta(-2\ln(L))$ et $\Delta$AIC par rapport au modèle de référence (ligne 2)
+% sont indiqués dans les coins extérieurs de chaque figure. Pour les modèles
+% dérivants, on en a tracé dix réalisations selon la valeur du redshift moyen
+% considéré, de la valeur la plus basse de notre échantillon ($z = 0,02$) à la
+% valeur maximale des données totales (sans coupe en redshift) de SNLS ($z =
+% 1,06$) représentés en couleur allant du jaune (bas redshift, plus vieil
+% environnement) au violet (haut redshift, environnement jeune) et les
+% distributions des populations jeune et vieille constituant le modèle total sont
+% en gris pointillé et fin pointillé, respectivement. Les modèles non-dérivants
+% sont tracés en vert avec les sous-populations vieille et jeune en jaune et
+% violet, respectivement. On y retrouve l'information que tous les modèles
+% non-dérivants sont exclus en tant que bonnes représentations des données par
+% rapport au modèle de base.
+
+\begin{figure}[p]
+    \vspace*{-3cm}
+    \centerfloat
+    \includegraphics[width=1.1\linewidth]{model_all_evol.pdf}
+    \captionsetup{justification=centering}
+    \caption[Modèles implémentés et testés dans l'étude de l'évolution de
+    l'étirement avec le redshift]{\scriptsize Modèles implémentés et testés dans
+        l'étude de l'évolution de l'étirement avec le redshift. Les modèles
+        dérivants sont tracés dans la colonne de gauche et leur version
+        constante dans la colonne de droite. Les deux modèles ne se basant pas
+        sur des catégories d'âge (la simple Gaussienne et la Gaussienne
+        asymétriques) sont représentées dans la dernière ligne côte à côte
+        conjointement à l'histogramme des étirements de notre échantillon. Les
+        quantités $\Delta(-2\ln(L))$ et $\Delta$AIC par rapport au modèle de
+        référence (ligne 2) sont indiqués dans les coins extérieurs de chaque
+        figure. Pour les modèles dérivants, on en a tracé dix réalisations selon
+        la valeur du redshift moyen considéré, de la valeur la plus basse de
+        notre échantillon ($z = 0,02$) à la valeur maximale des données totales
+        (sans coupe en redshift) de SNLS ($z = 1,06$) représentés en couleur
+        allant du jaune (bas redshift, plus vieil environnement) au violet (haut
+        redshift, environnement jeune) et les distributions des populations
+        jeune et vieille constituant le modèle total sont en gris pointillé et
+        fin pointillé, respectivement. Les modèles non-dérivants sont tracés en
+        vert avec les sous-populations vieille et jeune en jaune et violet,
+        respectivement. On y retrouve l'information que tous les modèles
+        non-dérivants sont exclus en tant que bonnes représentations des données
+    par rapport au modèle de base.}
+    \label{fig:mod_all}
+\end{figure}
 
 Enfin, le fait d'ignorer les mesures du LsSFR, qui ne sont disponibles que pour
 l'ensemble de données SNfactory (voir la Section~\ref{sec:pmod}), réduit la
 pertinence des résultats présentés dans cette section, comme prévu. Malgré cela,
-les modèles non-dérivants restent fortement défavorisés. Voir
-Figure~\ref{fig:mod_comp_zonly} et le Tableau~\ref{tab:comp_zonly}. Par exemple,
+les modèles non-dérivants restent fortement défavorisés. Voir le
+Tableau~\ref{tab:comp_zonly} et la Figure~\ref{fig:mod_comp_zonly}. Par exemple,
 le modèle asymétrique Gaussien par échantillon le mieux ajusté est toujours
 $\Delta$AIC < -10, ce qui est moins représentatif des données que notre modèle
 de dérive de référence. On note que les seuls modèles impactés par l'absence de
 LsSFR dans leur ajustement sont les modèles dérivants~: fixer la fraction de
-jeunes SNe~Ia rend les modèles insensible à ce paramètre. Ces résultats
+jeunes SNe~Ia rend les modèles insensibles à ce paramètre. Ces résultats
 permettent de marquer la forte information apportée par ce traceur, expliquant
 pourquoi les études de distributions sous-jacentes n'utilisant pas le LsSFR sont
 moins clivantes que celle-ci. Plus généralement, cela soulève la question de
 savoir dans quelle mesure un traceur environnemental (ici le LsSFR) trace l'âge.
 Cette question a reçu une analyse dédiée dans~\cite{briday2022}.
 
-\sidecaptionvpos{figure}{t}
-\begin{SCfigure}[0.8][ht]
-    \centering
-    \includegraphics[width=.6\linewidth]{mod_comp_zonly.pdf}
-    \caption[$\Delta$AIC entre le modèle de base et les autres modèles sans
-    utiliser le LsSFR]{$\Delta$AIC entre le modèle de référence et les autres
-        modèles sans utiliser le LsSFR (voir Tableau~\ref{tab:comp_zonly}). La
-        légende est la même qu'en Figure~\ref{fig:mod_comp}. En revanche, la
-        robustesse des résultats concernant l'inaptitude des modèles
-        non-dérivants à représenter correctement les données diminue, même si
-        les meilleurs modèles sont toujours ceux incluant une dérive (marqueurs
-    pleins).}\label{fig:mod_comp_zonly}
-\end{SCfigure}
-\sidecaptionvpos{figure}{c}
-
-\begin{table}[ht]
+\begin{table}[ht!]
     \centerfloat
     \begin{threeparttable}
         \caption[Comparaison de la capacité relative de chaque modèle à décrire
@@ -569,6 +624,21 @@ Cette question a reçu une analyse dédiée dans~\cite{briday2022}.
         \end{tablenotes}
     \end{threeparttable}
 \end{table}
+
+\sidecaptionvpos{figure}{t}
+\begin{SCfigure}[0.8][ht]
+    \centering
+    \includegraphics[width=.6\linewidth]{mod_comp_zonly.pdf}
+    \caption[$\Delta$AIC entre le modèle de base et les autres modèles sans
+    utiliser le LsSFR]{$\Delta$AIC entre le modèle de référence et les autres
+        modèles sans utiliser le LsSFR (voir Tableau~\ref{tab:comp_zonly}). La
+        légende est la même qu'en Figure~\ref{fig:mod_comp}. En revanche, la
+        robustesse des résultats concernant l'inaptitude des modèles
+        non-dérivants à représenter correctement les données diminue, même si
+        les meilleurs modèles sont toujours ceux incluant une dérive (marqueurs
+    pleins).}\label{fig:mod_comp_zonly}
+\end{SCfigure}
+\sidecaptionvpos{figure}{c}
 
 \subsection{Discussion}\label{ssec:disc}
 
@@ -631,21 +701,21 @@ de la véritable distribution d'étirement sous-jacente.
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{bbc_comp_PS1_hist-nr.pdf}
+    \includegraphics[width=\linewidth]{bbc_comp_PS1_hist-nr_viridis.pdf}
     \caption[Comparaison des modélisations de BBC et de notre modèle de
-    référence sur l'histogramme des étirements de PS1.]{Distribution de
+    référence sur l'histogramme des étirements de PS1]{Distribution de
         l'étirement des SNe~Ia de PS1 issus d'un ajustement \texttt{SALT2.4}
         ($x_1$) pour toutes les données du sondage, au-delà de notre limite
         fiducielle de redshift (histogramme gris). Cette distribution est
         supposée être un tirage aléatoire de la distribution d'étirement
-        sous-jacente. Les lignes vertes montrent le modèle BBC de cette
+        sous-jacente. Les lignes rouges montrent le modèle BBC de cette
         distribution sous-jacente (Gaussienne asymétrique). La ligne pleine (et
         sa bande) est notre meilleur ajustement (et son erreur)~; la ligne
         pointillée montre le résultat de~\cite{scolnic2018}. La ligne noire (et
         sa bande) montre notre modélisation de référence la mieux ajustée (et
         son erreur, voir Tableau~\ref{tab:modelresults}) qui inclut la dérive du
-        redshift. À titre d'illustration, nous montrons (coloré du bleu au rouge
-        avec des redshifts croissants) l'évolution de la distribution
+        redshift. À titre d'illustration, nous montrons (coloré du jaune au
+        violet avec des redshifts croissants) l'évolution de la distribution
         d'étirement sous-jacente en fonction du redshift pour la plage de
     redshift couverte par toutes les données de PS1.}
     \label{fig:bbc_pdf_ps1}
@@ -668,7 +738,7 @@ dérive potentielle avec le redshift des SNe~Ia doit être étudiée plus
 profondément et qu'il faut faire attention lorsque l'on utilise des échantillons
 qui sont affectés par des effets de sélection observationnels.
 
-\subsection{Prédictions et amélioration}\label{ssec:xpred}
+\section{Prédictions et amélioration}\label{sec:xpred}
 
 Nous avons considéré une modélisation simple par mélange Gaussien à deux
 populations. Des données supplémentaires exemptes de biais de \textsc{Malmquist}
@@ -682,11 +752,16 @@ extrêmement riche à bas-redshift (2000 SNe~Ia à $z \lesssim 0,7$).
 
 \newpage
 
+\thispagestyle{plain}
+\vspace*{-3cm}
+\vfill
 \minilof
+\vfill
 \minilot
+\vfill
 
-\bibliographystyle{../main/aa_url}
-\shorthandoff{:}
-\bibliography{../chapters/99_references}
+% \bibliographystyle{../main/aa_url}
+% \shorthandoff{:}
+% \bibliography{../chapters/99_references}
 
 \end{document}

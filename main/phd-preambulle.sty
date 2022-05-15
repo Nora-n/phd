@@ -84,6 +84,7 @@
 % Pour local TOC
 \RequirePackage{minitoc}
 \renewcommand{\mtctitle}{Sommaire}
+\renewcommand{\mlttitle}{Tableaux}
 
 \RequirePackage[pdftex,
     pdftitle={Variabilit\'es intrins\`eques des supernovae de type Ia et leurs
@@ -102,12 +103,12 @@
     pdfstartview=FitV,      % open fitting view as default
     hyperindex=true,
     hyperfigures=false]{hyperref}
-
 % Add an upward arrow next to backref,
 % from https://tex.stackexchange.com/a/173063
 \renewcommand\backrefxxx[3]{%
-  \hyperlink{page.#1}{$\uparrow$~Section #2}%
-}
+  \hyperlink{page.#1}{$\uparrow$~Section #2}}
+% Make ref to multiple sections with \cref
+\RequirePackage{cleveref}
 
 % Reinitialise footnote number each page
 \RequirePackage[perpage]{footmisc}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  12 MAY 2022 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  15 MAY 2022 20:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1599,6 +1599,19 @@ File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count299
 \c@bookmark@seq@number=\count300
 \Hy@SectionHShift=\skip81
+) (/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/02/08 v0.21.1 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2301.
+LaTeX Info: Redefining \cref on input line 2301.
+LaTeX Info: Redefining \Cref on input line 2301.
+LaTeX Info: Redefining \crefrange on input line 2301.
+LaTeX Info: Redefining \Crefrange on input line 2301.
+LaTeX Info: Redefining \cpageref on input line 2301.
+LaTeX Info: Redefining \Cpageref on input line 2301.
+LaTeX Info: Redefining \cpagerefrange on input line 2301.
+LaTeX Info: Redefining \Cpagerefrange on input line 2301.
+LaTeX Info: Redefining \labelcref on input line 2301.
+LaTeX Info: Redefining \labelcpageref on input line 2301.
 ) (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks30
@@ -2272,13 +2285,25 @@ LaTeX Warning: Unused global option(s):
 LaTeX Warning: Label `ssec:spectro' multiply defined.
 
 
+LaTeX Warning: Label `ssec:spectro@cref' multiply defined.
+
+
 LaTeX Warning: Label `sssec:lssfr' multiply defined.
+
+
+LaTeX Warning: Label `sssec:lssfr@cref' multiply defined.
 
 
 LaTeX Warning: Label `ssec:xxx' multiply defined.
 
 
+LaTeX Warning: Label `ssec:xxx@cref' multiply defined.
+
+
 LaTeX Warning: Label `ch' multiply defined.
+
+
+LaTeX Warning: Label `ch@cref' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -3458,13 +3483,13 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mlt7.
 \openout4 = `main.mlt7'.
 
- [15] [16
-
-] (./main.lot)
+ [15] [16] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- (../chapters/01_cosmology.tex [17] [18
+ (../chapters/01_cosmology.tex [17
+
+] [18
 
 ]
 Chapitre I.
@@ -3526,43 +3551,15 @@ Package minitoc Info: I0006
 Package minitoc Info: I0006
 (minitoc)             main.mlt3 is empty on input line 45.
 ) (../chapters/04_sample.tex
-Package minitoc(hints) Info: I0045
-(minitoc(hints))             The \dominitoc command 
-(minitoc(hints))             has been invoked more than once 
-(minitoc(hints))              on input line 5.
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 5.
-\tf@toc=\write9
-\openout9 = `main.toc'.
-
-Package minitoc(hints) Info: I0045
-(minitoc(hints))             The \dominilof command 
-(minitoc(hints))             has been invoked more than once 
-(minitoc(hints))              on input line 7.
-Package minitoc Info: I0034
-(minitoc)             PREPARING MINILOFS FROM main.lof on input line 7.
-\tf@lof=\write10
-\openout10 = `main.lof'.
-
-Package minitoc(hints) Info: I0045
-(minitoc(hints))             The \dominilot command 
-(minitoc(hints))             has been invoked more than once 
-(minitoc(hints))              on input line 9.
-Package minitoc Info: I0037
-(minitoc)             PREPARING MINILOTS FROM main.lot on input line 9.
-\tf@lot=\write11
-\openout11 = `main.lot'.
-
-
 Chapitre IV.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc1) [7
+(./main.mtc4) [7
 
 ] [8] [9]
-<../figures/bands_SNF.pdf, id=519, 404.80768pt x 301.15501pt>
+<../figures/bands_SNF.pdf, id=526, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNF.pdf Graphic file (type pdf)
 <use ../figures/bands_SNF.pdf>
 Package pdftex.def Info: ../figures/bands_SNF.pdf  used on input line 166.
@@ -3570,35 +3567,35 @@ Package pdftex.def Info: ../figures/bands_SNF.pdf  used on input line 166.
  [10 <../figures/bands_SNF.pdf>] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [11]
-<../figures/hist_SNF_zxc.pdf, id=599, 731.13103pt x 225.24101pt>
+<../figures/hist_SNF_zxc.pdf, id=606, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNF_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNF_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SNF_zxc.pdf  used on input line 317.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
  [12]
-<../figures/bands_SDSS.pdf, id=622, 404.80768pt x 301.15501pt>
+<../figures/bands_SDSS.pdf, id=629, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SDSS.pdf Graphic file (type pdf)
 <use ../figures/bands_SDSS.pdf>
 Package pdftex.def Info: ../figures/bands_SDSS.pdf  used on input line 365.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_2005gg.pdf, id=623, 406.34096pt x 296.715pt>
+<../figures/lc_2005gg.pdf, id=630, 406.34096pt x 296.715pt>
 File: ../figures/lc_2005gg.pdf Graphic file (type pdf)
 <use ../figures/lc_2005gg.pdf>
 Package pdftex.def Info: ../figures/lc_2005gg.pdf  used on input line 372.
 (pdftex.def)             Requested size: 223.07211pt x 162.8904pt.
  [13 <../figures/hist_SNF_zxc.pdf>] [14 <../figures/bands_SDSS.pdf> <../figures/lc_2005gg.pdf>]
-<../figures/hist_SDSS_zxc.pdf, id=726, 731.13103pt x 225.24101pt>
+<../figures/hist_SDSS_zxc.pdf, id=733, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SDSS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SDSS_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SDSS_zxc.pdf  used on input line 477.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
  [15 <../figures/hist_SDSS_zxc.pdf>]
-<../figures/bands_PS1.pdf, id=766, 404.80768pt x 301.15501pt>
+<../figures/bands_PS1.pdf, id=773, 404.80768pt x 301.15501pt>
 File: ../figures/bands_PS1.pdf Graphic file (type pdf)
 <use ../figures/bands_PS1.pdf>
 Package pdftex.def Info: ../figures/bands_PS1.pdf  used on input line 524.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_550041.pdf, id=767, 406.34096pt x 296.715pt>
+<../figures/lc_550041.pdf, id=774, 406.34096pt x 296.715pt>
 File: ../figures/lc_550041.pdf Graphic file (type pdf)
 <use ../figures/lc_550041.pdf>
 Package pdftex.def Info: ../figures/lc_550041.pdf  used on input line 532.
@@ -3610,7 +3607,7 @@ File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 604.
 
-<../figures/hist_PS1_zxc.pdf, id=832, 731.13103pt x 225.24101pt>
+<../figures/hist_PS1_zxc.pdf, id=839, 731.13103pt x 225.24101pt>
 File: ../figures/hist_PS1_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_PS1_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_PS1_zxc.pdf  used on input line 634.
@@ -3619,24 +3616,24 @@ Package pdftex.def Info: ../figures/hist_PS1_zxc.pdf  used on input line 634.
 Underfull \vbox (badness 2726) has occurred while \output is active []
 
  [18 <../figures/hist_PS1_zxc.pdf>]
-<../figures/bands_SNLS.pdf, id=887, 404.80768pt x 301.15501pt>
+<../figures/bands_SNLS.pdf, id=894, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNLS.pdf Graphic file (type pdf)
 <use ../figures/bands_SNLS.pdf>
 Package pdftex.def Info: ../figures/bands_SNLS.pdf  used on input line 682.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_04D1hx.pdf, id=888, 406.34096pt x 296.715pt>
+<../figures/lc_04D1hx.pdf, id=895, 406.34096pt x 296.715pt>
 File: ../figures/lc_04D1hx.pdf Graphic file (type pdf)
 <use ../figures/lc_04D1hx.pdf>
 Package pdftex.def Info: ../figures/lc_04D1hx.pdf  used on input line 689.
 (pdftex.def)             Requested size: 223.07211pt x 162.8904pt.
  [19 <../figures/bands_SNLS.pdf> <../figures/lc_04D1hx.pdf>]
-<../figures/hist_SNLS_zxc.pdf, id=940, 731.13103pt x 225.24101pt>
+<../figures/hist_SNLS_zxc.pdf, id=948, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNLS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNLS_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SNLS_zxc.pdf  used on input line 731.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
  [20 <../figures/hist_SNLS_zxc.pdf>]
-<../figures/bands_HST.pdf, id=985, 411.85757pt x 301.15501pt>
+<../figures/bands_HST.pdf, id=992, 411.85757pt x 301.15501pt>
 File: ../figures/bands_HST.pdf Graphic file (type pdf)
 <use ../figures/bands_HST.pdf>
 Package pdftex.def Info: ../figures/bands_HST.pdf  used on input line 797.
@@ -3650,18 +3647,18 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 854.
 
-<../figures/hist_HST_zxc.pdf, id=1011, 731.13103pt x 225.24101pt>
+<../figures/hist_HST_zxc.pdf, id=1018, 731.13103pt x 225.24101pt>
 File: ../figures/hist_HST_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_HST_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_HST_zxc.pdf  used on input line 856.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
 [22 <../figures/hist_HST_zxc.pdf>]
-<../figures/hist_LOWZ_zxc.pdf, id=1049, 731.13103pt x 225.24101pt>
+<../figures/hist_LOWZ_zxc.pdf, id=1056, 731.13103pt x 225.24101pt>
 File: ../figures/hist_LOWZ_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_LOWZ_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_LOWZ_zxc.pdf  used on input line 882.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-<../figures/speceff-all.pdf, id=1065, 468.07358pt x 340.17519pt>
+<../figures/speceff-all.pdf, id=1072, 468.07358pt x 340.17519pt>
 File: ../figures/speceff-all.pdf Graphic file (type pdf)
 <use ../figures/speceff-all.pdf>
 Package pdftex.def Info: ../figures/speceff-all.pdf  used on input line 961.
@@ -3672,18 +3669,18 @@ Underfull \hbox (badness 7925) in paragraph at lines 966--966
  []
 
 [23 <../figures/hist_LOWZ_zxc.pdf>] [24 <../figures/speceff-all.pdf>]
-<../figures/zmax_method_snls-01.pdf, id=1122, 499.71544pt x 253.45119pt>
+<../figures/zmax_method_snls-01.pdf, id=1129, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-01.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-01.pdf>
 Package pdftex.def Info: ../figures/zmax_method_snls-01.pdf  used on input line 1038.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
-<../figures/zmax_method_snls-02.pdf, id=1123, 499.71544pt x 253.45119pt>
+<../figures/zmax_method_snls-02.pdf, id=1130, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-02.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-02.pdf>
 Package pdftex.def Info: ../figures/zmax_method_snls-02.pdf  used on input line 1045.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
  [25]
-<../figures/zmax_method_results.pdf, id=1138, 518.83969pt x 356.1977pt>
+<../figures/zmax_method_results.pdf, id=1145, 518.83969pt x 356.1977pt>
 File: ../figures/zmax_method_results.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_results.pdf>
 Package pdftex.def Info: ../figures/zmax_method_results.pdf  used on input line 1107.
@@ -3692,13 +3689,13 @@ Package pdftex.def Info: ../figures/zmax_method_results.pdf  used on input line 
 
 LaTeX Warning: Reference `eq:mxc' on page 27 undefined on input line 1136.
 
-<../figures/zmax_maglim_snls.pdf, id=1184, 536.6527pt x 345.17519pt>
+<../figures/zmax_maglim_snls.pdf, id=1191, 536.6527pt x 345.17519pt>
 File: ../figures/zmax_maglim_snls.pdf Graphic file (type pdf)
 <use ../figures/zmax_maglim_snls.pdf>
 Package pdftex.def Info: ../figures/zmax_maglim_snls.pdf  used on input line 1152.
 (pdftex.def)             Requested size: 432.48051pt x 278.1841pt.
 [27 <../figures/zmax_method_results.pdf>] [28 <../figures/zmax_maglim_snls.pdf>]
-<../figures/sdss_malquist.png, id=1267, 1279.78125pt x 866.23625pt>
+<../figures/sdss_malquist.png, id=1274, 1279.78125pt x 866.23625pt>
 File: ../figures/sdss_malquist.png Graphic file (type png)
 <use ../figures/sdss_malquist.png>
 Package pdftex.def Info: ../figures/sdss_malquist.png  used on input line 1230.
@@ -3719,116 +3716,101 @@ Underfull \hbox (badness 10000) in paragraph at lines 1239--1239
  []
 
 [29]
-<../figures/hist_surveys_cuts.pdf, id=1288, 444.45978pt x 433.04216pt>
+<../figures/hist_surveys_cuts.pdf, id=1295, 444.45978pt x 433.04216pt>
 File: ../figures/hist_surveys_cuts.pdf Graphic file (type pdf)
 <use ../figures/hist_surveys_cuts.pdf>
 Package pdftex.def Info: ../figures/hist_surveys_cuts.pdf  used on input line 1303.
 (pdftex.def)             Requested size: 364.19667pt x 354.85237pt.
  [30 <../figures/sdss_malquist.png>] [31 <../figures/hist_surveys_cuts.pdf>]
-<../figures/stretchs-cut_btw_hist_stac.pdf, id=1320, 400.39952pt x 330.81483pt>
+<../figures/stretchs-cut_btw_hist_stac.pdf, id=1327, 400.39952pt x 330.81483pt>
 File: ../figures/stretchs-cut_btw_hist_stac.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_hist_stac.pdf>
 Package pdftex.def Info: ../figures/stretchs-cut_btw_hist_stac.pdf  used on input line 1332.
 (pdftex.def)             Requested size: 432.48051pt x 357.34032pt.
  [32 <../figures/stretchs-cut_btw_hist_stac.pdf>]
-<../figures/both-cut_SDSS_SNLS_PS1.pdf, id=1363, 511.96727pt x 263.33275pt>
+<../figures/both-cut_SDSS_SNLS_PS1.pdf, id=1370, 511.96727pt x 263.33275pt>
 File: ../figures/both-cut_SDSS_SNLS_PS1.pdf Graphic file (type pdf)
 <use ../figures/both-cut_SDSS_SNLS_PS1.pdf>
 Package pdftex.def Info: ../figures/both-cut_SDSS_SNLS_PS1.pdf  used on input line 1396.
 (pdftex.def)             Requested size: 364.19667pt x 187.33319pt.
  [33 <../figures/both-cut_SDSS_SNLS_PS1.pdf>] [34]
-Package minitoc Info: I0006
-(minitoc)             main.mlf1 is empty on input line 1440.
-Package minitoc Info: I0006
-(minitoc)             main.mlt1 is empty on input line 1441.
-) (../chapters/05_stretch.tex
-Package minitoc(hints) Info: I0045
-(minitoc(hints))             The \dominitoc command 
-(minitoc(hints))             has been invoked more than once 
-(minitoc(hints))              on input line 6.
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 6.
-\tf@toc=\write12
-\openout12 = `main.toc'.
+\openout4 = `main.mtc'.
 
-Package minitoc(hints) Info: I0045
-(minitoc(hints))             The \dominilof command 
-(minitoc(hints))             has been invoked more than once 
-(minitoc(hints))              on input line 8.
-Package minitoc Info: I0034
-(minitoc)             PREPARING MINILOFS FROM main.lof on input line 8.
-\tf@lof=\write13
-\openout13 = `main.lof'.
+\openout4 = `main.mtc'.
 
-Package minitoc(hints) Info: I0045
-(minitoc(hints))             The \dominilot command 
-(minitoc(hints))             has been invoked more than once 
-(minitoc(hints))              on input line 10.
-Package minitoc Info: I0037
-(minitoc)             PREPARING MINILOTS FROM main.lot on input line 10.
-\tf@lot=\write14
-\openout14 = `main.lot'.
+ (./main.mlf4)
+\openout4 = `main.mtc'.
 
+\openout4 = `main.mtc'.
 
+ (./main.mlt4)) (../chapters/05_stretch.tex [35] [36
+
+]
 Chapitre V.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc1) [35
-
-]
-<../figures/model_base_hist.pdf, id=1417, 486.55167pt x 252.65123pt>
+(./main.mtc5) [37]
+<../figures/model_base_hist.pdf, id=1455, 486.55167pt x 255.0512pt>
 File: ../figures/model_base_hist.pdf Graphic file (type pdf)
 <use ../figures/model_base_hist.pdf>
 Package pdftex.def Info: ../figures/model_base_hist.pdf  used on input line 72.
-(pdftex.def)             Requested size: 455.24411pt x 236.40117pt.
- [36 <../figures/model_base_hist.pdf>]
+(pdftex.def)             Requested size: 455.24411pt x 238.64677pt.
+ [38 <../figures/model_base_hist.pdf>]
 Overfull \hbox (20.13852pt too wide) in paragraph at lines 118--121
 []\T1/cmr/m/n/12 (-20) L'estimation du maxi-mum de vrai-sem-blance des cinq pa-ra-mètres libres $[] \OMS/cmsy/m/n/12 ^^Q \OT1/cmr/m/n/12 (-20) ([])$
  []
 
-[37]
-<../figures/stretchevol_all_vs_snf-mean.pdf, id=1464, 530.03967pt x 340.17519pt>
-File: ../figures/stretchevol_all_vs_snf-mean.pdf Graphic file (type pdf)
-<use ../figures/stretchevol_all_vs_snf-mean.pdf>
-Package pdftex.def Info: ../figures/stretchevol_all_vs_snf-mean.pdf  used on input line 200.
+[39]
+<../figures/stretchevol_all-oth_vs_snf-mean.pdf, id=1501, 530.03967pt x 340.17519pt>
+File: ../figures/stretchevol_all-oth_vs_snf-mean.pdf Graphic file (type pdf)
+<use ../figures/stretchevol_all-oth_vs_snf-mean.pdf>
+Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_snf-mean.pdf  used on input line 200.
 (pdftex.def)             Requested size: 455.24411pt x 292.17122pt.
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
-) [38] [39 <../figures/stretchevol_all_vs_snf-mean.pdf>]
-<../figures/mod_comp.pdf, id=1523, 355.69597pt x 255.87701pt>
+) [40] [41 <../figures/stretchevol_all-oth_vs_snf-mean.pdf>]
+<../figures/mod_comp.pdf, id=1564, 355.69597pt x 255.87701pt>
 File: ../figures/mod_comp.pdf Graphic file (type pdf)
 <use ../figures/mod_comp.pdf>
-Package pdftex.def Info: ../figures/mod_comp.pdf  used on input line 338.
+Package pdftex.def Info: ../figures/mod_comp.pdf  used on input line 342.
 (pdftex.def)             Requested size: 455.24411pt x 327.49413pt.
- [40] [41 <../figures/mod_comp.pdf>] [42]
+ [42] [43 <../figures/mod_comp.pdf>] [44] [45]
+<../figures/model_all_evol.pdf, id=1643, 731.13103pt x 1020.21103pt>
+File: ../figures/model_all_evol.pdf Graphic file (type pdf)
+<use ../figures/model_all_evol.pdf>
+Package pdftex.def Info: ../figures/model_all_evol.pdf  used on input line 535.
+(pdftex.def)             Requested size: 500.77129pt x 698.76251pt.
 
-LaTeX Warning: Reference `sec:pmod' on page 43 undefined on input line 485.
 
-<../figures/mod_comp_zonly.pdf, id=1593, 355.69597pt x 253.91283pt>
+LaTeX Warning: Float too large for page by 66.5739pt on input line 560.
+
+
+LaTeX Warning: Reference `sec:pmod' on page 46 undefined on input line 563.
+
+<../figures/mod_comp_zonly.pdf, id=1649, 355.69597pt x 253.91283pt>
 File: ../figures/mod_comp_zonly.pdf Graphic file (type pdf)
 <use ../figures/mod_comp_zonly.pdf>
-Package pdftex.def Info: ../figures/mod_comp_zonly.pdf  used on input line 501.
+Package pdftex.def Info: ../figures/mod_comp_zonly.pdf  used on input line 631.
 (pdftex.def)             Requested size: 273.14923pt x 194.99043pt.
-[43] [44 <../figures/mod_comp_zonly.pdf>]
-<../figures/bbc_comp_PS1_hist-nr.pdf, id=1649, 403.14243pt x 282.02486pt>
-File: ../figures/bbc_comp_PS1_hist-nr.pdf Graphic file (type pdf)
-<use ../figures/bbc_comp_PS1_hist-nr.pdf>
-Package pdftex.def Info: ../figures/bbc_comp_PS1_hist-nr.pdf  used on input line 624.
-(pdftex.def)             Requested size: 455.24411pt x 318.4821pt.
- [45] [46 <../figures/bbc_comp_PS1_hist-nr.pdf>] [47]
-Package minitoc Info: I0006
-(minitoc)             main.mlf1 is empty on input line 676.
-Package minitoc Info: I0006
-(minitoc)             main.mlt1 is empty on input line 677.
- (./main.bbl (./main.brf)
-\tf@brf=\write15
-\openout15 = `main.brf'.
+[46] [47 <../figures/model_all_evol.pdf>] [48 <../figures/mod_comp_zonly.pdf>]
+<../figures/bbc_comp_PS1_hist-nr_viridis.pdf, id=1727, 403.14243pt x 282.02518pt>
+File: ../figures/bbc_comp_PS1_hist-nr_viridis.pdf Graphic file (type pdf)
+<use ../figures/bbc_comp_PS1_hist-nr_viridis.pdf>
+Package pdftex.def Info: ../figures/bbc_comp_PS1_hist-nr_viridis.pdf  used on input line 704.
+(pdftex.def)             Requested size: 455.24411pt x 318.48247pt.
+ [49] [50 <../figures/bbc_comp_PS1_hist-nr_viridis.pdf>]
+\openout4 = `main.mtc'.
 
- [48
+\openout4 = `main.mtc'.
 
-] [49] [50] [51] [52] [53] [54])) (../chapters/06_snana.tex [55] [56
+ (./main.mlf5)
+\openout4 = `main.mtc'.
+
+\openout4 = `main.mtc'.
+
+ (./main.mlt5)) (../chapters/06_snana.tex [51] [52
 
 ]
 Chapitre VI.
@@ -3836,367 +3818,23 @@ Chapitre VI.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc2) [57]) (../chapters/07_results.tex [58]
+(./main.mtc6) [53]) (../chapters/07_results.tex [54]
 Chapitre VII.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc3) [59
+(./main.mtc7) [55
 
-]) (../chapters/98_conclusions.tex [60]) (./main.bbl (./main.brf) [61
+]) (../chapters/98_conclusions.tex [56]) (./main.bbl (./main.brf)
+\tf@brf=\write9
+\openout9 = `main.brf'.
 
-] [62
+ [57
 
-]pdfTeX warning (ext4): destination with the same identifier (name{cite.abbott2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.52 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.syed2015}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.57 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.aldering2002}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.72 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.astier2006}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.92 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.balland2009}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.108 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.bellm2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.148 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.betoule2014}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.174 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.boulade2003}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.briday2021}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.196 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.briday2022}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.208 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.burgh2003}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.219 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.burnham2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.225 
-       [63]pdfTeX warning (ext4): destination with the same identifier (name{cite.calzetti2013}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.229 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.chambers2016}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.270 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.conley2011}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.287 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.contreras2010}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.300 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.copin2013}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.306 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.dekany2020}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.319 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.dekker1986}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.328 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.dilday2008}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.351 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.dressler2011}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.362 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.ellis2008}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.374 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.faber2003}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.390 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.fabricant2005}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.404 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.folatelli2010}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.418 
-       [64]pdfTeX warning (ext4): destination with the same identifier (name{cite.frieman2008}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.455 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.fukugita1996}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.463 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.giavalisco2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.488 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.graham2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.528 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.graur2014}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.548 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.gunn1998}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.565 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.gunn2006}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.588 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.guy2007}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.602 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hadjiyska2012}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.612 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hamuy1996}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.620 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hicken2009a}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.650 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hicken2012}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.668 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hicken2009b}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.679 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hill1998}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.689 
-       [65]pdfTeX warning (ext4): destination with the same identifier (name{cite.hinton2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.715 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hodapp2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.730 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hook2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.739 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.howell2007}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.747 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.ivezic2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.846 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.jha2006}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.877 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.kaiser2010}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.888 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.kashikawa2000}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.902 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.kennicutt1998}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.909 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2009b}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.930 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2009a}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.941 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2017}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.948 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.lantz2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.960 
-       [66]pdfTeX warning (ext4): destination with the same identifier (name{cite.law2009}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.978 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.madau2015}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.984 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.mannucci2005}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.993 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.marshall2008}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1005 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.neill2006}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1023 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.oke1995}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1032 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.perlmutter1999}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1049 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.perrett2010}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1061 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.phillips1993}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1067 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.planck2018}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1131 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rabinowitz2003}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1144 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rest2014}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1166 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1177 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess1998}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1190 
-        [67]pdfTeX warning (ext4): destination with the same identifier (name{cite.riess1999}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1208 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess2016}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1219 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess2007}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1232 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rigault2020}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1252 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rigault2013}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1270 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rodney2014}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1288 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rubin2015}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1300 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.sako2008}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1322 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.sako2018}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1343 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.scannapieco2005}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1350 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.schmidt1989}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1358 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.scolnic2016}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1365 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.scolnic2014}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1387 
-        [68]pdfTeX warning (ext4): destination with the same identifier (name{cite.scolnic2018}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1407 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.shariff2016}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1415 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.stritzinger2011}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1430 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.strolger2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1449 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.sullivan2011}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1466 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.suzuki2012}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1494 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.tasca2015}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1517 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.tonry2006}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1524 
-       )
+] [58
+
+] [59] [60] [61] [62] [63] [64])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -4208,14 +3846,14 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[69]
+[65]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: ECFA80F7AF00FDA546D1210F750BA26F;8537.
+(rerunfilecheck)             Checksum: 29369A3C38D860A9D3EF6471631EBB6A;8524.
 
 
 LaTeX Warning: There were undefined references.
@@ -4226,13 +3864,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 64827 strings out of 492982
- 1355524 string characters out of 6134895
- 1866387 words of memory out of 5000000
- 66636 multiletter control sequences out of 15000+600000
- 575258 words of font info for 254 fonts, out of 8000000 for 9000
+ 66617 strings out of 492982
+ 1396570 string characters out of 6134895
+ 1894694 words of memory out of 5000000
+ 68408 multiletter control sequences out of 15000+600000
+ 575622 words of font info for 260 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,21n,130p,10407b,2856s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,21n,130p,10407b,2846s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
@@ -4265,12 +3903,12 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb>
-Output written on main.pdf (87 pages, 2546252 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+tc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb>
+Output written on main.pdf (83 pages, 7476528 bytes).
 PDF statistics:
- 2929 PDF objects out of 2984 (max. 8388607)
- 2700 compressed objects within 27 object streams
- 382 named destinations out of 1000 (max. 500000)
- 54254 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 2677 PDF objects out of 2984 (max. 8388607)
+ 2449 compressed objects within 25 object streams
+ 379 named destinations out of 1000 (max. 500000)
+ 54267 words of extra memory for PDF output out of 61914 (max. 10000000)
 
