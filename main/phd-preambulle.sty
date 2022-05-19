@@ -43,6 +43,8 @@
 \RequirePackage{empheq}
 % Pour \endnote
 \RequirePackage{endnotes}
+% Useful tools
+\RequirePackage{etoolbox}
 
 % Figures
 \RequirePackage{graphicx}%[pdftex]{graphicx}
@@ -50,8 +52,8 @@
 % Figures next to text
 \RequirePackage{wrapfig}
 \RequirePackage[rightcaption]{sidecap}
-\sidecaptionvpos{figure}{c}
-\RequirePackage{caption}
+\sidecaptionvpos{figure}{t}
+\RequirePackage[labelfont=bf, font=small]{caption}
 \RequirePackage{subcaption}
 % Useful to center wide tables or figures
 \makeatletter
@@ -107,8 +109,8 @@
 % from https://tex.stackexchange.com/a/173063
 \renewcommand\backrefxxx[3]{%
   \hyperlink{page.#1}{$\uparrow$~Section #2}}
-% Make ref to multiple sections with \cref
-\RequirePackage{cleveref}
+% Make ref to multiple sections with \cref: doesn't seem to work...
+% \RequirePackage{cleveref}
 
 % Reinitialise footnote number each page
 \RequirePackage[perpage]{footmisc}
@@ -149,6 +151,8 @@
 \RequirePackage{booktabs}
 % Title, table and notes
 \RequirePackage{threeparttable}
+% Set caption of notes to \small
+\appto\TPTnoteSettings{\small}
 % Self-explanatory
 \RequirePackage{multirow}
 % Pour écrire côte à côte dans les tcolorboxes
@@ -158,8 +162,10 @@
 \RequirePackage{tabularx}
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 \renewcommand\tabularxcolumn[1]{m{#1}}
-% Emojis
-\RequirePackage{twemojis}
+% Rotate elements, and hence big tables
+%\RequirePackage{adjustbox}
+%\RequirePackage[graphicx]{realboxes}
+\RequirePackage{rotating}
 
 % Pretty units
 \RequirePackage{siunitx}

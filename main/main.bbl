@@ -1,4 +1,4 @@
-\begin{thebibliography}{87}
+\begin{thebibliography}{93}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abbott}} {et~al.}(2019)\textsc{{Abbott}}, \textsc{{Allam}},
@@ -90,6 +90,14 @@
   \href{http://dx.doi.org/10.1051/0004-6361:20054185}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2006A&A...447...31A}{447, 31}
 
+\bibitem[{\textsc{{Aubourg}} {et~al.}(2008)\textsc{{Aubourg}},
+  \textsc{{Tojeiro}}, \textsc{{Jimenez}}, \textsc{{Heavens}},
+  \textsc{{Strauss}} et \textsc{{Spergel}}}]{aubourg2008}
+\textsc{{Aubourg} {\'E}.}, \textsc{{Tojeiro} R.}, \textsc{{Jimenez} R.}
+  {et~al.} 2008, «~{Evidence of short-lived SN Ia progenitors}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361:200809796}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2008A&A...492..631A}{492, 631}
+
 \bibitem[{\textsc{{Balland}} {et~al.}(2009)\textsc{{Balland}},
   \textsc{{Baumont}}, \textsc{{Basa}}, \textsc{{Mouchet}}, \textsc{{Howell}},
   \textsc{{Astier}}, \textsc{{Carlberg}}, \textsc{{Conley}},
@@ -171,6 +179,18 @@
   and SNLS supernova samples}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201423413}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2014A&A...568A..22B}{568, A22}
+
+\bibitem[{\textsc{{Blagorodnova}} {et~al.}(2018)\textsc{{Blagorodnova}},
+  \textsc{{Neill}}, \textsc{{Walters}}, \textsc{{Kulkarni}},
+  \textsc{{Fremling}}, \textsc{{Ben-Ami}}, \textsc{{Dekany}}, \textsc{{Fucik}},
+  \textsc{{Konidaris}}, \textsc{{Nash}}, \textsc{{Ngeow}}, \textsc{{Ofek}},
+  \textsc{{O' Sullivan}}, \textsc{{Quimby}}, \textsc{{Ritter}} et
+  \textsc{{Vyhmeister}}}]{blagorodnova2018}
+\textsc{{Blagorodnova} N.}, \textsc{{Neill} J.~D.}, \textsc{{Walters} R.}
+  {et~al.} 2018, «~{The SED Machine: A Robotic Spectrograph for Fast Transient
+  Classification}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/aaa53f}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2018PASP..130c5003B}{130, 035003}
 
 \bibitem[{\textsc{{Boulade}} {et~al.}(2003)\textsc{{Boulade}},
   \textsc{{Charlot}}, \textsc{{Abbon}}, \textsc{{Aune}}, \textsc{{Borgeaud}},
@@ -402,6 +422,15 @@
   \href{http://dx.doi.org/10.1086/497385}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2005PASP..117.1411F}{117, 1411}
 
+\bibitem[{\textsc{{Feindt}} {et~al.}(2019)\textsc{{Feindt}}, \textsc{{Nordin}},
+  \textsc{{Rigault}}, \textsc{{Brinnel}}, \textsc{{Dhawan}}, \textsc{{Goobar}}
+  et \textsc{{Kowalski}}}]{feindt2019}
+\textsc{{Feindt} U.}, \textsc{{Nordin} J.}, \textsc{{Rigault} M.} {et~al.}
+  2019, «~{simsurvey: estimating transient discovery rates for the Zwicky
+  transient facility}~»,
+  \href{http://dx.doi.org/10.1088/1475-7516/2019/10/005}{\color{magenta}\jcap},
+  \href{https://ui.adsabs.harvard.edu/abs/2019JCAP...10..005F}{2019, 005}
+
 \bibitem[{\textsc{{Folatelli}} {et~al.}(2010)\textsc{{Folatelli}},
   \textsc{{Phillips}}, \textsc{{Burns}}, \textsc{{Contreras}},
   \textsc{{Hamuy}}, \textsc{{Freedman}}, \textsc{{Persson}},
@@ -415,6 +444,25 @@
   Sample of Low-Redshift Type-Ia Supernovae}~»,
   \href{http://dx.doi.org/10.1088/0004-6256/139/1/120}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/2010AJ....139..120F}{139, 120}
+
+\bibitem[{\textsc{{Fremling}} {et~al.}(2020)\textsc{{Fremling}},
+  \textsc{{Miller}}, \textsc{{Sharma}}, \textsc{{Dugas}}, \textsc{{Perley}},
+  \textsc{{Taggart}}, \textsc{{Sollerman}}, \textsc{{Goobar}},
+  \textsc{{Graham}}, \textsc{{Neill}}, \textsc{{Nordin}}, \textsc{{Rigault}},
+  \textsc{{Walters}}, \textsc{{Andreoni}}, \textsc{{Bagdasaryan}},
+  \textsc{{Belicki}}, \textsc{{Cannella}}, \textsc{{Bellm}}, \textsc{{Cenko}},
+  \textsc{{De}}, \textsc{{Dekany}}, \textsc{{Frederick}}, \textsc{{Golkhou}},
+  \textsc{{Graham}}, \textsc{{Helou}}, \textsc{{Ho}}, \textsc{{Kasliwal}},
+  \textsc{{Kupfer}}, \textsc{{Laher}}, \textsc{{Mahabal}}, \textsc{{Masci}},
+  \textsc{{Riddle}}, \textsc{{Rusholme}}, \textsc{{Schulze}}, \textsc{{Shupe}},
+  \textsc{{Smith}}, \textsc{{van Velzen}}, \textsc{{Yan}}, \textsc{{Yao}},
+  \textsc{{Zhuang}} et \textsc{{Kulkarni}}}]{fremling2020}
+\textsc{{Fremling} C.}, \textsc{{Miller} A.~A.}, \textsc{{Sharma} Y.} {et~al.}
+  2020, «~{The Zwicky Transient Facility Bright Transient Survey. I.
+  Spectroscopic Classification and the Redshift Completeness of Local Galaxy
+  Catalogs}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/ab8943}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2020ApJ...895...32F}{895, 32}
 
 \bibitem[{\textsc{{Frieman}} {et~al.}(2008)\textsc{{Frieman}},
   \textsc{{Bassett}}, \textsc{{Becker}}, \textsc{{Choi}}, \textsc{{Cinabro}},
@@ -1268,6 +1316,16 @@
   \href{http://dx.doi.org/10.1051/0004-6361/201322104}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2013A&A...560A..66R}{560, A66}
 
+\bibitem[{\textsc{{Rigault}} {et~al.}(2019)\textsc{{Rigault}},
+  \textsc{{Neill}}, \textsc{{Blagorodnova}}, \textsc{{Dugas}},
+  \textsc{{Feeney}}, \textsc{{Walters}}, \textsc{{Brinnel}}, \textsc{{Copin}},
+  \textsc{{Fremling}}, \textsc{{Nordin}} et \textsc{{Sollerman}}}]{rigault2019}
+\textsc{{Rigault} M.}, \textsc{{Neill} J.~D.}, \textsc{{Blagorodnova} N.}
+  {et~al.} 2019, «~{Fully automated integral field spectrograph pipeline for
+  the SEDMachine: pysedm}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201935344}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2019A&A...627A.115R}{627, A115}
+
 \bibitem[{\textsc{{Rodney}} {et~al.}(2014)\textsc{{Rodney}}, \textsc{{Riess}},
   \textsc{{Strolger}}, \textsc{{Dahlen}}, \textsc{{Graur}},
   \textsc{{Casertano}}, \textsc{{Dickinson}}, \textsc{{Ferguson}},
@@ -1463,6 +1521,21 @@
   Three-year Data with Other Probes}~»,
   \href{http://dx.doi.org/10.1088/0004-637X/737/2/102}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2011ApJ...737..102S}{737, 102}
+
+\bibitem[{\textsc{{Sullivan}} {et~al.}(2006)\textsc{{Sullivan}}, \textsc{{Le
+  Borgne}}, \textsc{{Pritchet}}, \textsc{{Hodsman}}, \textsc{{Neill}},
+  \textsc{{Howell}}, \textsc{{Carlberg}}, \textsc{{Astier}},
+  \textsc{{Aubourg}}, \textsc{{Balam}}, \textsc{{Basa}}, \textsc{{Conley}},
+  \textsc{{Fabbro}}, \textsc{{Fouchez}}, \textsc{{Guy}}, \textsc{{Hook}},
+  \textsc{{Pain}}, \textsc{{Palanque-Delabrouille}}, \textsc{{Perrett}},
+  \textsc{{Regnault}}, \textsc{{Rich}}, \textsc{{Taillet}}, \textsc{{Baumont}},
+  \textsc{{Bronder}}, \textsc{{Ellis}}, \textsc{{Filiol}}, \textsc{{Lusset}},
+  \textsc{{Perlmutter}}, \textsc{{Ripoche}} et \textsc{{Tao}}}]{sullivan2006}
+\textsc{{Sullivan} M.}, \textsc{{Le Borgne} D.}, \textsc{{Pritchet} C.~J.}
+  {et~al.} 2006, «~{Rates and Properties of Type Ia Supernovae as a Function
+  of Mass and Star Formation in Their Host Galaxies}~»,
+  \href{http://dx.doi.org/10.1086/506137}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2006ApJ...648..868S}{648, 868}
 
 \bibitem[{\textsc{{Suzuki}} {et~al.}(2012)\textsc{{Suzuki}}, \textsc{{Rubin}},
   \textsc{{Lidman}}, \textsc{{Aldering}}, \textsc{{Amanullah}},

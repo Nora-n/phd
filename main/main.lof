@@ -6,36 +6,51 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Variabilit\'es environnementales des SNe~Ia}{5}{chapter.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Cr\'eation d'un \'echantillon complet}{7}{chapter.4}
-\contentsline {figure}{\numberline {IV.1}{\ignorespaces Transmissions des filtres de La Silla utilis\IeC {\'e}s par SNF.\relax }}{10}{figure.caption.9}
-\contentsline {figure}{\numberline {IV.2}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift (\IeC {\`a} gauche), d'\IeC {\'e}tirement (au milieu) et de couleur (\IeC {\`a} droite) pour les 114 donn\IeC {\'e}es de SNfactory.\relax }}{13}{figure.caption.11}
+\contentsline {xchapter}{Pr\'esentation des sondages}{9}{chapter.4}
+\contentsline {figure}{\numberline {IV.1}{\ignorespaces Transmissions des filtres de La Silla utilis\IeC {\'e}s par SNF.\relax }}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {IV.2}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift, \IeC {\'e}tirement et couleur de SNf}}{13}{figure.caption.11}
 \contentsline {figure}{\numberline {IV.3}{\ignorespaces Caract\IeC {\'e}ristiques du sondage SDSS.\relax }}{14}{figure.caption.12}
-\contentsline {figure}{\numberline {IV.4}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift (\IeC {\`a} gauche), d'\IeC {\'e}tirement (au milieu) et de couleur (\IeC {\`a} droite) pour les 335 donn\IeC {\'e}es de SDSS.\relax }}{15}{figure.caption.13}
-\contentsline {figure}{\numberline {IV.5}{\ignorespaces Caract\IeC {\'e}ristiques du sondage PS1.\relax }}{16}{figure.caption.14}
-\contentsline {figure}{\numberline {IV.6}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift (\IeC {\`a} gauche), d'\IeC {\'e}tirement (au milieu) et de couleur (\IeC {\`a} droite) pour les 279 donn\IeC {\'e}es de PS1.\relax }}{18}{figure.caption.17}
-\contentsline {figure}{\numberline {IV.7}{\ignorespaces Caract\IeC {\'e}ristiques du sondage SNLS.\relax }}{19}{figure.caption.18}
-\contentsline {figure}{\numberline {IV.8}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift (\IeC {\`a} gauche), d'\IeC {\'e}tirement (au milieu) et de couleur (\IeC {\`a} droite) pour les 236 donn\IeC {\'e}es de SNLS.\relax }}{20}{figure.caption.19}
-\contentsline {figure}{\numberline {IV.9}{\ignorespaces Transmissions des filtres de ACS utilis\IeC {\'e}s par HST.\relax }}{21}{figure.caption.20}
-\contentsline {figure}{\numberline {IV.10}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift (\IeC {\`a} gauche), d'\IeC {\'e}tirement (au milieu) et de couleur (\IeC {\`a} droite) pour les 26 donn\IeC {\'e}es de HST.\relax }}{22}{figure.caption.23}
-\contentsline {figure}{\numberline {IV.11}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift (\IeC {\`a} gauche), d'\IeC {\'e}tirement (au milieu) et de couleur (\IeC {\`a} droite) pour les 172 donn\IeC {\'e}es de LOWZ.\relax }}{23}{figure.caption.24}
-\contentsline {figure}{\numberline {IV.12}{\ignorespaces Comparaison des efficacit\IeC {\'e}s spectroscopiques des diff\IeC {\'e}rents sondages.\relax }}{24}{figure.caption.27}
-\contentsline {figure}{\numberline {IV.13}{\ignorespaces Exemple d'ajustement statistique pour deux tirages al\IeC {\'e}atoires d'histogrammes de SNLS\relax }}{26}{figure.caption.28}
-\contentsline {figure}{\numberline {IV.14}{\ignorespaces R\IeC {\'e}sultat graphique de l'\IeC {\'e}volution m\IeC {\'e}diane de l'\IeC {\'e}tude statistique du redshift limite pour les sondages SDSS, PS1, et SNLS\relax }}{27}{figure.caption.30}
-\contentsline {figure}{\numberline {IV.15}{\ignorespaces Distribution et limite des param\IeC {\`e}tres de courbe de lumi\IeC {\`e}re d'\IeC {\'e}tirement ($x_1$) et de couleur ($c$) des sondages SDSS, PS1 et SNLS combin\IeC {\'e}s du catalogue Pantheon.}}{28}{figure.caption.31}
-\contentsline {figure}{\numberline {IV.16}{\ignorespaces Biais de \textsc {Malmquist} moyen en fonction du redshift pour le sondage SDSS.}}{30}{figure.caption.32}
-\contentsline {figure}{\numberline {IV.17}{\ignorespaces Histogrammes des sondages coup\IeC {\'e}s pour notre \IeC {\'e}tude}}{31}{figure.caption.35}
-\contentsline {figure}{\numberline {IV.18}{\ignorespaces Pr\IeC {\'e}sentation des donn\IeC {\'e}es d'\IeC {\'e}tirement en fonction du redshift.}}{32}{figure.caption.36}
-\contentsline {figure}{\numberline {IV.19}{\ignorespaces Histogrammes de test de similarit\IeC {\'e} de \textsc {Kolmogorov-Smirnov} entre les sondages SDSS et PS1 d'une part, PS1 et SNLS d'autre par, en \IeC {\'e}tirement et en couleur}}{33}{figure.caption.37}
+\contentsline {figure}{\numberline {IV.4}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift, \IeC {\'e}tirement et couleur de SDSS}}{16}{figure.caption.13}
+\contentsline {figure}{\numberline {IV.5}{\ignorespaces Caract\IeC {\'e}ristiques du sondage PS1.\relax }}{17}{figure.caption.14}
+\contentsline {figure}{\numberline {IV.6}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift, \IeC {\'e}tirement et couleur de PS1}}{19}{figure.caption.17}
+\contentsline {figure}{\numberline {IV.7}{\ignorespaces Caract\IeC {\'e}ristiques du sondage SNLS.\relax }}{20}{figure.caption.18}
+\contentsline {figure}{\numberline {IV.8}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift, \IeC {\'e}tirement et couleur de SNLS}}{21}{figure.caption.19}
+\contentsline {figure}{\numberline {IV.9}{\ignorespaces Transmissions des filtres de ACS utilis\IeC {\'e}s par HST.\relax }}{22}{figure.caption.20}
+\contentsline {figure}{\numberline {IV.10}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift, \IeC {\'e}tirement et couleur de HST}}{23}{figure.caption.23}
+\contentsline {figure}{\numberline {IV.11}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift, \IeC {\'e}tirement et couleur de LOWZ}}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {IV.12}{\ignorespaces Caract\IeC {\'e}ristiques du sondage ZTF.\relax }}{25}{figure.caption.25}
+\contentsline {figure}{\numberline {IV.13}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift, \IeC {\'e}tirement et couleur de ZTF}}{26}{figure.caption.26}
+\contentsline {figure}{\numberline {IV.14}{\ignorespaces Distributions des param\IeC {\`e}tres de redshift, \IeC {\'e}tirement et couleur de tous les sondages utilis\IeC {\'e}s dans cette \IeC {\'e}tude}}{27}{figure.caption.27}
 \addvspace {10\p@ }
-\contentsline {xchapter}{\'Evolution avec le redshift}{37}{chapter.5}
-\contentsline {figure}{\numberline {V.1}{\ignorespaces \IeC {\'E}tirement en fonction du LsSFR des SNe~Ia de SNfactory et mod\IeC {\`e}les d'\IeC {\'e}tirement de base ajust\IeC {\'e}s}}{38}{figure.caption.38}
-\contentsline {figure}{\numberline {V.2}{\ignorespaces \IeC {\'E}volution de l'\IeC {\'e}tirement moyen des SNe~Ia en fonction du redshift issu de la pr\IeC {\'e}diction de notre mod\IeC {\`e}le de base selon l'\IeC {\'e}chantillon utilis\IeC {\'e}}}{41}{figure.caption.40}
-\contentsline {figure}{\numberline {V.3}{\ignorespaces $\Delta $AIC entre le mod\IeC {\`e}le de base et les autres mod\IeC {\`e}les}}{43}{figure.caption.43}
-\contentsline {figure}{\numberline {V.4}{\ignorespaces Mod\IeC {\`e}les impl\IeC {\'e}ment\IeC {\'e}s et test\IeC {\'e}s dans l'\IeC {\'e}tude de l'\IeC {\'e}volution de l'\IeC {\'e}tirement avec le redshift}}{47}{figure.caption.46}
-\contentsline {figure}{\numberline {V.5}{\ignorespaces $\Delta $AIC entre le mod\IeC {\`e}le de base et les autres mod\IeC {\`e}les sans utiliser le LsSFR}}{48}{figure.caption.49}
-\contentsline {figure}{\numberline {V.6}{\ignorespaces Comparaison des mod\IeC {\'e}lisations de BBC et de notre mod\IeC {\`e}le de r\IeC {\'e}f\IeC {\'e}rence sur l'histogramme des \IeC {\'e}tirements de PS1}}{50}{figure.caption.50}
+\contentsline {xchapter}{Cr\'eation d'un \'echantillon complet}{31}{chapter.5}
+\contentsline {figure}{\numberline {V.1}{\ignorespaces Exemple d'ajustement statistique pour deux tirages al\IeC {\'e}atoires d'histogrammes de SNLS.\relax }}{34}{figure.caption.30}
+\contentsline {figure}{\numberline {V.2}{\ignorespaces \IeC {\'E}volution m\IeC {\'e}diane du redshift limite des sondages SDSS, PS1 et SNLS par approche statistique}}{35}{figure.caption.32}
+\contentsline {figure}{\numberline {V.3}{\ignorespaces Distribution et limite des param\IeC {\`e}tres de courbe de lumi\IeC {\`e}re d'\IeC {\'e}tirement ($x_1$) et de couleur ($c$) des sondages SDSS, PS1 et SNLS combin\IeC {\'e}s du catalogue Pantheon}}{37}{figure.caption.33}
+\contentsline {figure}{\numberline {V.4}{\ignorespaces Comparaison des efficacit\IeC {\'e}s spectroscopiques des diff\IeC {\'e}rents sondages.\relax }}{38}{figure.caption.34}
+\contentsline {figure}{\numberline {V.5}{\ignorespaces Biais de \textsc {Malmquist} moyen en fonction du redshift pour le sondage SNLS}}{38}{figure.caption.35}
+\contentsline {figure}{\numberline {V.6}{\ignorespaces Biais de \textsc {Malmquist} moyen en fonction du redshift pour le sondage PS1}}{39}{figure.caption.36}
+\contentsline {figure}{\numberline {V.7}{\ignorespaces Biais de \textsc {Malmquist} moyen en fonction du redshift pour le sondage SDSS}}{39}{figure.caption.37}
+\contentsline {figure}{\numberline {V.8}{\ignorespaces Histogrammes des sondages coup\IeC {\'e}s pour notre \IeC {\'e}tude}}{41}{figure.caption.40}
+\contentsline {figure}{\numberline {V.9}{\ignorespaces Pr\IeC {\'e}sentation des donn\IeC {\'e}es d'\IeC {\'e}tirement en fonction du redshift pour l'\IeC {\'e}chantillon complet}}{42}{figure.caption.41}
+\contentsline {figure}{\numberline {V.10}{\ignorespaces Histogrammes de test de similarit\IeC {\'e} de \textsc {Kolmogorov-Smirnov} entre les sondages SDSS et PS1 d'une part, PS1 et SNLS d'autre par, en \IeC {\'e}tirement et en couleur}}{43}{figure.caption.42}
+\contentsline {figure}{\numberline {V.11}{\ignorespaces Pr\IeC {\'e}sentation des donn\IeC {\'e}es d'\IeC {\'e}tirement en fonction du redshift pour ZTF}}{45}{figure.caption.45}
+\contentsline {figure}{\numberline {V.12}{\ignorespaces Pr\IeC {\'e}sentation des donn\IeC {\'e}es d'\IeC {\'e}tirement en fonction du redshift pour l'\IeC {\'e}chantillon de base combin\IeC {\'e} aux donn\IeC {\'e}es de ZTF}}{46}{figure.caption.46}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Impact sur la cosmologie~: simulations}{53}{chapter.6}
+\contentsline {xchapter}{\'Evolution avec le redshift}{49}{chapter.6}
+\contentsline {figure}{\numberline {VI.1}{\ignorespaces \IeC {\'E}tirement en fonction du LsSFR des SNe~Ia de SNfactory et mod\IeC {\`e}les d'\IeC {\'e}tirement de base ajust\IeC {\'e}s}}{50}{figure.caption.47}
+\contentsline {figure}{\numberline {VI.2}{\ignorespaces \IeC {\'E}volution de l'\IeC {\'e}tirement moyen des SNe~Ia en fonction du redshift issu de la pr\IeC {\'e}diction de notre mod\IeC {\`e}le de base selon l'\IeC {\'e}chantillon utilis\IeC {\'e}}}{53}{figure.caption.49}
+\contentsline {figure}{\numberline {VI.3}{\ignorespaces $\Delta $AIC entre le mod\IeC {\`e}le de base et les autres mod\IeC {\`e}les}}{55}{figure.caption.52}
+\contentsline {figure}{\numberline {VI.4}{\ignorespaces Mod\IeC {\`e}les impl\IeC {\'e}ment\IeC {\'e}s et test\IeC {\'e}s dans l'\IeC {\'e}tude de l'\IeC {\'e}volution de l'\IeC {\'e}tirement avec le redshift}}{59}{figure.caption.55}
+\contentsline {figure}{\numberline {VI.5}{\ignorespaces $\Delta $AIC entre le mod\IeC {\`e}le de base et les autres mod\IeC {\`e}les sans utiliser le LsSFR}}{60}{figure.caption.58}
+\contentsline {figure}{\numberline {VI.6}{\ignorespaces $\Delta $AIC pour un \IeC {\'e}chantillon superconservatif de 244 SNe~Ia}}{60}{figure.caption.59}
+\contentsline {figure}{\numberline {VI.7}{\ignorespaces $\Delta $AIC pour des \IeC {\'e}chantillons de taille conservative tir\IeC {\'e}s al\IeC {\'e}atoirement de l'\IeC {\'e}chantillon fiduciel}}{60}{figure.caption.60}
+\contentsline {figure}{\numberline {VI.8}{\ignorespaces Comparaison des mod\IeC {\'e}lisations de BBC et de notre mod\IeC {\`e}le de r\IeC {\'e}f\IeC {\'e}rence sur l'histogramme des \IeC {\'e}tirements de PS1}}{62}{figure.caption.61}
+\contentsline {figure}{\numberline {VI.9}{\ignorespaces Accord entre les mod\IeC {\`e}les N21+ZTF et HD+ZTF et l'histogramme des \IeC {\'e}tirements de ZTF}}{63}{figure.caption.62}
+\contentsline {figure}{\numberline {VI.10}{\ignorespaces \IeC {\'E}volution de l'\IeC {\'e}tirement moyen des SNe~Ia en fonction du redshift issu de la pr\IeC {\'e}diction de notre mod\IeC {\`e}le de base selon l'\IeC {\'e}chantillon utilis\IeC {\'e}}}{65}{figure.caption.65}
+\contentsline {figure}{\numberline {VI.11}{\ignorespaces $\Delta $AIC entre le mod\IeC {\`e}le de base et les autres mod\IeC {\`e}les}}{65}{figure.caption.66}
+\contentsline {figure}{\numberline {VI.12}{\ignorespaces Comparaison de la capacit\IeC {\'e} des mod\IeC {\`e}les N21 et N21+ZTF \IeC {\`a} repr\IeC {\'e}senter les donn\IeC {\'e}es des sondages}}{67}{figure.caption.69}
 \addvspace {10\p@ }
-\contentsline {xchapter}{R\IeC {\'e}sultats et discussion}{55}{chapter.7}
+\contentsline {xchapter}{Impact sur la cosmologie~: simulations}{71}{chapter.7}
+\addvspace {10\p@ }
+\contentsline {xchapter}{R\IeC {\'e}sultats et discussion}{73}{chapter.8}
 \contentsfinish 

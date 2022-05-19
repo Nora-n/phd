@@ -1,0 +1,35 @@
+\babel@toc {french}{}
+\contentsline {chapter}{\numberline {I}Pr\'esentation des sondages}{1}{chapter.1}
+\contentsline {section}{\numberline {I.1}The Nearby Supernova factory}{3}{section.1.1}
+\contentsline {subsection}{\numberline {I.1.1}Introduction}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {I.1.2}D\IeC {\'e}tection des supernovae}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {I.1.3}Suivi spectro-photom\IeC {\'e}trique}{3}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {I.1.4}Description des donn\IeC {\'e}es conserv\IeC {\'e}es}{4}{subsection.1.1.4}
+\contentsline {section}{\numberline {I.2}Sloan Digital Sky Survey}{5}{section.1.2}
+\contentsline {subsection}{\numberline {I.2.1}Introduction}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {I.2.2}D\IeC {\'e}tection des supernovae}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {I.2.3}Suivi spectro-photom\IeC {\'e}trique}{6}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {I.2.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{7}{subsection.1.2.4}
+\contentsline {section}{\numberline {I.3}Panoramic Survey Telescope and Rapid Response System}{8}{section.1.3}
+\contentsline {subsection}{\numberline {I.3.1}Introduction}{8}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {I.3.2}D\IeC {\'e}tection des supernovae}{8}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {I.3.3}Suivi spectro-photom\IeC {\'e}trique}{9}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {I.3.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{9}{subsection.1.3.4}
+\contentsline {section}{\numberline {I.4}Supernova Legacy Survey}{10}{section.1.4}
+\contentsline {subsection}{\numberline {I.4.1}Introduction}{10}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {I.4.2}D\IeC {\'e}tection des supernovae}{11}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {I.4.3}Suivi spectro-photom\IeC {\'e}trique}{11}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {I.4.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{12}{subsection.1.4.4}
+\contentsline {section}{\numberline {I.5}\textsc {Hubble} Space Telescope}{12}{section.1.5}
+\contentsline {subsection}{\numberline {I.5.1}Introduction}{13}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {I.5.2}D\IeC {\'e}tection des supernovae}{13}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {I.5.3}Suivi spectro-photom\IeC {\'e}trique}{14}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {I.5.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{14}{subsection.1.5.4}
+\contentsline {section}{\numberline {I.6}Autres sondages~: CfA1-4 et CSP}{16}{section.1.6}
+\contentsline {section}{\numberline {I.7}Compl\IeC {\'e}ment~: Zwicky Transient Facility}{16}{section.1.7}
+\contentsline {subsection}{\numberline {I.7.1}Introduction}{16}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {I.7.2}D\IeC {\'e}tection des supernovae}{17}{subsection.1.7.2}
+\contentsline {subsection}{\numberline {I.7.3}Suivi spectro-photom\IeC {\'e}trique}{17}{subsection.1.7.3}
+\contentsline {subsection}{\numberline {I.7.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{18}{subsection.1.7.4}
+\contentsline {section}{\numberline {I.8}R\IeC {\'e}sum\IeC {\'e} et comparaison}{18}{section.1.8}
+\contentsfinish 

@@ -31,7 +31,74 @@ Morphologie, masse, SFR
 
 \section{Notion d'âge}\label{ssec:spectro}
 \subsection{Distribution du temps de retard}\label{sssec:dtd}
-\subsection{Taux de formation stellaire spécifique spectroscopique}\label{sssec:lssfr}
+\subsection{Taux de formation stellaire spécifique
+spectroscopique et âge}\label{ssec:snflssfr}
+
+La spécificité de SNIFS est de permettre des mesures spectroscopiques de
+l'environnement immédiat des SNe, développée dans~\cite{rigault2013} et résumée
+dans~\cite{rigault2020}. Ce procédé commence par modéliser le spectre du ciel
+qui est soustrait aux cubes avant d'extraire le spectre de l'environnement dans
+un rayon de \SI{1}{kpc} projeté autour de la position des SNe~Ia. Ces données
+permettent de détecter l'émission de raies H$\a$, l'un des indicateurs
+traditionnellement les plus utilisés pour mesurer le taux de formation stellaire
+(\textit{stellar formation rate}, SFR~; cf.~\cite{kennicutt1998}), en
+l'occurrence dans l'environnement local (à moins de \SI{1}{kpc}). Il repose sur
+le fait que les étoiles massives ($\gtrsim \SI{20}{\Msun}$) génèrent des photons
+ultra-violets (donc à haute énergie) capables d'ioniser les gaz d'hydrogène de
+leur environnement \citep{calzetti2013} en grande quantité. Ces atomes excités
+vont ensuite se recombiner, produisant diverses raies d'émission dont certaines
+dans la série de \textsc{Balmer}. C'est ce principe qui fournit les raies H$\a$,
+dont la longueur d'onde dans le vide est $\lambda_{\mathrm{H}\a} =
+\SI{656.5}{nm}$. L'étude de cette raie permet l'estimation de la formation
+stellaire du fait que les étoiles massives ont une courte durée de vie, à
+l'échelle de millions d'années, et que leur capacité à générer de tels photons
+décroît très rapidement~: le flux généré décroît de deux ordres de grandeurs
+en approximativement \SI{10}{Mans}. La présence d'hydrogène ionisé est donc un
+indicateur direct de la présence de «~jeunes~» étoiles, c'est-à-dire de moins de
+\SI{100}{Mans}, et du taux de formation stellaire \textit{via} la
+correspondance donnée dans~\cite{calzetti2013}:
+\begin{equation}\label{eq:sfrha}
+    \mathrm{SFR}(\mathrm{H}\alpha)\,[\si{\Msun.an^{-1}}] =
+    5,45\times 10^{-42}L(\mathrm{H}\a)\,[\si{erg.s^{-1}}]
+\end{equation}
+avec $L(\mathrm{H}\a)$ la luminosité des raies d'émission, obtenue par un
+ajustement spectral.
+
+En supposant la quantité de vieilles étoiles proportionnelle à la masse
+stellaire $M_*$ de la galaxie hôte \citep{mannucci2005, scannapieco2005}, il est
+possible de tracer la fraction de jeunes étoiles \textit{via} l'utilisation du
+taux de formation stellaire \textit{spécifique}, sSFR, tel que~:
+\begin{equation}\label{eq:ssfr}
+    \mathrm{sSFR} = \frac{\mathrm{SFR}}{M_*}
+\end{equation}
+On l'appelle alors «~local~», et on le dénote LsSFR, quand ce ratio calculé dans
+un environnement projeté de \SI{1}{kpc} autour de l'astre en question. Cette
+approche locale a pour but de déterminer plus précisement l'âge qu'avec des
+caractéristiques globales (morphologie, masse stellaire totale…). Une étude
+complète de la capacité de ce traceur à déterminer l'âge d'une SNe~Ia a été
+effectuée dans~\cite{briday2021, briday2022}.
+
+Il est attendu que la formation stellaire soit plus élevée à haut redshift, au
+début de l'histoire de l'Univers, alors que les étoiles vieilles, suivant la
+masse de leur galaxie hôte, soit plus élevée à bas redshift. Ainsi, le sSFR est
+un ordre de magnitude plus élevé à $z = 1,5$ qu'à $z = 0$ \citep[voir][pour une
+étude complète]{madau2015}. En pratique, les mesures de~\cite{tasca2015}
+trouvent un dépendance en redshift~:
+\begin{equation}\label{eq:zssfr}
+    \mathrm{sSFR} \propto (1+z)^{2,8 \pm 0,2}
+\end{equation}
+Les travaux de~\cite{rigault2020} combinent alors la fraction de jeunes étoiles
+($\delta(z)$) et de vieilles étoiles ($\psi(z)$, telle que $\delta(z) + \psi(z)
+= 1$) ainsi que l'équation~\ref{eq:zssfr} pour déduire~:
+\begin{align}\label{eq:dpz}
+    \mathrm{LsSFR}(z) \triangleq \frac{\delta(z)}{\psi(z)} &=
+        K\times(1+z)^{\phi} \\\label{eq:deltaz}
+    \text{et ainsi}\quad
+    \delta(z) & = \left( K^{-1}\times(1+z)^{-\phi} +1 \right)^{-1}
+    \\\label{eq:psiz}
+    \psi(z)   & = \left( K\times(1+z)^{+\phi} +1 \right)^{-1}
+\end{align}
+avec $K=0,87$ en fixant $\delta(0,05) = \psi(0,05) = 0,5$ et $\phi = 2,8$.
 \subsection{Marche de magnitude basée sur l'âge}\label{sssec:astep}
 
 \newpage

@@ -6,45 +6,45 @@ Database file #1: ../chapters/99_references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in calzetti2013
-You've used 87 entries,
+You've used 93 entries,
             3173 wiz_defined-function locations,
-            1411 strings with 86757 characters,
-and the built_in function-call counts, 196459 in all, are:
-= -- 12208
-> -- 28278
+            1459 strings with 90060 characters,
+and the built_in function-call counts, 204337 in all, are:
+= -- 12724
+> -- 29283
 < -- 26
-+ -- 9473
-- -- 9384
-* -- 31146
-:= -- 33219
-add.period$ -- 87
-call.type$ -- 87
-change.case$ -- 3471
-chr.to.int$ -- 91
-cite$ -- 88
-duplicate$ -- 1937
-empty$ -- 2926
-format.name$ -- 9579
-if$ -- 34332
++ -- 9812
+- -- 9717
+* -- 32352
+:= -- 34557
+add.period$ -- 93
+call.type$ -- 93
+change.case$ -- 3606
+chr.to.int$ -- 97
+cite$ -- 94
+duplicate$ -- 2057
+empty$ -- 3115
+format.name$ -- 9924
+if$ -- 35724
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 69
-newline$ -- 265
-num.names$ -- 362
-pop$ -- 3483
+missing$ -- 75
+newline$ -- 283
+num.names$ -- 386
+pop$ -- 3614
 preamble$ -- 1
-purify$ -- 3467
+purify$ -- 3602
 quote$ -- 0
-skip$ -- 1563
+skip$ -- 1660
 stack$ -- 0
-substring$ -- 2028
-swap$ -- 6757
+substring$ -- 2163
+swap$ -- 7003
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 783
+type$ -- 837
 warning$ -- 1
-while$ -- 371
+while$ -- 395
 width$ -- 0
-write$ -- 960
+write$ -- 1026
 (There was 1 warning)

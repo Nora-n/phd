@@ -38,72 +38,83 @@
 \contentsline {subsection}{\numberline {III.2.3}Implication en cosmologie moderne}{6}{subsection.3.2.3}
 \contentsline {section}{\numberline {III.3}Notion d'\IeC {\^a}ge}{6}{section.3.3}
 \contentsline {subsection}{\numberline {III.3.1}Distribution du temps de retard}{6}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {III.3.2}Taux de formation stellaire sp\IeC {\'e}cifique spectroscopique}{6}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {III.3.3}Marche de magnitude bas\IeC {\'e}e sur l'\IeC {\^a}ge}{6}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {IV}Cr\'eation d'un \'echantillon complet}{7}{chapter.4}
-\contentsline {section}{\numberline {IV.1}Notion de compl\IeC {\'e}tude}{8}{section.4.1}
-\contentsline {subsection}{\numberline {IV.1.1}Strat\IeC {\'e}gies d'observations}{8}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {IV.1.2}Biais de \textsc {Malmquist} et solution}{8}{subsection.4.1.2}
-\contentsline {section}{\numberline {IV.2}Pr\IeC {\'e}sentation des sondages}{9}{section.4.2}
-\contentsline {subsection}{\numberline {IV.2.1}The Nearby Supernova factory}{9}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {IV.2.1.1}Introduction}{9}{subsubsection.4.2.1.1}
-\contentsline {subsubsection}{\numberline {IV.2.1.2}D\IeC {\'e}tection des supernovae}{9}{subsubsection.4.2.1.2}
-\contentsline {subsubsection}{\numberline {IV.2.1.3}Suivi spectro-photom\IeC {\'e}trique}{10}{subsubsection.4.2.1.3}
-\contentsline {subsubsection}{\numberline {IV.2.1.4}Taux de formation stellaire sp\IeC {\'e}cifique spectroscopique et \IeC {\^a}ge}{11}{subsubsection.4.2.1.4}
-\contentsline {subsubsection}{\numberline {IV.2.1.5}Description des donn\IeC {\'e}es conserv\IeC {\'e}es}{12}{subsubsection.4.2.1.5}
-\contentsline {subsection}{\numberline {IV.2.2}Sloan Digital Sky Survey}{13}{subsection.4.2.2}
-\contentsline {subsubsection}{\numberline {IV.2.2.1}Introduction}{13}{subsubsection.4.2.2.1}
-\contentsline {subsubsection}{\numberline {IV.2.2.2}D\IeC {\'e}tection des supernovae}{13}{subsubsection.4.2.2.2}
-\contentsline {subsubsection}{\numberline {IV.2.2.3}Suivi spectro-photom\IeC {\'e}trique}{14}{subsubsection.4.2.2.3}
-\contentsline {subsubsection}{\numberline {IV.2.2.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{15}{subsubsection.4.2.2.4}
-\contentsline {subsection}{\numberline {IV.2.3}Panoramic Survey Telescope and Rapid Response System}{15}{subsection.4.2.3}
-\contentsline {subsubsection}{\numberline {IV.2.3.1}Introduction}{15}{subsubsection.4.2.3.1}
-\contentsline {subsubsection}{\numberline {IV.2.3.2}D\IeC {\'e}tection des supernovae}{16}{subsubsection.4.2.3.2}
-\contentsline {subsubsection}{\numberline {IV.2.3.3}Suivi spectro-photom\IeC {\'e}trique}{16}{subsubsection.4.2.3.3}
-\contentsline {subsubsection}{\numberline {IV.2.3.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{17}{subsubsection.4.2.3.4}
-\contentsline {subsection}{\numberline {IV.2.4}Supernova Legacy Survey}{18}{subsection.4.2.4}
-\contentsline {subsubsection}{\numberline {IV.2.4.1}Introduction}{18}{subsubsection.4.2.4.1}
-\contentsline {subsubsection}{\numberline {IV.2.4.2}D\IeC {\'e}tection des supernovae}{19}{subsubsection.4.2.4.2}
-\contentsline {subsubsection}{\numberline {IV.2.4.3}Suivi spectro-photom\IeC {\'e}trique}{19}{subsubsection.4.2.4.3}
-\contentsline {subsubsection}{\numberline {IV.2.4.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{20}{subsubsection.4.2.4.4}
-\contentsline {subsection}{\numberline {IV.2.5}\textsc {Hubble} Space Telescope}{20}{subsection.4.2.5}
-\contentsline {subsubsection}{\numberline {IV.2.5.1}Introduction}{20}{subsubsection.4.2.5.1}
-\contentsline {subsubsection}{\numberline {IV.2.5.2}D\IeC {\'e}tection des supernovae}{21}{subsubsection.4.2.5.2}
-\contentsline {subsubsection}{\numberline {IV.2.5.3}Suivi spectro-photom\IeC {\'e}trique}{21}{subsubsection.4.2.5.3}
-\contentsline {subsubsection}{\numberline {IV.2.5.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{22}{subsubsection.4.2.5.4}
-\contentsline {subsection}{\numberline {IV.2.6}Autres sondages~: CfA1-4 et CSP}{23}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {IV.2.7}R\IeC {\'e}sum\IeC {\'e} et comparaison}{23}{subsection.4.2.7}
-\contentsline {section}{\numberline {IV.3}\IeC {\'E}chantillon d'\IeC {\'e}tude}{24}{section.4.3}
-\contentsline {subsection}{\numberline {IV.3.1}Confection}{25}{subsection.4.3.1}
-\contentsline {subsubsection}{\numberline {IV.3.1.1}Approche statistique}{25}{subsubsection.4.3.1.1}
-\contentsline {subsubsection}{\numberline {IV.3.1.2}Approche analytique}{27}{subsubsection.4.3.1.2}
-\contentsline {subsection}{\numberline {IV.3.2}Pr\IeC {\'e}sentation}{30}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {IV.3.3}Confirmation d'hypoth\IeC {\`e}se}{32}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {V}\'Evolution avec le redshift}{37}{chapter.5}
-\contentsline {section}{\numberline {V.1}Mod\IeC {\'e}lisation de l'\IeC {\'e}tirement}{38}{section.5.1}
-\contentsline {subsection}{\numberline {V.1.1}Param\IeC {\'e}trisations}{39}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {V.1.2}Impl\IeC {\'e}mentation}{40}{subsection.5.1.2}
-\contentsline {section}{\numberline {V.2}R\IeC {\'e}sultats}{42}{section.5.2}
-\contentsline {subsection}{\numberline {V.2.1}Comparaison aux donn\IeC {\'e}es}{42}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {V.2.2}Tests suppl\IeC {\'e}mentaires}{45}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {V.2.3}Discussion}{46}{subsection.5.2.3}
-\contentsline {section}{\numberline {V.3}Pr\IeC {\'e}dictions et am\IeC {\'e}lioration}{49}{section.5.3}
-\contentsline {chapter}{\numberline {VI}Impact sur la cosmologie~: simulations}{53}{chapter.6}
-\contentsline {section}{\numberline {VI.1}SNANA : overview}{54}{section.6.1}
-\contentsline {subsection}{\numberline {VI.1.1}Inputs}{54}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {VI.1.2}Tools}{54}{subsection.6.1.2}
-\contentsline {section}{\numberline {VI.2}La masse comme traceur}{54}{section.6.2}
-\contentsline {subsection}{\numberline {VI.2.1}Mod\IeC {\'e}lisation}{54}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {VI.2.2}Utilisation}{54}{subsection.6.2.2}
-\contentsline {section}{\numberline {VI.3}Impl\IeC {\'e}mentation}{54}{section.6.3}
-\contentsline {subsection}{\numberline {VI.3.1}Corr\IeC {\'e}lations test\IeC {\'e}es}{54}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {VI.3.2}R\IeC {\'e}sultats}{54}{subsection.6.3.2}
-\contentsline {chapter}{\numberline {VII}R\IeC {\'e}sultats et discussion}{55}{chapter.7}
-\contentsline {section}{\numberline {VII.1}XXX}{56}{section.7.1}
-\contentsline {subsection}{\numberline {VII.1.1}XXX}{56}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {VII.1.2}XXX}{56}{subsection.7.1.2}
-\contentsline {section}{\numberline {VII.2}XXX}{56}{section.7.2}
-\contentsline {subsection}{\numberline {VII.2.1}XXX}{56}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {VII.2.2}XXX}{56}{subsection.7.2.2}
-\contentsline {chapter}{Conclusions}{57}{chapter*.51}
+\contentsline {subsection}{\numberline {III.3.2}Taux de formation stellaire sp\IeC {\'e}cifique spectroscopique et \IeC {\^a}ge}{6}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {III.3.3}Marche de magnitude bas\IeC {\'e}e sur l'\IeC {\^a}ge}{7}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {IV}Pr\'esentation des sondages}{9}{chapter.4}
+\contentsline {section}{\numberline {IV.1}The Nearby Supernova factory}{11}{section.4.1}
+\contentsline {subsection}{\numberline {IV.1.1}Introduction}{11}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {IV.1.2}D\IeC {\'e}tection des supernovae}{11}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {IV.1.3}Suivi spectro-photom\IeC {\'e}trique}{11}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {IV.1.4}Description des donn\IeC {\'e}es conserv\IeC {\'e}es}{12}{subsection.4.1.4}
+\contentsline {section}{\numberline {IV.2}Sloan Digital Sky Survey}{13}{section.4.2}
+\contentsline {subsection}{\numberline {IV.2.1}Introduction}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {IV.2.2}D\IeC {\'e}tection des supernovae}{14}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {IV.2.3}Suivi spectro-photom\IeC {\'e}trique}{14}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {IV.2.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{15}{subsection.4.2.4}
+\contentsline {section}{\numberline {IV.3}Panoramic Survey Telescope and Rapid Response System}{16}{section.4.3}
+\contentsline {subsection}{\numberline {IV.3.1}Introduction}{16}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {IV.3.2}D\IeC {\'e}tection des supernovae}{16}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {IV.3.3}Suivi spectro-photom\IeC {\'e}trique}{17}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {IV.3.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{17}{subsection.4.3.4}
+\contentsline {section}{\numberline {IV.4}Supernova Legacy Survey}{18}{section.4.4}
+\contentsline {subsection}{\numberline {IV.4.1}Introduction}{18}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {IV.4.2}D\IeC {\'e}tection des supernovae}{19}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {IV.4.3}Suivi spectro-photom\IeC {\'e}trique}{19}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {IV.4.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{20}{subsection.4.4.4}
+\contentsline {section}{\numberline {IV.5}\textsc {Hubble} Space Telescope}{20}{section.4.5}
+\contentsline {subsection}{\numberline {IV.5.1}Introduction}{21}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {IV.5.2}D\IeC {\'e}tection des supernovae}{21}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {IV.5.3}Suivi spectro-photom\IeC {\'e}trique}{22}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {IV.5.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{22}{subsection.4.5.4}
+\contentsline {section}{\numberline {IV.6}Autres sondages~: CfA1-4 et CSP}{24}{section.4.6}
+\contentsline {section}{\numberline {IV.7}Compl\IeC {\'e}ment~: Zwicky Transient Facility}{24}{section.4.7}
+\contentsline {subsection}{\numberline {IV.7.1}Introduction}{24}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {IV.7.2}D\IeC {\'e}tection des supernovae}{25}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {IV.7.3}Suivi spectro-photom\IeC {\'e}trique}{25}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {IV.7.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{26}{subsection.4.7.4}
+\contentsline {section}{\numberline {IV.8}R\IeC {\'e}sum\IeC {\'e} et comparaison}{26}{section.4.8}
+\contentsline {chapter}{\numberline {V}Cr\'eation d'un \'echantillon complet}{31}{chapter.5}
+\contentsline {section}{\numberline {V.1}Notion de compl\IeC {\'e}tude}{32}{section.5.1}
+\contentsline {subsection}{\numberline {V.1.1}Strat\IeC {\'e}gies d'observations}{32}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {V.1.2}Biais de \textsc {Malmquist} et solution}{32}{subsection.5.1.2}
+\contentsline {section}{\numberline {V.2}\IeC {\'E}chantillon d'\IeC {\'e}tude}{33}{section.5.2}
+\contentsline {subsection}{\numberline {V.2.1}Confection}{33}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {V.2.1.1}Approche statistique}{33}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {V.2.1.2}Approche analytique}{36}{subsubsection.5.2.1.2}
+\contentsline {subsection}{\numberline {V.2.2}Pr\IeC {\'e}sentation}{39}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {V.2.3}Confirmation d'hypoth\IeC {\`e}se}{40}{subsection.5.2.3}
+\contentsline {section}{\numberline {V.3}Application \IeC {\`a} ZTF}{44}{section.5.3}
+\contentsline {subsection}{Redshift limite}{44}{subsection.5.3.1}
+\contentsline {subsection}{Pr\IeC {\'e}sentation}{45}{subsection.5.3.1}
+\contentsline {chapter}{\numberline {VI}\'Evolution avec le redshift}{49}{chapter.6}
+\contentsline {section}{\numberline {VI.1}Mod\IeC {\'e}lisation de l'\IeC {\'e}tirement}{50}{section.6.1}
+\contentsline {subsection}{\numberline {VI.1.1}Param\IeC {\'e}trisations}{51}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {VI.1.2}Impl\IeC {\'e}mentation}{52}{subsection.6.1.2}
+\contentsline {section}{\numberline {VI.2}R\IeC {\'e}sultats}{54}{section.6.2}
+\contentsline {subsection}{\numberline {VI.2.1}Comparaison aux donn\IeC {\'e}es}{54}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {VI.2.2}Tests suppl\IeC {\'e}mentaires}{57}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {VI.2.3}Discussion}{61}{subsection.6.2.3}
+\contentsline {section}{\numberline {VI.3}Inclusion des donn\IeC {\'e}es de ZTF}{62}{section.6.3}
+\contentsline {subsection}{\numberline {VI.3.1}Pr\IeC {\'e}diction}{62}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {VI.3.2}Impl\IeC {\'e}mentation}{63}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {VI.3.3}R\IeC {\'e}sultats}{64}{subsection.6.3.3}
+\contentsline {section}{\numberline {VI.4}Conclusion}{68}{section.6.4}
+\contentsline {chapter}{\numberline {VII}Impact sur la cosmologie~: simulations}{71}{chapter.7}
+\contentsline {section}{\numberline {VII.1}SNANA : overview}{72}{section.7.1}
+\contentsline {subsection}{\numberline {VII.1.1}Inputs}{72}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {VII.1.2}Tools}{72}{subsection.7.1.2}
+\contentsline {section}{\numberline {VII.2}La masse comme traceur}{72}{section.7.2}
+\contentsline {subsection}{\numberline {VII.2.1}Mod\IeC {\'e}lisation}{72}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {VII.2.2}Utilisation}{72}{subsection.7.2.2}
+\contentsline {section}{\numberline {VII.3}Impl\IeC {\'e}mentation}{72}{section.7.3}
+\contentsline {subsection}{\numberline {VII.3.1}Corr\IeC {\'e}lations test\IeC {\'e}es}{72}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {VII.3.2}R\IeC {\'e}sultats}{72}{subsection.7.3.2}
+\contentsline {chapter}{\numberline {VIII}R\IeC {\'e}sultats et discussion}{73}{chapter.8}
+\contentsline {section}{\numberline {VIII.1}XXX}{74}{section.8.1}
+\contentsline {subsection}{\numberline {VIII.1.1}XXX}{74}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {VIII.1.2}XXX}{74}{subsection.8.1.2}
+\contentsline {section}{\numberline {VIII.2}XXX}{74}{section.8.2}
+\contentsline {subsection}{\numberline {VIII.2.1}XXX}{74}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {VIII.2.2}XXX}{74}{subsection.8.2.2}
+\contentsline {chapter}{Conclusions}{75}{chapter*.76}
 \contentsfinish 

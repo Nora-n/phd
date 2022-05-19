@@ -1,0 +1,435 @@
+\begin{thebibliography}{22}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Abbott}} {et~al.}(2019)\textsc{{Abbott}}, \textsc{{Allam}},
+  \textsc{{Andersen}}, \textsc{{Angus}}, \textsc{{Asorey}}, \textsc{{Avelino}},
+  \textsc{{Avila}}, \textsc{{Bassett}}, \textsc{{Bechtol}},
+  \textsc{{Bernstein}}, \textsc{{Bertin}}, \textsc{{Brooks}}, \textsc{{Brout}},
+  \textsc{{Brown}}, \textsc{{Burke}}, \textsc{{Calcino}}, \textsc{{Carnero
+  Rosell}}, \textsc{{Carollo}}, \textsc{{Carrasco Kind}}, \textsc{{Carretero}},
+  \textsc{{Casas}}, \textsc{{Castander}}, \textsc{{Cawthon}},
+  \textsc{{Challis}}, \textsc{{Childress}}, \textsc{{Clocchiatti}},
+  \textsc{{Cunha}}, \textsc{{D'Andrea}}, \textsc{{da Costa}}, \textsc{{Davis}},
+  \textsc{{Davis}}, \textsc{{De Vicente}}, \textsc{{DePoy}}, \textsc{{Desai}},
+  \textsc{{Diehl}}, \textsc{{Doel}}, \textsc{{Drlica-Wagner}},
+  \textsc{{Eifler}}, \textsc{{Evrard}}, \textsc{{Fernandez}},
+  \textsc{{Filippenko}}, \textsc{{Finley}}, \textsc{{Flaugher}},
+  \textsc{{Foley}}, \textsc{{Fosalba}}, \textsc{{Frieman}}, \textsc{{Galbany}},
+  \textsc{{Garc{\'\i}a-Bellido}}, \textsc{{Gaztanaga}},
+  \textsc{{Giannantonio}}, \textsc{{Glazebrook}}, \textsc{{Goldstein}},
+  \textsc{{Gonz{\'a}lez-Gait{\'a}n}}, \textsc{{Gruen}}, \textsc{{Gruendl}},
+  \textsc{{Gschwend}}, \textsc{{Gupta}}, \textsc{{Gutierrez}},
+  \textsc{{Hartley}}, \textsc{{Hinton}}, \textsc{{Hollowood}},
+  \textsc{{Honscheid}}, \textsc{{Hoormann}}, \textsc{{Hoyle}},
+  \textsc{{James}}, \textsc{{Jeltema}}, \textsc{{Johnson}}, \textsc{{Johnson}},
+  \textsc{{Kasai}}, \textsc{{Kent}}, \textsc{{Kessler}}, \textsc{{Kim}},
+  \textsc{{Kirshner}}, \textsc{{Kovacs}}, \textsc{{Krause}}, \textsc{{Kron}},
+  \textsc{{Kuehn}}, \textsc{{Kuhlmann}}, \textsc{{Kuropatkin}},
+  \textsc{{Lahav}}, \textsc{{Lasker}}, \textsc{{Lewis}}, \textsc{{Li}},
+  \textsc{{Lidman}}, \textsc{{Lima}}, \textsc{{Lin}}, \textsc{{Macaulay}},
+  \textsc{{Maia}}, \textsc{{Mandel}}, \textsc{{March}}, \textsc{{Marriner}},
+  \textsc{{Marshall}}, \textsc{{Martini}}, \textsc{{Menanteau}},
+  \textsc{{Miller}}, \textsc{{Miquel}}, \textsc{{Miranda}}, \textsc{{Mohr}},
+  \textsc{{Morganson}}, \textsc{{Muthukrishna}}, \textsc{{M{\"o}ller}},
+  \textsc{{Neilsen}}, \textsc{{Nichol}}, \textsc{{Nord}}, \textsc{{Nugent}},
+  \textsc{{Ogando}}, \textsc{{Palmese}}, \textsc{{Pan}}, \textsc{{Plazas}},
+  \textsc{{Pursiainen}}, \textsc{{Romer}}, \textsc{{Roodman}}, \textsc{{Rozo}},
+  \textsc{{Rykoff}}, \textsc{{Sako}}, \textsc{{Sanchez}}, \textsc{{Scarpine}},
+  \textsc{{Schindler}}, \textsc{{Schubnell}}, \textsc{{Scolnic}},
+  \textsc{{Serrano}}, \textsc{{Sevilla-Noarbe}}, \textsc{{Sharp}},
+  \textsc{{Smith}}, \textsc{{Soares-Santos}}, \textsc{{Sobreira}},
+  \textsc{{Sommer}}, \textsc{{Spinka}}, \textsc{{Suchyta}},
+  \textsc{{Sullivan}}, \textsc{{Swann}}, \textsc{{Tarle}}, \textsc{{Thomas}},
+  \textsc{{Thomas}}, \textsc{{Troxel}}, \textsc{{Tucker}}, \textsc{{Uddin}},
+  \textsc{{Walker}}, \textsc{{Wester}}, \textsc{{Wiseman}}, \textsc{{Wolf}},
+  \textsc{{Yanny}}, \textsc{{Zhang}}, \textsc{{Zhang}} et \textsc{{DES
+  Collaboration}}}]{abbott2019}
+\textsc{{Abbott} T.~M.~C.}, \textsc{{Allam} S.}, \textsc{{Andersen} P.}
+  {et~al.} 2019, «~{First Cosmology Results using Type Ia Supernovae from the
+  Dark Energy Survey: Constraints on Cosmological Parameters}~»,
+  \href{http://dx.doi.org/10.3847/2041-8213/ab04fa}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...872L..30A}{872, L30}
+
+\bibitem[{\textsc{{Aubourg}} {et~al.}(2008)\textsc{{Aubourg}},
+  \textsc{{Tojeiro}}, \textsc{{Jimenez}}, \textsc{{Heavens}},
+  \textsc{{Strauss}} et \textsc{{Spergel}}}]{aubourg2008}
+\textsc{{Aubourg} {\'E}.}, \textsc{{Tojeiro} R.}, \textsc{{Jimenez} R.}
+  {et~al.} 2008, «~{Evidence of short-lived SN Ia progenitors}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361:200809796}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2008A&A...492..631A}{492, 631}
+
+\bibitem[{\textsc{{Bellm}} {et~al.}(2019)\textsc{{Bellm}}, \textsc{{Kulkarni}},
+  \textsc{{Graham}}, \textsc{{Dekany}}, \textsc{{Smith}}, \textsc{{Riddle}},
+  \textsc{{Masci}}, \textsc{{Helou}}, \textsc{{Prince}}, \textsc{{Adams}},
+  \textsc{{Barbarino}}, \textsc{{Barlow}}, \textsc{{Bauer}}, \textsc{{Beck}},
+  \textsc{{Belicki}}, \textsc{{Biswas}}, \textsc{{Blagorodnova}},
+  \textsc{{Bodewits}}, \textsc{{Bolin}}, \textsc{{Brinnel}}, \textsc{{Brooke}},
+  \textsc{{Bue}}, \textsc{{Bulla}}, \textsc{{Burruss}}, \textsc{{Cenko}},
+  \textsc{{Chang}}, \textsc{{Connolly}}, \textsc{{Coughlin}},
+  \textsc{{Cromer}}, \textsc{{Cunningham}}, \textsc{{De}},
+  \textsc{{Delacroix}}, \textsc{{Desai}}, \textsc{{Duev}}, \textsc{{Eadie}},
+  \textsc{{Farnham}}, \textsc{{Feeney}}, \textsc{{Feindt}}, \textsc{{Flynn}},
+  \textsc{{Franckowiak}}, \textsc{{Frederick}}, \textsc{{Fremling}},
+  \textsc{{Gal-Yam}}, \textsc{{Gezari}}, \textsc{{Giomi}},
+  \textsc{{Goldstein}}, \textsc{{Golkhou}}, \textsc{{Goobar}},
+  \textsc{{Groom}}, \textsc{{Hacopians}}, \textsc{{Hale}}, \textsc{{Henning}},
+  \textsc{{Ho}}, \textsc{{Hover}}, \textsc{{Howell}}, \textsc{{Hung}},
+  \textsc{{Huppenkothen}}, \textsc{{Imel}}, \textsc{{Ip}},
+  \textsc{{Ivezi{\'c}}}, \textsc{{Jackson}}, \textsc{{Jones}},
+  \textsc{{Juric}}, \textsc{{Kasliwal}}, \textsc{{Kaspi}}, \textsc{{Kaye}},
+  \textsc{{Kelley}}, \textsc{{Kowalski}}, \textsc{{Kramer}}, \textsc{{Kupfer}},
+  \textsc{{Landry}}, \textsc{{Laher}}, \textsc{{Lee}}, \textsc{{Lin}},
+  \textsc{{Lin}}, \textsc{{Lunnan}}, \textsc{{Giomi}}, \textsc{{Mahabal}},
+  \textsc{{Mao}}, \textsc{{Miller}}, \textsc{{Monkewitz}}, \textsc{{Murphy}},
+  \textsc{{Ngeow}}, \textsc{{Nordin}}, \textsc{{Nugent}}, \textsc{{Ofek}},
+  \textsc{{Patterson}}, \textsc{{Penprase}}, \textsc{{Porter}},
+  \textsc{{Rauch}}, \textsc{{Rebbapragada}}, \textsc{{Reiley}},
+  \textsc{{Rigault}}, \textsc{{Rodriguez}}, \textsc{{van Roestel}},
+  \textsc{{Rusholme}}, \textsc{{van Santen}}, \textsc{{Schulze}},
+  \textsc{{Shupe}}, \textsc{{Singer}}, \textsc{{Soumagnac}}, \textsc{{Stein}},
+  \textsc{{Surace}}, \textsc{{Sollerman}}, \textsc{{Szkody}},
+  \textsc{{Taddia}}, \textsc{{Terek}}, \textsc{{Van Sistine}}, \textsc{{van
+  Velzen}}, \textsc{{Vestrand}}, \textsc{{Walters}}, \textsc{{Ward}},
+  \textsc{{Ye}}, \textsc{{Yu}}, \textsc{{Yan}} et
+  \textsc{{Zolkower}}}]{bellm2019}
+\textsc{{Bellm} E.~C.}, \textsc{{Kulkarni} S.~R.}, \textsc{{Graham} M.~J.}
+  {et~al.} 2019, «~{The Zwicky Transient Facility: System Overview,
+  Performance, and First Results}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/aaecbe}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8002B}{131, 018002}
+
+\bibitem[{\textsc{{Briday}} {et~al.}(2022)\textsc{{Briday}},
+  \textsc{{Rigault}}, \textsc{{Graziani}}, \textsc{{Copin}},
+  \textsc{{Aldering}}, \textsc{{Amenouche}}, \textsc{{Brinnel}},
+  \textsc{{Kim}}, \textsc{{Kim}}, \textsc{{Lezmy}}, \textsc{{Nicolas}},
+  \textsc{{Nordin}}, \textsc{{Perlmutter}}, \textsc{{Rosnet}} et
+  \textsc{{Smith}}}]{briday2022}
+\textsc{{Briday} M.}, \textsc{{Rigault} M.}, \textsc{{Graziani} R.} {et~al.}
+  2022, «~{Accuracy of environmental tracers and consequences for determining
+  the Type Ia supernova magnitude step}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/202141160}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2022A&A...657A..22B}{657, A22}
+
+\bibitem[{\textsc{{Burnham}}(2004)}]{burnham2004}
+\textsc{{Burnham}, Kenneth \&~{Anderson} D.~R.} 2004, «~Multimodel Inference:
+  Understanding AIC and BIC in Model Selection~»,
+  \href{http://dx.doi.org/10.1177/0049124104268644}{\color{magenta}Sociological
+  Methods \& Research}, 33, 261
+
+\bibitem[{\textsc{{Graham}} {et~al.}(2019)\textsc{{Graham}},
+  \textsc{{Kulkarni}}, \textsc{{Bellm}}, \textsc{{Adams}},
+  \textsc{{Barbarino}}, \textsc{{Blagorodnova}}, \textsc{{Bodewits}},
+  \textsc{{Bolin}}, \textsc{{Brady}}, \textsc{{Cenko}}, \textsc{{Chang}},
+  \textsc{{Coughlin}}, \textsc{{De}}, \textsc{{Eadie}}, \textsc{{Farnham}},
+  \textsc{{Feindt}}, \textsc{{Franckowiak}}, \textsc{{Fremling}},
+  \textsc{{Gezari}}, \textsc{{Ghosh}}, \textsc{{Goldstein}},
+  \textsc{{Golkhou}}, \textsc{{Goobar}}, \textsc{{Ho}},
+  \textsc{{Huppenkothen}}, \textsc{{Ivezi{\'c}}}, \textsc{{Jones}},
+  \textsc{{Juric}}, \textsc{{Kaplan}}, \textsc{{Kasliwal}}, \textsc{{Kelley}},
+  \textsc{{Kupfer}}, \textsc{{Lee}}, \textsc{{Lin}}, \textsc{{Lunnan}},
+  \textsc{{Mahabal}}, \textsc{{Miller}}, \textsc{{Ngeow}}, \textsc{{Nugent}},
+  \textsc{{Ofek}}, \textsc{{Prince}}, \textsc{{Rauch}}, \textsc{{van Roestel}},
+  \textsc{{Schulze}}, \textsc{{Singer}}, \textsc{{Sollerman}},
+  \textsc{{Taddia}}, \textsc{{Yan}}, \textsc{{Ye}}, \textsc{{Yu}},
+  \textsc{{Barlow}}, \textsc{{Bauer}}, \textsc{{Beck}}, \textsc{{Belicki}},
+  \textsc{{Biswas}}, \textsc{{Brinnel}}, \textsc{{Brooke}}, \textsc{{Bue}},
+  \textsc{{Bulla}}, \textsc{{Burruss}}, \textsc{{Connolly}}, \textsc{{Cromer}},
+  \textsc{{Cunningham}}, \textsc{{Dekany}}, \textsc{{Delacroix}},
+  \textsc{{Desai}}, \textsc{{Duev}}, \textsc{{Feeney}}, \textsc{{Flynn}},
+  \textsc{{Frederick}}, \textsc{{Gal-Yam}}, \textsc{{Giomi}}, \textsc{{Groom}},
+  \textsc{{Hacopians}}, \textsc{{Hale}}, \textsc{{Helou}}, \textsc{{Henning}},
+  \textsc{{Hover}}, \textsc{{Hillenbrand}}, \textsc{{Howell}}, \textsc{{Hung}},
+  \textsc{{Imel}}, \textsc{{Ip}}, \textsc{{Jackson}}, \textsc{{Kaspi}},
+  \textsc{{Kaye}}, \textsc{{Kowalski}}, \textsc{{Kramer}}, \textsc{{Kuhn}},
+  \textsc{{Landry}}, \textsc{{Laher}}, \textsc{{Mao}}, \textsc{{Masci}},
+  \textsc{{Monkewitz}}, \textsc{{Murphy}}, \textsc{{Nordin}},
+  \textsc{{Patterson}}, \textsc{{Penprase}}, \textsc{{Porter}},
+  \textsc{{Rebbapragada}}, \textsc{{Reiley}}, \textsc{{Riddle}},
+  \textsc{{Rigault}}, \textsc{{Rodriguez}}, \textsc{{Rusholme}}, \textsc{{van
+  Santen}}, \textsc{{Shupe}}, \textsc{{Smith}}, \textsc{{Soumagnac}},
+  \textsc{{Stein}}, \textsc{{Surace}}, \textsc{{Szkody}}, \textsc{{Terek}},
+  \textsc{{Van Sistine}}, \textsc{{van Velzen}}, \textsc{{Vestrand}},
+  \textsc{{Walters}}, \textsc{{Ward}}, \textsc{{Zhang}} et
+  \textsc{{Zolkower}}}]{graham2019}
+\textsc{{Graham} M.~J.}, \textsc{{Kulkarni} S.~R.}, \textsc{{Bellm} E.~C.}
+  {et~al.} 2019, «~{The Zwicky Transient Facility: Science Objectives}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/ab006c}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131g8001G}{131, 078001}
+
+\bibitem[{\textsc{{Hinton}} {et~al.}(2019)\textsc{{Hinton}}, \textsc{{Davis}},
+  \textsc{{Kim}}, \textsc{{Brout}}, \textsc{{D'Andrea}}, \textsc{{Kessler}},
+  \textsc{{Lasker}}, \textsc{{Lidman}}, \textsc{{Macaulay}},
+  \textsc{{M{\"o}ller}}, \textsc{{Sako}}, \textsc{{Scolnic}}, \textsc{{Smith}},
+  \textsc{{Wolf}}, \textsc{{Childress}}, \textsc{{Morganson}},
+  \textsc{{Allam}}, \textsc{{Annis}}, \textsc{{Avila}}, \textsc{{Bertin}},
+  \textsc{{Brooks}}, \textsc{{Burke}}, \textsc{{Carnero Rosell}},
+  \textsc{{Carrasco Kind}}, \textsc{{Carretero}}, \textsc{{Cunha}}, \textsc{{da
+  Costa}}, \textsc{{Davis}}, \textsc{{De Vicente}}, \textsc{{DePoy}},
+  \textsc{{Doel}}, \textsc{{Eifler}}, \textsc{{Flaugher}}, \textsc{{Fosalba}},
+  \textsc{{Frieman}}, \textsc{{Garc{\'\i}a-Bellido}}, \textsc{{Gaztanaga}},
+  \textsc{{Gerdes}}, \textsc{{Gruendl}}, \textsc{{Gschwend}},
+  \textsc{{Gutierrez}}, \textsc{{Hartley}}, \textsc{{Hollowood}},
+  \textsc{{Honscheid}}, \textsc{{Krause}}, \textsc{{Kuehn}},
+  \textsc{{Kuropatkin}}, \textsc{{Lahav}}, \textsc{{Lima}}, \textsc{{Maia}},
+  \textsc{{March}}, \textsc{{Marshall}}, \textsc{{Menanteau}},
+  \textsc{{Miquel}}, \textsc{{Ogando}}, \textsc{{Plazas}}, \textsc{{Sanchez}},
+  \textsc{{Scarpine}}, \textsc{{Schindler}}, \textsc{{Schubnell}},
+  \textsc{{Serrano}}, \textsc{{Sevilla-Noarbe}}, \textsc{{Soares-Santos}},
+  \textsc{{Sobreira}}, \textsc{{Suchyta}}, \textsc{{Tarle}}, \textsc{{Thomas}},
+  \textsc{{Vikram}} et \textsc{{Zhang}}}]{hinton2019}
+\textsc{{Hinton} S.~R.}, \textsc{{Davis} T.~M.}, \textsc{{Kim} A.~G.} {et~al.}
+  2019, «~{Steve: A Hierarchical Bayesian Model for Supernova Cosmology}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/ab13a3}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...876...15H}{876, 15}
+
+\bibitem[{\textsc{{Howell}} {et~al.}(2007)\textsc{{Howell}},
+  \textsc{{Sullivan}}, \textsc{{Conley}} et \textsc{{Carlberg}}}]{howell2007}
+\textsc{{Howell} D.~A.}, \textsc{{Sullivan} M.}, \textsc{{Conley} A.} et
+  \textsc{{Carlberg} R.} 2007, «~{Predicted and Observed Evolution in the Mean
+  Properties of Type Ia Supernovae with Redshift}~»,
+  \href{http://dx.doi.org/10.1086/522030}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...667L..37H}{667, L37}
+
+\bibitem[{\textsc{{Ivezi{\'c}}} {et~al.}(2019)\textsc{{Ivezi{\'c}}},
+  \textsc{{Kahn}}, \textsc{{Tyson}}, \textsc{{Abel}}, \textsc{{Acosta}},
+  \textsc{{Allsman}}, \textsc{{Alonso}}, \textsc{{AlSayyad}},
+  \textsc{{Anderson}}, \textsc{{Andrew}}, \textsc{{Angel}}, \textsc{{Angeli}},
+  \textsc{{Ansari}}, \textsc{{Antilogus}}, \textsc{{Araujo}},
+  \textsc{{Armstrong}}, \textsc{{Arndt}}, \textsc{{Astier}},
+  \textsc{{Aubourg}}, \textsc{{Auza}}, \textsc{{Axelrod}}, \textsc{{Bard}},
+  \textsc{{Barr}}, \textsc{{Barrau}}, \textsc{{Bartlett}}, \textsc{{Bauer}},
+  \textsc{{Bauman}}, \textsc{{Baumont}}, \textsc{{Bechtol}},
+  \textsc{{Bechtol}}, \textsc{{Becker}}, \textsc{{Becla}}, \textsc{{Beldica}},
+  \textsc{{Bellavia}}, \textsc{{Bianco}}, \textsc{{Biswas}}, \textsc{{Blanc}},
+  \textsc{{Blazek}}, \textsc{{Blandford}}, \textsc{{Bloom}}, \textsc{{Bogart}},
+  \textsc{{Bond}}, \textsc{{Booth}}, \textsc{{Borgland}}, \textsc{{Borne}},
+  \textsc{{Bosch}}, \textsc{{Boutigny}}, \textsc{{Brackett}},
+  \textsc{{Bradshaw}}, \textsc{{Brandt}}, \textsc{{Brown}}, \textsc{{Bullock}},
+  \textsc{{Burchat}}, \textsc{{Burke}}, \textsc{{Cagnoli}},
+  \textsc{{Calabrese}}, \textsc{{Callahan}}, \textsc{{Callen}},
+  \textsc{{Carlin}}, \textsc{{Carlson}}, \textsc{{Chandrasekharan}},
+  \textsc{{Charles-Emerson}}, \textsc{{Chesley}}, \textsc{{Cheu}},
+  \textsc{{Chiang}}, \textsc{{Chiang}}, \textsc{{Chirino}}, \textsc{{Chow}},
+  \textsc{{Ciardi}}, \textsc{{Claver}}, \textsc{{Cohen-Tanugi}},
+  \textsc{{Cockrum}}, \textsc{{Coles}}, \textsc{{Connolly}}, \textsc{{Cook}},
+  \textsc{{Cooray}}, \textsc{{Covey}}, \textsc{{Cribbs}}, \textsc{{Cui}},
+  \textsc{{Cutri}}, \textsc{{Daly}}, \textsc{{Daniel}}, \textsc{{Daruich}},
+  \textsc{{Daubard}}, \textsc{{Daues}}, \textsc{{Dawson}}, \textsc{{Delgado}},
+  \textsc{{Dellapenna}}, \textsc{{de Peyster}}, \textsc{{de Val-Borro}},
+  \textsc{{Digel}}, \textsc{{Doherty}}, \textsc{{Dubois}},
+  \textsc{{Dubois-Felsmann}}, \textsc{{Durech}}, \textsc{{Economou}},
+  \textsc{{Eifler}}, \textsc{{Eracleous}}, \textsc{{Emmons}}, \textsc{{Fausti
+  Neto}}, \textsc{{Ferguson}}, \textsc{{Figueroa}}, \textsc{{Fisher-Levine}},
+  \textsc{{Focke}}, \textsc{{Foss}}, \textsc{{Frank}}, \textsc{{Freemon}},
+  \textsc{{Gangler}}, \textsc{{Gawiser}}, \textsc{{Geary}}, \textsc{{Gee}},
+  \textsc{{Geha}}, \textsc{{Gessner}}, \textsc{{Gibson}}, \textsc{{Gilmore}},
+  \textsc{{Glanzman}}, \textsc{{Glick}}, \textsc{{Goldina}},
+  \textsc{{Goldstein}}, \textsc{{Goodenow}}, \textsc{{Graham}},
+  \textsc{{Gressler}}, \textsc{{Gris}}, \textsc{{Guy}}, \textsc{{Guyonnet}},
+  \textsc{{Haller}}, \textsc{{Harris}}, \textsc{{Hascall}}, \textsc{{Haupt}},
+  \textsc{{Hernandez}}, \textsc{{Herrmann}}, \textsc{{Hileman}},
+  \textsc{{Hoblitt}}, \textsc{{Hodgson}}, \textsc{{Hogan}}, \textsc{{Howard}},
+  \textsc{{Huang}}, \textsc{{Huffer}}, \textsc{{Ingraham}}, \textsc{{Innes}},
+  \textsc{{Jacoby}}, \textsc{{Jain}}, \textsc{{Jammes}}, \textsc{{Jee}},
+  \textsc{{Jenness}}, \textsc{{Jernigan}}, \textsc{{Jevremovi{\'c}}},
+  \textsc{{Johns}}, \textsc{{Johnson}}, \textsc{{Johnson}}, \textsc{{Jones}},
+  \textsc{{Juramy-Gilles}}, \textsc{{Juri{\'c}}}, \textsc{{Kalirai}},
+  \textsc{{Kallivayalil}}, \textsc{{Kalmbach}}, \textsc{{Kantor}},
+  \textsc{{Karst}}, \textsc{{Kasliwal}}, \textsc{{Kelly}}, \textsc{{Kessler}},
+  \textsc{{Kinnison}}, \textsc{{Kirkby}}, \textsc{{Knox}}, \textsc{{Kotov}},
+  \textsc{{Krabbendam}}, \textsc{{Krughoff}}, \textsc{{Kub{\'a}nek}},
+  \textsc{{Kuczewski}}, \textsc{{Kulkarni}}, \textsc{{Ku}}, \textsc{{Kurita}},
+  \textsc{{Lage}}, \textsc{{Lambert}}, \textsc{{Lange}}, \textsc{{Langton}},
+  \textsc{{Le Guillou}}, \textsc{{Levine}}, \textsc{{Liang}}, \textsc{{Lim}},
+  \textsc{{Lintott}}, \textsc{{Long}}, \textsc{{Lopez}}, \textsc{{Lotz}},
+  \textsc{{Lupton}}, \textsc{{Lust}}, \textsc{{MacArthur}}, \textsc{{Mahabal}},
+  \textsc{{Mandelbaum}}, \textsc{{Markiewicz}}, \textsc{{Marsh}},
+  \textsc{{Marshall}}, \textsc{{Marshall}}, \textsc{{May}},
+  \textsc{{McKercher}}, \textsc{{McQueen}}, \textsc{{Meyers}},
+  \textsc{{Migliore}}, \textsc{{Miller}}, \textsc{{Mills}}, \textsc{{Miraval}},
+  \textsc{{Moeyens}}, \textsc{{Moolekamp}}, \textsc{{Monet}},
+  \textsc{{Moniez}}, \textsc{{Monkewitz}}, \textsc{{Montgomery}},
+  \textsc{{Morrison}}, \textsc{{Mueller}}, \textsc{{Muller}},
+  \textsc{{Mu{\~n}oz Arancibia}}, \textsc{{Neill}}, \textsc{{Newbry}},
+  \textsc{{Nief}}, \textsc{{Nomerotski}}, \textsc{{Nordby}},
+  \textsc{{O'Connor}}, \textsc{{Oliver}}, \textsc{{Olivier}}, \textsc{{Olsen}},
+  \textsc{{O'Mullane}}, \textsc{{Ortiz}}, \textsc{{Osier}}, \textsc{{Owen}},
+  \textsc{{Pain}}, \textsc{{Palecek}}, \textsc{{Parejko}}, \textsc{{Parsons}},
+  \textsc{{Pease}}, \textsc{{Peterson}}, \textsc{{Peterson}},
+  \textsc{{Petravick}}, \textsc{{Libby Petrick}}, \textsc{{Petry}},
+  \textsc{{Pierfederici}}, \textsc{{Pietrowicz}}, \textsc{{Pike}},
+  \textsc{{Pinto}}, \textsc{{Plante}}, \textsc{{Plate}}, \textsc{{Plutchak}},
+  \textsc{{Price}}, \textsc{{Prouza}}, \textsc{{Radeka}}, \textsc{{Rajagopal}},
+  \textsc{{Rasmussen}}, \textsc{{Regnault}}, \textsc{{Reil}}, \textsc{{Reiss}},
+  \textsc{{Reuter}}, \textsc{{Ridgway}}, \textsc{{Riot}}, \textsc{{Ritz}},
+  \textsc{{Robinson}}, \textsc{{Roby}}, \textsc{{Roodman}}, \textsc{{Rosing}},
+  \textsc{{Roucelle}}, \textsc{{Rumore}}, \textsc{{Russo}}, \textsc{{Saha}},
+  \textsc{{Sassolas}}, \textsc{{Schalk}}, \textsc{{Schellart}},
+  \textsc{{Schindler}}, \textsc{{Schmidt}}, \textsc{{Schneider}},
+  \textsc{{Schneider}}, \textsc{{Schoening}}, \textsc{{Schumacher}},
+  \textsc{{Schwamb}}, \textsc{{Sebag}}, \textsc{{Selvy}}, \textsc{{Sembroski}},
+  \textsc{{Seppala}}, \textsc{{Serio}}, \textsc{{Serrano}}, \textsc{{Shaw}},
+  \textsc{{Shipsey}}, \textsc{{Sick}}, \textsc{{Silvestri}}, \textsc{{Slater}},
+  \textsc{{Smith}}, \textsc{{Smith}}, \textsc{{Sobhani}}, \textsc{{Soldahl}},
+  \textsc{{Storrie-Lombardi}}, \textsc{{Stover}}, \textsc{{Strauss}},
+  \textsc{{Street}}, \textsc{{Stubbs}}, \textsc{{Sullivan}},
+  \textsc{{Sweeney}}, \textsc{{Swinbank}}, \textsc{{Szalay}},
+  \textsc{{Takacs}}, \textsc{{Tether}}, \textsc{{Thaler}}, \textsc{{Thayer}},
+  \textsc{{Thomas}}, \textsc{{Thornton}}, \textsc{{Thukral}}, \textsc{{Tice}},
+  \textsc{{Trilling}}, \textsc{{Turri}}, \textsc{{Van Berg}}, \textsc{{Vanden
+  Berk}}, \textsc{{Vetter}}, \textsc{{Virieux}}, \textsc{{Vucina}},
+  \textsc{{Wahl}}, \textsc{{Walkowicz}}, \textsc{{Walsh}}, \textsc{{Walter}},
+  \textsc{{Wang}}, \textsc{{Wang}}, \textsc{{Warner}}, \textsc{{Wiecha}},
+  \textsc{{Willman}}, \textsc{{Winters}}, \textsc{{Wittman}}, \textsc{{Wolff}},
+  \textsc{{Wood-Vasey}}, \textsc{{Wu}}, \textsc{{Xin}}, \textsc{{Yoachim}} et
+  \textsc{{Zhan}}}]{ivezic2019}
+\textsc{{Ivezi{\'c}} {\v{Z}}.}, \textsc{{Kahn} S.~M.}, \textsc{{Tyson} J.~A.}
+  {et~al.} 2019, «~{LSST: From Science Drivers to Reference Design and
+  Anticipated Data Products}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/ab042c}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...873..111I}{873, 111}
+
+\bibitem[{\textsc{{Kessler}} {et~al.}(2009)\textsc{{Kessler}},
+  \textsc{{Bernstein}}, \textsc{{Cinabro}}, \textsc{{Dilday}},
+  \textsc{{Frieman}}, \textsc{{Jha}}, \textsc{{Kuhlmann}},
+  \textsc{{Miknaitis}}, \textsc{{Sako}}, \textsc{{Taylor}} et
+  \textsc{{Vanderplas}}}]{kessler2009a}
+\textsc{{Kessler} R.}, \textsc{{Bernstein} J.~P.}, \textsc{{Cinabro} D.}
+  {et~al.} 2009, «~{SNANA: A Public Software Package for Supernova
+  Analysis}~», \href{http://dx.doi.org/10.1086/605984}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2009PASP..121.1028K}{121, 1028}
+
+\bibitem[{\textsc{{Kessler}} et \textsc{{Scolnic}}(2017)}]{kessler2017}
+\textsc{{Kessler} R.} et \textsc{{Scolnic} D.} 2017, «~{Correcting Type Ia
+  Supernova Distances for Selection Biases and Contamination in Photometrically
+  Identified Samples}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/836/1/56}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...836...56K}{836, 56}
+
+\bibitem[{\textsc{{Mannucci}} {et~al.}(2005)\textsc{{Mannucci}}, \textsc{{Della
+  Valle}}, \textsc{{Panagia}}, \textsc{{Cappellaro}}, \textsc{{Cresci}},
+  \textsc{{Maiolino}}, \textsc{{Petrosian}} et
+  \textsc{{Turatto}}}]{mannucci2005}
+\textsc{{Mannucci} F.}, \textsc{{Della Valle} M.}, \textsc{{Panagia} N.}
+  {et~al.} 2005, «~{The supernova rate per unit mass}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361:20041411}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2005A&A...433..807M}{433, 807}
+
+\bibitem[{\textsc{{Phillips}}(1993)}]{phillips1993}
+\textsc{{Phillips} M.~M.} 1993, «~{The Absolute Magnitudes of Type IA
+  Supernovae}~»,
+  \href{http://dx.doi.org/10.1086/186970}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/1993ApJ...413L.105P}{413, L105}
+
+\bibitem[{\textsc{{Riess}} {et~al.}(2019)\textsc{{Riess}},
+  \textsc{{Casertano}}, \textsc{{Yuan}}, \textsc{{Macri}} et
+  \textsc{{Scolnic}}}]{riess2019}
+\textsc{{Riess} A.~G.}, \textsc{{Casertano} S.}, \textsc{{Yuan} W.},
+  \textsc{{Macri} L.~M.} et \textsc{{Scolnic} D.} 2019, «~{Large Magellanic
+  Cloud Cepheid Standards Provide a 1\% Foundation for the Determination of the
+  Hubble Constant and Stronger Evidence for Physics beyond
+  {\ensuremath{\Lambda}}CDM}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/ab1422}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...876...85R}{876, 85}
+
+\bibitem[{\textsc{{Riess}} {et~al.}(2016)\textsc{{Riess}}, \textsc{{Macri}},
+  \textsc{{Hoffmann}}, \textsc{{Scolnic}}, \textsc{{Casertano}},
+  \textsc{{Filippenko}}, \textsc{{Tucker}}, \textsc{{Reid}}, \textsc{{Jones}},
+  \textsc{{Silverman}}, \textsc{{Chornock}}, \textsc{{Challis}},
+  \textsc{{Yuan}}, \textsc{{Brown}} et \textsc{{Foley}}}]{riess2016}
+\textsc{{Riess} A.~G.}, \textsc{{Macri} L.~M.}, \textsc{{Hoffmann} S.~L.}
+  {et~al.} 2016, «~{A 2.4\% Determination of the Local Value of the Hubble
+  Constant}~»,
+  \href{http://dx.doi.org/10.3847/0004-637X/826/1/56}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...826...56R}{826, 56}
+
+\bibitem[{\textsc{{Rigault}} {et~al.}(2020)\textsc{{Rigault}},
+  \textsc{{Brinnel}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
+  \textsc{{Aragon}}, \textsc{{Bailey}}, \textsc{{Baltay}}, \textsc{{Barbary}},
+  \textsc{{Bongard}}, \textsc{{Boone}}, \textsc{{Buton}}, \textsc{{Childress}},
+  \textsc{{Chotard}}, \textsc{{Copin}}, \textsc{{Dixon}}, \textsc{{Fagrelius}},
+  \textsc{{Feindt}}, \textsc{{Fouchez}}, \textsc{{Gangler}}, \textsc{{Hayden}},
+  \textsc{{Hillebrandt}}, \textsc{{Howell}}, \textsc{{Kim}},
+  \textsc{{Kowalski}}, \textsc{{Kuesters}}, \textsc{{Leget}},
+  \textsc{{Lombardo}}, \textsc{{Lin}}, \textsc{{Nordin}}, \textsc{{Pain}},
+  \textsc{{Pecontal}}, \textsc{{Pereira}}, \textsc{{Perlmutter}},
+  \textsc{{Rabinowitz}}, \textsc{{Runge}}, \textsc{{Rubin}},
+  \textsc{{Saunders}}, \textsc{{Smadja}}, \textsc{{Sofiatti}},
+  \textsc{{Suzuki}}, \textsc{{Taubenberger}}, \textsc{{Tao}} et
+  \textsc{{Thomas}}}]{rigault2020}
+\textsc{{Rigault} M.}, \textsc{{Brinnel} V.}, \textsc{{Aldering} G.} {et~al.}
+  2020, «~{Strong dependence of Type Ia supernova standardization on the local
+  specific star formation rate}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201730404}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2020A&A...644A.176R}{644, A176}
+
+\bibitem[{\textsc{{Rubin}} {et~al.}(2015)\textsc{{Rubin}}, \textsc{{Aldering}},
+  \textsc{{Barbary}}, \textsc{{Boone}}, \textsc{{Chappell}}, \textsc{{Currie}},
+  \textsc{{Deustua}}, \textsc{{Fagrelius}}, \textsc{{Fruchter}},
+  \textsc{{Hayden}}, \textsc{{Lidman}}, \textsc{{Nordin}},
+  \textsc{{Perlmutter}}, \textsc{{Saunders}}, \textsc{{Sofiatti}} et
+  \textsc{{Supernova Cosmology Project}}}]{rubin2015}
+\textsc{{Rubin} D.}, \textsc{{Aldering} G.}, \textsc{{Barbary} K.} {et~al.}
+  2015, «~{UNITY: Confronting Supernova Cosmology's Statistical and Systematic
+  Uncertainties in a Unified Bayesian Framework}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/813/2/137}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2015ApJ...813..137R}{813, 137}
+
+\bibitem[{\textsc{{Scannapieco}} et
+  \textsc{{Bildsten}}(2005)}]{scannapieco2005}
+\textsc{{Scannapieco} E.} et \textsc{{Bildsten} L.} 2005, «~{The Type Ia
+  Supernova Rate}~»,
+  \href{http://dx.doi.org/10.1086/452632}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2005ApJ...629L..85S}{629, L85}
+
+\bibitem[{\textsc{{Scolnic}} et \textsc{{Kessler}}(2016)}]{scolnic2016}
+\textsc{{Scolnic} D.} et \textsc{{Kessler} R.} 2016, «~{Measuring Type Ia
+  Supernova Populations of Stretch and Color and Predicting Distance
+  Biases}~»,
+  \href{http://dx.doi.org/10.3847/2041-8205/822/2/L35}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...822L..35S}{822, L35}
+
+\bibitem[{\textsc{{Scolnic}} {et~al.}(2018)\textsc{{Scolnic}},
+  \textsc{{Jones}}, \textsc{{Rest}}, \textsc{{Pan}}, \textsc{{Chornock}},
+  \textsc{{Foley}}, \textsc{{Huber}}, \textsc{{Kessler}}, \textsc{{Narayan}},
+  \textsc{{Riess}}, \textsc{{Rodney}}, \textsc{{Berger}}, \textsc{{Brout}},
+  \textsc{{Challis}}, \textsc{{Drout}}, \textsc{{Finkbeiner}},
+  \textsc{{Lunnan}}, \textsc{{Kirshner}}, \textsc{{Sanders}},
+  \textsc{{Schlafly}}, \textsc{{Smartt}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{Wood-Vasey}}, \textsc{{Foley}}, \textsc{{Hand}}, \textsc{{Johnson}},
+  \textsc{{Burgett}}, \textsc{{Chambers}}, \textsc{{Draper}},
+  \textsc{{Hodapp}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Bresolin}},
+  \textsc{{Gall}}, \textsc{{Kotak}}, \textsc{{McCrum}} et
+  \textsc{{Smith}}}]{scolnic2018}
+\textsc{{Scolnic} D.~M.}, \textsc{{Jones} D.~O.}, \textsc{{Rest} A.} {et~al.}
+  2018, «~{The Complete Light-curve Sample of Spectroscopically Confirmed SNe
+  Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon
+  Sample}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
+
+\bibitem[{\textsc{{Shariff}} {et~al.}(2016)\textsc{{Shariff}}, \textsc{{Jiao}},
+  \textsc{{Trotta}} et \textsc{{van Dyk}}}]{shariff2016}
+\textsc{{Shariff} H.}, \textsc{{Jiao} X.}, \textsc{{Trotta} R.} et \textsc{{van
+  Dyk} D.~A.} 2016, «~{BAHAMAS: New Analysis of Type Ia Supernovae Reveals
+  Inconsistencies with Standard Cosmology}~»,
+  \href{http://dx.doi.org/10.3847/0004-637X/827/1/1}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...827....1S}{827, 1}
+
+\bibitem[{\textsc{{Sullivan}} {et~al.}(2006)\textsc{{Sullivan}}, \textsc{{Le
+  Borgne}}, \textsc{{Pritchet}}, \textsc{{Hodsman}}, \textsc{{Neill}},
+  \textsc{{Howell}}, \textsc{{Carlberg}}, \textsc{{Astier}},
+  \textsc{{Aubourg}}, \textsc{{Balam}}, \textsc{{Basa}}, \textsc{{Conley}},
+  \textsc{{Fabbro}}, \textsc{{Fouchez}}, \textsc{{Guy}}, \textsc{{Hook}},
+  \textsc{{Pain}}, \textsc{{Palanque-Delabrouille}}, \textsc{{Perrett}},
+  \textsc{{Regnault}}, \textsc{{Rich}}, \textsc{{Taillet}}, \textsc{{Baumont}},
+  \textsc{{Bronder}}, \textsc{{Ellis}}, \textsc{{Filiol}}, \textsc{{Lusset}},
+  \textsc{{Perlmutter}}, \textsc{{Ripoche}} et \textsc{{Tao}}}]{sullivan2006}
+\textsc{{Sullivan} M.}, \textsc{{Le Borgne} D.}, \textsc{{Pritchet} C.~J.}
+  {et~al.} 2006, «~{Rates and Properties of Type Ia Supernovae as a Function
+  of Mass and Star Formation in Their Host Galaxies}~»,
+  \href{http://dx.doi.org/10.1086/506137}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2006ApJ...648..868S}{648, 868}
+
+\end{thebibliography}
