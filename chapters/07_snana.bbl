@@ -1,0 +1,284 @@
+\begin{thebibliography}{16}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
+  \textsc{{Kessler}}, \textsc{{Guy}}, \textsc{{Mosher}}, \textsc{{Hardin}},
+  \textsc{{Biswas}}, \textsc{{Astier}}, \textsc{{El-Hage}}, \textsc{{Konig}},
+  \textsc{{Kuhlmann}}, \textsc{{Marriner}}, \textsc{{Pain}},
+  \textsc{{Regnault}}, \textsc{{Balland}}, \textsc{{Bassett}},
+  \textsc{{Brown}}, \textsc{{Campbell}}, \textsc{{Carlberg}},
+  \textsc{{Cellier-Holzem}}, \textsc{{Cinabro}}, \textsc{{Conley}},
+  \textsc{{D'Andrea}}, \textsc{{DePoy}}, \textsc{{Doi}}, \textsc{{Ellis}},
+  \textsc{{Fabbro}}, \textsc{{Filippenko}}, \textsc{{Foley}},
+  \textsc{{Frieman}}, \textsc{{Fouchez}}, \textsc{{Galbany}},
+  \textsc{{Goobar}}, \textsc{{Gupta}}, \textsc{{Hill}}, \textsc{{Hlozek}},
+  \textsc{{Hogan}}, \textsc{{Hook}}, \textsc{{Howell}}, \textsc{{Jha}},
+  \textsc{{Le Guillou}}, \textsc{{Leloudas}}, \textsc{{Lidman}},
+  \textsc{{Marshall}}, \textsc{{M{\"o}ller}}, \textsc{{Mour{\~a}o}},
+  \textsc{{Neveu}}, \textsc{{Nichol}}, \textsc{{Olmstead}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Perlmutter}}, \textsc{{Prieto}},
+  \textsc{{Pritchet}}, \textsc{{Richmond}}, \textsc{{Riess}},
+  \textsc{{Ruhlmann-Kleider}}, \textsc{{Sako}}, \textsc{{Schahmaneche}},
+  \textsc{{Schneider}}, \textsc{{Smith}}, \textsc{{Sollerman}},
+  \textsc{{Sullivan}}, \textsc{{Walton}} et \textsc{{Wheeler}}}]{betoule2014}
+\textsc{{Betoule} M.}, \textsc{{Kessler} R.}, \textsc{{Guy} J.} {et~al.} 2014,
+  «~{Improved cosmological constraints from a joint analysis of the SDSS-II
+  and SNLS supernova samples}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201423413}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2014A&A...568A..22B}{568, A22}
+
+\bibitem[{\textsc{{Conley}} {et~al.}(2011)\textsc{{Conley}}, \textsc{{Guy}},
+  \textsc{{Sullivan}}, \textsc{{Regnault}}, \textsc{{Astier}},
+  \textsc{{Balland}}, \textsc{{Basa}}, \textsc{{Carlberg}}, \textsc{{Fouchez}},
+  \textsc{{Hardin}}, \textsc{{Hook}}, \textsc{{Howell}}, \textsc{{Pain}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Perrett}}, \textsc{{Pritchet}},
+  \textsc{{Rich}}, \textsc{{Ruhlmann-Kleider}}, \textsc{{Balam}},
+  \textsc{{Baumont}}, \textsc{{Ellis}}, \textsc{{Fabbro}}, \textsc{{Fakhouri}},
+  \textsc{{Fourmanoit}}, \textsc{{Gonz{\'a}lez-Gait{\'a}n}}, \textsc{{Graham}},
+  \textsc{{Hudson}}, \textsc{{Hsiao}}, \textsc{{Kronborg}}, \textsc{{Lidman}},
+  \textsc{{Mourao}}, \textsc{{Neill}}, \textsc{{Perlmutter}},
+  \textsc{{Ripoche}}, \textsc{{Suzuki}} et \textsc{{Walker}}}]{conley2011}
+\textsc{{Conley} A.}, \textsc{{Guy} J.}, \textsc{{Sullivan} M.} {et~al.} 2011,
+  «~{Supernova Constraints and Systematic Uncertainties from the First Three
+  Years of the Supernova Legacy Survey}~»,
+  \href{http://dx.doi.org/10.1088/0067-0049/192/1/1}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2011ApJS..192....1C}{192, 1}
+
+\bibitem[{\textsc{{Guy}} {et~al.}(2007)\textsc{{Guy}}, \textsc{{Astier}},
+  \textsc{{Baumont}}, \textsc{{Hardin}}, \textsc{{Pain}}, \textsc{{Regnault}},
+  \textsc{{Basa}}, \textsc{{Fouchez}}, \textsc{{Hook}}, \textsc{{Howell}},
+  \textsc{{Perrett}}, \textsc{{Pritchet}}, \textsc{{Rich}},
+  \textsc{{Sullivan}}, \textsc{{Antilogus}}, \textsc{{Aubourg}},
+  \textsc{{Bazin}}, \textsc{{Bronder}}, \textsc{{Filiol}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Ripoche}} et
+  \textsc{{Ruhlmann-Kleider}}}]{guy2007}
+\textsc{{Guy} J.}, \textsc{{Astier} P.}, \textsc{{Baumont} S.} {et~al.} 2007,
+  «~{SALT2: using distant supernovae to improve the use of type Ia supernovae
+  as distance indicators}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361:20066930}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2007A&A...466...11G}{466, 11}
+
+\bibitem[{\textsc{{Guy}} {et~al.}(2010)\textsc{{Guy}}, \textsc{{Sullivan}},
+  \textsc{{Conley}}, \textsc{{Regnault}}, \textsc{{Astier}},
+  \textsc{{Balland}}, \textsc{{Basa}}, \textsc{{Carlberg}}, \textsc{{Fouchez}},
+  \textsc{{Hardin}}, \textsc{{Hook}}, \textsc{{Howell}}, \textsc{{Pain}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Perrett}}, \textsc{{Pritchet}},
+  \textsc{{Rich}}, \textsc{{Ruhlmann-Kleider}}, \textsc{{Balam}},
+  \textsc{{Baumont}}, \textsc{{Ellis}}, \textsc{{Fabbro}}, \textsc{{Fakhouri}},
+  \textsc{{Fourmanoit}}, \textsc{{Gonz{\'a}lez-Gait{\'a}n}}, \textsc{{Graham}},
+  \textsc{{Hsiao}}, \textsc{{Kronborg}}, \textsc{{Lidman}}, \textsc{{Mourao}},
+  \textsc{{Perlmutter}}, \textsc{{Ripoche}}, \textsc{{Suzuki}} et
+  \textsc{{Walker}}}]{guy2010}
+\textsc{{Guy} J.}, \textsc{{Sullivan} M.}, \textsc{{Conley} A.} {et~al.} 2010,
+  «~{The Supernova Legacy Survey 3-year sample: Type Ia supernovae photometric
+  distances and cosmological constraints}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201014468}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2010A&A...523A...7G}{523, A7}
+
+\bibitem[{\textsc{{Kessler}} {et~al.}(2009{\natexlab{a}})\textsc{{Kessler}},
+  \textsc{{Becker}}, \textsc{{Cinabro}}, \textsc{{Vanderplas}},
+  \textsc{{Frieman}}, \textsc{{Marriner}}, \textsc{{Davis}}, \textsc{{Dilday}},
+  \textsc{{Holtzman}}, \textsc{{Jha}}, \textsc{{Lampeitl}}, \textsc{{Sako}},
+  \textsc{{Smith}}, \textsc{{Zheng}}, \textsc{{Nichol}}, \textsc{{Bassett}},
+  \textsc{{Bender}}, \textsc{{Depoy}}, \textsc{{Doi}}, \textsc{{Elson}},
+  \textsc{{Filippenko}}, \textsc{{Foley}}, \textsc{{Garnavich}},
+  \textsc{{Hopp}}, \textsc{{Ihara}}, \textsc{{Ketzeback}},
+  \textsc{{Kollatschny}}, \textsc{{Konishi}}, \textsc{{Marshall}},
+  \textsc{{McMillan}}, \textsc{{Miknaitis}}, \textsc{{Morokuma}},
+  \textsc{{M{\"o}rtsell}}, \textsc{{Pan}}, \textsc{{Prieto}},
+  \textsc{{Richmond}}, \textsc{{Riess}}, \textsc{{Romani}},
+  \textsc{{Schneider}}, \textsc{{Sollerman}}, \textsc{{Takanashi}},
+  \textsc{{Tokita}}, \textsc{{van der Heyden}}, \textsc{{Wheeler}},
+  \textsc{{Yasuda}} et \textsc{{York}}}]{kessler2009b}
+\textsc{{Kessler} R.}, \textsc{{Becker} A.~C.}, \textsc{{Cinabro} D.} {et~al.}
+  2009{\natexlab{a}}, «~{First-Year Sloan Digital Sky Survey-II Supernova
+  Results: Hubble Diagram and Cosmological Parameters}~»,
+  \href{http://dx.doi.org/10.1088/0067-0049/185/1/32}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2009ApJS..185...32K}{185, 32}
+
+\bibitem[{\textsc{{Kessler}} {et~al.}(2009{\natexlab{b}})\textsc{{Kessler}},
+  \textsc{{Bernstein}}, \textsc{{Cinabro}}, \textsc{{Dilday}},
+  \textsc{{Frieman}}, \textsc{{Jha}}, \textsc{{Kuhlmann}},
+  \textsc{{Miknaitis}}, \textsc{{Sako}}, \textsc{{Taylor}} et
+  \textsc{{Vanderplas}}}]{kessler2009a}
+\textsc{{Kessler} R.}, \textsc{{Bernstein} J.~P.}, \textsc{{Cinabro} D.}
+  {et~al.} 2009{\natexlab{b}}, «~{SNANA: A Public Software Package for
+  Supernova Analysis}~»,
+  \href{http://dx.doi.org/10.1086/605984}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2009PASP..121.1028K}{121, 1028}
+
+\bibitem[{\textsc{{Kessler}} {et~al.}(2019)\textsc{{Kessler}},
+  \textsc{{Brout}}, \textsc{{D'Andrea}}, \textsc{{Davis}}, \textsc{{Hinton}},
+  \textsc{{Kim}}, \textsc{{Lasker}}, \textsc{{Lidman}}, \textsc{{Macaulay}},
+  \textsc{{M{\"o}ller}}, \textsc{{Sako}}, \textsc{{Scolnic}}, \textsc{{Smith}},
+  \textsc{{Sullivan}}, \textsc{{Zhang}}, \textsc{{Andersen}},
+  \textsc{{Asorey}}, \textsc{{Avelino}}, \textsc{{Calcino}},
+  \textsc{{Carollo}}, \textsc{{Challis}}, \textsc{{Childress}},
+  \textsc{{Clocchiatti}}, \textsc{{Crawford}}, \textsc{{Filippenko}},
+  \textsc{{Foley}}, \textsc{{Glazebrook}}, \textsc{{Hoormann}},
+  \textsc{{Kasai}}, \textsc{{Kirshner}}, \textsc{{Lewis}}, \textsc{{Mandel}},
+  \textsc{{March}}, \textsc{{Morganson}}, \textsc{{Muthukrishna}},
+  \textsc{{Nugent}}, \textsc{{Pan}}, \textsc{{Sommer}}, \textsc{{Swann}},
+  \textsc{{Thomas}}, \textsc{{Tucker}}, \textsc{{Uddin}}, \textsc{{Abbott}},
+  \textsc{{Allam}}, \textsc{{Annis}}, \textsc{{Avila}}, \textsc{{Banerji}},
+  \textsc{{Bechtol}}, \textsc{{Bertin}}, \textsc{{Brooks}},
+  \textsc{{Buckley-Geer}}, \textsc{{Burke}}, \textsc{{Carnero Rosell}},
+  \textsc{{Carrasco Kind}}, \textsc{{Carretero}}, \textsc{{Castander}},
+  \textsc{{Crocce}}, \textsc{{da Costa}}, \textsc{{Davis}}, \textsc{{De
+  Vicente}}, \textsc{{Desai}}, \textsc{{Diehl}}, \textsc{{Doel}},
+  \textsc{{Eifler}}, \textsc{{Flaugher}}, \textsc{{Fosalba}},
+  \textsc{{Frieman}}, \textsc{{Garc{\'\i}a-Bellido}}, \textsc{{Gaztanaga}},
+  \textsc{{Gerdes}}, \textsc{{Gruen}}, \textsc{{Gruendl}},
+  \textsc{{Gutierrez}}, \textsc{{Hartley}}, \textsc{{Hollowood}},
+  \textsc{{Honscheid}}, \textsc{{James}}, \textsc{{Johnson}},
+  \textsc{{Johnson}}, \textsc{{Krause}}, \textsc{{Kuehn}},
+  \textsc{{Kuropatkin}}, \textsc{{Lahav}}, \textsc{{Li}}, \textsc{{Lima}},
+  \textsc{{Marshall}}, \textsc{{Martini}}, \textsc{{Menanteau}},
+  \textsc{{Miller}}, \textsc{{Miquel}}, \textsc{{Nord}}, \textsc{{Plazas}},
+  \textsc{{Roodman}}, \textsc{{Sanchez}}, \textsc{{Scarpine}},
+  \textsc{{Schindler}}, \textsc{{Schubnell}}, \textsc{{Serrano}},
+  \textsc{{Sevilla-Noarbe}}, \textsc{{Soares-Santos}}, \textsc{{Sobreira}},
+  \textsc{{Suchyta}}, \textsc{{Tarle}}, \textsc{{Thomas}}, \textsc{{Walker}},
+  \textsc{{Zhang}} et \textsc{{DES Collaboration}}}]{kessler2019}
+\textsc{{Kessler} R.}, \textsc{{Brout} D.}, \textsc{{D'Andrea} C.~B.} {et~al.}
+  2019, «~{First cosmology results using Type Ia supernova from the Dark
+  Energy Survey: simulations to correct supernova distance biases}~»,
+  \href{http://dx.doi.org/10.1093/mnras/stz463}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.1171K}{485, 1171}
+
+\bibitem[{\textsc{{Kessler}} {et~al.}(2013)\textsc{{Kessler}}, \textsc{{Guy}},
+  \textsc{{Marriner}}, \textsc{{Betoule}}, \textsc{{Brinkmann}},
+  \textsc{{Cinabro}}, \textsc{{El-Hage}}, \textsc{{Frieman}}, \textsc{{Jha}},
+  \textsc{{Mosher}} et \textsc{{Schneider}}}]{kessler2013}
+\textsc{{Kessler} R.}, \textsc{{Guy} J.}, \textsc{{Marriner} J.} {et~al.} 2013,
+  «~{Testing Models of Intrinsic Brightness Variations in Type Ia Supernovae
+  and Their Impact on Measuring Cosmological Parameters}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/764/1/48}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2013ApJ...764...48K}{764, 48}
+
+\bibitem[{\textsc{{Kessler}} et \textsc{{Scolnic}}(2017)}]{kessler2017}
+\textsc{{Kessler} R.} et \textsc{{Scolnic} D.} 2017, «~{Correcting Type Ia
+  Supernova Distances for Selection Biases and Contamination in Photometrically
+  Identified Samples}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/836/1/56}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...836...56K}{836, 56}
+
+\bibitem[{\textsc{{Kunz}} {et~al.}(2007)\textsc{{Kunz}}, \textsc{{Bassett}} et
+  \textsc{{Hlozek}}}]{kunz2007}
+\textsc{{Kunz} M.}, \textsc{{Bassett} B.~A.} et \textsc{{Hlozek} R.~A.} 2007,
+  «~{Bayesian estimation applied to multiple species}~»,
+  \href{http://dx.doi.org/10.1103/PhysRevD.75.103508}{\color{magenta}\prd},
+  \href{https://ui.adsabs.harvard.edu/abs/2007PhRvD..75j3508K}{75, 103508}
+
+\bibitem[{\textsc{{Marriner}} {et~al.}(2011)\textsc{{Marriner}},
+  \textsc{{Bernstein}}, \textsc{{Kessler}}, \textsc{{Lampeitl}},
+  \textsc{{Miquel}}, \textsc{{Mosher}}, \textsc{{Nichol}}, \textsc{{Sako}},
+  \textsc{{Schneider}} et \textsc{{Smith}}}]{marriner2011}
+\textsc{{Marriner} J.}, \textsc{{Bernstein} J.~P.}, \textsc{{Kessler} R.}
+  {et~al.} 2011, «~{A More General Model for the Intrinsic Scatter in Type Ia
+  Supernova Distance Moduli}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/740/2/72}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2011ApJ...740...72M}{740, 72}
+
+\bibitem[{\textsc{{Perrett}} {et~al.}(2012)\textsc{{Perrett}},
+  \textsc{{Sullivan}}, \textsc{{Conley}}, \textsc{{Gonz{\'a}lez-Gait{\'a}n}},
+  \textsc{{Carlberg}}, \textsc{{Fouchez}}, \textsc{{Ripoche}},
+  \textsc{{Neill}}, \textsc{{Astier}}, \textsc{{Balam}}, \textsc{{Balland}},
+  \textsc{{Basa}}, \textsc{{Guy}}, \textsc{{Hardin}}, \textsc{{Hook}},
+  \textsc{{Howell}}, \textsc{{Pain}}, \textsc{{Palanque-Delabrouille}},
+  \textsc{{Pritchet}}, \textsc{{Regnault}}, \textsc{{Rich}},
+  \textsc{{Ruhlmann-Kleider}}, \textsc{{Baumont}}, \textsc{{Lidman}},
+  \textsc{{Perlmutter}} et \textsc{{Walker}}}]{perrett2012}
+\textsc{{Perrett} K.}, \textsc{{Sullivan} M.}, \textsc{{Conley} A.} {et~al.}
+  2012, «~{Evolution in the Volumetric Type Ia Supernova Rate from the
+  Supernova Legacy Survey}~»,
+  \href{http://dx.doi.org/10.1088/0004-6256/144/2/59}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/2012AJ....144...59P}{144, 59}
+
+\bibitem[{\textsc{{Popovic}} {et~al.}(2021)\textsc{{Popovic}},
+  \textsc{{Brout}}, \textsc{{Kessler}}, \textsc{{Scolnic}} et
+  \textsc{{Lu}}}]{popovic2021a}
+\textsc{{Popovic} B.}, \textsc{{Brout} D.}, \textsc{{Kessler} R.},
+  \textsc{{Scolnic} D.} et \textsc{{Lu} L.} 2021, «~{Improved Treatment of
+  Host-galaxy Correlations in Cosmological Analyses with Type Ia
+  Supernovae}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/abf14f}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2021ApJ...913...49P}{913, 49}
+
+\bibitem[{\textsc{{Sako}} {et~al.}(2018)\textsc{{Sako}}, \textsc{{Bassett}},
+  \textsc{{Becker}}, \textsc{{Brown}}, \textsc{{Campbell}}, \textsc{{Wolf}},
+  \textsc{{Cinabro}}, \textsc{{D'Andrea}}, \textsc{{Dawson}},
+  \textsc{{DeJongh}}, \textsc{{Depoy}}, \textsc{{Dilday}}, \textsc{{Doi}},
+  \textsc{{Filippenko}}, \textsc{{Fischer}}, \textsc{{Foley}},
+  \textsc{{Frieman}}, \textsc{{Galbany}}, \textsc{{Garnavich}},
+  \textsc{{Goobar}}, \textsc{{Gupta}}, \textsc{{Hill}}, \textsc{{Hayden}},
+  \textsc{{Hlozek}}, \textsc{{Holtzman}}, \textsc{{Hopp}}, \textsc{{Jha}},
+  \textsc{{Kessler}}, \textsc{{Kollatschny}}, \textsc{{Leloudas}},
+  \textsc{{Marriner}}, \textsc{{Marshall}}, \textsc{{Miquel}},
+  \textsc{{Morokuma}}, \textsc{{Mosher}}, \textsc{{Nichol}}, \textsc{{Nordin}},
+  \textsc{{Olmstead}}, \textsc{{{\"O}stman}}, \textsc{{Prieto}},
+  \textsc{{Richmond}}, \textsc{{Romani}}, \textsc{{Sollerman}},
+  \textsc{{Stritzinger}}, \textsc{{Schneider}}, \textsc{{Smith}},
+  \textsc{{Wheeler}}, \textsc{{Yasuda}} et \textsc{{Zheng}}}]{sako2018}
+\textsc{{Sako} M.}, \textsc{{Bassett} B.}, \textsc{{Becker} A.~C.} {et~al.}
+  2018, «~{The Data Release of the Sloan Digital Sky Survey-II Supernova
+  Survey}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/aab4e0}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2018PASP..130f4002S}{130, 064002}
+
+\bibitem[{\textsc{{Scolnic}} {et~al.}(2018)\textsc{{Scolnic}},
+  \textsc{{Jones}}, \textsc{{Rest}}, \textsc{{Pan}}, \textsc{{Chornock}},
+  \textsc{{Foley}}, \textsc{{Huber}}, \textsc{{Kessler}}, \textsc{{Narayan}},
+  \textsc{{Riess}}, \textsc{{Rodney}}, \textsc{{Berger}}, \textsc{{Brout}},
+  \textsc{{Challis}}, \textsc{{Drout}}, \textsc{{Finkbeiner}},
+  \textsc{{Lunnan}}, \textsc{{Kirshner}}, \textsc{{Sanders}},
+  \textsc{{Schlafly}}, \textsc{{Smartt}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{Wood-Vasey}}, \textsc{{Foley}}, \textsc{{Hand}}, \textsc{{Johnson}},
+  \textsc{{Burgett}}, \textsc{{Chambers}}, \textsc{{Draper}},
+  \textsc{{Hodapp}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Bresolin}},
+  \textsc{{Gall}}, \textsc{{Kotak}}, \textsc{{McCrum}} et
+  \textsc{{Smith}}}]{scolnic2018}
+\textsc{{Scolnic} D.~M.}, \textsc{{Jones} D.~O.}, \textsc{{Rest} A.} {et~al.}
+  2018, «~{The Complete Light-curve Sample of Spectroscopically Confirmed SNe
+  Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon
+  Sample}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
+
+\bibitem[{\textsc{{Smith}} {et~al.}(2020)\textsc{{Smith}}, \textsc{{Sullivan}},
+  \textsc{{Wiseman}}, \textsc{{Kessler}}, \textsc{{Scolnic}}, \textsc{{Brout}},
+  \textsc{{D'Andrea}}, \textsc{{Davis}}, \textsc{{Foley}},
+  \textsc{{Frohmaier}}, \textsc{{Galbany}}, \textsc{{Gupta}},
+  \textsc{{Guti{\'e}rrez}}, \textsc{{Hinton}}, \textsc{{Kelsey}},
+  \textsc{{Lidman}}, \textsc{{Macaulay}}, \textsc{{M{\"o}ller}},
+  \textsc{{Nichol}}, \textsc{{Nugent}}, \textsc{{Palmese}},
+  \textsc{{Pursiainen}}, \textsc{{Sako}}, \textsc{{Swann}}, \textsc{{Thomas}},
+  \textsc{{Tucker}}, \textsc{{Vincenzi}}, \textsc{{Carollo}}, \textsc{{Lewis}},
+  \textsc{{Sommer}}, \textsc{{Abbott}}, \textsc{{Aguena}}, \textsc{{Allam}},
+  \textsc{{Avila}}, \textsc{{Bertin}}, \textsc{{Bhargava}}, \textsc{{Brooks}},
+  \textsc{{Buckley-Geer}}, \textsc{{Burke}}, \textsc{{Carnero Rosell}},
+  \textsc{{Carrasco Kind}}, \textsc{{Costanzi}}, \textsc{{da Costa}},
+  \textsc{{De Vicente}}, \textsc{{Desai}}, \textsc{{Diehl}}, \textsc{{Doel}},
+  \textsc{{Eifler}}, \textsc{{Everett}}, \textsc{{Flaugher}},
+  \textsc{{Fosalba}}, \textsc{{Frieman}}, \textsc{{Garc{\'\i}a-Bellido}},
+  \textsc{{Gaztanaga}}, \textsc{{Glazebrook}}, \textsc{{Gruen}},
+  \textsc{{Gruendl}}, \textsc{{Gschwend}}, \textsc{{Gutierrez}},
+  \textsc{{Hartley}}, \textsc{{Hollowood}}, \textsc{{Honscheid}},
+  \textsc{{James}}, \textsc{{Krause}}, \textsc{{Kuehn}}, \textsc{{Kuropatkin}},
+  \textsc{{Lima}}, \textsc{{MacCrann}}, \textsc{{Maia}}, \textsc{{Marshall}},
+  \textsc{{Martini}}, \textsc{{Melchior}}, \textsc{{Menanteau}},
+  \textsc{{Miquel}}, \textsc{{Paz-Chinch{\'o}n}}, \textsc{{Plazas}},
+  \textsc{{Romer}}, \textsc{{Roodman}}, \textsc{{Rykoff}}, \textsc{{Sanchez}},
+  \textsc{{Scarpine}}, \textsc{{Schubnell}}, \textsc{{Serrano}},
+  \textsc{{Sevilla-Noarbe}}, \textsc{{Suchyta}}, \textsc{{Swanson}},
+  \textsc{{Tarle}}, \textsc{{Thomas}}, \textsc{{Tucker}}, \textsc{{Varga}},
+  \textsc{{Walker}} et \textsc{{DES Collaboration}}}]{smith2020}
+\textsc{{Smith} M.}, \textsc{{Sullivan} M.}, \textsc{{Wiseman} P.} {et~al.}
+  2020, «~{First cosmology results using type Ia supernovae from the Dark
+  Energy Survey: the effect of host galaxy properties on supernova
+  luminosity}~»,
+  \href{http://dx.doi.org/10.1093/mnras/staa946}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.4426S}{494, 4426}
+
+\end{thebibliography}

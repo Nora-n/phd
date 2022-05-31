@@ -8,14 +8,14 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Pr\'esentation des sondages}{9}{chapter.4}
 \contentsline {table}{\numberline {IV.1}{\ignorespaces Crit\IeC {\`e}res de s\IeC {\'e}lection des SNe~Ia suivies par SNfactory.\relax }}{13}{table.caption.10}
-\contentsline {table}{\numberline {IV.2}{\ignorespaces Crit\IeC {\`e}res de s\IeC {\'e}lection des SNe~Ia suivies par PS1.\relax }}{18}{table.caption.16}
+\contentsline {table}{\numberline {IV.2}{\ignorespaces Crit\IeC {\`e}res de s\IeC {\'e}lection des SNe~Ia suivies par PS1.\relax }}{19}{table.caption.16}
 \contentsline {table}{\numberline {IV.3}{\ignorespaces Nombre de SNe~Ia de notre \IeC {\'e}chantillon HST selon la source}}{23}{table.caption.22}
 \contentsline {table}{\numberline {IV.4}{\ignorespaces Comparaison des caract\IeC {\'e}ristiques des sondages utilis\IeC {\'e}s.\relax }}{28}{table.caption.29}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Cr\'eation d'un \'echantillon complet}{31}{chapter.5}
 \contentsline {table}{\numberline {V.1}{\ignorespaces Valeur des param\IeC {\`e}tres cosmologiques utilis\IeC {\'e}s pour la d\IeC {\'e}termination statistique du redshift limite des sondages SDSS, SNLS et PS1.\relax }}{35}{table.caption.31}
 \contentsline {table}{\numberline {V.2}{\ignorespaces Composition en SNe~Ia de notre \IeC {\'e}chantillon.\relax }}{40}{table.caption.39}
-\contentsline {table}{\numberline {V.3}{\ignorespaces Composition en SNe~Ia pour notre \IeC {\'e}chantillon ZTF.\relax }}{44}{table.caption.44}
+\contentsline {table}{\numberline {V.3}{\ignorespaces Composition en SNe~Ia pour notre \IeC {\'e}chantillon ZTF.\relax }}{45}{table.caption.44}
 \addvspace {10\p@ }
 \contentsline {xchapter}{\'Evolution avec le redshift}{49}{chapter.6}
 \contentsline {table}{\numberline {VI.1}{\ignorespaces Valeurs des param\IeC {\`e}tres du mod\IeC {\`e}le d'\IeC {\'e}tirement de base selon l'\IeC {\'e}chantillon}}{51}{table.caption.48}
@@ -24,9 +24,13 @@
 \contentsline {table}{\numberline {VI.4}{\ignorespaces Comparaison de la capacit\IeC {\'e} relative de chaque mod\IeC {\`e}le \IeC {\`a} d\IeC {\'e}crire les donn\IeC {\'e}es par rapport au mod\IeC {\`e}le de r\IeC {\'e}f\IeC {\'e}rence sans utiliser le LsSFR}}{58}{table.caption.57}
 \contentsline {table}{\numberline {VI.5}{\ignorespaces Valeurs des param\IeC {\`e}tres du mod\IeC {\`e}le d'\IeC {\'e}tirement de base selon l'\IeC {\'e}chantillon avec les donn\IeC {\'e}es de ZTF}}{64}{table.caption.64}
 \contentsline {table}{\numberline {VI.6}{\ignorespaces Comparaison de la capacit\IeC {\'e} relative de chaque mod\IeC {\`e}le \IeC {\`a} d\IeC {\'e}crire les donn\IeC {\'e}es par rapport au mod\IeC {\`e}le de base avec les donn\IeC {\'e}es de ZTF}}{66}{table.caption.68}
-\contentsline {table}{\numberline {VI.7}{\ignorespaces Capacit\IeC {\'e} des mod\IeC {\`e}les N21 et N21+ZTF \IeC {\`a} repr\IeC {\'e}senter les donn\IeC {\'e}es}}{68}{table.caption.71}
+\contentsline {table}{\numberline {VI.7}{\ignorespaces Capacit\IeC {\'e} des mod\IeC {\`e}les N21 et N21+ZTF \IeC {\`a} repr\IeC {\'e}senter les donn\IeC {\'e}es}}{67}{table.caption.71}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Impact sur la cosmologie~: simulations}{71}{chapter.7}
+\contentsline {xchapter}{Impact sur la cosmologie~: simulations}{73}{chapter.7}
+\contentsline {table}{\numberline {VII.1}{\ignorespaces Comparison of the relative ability of each model to describe the data. For each considered model, we report whether the model is drifting, its number of free parameters, $-2\ln (L)$ (see Eq.~\ref {eq:likelihood}), the AIC and the AIC difference ($\Delta $AIC) between this model and the base model used as reference because it has the lowest AIC.\relax }}{81}{table.caption.79}
+\contentsline {table}{\numberline {VII.2}{\ignorespaces Best-fit values of the parameters for the mass distribution model when applied to the SNfactory dataset only (114 SNe~Ia).\relax }}{81}{table.caption.80}
+\contentsline {table}{\numberline {VII.3}{\ignorespaces Number of data in Pantheon and relative ratio with respect to the smallest sample, LOWZ\relax }}{84}{table.caption.82}
+\contentsline {table}{\numberline {VII.4}{\ignorespaces Comparison of the relative ability of each HOSTLIB implementation to describe the data. For each HOSTLIB a 2D KDE is computed from the simulated data and used to determine said $\chi ^2$.\relax }}{85}{table.caption.84}
 \addvspace {10\p@ }
-\contentsline {xchapter}{R\IeC {\'e}sultats et discussion}{73}{chapter.8}
+\contentsline {xchapter}{R\IeC {\'e}sultats et discussion}{95}{chapter.8}
 \contentsfinish 

@@ -1,0 +1,110 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+\usepackage{MnSymbol}
+
+\begin{document}
+\thispagestyle{empty}
+\def\mdepth{1.1em}
+\begin{tikzpicture}[]
+    \matrix[cust matrix,xshift=3*\mdepth,yshift=3*\mdepth](matz){
+        $\delta_p^{\text{\tiny C,1,Z}}$   & $\delta_p^{\text{\tiny C,2,Z}}$
+                                          & $\delta_p^{\text{\tiny C,3,Z}}$
+                                          &
+                                          & $\delta_p^{\text{\tiny C,X,Z}}$
+                                          \\
+        \vdots                            &                                
+                                          &                                
+                                          & $\udots$
+                                          &
+                                          \\
+        $\delta_p^{\text{\tiny 3,1,Z}}$   & $\delta_p^{\text{\tiny 3,2,Z}}$
+                                          & $\delta_p^{\text{\tiny 3,3,Z}}$
+                                          &
+                                          & $\delta_p^{\text{\tiny 3,X,Z}}$
+                                          \\
+        $\delta_p^{\text{\tiny 2,1,Z}}$   & $\delta_p^{\text{\tiny 2,2,Z}}$
+                                          & $\delta_p^{\text{\tiny 2,3,Z}}$
+                                          &
+                                          & $\delta_p^{\text{\tiny 2,X,Z}}$
+                                          \\
+        $\delta_p^{\text{\tiny 1,1,Z}}$   & $\delta_p^{\text{\tiny 1,2,Z}}$
+                                          & $\delta_p^{\text{\tiny 1,3,Z}}$
+                                          & $\cdots$
+                                          & $\delta_p^{\text{\tiny 1,X,Z}}$
+                                          \\
+    };
+    \matrix[cust matrix,xshift=2*\mdepth,yshift=2*\mdepth](maty){
+        $\udots$  & $\udots$ & $\udots$ & $\udots$ & $\udots$ \\
+                  &          &          &          & $\udots$ \\
+                  &          &          &          & $\udots$ \\
+                  &          &          &          & $\udots$ \\
+                  &          &          &          & $\udots$ \\
+    };
+    \matrix[cust matrix,xshift=\mdepth,yshift=\mdepth](maty){
+        $\delta_p^{\text{\tiny C,1,2}}$   & $\delta_p^{\text{\tiny C,2,2}}$
+                                          & $\delta_p^{\text{\tiny C,3,2}}$
+                                          &
+                                          & $\delta_p^{\text{\tiny C,X,2}}$
+                                          \\
+        \vdots                            &                                
+                                          &                                
+                                          & $\udots$
+                                          &
+                                          \\
+        $\delta_p^{\text{\tiny 3,1,2}}$   & $\delta_p^{\text{\tiny 3,2,2}}$
+                                          & $\delta_p^{\text{\tiny 3,3,2}}$
+                                          &
+                                          & $\delta_p^{\text{\tiny 3,X,2}}$
+                                          \\
+        $\delta_p^{\text{\tiny 2,1,2}}$   & $\delta_p^{\text{\tiny 2,2,2}}$
+                                          & $\delta_p^{\text{\tiny 2,3,2}}$
+                                          &
+                                          & $\delta_p^{\text{\tiny 2,X,2}}$
+                                          \\
+        $\delta_p^{\text{\tiny 1,1,2}}$   & $\delta_p^{\text{\tiny 1,2,2}}$
+                                          & $\delta_p^{\text{\tiny 1,3,2}}$
+                                          & $\cdots$
+                                          & $\delta_p^{\text{\tiny 1,X,2}}$
+                                          \\
+    };
+    \matrix[cust matrix](matx){
+        $\delta_p^{\text{\tiny C,1,1}}$   & $\delta_p^{\text{\tiny C,2,1}}$
+                                          & $\delta_p^{\text{\tiny C,3,1}}$
+                                          &
+                                          & $\delta_p^{\text{\tiny C,X,1}}$
+                                          \\
+        \vdots                            &                                
+                                          &                                
+                                          & $\udots$
+                                          &
+                                          \\
+        $\delta_p^{\text{\tiny 3,1,1}}$   & $\delta_p^{\text{\tiny 3,2,1}}$
+                                          & $\delta_p^{\text{\tiny 3,3,1}}$
+                                          &
+                                          & $\delta_p^{\text{\tiny 3,X,1}}$
+                                          \\
+        $\delta_p^{\text{\tiny 2,1,1}}$   & $\delta_p^{\text{\tiny 2,2,1}}$
+                                          & $\delta_p^{\text{\tiny 2,3,1}}$
+                                          &
+                                          & $\delta_p^{\text{\tiny 2,X,1}}$
+                                          \\
+        $\delta_p^{\text{\tiny 1,1,1}}$   & $\delta_p^{\text{\tiny 1,2,1}}$
+                                          & $\delta_p^{\text{\tiny 1,3,1}}$
+                                          & $\cdots$
+                                          & $\delta_p^{\text{\tiny 1,X,1}}$
+                                          \\
+    };
+    \draw[thick, -stealth]
+        ([xshift=1ex]matx.south east) --
+        ([xshift=1ex]matz.south east)
+        node[midway, below] {$z$};
+    \draw[thick, -stealth]
+        ([yshift=-1ex]matx.south west) --
+        ([yshift=-1ex]matx.south east)
+        node[midway, below] {$x_1$};
+    \draw[thick, -stealth]
+        ([xshift=-1ex]matx.south west) --
+        ([xshift=-1ex]matx.north west)
+        node[midway, above, rotate=90] {$c$};
+\end{tikzpicture}
+\end{document}

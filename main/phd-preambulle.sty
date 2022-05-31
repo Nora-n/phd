@@ -32,6 +32,9 @@
 \setlength{\headheight}{28pt}
 % Make sure empty pages between chapters don't have a ruler
 \RequirePackage{emptypage}
+% Float pages empty
+\RequirePackage{floatpag} 
+\floatpagestyle{fancy}
 
 % For \cancel and \bcancel functions
 \RequirePackage{cancel}
@@ -51,10 +54,20 @@
 \graphicspath{{./figures/}{../figures/}}
 % Figures next to text
 \RequirePackage{wrapfig}
+% Caption right of figure
 \RequirePackage[rightcaption]{sidecap}
 \sidecaptionvpos{figure}{t}
 \RequirePackage[labelfont=bf, font=small]{caption}
+% For subfigures
 \RequirePackage{subcaption}
+% To have \footnotes at bottom of page when called inside subfigures
+% Needs LaTeX 2020 and plus, https://tex.stackexchange.com/a/414191
+% \AddToHook{env/figure/begin}{%
+%   \DeclareRobustCommand\footnote[1]{%
+%     \footnotemark
+%     \expanded{\AddToHookNext{env/figure/after}%
+%       {\noexpand\setcounter{footnote}{\thefootnote}%
+%        \noexpand\footnotetext\unexpanded{{#1}}}}}}
 % Useful to center wide tables or figures
 \makeatletter
 \newcommand*{\centerfloat}{%
@@ -94,7 +107,7 @@
     pdfauthor={Nora NICOLAS},
     pdfsubject={Manuscrit de th\`ese pour l'obtention du dipl\^ome de doctorat},
     pdfkeywords={cosmology, phd, supernovae},
-    linktoc=page,           % Titre et page
+    linktoc=page,           % Titre pas clicable mais page si
     backref=section,        % Add link to go back to section
     colorlinks=true,        % false: boxed links; true: colored links
     linkcolor=dgreen,       % color of internal links
@@ -103,6 +116,7 @@
     pdfencoding=auto,       % http://tex.stackexchange.com/questions/119079
     psdextra=true,          % for '$' in title
     pdfstartview=FitV,      % open fitting view as default
+    hyperfootnotes=true,   % Make the footnote marks into hyperlink to text
     hyperindex=true,
     hyperfigures=false]{hyperref}
 % Add an upward arrow next to backref,
@@ -113,7 +127,12 @@
 % \RequirePackage{cleveref}
 
 % Reinitialise footnote number each page
-\RequirePackage[perpage]{footmisc}
+% \RequirePackage[perchapter]{footmisc}
+% Allow referencing to prevous footnote even if mark not a number
+% https://tex.stackexchange.com/a/35044
+\makeatletter
+\newcommand\footnoteref[1]{\protected@xdef\@thefnmark{\ref{#1}}\@footnotemark}
+\makeatother
 
 % Colors
 \RequirePackage[svgnames, dvipsnames, table]{xcolor}
@@ -193,8 +212,11 @@
 % Math in section names
 \RequirePackage{bookmark} % http://tex.stackexchange.com/questions/119079
 
-% All other packages
+% Include code, but there might be a better package
 \RequirePackage{listings}
+% Include verbatim in text
+\RequirePackage{fancyvrb}
+% To customize it see for instance https://tex.stackexchange.com/a/85218
 
 % Profondeur des sections dans la table of contents
 \setcounter{tocdepth}{3}

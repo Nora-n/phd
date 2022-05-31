@@ -2,49 +2,57 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: ../main/aa_url.bst
+Illegal, another \bibstyle command---line 1120 of file main.aux
+ : \bibstyle
+ :          {../main/aa_url}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 1121 of file main.aux
+ : \bibdata
+ :         {../chapters/99_references}
+I'm skipping whatever remains of this command
 Database file #1: ../chapters/99_references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in calzetti2013
-You've used 93 entries,
+You've used 99 entries,
             3173 wiz_defined-function locations,
-            1459 strings with 90060 characters,
-and the built_in function-call counts, 204337 in all, are:
-= -- 12724
-> -- 29283
-< -- 26
-+ -- 9812
-- -- 9717
-* -- 32352
-:= -- 34557
-add.period$ -- 93
-call.type$ -- 93
-change.case$ -- 3606
-chr.to.int$ -- 97
-cite$ -- 94
-duplicate$ -- 2057
-empty$ -- 3115
-format.name$ -- 9924
-if$ -- 35724
+            1504 strings with 96267 characters,
+and the built_in function-call counts, 220025 in all, are:
+= -- 13688
+> -- 31588
+< -- 27
++ -- 10583
+- -- 10482
+* -- 34856
+:= -- 37202
+add.period$ -- 99
+call.type$ -- 99
+change.case$ -- 3885
+chr.to.int$ -- 103
+cite$ -- 100
+duplicate$ -- 2187
+empty$ -- 3321
+format.name$ -- 10705
+if$ -- 38465
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 75
-newline$ -- 283
-num.names$ -- 386
-pop$ -- 3614
+missing$ -- 80
+newline$ -- 301
+num.names$ -- 410
+pop$ -- 3897
 preamble$ -- 1
-purify$ -- 3602
+purify$ -- 3881
 quote$ -- 0
-skip$ -- 1660
+skip$ -- 1775
 stack$ -- 0
-substring$ -- 2163
-swap$ -- 7003
+substring$ -- 2327
+swap$ -- 7544
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 837
+type$ -- 891
 warning$ -- 1
-while$ -- 395
+while$ -- 419
 width$ -- 0
-write$ -- 1026
-(There was 1 warning)
+write$ -- 1091
+(There were 2 error messages)

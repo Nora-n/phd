@@ -9,31 +9,28 @@
 % \fakelistoftables
 
 \chapter{Cr\'eation d'un \'echantillon complet}\label{ch:sample}
+\epigraph{\openquote Citation\closequote}{\textsc{Autaire}}
 
-\epigraph{\openquote\textit{Simplicity is the final achievement. After one has
-        played notes and more notes, it is simplicity that emerges as the
-crowning reward of art.}\closequote}{\textsc{Chopin}}
+Nous avons vu Chapitre~\ref{ch:cosmo} que l'amélioration des mesures de
+paramètres cosmologiques par le diagramme de \textsc{Hubble} nécessite une
+meilleure précision dans la connaissance astrophysique des SNe~Ia, afin de
+notamment permettre la réduction des incertitude systématiques. À cet effet, une
+évolution des propriétés intrinsèques des SNe~Ia inconnue fausserait ces
+résultats.
 
-Comme nous en avons discuté initialement (voir Chapitre~\ref{ch:cosmo}),
-l'amélioration des mesures de paramètres cosmologiques par le diagramme de
-\textsc{Hubble} nécessite une meilleure précision dans la connaissance
-astrophysique des SNe~Ia, afin de notamment permettre la réduction des
-incertitude systématiques. À cet effet, une évolution des propriétés
-intrinsèques des SNe~Ia inconnue fausserait ces résultats.
-
-Nous avons vu Chapitre~\ref{ch:sne} que l'environnement des supernovae avait un
+Nous avons vu Chapitre~\ref{ch:env} que l'environnement des supernovae avait un
 impact non négligeable sur leurs caractéristiques mesurées, et notamment leur
 appartenance à la sous-population «~jeune~» ou «~vieille~». Dans la perspective
 de mesurer une évolution de la luminosité intrinsèque des SNe~Ia, notre
-recherche se base sur le modèle d'évolution de l'âge moyen des SNe~Ia et étudie
-les variations de leur étirement en fonction de l'âge (voir
+recherche se base sur le modèle d'évolution de l'âge moyen de \cite{rigault2020}
+des SNe~Ia et étudie les variations de leur étirement en fonction de l'âge (voir
 Chapitre~\ref{ch:stretch}).
 
 Nous présentons dans ce chapitre l'échantillon sur lequel nous effectuons ces
 mesures. Nous discutons dans un premier temps des qualités qu'un tel échantillon
-doit présenter Section~\ref{sec:compl}, avant de présenter les sondages qui en
-font partie Section~\ref{sec:surveys} et l'échantillon en lui-même
-Section~\ref{sec:sample}.
+doit présenter Section~\ref{sec:compl}, avant de le réaliser et de le présenter
+Section~\ref{sec:sample}. La Section~\ref{sec:ztfsam} en présente l'augmentation
+\textit{via} l'implémentation des données de ZTF aux sondages.
 
 \vfill
 \minitoc
@@ -44,18 +41,28 @@ Section~\ref{sec:sample}.
 
 % \textsc{Malmquist} bias :~\cite{perrett2010}
 
-Cette thèse repose sur l'étude statistique des propriétés des SNe~Ia, et  donc
-en premier lieu sur l'échantillon de données sur lesquelles développer notre
+Cette thèse repose sur l'étude statistique des propriétés des SNe~Ia, et donc en
+premier lieu sur l'échantillon de données sur lesquelles développer notre
 raisonnement. Pour qu'il soit intéressant il doit être suffisamment grand, mais
-également représentatif de la population des SNe~Ia, c'est-à-dire au plus proche
-d'être un tirage aléatoire de tout ce qu'il peut exister comme SNe~Ia dans la
-nature. On parle alors d'échantillon complet. Ce concept est donc largement
-dépendant de la manière dont les données sont relevées.
+également représentatif de la population des SNe~Ia. En effet, nous avons vu
+Chapitre~\ref{ch:env} que les SNe~Ia sont corrélées avec leur environnement~;
+comme nous souhaitons étudier toute la zoologie des SNe~Ia et non pas une
+catégorie particulière (par exemple, celles uniquement dans des galaxies de
+masse $M_* > \SI{10}{\Msun}$), nous nous intéressons à des données ne comportant
+pas de biais de la sorte. De même, nous avons vu que pour être de qualité
+cosmologique, leurs caractéristiques d'étirement et de couleur sont comprises
+entre $\pm3$ et $\pm0,3$ respectivement. Pour que cet échantillon soit
+représentatif de la population des SNe~Ia, nous voulons que les données le
+constituant puissent être considérées comme étant au plus proche d'être un
+tirage aléatoire de tout ce qu'il peut exister comme SNe~Ia dans la nature, et
+pas une sous-partie composée de SNe d'étirement uniquement entre $\pm2$ par
+exemple. Nous définissons alors cet échantillon comme «~complet~». Ce concept
+est  largement dépendant de la manière dont les données sont relevées.
 
 \subsection{Stratégies d'observations}\label{ssec:startobs}
 
 Les supernovae sont des phénomènes transitoires, c'est-à-dire des objets dont le
-flux lumineux varie dans le temps, mais elles sont également brèves et rares~:
+flux lumineux varie dans le temps, et elles sont également brèves et rares~:
 elles durent typiquement quelques semaines et surviennent environ une fois par
 siècle et par galaxie. Leur observation requiert donc des stratégies
 particulières. Pour déterminer leurs courbes de lumière (\ref{ssec:lc}) il est
@@ -65,15 +72,16 @@ entrer en jeu~: les recherches ciblées et les recherches non ciblées.
 
 \paragraph*{Les recherches ciblées} consistent à se focaliser sur des amas de
 galaxies connus en vue d'augmenter la probabilité d'observer des supernovae~; il
-paraît en effet évident que plus la concentration en étoiles est forte, plus on
-s'attend à avoir une haute probabilité que certaines d'entre elles entament leur
-fin de vie et leur explosion en supernova. Cependant, une telle pratique
-implique une sélection des environnements des SNe et donc un biais sur la nature
-des données recueillies~; dans le cas des amas de galaxies, l'environnement
-favorisé sera celui contenant des progéniteurs vieux, dans des galaxies massives
-avec peu de formation stellaire. Afin d'étudier la potentielle évolution de la
-population des SNe, il faut réduire au maximum ces biais et favoriser la récolte
-d'un échantillon représentatif de toute la zoologie des SNe~Ia.
+paraît en effet évident que plus la concentration en étoiles est forte, plus
+nous nous attendons à avoir une haute probabilité que certaines d'entre elles
+entament leur fin de vie et leur explosion en supernova. Cependant, une telle
+pratique implique une sélection des environnements des SNe et donc un biais sur
+la nature des données recueillies~; dans le cas des amas de galaxies,
+l'environnement favorisé sera celui contenant des progéniteurs vieux, dans des
+galaxies massives avec peu de formation stellaire. Afin d'étudier la potentielle
+évolution de la population des SNe, il faut réduire au maximum ces biais et
+favoriser la récolte d'un échantillon représentatif de toute la zoologie des
+SNe~Ia.
 
 \paragraph*{Les recherches non-ciblées} utilisent de grands champ de caméra pour
 sonder de larges portions du ciel. Originellement
@@ -96,28 +104,28 @@ De tels sondages ne sont cependant pas exempts d'effets de sélection. En effet,
 même une recherche glissante s'effectue avec un appareil de mesure ayant une
 capacité limitée à détecter une source lumineuse~: les objets de magnitude
 apparente plus élevée (luminosité plus faible) que ce seuil de détection ne
-seront pas inclus. Or, comme chaque astre voit sa luminosité décroître avec le
-carré de la distance qui le sépare de l'observation (\ref{ssec:dl}), cette
-limite implique que les astres de magnitude absolue plus élevée seront relevés à
-de plus grandes distances que les autres, laissant croire qu'à partir d'une
-certaine distance les objets sont intrinsèquement plus lumineux.
+seront pas inclus. De tels sondages sont dits à magnitude limitée. Or, comme
+chaque astre voit sa luminosité décroître avec le carré de la distance qui le
+sépare de l'observation (\ref{ssec:dl}), cette limite implique que les astres de
+magnitude absolue plus élevée seront relevés à de plus grandes distances que les
+autres, laissant croire qu'à partir d'une certaine distance les objets sont
+intrinsèquement plus lumineux.
 
-Dans le cadre des SNe~Ia dont on suppose la magnitude absolue similaire, on
-pourrait en première approche négliger cet effet. Cependant, comme exposé en
-Section~\ref{ssec:corr}, il a été déterminé que la magnitude absolue des
-supernovae de type Ia est corrélée avec leur étirement et leur couleur de
-telle sorte que les plus faibles soient celles de petit étirement et de couleur
-rouge. Ainsi, proche du seuil de détection, les SNe~Ia ne sont pas sélectionnées
-de manière homogène, et l'échantillon recueilli sera une sous-population
-laissant penser qu'avec la distance, les SNe~Ia ont en moyenne un plus haut
-étirement et sont de couleur bleue. De tels sondages sont dits à magnitude
-limitée.
+Dans le cadre des SNe~Ia dont nous supposons la magnitude absolue similaire,
+nous pourrions en première approche négliger cet effet. Cependant, comme exposé
+en Section~\ref{ssec:corr}, il a été déterminé que la magnitude absolue des
+supernovae de type Ia est corrélée avec leur étirement et leur couleur de telle
+sorte que les plus faibles soient celles de petit étirement et de couleur rouge.
+Ainsi, proche du seuil de détection, les SNe~Ia ne sont pas sélectionnées de
+manière homogène, et l'échantillon recueilli sera une sous-population laissant
+penser qu'avec la distance, les SNe~Ia ont en moyenne un plus haut étirement et
+sont de couleur bleue.
 
-Le cadre de notre étude nécessite un échantillon qu'on appelle
-«~volume-limité~», pour lequel on suppose que la population résulte bien d'un
-tirage aléatoire de ce qui existe dans la nature. Les sondages modernes reposant
-sur des recherches glissantes, il nous a donc fallu les réduire pour les
-utiliser.
+Le cadre de notre étude nécessite un échantillon que nous appellons
+«~volume-limité~», pour lequel nous supposons que la population résulte bien
+d'un tirage aléatoire de ce qui existe dans la nature. Les sondages modernes
+reposant sur des recherches glissantes, il nous a donc fallu les réduire pour
+les utiliser.
 
 \section{Échantillon d'étude}\label{sec:sample}
 
@@ -134,7 +142,7 @@ Section~\ref{sec:compl}.
 \subsection{Confection}\label{ssec:cuts}
 
 Nous détaillons ici deux des approches mises en place visant à déterminer la
-portion des sondages que l'on peut considérer limitées en volume.
+portion des sondages que nous pouvons considérer limitées en volume.
 
 \subsubsection{Approche statistique}\label{sssec:baserate}
 
@@ -144,24 +152,24 @@ portion des sondages que l'on peut considérer limitées en volume.
 possible de tracer l'histogramme des SNe~Ia en fonction du redshift (cf.
 Sections précédentes, par exemple Figure~\ref{fig:snfhist}, à gauche). En
 supposant une densité volumique de supernovae uniforme, chaque intervalle de
-redshift comprend un volume de plus en plus grand et on s'attend donc à observer
-toujours plus de SNe~Ia avec la distance. On observe cependant une baisse de ce
-nombre à partir d'un certain redshift. La chute de nombre de SNe~Ia provient de
-cette limitation du sondage à mesurer la luminosité. Notre première approche a
-été de se baser sur une étude statistique pour essayer de récupérer la valeur
-estimée à partir de laquelle chaque sondage s'écarte d'un modèle volumétrique.
-Le protocole est le suivant~:
+redshift comprend un volume de plus en plus grand et nous nous attendons donc à
+observer toujours plus de SNe~Ia avec la distance. Nous observons cependant une
+baisse de ce nombre à partir d'un certain redshift. La chute de nombre de SNe~Ia
+provient de cette limitation du sondage à mesurer la luminosité. Notre première
+approche a été de se baser sur une étude statistique pour essayer de récupérer
+la valeur estimée à partir de laquelle chaque sondage s'écarte d'un modèle
+volumétrique. Le protocole est le suivant~:
 \begin{itemize}
     \item Les bornes minimales et maximales des données sont augmentées d'une
-        faible valeur aléatoire (entre 0,06 et 0,12 à gauche et entre 1,10 et
-        1,15 à droite, pour SNLS) afin d'assurer une variation du centre des
-        intervalles~;
-    \item On choisit aléatoirement entre 5 et 20 intervalles pour tracer
+        faible valeur aléatoire afin d'assurer une variation du centre des
+        intervalles. Par exemple, pour SNLS, nous prenons une limite entre 0,06
+        et 0,12 à gauche et entre 1,10 et 1,15 à droite~;
+    \item Nous choisissons aléatoirement entre 5 et 20 intervalles pour tracer
         l'histogramme~;
-    \item On initialise un modèle volumétrique $a\times
+    \item Nous initialisons un modèle volumétrique $a\times
         \left(V(z_2)-V(z_1)\right)$ avec $a$ la densité volumique de SNe~Ia,
-        paramètre libre du modèle, auquel on passe comme donnée les bords des
-        intervalles.
+        paramètre libre du modèle, auquel nous passons comme donnée les bords
+        des intervalles.
     \item Les valeurs du modèle sont comparées aux hauteurs des intervalles de
         l'histogramme, permettant l'ajustement du modèle par une loi de Poisson
         cumulée \citep[voir par exemple][]{syed2015}. Pour un intervalle donné
@@ -176,12 +184,12 @@ Le protocole est le suivant~:
             \mathcal{P}(X\leq x) = \sum_{k=0}^{x}p(k) = e^{-\lambda}
             \sum_{k=0}^{x} \frac{\lambda^k}{k!}
         \end{equation}
-    \item On choisit aléatoirement un intervalle maximal après lequel
+    \item Nous choisissons aléatoirement un intervalle maximal après lequel
         l'ajustement s'arrête, avec un minimum de 3 intervalles (6 dans les cas
         des Figures de~\ref{fig:zmax_method}), 10 fois pour chaque histogramme~;
-    \item On sauve les positions et valeurs de probabilité des intervalles
+    \item Nous sauvons les positions et valeurs de probabilité des intervalles
         ajustés et créé une interpolation linéaire des résultats~;
-    \item Ces 5 étapes sont répétées 1000 fois et on calcule la médiane et
+    \item Ces 5 étapes sont répétées 1000 fois et nous calculons la médiane et
         l'écart type des 10 000 interpolations calculées.
 \end{itemize}
 
@@ -230,13 +238,15 @@ avec $d_C(z)$ la distance comobile
     \right]^{1/2}
 \end{align}
 
-On a choisi la cosmologie issue de la collaboration Planck \citep{planck2018},
-dont les valeurs sont indiqués Table~\ref{tab:planckvals}.
+Nous avons choisi la cosmologie issue de la collaboration Planck
+\citep{planck2018}, dont les valeurs sont indiqués Table~\ref{tab:planckvals}.
 
 \begin{table}[ht]
     \centering
-    \caption{Valeur des paramètres cosmologiques utilisés pour la détermination
-    statistique du redshift limite des sondages SDSS, SNLS et PS1.}
+    \caption[Valeur des paramètres cosmologiques utilisés pour la détermination
+    statistique du redshift limite des sondages SDSS, SNLS et PS1]{Valeur des
+        paramètres cosmologiques utilisés pour la détermination statistique du
+    redshift limite des sondages SDSS, SNLS et PS1.}
     \label{tab:planckvals}
     \begin{tabular}{ccccc}
         \toprule
@@ -253,7 +263,7 @@ Le résultat de ces calculs donne une estimation du redshift à partir duquel
 chacun des sondages n'a plus la capacité à recueillir toutes les SNe~Ia,
 représentée Figure~\ref{fig:zmax_method_results}. En estimant $z_{\lim}$ comme
 étant la valeur à laquelle la médiane des distributions cumulées chute à 0,5 et
-les erreurs basse et haute à 0,525 et 0,475 respectivement, on obtient les
+les erreurs basse et haute à 0,525 et 0,475 respectivement, nous obtenons les
 valeurs de la Table~\ref{tab:zlimsample}.
 
 \begin{figure}[ht]
@@ -271,7 +281,7 @@ des évolutions statistiques en répétant le processus précédent. Cependant, 
 sens de variation non constant du résultat de SNLS et de PS1 ne permettent pas
 de forte confiance dans la correspondance de ce protocole au but de cette
 étude~; de plus, le choix de la valeur de la fonction de répartition à laquelle
-on peut considérer le sondage complet n'est pas motivée mathématiquement ou
+nous pouvons considérer le sondage complet n'est pas motivée mathématiquement ou
 physiquement de manière systématique. Cette conclusion nous a amenæ à une
 approche combinant à la fois la réalité de la sélection astrophysique
 instrumentale et les équations de distribution de luminosité de SN~Ia avec leurs
@@ -294,11 +304,11 @@ l'équation~\ref{eq:mxc}~:
 \end{equation*}
 avec $M_0 = \SI{-19,36}{mag}$ dans le filtre photométrique $B$ de Bessell
 \citep{kessler2009a, scolnic2014}, $\alpha=0,158$ et $\beta=3,14$
-\citep[Table 7,][]{scolnic2018}. On détermine cette quantité sur l'ellipse
+\citep[Table 7,][]{scolnic2018}. Nous déterminons cette quantité sur l'ellipse
 limite des paramètres grâce au paquet \texttt{sncosmo}
 \footnote{\href{https://sncosmo.readthedocs.io/en/stable/}
 {https://sncosmo.readthedocs.io/en/stable/}}, représentée par un gradient de
-couleur Figure~\ref{fig:maglim}. On trouve alors que la supernova la moins
+couleur Figure~\ref{fig:maglim}. Nous trouvons alors que la supernova la moins
 lumineuse est celle de paramètres $x_1 = -1,65$ et $c = 0,25$ dont le maximum de
 magnitude absolue standardisée est $M_{\min}^{t_0}=\SI{-18,31}{mag}$.
 
@@ -323,17 +333,16 @@ magnitude absolue standardisée est $M_{\min}^{t_0}=\SI{-18,31}{mag}$.
 
 Cependant, pour établir une courbe de lumière, une supernova doit être observée
 typiquement au moins 5 jours avant et une semaine après son pic de luminosité,
-donnant une magnitude absolue limite effective d'approximativement $M_{\lim}
-= \SI{-18,00}{mag}$. En connaissant les magnitudes limites de chaque sondage et
-avec l'équation reliant le module de distance aux magnitudes observée et
-absolue
+donnant une magnitude absolue limite effective d'approximativement $M_{\lim} =
+\SI{-18,00}{mag}$. En connaissant les magnitudes limites de chaque sondage et
+avec l'équation reliant le module de distance aux magnitudes observée et absolue
 \begin{equation}\label{eq:distmod}
     \mu(z) = m - M
 \end{equation}
-on peut déterminer le redshift limite $z_{\lim}$ en-delà duquel la SN~Ia la
-moins lumineuse ne sera pas observée. On a ainsi défini un ensemble de redshifts
-limites définissant un échantillon fiduciel en prenant la limite suggérée par
-cette analyse.
+nous pouvons déterminer le redshift limite $z_{\lim}$ en-delà duquel la SN~Ia la
+moins lumineuse ne sera pas observée. Nous avons ainsi défini un ensemble de
+redshifts limites définissant un échantillon fiduciel en prenant la limite
+suggérée par cette analyse.
 
 Cependant, cette solution pourrait ne pas être optimale étant donné qu'elle
 ignore les efficacités de suivi spectroscopiques pour les redshifts en-dessous
@@ -345,19 +354,23 @@ redshift est encore sondable dans l'échantillon conservatif, il serait encore
 plus présent dans un échantillon dont l'absence d'effets de sélection est
 effectuée avec plus de précision que nos coupes en redshift.
 
-On présente Figure~\ref{fig:speceff} les différentes efficacités
-spectroscopiques avec le redshift des 4 sondages LOWZ, SDSS, PS1 et SNLS. On y
-observe que les magnitudes limites correspondent également aux limites des
+Nous présentons Figure~\ref{fig:speceff} les différentes efficacités
+spectroscopiques avec le redshift des 4 sondages LOWZ, SDSS, PS1 et SNLS. Nous y
+observons que les magnitudes limites correspondent également aux limites des
 capacités spectroscopiques, mais ces seuls critères ne suffisent pas à rendre
 compte de la qualité limitée en volume d'un sondage. Nous détaillons maintenant
 les choix pour les sous-échantillons concernés par ces coupes.
 
-\begin{SCfigure}[0.5][h!]
+\begin{SCfigure}[1][h!]
     \centering
     \includegraphics[width=.5\linewidth]{speceff-all}
     % \captionsetup{justification=centering}
-    \caption{Comparaison des efficacités spectroscopiques des différents
-    sondages.}
+    \caption[Comparaison des efficacités spectroscopiques des différents
+    sondages]{Comparaison des efficacités spectroscopiques des différents
+        sondages. Figure produite avec les données de la collaboration
+        \textit{Dark Energy Survey} \citep[DES,][]{abbott2019} pour LOWZ, de
+        Pantheon \citep{scolnic2018} pour PS1, et de Pantheon+
+    \citep{popovic2021b} pour SDSS et SNLS.}
     \label{fig:speceff}
 \end{SCfigure}
 
@@ -381,7 +394,7 @@ respectivement.
     \caption[Biais de \textsc{Malmquist} moyen en fonction du redshift pour le
     sondage SNLS]{Biais de \textsc{Malmquist} et de sélection spectroscopique
         moyen en fonction du redshift pour le sondage SNLS d'après des
-        simulations.\smallbreak Tiré de~\cite{perrett2010}.}
+        simulations.\smallbreak Figure de~\cite{perrett2010}.}
     \label{fig:snlsmalm}
 \end{SCfigure}
 
@@ -401,7 +414,7 @@ fiducielle et conservative, respectivement, de notre échantillon.
     sondage PS1]{Biais de \textsc{Malmquist} moyen dû aux effets de sélection
         en fonction du redshift pour le sondage PS1, d'après des simulations et
         pour deux modèles de dispersion intrinsèques différents et leur moyenne.
-        \smallbreak Tiré de~\cite{scolnic2018}.}
+        \smallbreak Figure de~\cite{scolnic2018}.}
     \label{fig:ps1malm}
 \end{SCfigure}
 
@@ -416,9 +429,9 @@ du programme a bénéficié de meilleures ressources spectroscopiques
 et~\cite{kessler2009a} et~\cite{dilday2008} font preuve d'une complétude
 raisonnable jusqu'à $z=0,2$. La Figure~3 de~\cite{conley2011}, donnée
 Figure~\ref{fig:sdssmalm} donnant l'évolution du biais de \textsc{Malmquist} en
-fonction du redshift confirme ces hypothèses. En nous basant sur ces faits, on a
-choisi $z_{\lim}=0,20$ et $z_{\lim}=0,15$ pour nos échantillons fiduciel et
-conservatif respectivement.
+fonction du redshift confirme ces hypothèses. En nous basant sur ces faits, nous
+avons choisi $z_{\lim}=0,20$ et $z_{\lim}=0,15$ pour nos échantillons fiduciel
+et conservatif respectivement.
 
 \begin{SCfigure}[0.7][ht!]
     \centering
@@ -428,7 +441,7 @@ conservatif respectivement.
     sondage SDSS]{Biais de \textsc{Malmquist} moyen en fonction du redshift
         pour le sondage SDSS. La forte baisse à $z=0,15$ est un artéfact dû à la
         discontinuité du modèle d'efficacité spectroscopique et n'a que peu
-        d'effet sur les contraintes cosmologiques.\smallbreak Tiré
+        d'effet sur les contraintes cosmologiques.\smallbreak Figure
     de~\cite{conley2011}.}
     \label{fig:sdssmalm}
 \end{SCfigure}
@@ -436,9 +449,9 @@ conservatif respectivement.
 Cette approche est totalement systématique et reproductible, et donne des
 $z_{\lim}$ similaires à l'approche statistique~; cette observation conforte donc
 les résultats et choix de magnitudes limites, et ce sont ces résultats
-analytiques que l'on a conservés dans notre étude. La comparaison des limites
-par les deux méthodes et le nombre de données conservées avec les limites
-analytiques dans les cas fiduciels et conservatifs sont indiqués
+analytiques que nous avons conservés dans notre étude. La comparaison des
+limites par les deux méthodes et le nombre de données conservées avec les
+limites analytiques dans les cas fiduciels et conservatifs sont indiqués
 Table~\ref{tab:zlimsample}.
 
 \begin{table}[ht]
@@ -487,7 +500,7 @@ Table~\ref{tab:zlimsample}.
 Par rapport aux analyses cosmologiques générales, notre étude impose une forte
 sélection sur des données déjà soigneusement choisies~: seulement 43\% (SNLS) à
 57\% (PS1) de SNe~Ia sont conservées. Les distributions en redshift des 3
-sondages coupés sont présentées Figure~\ref{fig:cuts}. On y observe que les
+sondages coupés sont présentées Figure~\ref{fig:cuts}. Nous y observons que les
 limites sont globalement situées avant le pic de ces histogrammes, suivant la
 logique guidant cette chute (cf. Section~\ref{sec:compl}) et confortant
 également les analyses qui y ont mené. Cette hypothèse est testée
@@ -507,19 +520,19 @@ Section~\ref{ssec:testvl}.
     \label{fig:cuts}
 \end{figure}
 
-En combinant les 5 sondages de notre analyse, on peut tracer leur distribution
-d'étirement en fonction du redshift. On en présente un graphique ainsi que
-l'histogramme complet Figure~\ref{fig:sample}. En supposant l'échantillon
-affranchi d'effets de sélection, on peut lire sur ce graphique une première idée
-de l'évolution en redshift que l'on suppose issue du changement des propriétés
-moyennes des SNe~Ia avec l'âge de leur environnement. En effet, on observe que
-la fraction de SNe~Ia présentant un faibl'étirement, typiquement $x_1 < -1$,
-semble décroître avec le redshift alors que la population d'étirement $> 1$
-semble toujours peuplée~; à noter qu'ici le redshift est en échelle
-logarithmique, expliquant le tassement horizontal. Quantitativement, les SNe~Ia
-à haut redshift présentent un plus grand étirement moyen ($0,34 \pm 0,10$ à
-$z \approx 0,65$) que celles à bas redshift ($-0,17 \pm 0,10$ à $z \approx
-0,05$). Cette idée est confirmée dans le chapitre suivant,
+En combinant les 5 sondages de notre analyse, nous pouvons tracer leur
+distribution d'étirement en fonction du redshift. Nous en présentons un
+graphique ainsi que l'histogramme complet Figure~\ref{fig:sample}. En supposant
+l'échantillon affranchi d'effets de sélection, nous pouvons lire sur ce
+graphique une première idée de l'évolution en redshift que nous supposons issue
+du changement des propriétés moyennes des SNe~Ia avec l'âge de leur
+environnement. En effet, nous observons que la fraction de SNe~Ia présentant un
+faible étirement, typiquement $x_1 < -1$, semble décroître avec le redshift alors
+que la population d'étirement $> 1$ semble toujours peuplée~; à noter qu'ici le
+redshift est en échelle logarithmique, expliquant le tassement horizontal.
+Quantitativement, les SNe~Ia à haut redshift présentent un plus grand étirement
+moyen ($0,34 \pm 0,10$ à $z \approx 0,65$) que celles à bas redshift ($-0,17 \pm
+0,10$ à $z \approx 0,05$). Cette idée est confirmée dans le chapitre suivant,
 Section~\ref{sec:xres}.
 
 \begin{figure}
@@ -535,7 +548,7 @@ Section~\ref{sec:xres}.
         pointillé pour les échantillons conservatif, fiduciel et total,
         respectivement (cf.\ légende). \textit{À droite}~: histogrammes en
         étirement superposés. Notre hypothèse de travail se base sur le
-        dépeuplement des étirements $< -1$ avec le redshift, que l'on peut
+        dépeuplement des étirements $< -1$ avec le redshift, que nous pouvons
         apercevoir dans les histogrammes de droite~: relativement aux données
     $x_1 > -1$, cette partie se peuple moins.}\label{fig:sample}
 \end{figure}
@@ -588,8 +601,10 @@ potentielles entre les sous-échantillons PS1 et SDSS, la Figure~\ref{fig:testvl
 (panneaux supérieurs) compare la distribution des étirements et des couleurs de
 ces deux études. Les valeurs $p$ du test de similarité de
 \textsc{Kolmogorov-Smirnov} (KS) qui en résultent ($p > 10\%$) n'indiquent
-aucune incohérence, en accord avec l'impression visuelle de la
-Figure~\ref{fig:testvl}.
+aucune raison de croire que les deux distributions ne sont pas issues d'une même
+population sous-jacente, ce qui aurait été le cas si l'une ou l'autre des
+distributions était affectée par des effets de sélections, en accord avec
+l'impression visuelle de la Figure~\ref{fig:testvl}.
 
 \begin{figure}[ht]
     \centering
@@ -622,7 +637,7 @@ SNe~Ia contre 90 pour PS1) limite la sensibilité de ce test, et seule une forte
 déviation serait perceptible. L'extension de la plage de redshift à $0,20 < z <
 0,40$ (bien que nous n'ayons pas de données PS1 au-dessus de 0,3) permet
 d'augmenter le sous-échantillon SNLS à 31, mais la valeur $p$ de l'étirement
-reste élevée (34\%), ne montrant aucun signe d'incohérence.
+reste élevée (34\%).
 
 Nous soulignons enfin que la couleur des SNe~Ia est plus sujette aux effets de
 sélection observationnelle que l'étirement, comme l'illustre la
@@ -640,8 +655,8 @@ en cours. Ainsi, bien qu'il ne fasse pas partie de cette étude de manière
 stable, nous nous intéressons à son intégration dans notre travail. C'est
 pourquoi nous présentons ici notre confection de la partie limitée de ZTF.
 
-%\subsection*{Redshift limite}
-\appssec{Redshift limite}{ssec:ztflim}
+\subsection{Redshift limite}\label{ssec:ztflim}
+%\appssec{Redshift limite}{ssec:ztflim}
 
 \paragraph*{Sa magnitude limite} est donnée à
 \SI{20.4}{mag}\footnote{\href{https://www.ztf.caltech.edu/ztf-camera.html}
@@ -650,7 +665,10 @@ $z_{\lim} = 0,11$, mais la SEDm est indiquée avoir une classification correcte
 entre $[18,5-19]$\si{mag} \citep{fremling2020}, ce qui implique des limites
 $z_{\lim} = [0,044-0,055]$ respectivement. Ces résultats sont confortés par une
 étude du sondage effectuée par \textsc{Amenouche} et al. (\textit{en
-préparation}), utilisant le module Python \texttt{simsurvey} de ZTF
+préparation}), utilisant le module Python
+\texttt{simsurvey}
+\footnote{\href{https://github.com/ZwickyTransientFacility/simsurvey}
+{https://github.com/ZwickyTransientFacility/simsurvey}} de ZTF
 \citep{feindt2019}. Initialement utilisé pour permettre le pronostic des
 résultats du sondage, l'utilisation de journaux d'observations réels indique que
 l'échantillon devrait être limité en volume jusqu'à $z \approx 0,06$. Ainsi, ce
@@ -679,17 +697,20 @@ Tableau~\ref{tab:zlimztf} résume les informations de coupe pour ZTF.
     \end{threeparttable}
 \end{table}
 
-\appssec{Présentation}{ssec:ztfpres}
+\subsection{Présentation}\label{ssec:ztfpres}
+%\appssec{Présentation}{ssec:ztfpres}
 
 Dans le cas de ZTF, la coupe en redshift est encore plus sévère que pour les
 autres sondages~; c'est en effet 28\% des données qui sont conservées. Il reste
 cependant que sa partie fiducielle est à elle seule plus peuplée que la totalité
 de notre échantillon de base. L'inclusion de ces données augmentera donc la
-statistique et la robustesse de notre étude d'un facteur non-négligeable.
+statistique et la robustesse de notre étude d'un facteur non-négligeable. La
+Figure~\ref{fig:ztfsample} en montre la distribution des données d'étirement en
+fonction du redshift.
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width=0.95\linewidth]{stretchs-cut_btw_sup_hist_ztf_x1}
+    \includegraphics[width=0.80\linewidth]{stretchs-cut_btw_sup_hist_ztf_x1}
     \caption[Présentation des données d'étirement en fonction du redshift pour
     ZTF]{\textit{En bas}~: étirement des courbes de lumière ajustées avec
         \textsc{\texttt{SALT2.4}} en fonction du redshift en échelle
@@ -702,8 +723,8 @@ statistique et la robustesse de notre étude d'un facteur non-négligeable.
     légende.}\label{fig:ztfsample}
 \end{figure}
 
-Sur cette figure, on peut d'ores et déjà observer la présence d'un sursaut à
-basse valeur dans la distribution des étirements ($x_1 \approx -1.5$). Sa
+Sur cette figure, nous pouvons d'ores et déjà observer la présence d'un sursaut
+à basse valeur dans la distribution des étirements ($x_1 \approx -1.5$). Sa
 présence est en accord avec l'étude de la distribution d'étirement du chapitre
 suivant. Ces données étant arrivées après l'étude en question, sa présence en
 conforte les résultats~; nous en discutons Section~\ref{sec:xztf}.
@@ -720,8 +741,8 @@ redshift avec les histogrammes de la partie de droite.
 
 \vfill
 \begin{figure}[ht!]
-    \centering
-    \includegraphics[width=0.95\linewidth]{stretchs-cut_btw_hist_stac_ztf_x1}
+    \centerfloat
+    \includegraphics[width=1.1\linewidth]{stretchs-cut_btw_hist_stac_ztf_x1}
     \caption[Présentation des données d'étirement en fonction du redshift pour
     l'échantillon de base combiné aux données de ZTF]{\textit{En bas}~:
         étirement des courbes de lumière ajustées avec \textsc{\texttt{SALT2.4}}
@@ -736,10 +757,9 @@ redshift avec les histogrammes de la partie de droite.
 \end{figure}
 \vfill
 
-\newpage
+\clearpage
 
 \thispagestyle{plain}
-\vspace*{-3cm}
 \vfill
 \minilof
 \vfill

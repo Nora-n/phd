@@ -1,0 +1,80 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+
+\tikzset{oplus/.style={path picture={% 
+            \draw[black]
+             (path picture bounding box.south west) --
+             (path picture bounding box.north east) 
+             (path picture bounding box.north west) --
+             (path picture bounding box.south east);
+            }},
+        process/.style={draw, diamond, rounded corners,
+            fill=Orchid!30, scale=0.5},
+        inout/.style={draw, rectangle, rounded corners,
+            fill=cornflowerblue!20},
+        inter/.style={draw, ellipse, fill=orange!40,
+            scale=0.5},
+        add/.style={draw, circle, oplus},
+} 
+
+\begin{document}
+\begin{tikzpicture}[node distance=1cm, on grid, >=stealth']
+    % Do inouts
+    \node[inout]
+        (data) {Donn\'ees};
+    \node[inout, right=of data, xshift=3cm]
+        (biascor) {BiasCor};
+    \node[inout, below=of biascor, %xshift=1cm,
+         anchor=north, fill=white,
+         minimum width=6cm, minimum height=4cm]
+        (boxproc) {};
+    \node[inout, minimum width=6cm, anchor=north, fill=Orchid!20]
+        (bbc5D) at (boxproc.north) {\texttt{BBC5D}};
+    \node[inner sep=0] (chainleft) at ([shift={(2cm,0)}]bbc5D.south west) {};
+    \node[inner sep=0] (chainright) at ([shift={(-2cm,0)}]bbc5D.south east) {};
+    \node[inter, below=of chainleft]
+        (ab) {$\alpha$, $\beta$};
+    \node[inner sep=0] (ableft) at ([shift={(-0.5cm,0)}]ab.west) {};
+    \node[below=of chainright]
+        (mcube) {\includegraphics[width=2cm]{matrices_cube.pdf}};
+    \node[inter, below=of mcube]
+        (dbias) {$\delta\mu_{\rm biais} \equiv
+                (\delta_{m_B}+\alpha\delta_{x_1}-\beta\delta_c)$};
+    \node[circle, draw, fill=white, below=of bbc5D, yshift=-2cm]
+        (chi2) {$\chi^2$};
+    \node[draw, fill=white, scale=0.5, anchor=center]
+        (label) at (boxproc.south) {Best fit};
+    \node[inter, below=of boxproc, yshift=-4cm, align=center]
+        (bestfit) {$\alpha$, $\beta$, $\gamma$\\$\delta\mu_{\rm biais}$};
+    \node[add, scale=2]
+        (add) at (data |- bestfit) {};
+    \node[inter, below=of add]
+        (mb) {$\mu = \mu^*$};
+    \node[inout, below=of mb]
+        (res) {$z$, $\Delta\mu$};
+    \node[process, below=of res]
+        (wfit) {\texttt{wfit}};
+    \node[inout, below=of wfit]
+        (cosmo) {$w$, $\Omega_M$\ldots};
+    % Plot lines
+    \draw[->] (biascor) -- (bbc5D);
+    \draw[->] (chainright) -- (mcube);
+    \draw[->] (ab) -- (mcube);
+    \draw[->] (mcube) -- (dbias);
+    \draw[->] (dbias) |- (chi2.east);
+    \draw[->, dashed] (chi2) -- (chi2 -| ableft) --
+            node [diamond, draw, solid, rounded corners,
+                  fill=Orchid!20, scale=0.8] {\texttt{SALT2}$\mu$}
+            (ableft) -- (ab);
+    \draw[->] (chi2) -- (label);
+    \draw[->] (label) -- (bestfit);
+    \draw[->] (data) -- (add);
+    \draw[->] (bestfit) -- (add);
+    \draw[->] (add) -- (mb);
+    \draw[->] (mb) -- (res);
+    \draw[->] (res) -- (wfit);
+    \draw[->] (wfit) -- (cosmo);
+\end{tikzpicture}
+\end{document}
+
+

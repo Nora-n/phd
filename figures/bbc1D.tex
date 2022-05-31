@@ -1,0 +1,57 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+
+\tikzset{oplus/.style={path picture={% 
+            \draw[black]
+             (path picture bounding box.south west) --
+             (path picture bounding box.north east) 
+             (path picture bounding box.north west) --
+             (path picture bounding box.south east);
+            }},
+        process/.style={draw, diamond, rounded corners,
+            fill=Orchid!30, scale=0.5},
+        inout/.style={draw, rectangle, rounded corners,
+            fill=cornflowerblue!20},
+        inter/.style={draw, ellipse, fill=orange!40,
+            scale=0.5},
+        add/.style={draw, circle, oplus},
+} 
+
+\begin{document}
+\begin{tikzpicture}[node distance=1cm, on grid, >=stealth']
+    % Do inouts
+    \node[inout]
+        (data) {Donn\'ees};
+    \node[inout, right=of data, xshift=1cm]
+        (biascor){BiasCor};
+    \node[process, below=of biascor]
+        (bbc1D) {BBC1D};
+    \node[inter, below=of bbc1D]
+        (dbias) {$\delta\mu_{\rm biais} = \delta m_B(z)$};
+    \node[add, scale=2]
+        (add) at (data |- dbias) {};
+    \node[inter, below=of add]
+        (mb) {$m_B^* = m_B - \delta m_B$};
+    \node[process, below=of mb]
+        (salt2mu) {\texttt{SALT2}$\mu$};
+    \node[inter, below left=of salt2mu]
+        (ab) {$\alpha$, $\beta$};
+    \node[inout, below right=of salt2mu]
+        (res) {$z$, $\Delta\mu$};
+    \node[process, below=of res]
+        (wfit) {\texttt{wfit}};
+    \node[inout, below=of wfit]
+        (cosmo) {$w$, $\Omega_M$\ldots};
+    % Plot lines
+    \draw[->] (biascor) -- (bbc1D);
+    \draw[->] (bbc1D) -- (dbias);
+    \draw[->] (dbias) -- (add);
+    \draw[->] (data) -- (add);
+    \draw[->] (add) -- (mb);
+    \draw[->] (mb) -- (salt2mu);
+    \draw[->] (salt2mu) -- (ab);
+    \draw[->] (salt2mu) -- (res);
+    \draw[->] (res) -- (wfit);
+    \draw[->] (wfit) -- (cosmo);
+\end{tikzpicture}
+\end{document}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{57}
+\begin{thebibliography}{60}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Aldering}} {et~al.}(2002)\textsc{{Aldering}},
@@ -755,6 +755,25 @@
   \href{http://dx.doi.org/10.1086/133562}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/1995PASP..107..375O}{107, 375}
 
+\bibitem[{\textsc{{Pereira}} {et~al.}(2013)\textsc{{Pereira}},
+  \textsc{{Thomas}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
+  \textsc{{Baltay}}, \textsc{{Benitez-Herrera}}, \textsc{{Bongard}},
+  \textsc{{Buton}}, \textsc{{Canto}}, \textsc{{Cellier-Holzem}},
+  \textsc{{Chen}}, \textsc{{Childress}}, \textsc{{Chotard}}, \textsc{{Copin}},
+  \textsc{{Fakhouri}}, \textsc{{Fink}}, \textsc{{Fouchez}}, \textsc{{Gangler}},
+  \textsc{{Guy}}, \textsc{{Hillebrandt}}, \textsc{{Hsiao}},
+  \textsc{{Kerschhaggl}}, \textsc{{Kowalski}}, \textsc{{Kromer}},
+  \textsc{{Nordin}}, \textsc{{Nugent}}, \textsc{{Paech}}, \textsc{{Pain}},
+  \textsc{{P{\'e}contal}}, \textsc{{Perlmutter}}, \textsc{{Rabinowitz}},
+  \textsc{{Rigault}}, \textsc{{Runge}}, \textsc{{Saunders}}, \textsc{{Smadja}},
+  \textsc{{Tao}}, \textsc{{Taubenberger}}, \textsc{{Tilquin}} et
+  \textsc{{Wu}}}]{pereira2013}
+\textsc{{Pereira} R.}, \textsc{{Thomas} R.~C.}, \textsc{{Aldering} G.} {et~al.}
+  2013, «~{Spectrophotometric time series of SN 2011fe from the Nearby
+  Supernova Factory}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201221008}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2013A&A...554A..27P}{554, A27}
+
 \bibitem[{\textsc{{Perlmutter}} {et~al.}(1999)\textsc{{Perlmutter}},
   \textsc{{Aldering}}, \textsc{{Goldhaber}}, \textsc{{Knop}},
   \textsc{{Nugent}}, \textsc{{Castro}}, \textsc{{Deustua}}, \textsc{{Fabbro}},
@@ -829,6 +848,26 @@
   Energy}~», \href{http://dx.doi.org/10.1086/510378}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...659...98R}{659, 98}
 
+\bibitem[{\textsc{{Rigault}} {et~al.}(2020)\textsc{{Rigault}},
+  \textsc{{Brinnel}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
+  \textsc{{Aragon}}, \textsc{{Bailey}}, \textsc{{Baltay}}, \textsc{{Barbary}},
+  \textsc{{Bongard}}, \textsc{{Boone}}, \textsc{{Buton}}, \textsc{{Childress}},
+  \textsc{{Chotard}}, \textsc{{Copin}}, \textsc{{Dixon}}, \textsc{{Fagrelius}},
+  \textsc{{Feindt}}, \textsc{{Fouchez}}, \textsc{{Gangler}}, \textsc{{Hayden}},
+  \textsc{{Hillebrandt}}, \textsc{{Howell}}, \textsc{{Kim}},
+  \textsc{{Kowalski}}, \textsc{{Kuesters}}, \textsc{{Leget}},
+  \textsc{{Lombardo}}, \textsc{{Lin}}, \textsc{{Nordin}}, \textsc{{Pain}},
+  \textsc{{Pecontal}}, \textsc{{Pereira}}, \textsc{{Perlmutter}},
+  \textsc{{Rabinowitz}}, \textsc{{Runge}}, \textsc{{Rubin}},
+  \textsc{{Saunders}}, \textsc{{Smadja}}, \textsc{{Sofiatti}},
+  \textsc{{Suzuki}}, \textsc{{Taubenberger}}, \textsc{{Tao}} et
+  \textsc{{Thomas}}}]{rigault2020}
+\textsc{{Rigault} M.}, \textsc{{Brinnel} V.}, \textsc{{Aldering} G.} {et~al.}
+  2020, «~{Strong dependence of Type Ia supernova standardization on the local
+  specific star formation rate}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201730404}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2020A&A...644A.176R}{644, A176}
+
 \bibitem[{\textsc{{Rigault}} {et~al.}(2019)\textsc{{Rigault}},
   \textsc{{Neill}}, \textsc{{Blagorodnova}}, \textsc{{Dugas}},
   \textsc{{Feeney}}, \textsc{{Walters}}, \textsc{{Brinnel}}, \textsc{{Copin}},
@@ -856,6 +895,12 @@
   CANDELS: Searching for Prompt Explosions in the Early Universe}~»,
   \href{http://dx.doi.org/10.1088/0004-6256/148/1/13}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/2014AJ....148...13R}{148, 13}
+
+\bibitem[{\textsc{{Rodrigo}} et \textsc{{Solano}}(2020)}]{rodrigo2020}
+\textsc{{Rodrigo} C.} et \textsc{{Solano} E.} 2020, «~{The SVO Filter Profile
+  Service}~», dans XIV.0 Scientific Meeting (virtual) of the Spanish
+  Astronomical Society,
+  \href{https://ui.adsabs.harvard.edu/abs/2020sea..confE.182R}{182}
 
 \bibitem[{\textsc{{Sako}} {et~al.}(2008)\textsc{{Sako}}, \textsc{{Bassett}},
   \textsc{{Becker}}, \textsc{{Cinabro}}, \textsc{{DeJongh}}, \textsc{{Depoy}},

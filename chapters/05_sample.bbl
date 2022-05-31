@@ -1,5 +1,54 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{21}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Abbott}} {et~al.}(2019)\textsc{{Abbott}}, \textsc{{Allam}},
+  \textsc{{Andersen}}, \textsc{{Angus}}, \textsc{{Asorey}}, \textsc{{Avelino}},
+  \textsc{{Avila}}, \textsc{{Bassett}}, \textsc{{Bechtol}},
+  \textsc{{Bernstein}}, \textsc{{Bertin}}, \textsc{{Brooks}}, \textsc{{Brout}},
+  \textsc{{Brown}}, \textsc{{Burke}}, \textsc{{Calcino}}, \textsc{{Carnero
+  Rosell}}, \textsc{{Carollo}}, \textsc{{Carrasco Kind}}, \textsc{{Carretero}},
+  \textsc{{Casas}}, \textsc{{Castander}}, \textsc{{Cawthon}},
+  \textsc{{Challis}}, \textsc{{Childress}}, \textsc{{Clocchiatti}},
+  \textsc{{Cunha}}, \textsc{{D'Andrea}}, \textsc{{da Costa}}, \textsc{{Davis}},
+  \textsc{{Davis}}, \textsc{{De Vicente}}, \textsc{{DePoy}}, \textsc{{Desai}},
+  \textsc{{Diehl}}, \textsc{{Doel}}, \textsc{{Drlica-Wagner}},
+  \textsc{{Eifler}}, \textsc{{Evrard}}, \textsc{{Fernandez}},
+  \textsc{{Filippenko}}, \textsc{{Finley}}, \textsc{{Flaugher}},
+  \textsc{{Foley}}, \textsc{{Fosalba}}, \textsc{{Frieman}}, \textsc{{Galbany}},
+  \textsc{{Garc{\'\i}a-Bellido}}, \textsc{{Gaztanaga}},
+  \textsc{{Giannantonio}}, \textsc{{Glazebrook}}, \textsc{{Goldstein}},
+  \textsc{{Gonz{\'a}lez-Gait{\'a}n}}, \textsc{{Gruen}}, \textsc{{Gruendl}},
+  \textsc{{Gschwend}}, \textsc{{Gupta}}, \textsc{{Gutierrez}},
+  \textsc{{Hartley}}, \textsc{{Hinton}}, \textsc{{Hollowood}},
+  \textsc{{Honscheid}}, \textsc{{Hoormann}}, \textsc{{Hoyle}},
+  \textsc{{James}}, \textsc{{Jeltema}}, \textsc{{Johnson}}, \textsc{{Johnson}},
+  \textsc{{Kasai}}, \textsc{{Kent}}, \textsc{{Kessler}}, \textsc{{Kim}},
+  \textsc{{Kirshner}}, \textsc{{Kovacs}}, \textsc{{Krause}}, \textsc{{Kron}},
+  \textsc{{Kuehn}}, \textsc{{Kuhlmann}}, \textsc{{Kuropatkin}},
+  \textsc{{Lahav}}, \textsc{{Lasker}}, \textsc{{Lewis}}, \textsc{{Li}},
+  \textsc{{Lidman}}, \textsc{{Lima}}, \textsc{{Lin}}, \textsc{{Macaulay}},
+  \textsc{{Maia}}, \textsc{{Mandel}}, \textsc{{March}}, \textsc{{Marriner}},
+  \textsc{{Marshall}}, \textsc{{Martini}}, \textsc{{Menanteau}},
+  \textsc{{Miller}}, \textsc{{Miquel}}, \textsc{{Miranda}}, \textsc{{Mohr}},
+  \textsc{{Morganson}}, \textsc{{Muthukrishna}}, \textsc{{M{\"o}ller}},
+  \textsc{{Neilsen}}, \textsc{{Nichol}}, \textsc{{Nord}}, \textsc{{Nugent}},
+  \textsc{{Ogando}}, \textsc{{Palmese}}, \textsc{{Pan}}, \textsc{{Plazas}},
+  \textsc{{Pursiainen}}, \textsc{{Romer}}, \textsc{{Roodman}}, \textsc{{Rozo}},
+  \textsc{{Rykoff}}, \textsc{{Sako}}, \textsc{{Sanchez}}, \textsc{{Scarpine}},
+  \textsc{{Schindler}}, \textsc{{Schubnell}}, \textsc{{Scolnic}},
+  \textsc{{Serrano}}, \textsc{{Sevilla-Noarbe}}, \textsc{{Sharp}},
+  \textsc{{Smith}}, \textsc{{Soares-Santos}}, \textsc{{Sobreira}},
+  \textsc{{Sommer}}, \textsc{{Spinka}}, \textsc{{Suchyta}},
+  \textsc{{Sullivan}}, \textsc{{Swann}}, \textsc{{Tarle}}, \textsc{{Thomas}},
+  \textsc{{Thomas}}, \textsc{{Troxel}}, \textsc{{Tucker}}, \textsc{{Uddin}},
+  \textsc{{Walker}}, \textsc{{Wester}}, \textsc{{Wiseman}}, \textsc{{Wolf}},
+  \textsc{{Yanny}}, \textsc{{Zhang}}, \textsc{{Zhang}} et \textsc{{DES
+  Collaboration}}}]{abbott2019}
+\textsc{{Abbott} T.~M.~C.}, \textsc{{Allam} S.}, \textsc{{Andersen} P.}
+  {et~al.} 2019, «~{First Cosmology Results using Type Ia Supernovae from the
+  Dark Energy Survey: Constraints on Cosmological Parameters}~»,
+  \href{http://dx.doi.org/10.3847/2041-8213/ab04fa}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...872L..30A}{872, L30}
 
 \bibitem[{\textsc{Ahmed}(2015)}]{syed2015}
 \textsc{Ahmed S.~N.} 2015, dans {\em Physics and Engineering of Radiation
@@ -261,6 +310,15 @@
   {et~al.} 2020, «~{Planck 2018 results. VI. Cosmological parameters}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201833910}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2020A&A...641A...6P}{641, A6}
+
+\bibitem[{\textsc{{Popovic}} {et~al.}(2021)\textsc{{Popovic}},
+  \textsc{{Brout}}, \textsc{{Kessler}} et \textsc{{Scolnic}}}]{popovic2021b}
+\textsc{{Popovic} B.}, \textsc{{Brout} D.}, \textsc{{Kessler} R.} et
+  \textsc{{Scolnic} D.} 2021, «~{The Pantheon+ Analysis: Forward-Modeling the
+  Dust and Intrinsic Colour Distributions of Type Ia Supernovae, and
+  Quantifying their Impact on Cosmological Inferences}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/2021arXiv211204456P}{arXiv e-prints,
+  arXiv:2112.04456}
 
 \bibitem[{\textsc{{Rest}} {et~al.}(2014)\textsc{{Rest}}, \textsc{{Scolnic}},
   \textsc{{Foley}}, \textsc{{Huber}}, \textsc{{Chornock}}, \textsc{{Narayan}},

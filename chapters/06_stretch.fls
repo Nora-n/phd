@@ -75,6 +75,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/emptypage/emptypage.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/emptypage/emptypage.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/sttools/floatpag.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/sttools/floatpag.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
