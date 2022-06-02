@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{19}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
@@ -74,6 +74,13 @@
   distances and cosmological constraints}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201014468}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2010A&A...523A...7G}{523, A7}
+
+\bibitem[{\textsc{{Hinton}} et \textsc{{Brout}}(2020)}]{hinton2020}
+\textsc{{Hinton} S.} et \textsc{{Brout} D.} 2020, «~{Pippin: A pipeline for
+  supernova cosmology}~»,
+  \href{http://dx.doi.org/10.21105/joss.02122}{\color{magenta}The Journal of
+  Open Source Software},
+  \href{https://ui.adsabs.harvard.edu/abs/2020JOSS....5.2122H}{5, 2122}
 
 \bibitem[{\textsc{{James}} et \textsc{{Roos}}(1975)}]{james1975}
 \textsc{{James} F.} et \textsc{{Roos} M.} 1975, «~{Minuit - a system for

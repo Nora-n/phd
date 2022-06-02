@@ -1,4 +1,4 @@
-\begin{thebibliography}{99}
+\begin{thebibliography}{107}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abbott}} {et~al.}(2019)\textsc{{Abbott}}, \textsc{{Allam}},
@@ -648,6 +648,23 @@
   \href{http://dx.doi.org/10.1051/0004-6361:20066930}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2007A&A...466...11G}{466, 11}
 
+\bibitem[{\textsc{{Guy}} {et~al.}(2010)\textsc{{Guy}}, \textsc{{Sullivan}},
+  \textsc{{Conley}}, \textsc{{Regnault}}, \textsc{{Astier}},
+  \textsc{{Balland}}, \textsc{{Basa}}, \textsc{{Carlberg}}, \textsc{{Fouchez}},
+  \textsc{{Hardin}}, \textsc{{Hook}}, \textsc{{Howell}}, \textsc{{Pain}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Perrett}}, \textsc{{Pritchet}},
+  \textsc{{Rich}}, \textsc{{Ruhlmann-Kleider}}, \textsc{{Balam}},
+  \textsc{{Baumont}}, \textsc{{Ellis}}, \textsc{{Fabbro}}, \textsc{{Fakhouri}},
+  \textsc{{Fourmanoit}}, \textsc{{Gonz{\'a}lez-Gait{\'a}n}}, \textsc{{Graham}},
+  \textsc{{Hsiao}}, \textsc{{Kronborg}}, \textsc{{Lidman}}, \textsc{{Mourao}},
+  \textsc{{Perlmutter}}, \textsc{{Ripoche}}, \textsc{{Suzuki}} et
+  \textsc{{Walker}}}]{guy2010}
+\textsc{{Guy} J.}, \textsc{{Sullivan} M.}, \textsc{{Conley} A.} {et~al.} 2010,
+  «~{The Supernova Legacy Survey 3-year sample: Type Ia supernovae photometric
+  distances and cosmological constraints}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201014468}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2010A&A...523A...7G}{523, A7}
+
 \bibitem[{\textsc{{Hadjiyska}} {et~al.}(2012)\textsc{{Hadjiyska}},
   \textsc{{Rabinowitz}}, \textsc{{Baltay}}, \textsc{{Ellman}},
   \textsc{{Nugent}}, \textsc{{Zinn}}, \textsc{{Horowitz}}, \textsc{{McKinnon}}
@@ -734,6 +751,13 @@
   Series, Vol. 3355, {\em Optical Astronomical Instrumentation}, ed.
   S.~{D'Odorico},
   \href{https://ui.adsabs.harvard.edu/abs/1998SPIE.3355..375H}{375--386}
+
+\bibitem[{\textsc{{Hinton}} et \textsc{{Brout}}(2020)}]{hinton2020}
+\textsc{{Hinton} S.} et \textsc{{Brout} D.} 2020, «~{Pippin: A pipeline for
+  supernova cosmology}~»,
+  \href{http://dx.doi.org/10.21105/joss.02122}{\color{magenta}The Journal of
+  Open Source Software},
+  \href{https://ui.adsabs.harvard.edu/abs/2020JOSS....5.2122H}{5, 2122}
 
 \bibitem[{\textsc{{Hinton}} {et~al.}(2019)\textsc{{Hinton}}, \textsc{{Davis}},
   \textsc{{Kim}}, \textsc{{Brout}}, \textsc{{D'Andrea}}, \textsc{{Kessler}},
@@ -892,6 +916,14 @@
   \href{http://dx.doi.org/10.3847/1538-4357/ab042c}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...873..111I}{873, 111}
 
+\bibitem[{\textsc{{James}} et \textsc{{Roos}}(1975)}]{james1975}
+\textsc{{James} F.} et \textsc{{Roos} M.} 1975, «~{Minuit - a system for
+  function minimization and analysis of the parameter errors and
+  correlations}~»,
+  \href{http://dx.doi.org/10.1016/0010-4655(75)90039-9}{\color{magenta}Computer
+  Physics Communications},
+  \href{https://ui.adsabs.harvard.edu/abs/1975CoPhC..10..343J}{10, 343}
+
 \bibitem[{\textsc{{Jha}} {et~al.}(2006)\textsc{{Jha}}, \textsc{{Kirshner}},
   \textsc{{Challis}}, \textsc{{Garnavich}}, \textsc{{Matheson}},
   \textsc{{Soderberg}}, \textsc{{Graves}}, \textsc{{Hicken}}, \textsc{{Alves}},
@@ -1043,6 +1075,13 @@
   \href{http://dx.doi.org/10.3847/1538-4357/836/1/56}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...836...56K}{836, 56}
 
+\bibitem[{\textsc{{Kunz}} {et~al.}(2007)\textsc{{Kunz}}, \textsc{{Bassett}} et
+  \textsc{{Hlozek}}}]{kunz2007}
+\textsc{{Kunz} M.}, \textsc{{Bassett} B.~A.} et \textsc{{Hlozek} R.~A.} 2007,
+  «~{Bayesian estimation applied to multiple species}~»,
+  \href{http://dx.doi.org/10.1103/PhysRevD.75.103508}{\color{magenta}\prd},
+  \href{https://ui.adsabs.harvard.edu/abs/2007PhRvD..75j3508K}{75, 103508}
+
 \bibitem[{\textsc{{Lantz}} {et~al.}(2004)\textsc{{Lantz}}, \textsc{{Aldering}},
   \textsc{{Antilogus}}, \textsc{{Bonnaud}}, \textsc{{Capoani}},
   \textsc{{Castera}}, \textsc{{Copin}}, \textsc{{Dubet}}, \textsc{{Gangler}},
@@ -1088,6 +1127,16 @@
   \href{http://dx.doi.org/10.1051/0004-6361:20041411}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2005A&A...433..807M}{433, 807}
 
+\bibitem[{\textsc{{Marriner}} {et~al.}(2011)\textsc{{Marriner}},
+  \textsc{{Bernstein}}, \textsc{{Kessler}}, \textsc{{Lampeitl}},
+  \textsc{{Miquel}}, \textsc{{Mosher}}, \textsc{{Nichol}}, \textsc{{Sako}},
+  \textsc{{Schneider}} et \textsc{{Smith}}}]{marriner2011}
+\textsc{{Marriner} J.}, \textsc{{Bernstein} J.~P.}, \textsc{{Kessler} R.}
+  {et~al.} 2011, «~{A More General Model for the Intrinsic Scatter in Type Ia
+  Supernova Distance Moduli}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/740/2/72}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2011ApJ...740...72M}{740, 72}
+
 \bibitem[{\textsc{{Marshall}} {et~al.}(2008)\textsc{{Marshall}},
   \textsc{{Burles}}, \textsc{{Thompson}}, \textsc{{Shectman}},
   \textsc{{Bigelow}}, \textsc{{Burley}}, \textsc{{Birk}}, \textsc{{Estrada}},
@@ -1117,6 +1166,16 @@
   from the Supernova Legacy Survey}~»,
   \href{http://dx.doi.org/10.1086/505532}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/2006AJ....132.1126N}{132, 1126}
+
+\bibitem[{\textsc{{Nicolas}} {et~al.}(2021)\textsc{{Nicolas}},
+  \textsc{{Rigault}}, \textsc{{Copin}}, \textsc{{Graziani}},
+  \textsc{{Aldering}}, \textsc{{Briday}}, \textsc{{Kim}}, \textsc{{Nordin}},
+  \textsc{{Perlmutter}} et \textsc{{Smith}}}]{nicolas2021}
+\textsc{{Nicolas} N.}, \textsc{{Rigault} M.}, \textsc{{Copin} Y.} {et~al.}
+  2021, «~{Redshift evolution of the underlying type Ia supernova stretch
+  distribution}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/202038447}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2021A&A...649A..74N}{649, A74}
 
 \bibitem[{\textsc{{Oke}} {et~al.}(1995)\textsc{{Oke}}, \textsc{{Cohen}},
   \textsc{{Carr}}, \textsc{{Cromer}}, \textsc{{Dingizian}}, \textsc{{Harris}},
@@ -1174,6 +1233,21 @@
   Survey}~»,
   \href{http://dx.doi.org/10.1088/0004-6256/140/2/518}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/2010AJ....140..518P}{140, 518}
+
+\bibitem[{\textsc{{Perrett}} {et~al.}(2012)\textsc{{Perrett}},
+  \textsc{{Sullivan}}, \textsc{{Conley}}, \textsc{{Gonz{\'a}lez-Gait{\'a}n}},
+  \textsc{{Carlberg}}, \textsc{{Fouchez}}, \textsc{{Ripoche}},
+  \textsc{{Neill}}, \textsc{{Astier}}, \textsc{{Balam}}, \textsc{{Balland}},
+  \textsc{{Basa}}, \textsc{{Guy}}, \textsc{{Hardin}}, \textsc{{Hook}},
+  \textsc{{Howell}}, \textsc{{Pain}}, \textsc{{Palanque-Delabrouille}},
+  \textsc{{Pritchet}}, \textsc{{Regnault}}, \textsc{{Rich}},
+  \textsc{{Ruhlmann-Kleider}}, \textsc{{Baumont}}, \textsc{{Lidman}},
+  \textsc{{Perlmutter}} et \textsc{{Walker}}}]{perrett2012}
+\textsc{{Perrett} K.}, \textsc{{Sullivan} M.}, \textsc{{Conley} A.} {et~al.}
+  2012, «~{Evolution in the Volumetric Type Ia Supernova Rate from the
+  Supernova Legacy Survey}~»,
+  \href{http://dx.doi.org/10.1088/0004-6256/144/2/59}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/2012AJ....144...59P}{144, 59}
 
 \bibitem[{\textsc{{Phillips}}(1993)}]{phillips1993}
 \textsc{{Phillips} M.~M.} 1993, «~{The Absolute Magnitudes of Type IA
@@ -1245,14 +1319,24 @@
   \href{http://dx.doi.org/10.1051/0004-6361/201833910}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2020A&A...641A...6P}{641, A6}
 
-\bibitem[{\textsc{{Popovic}} {et~al.}(2021)\textsc{{Popovic}},
+\bibitem[{\textsc{{Popovic}} {et~al.}(2021{\natexlab{a}})\textsc{{Popovic}},
   \textsc{{Brout}}, \textsc{{Kessler}} et \textsc{{Scolnic}}}]{popovic2021b}
 \textsc{{Popovic} B.}, \textsc{{Brout} D.}, \textsc{{Kessler} R.} et
-  \textsc{{Scolnic} D.} 2021, «~{The Pantheon+ Analysis: Forward-Modeling the
-  Dust and Intrinsic Colour Distributions of Type Ia Supernovae, and
-  Quantifying their Impact on Cosmological Inferences}~»,
+  \textsc{{Scolnic} D.} 2021{\natexlab{a}}, «~{The Pantheon+ Analysis:
+  Forward-Modeling the Dust and Intrinsic Colour Distributions of Type Ia
+  Supernovae, and Quantifying their Impact on Cosmological Inferences}~»,
   \href{https://ui.adsabs.harvard.edu/abs/2021arXiv211204456P}{arXiv e-prints,
   arXiv:2112.04456}
+
+\bibitem[{\textsc{{Popovic}} {et~al.}(2021{\natexlab{b}})\textsc{{Popovic}},
+  \textsc{{Brout}}, \textsc{{Kessler}}, \textsc{{Scolnic}} et
+  \textsc{{Lu}}}]{popovic2021a}
+\textsc{{Popovic} B.}, \textsc{{Brout} D.}, \textsc{{Kessler} R.},
+  \textsc{{Scolnic} D.} et \textsc{{Lu} L.} 2021{\natexlab{b}}, «~{Improved
+  Treatment of Host-galaxy Correlations in Cosmological Analyses with Type Ia
+  Supernovae}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/abf14f}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2021ApJ...913...49P}{913, 49}
 
 \bibitem[{\textsc{{Rabinowitz}} {et~al.}(2003)\textsc{{Rabinowitz}},
   \textsc{{Baltay}}, \textsc{{Emmet}}, \textsc{{Hurteau}}, \textsc{{Snyder}},

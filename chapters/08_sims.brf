@@ -1,9 +1,14 @@
 \backcite {scolnic2016}{{2}{I.1}{section.1.1}}
 \backcite {popovic2021a}{{2}{I.1}{section.1.1}}
-\backcite {smith2020}{{2}{I.1}{section.1.1}}
 \backcite {scolnic2016}{{2}{I.1.1}{subsection.1.1.1}}
+\backcite {scolnic2016}{{2}{I.1}{table.caption.2}}
+\backcite {scolnic2016}{{2}{I.1}{table.caption.2}}
+\backcite {scolnic2018}{{2}{I.1}{table.caption.2}}
+\backcite {scolnic2018}{{2}{I.1.1}{table.caption.2}}
 \backcite {popovic2021a}{{2}{I.1.2}{subsection.1.1.2}}
+\backcite {scolnic2016}{{3}{I.2}{table.caption.4}}
+\backcite {scolnic2018}{{3}{I.2}{table.caption.4}}
 \backcite {briday2021}{{3}{I.2}{equation.1.2.1}}
 \backcite {nicolas2021}{{3}{I.2.1}{subsection.1.2.1}}
-\backcite {rigault2020}{{5}{I.1}{figure.caption.1}}
+\backcite {rigault2020}{{5}{I.1}{figure.caption.5}}
 \backcite {rigault2020}{{11}{I.6}{section.1.6}}

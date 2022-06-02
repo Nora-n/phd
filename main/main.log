@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  26 MAY 2022 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  2 JUN 2022 18:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2262,19 +2262,7 @@ Package: fancyvrb 2008/02/07
 \c@FancyVerbLine=\count376
 \FV@StepNumber=\count377
 \FV@OutFile=\write6
-)
-../main/phd-preambulle.sty:232: FancyVerb Error:
-  Frame style `true' not defined.
-.
-\FV@Error ... {FancyVerb Error:
-\space \space #1
-}
-                                                  
-l.232     }
-           
-Your command was ignored. Type <return> to continue.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
  (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
@@ -2291,6 +2279,9 @@ LaTeX Warning: Unused global option(s):
 LaTeX Warning: Label `ssec:spectro' multiply defined.
 
 
+LaTeX Warning: Label `sssec:simlib' multiply defined.
+
+
 LaTeX Warning: Label `eq:likelihood' multiply defined.
 
 
@@ -2299,334 +2290,37 @@ LaTeX Warning: Label `tab:modelresults' multiply defined.
 
 LaTeX Warning: Label `ch' multiply defined.
 
-
-Package natbib Warning: Citation `abbott2019' multiply defined.
-
-
-Package natbib Warning: Citation `syed2015' multiply defined.
-
-
-Package natbib Warning: Citation `aldering2002' multiply defined.
-
-
-Package natbib Warning: Citation `astier2006' multiply defined.
-
-
-Package natbib Warning: Citation `aubourg2008' multiply defined.
-
-
-Package natbib Warning: Citation `balland2009' multiply defined.
-
-
-Package natbib Warning: Citation `bellm2019' multiply defined.
-
-
-Package natbib Warning: Citation `betoule2014' multiply defined.
-
-
-Package natbib Warning: Citation `blagorodnova2018' multiply defined.
-
-
-Package natbib Warning: Citation `boulade2003' multiply defined.
-
-
-Package natbib Warning: Citation `briday2021' multiply defined.
-
-
-Package natbib Warning: Citation `briday2022' multiply defined.
-
-
-Package natbib Warning: Citation `burgh2003' multiply defined.
-
-
-Package natbib Warning: Citation `burnham2004' multiply defined.
-
-
-Package natbib Warning: Citation `calzetti2013' multiply defined.
-
-
-Package natbib Warning: Citation `chambers2016' multiply defined.
-
-
-Package natbib Warning: Citation `conley2011' multiply defined.
-
-
-Package natbib Warning: Citation `contreras2010' multiply defined.
-
-
-Package natbib Warning: Citation `copin2013' multiply defined.
-
-
-Package natbib Warning: Citation `dekany2020' multiply defined.
-
-
-Package natbib Warning: Citation `dekker1986' multiply defined.
-
-
-Package natbib Warning: Citation `dilday2008' multiply defined.
-
-
-Package natbib Warning: Citation `dressler2011' multiply defined.
-
-
-Package natbib Warning: Citation `ellis2008' multiply defined.
-
-
-Package natbib Warning: Citation `faber2003' multiply defined.
-
-
-Package natbib Warning: Citation `fabricant2005' multiply defined.
-
-
-Package natbib Warning: Citation `feindt2019' multiply defined.
-
-
-Package natbib Warning: Citation `folatelli2010' multiply defined.
-
-
-Package natbib Warning: Citation `fremling2020' multiply defined.
-
-
-Package natbib Warning: Citation `frieman2008' multiply defined.
-
-
-Package natbib Warning: Citation `fukugita1996' multiply defined.
-
-
-Package natbib Warning: Citation `giavalisco2004' multiply defined.
-
-
-Package natbib Warning: Citation `graham2019' multiply defined.
-
-
-Package natbib Warning: Citation `graur2014' multiply defined.
-
-
-Package natbib Warning: Citation `gunn1998' multiply defined.
-
-
-Package natbib Warning: Citation `gunn2006' multiply defined.
-
-
-Package natbib Warning: Citation `guy2007' multiply defined.
-
-
-Package natbib Warning: Citation `hadjiyska2012' multiply defined.
-
-
-Package natbib Warning: Citation `hamuy1996' multiply defined.
-
-
-Package natbib Warning: Citation `hicken2009a' multiply defined.
-
-
-Package natbib Warning: Citation `hicken2012' multiply defined.
-
-
-Package natbib Warning: Citation `hicken2009b' multiply defined.
-
-
-Package natbib Warning: Citation `hill1998' multiply defined.
-
-
-Package natbib Warning: Citation `hinton2019' multiply defined.
-
-
-Package natbib Warning: Citation `hodapp2004' multiply defined.
-
-
-Package natbib Warning: Citation `hook2004' multiply defined.
-
-
-Package natbib Warning: Citation `howell2007' multiply defined.
-
-
-Package natbib Warning: Citation `ivezic2019' multiply defined.
-
-
-Package natbib Warning: Citation `jha2006' multiply defined.
-
-
-Package natbib Warning: Citation `kaiser2010' multiply defined.
-
-
-Package natbib Warning: Citation `kashikawa2000' multiply defined.
-
-
-Package natbib Warning: Citation `kennicutt1998' multiply defined.
-
-
-Package natbib Warning: Citation `kessler2009b' multiply defined.
-
-
-Package natbib Warning: Citation `kessler2009a' multiply defined.
-
-
-Package natbib Warning: Citation `kessler2019' multiply defined.
-
-
-Package natbib Warning: Citation `kessler2013' multiply defined.
-
-
-Package natbib Warning: Citation `kessler2017' multiply defined.
-
-
-Package natbib Warning: Citation `lantz2004' multiply defined.
-
-
-Package natbib Warning: Citation `law2009' multiply defined.
-
-
-Package natbib Warning: Citation `madau2015' multiply defined.
-
-
-Package natbib Warning: Citation `mannucci2005' multiply defined.
-
-
-Package natbib Warning: Citation `marshall2008' multiply defined.
-
-
-Package natbib Warning: Citation `neill2006' multiply defined.
-
-
-Package natbib Warning: Citation `oke1995' multiply defined.
-
-
-Package natbib Warning: Citation `pereira2013' multiply defined.
-
-
-Package natbib Warning: Citation `perlmutter1999' multiply defined.
-
-
-Package natbib Warning: Citation `perrett2010' multiply defined.
-
-
-Package natbib Warning: Citation `phillips1993' multiply defined.
-
-
-Package natbib Warning: Citation `planck2018' multiply defined.
-
-
-Package natbib Warning: Citation `popovic2021b' multiply defined.
-
-
-Package natbib Warning: Citation `rabinowitz2003' multiply defined.
-
-
-Package natbib Warning: Citation `rest2014' multiply defined.
-
-
-Package natbib Warning: Citation `riess2019' multiply defined.
-
-
-Package natbib Warning: Citation `riess1998' multiply defined.
-
-
-Package natbib Warning: Citation `riess1999' multiply defined.
-
-
-Package natbib Warning: Citation `riess2016' multiply defined.
-
-
-Package natbib Warning: Citation `riess2007' multiply defined.
-
-
-Package natbib Warning: Citation `rigault2020' multiply defined.
-
-
-Package natbib Warning: Citation `rigault2013' multiply defined.
-
-
-Package natbib Warning: Citation `rigault2019' multiply defined.
-
-
-Package natbib Warning: Citation `rodney2014' multiply defined.
-
-
-Package natbib Warning: Citation `rodrigo2020' multiply defined.
-
-
-Package natbib Warning: Citation `rubin2015' multiply defined.
-
-
-Package natbib Warning: Citation `sako2008' multiply defined.
-
-
-Package natbib Warning: Citation `sako2018' multiply defined.
-
-
-Package natbib Warning: Citation `scannapieco2005' multiply defined.
-
-
-Package natbib Warning: Citation `schmidt1989' multiply defined.
-
-
-Package natbib Warning: Citation `scolnic2016' multiply defined.
-
-
-Package natbib Warning: Citation `scolnic2014' multiply defined.
-
-
-Package natbib Warning: Citation `scolnic2018' multiply defined.
-
-
-Package natbib Warning: Citation `shariff2016' multiply defined.
-
-
-Package natbib Warning: Citation `smith2020' multiply defined.
-
-
-Package natbib Warning: Citation `stritzinger2011' multiply defined.
-
-
-Package natbib Warning: Citation `strolger2004' multiply defined.
-
-
-Package natbib Warning: Citation `sullivan2011' multiply defined.
-
-
-Package natbib Warning: Citation `sullivan2006' multiply defined.
-
-
-Package natbib Warning: Citation `suzuki2012' multiply defined.
-
-
-Package natbib Warning: Citation `tasca2015' multiply defined.
-
-
-Package natbib Warning: Citation `tonry2006' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    ... okay on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Info: Redefining \degres on input line 14.
-LaTeX Info: Redefining \dots on input line 14.
-LaTeX Info: Redefining \up on input line 14.
+LaTeX Info: Redefining \degres on input line 15.
+LaTeX Info: Redefining \dots on input line 15.
+LaTeX Info: Redefining \up on input line 15.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count378
@@ -2751,8 +2445,8 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                of loading the ``hyperref'' package.
 
 \AtBeginShipoutBox=\box103
-Package backref Info: ** backref set up for natbib ** on input line 14.
-Package hyperref Info: Link coloring ON on input line 14.
+Package backref Info: ** backref set up for natbib ** on input line 15.
+Package hyperref Info: Link coloring ON on input line 15.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -2760,13 +2454,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count384
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
  ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
-LaTeX Info: Redefining \microtypecontext on input line 14.
+LaTeX Info: Redefining \microtypecontext on input line 15.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2781,14 +2475,14 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 )
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 14.
-Package gensymb Info: Math companion symbols declared on input line 14.
-LaTeX Info: Redefining \degree on input line 14.
-LaTeX Info: Redefining \celsius on input line 14.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 14.
-LaTeX Info: Redefining \ohm on input line 14.
-Package gensymb Info: Using \textohm for \ohm on input line 14.
-Package gensymb Info: Using \textmu for \micro on input line 14.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 15.
+Package gensymb Info: Math companion symbols declared on input line 15.
+LaTeX Info: Redefining \degree on input line 15.
+LaTeX Info: Redefining \celsius on input line 15.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 15.
+LaTeX Info: Redefining \ohm on input line 15.
+Package gensymb Info: Using \textohm for \ohm on input line 15.
+Package gensymb Info: Using \textmu for \micro on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
@@ -2797,832 +2491,832 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \highlight with sig. '' on line 14.
+. Defining command \highlight with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \per with sig. '' on line 14.
+. Defining command \per with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \raiseto with sig. '' on line 14.
+. Defining command \raiseto with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tothe with sig. '' on line 14.
+. Defining command \tothe with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kilogram with sig. '' on line 14.
+. Defining command \kilogram with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \metre with sig. '' on line 14.
+. Defining command \metre with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \meter with sig. '' on line 14.
+. Defining command \meter with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mole with sig. '' on line 14.
+. Defining command \mole with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \second with sig. '' on line 14.
+. Defining command \second with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ampere with sig. '' on line 14.
+. Defining command \ampere with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kelvin with sig. '' on line 14.
+. Defining command \kelvin with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \candela with sig. '' on line 14.
+. Defining command \candela with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \gram with sig. '' on line 14.
+. Defining command \gram with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \yocto with sig. '' on line 14.
+. Defining command \yocto with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \zepto with sig. '' on line 14.
+. Defining command \zepto with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \atto with sig. '' on line 14.
+. Defining command \atto with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \femto with sig. '' on line 14.
+. Defining command \femto with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pico with sig. '' on line 14.
+. Defining command \pico with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nano with sig. '' on line 14.
+. Defining command \nano with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \milli with sig. '' on line 14.
+. Defining command \milli with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \centi with sig. '' on line 14.
+. Defining command \centi with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \deci with sig. '' on line 14.
+. Defining command \deci with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \deca with sig. '' on line 14.
+. Defining command \deca with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \deka with sig. '' on line 14.
+. Defining command \deka with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hecto with sig. '' on line 14.
+. Defining command \hecto with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kilo with sig. '' on line 14.
+. Defining command \kilo with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mega with sig. '' on line 14.
+. Defining command \mega with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \giga with sig. '' on line 14.
+. Defining command \giga with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tera with sig. '' on line 14.
+. Defining command \tera with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \peta with sig. '' on line 14.
+. Defining command \peta with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \exa with sig. '' on line 14.
+. Defining command \exa with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \zetta with sig. '' on line 14.
+. Defining command \zetta with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \yotta with sig. '' on line 14.
+. Defining command \yotta with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \becquerel with sig. '' on line 14.
+. Defining command \becquerel with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \degreeCelsius with sig. '' on line 14.
+. Defining command \degreeCelsius with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \coulomb with sig. '' on line 14.
+. Defining command \coulomb with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \farad with sig. '' on line 14.
+. Defining command \farad with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \gray with sig. '' on line 14.
+. Defining command \gray with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hertz with sig. '' on line 14.
+. Defining command \hertz with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \henry with sig. '' on line 14.
+. Defining command \henry with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \joule with sig. '' on line 14.
+. Defining command \joule with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \katal with sig. '' on line 14.
+. Defining command \katal with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \lumen with sig. '' on line 14.
+. Defining command \lumen with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \lux with sig. '' on line 14.
+. Defining command \lux with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newton with sig. '' on line 14.
+. Defining command \newton with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pascal with sig. '' on line 14.
+. Defining command \pascal with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \radian with sig. '' on line 14.
+. Defining command \radian with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \siemens with sig. '' on line 14.
+. Defining command \siemens with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \sievert with sig. '' on line 14.
+. Defining command \sievert with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \steradian with sig. '' on line 14.
+. Defining command \steradian with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tesla with sig. '' on line 14.
+. Defining command \tesla with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \volt with sig. '' on line 14.
+. Defining command \volt with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \watt with sig. '' on line 14.
+. Defining command \watt with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \weber with sig. '' on line 14.
+. Defining command \weber with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \arcmin with sig. '' on line 14.
+. Defining command \arcmin with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \arcminute with sig. '' on line 14.
+. Defining command \arcminute with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \arcsecond with sig. '' on line 14.
+. Defining command \arcsecond with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hectare with sig. '' on line 14.
+. Defining command \hectare with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hour with sig. '' on line 14.
+. Defining command \hour with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \litre with sig. '' on line 14.
+. Defining command \litre with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \liter with sig. '' on line 14.
+. Defining command \liter with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \minute with sig. '' on line 14.
+. Defining command \minute with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \percent with sig. '' on line 14.
+. Defining command \percent with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tonne with sig. '' on line 14.
+. Defining command \tonne with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \astronomicalunit with sig. '' on line 14.
+. Defining command \astronomicalunit with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \atomicmassunit with sig. '' on line 14.
+. Defining command \atomicmassunit with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \electronvolt with sig. '' on line 14.
+. Defining command \electronvolt with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \dalton with sig. '' on line 14.
+. Defining command \dalton with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \clight with sig. '' on line 14.
+. Defining command \clight with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \electronmass with sig. '' on line 14.
+. Defining command \electronmass with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \planckbar with sig. '' on line 14.
+. Defining command \planckbar with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \elementarycharge with sig. '' on line 14.
+. Defining command \elementarycharge with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \bohr with sig. '' on line 14.
+. Defining command \bohr with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hartree with sig. '' on line 14.
+. Defining command \hartree with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \angstrom with sig. '' on line 14.
+. Defining command \angstrom with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \barn with sig. '' on line 14.
+. Defining command \barn with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \bel with sig. '' on line 14.
+. Defining command \bel with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \decibel with sig. '' on line 14.
+. Defining command \decibel with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \knot with sig. '' on line 14.
+. Defining command \knot with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mmHg with sig. '' on line 14.
+. Defining command \mmHg with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nauticalmile with sig. '' on line 14.
+. Defining command \nauticalmile with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \neper with sig. '' on line 14.
+. Defining command \neper with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \squared with sig. '' on line 14.
+. Defining command \squared with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cubic with sig. '' on line 14.
+. Defining command \cubic with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cubed with sig. '' on line 14.
+. Defining command \cubed with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pc with sig. '' on line 14.
+. Defining command \pc with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \as with sig. '' on line 14.
+. Defining command \as with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \A with sig. '' on line 14.
+. Defining command \A with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pA with sig. '' on line 14.
+. Defining command \pA with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nA with sig. '' on line 14.
+. Defining command \nA with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \uA with sig. '' on line 14.
+. Defining command \uA with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mA with sig. '' on line 14.
+. Defining command \mA with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kA with sig. '' on line 14.
+. Defining command \kA with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \Hz with sig. '' on line 14.
+. Defining command \Hz with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mHz with sig. '' on line 14.
+. Defining command \mHz with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kHz with sig. '' on line 14.
+. Defining command \kHz with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \MHz with sig. '' on line 14.
+. Defining command \MHz with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \GHz with sig. '' on line 14.
+. Defining command \GHz with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \THz with sig. '' on line 14.
+. Defining command \THz with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mol with sig. '' on line 14.
+. Defining command \mol with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fmol with sig. '' on line 14.
+. Defining command \fmol with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pmol with sig. '' on line 14.
+. Defining command \pmol with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nmol with sig. '' on line 14.
+. Defining command \nmol with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \umol with sig. '' on line 14.
+. Defining command \umol with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mmol with sig. '' on line 14.
+. Defining command \mmol with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kmol with sig. '' on line 14.
+. Defining command \kmol with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \V with sig. '' on line 14.
+. Defining command \V with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pV with sig. '' on line 14.
+. Defining command \pV with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nV with sig. '' on line 14.
+. Defining command \nV with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \uV with sig. '' on line 14.
+. Defining command \uV with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mV with sig. '' on line 14.
+. Defining command \mV with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kV with sig. '' on line 14.
+. Defining command \kV with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hl with sig. '' on line 14.
+. Defining command \hl with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ml with sig. '' on line 14.
+. Defining command \ml with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ul with sig. '' on line 14.
+. Defining command \ul with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hL with sig. '' on line 14.
+. Defining command \hL with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mL with sig. '' on line 14.
+. Defining command \mL with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \uL with sig. '' on line 14.
+. Defining command \uL with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pg with sig. '' on line 14.
+. Defining command \pg with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ug with sig. '' on line 14.
+. Defining command \ug with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mg with sig. '' on line 14.
+. Defining command \mg with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kg with sig. '' on line 14.
+. Defining command \kg with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \amu with sig. '' on line 14.
+. Defining command \amu with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \W with sig. '' on line 14.
+. Defining command \W with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \uW with sig. '' on line 14.
+. Defining command \uW with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mW with sig. '' on line 14.
+. Defining command \mW with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kW with sig. '' on line 14.
+. Defining command \kW with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \MW with sig. '' on line 14.
+. Defining command \MW with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \GW with sig. '' on line 14.
+. Defining command \GW with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \J with sig. '' on line 14.
+. Defining command \J with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kJ with sig. '' on line 14.
+. Defining command \kJ with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \eV with sig. '' on line 14.
+. Defining command \eV with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \meV with sig. '' on line 14.
+. Defining command \meV with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \keV with sig. '' on line 14.
+. Defining command \keV with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \MeV with sig. '' on line 14.
+. Defining command \MeV with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \GeV with sig. '' on line 14.
+. Defining command \GeV with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \TeV with sig. '' on line 14.
+. Defining command \TeV with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kWh with sig. '' on line 14.
+. Defining command \kWh with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nm with sig. '' on line 14.
+. Defining command \nm with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \um with sig. '' on line 14.
+. Defining command \um with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mm with sig. '' on line 14.
+. Defining command \mm with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cm with sig. '' on line 14.
+. Defining command \cm with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \dm with sig. '' on line 14.
+. Defining command \dm with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \km with sig. '' on line 14.
+. Defining command \km with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \K with sig. '' on line 14.
+. Defining command \K with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \dB with sig. '' on line 14.
+. Defining command \dB with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fF with sig. '' on line 14.
+. Defining command \fF with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pF with sig. '' on line 14.
+. Defining command \pF with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \N with sig. '' on line 14.
+. Defining command \N with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mN with sig. '' on line 14.
+. Defining command \mN with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kN with sig. '' on line 14.
+. Defining command \kN with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \MN with sig. '' on line 14.
+. Defining command \MN with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \Pa with sig. '' on line 14.
+. Defining command \Pa with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kPa with sig. '' on line 14.
+. Defining command \kPa with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \MPa with sig. '' on line 14.
+. Defining command \MPa with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \GPa with sig. '' on line 14.
+. Defining command \GPa with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mohm with sig. '' on line 14.
+. Defining command \mohm with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kohm with sig. '' on line 14.
+. Defining command \kohm with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \Mohm with sig. '' on line 14.
+. Defining command \Mohm with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fs with sig. '' on line 14.
+. Defining command \fs with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ps with sig. '' on line 14.
+. Defining command \ps with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ns with sig. '' on line 14.
+. Defining command \ns with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \us with sig. '' on line 14.
+. Defining command \us with sig. '' on line 15.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ms with sig. '' on line 14.
+. Defining command \ms with sig. '' on line 15.
 .................................................
 \c@lstlisting=\count385
 \c__siunitx_mathsf_int=\count386
-LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -3672,7 +3366,7 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 
 ])
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 21.
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 22.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mtc1.
 \openout4 = `main.mtc1'.
@@ -3709,6 +3403,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc9.
 \openout4 = `main.mtc9'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc10.
+\openout4 = `main.mtc10'.
+
  [9] [10
 
 ] (./main.toc
@@ -3720,12 +3418,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [11] [12] [13])
+ [11] [12]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 102.
+ [13])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
 Package minitoc Info: I0034
-(minitoc)             PREPARING MINILOFS FROM main.lof on input line 23.
+(minitoc)             PREPARING MINILOFS FROM main.lof on input line 24.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mlf1.
 \openout4 = `main.mlf1'.
@@ -3758,6 +3459,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mlf8.
 \openout4 = `main.mlf8'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlf9.
+\openout4 = `main.mlf9'.
+
  [14] (./main.lof [15
 
 ])
@@ -3765,7 +3470,7 @@ Package minitoc Info: I0033
 \openout8 = `main.lof'.
 
 Package minitoc Info: I0037
-(minitoc)             PREPARING MINILOTS FROM main.lot on input line 25.
+(minitoc)             PREPARING MINILOTS FROM main.lot on input line 26.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mlt1.
 \openout4 = `main.mlt1'.
@@ -3798,6 +3503,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mlt8.
 \openout4 = `main.mlt8'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlt9.
+\openout4 = `main.mlt9'.
+
  [16] (./main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
@@ -3817,17 +3526,17 @@ Chapitre I.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\spacefactor' on input line 31.
+(hyperref)                removing `\spacefactor' on input line 36.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@m' on input line 31.
+(hyperref)                removing `\@m' on input line 36.
 
 [2]
 Package minitoc Info: I0006
-(minitoc)             main.mlf1 is empty on input line 45.
+(minitoc)             main.mlf1 is empty on input line 49.
 Package minitoc Info: I0006
-(minitoc)             main.mlt1 is empty on input line 46.
+(minitoc)             main.mlt1 is empty on input line 51.
 ) (../chapters/02_sne.tex
 Chapitre II.
 \openout4 = `main.mtc'.
@@ -3838,12 +3547,12 @@ Chapitre II.
 
 ]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 31.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 36.
  [4]
 Package minitoc Info: I0006
-(minitoc)             main.mlf2 is empty on input line 47.
+(minitoc)             main.mlf2 is empty on input line 51.
 Package minitoc Info: I0006
-(minitoc)             main.mlt2 is empty on input line 48.
+(minitoc)             main.mlt2 is empty on input line 53.
 ) (../chapters/03_env.tex
 Chapitre III.
 \openout4 = `main.mtc'.
@@ -3854,9 +3563,9 @@ Chapitre III.
 
 ] [6] [7]
 Package minitoc Info: I0006
-(minitoc)             main.mlf3 is empty on input line 111.
+(minitoc)             main.mlf3 is empty on input line 115.
 Package minitoc Info: I0006
-(minitoc)             main.mlt3 is empty on input line 112.
+(minitoc)             main.mlt3 is empty on input line 117.
 ) (../chapters/04_surveys.tex [8
 
 ]
@@ -3867,29 +3576,29 @@ Chapitre IV.
 \openout4 = `main.mtc'.
 
  (./main.mtc4) [10]
-<../figures/bands_SNF.pdf, id=706, 404.80768pt x 301.15501pt>
+<../figures/bands_SNF.pdf, id=728, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNF.pdf Graphic file (type pdf)
 <use ../figures/bands_SNF.pdf>
 Package pdftex.def Info: ../figures/bands_SNF.pdf  used on input line 107.
 (pdftex.def)             Requested size: 200.30852pt x 149.01935pt.
-<../figures/2011fe_lightcurves.pdf, id=711, 597.23125pt x 845.1575pt>
+<../figures/2011fe_lightcurves.pdf, id=733, 597.23125pt x 845.1575pt>
 File: ../figures/2011fe_lightcurves.pdf Graphic file (type pdf)
 <use ../figures/2011fe_lightcurves.pdf>
 Package pdftex.def Info: ../figures/2011fe_lightcurves.pdf  used on input line 118.
 (pdftex.def)             Requested size: 245.82875pt x 133.48036pt.
  [11] [12 <../figures/2011fe_lightcurves.pdf> <../figures/bands_SNF.pdf>]
-<../figures/hist_SNF_zxc.pdf, id=766, 731.13103pt x 225.24101pt>
+<../figures/hist_SNF_zxc.pdf, id=788, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNF_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNF_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SNF_zxc.pdf  used on input line 204.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
  [13 <../figures/hist_SNF_zxc.pdf>]
-<../figures/bands_SDSS.pdf, id=806, 404.80768pt x 301.15501pt>
+<../figures/bands_SDSS.pdf, id=828, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SDSS.pdf Graphic file (type pdf)
 <use ../figures/bands_SDSS.pdf>
 Package pdftex.def Info: ../figures/bands_SDSS.pdf  used on input line 254.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_2005gg.pdf, id=811, 406.34096pt x 296.715pt>
+<../figures/lc_2005gg.pdf, id=833, 406.34096pt x 296.715pt>
 File: ../figures/lc_2005gg.pdf Graphic file (type pdf)
 <use ../figures/lc_2005gg.pdf>
 Package pdftex.def Info: ../figures/lc_2005gg.pdf  used on input line 261.
@@ -3902,18 +3611,18 @@ Underfull \vbox (badness 3590) has occurred while \output is active []
 LaTeX Warning: Reference `sec:salt' on page 15 undefined on input line 355.
 
 [15]
-<../figures/hist_SDSS_zxc.pdf, id=904, 731.13103pt x 225.24101pt>
+<../figures/hist_SDSS_zxc.pdf, id=926, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SDSS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SDSS_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SDSS_zxc.pdf  used on input line 364.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
  [16 <../figures/hist_SDSS_zxc.pdf>]
-<../figures/bands_PS1.pdf, id=942, 404.80768pt x 301.15501pt>
+<../figures/bands_PS1.pdf, id=964, 404.80768pt x 301.15501pt>
 File: ../figures/bands_PS1.pdf Graphic file (type pdf)
 <use ../figures/bands_PS1.pdf>
 Package pdftex.def Info: ../figures/bands_PS1.pdf  used on input line 411.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_550041.pdf, id=947, 406.34096pt x 296.715pt>
+<../figures/lc_550041.pdf, id=969, 406.34096pt x 296.715pt>
 File: ../figures/lc_550041.pdf Graphic file (type pdf)
 <use ../figures/lc_550041.pdf>
 Package pdftex.def Info: ../figures/lc_550041.pdf  used on input line 418.
@@ -3925,33 +3634,36 @@ File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 489.
 
-<../figures/hist_PS1_zxc.pdf, id=1016, 731.13103pt x 225.24101pt>
+<../figures/hist_PS1_zxc.pdf, id=1038, 731.13103pt x 225.24101pt>
 File: ../figures/hist_PS1_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_PS1_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_PS1_zxc.pdf  used on input line 519.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-[18 <../figures/hist_PS1_zxc.pdf>] [19]
-<../figures/bands_SNLS.pdf, id=1069, 404.80768pt x 301.15501pt>
+[18]
+<../figures/bands_SNLS.pdf, id=1068, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNLS.pdf Graphic file (type pdf)
 <use ../figures/bands_SNLS.pdf>
 Package pdftex.def Info: ../figures/bands_SNLS.pdf  used on input line 569.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_04D1hx.pdf, id=1074, 406.34096pt x 296.715pt>
+<../figures/lc_04D1hx.pdf, id=1073, 406.34096pt x 296.715pt>
 File: ../figures/lc_04D1hx.pdf Graphic file (type pdf)
 <use ../figures/lc_04D1hx.pdf>
 Package pdftex.def Info: ../figures/lc_04D1hx.pdf  used on input line 576.
 (pdftex.def)             Requested size: 223.07211pt x 162.8904pt.
-
-Underfull \vbox (badness 4699) has occurred while \output is active []
-
- [20 <../figures/bands_SNLS.pdf> <../figures/lc_04D1hx.pdf>]
-<../figures/hist_SNLS_zxc.pdf, id=1128, 731.13103pt x 225.24101pt>
+ [19 <../figures/hist_PS1_zxc.pdf>]
+<../figures/hist_SNLS_zxc.pdf, id=1116, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNLS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNLS_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SNLS_zxc.pdf  used on input line 617.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <../figures/bands_SNLS.pdf> <../figures/lc_04D1hx.pdf>]
+Underfull \vbox (badness 3039) has occurred while \output is active []
+
  [21 <../figures/hist_SNLS_zxc.pdf>]
-<../figures/bands_HST.pdf, id=1173, 411.85757pt x 301.15501pt>
+<../figures/bands_HST.pdf, id=1196, 411.85757pt x 301.15501pt>
 File: ../figures/bands_HST.pdf Graphic file (type pdf)
 <use ../figures/bands_HST.pdf>
 Package pdftex.def Info: ../figures/bands_HST.pdf  used on input line 683.
@@ -3965,27 +3677,24 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 742.
 
-<../figures/hist_HST_zxc.pdf, id=1203, 731.13103pt x 225.24101pt>
+<../figures/hist_HST_zxc.pdf, id=1226, 731.13103pt x 225.24101pt>
 File: ../figures/hist_HST_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_HST_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_HST_zxc.pdf  used on input line 744.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23 <../figures/hist_HST_zxc.pdf>]
-<../figures/hist_LOWZ_zxc.pdf, id=1241, 731.13103pt x 225.24101pt>
+[23 <../figures/hist_HST_zxc.pdf>]
+<../figures/hist_LOWZ_zxc.pdf, id=1265, 731.13103pt x 225.24101pt>
 File: ../figures/hist_LOWZ_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_LOWZ_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_LOWZ_zxc.pdf  used on input line 770.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
  [24 <../figures/hist_LOWZ_zxc.pdf>]
-<../figures/bands_ZTF.pdf, id=1279, 404.80768pt x 301.15501pt>
+<../figures/bands_ZTF.pdf, id=1302, 404.80768pt x 301.15501pt>
 File: ../figures/bands_ZTF.pdf Graphic file (type pdf)
 <use ../figures/bands_ZTF.pdf>
 Package pdftex.def Info: ../figures/bands_ZTF.pdf  used on input line 823.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_ZTF19aantarc.pdf, id=1284, 399.29103pt x 296.715pt>
+<../figures/lc_ZTF19aantarc.pdf, id=1307, 399.29103pt x 296.715pt>
 File: ../figures/lc_ZTF19aantarc.pdf Graphic file (type pdf)
 <use ../figures/lc_ZTF19aantarc.pdf>
 Package pdftex.def Info: ../figures/lc_ZTF19aantarc.pdf  used on input line 831.
@@ -3995,12 +3704,12 @@ Package pdftex.def Info: ../figures/lc_ZTF19aantarc.pdf  used on input line 831.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 882.
 
-<../figures/hist_ZTF_zxc.pdf, id=1331, 731.13103pt x 225.24101pt>
+<../figures/hist_ZTF_zxc.pdf, id=1354, 731.13103pt x 225.24101pt>
 File: ../figures/hist_ZTF_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_ZTF_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_ZTF_zxc.pdf  used on input line 884.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-<../figures/hist_all_zxc.pdf, id=1334, 507.51895pt x 704.10483pt>
+<../figures/hist_all_zxc.pdf, id=1357, 507.51895pt x 704.10483pt>
 File: ../figures/hist_all_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_all_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_all_zxc.pdf  used on input line 901.
@@ -4024,84 +3733,84 @@ Chapitre V.
 \openout4 = `main.mtc'.
 
 (./main.mtc5) [31] [32] [33]
-<../figures/zmax_method_snls-01.pdf, id=1471, 499.71544pt x 253.45119pt>
+<../figures/zmax_method_snls-01.pdf, id=1494, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-01.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-01.pdf>
 Package pdftex.def Info: ../figures/zmax_method_snls-01.pdf  used on input line 200.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
-<../figures/zmax_method_snls-02.pdf, id=1472, 499.71544pt x 253.45119pt>
+<../figures/zmax_method_snls-02.pdf, id=1495, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-02.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-02.pdf>
 Package pdftex.def Info: ../figures/zmax_method_snls-02.pdf  used on input line 207.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
  [34]
-<../figures/zmax_method_results.pdf, id=1486, 518.83969pt x 356.1977pt>
+<../figures/zmax_method_results.pdf, id=1509, 518.83969pt x 356.1977pt>
 File: ../figures/zmax_method_results.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_results.pdf>
-Package pdftex.def Info: ../figures/zmax_method_results.pdf  used on input line 269.
+Package pdftex.def Info: ../figures/zmax_method_results.pdf  used on input line 271.
 (pdftex.def)             Requested size: 318.66948pt x 218.7858pt.
  [35 <../figures/zmax_method_snls-01.pdf> <../figures/zmax_method_snls-02.pdf>]
 
-LaTeX Warning: Reference `eq:mxc' on page 36 undefined on input line 299.
+LaTeX Warning: Reference `eq:mxc' on page 36 undefined on input line 301.
 
-<../figures/zmax_maglim_snls.pdf, id=1531, 536.6527pt x 345.17519pt>
+<../figures/zmax_maglim_snls.pdf, id=1554, 536.6527pt x 345.17519pt>
 File: ../figures/zmax_maglim_snls.pdf Graphic file (type pdf)
 <use ../figures/zmax_maglim_snls.pdf>
-Package pdftex.def Info: ../figures/zmax_maglim_snls.pdf  used on input line 315.
+Package pdftex.def Info: ../figures/zmax_maglim_snls.pdf  used on input line 317.
 (pdftex.def)             Requested size: 432.48051pt x 278.1841pt.
 [36 <../figures/zmax_method_results.pdf>] [37 <../figures/zmax_maglim_snls.pdf>]
-<../figures/speceff-all.pdf, id=1591, 468.07358pt x 340.17519pt>
+<../figures/speceff-all.pdf, id=1614, 468.07358pt x 340.17519pt>
 File: ../figures/speceff-all.pdf Graphic file (type pdf)
 <use ../figures/speceff-all.pdf>
-Package pdftex.def Info: ../figures/speceff-all.pdf  used on input line 364.
+Package pdftex.def Info: ../figures/speceff-all.pdf  used on input line 366.
 (pdftex.def)             Requested size: 227.62206pt x 165.42596pt.
-<../figures/snls_malmquist.png, id=1615, 1531.7225pt x 1056.94875pt>
+<../figures/snls_malmquist.png, id=1638, 1531.7225pt x 1056.94875pt>
 File: ../figures/snls_malmquist.png Graphic file (type png)
 <use ../figures/snls_malmquist.png>
-Package pdftex.def Info: ../figures/snls_malmquist.png  used on input line 390.
+Package pdftex.def Info: ../figures/snls_malmquist.png  used on input line 392.
 (pdftex.def)             Requested size: 227.62206pt x 157.06784pt.
-<../figures/ps1_malmquist.png, id=1625, 1253.68375pt x 829.0975pt>
+<../figures/ps1_malmquist.png, id=1648, 1253.68375pt x 829.0975pt>
 File: ../figures/ps1_malmquist.png Graphic file (type png)
 <use ../figures/ps1_malmquist.png>
-Package pdftex.def Info: ../figures/ps1_malmquist.png  used on input line 409.
+Package pdftex.def Info: ../figures/ps1_malmquist.png  used on input line 411.
 (pdftex.def)             Requested size: 227.62206pt x 150.52151pt.
  [38 <../figures/speceff-all.pdf>]
-<../figures/sdss_malmquist.png, id=1666, 1279.78125pt x 866.23625pt>
+<../figures/sdss_malmquist.png, id=1689, 1279.78125pt x 866.23625pt>
 File: ../figures/sdss_malmquist.png Graphic file (type png)
 <use ../figures/sdss_malmquist.png>
-Package pdftex.def Info: ../figures/sdss_malmquist.png  used on input line 436.
+Package pdftex.def Info: ../figures/sdss_malmquist.png  used on input line 438.
 (pdftex.def)             Requested size: 227.62206pt x 154.06532pt.
  [39 <../figures/snls_malmquist.png> <../figures/ps1_malmquist.png> <../figures/sdss_malmquist.png>]
-<../figures/hist_surveys_cuts_nospace.pdf, id=1682, 444.45978pt x 431.2856pt>
+<../figures/hist_surveys_cuts_nospace.pdf, id=1705, 444.45978pt x 431.2856pt>
 File: ../figures/hist_surveys_cuts_nospace.pdf Graphic file (type pdf)
 <use ../figures/hist_surveys_cuts_nospace.pdf>
-Package pdftex.def Info: ../figures/hist_surveys_cuts_nospace.pdf  used on input line 509.
+Package pdftex.def Info: ../figures/hist_surveys_cuts_nospace.pdf  used on input line 511.
 (pdftex.def)             Requested size: 364.19667pt x 353.41298pt.
-<../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf, id=1693, 360.651pt x 301.90685pt>
+<../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf, id=1716, 360.651pt x 301.90685pt>
 File: ../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf>
-Package pdftex.def Info: ../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf  used on input line 538.
+Package pdftex.def Info: ../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf  used on input line 540.
 (pdftex.def)             Requested size: 432.48051pt x 362.06065pt.
 
-Underfull \vbox (badness 2671) has occurred while \output is active []
+Underfull \vbox (badness 3312) has occurred while \output is active []
 
  [40] [41 <../figures/hist_surveys_cuts_nospace.pdf>] [42 <../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf>]
-<../figures/both-cut_SDSS_SNLS_PS1.pdf, id=1759, 511.96727pt x 263.33275pt>
+<../figures/both-cut_SDSS_SNLS_PS1.pdf, id=1782, 511.96727pt x 263.33275pt>
 File: ../figures/both-cut_SDSS_SNLS_PS1.pdf Graphic file (type pdf)
 <use ../figures/both-cut_SDSS_SNLS_PS1.pdf>
-Package pdftex.def Info: ../figures/both-cut_SDSS_SNLS_PS1.pdf  used on input line 609.
+Package pdftex.def Info: ../figures/both-cut_SDSS_SNLS_PS1.pdf  used on input line 611.
 (pdftex.def)             Requested size: 364.19667pt x 187.33319pt.
  [43] [44 <../figures/both-cut_SDSS_SNLS_PS1.pdf>]
-<../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf, id=1803, 360.651pt x 301.90685pt>
+<../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf, id=1826, 360.651pt x 301.90685pt>
 File: ../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf>
-Package pdftex.def Info: ../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf  used on input line 711.
+Package pdftex.def Info: ../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf  used on input line 713.
 (pdftex.def)             Requested size: 364.19667pt x 304.89586pt.
  [45 <../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf>]
-<../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf, id=1836, 544.93951pt x 301.90685pt>
+<../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf, id=1859, 544.93951pt x 301.90685pt>
 File: ../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf>
-Package pdftex.def Info: ../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf  used on input line 743.
+Package pdftex.def Info: ../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf  used on input line 745.
 (pdftex.def)             Requested size: 500.77129pt x 277.43518pt.
  [46 <../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf>]
 \openout4 = `main.mtc'.
@@ -4127,7 +3836,7 @@ Chapitre VI.
 
 LaTeX Warning: Reference `ssec:snf' on page 50 undefined on input line 54.
 
-<../figures/model_base_hist.pdf, id=1919, 486.55167pt x 255.0512pt>
+<../figures/model_base_hist.pdf, id=1942, 486.55167pt x 255.0512pt>
 File: ../figures/model_base_hist.pdf Graphic file (type pdf)
 <use ../figures/model_base_hist.pdf>
 Package pdftex.def Info: ../figures/model_base_hist.pdf  used on input line 72.
@@ -4138,7 +3847,7 @@ Overfull \hbox (20.13852pt too wide) in paragraph at lines 118--121
  []
 
 [51]
-<../figures/stretchevol_all-oth_vs_snf-weighted.pdf, id=1965, 530.03967pt x 340.17519pt>
+<../figures/stretchevol_all-oth_vs_snf-weighted.pdf, id=1988, 530.03967pt x 340.17519pt>
 File: ../figures/stretchevol_all-oth_vs_snf-weighted.pdf Graphic file (type pdf)
 <use ../figures/stretchevol_all-oth_vs_snf-weighted.pdf>
 Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_snf-weighted.pdf  used on input line 200.
@@ -4146,13 +3855,13 @@ Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_snf-weighted.pdf  use
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 ) [52] [53 <../figures/stretchevol_all-oth_vs_snf-weighted.pdf>]
-<../figures/mod_comp.pdf, id=2024, 355.69597pt x 255.87701pt>
+<../figures/mod_comp.pdf, id=2047, 355.69597pt x 255.87701pt>
 File: ../figures/mod_comp.pdf Graphic file (type pdf)
 <use ../figures/mod_comp.pdf>
 Package pdftex.def Info: ../figures/mod_comp.pdf  used on input line 340.
 (pdftex.def)             Requested size: 455.24411pt x 327.49413pt.
  [54] [55 <../figures/mod_comp.pdf>] [56] [57]
-<../figures/model_all_evol.pdf, id=2103, 731.13103pt x 1020.21103pt>
+<../figures/model_all_evol.pdf, id=2126, 731.13103pt x 1020.21103pt>
 File: ../figures/model_all_evol.pdf Graphic file (type pdf)
 <use ../figures/model_all_evol.pdf>
 Package pdftex.def Info: ../figures/model_all_evol.pdf  used on input line 534.
@@ -4164,7 +3873,7 @@ LaTeX Warning: Float too large for page by 65.94391pt on input line 559.
 
 LaTeX Warning: Reference `sec:pmod' on page 58 undefined on input line 562.
 
-<../figures/mod_comp_zonly.pdf, id=2109, 355.69597pt x 253.91283pt>
+<../figures/mod_comp_zonly.pdf, id=2132, 355.69597pt x 253.91283pt>
 File: ../figures/mod_comp_zonly.pdf Graphic file (type pdf)
 <use ../figures/mod_comp_zonly.pdf>
 Package pdftex.def Info: ../figures/mod_comp_zonly.pdf  used on input line 629.
@@ -4172,42 +3881,42 @@ Package pdftex.def Info: ../figures/mod_comp_zonly.pdf  used on input line 629.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/mod_comp-supercut.pdf, id=2116, 342.79208pt x 255.87701pt>
+<../figures/mod_comp-supercut.pdf, id=2139, 342.79208pt x 255.87701pt>
 File: ../figures/mod_comp-supercut.pdf Graphic file (type pdf)
 <use ../figures/mod_comp-supercut.pdf>
 Package pdftex.def Info: ../figures/mod_comp-supercut.pdf  used on input line 692.
 (pdftex.def)             Requested size: 250.38564pt x 186.90189pt.
 [58] [59 <../figures/model_all_evol.pdf>]
-<../figures/mod_comp_6mod.pdf, id=2147, 342.79208pt x 245.82036pt>
+<../figures/mod_comp_6mod.pdf, id=2170, 342.79208pt x 245.82036pt>
 File: ../figures/mod_comp_6mod.pdf Graphic file (type pdf)
 <use ../figures/mod_comp_6mod.pdf>
 Package pdftex.def Info: ../figures/mod_comp_6mod.pdf  used on input line 704.
 (pdftex.def)             Requested size: 250.38564pt x 179.55614pt.
  [60 <../figures/mod_comp_zonly.pdf> <../figures/mod_comp-supercut.pdf> <../figures/mod_comp_6mod.pdf>]
-<../figures/bbc_comp_PS1_hist-nr_viridis.pdf, id=2618, 403.14243pt x 282.02518pt>
+<../figures/bbc_comp_PS1_hist-nr_viridis.pdf, id=2641, 403.14243pt x 282.02518pt>
 File: ../figures/bbc_comp_PS1_hist-nr_viridis.pdf Graphic file (type pdf)
 <use ../figures/bbc_comp_PS1_hist-nr_viridis.pdf>
 Package pdftex.def Info: ../figures/bbc_comp_PS1_hist-nr_viridis.pdf  used on input line 778.
 (pdftex.def)             Requested size: 250.38564pt x 175.15933pt.
  [61] [62 <../figures/bbc_comp_PS1_hist-nr_viridis.pdf>]
-<../figures/model_N21+HD+ZTF_on_ZTF.pdf, id=2672, 403.20764pt x 282.35918pt>
+<../figures/model_N21+HD+ZTF_on_ZTF.pdf, id=2697, 403.20764pt x 282.35918pt>
 File: ../figures/model_N21+HD+ZTF_on_ZTF.pdf Graphic file (type pdf)
 <use ../figures/model_N21+HD+ZTF_on_ZTF.pdf>
 Package pdftex.def Info: ../figures/model_N21+HD+ZTF_on_ZTF.pdf  used on input line 892.
 (pdftex.def)             Requested size: 273.14923pt x 191.2865pt.
  [63 <../figures/model_N21+HD+ZTF_on_ZTF.pdf>]
-<../figures/stretchevol_all-oth_vs_ztf-weighted.pdf, id=2697, 530.03967pt x 340.17519pt>
+<../figures/stretchevol_all-oth_vs_ztf-weighted.pdf, id=2721, 530.03967pt x 340.17519pt>
 File: ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf Graphic file (type pdf)
 <use ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf>
 Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf  used on input line 995.
 (pdftex.def)             Requested size: 455.24411pt x 292.17122pt.
-<../figures/mod_comp_ztf-fr.pdf, id=2700, 342.79208pt x 270.85168pt>
+<../figures/mod_comp_ztf-fr.pdf, id=2724, 342.79208pt x 270.85168pt>
 File: ../figures/mod_comp_ztf-fr.pdf Graphic file (type pdf)
 <use ../figures/mod_comp_ztf-fr.pdf>
 Package pdftex.def Info: ../figures/mod_comp_ztf-fr.pdf  used on input line 1047.
 (pdftex.def)             Requested size: 250.38564pt x 197.83994pt.
  [64] [65 <../figures/stretchevol_all-oth_vs_ztf-weighted.pdf> <../figures/mod_comp_ztf-fr.pdf>] [66]
-<../figures/model_N21+ZTF_on_allsurvs.pdf, id=2758, 728.42267pt x 705.86139pt>
+<../figures/model_N21+ZTF_on_allsurvs.pdf, id=2782, 728.42267pt x 705.86139pt>
 File: ../figures/model_N21+ZTF_on_allsurvs.pdf Graphic file (type pdf)
 <use ../figures/model_N21+ZTF_on_allsurvs.pdf>
 Package pdftex.def Info: ../figures/model_N21+ZTF_on_allsurvs.pdf  used on input line 1200.
@@ -4225,563 +3934,201 @@ Package pdftex.def Info: ../figures/model_N21+ZTF_on_allsurvs.pdf  used on input
 
 \openout4 = `main.mtc'.
 
- (./main.mlt6)) (../chapters/07_snana.tex
-Package minitoc(hints) Info: I0045
-(minitoc(hints))             The \dominitoc command 
-(minitoc(hints))             has been invoked more than once 
-(minitoc(hints))              on input line 5.
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 5.
-\tf@toc=\write10
-\openout10 = `main.toc'.
-
-Package minitoc(hints) Info: I0045
-(minitoc(hints))             The \dominilof command 
-(minitoc(hints))             has been invoked more than once 
-(minitoc(hints))              on input line 7.
-Package minitoc Info: I0034
-(minitoc)             PREPARING MINILOFS FROM main.lof on input line 7.
-\tf@lof=\write11
-\openout11 = `main.lof'.
-
-Package minitoc(hints) Info: I0045
-(minitoc(hints))             The \dominilot command 
-(minitoc(hints))             has been invoked more than once 
-(minitoc(hints))              on input line 9.
-Package minitoc Info: I0037
-(minitoc)             PREPARING MINILOTS FROM main.lot on input line 9.
-\tf@lot=\write12
-\openout12 = `main.lot'.
-
- [71
+ (./main.mlt6)) (../chapters/07_snana.tex [71
 
 ] [72
 
 ]
 Chapitre VII.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 11.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc1) [73]
-../chapters/07_snana.tex:96: Undefined control sequence.
-l.96 ... (\hostlib), contenant $\approx$ \numprint
-                                                  {120000}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[74]
+(./main.mtc7) [73] [74]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 117.
+               Default added (so using `tbp') on input line 144.
 
-../chapters/07_snana.tex:119: FancyVerb Error:
-  Frame style `true' not defined.
-.
-\FV@Error ... {FancyVerb Error:
-\space \space #1
-}
-                                                  
-l.119     \VerbatimInput{../data/SDSS.SIMLIB}
-                                             
-Your command was ignored. Type <return> to continue.
+[75]
 
-<../figures/snana_layout.pdf, id=2915, 730.83139pt x 991.3196pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[76] [77] [78] [79]
+<../figures/snana_layout.pdf, id=3044, 678.81503pt x 1012.30498pt>
 File: ../figures/snana_layout.pdf Graphic file (type pdf)
 <use ../figures/snana_layout.pdf>
-Package pdftex.def Info: ../figures/snana_layout.pdf  used on input line 129.
-(pdftex.def)             Requested size: 523.52794pt x 710.13438pt.
+Package pdftex.def Info: ../figures/snana_layout.pdf  used on input line 401.
+(pdftex.def)             Requested size: 455.24411pt x 678.88959pt.
 
-LaTeX Warning: Float too large for page by 52.62532pt on input line 147.
 
-[75] [76 <../figures/snana_layout.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Float too large for page by 68.63054pt on input line 422.
 
- [77] [78] [79]
-Overfull \hbox (7.39342pt too wide) in paragraph at lines 311--313
-[]\T1/cmr/m/n/12 (-20) 1G1M1S also sim-ply na-med \T1/cmr/m/it/12 (-20) Gaus-sian\T1/cmr/m/n/12 (-20) , a pure redshift-independent and age-independent
- []
+[80] [81 <../figures/snana_layout.pdf>] [82]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 564.
+
+<../figures/bbc1D.pdf, id=3231, 132.59337pt x 214.06575pt>
+File: ../figures/bbc1D.pdf Graphic file (type pdf)
+<use ../figures/bbc1D.pdf>
+Package pdftex.def Info: ../figures/bbc1D.pdf  used on input line 566.
+(pdftex.def)             Requested size: 265.18607pt x 428.13043pt.
+<../figures/matrices.pdf, id=3235, 181.80623pt x 171.93636pt>
+File: ../figures/matrices.pdf Graphic file (type pdf)
+<use ../figures/matrices.pdf>
+Package pdftex.def Info: ../figures/matrices.pdf  used on input line 598.
+(pdftex.def)             Requested size: 273.14923pt x 258.35513pt.
+[83] [84 <../figures/bbc1D.pdf>]
+<../figures/matrices_cube.pdf, id=3284, 664.22556pt x 317.24724pt>
+File: ../figures/matrices_cube.pdf Graphic file (type pdf)
+<use ../figures/matrices_cube.pdf>
+Package pdftex.def Info: ../figures/matrices_cube.pdf  used on input line 638.
+(pdftex.def)             Requested size: 364.19667pt x 173.94435pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 364.
+               Default added (so using `tbp') on input line 658.
 
-<../figures/model_mass_2G2M4S_hist_SED-nonan.pdf, id=3064, 486.21825pt x 265.78484pt>
-File: ../figures/model_mass_2G2M4S_hist_SED-nonan.pdf Graphic file (type pdf)
-<use ../figures/model_mass_2G2M4S_hist_SED-nonan.pdf>
-Package pdftex.def Info: ../figures/model_mass_2G2M4S_hist_SED-nonan.pdf  used on input line 366.
-(pdftex.def)             Requested size: 455.24411pt x 248.86444pt.
+<../figures/bbc5D.pdf, id=3286, 171.13937pt x 285.59799pt>
+File: ../figures/bbc5D.pdf Graphic file (type pdf)
+<use ../figures/bbc5D.pdf>
+Package pdftex.def Info: ../figures/bbc5D.pdf  used on input line 660.
+(pdftex.def)             Requested size: 342.27786pt x 571.19458pt.
+[85 <../figures/matrices.pdf>] [86 <../figures/matrices_cube.pdf>] [87 <../figures/bbc5D.pdf>]
+\openout4 = `main.mtc'.
 
-Overfull \hbox (2.59341pt too wide) in paragraph at lines 386--422
- [][] 
- []
+\openout4 = `main.mtc'.
 
+ (./main.mlf7)
+\openout4 = `main.mtc'.
 
-Overfull \hbox (38.94792pt too wide) in paragraph at lines 429--452
- [][] 
- []
+\openout4 = `main.mtc'.
 
-[80] [81 <../figures/model_mass_2G2M4S_hist_SED-nonan.pdf>]
+ (./main.mlt7)) (../chapters/08_sims.tex [88
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 492.
-
-<../figures/deltaz_hist_yo-random.pdf, id=3128, 406.91185pt x 224.44316pt>
-File: ../figures/deltaz_hist_yo-random.pdf Graphic file (type pdf)
-<use ../figures/deltaz_hist_yo-random.pdf>
-Package pdftex.def Info: ../figures/deltaz_hist_yo-random.pdf  used on input line 494.
-(pdftex.def)             Requested size: 455.24411pt x 251.10405pt.
-[82] [83 <../figures/deltaz_hist_yo-random.pdf>] [84]
-<../figures/blank.png, id=3172, 100.375pt x 100.375pt>
-File: ../figures/blank.png Graphic file (type png)
-<use ../figures/blank.png>
-Package pdftex.def Info: ../figures/blank.png  used on input line 658.
-(pdftex.def)             Requested size: 455.24411pt x 455.3836pt.
- [85] [86 <../figures/blank.png (PNG copy)>]
-Package minitoc Info: I0006
-(minitoc)             main.mlf1 is empty on input line 706.
-Package minitoc Info: I0006
-(minitoc)             main.mlt1 is empty on input line 708.
- (./main.bbl (./main.brf)
-\tf@brf=\write13
-\openout13 = `main.brf'.
-
- [87
-
-
-] [88] [89] [90] [91] [92] [93])) (../chapters/08_results.tex [94]
+]
 Chapitre VIII.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc2) [95
+(./main.mtc8
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1.
+) [89
 
-]) (../chapters/98_conclusions.tex [96]) (./main.bbl (./main.brf) [97
+]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 33.
+ [90] [91]
+Overfull \hbox (7.39342pt too wide) in paragraph at lines 241--243
+[]\T1/cmr/m/n/12 (-20) 1G1M1S also sim-ply na-med \T1/cmr/m/it/12 (-20) Gaus-sian\T1/cmr/m/n/12 (-20) , a pure redshift-independent and age-independent
+ []
 
-] [98
+[92]
 
-]pdfTeX warning (ext4): destination with the same identifier (name{cite.abbott2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.52 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.syed2015}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.57 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.aldering2002}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.72 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.astier2006}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.92 
-     pdfTeX warning (ext4): destination with the same identifier (name{cite.aubourg2008}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.100 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.balland2009}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.116 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.bellm2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.156 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.betoule2014}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.182 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.blagorodnova2018}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.194 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.boulade2003}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.210 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.briday2021}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.216 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.briday2022}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.228 
-       [99]pdfTeX warning (ext4): destination with the same identifier (name{cite.burgh2003}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.239 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.burnham2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.245 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.calzetti2013}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.249 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.chambers2016}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.290 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.conley2011}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.307 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.contreras2010}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.320 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.copin2013}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.326 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.dekany2020}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.339 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.dekker1986}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.348 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.dilday2008}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.371 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.dressler2011}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.382 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.ellis2008}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.394 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.faber2003}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.410 
-       [100]pdfTeX warning (ext4): destination with the same identifier (name{cite.fabricant2005}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.424 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.feindt2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.433 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.folatelli2010}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.447 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.fremling2020}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.466 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.frieman2008}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.503 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.fukugita1996}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.511 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.giavalisco2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.536 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.graham2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.576 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.graur2014}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.596 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.gunn1998}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.613 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.gunn2006}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.636 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.guy2007}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.650 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hadjiyska2012}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.660 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hamuy1996}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.668 
-       [101]pdfTeX warning (ext4): destination with the same identifier (name{cite.hicken2009a}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.698 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hicken2012}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.716 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hicken2009b}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.727 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hill1998}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.737 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hinton2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.763 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hodapp2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.778 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.hook2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.787 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.howell2007}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.795 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.ivezic2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.894 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.jha2006}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.925 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.kaiser2010}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.936 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.kashikawa2000}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.950 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.kennicutt1998}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.957 
-       [102]pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2009b}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.978 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2009a}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.989 
-      pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1028 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2013}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1038 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2017}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1045 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.lantz2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1057 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.law2009}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1075 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.madau2015}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1081 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.mannucci2005}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1090 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.marshall2008}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1102 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.neill2006}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1120 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.oke1995}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1129 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.pereira2013}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1148 
-        [103]pdfTeX warning (ext4): destination with the same identifier (name{cite.perlmutter1999}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1165 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.perrett2010}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1177 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.phillips1993}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1183 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.planck2018}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1247 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.popovic2021b}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1256 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rabinowitz2003}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1269 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rest2014}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1291 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1302 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess1998}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1315 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess1999}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1333 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess2016}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1344 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess2007}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1357 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rigault2020}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1377 
-        [104]pdfTeX warning (ext4): destination with the same identifier (name{cite.rigault2013}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1395 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rigault2019}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1405 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rodney2014}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1423 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rodrigo2020}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1429 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.rubin2015}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1441 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.sako2008}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1463 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.sako2018}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1484 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.scannapieco2005}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1491 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.schmidt1989}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1499 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.scolnic2016}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1506 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.scolnic2014}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1528 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.scolnic2018}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1548 
-        [105]pdfTeX warning (ext4): destination with the same identifier (name{cite.shariff2016}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1556 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.smith2020}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1591 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.stritzinger2011}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1606 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.strolger2004}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1625 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.sullivan2011}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1642 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.sullivan2006}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1657 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.suzuki2012}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1685 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.tasca2015}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1708 
-       pdfTeX warning (ext4): destination with the same identifier (name{cite.tonry2006}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1715 
-       )
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 294.
 
-Package natbib Warning: There were multiply defined citations.
+<../figures/model_mass_2G2M4S_hist_SED-nonan.pdf, id=3486, 486.21825pt x 265.78484pt>
+File: ../figures/model_mass_2G2M4S_hist_SED-nonan.pdf Graphic file (type pdf)
+<use ../figures/model_mass_2G2M4S_hist_SED-nonan.pdf>
+Package pdftex.def Info: ../figures/model_mass_2G2M4S_hist_SED-nonan.pdf  used on input line 296.
+(pdftex.def)             Requested size: 455.24411pt x 248.86444pt.
 
+Overfull \hbox (2.59341pt too wide) in paragraph at lines 316--352
+ [][] 
+ []
+
+
+Overfull \hbox (38.94792pt too wide) in paragraph at lines 359--382
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 400.
+
+<../figures/deltaz_hist_yo-random.pdf, id=3496, 406.91185pt x 224.44316pt>
+File: ../figures/deltaz_hist_yo-random.pdf Graphic file (type pdf)
+<use ../figures/deltaz_hist_yo-random.pdf>
+Package pdftex.def Info: ../figures/deltaz_hist_yo-random.pdf  used on input line 402.
+(pdftex.def)             Requested size: 455.24411pt x 251.10405pt.
+
+Underfull \vbox (badness 1107) has occurred while \output is active []
+
+ [93 <../figures/model_mass_2G2M4S_hist_SED-nonan.pdf>] [94 <../figures/deltaz_hist_yo-random.pdf>] [95] [96]
+<../figures/blank.png, id=3584, 100.375pt x 100.375pt>
+File: ../figures/blank.png Graphic file (type png)
+<use ../figures/blank.png>
+Package pdftex.def Info: ../figures/blank.png  used on input line 535.
+(pdftex.def)             Requested size: 455.24411pt x 455.3836pt.
+ [97] [98 <../figures/blank.png (PNG copy)>]
+\openout4 = `main.mtc'.
+
+\openout4 = `main.mtc'.
+
+ (./main.mlf8)
+\openout4 = `main.mtc'.
+
+\openout4 = `main.mtc'.
+
+ (./main.mlt8)) (../chapters/09_results.tex [99
+
+] [100
+
+]
+Chapitre IX.
+\openout4 = `main.mtc'.
+
+\openout4 = `main.mtc'.
+
+(./main.mtc9
+Overfull \hbox (0.55652pt too wide) detected at line 1
+ [][][]\T1/cmr/bx/n/10.95 102[][]
+ []
+
+
+Overfull \hbox (0.55652pt too wide) detected at line 4
+ [][][]\T1/cmr/bx/n/10.95 102[][]
+ []
+
+) [101] [102]
+Package minitoc Info: I0006
+(minitoc)             main.mlf9 is empty on input line 47.
+Package minitoc Info: I0006
+(minitoc)             main.mlt9 is empty on input line 49.
+) (../chapters/98_conclusions.tex) (./main.bbl (./main.brf)
+\tf@brf=\write10
+\openout10 = `main.brf'.
+
+ [103
+
+
+] [104
+
+] [105] [106] [107] [108] [109] [110] [111] [112])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
 \openout4 = `main.maf'.
 
 
+
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[106]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
+[113]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 60E5D358B3BB6C7366ACD70C34A42E75;10618.
+(rerunfilecheck)             Checksum: DC91BF6E807493397BD5C46C44E4781D;12653.
 
 
 LaTeX Warning: There were undefined references.
@@ -4791,21 +4138,21 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 58182 strings out of 492982
- 1176876 string characters out of 6134895
- 1535817 words of memory out of 5000000
- 59664 multiletter control sequences out of 15000+600000
- 586546 words of font info for 327 fonts, out of 8000000 for 9000
+ 58436 strings out of 492982
+ 1180446 string characters out of 6134895
+ 1538603 words of memory out of 5000000
+ 59785 multiletter control sequences out of 15000+600000
+ 589577 words of font info for 356 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,21n,130p,10407b,2959s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,21n,130p,10407b,2837s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfcc0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (124 pages, 9546610 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (131 pages, 9728489 bytes).
 PDF statistics:
- 4689 PDF objects out of 5155 (max. 8388607)
- 3851 compressed objects within 39 object streams
- 520 named destinations out of 1000 (max. 500000)
- 58160 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 4799 PDF objects out of 5155 (max. 8388607)
+ 3937 compressed objects within 40 object streams
+ 581 named destinations out of 1000 (max. 500000)
+ 61300 words of extra memory for PDF output out of 61914 (max. 10000000)
 

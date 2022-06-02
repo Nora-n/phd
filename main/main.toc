@@ -60,19 +60,19 @@
 \contentsline {subsection}{\numberline {IV.4.1}Introduction}{19}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {IV.4.2}D\IeC {\'e}tection des supernovae}{19}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {IV.4.3}Suivi spectro-photom\IeC {\'e}trique}{20}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {IV.4.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{21}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {IV.4.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{20}{subsection.4.4.4}
 \contentsline {section}{\numberline {IV.5}\textsc {Hubble} Space Telescope}{21}{section.4.5}
 \contentsline {subsection}{\numberline {IV.5.1}Introduction}{21}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {IV.5.2}D\IeC {\'e}tection des supernovae}{22}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {IV.5.3}Suivi spectro-photom\IeC {\'e}trique}{22}{subsection.4.5.3}
 \contentsline {subsection}{\numberline {IV.5.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{23}{subsection.4.5.4}
-\contentsline {section}{\numberline {IV.6}Autres sondages~: CfA1-4 et CSP}{24}{section.4.6}
+\contentsline {section}{\numberline {IV.6}Autres sondages~: CfA1-4 et CSP}{23}{section.4.6}
 \contentsline {section}{\numberline {IV.7}Compl\IeC {\'e}ment~: Zwicky Transient Facility}{24}{section.4.7}
 \contentsline {subsection}{\numberline {IV.7.1}Introduction}{24}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {IV.7.2}D\IeC {\'e}tection des supernovae}{25}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {IV.7.2}D\IeC {\'e}tection des supernovae}{24}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {IV.7.3}Suivi spectro-photom\IeC {\'e}trique}{25}{subsection.4.7.3}
 \contentsline {subsection}{\numberline {IV.7.4}Donn\IeC {\'e}es conserv\IeC {\'e}es}{26}{subsection.4.7.4}
-\contentsline {section}{\numberline {IV.8}R\IeC {\'e}sum\IeC {\'e} et comparaison}{27}{section.4.8}
+\contentsline {section}{\numberline {IV.8}R\IeC {\'e}sum\IeC {\'e} et comparaison}{26}{section.4.8}
 \contentsline {chapter}{\numberline {V}Cr\'eation d'un \'echantillon complet}{31}{chapter.5}
 \contentsline {section}{\numberline {V.1}Notion de compl\IeC {\'e}tude}{32}{section.5.1}
 \contentsline {subsection}{\numberline {V.1.1}Strat\IeC {\'e}gies d'observations}{32}{subsection.5.1.1}
@@ -99,37 +99,43 @@
 \contentsline {subsection}{\numberline {VI.3.2}Impl\IeC {\'e}mentation}{63}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {VI.3.3}R\IeC {\'e}sultats}{64}{subsection.6.3.3}
 \contentsline {section}{\numberline {VI.4}Conclusion}{67}{section.6.4}
-\contentsline {chapter}{\numberline {VII}Impact sur la cosmologie~: simulations}{73}{chapter.7}
-\contentsline {section}{\numberline {VII.1}Introduction \IeC {\`a} SNANA}{74}{section.7.1}
-\contentsline {subsection}{\numberline {VII.1.1}Contexte}{74}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {VII.1.2}Fonctionnement}{74}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {VII.1.3}Inputs}{78}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {VII.1.4}Tools}{78}{subsection.7.1.4}
-\contentsline {section}{\numberline {VII.2}La masse comme traceur}{78}{section.7.2}
-\contentsline {subsection}{\numberline {VII.2.1}Mod\IeC {\'e}lisation}{78}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {VII.2.2}Utilisation}{78}{subsection.7.2.2}
-\contentsline {section}{\numberline {VII.3}Impl\IeC {\'e}mentation}{78}{section.7.3}
-\contentsline {subsection}{\numberline {VII.3.1}Corr\IeC {\'e}lations test\IeC {\'e}es}{78}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {VII.3.2}R\IeC {\'e}sultats}{78}{subsection.7.3.2}
-\contentsline {section}{\numberline {VII.4}Introduction}{78}{section.7.4}
-\contentsline {section}{\numberline {VII.5}Modeling}{79}{section.7.5}
-\contentsline {subsection}{\numberline {VII.5.1}Modeling the mass}{79}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {VII.5.2}Mass modeling results}{80}{subsection.7.5.2}
-\contentsline {section}{\numberline {VII.6}SNANA}{82}{section.7.6}
-\contentsline {subsection}{\numberline {VII.6.1}Environmental impact and HOSTLIB}{82}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {VII.6.2}Input generation}{82}{subsection.7.6.2}
-\contentsline {section}{\numberline {VII.7}Results of modeling}{82}{section.7.7}
-\contentsline {subsection}{\numberline {VII.7.1}Description of the tests}{82}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {VII.7.2}Comparing tests on simulations}{85}{subsection.7.7.2}
-\contentsline {section}{\numberline {VII.8}Impact on cosmology}{85}{section.7.8}
-\contentsline {section}{\numberline {VII.9}Discussion}{85}{section.7.9}
-\contentsline {section}{\numberline {VII.10}Conclusion}{85}{section.7.10}
-\contentsline {chapter}{\numberline {VIII}R\IeC {\'e}sultats et discussion}{95}{chapter.8}
-\contentsline {section}{\numberline {VIII.1}XXX}{96}{section.8.1}
-\contentsline {subsection}{\numberline {VIII.1.1}XXX}{96}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {VIII.1.2}XXX}{96}{subsection.8.1.2}
-\contentsline {section}{\numberline {VIII.2}XXX}{96}{section.8.2}
-\contentsline {subsection}{\numberline {VIII.2.1}XXX}{96}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {VIII.2.2}XXX}{96}{subsection.8.2.2}
-\contentsline {chapter}{Conclusions}{97}{chapter*.86}
+\contentsline {chapter}{\numberline {VII}Introduction \`a \texttt {SNANA}}{73}{chapter.7}
+\contentsline {section}{\numberline {VII.1}Contexte}{74}{section.7.1}
+\contentsline {section}{\numberline {VII.2}Simulation}{74}{section.7.2}
+\contentsline {subsection}{\numberline {VII.2.1}Pr\IeC {\'e}paration d'une simulation}{74}{subsection.7.2.1}
+\contentsline {subsubsection}{\numberline {VII.2.1.1}\texttt {HOSTLIB}}{75}{subsubsection.7.2.1.1}
+\contentsline {subsubsection}{\numberline {VII.2.1.2}\texttt {SIMLIB}}{75}{subsubsection.7.2.1.2}
+\contentsline {subsection}{\numberline {VII.2.2}G\IeC {\'e}n\IeC {\'e}ration du mod\IeC {\`e}le}{77}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {VII.2.3}R\IeC {\'e}ponse instrumentale}{79}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {VII.2.4}S\IeC {\'e}lection et ajustement}{79}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {VII.2.5}R\IeC {\'e}sum\IeC {\'e}}{80}{subsection.7.2.5}
+\contentsline {section}{\numberline {VII.3}Correction de biais et cosmologie}{80}{section.7.3}
+\contentsline {subsection}{\numberline {VII.3.1}Pr\IeC {\'e}sentation}{80}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {VII.3.2}\texttt {BBC}1D}{83}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {VII.3.3}\texttt {BBC}5D}{83}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {VII.3.4}\texttt {BBC}7D}{86}{subsection.7.3.4}
+\contentsline {chapter}{\numberline {VIII}Impact sur la cosmologie~: simulations}{89}{chapter.8}
+\contentsline {section}{\numberline {VIII.1}Pr\IeC {\'e}sentation des \texttt {HOSTLIB}}{90}{section.8.1}
+\contentsline {subsection}{\numberline {VIII.1.1}\IeC {\'E}tirement et couleur globales~: SK}{90}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {VIII.1.2}\IeC {\'E}tirement et couleur selon la masse~: BP}{90}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {VIII.1.3}\IeC {\'E}tirement selon l'\IeC {\^a}ge~: NN}{90}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {VIII.1.4}\IeC {\'E}tirement et marche de magnitude selon l'\IeC {\^a}ge~: NR}{91}{subsection.8.1.4}
+\contentsline {section}{\numberline {VIII.2}Confection des \texttt {HOSTLIB}}{91}{section.8.2}
+\contentsline {subsection}{\numberline {VIII.2.1}Mod\IeC {\'e}lisation du lien entre masse et redshift}{91}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {VIII.2.2}Mass modeling results}{92}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {VIII.2.3}Input generation}{93}{subsection.8.2.3}
+\contentsline {section}{\numberline {VIII.3}Impl\IeC {\'e}mentation}{95}{section.8.3}
+\contentsline {subsection}{\numberline {VIII.3.1}Description of the tests}{95}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {VIII.3.2}Comparing tests on simulations}{97}{subsection.8.3.2}
+\contentsline {section}{\numberline {VIII.4}R\IeC {\'e}sultats}{97}{section.8.4}
+\contentsline {section}{\numberline {VIII.5}Discussion}{97}{section.8.5}
+\contentsline {section}{\numberline {VIII.6}Conclusion}{97}{section.8.6}
+\contentsline {chapter}{\numberline {IX}R\IeC {\'e}sultats et discussion}{101}{chapter.9}
+\contentsline {section}{\numberline {IX.1}XXX}{102}{section.9.1}
+\contentsline {subsection}{\numberline {IX.1.1}XXX}{102}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {IX.1.2}XXX}{102}{subsection.9.1.2}
+\contentsline {section}{\numberline {IX.2}XXX}{102}{section.9.2}
+\contentsline {subsection}{\numberline {IX.2.1}XXX}{102}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {IX.2.2}XXX}{102}{subsection.9.2.2}
+\contentsline {chapter}{Conclusions}{103}{chapter*.95}
 \contentsfinish 

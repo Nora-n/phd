@@ -54,39 +54,24 @@
   \href{http://dx.doi.org/10.3847/2041-8205/822/2/L35}{\color{magenta}\apjl},
   \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...822L..35S}{822, L35}
 
-\bibitem[{\textsc{{Smith}} {et~al.}(2020)\textsc{{Smith}}, \textsc{{Sullivan}},
-  \textsc{{Wiseman}}, \textsc{{Kessler}}, \textsc{{Scolnic}}, \textsc{{Brout}},
-  \textsc{{D'Andrea}}, \textsc{{Davis}}, \textsc{{Foley}},
-  \textsc{{Frohmaier}}, \textsc{{Galbany}}, \textsc{{Gupta}},
-  \textsc{{Guti{\'e}rrez}}, \textsc{{Hinton}}, \textsc{{Kelsey}},
-  \textsc{{Lidman}}, \textsc{{Macaulay}}, \textsc{{M{\"o}ller}},
-  \textsc{{Nichol}}, \textsc{{Nugent}}, \textsc{{Palmese}},
-  \textsc{{Pursiainen}}, \textsc{{Sako}}, \textsc{{Swann}}, \textsc{{Thomas}},
-  \textsc{{Tucker}}, \textsc{{Vincenzi}}, \textsc{{Carollo}}, \textsc{{Lewis}},
-  \textsc{{Sommer}}, \textsc{{Abbott}}, \textsc{{Aguena}}, \textsc{{Allam}},
-  \textsc{{Avila}}, \textsc{{Bertin}}, \textsc{{Bhargava}}, \textsc{{Brooks}},
-  \textsc{{Buckley-Geer}}, \textsc{{Burke}}, \textsc{{Carnero Rosell}},
-  \textsc{{Carrasco Kind}}, \textsc{{Costanzi}}, \textsc{{da Costa}},
-  \textsc{{De Vicente}}, \textsc{{Desai}}, \textsc{{Diehl}}, \textsc{{Doel}},
-  \textsc{{Eifler}}, \textsc{{Everett}}, \textsc{{Flaugher}},
-  \textsc{{Fosalba}}, \textsc{{Frieman}}, \textsc{{Garc{\'\i}a-Bellido}},
-  \textsc{{Gaztanaga}}, \textsc{{Glazebrook}}, \textsc{{Gruen}},
-  \textsc{{Gruendl}}, \textsc{{Gschwend}}, \textsc{{Gutierrez}},
-  \textsc{{Hartley}}, \textsc{{Hollowood}}, \textsc{{Honscheid}},
-  \textsc{{James}}, \textsc{{Krause}}, \textsc{{Kuehn}}, \textsc{{Kuropatkin}},
-  \textsc{{Lima}}, \textsc{{MacCrann}}, \textsc{{Maia}}, \textsc{{Marshall}},
-  \textsc{{Martini}}, \textsc{{Melchior}}, \textsc{{Menanteau}},
-  \textsc{{Miquel}}, \textsc{{Paz-Chinch{\'o}n}}, \textsc{{Plazas}},
-  \textsc{{Romer}}, \textsc{{Roodman}}, \textsc{{Rykoff}}, \textsc{{Sanchez}},
-  \textsc{{Scarpine}}, \textsc{{Schubnell}}, \textsc{{Serrano}},
-  \textsc{{Sevilla-Noarbe}}, \textsc{{Suchyta}}, \textsc{{Swanson}},
-  \textsc{{Tarle}}, \textsc{{Thomas}}, \textsc{{Tucker}}, \textsc{{Varga}},
-  \textsc{{Walker}} et \textsc{{DES Collaboration}}}]{smith2020}
-\textsc{{Smith} M.}, \textsc{{Sullivan} M.}, \textsc{{Wiseman} P.} {et~al.}
-  2020, «~{First cosmology results using type Ia supernovae from the Dark
-  Energy Survey: the effect of host galaxy properties on supernova
-  luminosity}~»,
-  \href{http://dx.doi.org/10.1093/mnras/staa946}{\color{magenta}\mnras},
-  \href{https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.4426S}{494, 4426}
+\bibitem[{\textsc{{Scolnic}} {et~al.}(2018)\textsc{{Scolnic}},
+  \textsc{{Jones}}, \textsc{{Rest}}, \textsc{{Pan}}, \textsc{{Chornock}},
+  \textsc{{Foley}}, \textsc{{Huber}}, \textsc{{Kessler}}, \textsc{{Narayan}},
+  \textsc{{Riess}}, \textsc{{Rodney}}, \textsc{{Berger}}, \textsc{{Brout}},
+  \textsc{{Challis}}, \textsc{{Drout}}, \textsc{{Finkbeiner}},
+  \textsc{{Lunnan}}, \textsc{{Kirshner}}, \textsc{{Sanders}},
+  \textsc{{Schlafly}}, \textsc{{Smartt}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{Wood-Vasey}}, \textsc{{Foley}}, \textsc{{Hand}}, \textsc{{Johnson}},
+  \textsc{{Burgett}}, \textsc{{Chambers}}, \textsc{{Draper}},
+  \textsc{{Hodapp}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Bresolin}},
+  \textsc{{Gall}}, \textsc{{Kotak}}, \textsc{{McCrum}} et
+  \textsc{{Smith}}}]{scolnic2018}
+\textsc{{Scolnic} D.~M.}, \textsc{{Jones} D.~O.}, \textsc{{Rest} A.} {et~al.}
+  2018, «~{The Complete Light-curve Sample of Spectroscopically Confirmed SNe
+  Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon
+  Sample}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
 
 \end{thebibliography}

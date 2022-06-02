@@ -1,12 +1,12 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
 
-\dominitoc
-\faketableofcontents
-\dominilof
-\fakelistoffigures
-\dominilot
-\fakelistoftables
+% \dominitoc
+% \faketableofcontents
+% \dominilof
+% \fakelistoffigures
+% \dominilot
+% \fakelistoftables
 
 \chapter{Introduction \`a \snana}\label{ch:snana}
 \epigraph{\openquote\textit{A common mistake that people make when trying to
@@ -85,13 +85,14 @@ dérivation de la distance des SNe~Ia (Section~\ref{sec:biais}).
 
 \section{Simulation}\label{sec:snanasim}
 
-Nous présentons dans cette section les étapes-clés des simulations avec \snana,
-telles que nous les effectuons. Dans la Section~\ref{ssec:simprep} nous
-introduisons les concepts fondamentaux régissant le fonctionnement du logiciel~;
-les étapes successives de génération (Section~\ref{ssec:simsn}), réponse
-instrumentale (Section~\ref{ssec:siminst}) et de détection
-(Section~\ref{ssec:simdetec}) viennent ensuite. Un résumé est proposé
-Section~\ref{ssec:simshort}, avec la Figure~\ref{fig:snana_func}.
+Nous présentons dans cette section les étapes-clés des simulations avec \snana\
+(dont le pipeline est automatisé par \texttt{PIPPIN} \citep{hinton2020}), telles
+que nous les effectuons. Dans la Section~\ref{ssec:simprep} nous introduisons
+les concepts fondamentaux régissant le fonctionnement du logiciel~; les étapes
+successives de génération (Section~\ref{ssec:simsn}), réponse instrumentale
+(Section~\ref{ssec:siminst}) et de détection (Section~\ref{ssec:simdetec})
+viennent ensuite. Un résumé est proposé Section~\ref{ssec:simshort}, avec la
+Figure~\ref{fig:snana_func}.
 
 \subsection{Préparation d'une simulation}\label{ssec:simprep}
 
@@ -272,7 +273,7 @@ $w$CDM avec valeurs définies dans le Tableau~\ref{tab:cosmoinput}.
 
 En utilisant les autres paramètres choisis, nous avons également~:
 \begin{equation}\label{eq:mutrue}
-    \mu_{\rm vrai} = m_{b, \rm vrai} - M + \alpha_{\rm ref} x_{1, \rm vrai} -
+    \mu_{\rm vrai} = m_{B, \rm vrai} - M + \alpha_{\rm ref} x_{1, \rm vrai} -
     \beta_{\rm ref} c_{\rm vrai}+ \gamma_{\rm env}
 \end{equation}
 où $\alpha_{\rm ref}$ et $\beta_{\rm ref}$ sont les coefficients des
@@ -715,11 +716,8 @@ chapitre suivant.
 \minilot
 \vfill
 
-% \clearpage
-% \appsec{Présentation des fichiers}{sec:snanainputs}
-
-\bibliographystyle{../main/aa_url}
-\shorthandoff{:}
-\bibliography{../chapters/99_references}
+% \bibliographystyle{../main/aa_url}
+% \shorthandoff{:}
+% \bibliography{../chapters/99_references}
 
 \end{document}

@@ -1,8 +1,10 @@
 \babel@toc {french}{}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Impact sur la cosmologie~: simulations}{1}{chapter.1}
-\contentsline {table}{\numberline {I.1}{\ignorespaces Comparison of the relative ability of each model to describe the data. For each considered model, we report whether the model is drifting, its number of free parameters, $-2\ln (L)$ (see Eq.~\ref {eq:likelihood}), the AIC and the AIC difference ($\Delta $AIC) between this model and the base model used as reference because it has the lowest AIC.\relax }}{4}{table.caption.2}
-\contentsline {table}{\numberline {I.2}{\ignorespaces Best-fit values of the parameters for the mass distribution model when applied to the SNfactory dataset only (114 SNe~Ia).\relax }}{5}{table.caption.3}
-\contentsline {table}{\numberline {I.3}{\ignorespaces Number of data in Pantheon and relative ratio with respect to the smallest sample, LOWZ\relax }}{7}{table.caption.5}
-\contentsline {table}{\numberline {I.4}{\ignorespaces Comparison of the relative ability of each HOSTLIB implementation to describe the data. For each HOSTLIB a 2D KDE is computed from the simulated data and used to determine said $\chi ^2$.\relax }}{9}{table.caption.7}
+\contentsline {table}{\numberline {I.1}{\ignorespaces Param\IeC {\`e}tres des distributions d'\IeC {\'e}tirement et de couleur pour les simulations SK}}{2}{table.caption.2}
+\contentsline {table}{\numberline {I.2}{\ignorespaces Param\IeC {\`e}tres de la distribution d'\IeC {\'e}tirement pour l'\IeC {\'e}chantillon LOWZ des simulations SK}}{3}{table.caption.4}
+\contentsline {table}{\numberline {I.3}{\ignorespaces Comparison of the relative ability of each model to describe the data. For each considered model, we report whether the model is drifting, its number of free parameters, $-2\ln (L)$ (see Eq.~\ref {eq:likelihood}), the AIC and the AIC difference ($\Delta $AIC) between this model and the base model used as reference because it has the lowest AIC.\relax }}{6}{table.caption.6}
+\contentsline {table}{\numberline {I.4}{\ignorespaces Best-fit values of the parameters for the mass distribution model when applied to the SNfactory dataset only (114 SNe~Ia).\relax }}{6}{table.caption.7}
+\contentsline {table}{\numberline {I.5}{\ignorespaces Number of data in Pantheon and relative ratio with respect to the smallest sample, LOWZ\relax }}{7}{table.caption.9}
+\contentsline {table}{\numberline {I.6}{\ignorespaces Comparison of the relative ability of each HOSTLIB implementation to describe the data. For each HOSTLIB a 2D KDE is computed from the simulated data and used to determine said $\chi ^2$.\relax }}{9}{table.caption.11}
 \contentsfinish 

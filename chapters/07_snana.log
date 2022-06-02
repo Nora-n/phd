@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  2 JUN 2022 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  2 JUN 2022 18:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3396,17 +3396,17 @@ LaTeX Warning: Reference `ch:surveys' on page 2 undefined on input line 74.
 LaTeX Warning: Reference `ch:sample' on page 2 undefined on input line 74.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 105.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 106.
 [2]
 
-LaTeX Warning: Reference `ch:env' on page 3 undefined on input line 132.
+LaTeX Warning: Reference `ch:env' on page 3 undefined on input line 133.
 
 
-LaTeX Warning: Reference `ch:sims' on page 3 undefined on input line 137.
+LaTeX Warning: Reference `ch:sims' on page 3 undefined on input line 138.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 143.
+               Default added (so using `tbp') on input line 144.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
@@ -3415,81 +3415,81 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `ch:env' on page 4 undefined on input line 209.
+LaTeX Warning: Reference `ch:env' on page 4 undefined on input line 210.
 
 [4]
 
-LaTeX Warning: Reference `ch:surveys' on page 5 undefined on input line 225.
+LaTeX Warning: Reference `ch:surveys' on page 5 undefined on input line 226.
 
 
-LaTeX Warning: Reference `ch:sne' on page 5 undefined on input line 232.
+LaTeX Warning: Reference `ch:sne' on page 5 undefined on input line 233.
 
 [5]
 
-LaTeX Warning: Reference `ch:sne' on page 6 undefined on input line 253.
+LaTeX Warning: Reference `ch:sne' on page 6 undefined on input line 254.
 
 
-LaTeX Warning: Reference `ch:sne' on page 6 undefined on input line 280.
+LaTeX Warning: Reference `ch:sne' on page 6 undefined on input line 281.
 
 [6]
 
-LaTeX Warning: Reference `ch:surveys' on page 7 undefined on input line 323.
+LaTeX Warning: Reference `ch:surveys' on page 7 undefined on input line 324.
 
 
-LaTeX Warning: Reference `sec:lowz' on page 7 undefined on input line 324.
+LaTeX Warning: Reference `sec:lowz' on page 7 undefined on input line 325.
 
 
-LaTeX Warning: Reference `ch:surveys' on page 7 undefined on input line 332.
+LaTeX Warning: Reference `ch:surveys' on page 7 undefined on input line 333.
 
 [7]
-<../figures/snana_layout.pdf, id=200, 678.81503pt x 1012.30498pt>
+<../figures/snana_layout.pdf, id=203, 678.81503pt x 1012.30498pt>
 File: ../figures/snana_layout.pdf Graphic file (type pdf)
 <use ../figures/snana_layout.pdf>
-Package pdftex.def Info: ../figures/snana_layout.pdf  used on input line 400.
+Package pdftex.def Info: ../figures/snana_layout.pdf  used on input line 401.
 (pdftex.def)             Requested size: 455.24411pt x 678.88959pt.
 
 
-LaTeX Warning: Reference `ch:sims' on page 8 undefined on input line 419.
+LaTeX Warning: Reference `ch:sims' on page 8 undefined on input line 420.
 
 
-LaTeX Warning: Reference `ch:sims' on page 8 undefined on input line 419.
+LaTeX Warning: Reference `ch:sims' on page 8 undefined on input line 420.
 
 
-LaTeX Warning: Float too large for page by 68.63054pt on input line 421.
+LaTeX Warning: Float too large for page by 68.63054pt on input line 422.
 
 [8] [9 <../figures/snana_layout.pdf>] [10]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 533.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 534.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 563.
+               Default added (so using `tbp') on input line 564.
 
-<../figures/bbc1D.pdf, id=405, 132.59337pt x 214.06575pt>
+<../figures/bbc1D.pdf, id=408, 132.59337pt x 214.06575pt>
 File: ../figures/bbc1D.pdf Graphic file (type pdf)
 <use ../figures/bbc1D.pdf>
-Package pdftex.def Info: ../figures/bbc1D.pdf  used on input line 565.
+Package pdftex.def Info: ../figures/bbc1D.pdf  used on input line 566.
 (pdftex.def)             Requested size: 265.18607pt x 428.13043pt.
-<../figures/matrices.pdf, id=409, 181.80623pt x 171.93636pt>
+<../figures/matrices.pdf, id=412, 181.80623pt x 171.93636pt>
 File: ../figures/matrices.pdf Graphic file (type pdf)
 <use ../figures/matrices.pdf>
-Package pdftex.def Info: ../figures/matrices.pdf  used on input line 597.
+Package pdftex.def Info: ../figures/matrices.pdf  used on input line 598.
 (pdftex.def)             Requested size: 273.14923pt x 258.35513pt.
 [11] [12 <../figures/bbc1D.pdf>]
-<../figures/matrices_cube.pdf, id=462, 664.22556pt x 317.24724pt>
+<../figures/matrices_cube.pdf, id=465, 664.22556pt x 317.24724pt>
 File: ../figures/matrices_cube.pdf Graphic file (type pdf)
 <use ../figures/matrices_cube.pdf>
-Package pdftex.def Info: ../figures/matrices_cube.pdf  used on input line 637.
+Package pdftex.def Info: ../figures/matrices_cube.pdf  used on input line 638.
 (pdftex.def)             Requested size: 364.19667pt x 173.94435pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 657.
+               Default added (so using `tbp') on input line 658.
 
-<../figures/bbc5D.pdf, id=464, 171.13937pt x 285.59799pt>
+<../figures/bbc5D.pdf, id=467, 171.13937pt x 285.59799pt>
 File: ../figures/bbc5D.pdf Graphic file (type pdf)
 <use ../figures/bbc5D.pdf>
-Package pdftex.def Info: ../figures/bbc5D.pdf  used on input line 659.
+Package pdftex.def Info: ../figures/bbc5D.pdf  used on input line 660.
 (pdftex.def)             Requested size: 342.27786pt x 571.19458pt.
 [13 <../figures/matrices.pdf>] [14 <../figures/matrices_cube.pdf>] [15 <../figures/bbc5D.pdf>]
 \openout4 = `07_snana.mtc'.
@@ -3522,13 +3522,13 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the 07_snana.log file.
 
 [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 725.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 725.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 726.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 726.
  (./07_snana.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 725.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 725.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 726.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 726.
 Package rerunfilecheck Info: File `07_snana.brf' has not changed.
-(rerunfilecheck)             Checksum: CDF5B1DFDFAE84EF4EED5BC9BFDA5A40;1683.
+(rerunfilecheck)             Checksum: 0551222CB4DDB75850F36E7468F3FFAC;1729.
 
 
 LaTeX Warning: There were undefined references.
@@ -3538,19 +3538,19 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 55127 strings out of 492982
- 1134009 string characters out of 6134895
- 1434925 words of memory out of 5000000
- 57385 multiletter control sequences out of 15000+600000
+ 55135 strings out of 492982
+ 1134146 string characters out of 6134895
+ 1434984 words of memory out of 5000000
+ 57392 multiletter control sequences out of 15000+600000
  569384 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,20n,132p,10451b,2519s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200
 .pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on 07_snana.pdf (18 pages, 999947 bytes).
+Output written on 07_snana.pdf (18 pages, 999525 bytes).
 PDF statistics:
- 868 PDF objects out of 1000 (max. 8388607)
- 777 compressed objects within 8 object streams
- 103 named destinations out of 1000 (max. 500000)
+ 875 PDF objects out of 1000 (max. 8388607)
+ 784 compressed objects within 8 object streams
+ 104 named destinations out of 1000 (max. 500000)
  40606 words of extra memory for PDF output out of 42996 (max. 10000000)
 
