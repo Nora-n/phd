@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{18}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
@@ -74,6 +74,14 @@
   distances and cosmological constraints}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201014468}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2010A&A...523A...7G}{523, A7}
+
+\bibitem[{\textsc{{James}} et \textsc{{Roos}}(1975)}]{james1975}
+\textsc{{James} F.} et \textsc{{Roos} M.} 1975, «~{Minuit - a system for
+  function minimization and analysis of the parameter errors and
+  correlations}~»,
+  \href{http://dx.doi.org/10.1016/0010-4655(75)90039-9}{\color{magenta}Computer
+  Physics Communications},
+  \href{https://ui.adsabs.harvard.edu/abs/1975CoPhC..10..343J}{10, 343}
 
 \bibitem[{\textsc{{Kessler}} {et~al.}(2009{\natexlab{a}})\textsc{{Kessler}},
   \textsc{{Becker}}, \textsc{{Cinabro}}, \textsc{{Vanderplas}},
@@ -225,6 +233,13 @@
   Survey}~»,
   \href{http://dx.doi.org/10.1088/1538-3873/aab4e0}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2018PASP..130f4002S}{130, 064002}
+
+\bibitem[{\textsc{{Scolnic}} et \textsc{{Kessler}}(2016)}]{scolnic2016}
+\textsc{{Scolnic} D.} et \textsc{{Kessler} R.} 2016, «~{Measuring Type Ia
+  Supernova Populations of Stretch and Color and Predicting Distance
+  Biases}~»,
+  \href{http://dx.doi.org/10.3847/2041-8205/822/2/L35}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...822L..35S}{822, L35}
 
 \bibitem[{\textsc{{Scolnic}} {et~al.}(2018)\textsc{{Scolnic}},
   \textsc{{Jones}}, \textsc{{Rest}}, \textsc{{Pan}}, \textsc{{Chornock}},

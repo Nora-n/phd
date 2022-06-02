@@ -22,34 +22,34 @@
     % Do inouts
     \node[inout]
         (data) {Donn\'ees};
+    \node[inter, below=of data]
+        (mu) {$\mu$};
     \node[inout, right=of data, xshift=1cm]
         (biascor){BiasCor};
     \node[process, below=of biascor]
         (bbc1D) {BBC1D};
     \node[inter, below=of bbc1D]
-        (dbias) {$\delta\mu_{\rm biais} = \delta m_B(z)$};
+        (dbias) {$\delta\mu_{\rm biais} = - \delta_{m_B}(z)$};
     \node[add, scale=2]
         (add) at (data |- dbias) {};
-    \node[inter, below=of add]
-        (mb) {$m_B^* = m_B - \delta m_B$};
+    \node[inter, below=of add, align=center]
+        (mb) {$\mu \rightarrow \mu^*$\\$m_B^* = m_B - \delta_{m_B}$};
     \node[process, below=of mb]
-        (salt2mu) {\texttt{SALT2}$\mu$};
-    \node[inter, below left=of salt2mu]
-        (ab) {$\alpha$, $\beta$};
-    \node[inout, below right=of salt2mu]
-        (res) {$z$, $\Delta\mu$};
+        (salt2mu) {\texttt{SALT2mu}};
+    \node[inout, below=of salt2mu]
+        (res) {$\alpha$, $\beta$, $\gamma_{\rm env}$, $M_{z_i}$, $\sigma_{\mu}$};
     \node[process, below=of res]
         (wfit) {\texttt{wfit}};
     \node[inout, below=of wfit]
-        (cosmo) {$w$, $\Omega_M$\ldots};
+        (cosmo) {$w$, $\Omega_M$};
     % Plot lines
     \draw[->] (biascor) -- (bbc1D);
     \draw[->] (bbc1D) -- (dbias);
     \draw[->] (dbias) -- (add);
-    \draw[->] (data) -- (add);
+    \draw[->] (data) -- (mu);
+    \draw[->] (mu) -- (add);
     \draw[->] (add) -- (mb);
     \draw[->] (mb) -- (salt2mu);
-    \draw[->] (salt2mu) -- (ab);
     \draw[->] (salt2mu) -- (res);
     \draw[->] (res) -- (wfit);
     \draw[->] (wfit) -- (cosmo);

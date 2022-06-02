@@ -40,6 +40,28 @@ forward-modeling approach. This method has the aim to be predictive and to
 better fit the data, as is discussed in Section~\ref{sec:results}. In order to
 implement our modeling in this framework, we had to modify the HOSTLIBs on which
 the simulations are based.
+
+% SK16 is galaxy distribution from which you draw, P21 is a list with the
+% distrubtion already in it, linking the relationships and $x_1$ and stuff
+% already drawn. But there's no evolution in it, and we want to do that. Forward
+% model that through.
+
+% General, Brodie, us; no lightcurve fitting, and at the end of hostlib section
+% w simulate antheon
+
+% P21: There is a relationship, we'll try to guess it. Take data bns of mass,
+% and calculate what the distribtion of stretch is for each. Looks differently
+% in different bins: as a function of mass they have distribution. Backward
+% models.  N21: our data is independent and we use it to show that it works on
+% other data at higher redshift, is predictive, and involves an evolution of the
+% distributions.
+
+% Generate $z$, take closest $M$ entry in a table of host galaxies (HOSTLIB),
+% then pick $x_1$, $c$ assuming underlying relationships defined by the BBC
+% team.  Because we want to make these simulations with an evolving underlying
+% distribution, we have to replace then $x_1$ values by what is estimated by our
+% previous model.
+
 \subsection{Étirement et couleur globales~: SK}\label{ssec:sk}
 
 \cite{scolnic2016} (ci-après SK) tirent ces paramètres de populations

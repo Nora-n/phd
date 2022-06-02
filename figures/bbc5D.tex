@@ -22,66 +22,77 @@
     % Do inouts
     \node[inout]
         (data) {Donn\'ees};
-    \node[inout, right=of data, xshift=1cm]
+    \node[inout, right=of data, xshift=2cm]
         (biascor) {BiasCor};
-    \node[inout, below=of data, xshift=1cm,
+    \node[inout, below=of data, xshift=1.5cm,
          anchor=north, fill=white,
-         minimum width=6cm, minimum height=5cm]
+         minimum width=6cm, minimum height=5.5cm]
         (boxproc) {};
-    \node[inout, minimum width=6cm, anchor=north, fill=Orchid!20]
-        (salt2mu) at (boxproc.north) {\texttt{SALT2}$\mu$};
-    \node[inner sep=0] (chainleft) at (data|-salt2mu.south) {};
-    \node[inner sep=0] (chainleftop) at (data|-salt2mu.north) {};
-    \node[inner sep=0] (chainright) at (biascor|-salt2mu.south) {};
-    \node[inner sep=0] (chainrightop) at (biascor|-salt2mu.north) {};
-    \node[inter, below=of chainleft, yshift=0.5cm]
-        %(initsalt) {\texttt{SALT2}$\mu$};
-    %\node[inter, below=of initsalt]
+    \node[inout, minimum width=6cm, anchor=north, fill=Orchid!30]
+        (bbc5D) at (boxproc.north) {\texttt{BBC5D} + \texttt{SALT2mu}};
+    \node[inner sep=0] (chainleft) at (data|-bbc5D.south) {};
+    \node[inner sep=0] (chainleftop) at (data|-bbc5D.north) {};
+    \node[inner sep=0] (chainright) at (biascor|-bbc5D.south) {};
+    \node[inner sep=0] (chainrightop) at (biascor|-bbc5D.north) {};
+    \node[below=of chainright]
+        (mcube) {\includegraphics[width=2cm]{matrices_cube-selected.pdf}};
+    \node[inter, below=of chainleft]
         (ab) {$\alpha$, $\beta$};
     \node[inner sep=0] (ableft) at ([shift={(-0.5cm,0)}]ab.west) {};
-    \node[process, below=of chainright, yshift=0.5cm]
-        (bbc5D) {\texttt{BBC5D}};
-    \node[right=of bbc5D, xshift=2.5cm]
-        (mcube) {\includegraphics[width=2cm]{matrices_cube.pdf}};
-    \node[inter, below=of bbc5D]
-        (dbias) {$\delta\mu_{\rm biais} \equiv
-                (\delta_{m_B}+\alpha\delta_{x_1}-\beta\delta_c)$};
-    \node[circle, draw, fill=white, below=of salt2mu.south, yshift=-2cm]
+    % \begin{scope}[shift=(mcube)]
+    %     \pgftransformcm{1}{0}{0.3}{0.5}{\pgfpoint{0cm}{0cm}}
+    %     \draw[orange] (select) (-0.4,-0.3) circle (0.4cm) {};
+    % \end{scope}
+    \node[inter, below=of mcube]
+    (dbias) {$\delta\mu_{\rm biais}(\rm 5D)$};
+                %{$\delta\mu_{\rm biais} \triangleq -
+                %(\delta_{m_B}+\alpha\delta_{x_1}-\beta\delta_c)$};
+    \node[inter]
+        (mu) at (data|-dbias) {$\mu$};
+    \node[add, scale=2]
+        (addbox) at ($(mu)!0.5!(dbias)$) {};
+    \node[inter, below=of addbox]
+        (mb) {$\mu \rightarrow \mu^*$};
+    \node[circle, draw, fill=white, below=of mb]
         (chi2) {$\chi^2$};
-%     \node[process, below=of biascor]
-%         (bbc1D) {BBC1D};
-%     \node[add, scale=2]
-%         (add) at (data |- dbias) {};
-%     \node[inter, below=of add]
-%         (mb) {$m_B^* = m_B - \delta m_B$};
-%     \node[process, below=of mb]
-%         (salt2mu) {\texttt{SALT2}$\mu$};
-%     \node[inter, below left=of salt2mu]
-%         (ab) {$\alpha$, $\beta$};
-%     \node[inout, below right=of salt2mu]
-%         (res) {$z$, $\Delta\mu$};
-%     \node[process, below=of res]
-%         (wfit) {\texttt{wfit}};
-%     \node[inout, below=of wfit]
-%         (cosmo) {$w$, $\Omega_M$\ldots};
+    \node[draw, fill=white, scale=0.8, anchor=center]
+        (label) at (chi2|-boxproc.south) {Meilleur ajustement};
+    % \node[inter, below=of label, align=center]
+    %     (bestfit) {$\mu^*, M_{z_i}$};
+    % \node[add, scale=2]
+    %     (add) at (data |- bestfit) {};
+    \node[inout, below=of label]
+        (res) {$\alpha$, $\beta$, $\gamma_{\rm env}$, $M_{z_i}$, $\sigma_{\mu}$};
+    \node[process, below=of res]
+        (wfit) {\texttt{wfit}};
+    \node[inout, below=of wfit]
+        (cosmo) {$w$, $\Omega_M$};
     % Plot lines
     \draw[->] (biascor) -- (chainrightop);
-    \draw[->] (data) -- (chainleftop);
-    \draw[->] (chainright) -- (bbc5D);
-    \draw[->] (ab) -- (bbc5D);
-    \draw[->] (bbc5D) -- (dbias);
-    \draw[->] (dbias) |- (chi2.east);
+    \draw[->] (chainright) -- (mcube);
+    \draw[->] (mcube) -- (dbias);
+    % \draw[->] (dbias) |- (chi2.east);
     \draw[->, dashed] (chi2) -- (chi2 -| ableft) --
-            node [diamond, draw, fill=Orchid!20, scale=0.8] {Minimisation}
+            node [diamond, draw, solid, rounded corners,
+                  fill=Orchid!20, scale=0.5] {Minimisation}
             (ableft) -- (ab);
-    \draw[Snake, ->, gray, dashed] (bbc5D) -- (mcube);
-    % \draw[->] (dbias) -- (add);
+    \draw[->] (chi2) -- (label);
+    \draw[->] (label) -- (res);
+    \draw[->] (data) -- (chainleftop);
+    \draw[->] (chainleft) --
+            node[midway, fill=white, scale=0.5] {Essai}
+        (ab);
+    \draw[->] (ab) -- (mcube);
+    \draw[->] (ab) -- (mu);
+    \draw[->] (mu) -- (addbox);
+    \draw[->] (dbias) -- (addbox);
+    \draw[->] (addbox) -- (mb);
+    % \draw[->] (bestfit) -- (add);
     % \draw[->] (add) -- (mb);
-    % \draw[->] (mb) -- (salt2mu);
-    % \draw[->] (salt2mu) -- (ab);
-    % \draw[->] (salt2mu) -- (res);
-    % \draw[->] (res) -- (wfit);
-    % \draw[->] (wfit) -- (cosmo);
+    \draw[->] (mb) -- (chi2);
+    \draw[->] (res) -- (wfit);
+    \draw[->] (wfit) -- (cosmo);
 \end{tikzpicture}
 \end{document}
+
 
