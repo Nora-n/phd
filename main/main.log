@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  2 JUN 2022 18:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  2 JUN 2022 19:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2290,6 +2290,327 @@ LaTeX Warning: Label `tab:modelresults' multiply defined.
 
 LaTeX Warning: Label `ch' multiply defined.
 
+
+Package natbib Warning: Citation `abbott2019' multiply defined.
+
+
+Package natbib Warning: Citation `syed2015' multiply defined.
+
+
+Package natbib Warning: Citation `aldering2002' multiply defined.
+
+
+Package natbib Warning: Citation `astier2006' multiply defined.
+
+
+Package natbib Warning: Citation `aubourg2008' multiply defined.
+
+
+Package natbib Warning: Citation `balland2009' multiply defined.
+
+
+Package natbib Warning: Citation `bellm2019' multiply defined.
+
+
+Package natbib Warning: Citation `betoule2014' multiply defined.
+
+
+Package natbib Warning: Citation `blagorodnova2018' multiply defined.
+
+
+Package natbib Warning: Citation `boulade2003' multiply defined.
+
+
+Package natbib Warning: Citation `briday2021' multiply defined.
+
+
+Package natbib Warning: Citation `briday2022' multiply defined.
+
+
+Package natbib Warning: Citation `burgh2003' multiply defined.
+
+
+Package natbib Warning: Citation `burnham2004' multiply defined.
+
+
+Package natbib Warning: Citation `calzetti2013' multiply defined.
+
+
+Package natbib Warning: Citation `chambers2016' multiply defined.
+
+
+Package natbib Warning: Citation `conley2011' multiply defined.
+
+
+Package natbib Warning: Citation `contreras2010' multiply defined.
+
+
+Package natbib Warning: Citation `copin2013' multiply defined.
+
+
+Package natbib Warning: Citation `dekany2020' multiply defined.
+
+
+Package natbib Warning: Citation `dekker1986' multiply defined.
+
+
+Package natbib Warning: Citation `dilday2008' multiply defined.
+
+
+Package natbib Warning: Citation `dressler2011' multiply defined.
+
+
+Package natbib Warning: Citation `ellis2008' multiply defined.
+
+
+Package natbib Warning: Citation `faber2003' multiply defined.
+
+
+Package natbib Warning: Citation `fabricant2005' multiply defined.
+
+
+Package natbib Warning: Citation `feindt2019' multiply defined.
+
+
+Package natbib Warning: Citation `folatelli2010' multiply defined.
+
+
+Package natbib Warning: Citation `fremling2020' multiply defined.
+
+
+Package natbib Warning: Citation `frieman2008' multiply defined.
+
+
+Package natbib Warning: Citation `fukugita1996' multiply defined.
+
+
+Package natbib Warning: Citation `giavalisco2004' multiply defined.
+
+
+Package natbib Warning: Citation `graham2019' multiply defined.
+
+
+Package natbib Warning: Citation `graur2014' multiply defined.
+
+
+Package natbib Warning: Citation `gunn1998' multiply defined.
+
+
+Package natbib Warning: Citation `gunn2006' multiply defined.
+
+
+Package natbib Warning: Citation `guy2007' multiply defined.
+
+
+Package natbib Warning: Citation `guy2010' multiply defined.
+
+
+Package natbib Warning: Citation `hadjiyska2012' multiply defined.
+
+
+Package natbib Warning: Citation `hamuy1996' multiply defined.
+
+
+Package natbib Warning: Citation `hicken2009a' multiply defined.
+
+
+Package natbib Warning: Citation `hicken2012' multiply defined.
+
+
+Package natbib Warning: Citation `hicken2009b' multiply defined.
+
+
+Package natbib Warning: Citation `hill1998' multiply defined.
+
+
+Package natbib Warning: Citation `hinton2020' multiply defined.
+
+
+Package natbib Warning: Citation `hinton2019' multiply defined.
+
+
+Package natbib Warning: Citation `hodapp2004' multiply defined.
+
+
+Package natbib Warning: Citation `hook2004' multiply defined.
+
+
+Package natbib Warning: Citation `howell2007' multiply defined.
+
+
+Package natbib Warning: Citation `ivezic2019' multiply defined.
+
+
+Package natbib Warning: Citation `james1975' multiply defined.
+
+
+Package natbib Warning: Citation `jha2006' multiply defined.
+
+
+Package natbib Warning: Citation `kaiser2010' multiply defined.
+
+
+Package natbib Warning: Citation `kashikawa2000' multiply defined.
+
+
+Package natbib Warning: Citation `kennicutt1998' multiply defined.
+
+
+Package natbib Warning: Citation `kessler2009b' multiply defined.
+
+
+Package natbib Warning: Citation `kessler2009a' multiply defined.
+
+
+Package natbib Warning: Citation `kessler2019' multiply defined.
+
+
+Package natbib Warning: Citation `kessler2013' multiply defined.
+
+
+Package natbib Warning: Citation `kessler2017' multiply defined.
+
+
+Package natbib Warning: Citation `kunz2007' multiply defined.
+
+
+Package natbib Warning: Citation `lantz2004' multiply defined.
+
+
+Package natbib Warning: Citation `law2009' multiply defined.
+
+
+Package natbib Warning: Citation `madau2015' multiply defined.
+
+
+Package natbib Warning: Citation `mannucci2005' multiply defined.
+
+
+Package natbib Warning: Citation `marriner2011' multiply defined.
+
+
+Package natbib Warning: Citation `marshall2008' multiply defined.
+
+
+Package natbib Warning: Citation `neill2006' multiply defined.
+
+
+Package natbib Warning: Citation `nicolas2021' multiply defined.
+
+
+Package natbib Warning: Citation `oke1995' multiply defined.
+
+
+Package natbib Warning: Citation `pereira2013' multiply defined.
+
+
+Package natbib Warning: Citation `perlmutter1999' multiply defined.
+
+
+Package natbib Warning: Citation `perrett2010' multiply defined.
+
+
+Package natbib Warning: Citation `perrett2012' multiply defined.
+
+
+Package natbib Warning: Citation `phillips1993' multiply defined.
+
+
+Package natbib Warning: Citation `planck2018' multiply defined.
+
+
+Package natbib Warning: Citation `popovic2021b' multiply defined.
+
+
+Package natbib Warning: Citation `popovic2021a' multiply defined.
+
+
+Package natbib Warning: Citation `rabinowitz2003' multiply defined.
+
+
+Package natbib Warning: Citation `rest2014' multiply defined.
+
+
+Package natbib Warning: Citation `riess2019' multiply defined.
+
+
+Package natbib Warning: Citation `riess1998' multiply defined.
+
+
+Package natbib Warning: Citation `riess1999' multiply defined.
+
+
+Package natbib Warning: Citation `riess2016' multiply defined.
+
+
+Package natbib Warning: Citation `riess2007' multiply defined.
+
+
+Package natbib Warning: Citation `rigault2020' multiply defined.
+
+
+Package natbib Warning: Citation `rigault2013' multiply defined.
+
+
+Package natbib Warning: Citation `rigault2019' multiply defined.
+
+
+Package natbib Warning: Citation `rodney2014' multiply defined.
+
+
+Package natbib Warning: Citation `rodrigo2020' multiply defined.
+
+
+Package natbib Warning: Citation `rubin2015' multiply defined.
+
+
+Package natbib Warning: Citation `sako2008' multiply defined.
+
+
+Package natbib Warning: Citation `sako2018' multiply defined.
+
+
+Package natbib Warning: Citation `scannapieco2005' multiply defined.
+
+
+Package natbib Warning: Citation `schmidt1989' multiply defined.
+
+
+Package natbib Warning: Citation `scolnic2016' multiply defined.
+
+
+Package natbib Warning: Citation `scolnic2014' multiply defined.
+
+
+Package natbib Warning: Citation `scolnic2018' multiply defined.
+
+
+Package natbib Warning: Citation `shariff2016' multiply defined.
+
+
+Package natbib Warning: Citation `smith2020' multiply defined.
+
+
+Package natbib Warning: Citation `stritzinger2011' multiply defined.
+
+
+Package natbib Warning: Citation `strolger2004' multiply defined.
+
+
+Package natbib Warning: Citation `sullivan2011' multiply defined.
+
+
+Package natbib Warning: Citation `sullivan2006' multiply defined.
+
+
+Package natbib Warning: Citation `suzuki2012' multiply defined.
+
+
+Package natbib Warning: Citation `tasca2015' multiply defined.
+
+
+Package natbib Warning: Citation `tonry2006' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -4006,7 +4327,35 @@ Package pdftex.def Info: ../figures/bbc5D.pdf  used on input line 660.
 
 \openout4 = `main.mtc'.
 
- (./main.mlt7)) (../chapters/08_sims.tex [88
+ (./main.mlt7)) (../chapters/08_sims.tex
+Package minitoc(hints) Info: I0045
+(minitoc(hints))             The \dominitoc command 
+(minitoc(hints))             has been invoked more than once 
+(minitoc(hints))              on input line 5.
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 5.
+\tf@toc=\write10
+\openout10 = `main.toc'.
+
+Package minitoc(hints) Info: I0045
+(minitoc(hints))             The \dominilof command 
+(minitoc(hints))             has been invoked more than once 
+(minitoc(hints))              on input line 7.
+Package minitoc Info: I0034
+(minitoc)             PREPARING MINILOFS FROM main.lof on input line 7.
+\tf@lof=\write11
+\openout11 = `main.lof'.
+
+Package minitoc(hints) Info: I0045
+(minitoc(hints))             The \dominilot command 
+(minitoc(hints))             has been invoked more than once 
+(minitoc(hints))              on input line 9.
+Package minitoc Info: I0037
+(minitoc)             PREPARING MINILOTS FROM main.lot on input line 9.
+\tf@lot=\write12
+\openout12 = `main.lot'.
+
+ [88
 
 ]
 Chapitre VIII.
@@ -4014,70 +4363,99 @@ Chapitre VIII.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc8
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1.
-) [89
+(./main.mtc1) [89
 
 ]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 33.
- [90] [91]
-Overfull \hbox (7.39342pt too wide) in paragraph at lines 241--243
+
+../chapters/08_sims.tex:179: Missing $ inserted.
+<inserted text> 
+                $
+l.179 une \hostlib\ que nous appelons «~BP_
+                                            LOWZ~», et pour la combinaison ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \guillemotright invalid in math mode on input line 179.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 180.
+
+
+LaTeX Warning: Command \guillemotleft invalid in math mode on input line 181.
+
+
+LaTeX Warning: Command \guillemotright invalid in math mode on input line 181.
+
+../chapters/08_sims.tex:182: Missing $ inserted.
+<inserted text> 
+                $
+l.182 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no � in font cmr12!
+
+Overfull \hbox (398.6245pt too wide) in paragraph at lines 174--182
+\T1/cmtt/m/n/12 HOSTLIB \T1/cmr/m/n/12 (-20) que nous ap-pe-lons ^^S BP$[]\OML/cmm/m/it/12 OWZ \OT1/cmr/m/n/12 (-20) ^^T\OML/cmm/m/it/12 ; etpourlacombinaisondessondagesDES; SDSS; PS\OT1/cmr/m/n/12 (-20) 1\OML/cmm/m/it/12 etSNLSd[]autrepart; menantune[] quenousnommons\OT1/cmr/m/n/12 (-20) ^^S \OML/cmm/m/it/12 BP[]ighz \OT1/cmr/m/n/12 (-20) ^^T\OML/cmm/m/it/12 :$ 
+ []
+
+[90] [91]
+Overfull \hbox (7.39342pt too wide) in paragraph at lines 247--249
 []\T1/cmr/m/n/12 (-20) 1G1M1S also sim-ply na-med \T1/cmr/m/it/12 (-20) Gaus-sian\T1/cmr/m/n/12 (-20) , a pure redshift-independent and age-independent
  []
 
 [92]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 294.
+               Default added (so using `tbp') on input line 300.
 
-<../figures/model_mass_2G2M4S_hist_SED-nonan.pdf, id=3486, 486.21825pt x 265.78484pt>
+<../figures/model_mass_2G2M4S_hist_SED-nonan.pdf, id=3483, 486.21825pt x 265.78484pt>
 File: ../figures/model_mass_2G2M4S_hist_SED-nonan.pdf Graphic file (type pdf)
 <use ../figures/model_mass_2G2M4S_hist_SED-nonan.pdf>
-Package pdftex.def Info: ../figures/model_mass_2G2M4S_hist_SED-nonan.pdf  used on input line 296.
+Package pdftex.def Info: ../figures/model_mass_2G2M4S_hist_SED-nonan.pdf  used on input line 302.
 (pdftex.def)             Requested size: 455.24411pt x 248.86444pt.
 
-Overfull \hbox (2.59341pt too wide) in paragraph at lines 316--352
+Overfull \hbox (2.59341pt too wide) in paragraph at lines 322--358
  [][] 
  []
 
 
-Overfull \hbox (38.94792pt too wide) in paragraph at lines 359--382
+Overfull \hbox (38.94792pt too wide) in paragraph at lines 365--388
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 400.
+               Default added (so using `tbp') on input line 406.
 
-<../figures/deltaz_hist_yo-random.pdf, id=3496, 406.91185pt x 224.44316pt>
+<../figures/deltaz_hist_yo-random.pdf, id=3493, 406.91185pt x 224.44316pt>
 File: ../figures/deltaz_hist_yo-random.pdf Graphic file (type pdf)
 <use ../figures/deltaz_hist_yo-random.pdf>
-Package pdftex.def Info: ../figures/deltaz_hist_yo-random.pdf  used on input line 402.
+Package pdftex.def Info: ../figures/deltaz_hist_yo-random.pdf  used on input line 408.
 (pdftex.def)             Requested size: 455.24411pt x 251.10405pt.
-
-Underfull \vbox (badness 1107) has occurred while \output is active []
-
- [93 <../figures/model_mass_2G2M4S_hist_SED-nonan.pdf>] [94 <../figures/deltaz_hist_yo-random.pdf>] [95] [96]
-<../figures/blank.png, id=3584, 100.375pt x 100.375pt>
+[93 <../figures/model_mass_2G2M4S_hist_SED-nonan.pdf>] [94] [95 <../figures/deltaz_hist_yo-random.pdf>] [96]
+<../figures/blank.png, id=3581, 100.375pt x 100.375pt>
 File: ../figures/blank.png Graphic file (type png)
 <use ../figures/blank.png>
-Package pdftex.def Info: ../figures/blank.png  used on input line 535.
+Package pdftex.def Info: ../figures/blank.png  used on input line 541.
 (pdftex.def)             Requested size: 455.24411pt x 455.3836pt.
  [97] [98 <../figures/blank.png (PNG copy)>]
-\openout4 = `main.mtc'.
+Package minitoc Info: I0006
+(minitoc)             main.mlf1 is empty on input line 590.
+Package minitoc Info: I0006
+(minitoc)             main.mlt1 is empty on input line 592.
+ (./main.bbl (./main.brf)
+\tf@brf=\write13
+\openout13 = `main.brf'.
 
-\openout4 = `main.mtc'.
+ [99
 
- (./main.mlf8)
-\openout4 = `main.mtc'.
 
-\openout4 = `main.mtc'.
-
- (./main.mlt8)) (../chapters/09_results.tex [99
-
-] [100
+] [100] [101] [102] [103] [104] [105] [106])) (../chapters/09_results.tex [107] [108
 
 ]
 Chapitre IX.
@@ -4085,50 +4463,466 @@ Chapitre IX.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc9
-Overfull \hbox (0.55652pt too wide) detected at line 1
- [][][]\T1/cmr/bx/n/10.95 102[][]
- []
-
-
-Overfull \hbox (0.55652pt too wide) detected at line 4
- [][][]\T1/cmr/bx/n/10.95 102[][]
- []
-
-) [101] [102]
+(./main.mtc2) [109] [110]
 Package minitoc Info: I0006
-(minitoc)             main.mlf9 is empty on input line 47.
+(minitoc)             main.mlf2 is empty on input line 47.
 Package minitoc Info: I0006
-(minitoc)             main.mlt9 is empty on input line 49.
-) (../chapters/98_conclusions.tex) (./main.bbl (./main.brf)
-\tf@brf=\write10
-\openout10 = `main.brf'.
-
- [103
+(minitoc)             main.mlt2 is empty on input line 49.
+) (../chapters/98_conclusions.tex) (./main.bbl (./main.brf) [111
 
 
-] [104
+] [112
 
-] [105] [106] [107] [108] [109] [110] [111] [112])
+]pdfTeX warning (ext4): destination with the same identifier (name{cite.abbott2019}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.syed2015}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.aldering2002}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.72 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.astier2006}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92 
+     pdfTeX warning (ext4): destination with the same identifier (name{cite.aubourg2008}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.balland2009}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.116 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.bellm2019}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.156 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.betoule2014}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.182 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.blagorodnova2018}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.194 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.boulade2003}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.210 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.briday2021}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.216 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.briday2022}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.228 
+       [113]pdfTeX warning (ext4): destination with the same identifier (name{cite.burgh2003}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.239 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.burnham2004}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.245 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.calzetti2013}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.249 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.chambers2016}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.290 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.conley2011}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.307 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.contreras2010}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.320 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.copin2013}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.326 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.dekany2020}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.339 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.dekker1986}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.348 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.dilday2008}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.371 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.dressler2011}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.382 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.ellis2008}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.394 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.faber2003}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.410 
+       [114]pdfTeX warning (ext4): destination with the same identifier (name{cite.fabricant2005}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.424 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.feindt2019}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.433 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.folatelli2010}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.447 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.fremling2020}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.466 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.frieman2008}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.503 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.fukugita1996}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.511 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.giavalisco2004}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.536 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.graham2019}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.576 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.graur2014}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.596 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.gunn1998}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.613 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.gunn2006}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.636 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.guy2007}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.650 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.guy2010}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.667 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.hadjiyska2012}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.677 
+       [115]pdfTeX warning (ext4): destination with the same identifier (name{cite.hamuy1996}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.685 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.hicken2009a}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.715 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.hicken2012}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.733 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.hicken2009b}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.744 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.hill1998}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.754 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.hinton2020}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.761 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.hinton2019}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.787 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.hodapp2004}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.802 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.hook2004}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.811 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.howell2007}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.819 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.ivezic2019}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.918 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.james1975}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.926 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.jha2006}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.957 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.kaiser2010}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.968 
+       [116]pdfTeX warning (ext4): destination with the same identifier (name{cite.kashikawa2000}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.982 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.kennicutt1998}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.989 
+      pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2009b}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1010 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2009a}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1021 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2019}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1060 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2013}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1070 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.kessler2017}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1077 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.kunz2007}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1084 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.lantz2004}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1096 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.law2009}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1114 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.madau2015}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1120 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.mannucci2005}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1129 
+        [117]pdfTeX warning (ext4): destination with the same identifier (name{cite.marriner2011}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1139 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.marshall2008}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1151 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.neill2006}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1169 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.nicolas2021}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1179 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.oke1995}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1188 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.pereira2013}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1207 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.perlmutter1999}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1224 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.perrett2010}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1236 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.perrett2012}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1251 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.phillips1993}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1257 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.planck2018}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1321 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.popovic2021b}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1330 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.popovic2021a}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1340 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.rabinowitz2003}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1353 
+        [118]pdfTeX warning (ext4): destination with the same identifier (name{cite.rest2014}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1375 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess2019}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1386 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess1998}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1399 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess1999}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1417 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess2016}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1428 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.riess2007}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1441 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.rigault2020}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1461 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.rigault2013}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1479 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.rigault2019}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1489 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.rodney2014}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1507 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.rodrigo2020}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1513 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.rubin2015}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1525 
+        [119]pdfTeX warning (ext4): destination with the same identifier (name{cite.sako2008}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1547 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.sako2018}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1568 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.scannapieco2005}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1575 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.schmidt1989}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1583 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.scolnic2016}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1590 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.scolnic2014}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1612 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.scolnic2018}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1632 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.shariff2016}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1640 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.smith2020}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1675 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.stritzinger2011}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1690 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.strolger2004}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1709 
+        [120]pdfTeX warning (ext4): destination with the same identifier (name{cite.sullivan2011}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1726 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.sullivan2006}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1741 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.suzuki2012}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1769 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.tasca2015}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1792 
+       pdfTeX warning (ext4): destination with the same identifier (name{cite.tonry2006}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1799 
+       )
+
+Package natbib Warning: There were multiply defined citations.
+
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
 \openout4 = `main.maf'.
 
 
-
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[113]
+[121]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: DC91BF6E807493397BD5C46C44E4781D;12653.
+(rerunfilecheck)             Checksum: 5B7D9931A552D21B07D951E5117175D6;12602.
 
 
 LaTeX Warning: There were undefined references.
@@ -4138,21 +4932,21 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 58436 strings out of 492982
- 1180446 string characters out of 6134895
- 1538603 words of memory out of 5000000
- 59785 multiletter control sequences out of 15000+600000
- 589577 words of font info for 356 fonts, out of 8000000 for 9000
+ 58437 strings out of 492982
+ 1180416 string characters out of 6134895
+ 1540285 words of memory out of 5000000
+ 59783 multiletter control sequences out of 15000+600000
+ 589342 words of font info for 353 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,21n,130p,10407b,2837s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,21n,130p,10407b,2928s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (131 pages, 9728489 bytes).
+Output written on main.pdf (139 pages, 9773634 bytes).
 PDF statistics:
- 4799 PDF objects out of 5155 (max. 8388607)
- 3937 compressed objects within 40 object streams
- 581 named destinations out of 1000 (max. 500000)
+ 5265 PDF objects out of 6186 (max. 8388607)
+ 4391 compressed objects within 44 object streams
+ 590 named destinations out of 1000 (max. 500000)
  61300 words of extra memory for PDF output out of 61914 (max. 10000000)
 

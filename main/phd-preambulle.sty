@@ -19,6 +19,8 @@
 \RequirePackage[margin=2.5cm, top=3cm, bottom=3cm]{geometry}
 % To locally change margins
 \RequirePackage{changepage}
+% To resize tables inside threeparttable for instance
+\RequirePackage{adjustbox}
 
 %%% En-tête et pied de page
 \RequirePackage{fancyhdr}
@@ -140,6 +142,8 @@
 \RequirePackage[svgnames, dvipsnames, table]{xcolor}
 \definecolor{urlcolor}{rgb}{0,0,1}
 \definecolor{dgreen}{rgb}{.1,.6,.1}
+\definecolor{cornflowerblue}{rgb}{0.3921, 0.5843, 0.9294}
+\definecolor{limegreen}{rgb}{0.2, 0.8, 0.2}
 
 % Pour les plots
 \RequirePackage{pgfplots}
@@ -156,6 +160,7 @@
   \tikz[remember picture,overlay,xshift=10pt,yshift=0pt]
   \node[black!30] (CQ) {\fontfamily{qbk}\fontsize{50}{60}\selectfont»};%
 }
+\usetikzlibrary{trees, positioning, arrows}
 
 \RequirePackage{microtype}
 

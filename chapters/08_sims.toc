@@ -2,17 +2,20 @@
 \contentsline {chapter}{\numberline {I}Impact sur la cosmologie~: simulations}{1}{chapter.1}
 \contentsline {section}{\numberline {I.1}Pr\IeC {\'e}sentation des \texttt {HOSTLIB}}{2}{section.1.1}
 \contentsline {subsection}{\numberline {I.1.1}\IeC {\'E}tirement et couleur globales~: SK}{2}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {I.1.2}\IeC {\'E}tirement et couleur selon la masse~: BP}{2}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {I.1.3}\IeC {\'E}tirement selon l'\IeC {\^a}ge~: NN}{2}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {I.1.2}\IeC {\'E}tirement et couleur selon la masse~: BP}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {I.1.3}\IeC {\'E}tirement selon l'\IeC {\^a}ge~: NN}{3}{subsection.1.1.3}
 \contentsline {subsection}{\numberline {I.1.4}\IeC {\'E}tirement et marche de magnitude selon l'\IeC {\^a}ge~: NR}{3}{subsection.1.1.4}
-\contentsline {section}{\numberline {I.2}Confection des \texttt {HOSTLIB}}{3}{section.1.2}
-\contentsline {subsection}{\numberline {I.2.1}Mod\IeC {\'e}lisation du lien entre masse et redshift}{3}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {I.2.2}Mass modeling results}{4}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {I.2.3}Input generation}{5}{subsection.1.2.3}
-\contentsline {section}{\numberline {I.3}Impl\IeC {\'e}mentation}{7}{section.1.3}
-\contentsline {subsection}{\numberline {I.3.1}Description of the tests}{7}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {I.3.2}Comparing tests on simulations}{9}{subsection.1.3.2}
-\contentsline {section}{\numberline {I.4}R\IeC {\'e}sultats}{9}{section.1.4}
-\contentsline {section}{\numberline {I.5}Discussion}{9}{section.1.5}
-\contentsline {section}{\numberline {I.6}Conclusion}{9}{section.1.6}
+\contentsline {section}{\numberline {I.2}Confection des \texttt {HOSTLIB}}{4}{section.1.2}
+\contentsline {subsection}{\numberline {I.2.1}Mod\IeC {\'e}lisation du lien entre masse et redshift}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {I.2.2}Comparaison aux donn\IeC {\'e}es}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {I.2.3}S\IeC {\'e}lection des mod\IeC {\`e}les}{6}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {I.2.4}G\IeC {\'e}n\IeC {\'e}ration des \texttt {HOSTLIB}}{7}{subsection.1.2.4}
+\contentsline {section}{\numberline {I.3}Impl\IeC {\'e}mentation}{11}{section.1.3}
+\contentsline {subsection}{\numberline {I.3.1}Types de simulations}{11}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {I.3.2}Nomenclature des simulations}{11}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {I.3.3}Contr\IeC {\^o}le du nombre de SNe~Ia simul\IeC {\'e}es~:\texttt {NGEN}}{12}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {I.3.4}Comparaison des donn\IeC {\'e}es simul\IeC {\'e}es aux donn\IeC {\'e}es r\IeC {\'e}elles}{12}{subsection.1.3.4}
+\contentsline {section}{\numberline {I.4}R\IeC {\'e}sultats}{15}{section.1.4}
+\contentsline {section}{\numberline {I.5}Discussion}{15}{section.1.5}
+\contentsline {section}{\numberline {I.6}Conclusion}{15}{section.1.6}
 \contentsfinish 

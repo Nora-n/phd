@@ -4,44 +4,44 @@ The top-level auxiliary file: 08_sims.aux
 The style file: ../main/aa_url.bst
 Database file #1: ../chapters/99_references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 6 entries,
+You've used 9 entries,
             3173 wiz_defined-function locations,
-            747 strings with 8002 characters,
-and the built_in function-call counts, 7309 in all, are:
-= -- 478
-> -- 920
+            776 strings with 9713 characters,
+and the built_in function-call counts, 11205 in all, are:
+= -- 733
+> -- 1411
 < -- 2
-+ -- 309
-- -- 303
-* -- 1107
-:= -- 1251
-add.period$ -- 6
-call.type$ -- 6
-change.case$ -- 126
-chr.to.int$ -- 6
-cite$ -- 6
-duplicate$ -- 120
-empty$ -- 181
-format.name$ -- 318
-if$ -- 1285
++ -- 474
+- -- 465
+* -- 1702
+:= -- 1908
+add.period$ -- 9
+call.type$ -- 9
+change.case$ -- 191
+chr.to.int$ -- 9
+cite$ -- 9
+duplicate$ -- 181
+empty$ -- 279
+format.name$ -- 487
+if$ -- 1979
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 5
-newline$ -- 22
-num.names$ -- 24
-pop$ -- 122
+missing$ -- 9
+newline$ -- 31
+num.names$ -- 36
+pop$ -- 186
 preamble$ -- 1
-purify$ -- 125
+purify$ -- 191
 quote$ -- 0
-skip$ -- 94
+skip$ -- 145
 stack$ -- 0
-substring$ -- 116
-swap$ -- 227
+substring$ -- 192
+swap$ -- 345
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
+type$ -- 81
 warning$ -- 0
-while$ -- 23
+while$ -- 36
 width$ -- 0
-write$ -- 70
+write$ -- 102
