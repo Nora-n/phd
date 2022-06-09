@@ -89,8 +89,8 @@ Dans leurs travaux, \citetalias{scolnic2016} n'incluent pas de lien d'étirement
 ou de couleur avec les propriétés de la galaxie hôte mais uniquement une marche
 de magnitude en fonction de sa masse $M_*$. Celle-ci est inclut dans les
 \wgtmap\ des sondages, et est de \SI{0.05}{mag}. Le tirage des paramètres $x_1$
-et $c$ se font alors depuis des distributions asymétriques Gaussiennes, décrites
-par~:
+et $c$ se font alors depuis des distributions asymétriques Gaussiennes, une par
+sondage simulé, décrites par~:
 \begin{equation}\label{eq:skasym}
     P(p) = \left\{
         \begin{array}{l}
@@ -218,14 +218,16 @@ et $c$.
 
 \subsection{Étirement selon l'âge~: NN}\label{ssec:nn}
 
-Pour notre étude, nous avons besoin de relier l'étirement attribué à la SN avec
-l'âge de son environnement, en correspondance avec nos travaux précédents
-\citep[][ci-après NN]{nicolas2021}\defcitealias{nicolas2021}{NN}. Nous avons
-alors pris les \hostlib\ BP pour y remplacer la colonne d'étirement par les
-valeurs attendues de notre modèle et y ajouter une colonne \texttt{LOGsSFR}
-indiquant si la SN est jeune (\texttt{LOGsSFR}=1) ou vieille
-(\texttt{LOGsSFR}=0), et nommons ces \hostlib\ «~NN~». La réalisation de cette
-\hostlib\ est présentée dans la Section~\ref{sec:hmake}.
+Notre approche des corrélations entre environnement et supernova est une
+variation forte par rapport aux précédentes implémentations, puisqu'elle résulte
+d'une modélisation prospective plutôt que purement phénoménologique. Pour notre
+étude, nous avons besoin de relier l'étirement attribué à la SN avec l'âge de
+son environnement, en correspondance avec nos travaux précédents
+\citep[][ci-après NN]{nicolas2021}\defcitealias{nicolas2021}{NN}. Nous
+augmentons donc les \hostlib\ en faisant correspondre un âge à chaque entrée des
+tables~; ainsi, par rapport aux \hostlib\ BP, nous avons donc une colonne
+indiquant si la SN est jeune ou vieille, et nommons ces \hostlib\ «~NN~». La
+réalisation de cette \hostlib\ est présentée dans la Section~\ref{sec:hmake}.
 
 \subsection{Étirement et marche de magnitude selon l'âge~: NR}\label{ssec:nr}
 
@@ -235,28 +237,24 @@ redshift (Chapitre~\ref{ch:stretch}), mais aussi une marche de magnitude de
 $\gamma_{\rm env} = \SI{0,13}{mag}$ entre les SNe~Ia jeunes et vieilles
 \citep[Chapitre~\ref{ch:stretch},][]{rigault2020}. Nous avons implémenté cette
 valeur à la place de la marche de magnitude selon $M_*$ incluse dans les
-\wgtmap\ des sondages \textit{via} l'ajout d'une colonne \texttt{SNMAGSHIFT} aux
-\hostlib\ NN~: ces nouvelles \hostlib\ se nomment «~NR~» pour «~\textsc{Nicolas}
-\textsc{Rigault}~», et présentent l'exacte même colonne d'étirement que les NN.
+\wgtmap\ des sondages \textit{via} l'ajout d'une colonne donnant une variation
+de magnitude de $\pm\SI{0.065}{mag}$ aux \hostlib\ NN~: ces nouvelles \hostlib\
+se nomment «~NR~» pour «~\textsc{Nicolas} \textsc{Rigault}~», et présentent
+l'exacte même colonne d'étirement que les NN.
 
-\section{Confection des \hostlib}\label{sec:hmake}
+\section{Confection des \hostlib\ NN et NR}\label{sec:hmake}
 
 Afin de simuler des SNe~Ia avec notre modèle, que ce soit pour NN ou NR, nous
 avons besoin que les propriétés des galaxies hôtes suivent les distributions de
 ce qui a été observé par les différents sondages simulés. Bien que nous
 soutenions que le LsSFR est un meilleur traceur de l'environnement d'une SN
 \citep{briday2022}, la plupart des sondages caractérisent les galaxies avec leur
-masse stellaire. Ainsi, la colonne des $M_*$ des \hostlib\
-\citetalias{popovic2021a} reste intacte puisque leurs couleurs (que nous
-utilisons) utilisent les intervalles de $M_*$.
-
-Étant donné que le LsSFR repose sur la masse de la galaxie hôte\footnote{pour
-rappel~: $\mathrm{sSFR} = \frac{\rm SFR}{M_*}$}, nous ne pouvons pas uniquement
-nous baser sur la valeur du redshift $z$ d'une entrée des \hostlib\ BP pour y
-assigner un étirement. Nous attendons effectivement que les galaxies vers
-$M_*\approx12$ ne contiennent des SNe~Ia vieilles (c'est-à-dire LsSFR $\approx$
-0) alors que les galaxies de $M \gtrsim 7$ n'en contiennent que des jeunes
-(LsSFR $\approx$ 1).
+masse stellaire. Étant donné que le LsSFR repose sur la masse de la galaxie
+hôte\footnote{pour rappel~: $\mathrm{sSFR} = \frac{\rm SFR}{M_*}$}, nous ne
+pouvons pas uniquement nous baser sur la valeur du redshift $z$ d'une entrée des
+\hostlib\ BP pour y assigner un étirement. Nous attendons effectivement que les
+galaxies vers $M_*\approx12$ ne contiennent des SNe~Ia vieilles  alors que les
+galaxies de $M \gtrsim 7$ n'en contiennent que des jeunes.
 
 Par conséquent, afin de comparer les implications de notre modélisation basée
 sur le LsSFR avec ce que les autres sondages ont observé, nous avons dû
@@ -292,12 +290,12 @@ distributions}) des galaxies pour éviter les corrections K dans cette procédur
 Nous avons appliqué la même analyse à l'échantillon SNf~; les données ainsi
 calculées sont nommées «~SEDSNf~» par la suite, et l'échantillon fiduciel
 utilisant SEDSNf est nommé «~SED fiduciel~». À cause de l'absence de 4 galaxies
-hôtes dans les catalogues de données nécessaire à ce calcul, l'échantillon
-SEDSNF est réduit à 110 données, au lien de 114 pour SNf. Nous indiquons
+hôtes dans les catalogues de données nécessaires à ce calcul, l'échantillon
+SEDSNf est réduit à 110 données, au lien de 114 pour SNf. Nous indiquons
 également que nous nous limitons pour cette étude aux galaxies de $M_* >
 10^7\si{\Msun}$, étant donné que les valeurs inférieures servent à indiquer
-qu'aucune galaxie hôte n'a été définie~; le sondage fiduciel tombe alors à 548
-données, et SED Fiduciel à 544.
+qu'aucune galaxie hôte n'a été définie~; l'échantillon fiduciel tombe alors à
+548 données, et SED Fiduciel à 544.
 
 Nous avons donc réalisé cette étude de l'évolution des distributions
 sous-jacentes de masse avec le LsSFR en utilisant~:
@@ -309,7 +307,7 @@ sous-jacentes de masse avec le LsSFR en utilisant~:
     \item [\bfseries Fiduciel] Toutes les données de notre échantillon
         fiduciel~;
     \item [\bfseries SED fiduciel] Toutes les données de notre échantillon
-        fiduciel avec les masses SEDSNF.
+        fiduciel avec les masses SEDSNf.
 \end{enumerate}
 
 \begin{figure}[t]
@@ -432,7 +430,7 @@ implémentés variant en redshift.
     modèles]{$\Delta$AIC entre le modèle Howell et les autres modèles (voir
         Tableau~\ref{tab:modelcomp}). Tous les modèles sont dérivants. Les
         marqueurs bleus, orange, verts, rouges montrent les résultats lorsque
-        l'analyse est effectuée sur l'échantillon SNF, SEDSNF, fiduciel,
+        l'analyse est effectuée sur l'échantillon SNf, SEDSNf, fiduciel,
         fiduciel avec SEDSNf, respectivement (voir légende). Les bandes de
         couleur illustrent la validité des modèles, d'acceptable ($\Delta$AIC >
         -5) à exclu ($\Delta$AIC < -20). En suivant ces valeurs d'AIC, tous les
@@ -451,7 +449,7 @@ implémentés variant en redshift.
         milieu et de droite, respectivement. Les échantillons sur lesquels ils
         sont ajustés correspondent aux lignes et à la couleur de fond du
         graphique~: SNf (bleu), SEDSNf (orange), fiduciel (vert), fiduciel avec
-        SEDSNF (rouge)~; ce sont les mêmes couleurs que dans la
+        SEDSNf (rouge)~; ce sont les mêmes couleurs que dans la
         Figure~\ref{fig:mod_comp}. Les quantités $\Delta(-2\ln(L))$ et
         $\Delta$AIC par rapport au modèle Howell de chaque ligne sont indiqués
         pour chaque modèle figure. Nous avons tracé dix réalisations des modèles
@@ -506,18 +504,32 @@ des courbes Gaussiennes des sous-populations jeunes étant bien plus larges que
 celles des sous-populations vieilles, donnant pour les masses élevée un rapport
 de probabilité en faveur des jeunes SNe~Ia. Ceci ne correspondant pas à une
 réalité physique, nous rejetons tous les modèles Howell+asym et Howell asym de
-notre étude à partir de ces résultats.
+notre étude à partir de ces résultats. Parmi les modèles Howell, seul celui
+ajusté sur SNf passe en effet par 50\% à $M_*=10^{10}\si{\Msun}$.
 
-Parmi les modèles Howell, seul celui ajusté sur SNf passe en effet par 50\% à
-$M_*=10^{10}\si{\Msun}$. Nous conservons ainsi les modèles Howell ajusté sur
-SEDSNf et le modèle Howell ajusté sur SNf. Les valeurs des paramètres les
-décrivant sont indiquées Tableau~\ref{tab:modelresults}.
+Nous conservons ainsi les modèles suivants~:
+\begin{enumerate}
+    \item Le modèle Howell ajusté sur SEDSNf~;
+    \item Le modèle Howell ajusté sur SNf~;
+\end{enumerate}
+et pour reproduire artificiellement la descente de la fraction de jeunes étoiles
+en fonction de la masse attendue, nous avons également~:
+\begin{enumerate}[resume]
+    \item «~SNfsupp~» («~suppressed~», «~réprimé~»)~: le modèle Howell ajusté
+        sur SNf, mais pour lequel les objets de $M_* > 10^{11}\si{\Msun}$ sont
+        automatiquement associés à des SNe~Ia âgées.
+\end{enumerate}
+
+Nous prenons le modèle SNfsupp comme référence~; les implications du choix de
+modélisation de masse est discuté Section~\ref{sec:modsys}. Les valeurs des
+paramètres des modèles SEDSNf et SNf sont indiquées
+Tableau~\ref{tab:modelresults}.
 
 \begin{table}[ht]
     \centerfloat
     \caption[Valeurs des paramètres issus des meilleurs ajustement du modèle
-    Howell sur les échantillons SNF et SEDSNf]{Valeurs des paramètres issus des
-    meilleurs ajustement du modèle Howell sur les échantillons SNF et SEDSNf.}
+    Howell sur les échantillons SNf et SEDSNf]{Valeurs des paramètres issus des
+    meilleurs ajustement du modèle Howell sur les échantillons SNf et SEDSNf.}
     \label{tab:modelresults}
     \begin{tabular}{lcccc}
         \toprule
@@ -564,7 +576,7 @@ assigné jeune augmente. Ceci est présenté Figure~\ref{fig:deltaz}.
 
 \begin{figure}[]
     \centering
-    \includegraphics[width=\linewidth]{deltaz_hist_yo-random.pdf}
+    \includegraphics[width=.6\linewidth]{deltaz_hist_yo-random.pdf}
     \caption[Représentation du choix de l'âge d'une SN et de l'assignation de
     masse et d'étirement en fonction du redshift]{Représentation du choix de
         l'âge d'une SN et de l'assignation de masse et d'étirement en fonction
@@ -582,108 +594,55 @@ assigné jeune augmente. Ceci est présenté Figure~\ref{fig:deltaz}.
 \end{figure}
 
 Cette étape est réalisée \num{1000} fois pour chaque redshift de la \hostlib,
-donnant une table de redshift, LsSFR (0 ou 1), masse et étirement de \num{1000}
+donnant une table de redshift, âge (0 ou 1), masse et étirement de \num{1000}
 entrées, puis une correspondance est effectuée entre toutes les masses tirées et
 la masse de la \hostlib\ pour trouver celle qui en est la plus proche. Nous
 prenons alors la valeur d'étirement associée et remplaçons celle de la \hostlib.
 Au même moment, nous entrons la valeur de l'âge (0 ou 1) dans une nouvelle
-colonne \texttt{LOGsSFR}~; ceci conclut la confection des \hostlib\ NN. Les
-\hostlib\ NR possèdent un autre colonne supplémentaire, où à chaque valeur de
-\texttt{LOGsSFR} est associée une valeur de \texttt{SNMAGSHIFT}, de +0,065 pour
-\texttt{LOGsSFR} = 1 (jeune, moins lumineuse) et de -0,065 pour \texttt{LOGsSFR}
-= 0 (vieille, plus lumineuse), qui remplacent le valeurs de marche de magnitude
-basées sur la masse implémentées dans les autres approches et qui sont associées
-au \wgtmap.
+colonne~; ceci conclut la confection des \hostlib\ NN.
 
-Selon le modèle de masse utilisé, il y a donc différentes \hostlib, qui
-correspondent à nos simulations. Nous recensons donc~:
-\begin{enumerate}
-    \item Les \hostlib\ avec le modèle Howell ajusté sur SEDSNf~;
-    \item Les \hostlib\ avec le modèle Howell ajusté sur SNf~;
-\end{enumerate}
-et pour reproduire artificiellement la descente de la fraction de jeunes étoiles
-en fonction de la masse attendue, nous avons également~:
-\begin{enumerate}[resume]
-    \item Les \hostlib\ avec le modèle Howell ajusté sur SNf, mais pour
-        lesquelles les entrées de $M_* > 10^{11}\si{\Msun}$ sont automatiquement
-        associées à des SNe~Ia âgées~; cette simulation est appelée «~SNfsupp~»
-        pour «~suppressed~» («~réprimé~»).
-\end{enumerate}
+Les \hostlib\ NR possèdent un autre colonne supplémentaire, où à chaque valeur
+d'âge est associée une valeur de variation de magnitude, de +\SI{0,065}{mag}
+pour les jeunes (moins lumineuses) et de -\SI{0,065}{mag} pour les vieilles
+(plus lumineuses), qui remplacent le valeurs de marche de magnitude basées sur
+la masse implémentées dans les autres approches et qui sont associées au
+\wgtmap.
 
-\section{Implémentation}\label{sec:snaimpl} 
-
-Nous traitons maintenant de l'implémentation de ces simulations. Dans un premier
-lieu nous introduisons les types de simulations (Section~\ref{ssec:type}) et la
-nomenclature utilisée (Section~\ref{ssec:nom}), puis la manière de contrôler le
-nombre de SNe~Ia simulées et notre choix de réalisation
-(Section~\ref{ssec:ngen}), avant de présenter la méthode de comparaison de
-correspondance entre les données réelles et les données simulées
-(Section~\ref{ssec:comp}).
-
-\subsection{Types de simulations}\label{ssec:type}
+\subsection{Implémentation}\label{ssec:snaimpl} 
 
 Nous pouvons implémenter différentes manières d'effectuer ces simulations, que
-nous appelons «~types~».
+nous appelons «~types~». Une approche serait de simuler 100 fois des
+échantillons de la taille de l'échantillon de Pantheon ($\approx \num{1000}$) et
+de combiner les résultats, permettant ainsi d'avoir des incertitudes
+statistiques réalistes. Bien que nous ayons entamé la réalisation d'une telle
+approche, le plus simple et moins coûteux en temps a été de simuler un
+échantillon d'une taille conséquente ($\approx \num{13 000}$) avec un BiasCor 50
+fois plus grand, donnant une idée de l'incertitude systématique due aux
+différents modèles de corrélations (SK, BP, NN, NR).
 
-Idéalement, notre approche serait de simuler 100 fois des échantillons de la
-taille de l'échantillon de Pantheon ($\approx \num{1000}$) et de combiner les
-résultats, permettant ainsi d'avoir des incertitudes statistiques réalistes~; un
-tel type de simulation était appelé «~SSIZE~» pour «~sample sized~» (de la
-taille des échantillons), et prend un temps de calcul considérable.
-
-Le plus simple et moins coûteux en temps a été de simuler un échantillon d'une
-taille conséquente ($\approx \num{13 000}$) une fois pour chaque simulation avec
-un BiasCor 50 fois plus grand, type de simulation appelé «~FULL~» (complet).
-
-Des tentatives de simulation avec des données simulées en très grand nombre ont
-été implémentées, nommées «~VFULL~» pour «~very full~» (très complet).
-
-D'autres types ont été implémentés, mais la complexité des simulations avec
-\snana\ nous a forcæ à modifier les paramètres de simulation jusqu'au dernier
-moment, rendant impossible le fait d'effectivement réaliser ces types de
-simulations, et nous ne présentons ici que les résultats «~FULL~».
-
-\subsection{Nomenclature des simulations}\label{ssec:nom}
-
-Par chacun des modèles utilisés et donc chacune des simulations, nous générons
-les échantillons LOWZ, SDSS, PS1 et SNLS avec les \hostlib\ SK, BP, NN et NR
-(que nous appelons les «~saveurs~» de simulation), afin de comparer les
-résultats finaux de ces simulations avec les données de Pantheon et voir
-l'impact de ces différentes corrélations à l'environnement sur la cosmologie. À
-chaque échantillon simulé est associé un échantillon BiasCor qui sera combiné
-sur les différents sondages pour chaque saveur. Tous ces échantillons simulés
-sont conservés pour pouvoir utiliser les données d'une saveur et de les corriger
-avec le BiasCor d'une autre saveur~: l'idée derrière cette pratique est de
-générer des données avec certaines hypothèses et de les ajuster en en utilisant
-d'autres pour connaître le potentiel biais dû au fait de méconnaître la physique
-réelle qui régit les propriétés intrinsèques des SNe~Ia.
-
-Ainsi, la nomenclature de nos simulations suit la logique suivante~:
+Pour quantifier cela, nous conservons les données simulées et les échantillons
+BiasCor associés de chaque modélisation, afin d'utiliser les données d'un modèle
+et de les corriger avec le BiasCor d'un autre~: l'idée derrière cette pratique
+est de connaître le potentiel biais dû au fait de méconnaître la physique réelle
+qui régit les propriétés intrinsèques des SNe~Ia. Pour les distinguer, nous les
+nommons de la manière suivante~:
 \begin{center}
     \begin{tikzpicture}[]
         \node[anchor=center] (name) at (0,0)
-            {\textcolor{Orchid}{FULL}\_\textcolor{cornflowerblue}{SEDSNF}\_\textcolor{limegreen}{SK}\_\textcolor{orange}{NR}};
-        \node[inner sep=0] (typeb) at ([shift={(0,3pt)}]name.south west) {};
-        \node[] (leftb) at ([shift={(20pt,3pt)}]name.south west) {};
-        \node[inner sep=0] (simub) at ([shift={(48pt,0)}]leftb.center) {};
-        \node[inner sep=0] (flabb) at ([shift={(39pt,0)}]simub.center) {};
-        \node[inner sep=0] (flasb) at ([shift={(0,3pt)}]name.south east) {};
-        \node[below left =of typeb, color=Orchid] (type)
-            {Type};
-        \node[below left =of simub, color=cornflowerblue, anchor=north] (simu)
-            {Simulation/modèle};
-        \node[below right=of flabb, color=limegreen, anchor=north] (flab)
+            {\textcolor{cornflowerblue}{SK}\_\textcolor{limegreen}{NR}};
+        \node[inner sep=0] (datab) at ([shift={(0,3pt)}]name.south west) {};
+        \node[inner sep=0] (biasb) at ([shift={(0,3pt)}]name.south east) {};
+        \node[below left =of datab, color=cornflowerblue] (data)
             {Données};
-        \node[below right=of flasb, color=orange] (flas)
+        \node[below right=of biasb, color=limegreen] (bias)
             {BiasCor};
-        \draw[-stealth] (type) -- (typeb);
-        \draw[-stealth] (simu) -- (simub);
-        \draw[-stealth] (flab) -- (flabb);
-        \draw[-stealth] (flas) -- (flasb);
+        \draw[-stealth] (data) -- (datab);
+        \draw[-stealth] (bias) -- (biasb);
     \end{tikzpicture}
 \end{center}
-
-\subsection{Contrôle du nombre de SNe~Ia simulées~:\texttt{NGEN}}\label{ssec:ngen}
+Ainsi, «~SK\_NR~» décrit un échantillon dont les données ont été générées en
+supposant les modèles de corrélations de~\citetalias{scolnic2016} et corrigées
+avec des données générées en supposant les modèles de corrélations dus à l'âge.
 
 Pour comparer de manière cohérente les données simulées aux données réelles, il
 faut que le ratio des données de chaque sondage de l'échantillon simulé
@@ -696,383 +655,208 @@ conservées (voir Chapitre~\ref{ch:snana}). Notamment, puisque l'efficacité
 spectroscopique de l'échantillon LOWZ est particulièrement faible, il nécessite
 un grand \texttt{NGEN} dans nos fichiers de configurations. De plus, la
 correction par \bbc\ réduit l'échantillon en ne conservant que les données qui
-possèdent une correction~; ainsi, en plus de l'ajustement avec \texttt{NGEN},
-nous avons implémenté une sélection aléatoire des données de chaque sondage pour
-reproduire les ratio attendus. Nous indiquons dans le Tableau~\ref{tab:ratio} le
-nombre de données pour les données réelles et pour nos simulations à chaque
-stage de sélection.
-
-% \begin{table}
-%     \centering
-%     \caption{Number of data in Pantheon and relative ratio with respect to the
-%     smallest sample, LOWZ}
-%     \label{tab:ratio}
-%     \begin{tabular}{lcc}
-%         \toprule
-%         Survey & Number & Ratio/LOWZ \\
-%         \midrule
-%         LOWZ   & 172    & 1.00 \\
-%         SDSS   & 335    & 1.95 \\
-%         PS1    & 279    & 1.62 \\
-%         SNLS   & 236    & 1.37 \\
-%         \bottomrule
-%     \end{tabular}
-% \end{table}
+sont dans un intervalle de BiasCor avec suffisamment de points pour avoir une
+valeur de correction. Nous indiquons dans le Tableau~\ref{tab:ratio} le
+nombre de données pour les données réelles et pour nos simulations, exprimées en
+pourcentages de l'échantillon Pantheon.
 
 \begin{table}
     \centerfloat
     \caption[Nombre de données de nos différentes simulations]{Nombre de
-        données avant, après l'ajustement par \bbc, et après
+        données après l'ajustement par \bbc\ et après
         l'échantillonnage nécessaire à la reproduction des ratio
     observés dans l'échantillon Pantheon \citep{scolnic2018}.}
     \label{tab:ratio}
     \begin{adjustbox}{max width=\textwidth}
         \begin{threeparttable}
-            % \begin{tabular}{cllcccc|cccc|cccccc}
-            \begin{tabular}{cllcccccccccccccc}
-                \toprule & & &
-                \multicolumn{4}{c}{Avant \bbc} &
-                \multicolumn{4}{c}{Après \bbc} &
-                \multicolumn{4}{c}{Échantillonné} &
-                \multirow{2}[1]{*}{Total\tnote{1}} &
-                \multirow{2}[1]{*}{BiasCor\tnote{2}}
-                \\
-                \cmidrule(lr){4-7} \cmidrule(lr){8-11} \cmidrule(lr){12-15}
-                Simulation & \multicolumn{2}{c}{Saveurs} &
-                LOWZ       & SDSS    & PS1 & SNLS &
-                LOWZ       & SDSS    & PS1 & SNLS &
-                LOWZ       & SDSS    & PS1 & SNLS & &
-                \\
+            \begin{tabular}{ccccccc}
+                \toprule & &
+                \multicolumn{5}{c}{Après \bbc} \\
+                \cmidrule(lr){3-7}
+                Données & BiasCor &
+                Total (\%) & LOWZ & SDSS & PS1 & SNLS \\
                 \midrule
-                Pantheon &     &     &
-                         &     &     &     &
-                172      & 335 & 279 & 236 &
-                         &     &     &     &
-                1022     & \\
+                \multicolumn{2}{c}{Pantheon} &
+                1022 & 172 & 335 & 279 & 236 \\
                 \midrule
-                \multirow{16}[6]{*}{SNFSUPP} & \multirow{4}{*}{SK} & SK &
-                3110                         & 3306   & 6768 & 5340 &
-                2346                         & 2443   & 5477 & 3067 &
-                2346                         & 2443   & 5477 & 3067 &
-                13333                        & \multirow{4}[0]{*}{932916}
-                \\
-                      &      & BP   &
-                3110  & 3306 & 6768 & 5340 &
-                2290  & 2344 & 5368 & 2845 &
-                2290  & 2344 & 5368 & 2845 &
-                12847 &
-                \\
-                      &      & NN   &
-                3110  & 3306 & 6768 & 5340 &
-                2242  & 2348 & 5413 & 2895 &
-                2242  & 2348 & 5413 & 2895 &
-                12898 &
-                \\
-                      &      & NR   &
-                3110  & 3306 & 6768 & 5340 &
-                2242  & 2348 & 5413 & 2895 &
-                2242  & 2348 & 5413 & 2895 &
-                12898 &
-                \\ \cmidrule(lr){2-17}
-                       & \multirow{4}{*}{BP}     & SK   &
-                2594   & 3199                    & 6557 & 5274 &
-                1806   & 2248                    & 5050 & 3212 &
-                1806   & 2248                    & 5050 & 3212 &
-                12316  & \multirow{4}{*}{880488}
-                \\
-                      &      & BP   &
-                2594  & 3199 & 6557 & 5274 &
-                1821  & 2268 & 5206 & 3167 &
-                1821  & 2268 & 5206 & 3167 &
-                12462 &
-                \\
-                      &      & NN   &
-                2594  & 3199 & 6557 & 5274 &
-                1724  & 2263 & 5213 & 3197 &
-                1724  & 2263 & 5213 & 3197 &
-                12397 &
-                \\
-                      &      & NR   &
-                2594  & 3199 & 6557 & 5274 &
-                1724  & 2263 & 5213 & 3197 &
-                1724  & 2263 & 5213 & 3197 &
-                12397 &
-                \\ \cmidrule(lr){2-17}
-                      & \multirow{4}{*}{NN}     & SK   &
-                3008  & 3188                    & 6634 & 5280 &
-                2166  & 2191                    & 4986 & 3096 &
-                2166  & 2191                    & 4986 & 3096 &
-                12439 & \multirow{4}{*}{902775}
-                \\
-                      &      & BP   &
-                3008  & 3188 & 6634 & 5280 &
-                2152  & 2201 & 5115 & 3010 &
-                2152  & 2201 & 5115 & 3010 &
-                12478 &
-                \\
-                      &      & NN   &
-                3008  & 3188 & 6634 & 5280 &
-                2252  & 2215 & 5226 & 3094 &
-                2252  & 2215 & 5226 & 3094 &
-                12787 &
-                \\
-                      &      & NR   &
-                3008  & 3188 & 6634 & 5280 &
-                2252  & 2215 & 5226 & 3094 &
-                2252  & 2215 & 5226 & 3094 &
-                12787 &
-                \\ \cmidrule(lr){2-17}
-                      & \multirow{4}{*}{NR}     & SK   &
-                3106  & 3200                    & 6616 & 5183 &
-                2237  & 2210                    & 4992 & 3022 &
-                2237  & 2210                    & 4992 & 3022 &
-                12461 & \multirow{4}{*}{902775}
-                \\
-                      &      & BP   &
-                3106  & 3200 & 6616 & 5183 &
-                2216  & 2219 & 5111 & 2929 &
-                2216  & 2219 & 5111 & 2929 &
-                12475 &
-                \\
-                      &      & NN   &
-                3106  & 3200 & 6616 & 5183 &
-                2321  & 2243 & 5223 & 3011 &
-                2321  & 2243 & 5223 & 3011 &
-                12798 &
-                \\
-                      &      & NR   &
-                3106  & 3200 & 6616 & 5183 &
-                2321  & 2243 & 5223 & 3011 &
-                2321  & 2243 & 5223 & 3011 &
-                12798 &
-                \\
-                \midrule\midrule
-                \multirow{16}[6]{*}{SNF} & \multirow{4}{*}{SK} & SK   &
-                3110                     & 3306                & 6768 & 5340 &
-                2346                     & 2443                & 5477 & 3067 &
-                2346                     & 2443                & 5477 & 3067 &
-                13333                    & \multirow{4}{*}{932916}
-                \\
-                       &      & BP   &
-                3110   & 3306 & 6768 & 5340 &
-                2290   & 2344 & 5368 & 2845 &
-                2290   & 2344 & 5368 & 2845 &
-                12847  &
-                \\
-                       &      & NN   &
-                3110   & 3306 & 6768 & 5340 &
-                2242   & 2353 & 5456 & 2886 &
-                2242   & 2353 & 5456 & 2886 &
-                12937  &
-                \\
-                       &      & NR   &
-                3110   & 3306 & 6768 & 5340 &
-                2242   & 2353 & 5456 & 2886 &
-                2242   & 2353 & 5456 & 2886 &
-                12937  &
-                \\ \cmidrule(lr){2-17}
-                       & \multirow{4}{*}{BP}     & SK   &
-                2594   & 3199                    & 6557 & 5274 &
-                1806   & 2248                    & 5050 & 3212 &
-                1806   & 2248                    & 5050 & 3212 &
-                12316  & \multirow{4}{*}{880488}
-                \\
-                       &      & BP   &
-                2594   & 3199 & 6557 & 5274 &
-                1821   & 2268 & 5206 & 3167 &
-                1821   & 2268 & 5206 & 3167 &
-                12462  &
-                \\
-                       &      & NN   &
-                2594   & 3199 & 6557 & 5274 &
-                1718   & 2263 & 5229 & 3210 &
-                1718   & 2263 & 5229 & 3210 &
-                12420  &
-                \\
-                       &      & NR   &
-                2594   & 3199 & 6557 & 5274 &
-                1718   & 2263 & 5229 & 3210 &
-                1718   & 2263 & 5229 & 3210 &
-                12420  &
-                \\ \cmidrule(lr){2-17}
-                       & \multirow{4}{*}{NN}     & SK   &
-                3037   & 3205                    & 6644 & 5305 &
-                2180   & 2235                    & 5117 & 3131 &
-                2180   & 2235                    & 5117 & 3131 &
-                12663  & \multirow{4}{*}{907904}
-                \\
-                       &      & BP   &
-                3037   & 3205 & 6644 & 5305 &
-                2165   & 2236 & 5176 & 3051 &
-                2165   & 2236 & 5176 & 3051 &
-                12628  &
-                \\
-                       &      & NN   &
-                3037   & 3205 & 6644 & 5305 &
-                2264   & 2250 & 5288 & 3113 &
-                2264   & 2250 & 5288 & 3113 &
-                12915  &
-                \\
-                       &      & NR   &
-                3037   & 3205 & 6644 & 5305 &
-                2264   & 2250 & 5288 & 3113 &
-                2264   & 2250 & 5288 & 3113 &
-                12915  &
-                \\ \cmidrule(lr){2-17}
-                       & \multirow{4}{*}{NR}     & SK   &
-                3097   & 3204                    & 6607 & 5193 &
-                2239   & 2224                    & 5068 & 3054 &
-                2239   & 2224                    & 5068 & 3054 &
-                12585  & \multirow{4}{*}{907904}
-                \\
-                       &      & BP   &
-                3097   & 3204 & 6607 & 5193 &
-                2221   & 2228 & 5136 & 2968 &
-                2221   & 2228 & 5136 & 2968 &
-                12553  &
-                \\
-                       &      & NN   &
-                3097   & 3204 & 6607 & 5193 &
-                2326   & 2246 & 5249 & 3038 &
-                2326   & 2246 & 5249 & 3038 &
-                12859  &
-                \\
-                       &      & NR   &
-                3097   & 3204 & 6607 & 5193 &
-                2326   & 2246 & 5249 & 3038 &
-                2326   & 2246 & 5249 & 3038 &
-                12859  &
-                \\
-                \midrule\midrule
-                \multirow{16}[6]{*}{SEDSNF} & \multirow{4}{*}{SK}  & SK &
-                3110                        & 3306   & 6768 & 5340 &
-                2346                        & 2443   & 5477 & 3067 &
-                2346                        & 2443   & 5477 & 3067 &
-                13333                       & \multirow{4}{*}{932916}
-                \\
-                       &      & BP   &
-                3110   & 3306 & 6768 & 5340 &
-                2290   & 2344 & 5368 & 2845 &
-                2290   & 2344 & 5368 & 2845 &
-                12847  &
-                \\
-                       &      & NN   &
-                3110   & 3306 & 6768 & 5340 &
-                2241   & 2372 & 5460 & 2928 &
-                2241   & 2372 & 5460 & 2928 &
-                13001  &
-                \\
-                       &      & NR   &
-                3110   & 3306 & 6768 & 5340 &
-                2241   & 2372 & 5460 & 2928 &
-                2241   & 2372 & 5460 & 2928 &
-                13001  &
-                \\ \cmidrule(lr){2-17}
-                       & \multirow{4}{*}{BP}     & SK   &
-                2594   & 3199                    & 6557 & 5274 &
-                1806   & 2248                    & 5050 & 3212 &
-                1806   & 2248                    & 5050 & 3212 &
-                12316  & \multirow{4}{*}{880488}
-                \\
-                       &      & BP   &
-                2594   & 3199 & 6557 & 5274 &
-                1821   & 2268 & 5206 & 3167 &
-                1821   & 2268 & 5206 & 3167 &
-                12462  &
-                \\
-                       &      & NN   &
-                2594   & 3199 & 6557 & 5274 &
-                1744   & 2291 & 5223 & 3216 &
-                1744   & 2291 & 5223 & 3216 &
-                12474  &
-                \\
-                       &      & NR   &
-                2594   & 3199 & 6557 & 5274 &
-                1744   & 2291 & 5223 & 3216 &
-                1744   & 2291 & 5223 & 3216 &
-                12474  &
-                \\ \cmidrule(lr){2-17}
-                       & \multirow{4}{*}{NN}     & SK   &
-                2965   & 3192                    & 6642 & 5310 &
-                2184   & 2180                    & 4982 & 3141 &
-                2184   & 2180                    & 4982 & 3141 &
-                12487  & \multirow{4}{*}{904605}
-                \\
-                       &      & BP   &
-                2965   & 3192 & 6642 & 5310 &
-                2149   & 2169 & 5093 & 3067 &
-                2149   & 2169 & 5093 & 3067 &
-                12478  &
-                \\
-                       &      & NN   &
-                2965   & 3192 & 6642 & 5310 &
-                2250   & 2242 & 5250 & 3142 &
-                2250   & 2242 & 5250 & 3142 &
-                12884  &
-                \\
-                       &      & NR   &
-                2965   & 3192 & 6642 & 5310 &
-                2250   & 2242 & 5250 & 3142 &
-                2250   & 2242 & 5250 & 3142 &
-                12884  &
-                \\ \cmidrule(lr){2-17}
-                       & \multirow{4}{*}{NR}     & SK   &
-                3067   & 3193                    & 6583 & 5223 &
-                2253   & 2170                    & 4925 & 3063 &
-                2253   & 2170                    & 4925 & 3063 &
-                12411  & \multirow{4}{*}{904605}
-                \\
-                       &      & BP   &
-                3067   & 3193 & 6583 & 5223 &
-                2219   & 2152 & 5034 & 3005 &
-                2219   & 2152 & 5034 & 3005 &
-                12410  &
-                \\
-                       &      & NN   &
-                3067   & 3193 & 6583 & 5223 &
-                2323   & 2227 & 5194 & 3075 &
-                2323   & 2227 & 5194 & 3075 &
-                12819  &
-                \\
-                       &      & NR   &
-                3067   & 3193 & 6583 & 5223 &
-                2323   & 2227 & 5194 & 3075 &
-                2323   & 2227 & 5194 & 3075 &
-                12819  &
-                \\
+                \multirow{4}{*}{SK} 
+                & SK & 13333 (13.05) & 13.64 & 7.29 & 19.63 & 13.00 \\
+                & BP & 12847 (12.57) & 13.31 & 7.00 & 19.24 & 12.06 \\
+                & NN & 12898 (12.62) & 13.03 & 7.01 & 19.40 & 12.27 \\
+                & NR & 12898 (12.62) & 13.03 & 7.01 & 19.40 & 12.27 \\
+                \midrule
+                \multirow{4}{*}{NN}
+                & SK & 12316 (12.05) & 10.50 & 6.71 & 18.10 & 13.61 \\
+                & BP & 12462 (12.19) & 10.59 & 6.77 & 18.66 & 13.42 \\
+                & NN & 12397 (12.13) & 10.02 & 6.76 & 18.68 & 13.55 \\
+                & NR & 12397 (12.13) & 10.02 & 6.76 & 18.68 & 13.55 \\
+                \midrule
+                \multirow{4}{*}{BP}
+                & SK & 12439 (12.17) & 12.59 & 6.54 & 17.87 & 13.12 \\
+                & BP & 12478 (12.21) & 12.51 & 6.57 & 18.33 & 12.75 \\
+                & NN & 12787 (12.51) & 13.09 & 6.61 & 18.73 & 13.11 \\
+                & NR & 12787 (12.51) & 13.09 & 6.61 & 18.73 & 13.11 \\
+                \midrule
+                \multirow{4}{*}{NR}
+                & SK & 12461 (12.19) & 13.01 & 6.60 & 17.89 & 12.81 \\
+                & BP & 12475 (12.21) & 12.88 & 6.62 & 18.32 & 12.41 \\
+                & NN & 12798 (12.52) & 13.49 & 6.70 & 18.72 & 12.76 \\
+                & NR & 12798 (12.52) & 13.49 & 6.70 & 18.72 & 12.76 \\
                 \bottomrule
             \end{tabular}
             \begin{tablenotes}[flushleft]
-                \item [1] \small Les modèles étant spécifiques aux \hostlib\ NN
-                    et NR, le nombre de données des simulations ne faisant
-                    intervenir que BP et SK sont les mêmes pour les 3 modèles.
-                \item [2] \small Les échantillons BiasCor indiqués sont ceux de
-                    la saveur utilisée pour les données.
+                \item \small \textbf{\hspace{-3,2pt}Notes.} Les pourcentages
+                    sont indiqués par rapport à la taille de l'échantillon
+                    Pantheon, voir première ligne. Les sous-échantillons simulés
+                    sont indiqués en pourcentages directement.
             \end{tablenotes}
         \end{threeparttable}
     \end{adjustbox}
 \end{table}
 
-\begin{itemize}
-    \item Plot HOSTLIBs parameters?
-    \item Weigthmaps, plot them?
-    \item Talk about NGENs and how they are made to fit to the ratio in
-        Pantheon?
-\end{itemize}
+\appssec{Résumé}{ssec:sumup}
 
-\subsection{Comparaison des données simulées aux données réelles}\label{ssec:comp}
+Ainsi, nous avons implémenté dans \snana\ les différentes corrélations
+sous-jacentes et modélisations des propriétés des SNe~Ia des études
+de~\citetalias{scolnic2016}, \citetalias{popovic2021a}, \citetalias{NN} et de
+cette thèse (NR) \textit{via} le biais de \hostlib. Ces simulations nous
+permettent de générer un échantillon corrigé des biais reproduisant les
+observations des sondages LOWZ, SDSS, PS1 et SNLS comprenant $\approx
+\num{13000}$ données. Ces différentes modélisations peuvent être combinées entre
+elles pour tester la qualité des hypothèses sous-jacentes et le possible biais
+dû au fait de mal corriger les SNe~Ia. Nous traitons maintenant de la qualité
+d'ajustement des données simulées aux données réelles.
+
+\section{Comparaison des données simulées aux données réelles}\label{sec:comp}
 
 Avant de comparer les résultats cosmologiques, nous nous sommes intéressæ à la
 correspondance entre les données simulées et les données réelles afin
-d'apprécier les changements sur les distributions des différentes saveurs de
-simulation. Nous étudions pour cela les distributions d'étirement en fonction du
+d'apprécier les implications sur les distributions des différentes
+modélisations. Nous présentons dans cette section les différents diagnostiques
+nous permettant de comparer à la fois graphiquement et numériquement l'accord
+entre les données simulées et données réelles. Pour avoir une comparaison
+efficace, nous effectuons une sélection aléatoire des données de chaque sondage
+pour reproduire les ratio attendus. Les quantités de données de ces mesures,
+exprimées en pourcentages de l'échantillon Pantheon, sont égales aux ratios du
+plus petit sondage simulé des données non échantillonnées~: ceux de la colonne
+«~SDSS~» du Tableau~\ref{tab:ratio}.
+
+Nous rappelons que les modèles~\citetalias{popovic2021a}
+et~\citetalias{scolnic2016} utilisent des distributions des paramètres
+spécifiquement ajustés aux données~; BP utilisent des distributions gaussiennes
+asymétriques, avec 3 paramètres libres, dans des intervalles de
+\SI{0.2e10}{\Msun} (10 pour LOWZ, 20 pour HIGHZ) pour reproduire l'étirement des
+SNe~Ia~; SK incluent également des distributions gaussiennes asymétriques, une
+pour chacun des sondages SDSS, PS1 et SNLS, et la distribution donnée
+Équation~\ref{eq:sklowz} avec 6 paramètres libres, pour un total de $k = 15$. À
+l'inverse, les modélisations NN et NR reposent sur une modélisation prospective,
+basée sur une modélisation de l'étirement avec 5 paramètres libres, une
+modélisation de la masse avec 4 paramètres libres, et l'évolution de la fraction
+de jeunes étoiles de 2 paramètres libres ($K$, $\Phi$).
+
+Nous nous intéressons dans un premier temps à l'ajustement en 1 dimension des
+paramètres (Section~\ref{ssec:comp1d}) avant de traiter l'aspect bi-dimensionnel
+(Section~\ref{ssec:comp2d}).
+
+\subsection{Accord entre les données~: analyse uni-dimensionnelle}\label{ssec:comp1d}
+
+Nous présentons ici les résultats des simulations de paramètres de redshift,
+étirement et masse des différentes modélisations dont les représentations
+graphiques sont données Figure~\ref{fig:hist1d}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.8\linewidth]{snana_diagnostic_hist_all-panth_only_allSNFSUPP}
+    \caption[Histogrammes uni-dimensionnels des données simulées et réelles]
+        {Histogrammes normés des données simulées (en lignes pleines
+        colorées) et des données réelles (en gris) selon le modèle et le
+        paramètre. \textit{De gauche à droite}~: résultats pour les modèles SK,
+        BP, NN et NR, respectivement. \textit{De haut en bas}~: nombre de
+        données simulées en fonction du redshift, de l'étirement et de la masse,
+        respectivement. Les valeurs de $\chi^2$ entre les données simulées et
+        réelles sont indiquées dans le coin supérieur droit de chaque figure, et
+        de vert à rouge du plus petit au plus grand. Nous indiquons en points
+        noirs le modèle d'étirement de~\citetalias{nicolas2021} au redshift
+        moyen de l'échantillon Pantheon.}
+    \label{fig:hist1d}
+\end{figure}
+
+Pour chacune des comparaison, nous calculons une valeur de $\chi^2$. Pour cela,
+nous normalisons les histogrammes des données simulées au nombre de données de
+Pantheon, puis calculons~:
+\begin{equation}\label{eq:chi21d}
+    \chi^2 = \frac{1}{N}\times\sum_{i=0}^{N-1} \frac{(d_i - s_i)^2}{d_i+s_i}
+\end{equation}
+avec $N$ le nombre d'intervalles des histogrammes et $d_i$ ($s_i$) le nombre de
+données réelles (simulées) dans l'intervalle $i$. Le meilleur accord est décrit
+par le $\chi^2$ le plus petit. Les valeurs sont indiquées
+Tableau~\ref{tab:chi21d}.
+
+\newcommand{\ccg}{\cellcolor{limegreen!20}}
+\newcommand{\ccr}{\cellcolor{red!10}}
+\newcommand{\ccy}{\cellcolor{yellow!20}}
+\newcommand{\cco}{\cellcolor{orange!20}}
+\begin{table}[ht]
+    \centering
+    \begin{threeparttable}
+        \caption[Comparaison de la capacité de chaque simulation à représenter
+        les données en une dimension]{Comparaison de la capacité de chaque
+            simulation à représenter les données de redshift, d'étirement et de
+        masse.}
+    \label{tab:chi21d}
+    \begin{tabular}{lcccc}
+        \toprule
+                & \multicolumn{4}{c}{Modèle} \\ \cmidrule(lr){2-5}
+        Paramètre & SK & BP & NN & NR \\
+        \midrule
+        Redshift    & \ccg\ 4.58  & \ccy\ 5.29  & \cco\ 5.54  & \ccr\ 6.51 \\
+        Étirement   & \ccr\ 5.07  & \ccg\ 2.96  & \cco\ 4.10  & \ccy\ 3.83 \\
+        Masse       & \ccr\ 4.98  & \cco\ 4.49  & \ccy\ 4.03  & \ccg\ 3.64 \\
+        \midrule
+        Somme       & \ccr\ 14.63 & \ccg\ 12.74 & \ccy\ 13.67 & \cco\ 13.98 \\
+        Probabilité & \ccr\ 0.39  & \ccg\ 1.00  & \ccy\ 0.63  & \cco\ 0.54 \\
+        \bottomrule
+    \end{tabular}
+    \begin{tablenotes}[flushleft]
+        \item \small \textbf{\hspace{-3,2pt}Notes.} Pour chaque simulation, une
+            sélection des données est réalisée pour correspondre aux ratios des
+            données de Pantheon, et le calcul du $\chi^2$ est la moyenne sur 100
+            de ces tirages à chaque fois.
+    \end{tablenotes}
+    \end{threeparttable}
+\end{table}
+
+D'une manière globale, le modèle BP apparaît comme la meilleure description des
+données, NN et NR donnent des résultats similaires et SK a le moins bon accord.
+Pour le redshift cependant, c'est le modèle SK qui est le mieux ajusté aux
+données~; ceci correspond à nos attentes puisque leurs distributions
+d'étirements se divisent par redshift. Les modèles NN et NR ont par contre une
+certaine difficulté à reproduire la distribution de LOWZ, voir
+Figure~\ref{fig:lowz1d}, ce qui mène à leurs valeurs de $\chi^2$
+Pour l'étirement, c'est BP qui décrit le mieux les données~; ceci correspond
+également à nos attentes puisque leurs distributions d'étirement sont
+nombreuses. Nous notons que cette fois NN et NR sont bien représentatives des
+données. Quant à la masse,
+
+Les résultats sont cependant compatibles entre eux, et nous pouvons considérer
+tous ces modèles comme donnant de bonnes représentations des données.
+
+\subsection{Accord entre les données~: analyse
+bi-dimensionnelle}\label{ssec:comp2d}
+
+Nous étudions pour cela les distributions d'étirement en fonction du
 redshift et les distributions d'étirement en fonction de la masse de la galaxie
-hôte. Nous les représentons en histogrammes 2D en couleurs pour les données
-simulées, et en points dispersés pour les données réelles. Pour déterminer
-l'accord entre ces deux échantillons de manière quantitative, nous avons
-utilisé une estimation par noyau pour convertir les données simulées en densité
-de probabilité bi-dimensionnelle, permettant de calculer un $\chi^2$ entre les
-données réelles et le noyau. Un exemple est donné Figure~\ref{fig:2dhex}.
+hôte.
+
+Nous représentons les distributions en histogrammes 2D en couleurs pour les
+données simulées, et en points dispersés pour les données réelles. Pour
+déterminer l'accord entre ces deux échantillons de manière quantitative, nous
+avons utilisé une estimation par noyau pour convertir les données simulées en
+densité de probabilité bi-dimensionnelle, permettant de calculer une probabilité
+totale traduisant l'accord entre les données réelles et le noyau. Deux exemples
+sont donnés Figure~\ref{fig:2dhex}, et les résultats sont
+indiqués~\ref{tab:chi2comp}~: une plus grande probabilité représente un meilleur
+accord.
 
 % Before comparing the $w$ v $\Omega_m$ values, we looked at the correspondence
 % between simulated data and actual data to ensure the improvement of our
@@ -1086,36 +870,71 @@ données réelles et le noyau. Un exemple est donné Figure~\ref{fig:2dhex}.
 % associated $\chi^2$ between the data and the kernels. The results are summarized
 % in Table \ref{tab:chi2comp} and the code in the \textit{SNprop} module.
 
-\begin{figure*}
+\begin{figure}[ht]
     \centering
-    \includegraphics[width=.5\linewidth]{FULL-SEDSNF_NR_NR_MS_kernel}
+    \begin{subfigure}[]{.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{FULL-SEDSNF_NR_NR_MS_kernel}
+        \caption[Accord entre données réelles et simulées pour les paramètres de
+        masse et d'étirement]{\footnotesize\textit{En abscisse}~: masse
+        ($> 10^7\si{\Msun}$).\\\hspace*{15.5pt}
+        \textit{En ordonnée}~: étirement.}
+        \label{fig:hexnrms}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[]{.45\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{FULL-SEDSNF_NR_NR_RS_kernel}
+        \caption[Accord entre données réelles et simulées pour les paramètres de
+        redshift et d'étirement]{\footnotesize\textit{En abscisse}~: redshift
+        (logarithmique).\\\hspace*{15.5pt}
+    \textit{En ordonnée}~: étirement.}
+        \label{fig:hexnrrs}
+    \end{subfigure}
     \caption[Accord entre les données réelles et simulées avec le modèle SEDSNf
     pour les saveurs NR\_NR]{Accord entre les données réelles et simulées avec
-    le modèle SEDSNf pour les saveurs NR\_NR}
+    le modèle SEDSNf pour les saveurs NR\_NR. L'estimation par noyau donnant la
+    densité de probabilité est indiquée en couleur (voir la barre de couleur).
+    L'accord est indiqué sous la forme d'un $\chi^2$ en haut à gauche.}
     \label{fig:2dhex}
-\end{figure*}
+\end{figure}
 
-\begin{table}
+\begin{table}[ht]
     \centering
-    \caption{Comparison of the relative ability of each HOSTLIB implementation
-    to describe the data. For each HOSTLIB a 2D KDE is computed from the simulated
-    data and used to determine said $\chi^2$.}
+    \begin{threeparttable}
+        \caption[Comparaison de la capacité de chaque simulation à représenter
+        les données en deux dimensions]{Comparaison de la capacité de chaque
+            simulation à représenter les données d'étirement et de masse d'une
+        part, et d'étirement et de redshift d'autre part.}
     \label{tab:chi2comp}
-    \begin{tabular}{c|cc}
-        \hline\hline
-                & \multicolumn{2}{c}{$\chi^2$}
-        \\
-        HOSTLIB & $x_1$ v $z$ & $x_1$ v $M_\mathrm{host}$
-        \\\hline
-        P21     & ????        & ????
-        \\
-        N21     & ????        & ????
-        \\
-        \hline
+    \begin{tabular}{lccc}
+        \toprule
+                & \multicolumn{3}{c}{Probabilité} \\ \cmidrule(lr){2-4}
+        Modèles & $x_1$ vs $z$ & $x_1$ vs $M_*$ & Somme \\
+        \midrule
+        \ccg\ SK\_SK & \ccy\ 102,76 & \ccg\ 252,71 & \ccg\ 355,47 \\
+        \ccy\ BP\_BP & \ccg\ 103,16 & \ccy\ 246,34 & \ccy\ 349,50 \\
+        \cco\ NN\_NN & \cco\ 102,51 & \cco\ 235,88 & \cco\ 338,39 \\
+        \ccr\ NR\_NR & \ccr\ 102,35 & \cco\ 235,88 & \ccr\ 338,23 \\
+        \bottomrule
     \end{tabular}
+    \begin{tablenotes}[flushleft]
+        \item \small \textbf{\hspace{-3,2pt}Notes.} Pour chaque simulation, une
+            estimation par noyau bi-dimensionnelle est calculée sur les données
+            simulées et utilisée pour déterminer chaque probabilité.
+    \end{tablenotes}
+    \end{threeparttable}
 \end{table}
 
-The numerical values follow what was already clear on the figures: it fits best.
+Pour discuter de ces résultats, 
+
+
+Nous notons qu
+Nous observons que la modélisation~\citetalias{scolnic2016} est la meilleure des
+4 sur la combinaison de ces des distributions~; la
+modélisation~\citetalias{popovic2021a} est deuxième, et les
+modélisations~\citetalias{nicolas2021} et NR on un score similaire les plaçant
+comme les modélisations les moins bien ajustées aux données.
 
 \section{Résultats}\label{sec:simres}
 What we want is not so much $w$ than $\Delta w$ wrt. best current work. We find
@@ -1123,6 +942,9 @@ x\% and here are the contours.
 
 \section{Discussion}\label{sec:simdisc}
 We expected to have a higher/lower, and we got that.
+
+\section{Systématiques dues au choix du modèle de masse}\label{sec:modsys}
+
 
 \section{Conclusion}\label{sec:simccl}
 

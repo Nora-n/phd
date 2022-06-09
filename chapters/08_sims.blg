@@ -3,10 +3,11 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: 08_sims.aux
 The style file: ../main/aa_url.bst
 Database file #1: ../chapters/99_references.bib
+Warning--I didn't find a database entry for "NN"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 9 entries,
             3173 wiz_defined-function locations,
-            776 strings with 9713 characters,
+            778 strings with 9717 characters,
 and the built_in function-call counts, 11205 in all, are:
 = -- 733
 > -- 1411
@@ -45,3 +46,4 @@ warning$ -- 0
 while$ -- 36
 width$ -- 0
 write$ -- 102
+(There was 1 warning)
