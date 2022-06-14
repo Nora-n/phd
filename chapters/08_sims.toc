@@ -14,9 +14,9 @@
 \contentsline {subsection}{R\IeC {\'e}sum\IeC {\'e}}{11}{subsection.1.2.6}
 \contentsline {section}{\numberline {I.3}Comparaison des donn\IeC {\'e}es simul\IeC {\'e}es aux donn\IeC {\'e}es r\IeC {\'e}elles}{11}{section.1.3}
 \contentsline {subsection}{\numberline {I.3.1}Accord entre les donn\IeC {\'e}es~: analyse uni-dimensionnelle}{13}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {I.3.2}Accord entre les donn\IeC {\'e}es~: analyse bi-dimensionnelle}{15}{subsection.1.3.2}
-\contentsline {section}{\numberline {I.4}R\IeC {\'e}sultats}{15}{section.1.4}
-\contentsline {section}{\numberline {I.5}Discussion}{15}{section.1.5}
-\contentsline {section}{\numberline {I.6}Syst\IeC {\'e}matiques dues au choix du mod\IeC {\`e}le de masse}{16}{section.1.6}
-\contentsline {section}{\numberline {I.7}Conclusion}{16}{section.1.7}
+\contentsline {subsection}{\numberline {I.3.2}Accord entre les donn\IeC {\'e}es~: analyse bi-dimensionnelle}{16}{subsection.1.3.2}
+\contentsline {section}{\numberline {I.4}Impact sur la cosmologie~: $w$}{16}{section.1.4}
+\contentsline {section}{\numberline {I.5}Discussion}{18}{section.1.5}
+\contentsline {section}{\numberline {I.6}Syst\IeC {\'e}matiques dues au choix du mod\IeC {\`e}le de masse}{18}{section.1.6}
+\contentsline {section}{\numberline {I.7}Conclusion}{18}{section.1.7}
 \contentsfinish 

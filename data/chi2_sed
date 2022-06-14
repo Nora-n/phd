@@ -1,0 +1,10 @@
+\begin{tabular}{lrrr}
+\toprule
+{} &  mass\_stretch &  redshift\_stretch &         Sum \\
+\midrule
+FULL-SNFSUPP\_SK\_SK &    102.760757 &        252.713583 &  355.474339 \\
+FULL-SNFSUPP\_BP\_BP &    103.157681 &        246.341617 &  349.499298 \\
+FULL-SNFSUPP\_NN\_NN &    102.506183 &        235.883101 &  338.389284 \\
+FULL-SNFSUPP\_NR\_NR &    102.345169 &        235.884766 &  338.229934 \\
+\bottomrule
+\end{tabular}

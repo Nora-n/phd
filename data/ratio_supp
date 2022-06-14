@@ -1,0 +1,22 @@
+\begin{tabular}{lr}
+\toprule
+{} &  Ratio \\
+\midrule
+SNFSUPP\_SK\_SK &  13.05 \\
+SNFSUPP\_SK\_BP &  12.57 \\
+SNFSUPP\_SK\_NN &  12.62 \\
+SNFSUPP\_SK\_NR &  12.62 \\
+SNFSUPP\_BP\_SK &  12.05 \\
+SNFSUPP\_BP\_BP &  12.19 \\
+SNFSUPP\_BP\_NN &  12.13 \\
+SNFSUPP\_BP\_NR &  12.13 \\
+SNFSUPP\_NN\_SK &  12.17 \\
+SNFSUPP\_NN\_BP &  12.21 \\
+SNFSUPP\_NN\_NN &  12.51 \\
+SNFSUPP\_NN\_NR &  12.51 \\
+SNFSUPP\_NR\_SK &  12.19 \\
+SNFSUPP\_NR\_BP &  12.21 \\
+SNFSUPP\_NR\_NN &  12.52 \\
+SNFSUPP\_NR\_NR &  12.52 \\
+\bottomrule
+\end{tabular}

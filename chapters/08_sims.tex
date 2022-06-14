@@ -576,7 +576,7 @@ assigné jeune augmente. Ceci est présenté Figure~\ref{fig:deltaz}.
 
 \begin{figure}[]
     \centering
-    \includegraphics[width=.6\linewidth]{deltaz_hist_yo-random.pdf}
+    \includegraphics[width=.8\linewidth]{deltaz_hist_yo-random.pdf}
     \caption[Représentation du choix de l'âge d'une SN et de l'assignation de
     masse et d'étirement en fonction du redshift]{Représentation du choix de
         l'âge d'une SN et de l'assignation de masse et d'étirement en fonction
@@ -642,7 +642,9 @@ nommons de la manière suivante~:
 \end{center}
 Ainsi, «~SK\_NR~» décrit un échantillon dont les données ont été générées en
 supposant les modèles de corrélations de~\citetalias{scolnic2016} et corrigées
-avec des données générées en supposant les modèles de corrélations dus à l'âge.
+avec des données générées en supposant les modèles de corrélations dus à l'âge
+(NR). Lorsque les données et BiasCor sont les mêmes, nous ne mentionnons pas
+quel est le BiasCor. 
 
 Pour comparer de manière cohérente les données simulées aux données réelles, il
 faut que le ratio des données de chaque sondage de l'échantillon simulé
@@ -660,67 +662,65 @@ valeur de correction. Nous indiquons dans le Tableau~\ref{tab:ratio} le
 nombre de données pour les données réelles et pour nos simulations, exprimées en
 pourcentages de l'échantillon Pantheon.
 
-\begin{table}
+\begin{table}[ht]
     \centerfloat
-    \caption[Nombre de données de nos différentes simulations]{Nombre de
-        données après l'ajustement par \bbc\ et après
-        l'échantillonnage nécessaire à la reproduction des ratio
-    observés dans l'échantillon Pantheon \citep{scolnic2018}.}
-    \label{tab:ratio}
-    \begin{adjustbox}{max width=\textwidth}
-        \begin{threeparttable}
-            \begin{tabular}{ccccccc}
-                \toprule & &
-                \multicolumn{5}{c}{Après \bbc} \\
-                \cmidrule(lr){3-7}
-                Données & BiasCor &
-                Total (\%) & LOWZ & SDSS & PS1 & SNLS \\
-                \midrule
-                \multicolumn{2}{c}{Pantheon} &
-                1022 & 172 & 335 & 279 & 236 \\
-                \midrule
-                \multirow{4}{*}{SK} 
-                & SK & 13333 (13.05) & 13.64 & 7.29 & 19.63 & 13.00 \\
-                & BP & 12847 (12.57) & 13.31 & 7.00 & 19.24 & 12.06 \\
-                & NN & 12898 (12.62) & 13.03 & 7.01 & 19.40 & 12.27 \\
-                & NR & 12898 (12.62) & 13.03 & 7.01 & 19.40 & 12.27 \\
-                \midrule
-                \multirow{4}{*}{NN}
-                & SK & 12316 (12.05) & 10.50 & 6.71 & 18.10 & 13.61 \\
-                & BP & 12462 (12.19) & 10.59 & 6.77 & 18.66 & 13.42 \\
-                & NN & 12397 (12.13) & 10.02 & 6.76 & 18.68 & 13.55 \\
-                & NR & 12397 (12.13) & 10.02 & 6.76 & 18.68 & 13.55 \\
-                \midrule
-                \multirow{4}{*}{BP}
-                & SK & 12439 (12.17) & 12.59 & 6.54 & 17.87 & 13.12 \\
-                & BP & 12478 (12.21) & 12.51 & 6.57 & 18.33 & 12.75 \\
-                & NN & 12787 (12.51) & 13.09 & 6.61 & 18.73 & 13.11 \\
-                & NR & 12787 (12.51) & 13.09 & 6.61 & 18.73 & 13.11 \\
-                \midrule
-                \multirow{4}{*}{NR}
-                & SK & 12461 (12.19) & 13.01 & 6.60 & 17.89 & 12.81 \\
-                & BP & 12475 (12.21) & 12.88 & 6.62 & 18.32 & 12.41 \\
-                & NN & 12798 (12.52) & 13.49 & 6.70 & 18.72 & 12.76 \\
-                & NR & 12798 (12.52) & 13.49 & 6.70 & 18.72 & 12.76 \\
-                \bottomrule
-            \end{tabular}
-            \begin{tablenotes}[flushleft]
-                \item \small \textbf{\hspace{-3,2pt}Notes.} Les pourcentages
-                    sont indiqués par rapport à la taille de l'échantillon
-                    Pantheon, voir première ligne. Les sous-échantillons simulés
-                    sont indiqués en pourcentages directement.
-            \end{tablenotes}
-        \end{threeparttable}
-    \end{adjustbox}
+    \begin{threeparttable}
+        \caption[Nombre de données de nos différentes simulations]{Nombre de
+            données après l'ajustement par \bbc\ et après
+            l'échantillonnage nécessaire à la reproduction des ratio
+        observés dans l'échantillon Pantheon \citep{scolnic2018}.}
+        \label{tab:ratio}
+        \begin{tabular}{ccccccc}
+            \toprule & &
+            \multicolumn{5}{c}{Après \bbc} \\
+            \cmidrule(lr){3-7}
+            Données & BiasCor &
+            Total (\%) & LOWZ & SDSS & PS1 & SNLS \\
+            \midrule
+            \multicolumn{2}{c}{Pantheon} &
+            1022 & 172 & 335 & 279 & 236 \\
+            \midrule
+            \multirow{4}{*}{SK} 
+            & SK & 13333 (13.05) & 13.64 & 7.29 & 19.63 & 13.00 \\
+            & BP & 12847 (12.57) & 13.31 & 7.00 & 19.24 & 12.06 \\
+            & NN & 12898 (12.62) & 13.03 & 7.01 & 19.40 & 12.27 \\
+            & NR & 12898 (12.62) & 13.03 & 7.01 & 19.40 & 12.27 \\
+            \midrule
+            \multirow{4}{*}{BP}
+            & SK & 12316 (12.05) & 10.50 & 6.71 & 18.10 & 13.61 \\
+            & BP & 12462 (12.19) & 10.59 & 6.77 & 18.66 & 13.42 \\
+            & NN & 12397 (12.13) & 10.02 & 6.76 & 18.68 & 13.55 \\
+            & NR & 12397 (12.13) & 10.02 & 6.76 & 18.68 & 13.55 \\
+            \midrule
+            \multirow{4}{*}{NN}
+            & SK & 12439 (12.17) & 12.59 & 6.54 & 17.87 & 13.12 \\
+            & BP & 12478 (12.21) & 12.51 & 6.57 & 18.33 & 12.75 \\
+            & NN & 12787 (12.51) & 13.09 & 6.61 & 18.73 & 13.11 \\
+            & NR & 12787 (12.51) & 13.09 & 6.61 & 18.73 & 13.11 \\
+            \midrule
+            \multirow{4}{*}{NR}
+            & SK & 12461 (12.19) & 13.01 & 6.60 & 17.89 & 12.81 \\
+            & BP & 12475 (12.21) & 12.88 & 6.62 & 18.32 & 12.41 \\
+            & NN & 12798 (12.52) & 13.49 & 6.70 & 18.72 & 12.76 \\
+            & NR & 12798 (12.52) & 13.49 & 6.70 & 18.72 & 12.76 \\
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}[flushleft]
+            \item \small \textbf{\hspace{-3,2pt}Notes.} Les pourcentages
+                sont indiqués par rapport à la taille de l'échantillon
+                Pantheon, voir première ligne. Les sous-échantillons simulés
+                sont indiqués en pourcentages directement.
+        \end{tablenotes}
+    \end{threeparttable}
 \end{table}
 
 \appssec{Résumé}{ssec:sumup}
 
 Ainsi, nous avons implémenté dans \snana\ les différentes corrélations
 sous-jacentes et modélisations des propriétés des SNe~Ia des études
-de~\citetalias{scolnic2016}, \citetalias{popovic2021a}, \citetalias{NN} et de
-cette thèse (NR) \textit{via} le biais de \hostlib. Ces simulations nous
-permettent de générer un échantillon corrigé des biais reproduisant les
+de~\citetalias{scolnic2016}, \citetalias{popovic2021a}, \citetalias{nicolas2021}
+et de cette thèse (NR) \textit{via} le biais de \hostlib. Ces simulations nous
+permettent de générer des échantillons corrigés des biais reproduisant les
 observations des sondages LOWZ, SDSS, PS1 et SNLS comprenant $\approx
 \num{13000}$ données. Ces différentes modélisations peuvent être combinées entre
 elles pour tester la qualité des hypothèses sous-jacentes et le possible biais
@@ -745,14 +745,14 @@ Nous rappelons que les modèles~\citetalias{popovic2021a}
 et~\citetalias{scolnic2016} utilisent des distributions des paramètres
 spécifiquement ajustés aux données~; BP utilisent des distributions gaussiennes
 asymétriques, avec 3 paramètres libres, dans des intervalles de
-\SI{0.2e10}{\Msun} (10 pour LOWZ, 20 pour HIGHZ) pour reproduire l'étirement des
-SNe~Ia~; SK incluent également des distributions gaussiennes asymétriques, une
-pour chacun des sondages SDSS, PS1 et SNLS, et la distribution donnée
-Équation~\ref{eq:sklowz} avec 6 paramètres libres, pour un total de $k = 15$. À
-l'inverse, les modélisations NN et NR reposent sur une modélisation prospective,
-basée sur une modélisation de l'étirement avec 5 paramètres libres, une
-modélisation de la masse avec 4 paramètres libres, et l'évolution de la fraction
-de jeunes étoiles de 2 paramètres libres ($K$, $\Phi$).
+\SI{0.2e10}{\Msun} (10 pour LOWZ, 20 pour les autres) pour reproduire
+l'étirement des SNe~Ia~; SK incluent également des distributions gaussiennes
+asymétriques, une pour chacun des sondages SDSS, PS1 et SNLS, et la distribution
+donnée Équation~\ref{eq:sklowz} avec 6 paramètres libres, pour un total de $k =
+15$. À l'inverse, les modélisations NN et NR reposent sur une modélisation
+prospective, basée sur une modélisation de l'étirement avec 5 paramètres libres,
+une modélisation de la masse avec 4 paramètres libres, et l'évolution de la
+fraction de jeunes étoiles de 2 paramètres libres ($K$, $\Phi$).
 
 Nous nous intéressons dans un premier temps à l'ajustement en 1 dimension des
 paramètres (Section~\ref{ssec:comp1d}) avant de traiter l'aspect bi-dimensionnel
@@ -800,29 +800,32 @@ Tableau~\ref{tab:chi21d}.
     \centering
     \begin{threeparttable}
         \caption[Comparaison de la capacité de chaque simulation à représenter
-        les données en une dimension]{Comparaison de la capacité de chaque
-            simulation à représenter les données de redshift, d'étirement et de
-        masse.}
-    \label{tab:chi21d}
-    \begin{tabular}{lcccc}
-        \toprule
-                & \multicolumn{4}{c}{Modèle} \\ \cmidrule(lr){2-5}
-        Paramètre & SK & BP & NN & NR \\
-        \midrule
-        Redshift    & \ccg\ 4.58  & \ccy\ 5.29  & \cco\ 5.54  & \ccr\ 6.51 \\
-        Étirement   & \ccr\ 5.07  & \ccg\ 2.96  & \cco\ 4.10  & \ccy\ 3.83 \\
-        Masse       & \ccr\ 4.98  & \cco\ 4.49  & \ccy\ 4.03  & \ccg\ 3.64 \\
-        \midrule
-        Somme       & \ccr\ 14.63 & \ccg\ 12.74 & \ccy\ 13.67 & \cco\ 13.98 \\
-        Probabilité & \ccr\ 0.39  & \ccg\ 1.00  & \ccy\ 0.63  & \cco\ 0.54 \\
-        \bottomrule
-    \end{tabular}
-    \begin{tablenotes}[flushleft]
-        \item \small \textbf{\hspace{-3,2pt}Notes.} Pour chaque simulation, une
-            sélection des données est réalisée pour correspondre aux ratios des
-            données de Pantheon, et le calcul du $\chi^2$ est la moyenne sur 100
-            de ces tirages à chaque fois.
-    \end{tablenotes}
+        les données en une dimension]{Valeurs de $\chi^2$ donnant la comparaison
+            de la capacité de chaque simulation à représenter les données de
+        redshift, d'étirement et de masse.}
+        \label{tab:chi21d}
+        \begin{tabular}{lcccc}
+            \toprule
+                    & \multicolumn{4}{c}{$\chi^2$} \\ \cmidrule(lr){2-5}
+            Paramètre & SK & BP & NN & NR \\
+            \midrule
+            Redshift    & \ccg\ 4.34  & \ccy\ 4.92  & \cco\ 5.36  & \ccr\ 6.26 \\
+            Étirement   & \ccr\ 5.01  & \ccg\ 2.91  & \cco\ 4.01  & \ccy\ 3.83 \\
+            Masse       & \ccr\ 4.97  & \cco\ 4.43  & \ccy\ 3.96  & \ccg\ 3.58 \\
+            \midrule
+            Somme       & \ccr\ 14.32 & \ccg\ 12.26 & \ccy\ 13.33 & \cco\ 13.67\\
+            Probabilité & \ccr\ 0.36  & \ccg\ 1.00  & \ccy\ 0.59  & \cco\ 0.49 \\
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}[flushleft]
+            \item \small \textbf{\hspace{-3,2pt}Notes.} Pour chaque simulation,
+                une sélection des données est réalisée pour correspondre aux
+                ratios des données de Pantheon, et le calcul du $\chi^2$ est la
+                moyenne sur 500 de ces tirages à chaque fois. La probabilité est
+                données par rapport au meilleur modèle (BP), telle que
+                $\mathcal{P}_{\text{modèle}} =
+                \exp^{(\chi^2_{\rm BP} - \chi^2_{\text{modèle}})/2}$.
+        \end{tablenotes}
     \end{threeparttable}
 \end{table}
 
@@ -830,51 +833,89 @@ D'une manière globale, le modèle BP apparaît comme la meilleure description d
 données, NN et NR donnent des résultats similaires et SK a le moins bon accord.
 Pour le redshift cependant, c'est le modèle SK qui est le mieux ajusté aux
 données~; ceci correspond à nos attentes puisque leurs distributions
-d'étirements se divisent par redshift. Les modèles NN et NR ont par contre une
-certaine difficulté à reproduire la distribution de LOWZ, voir
-Figure~\ref{fig:lowz1d}, ce qui mène à leurs valeurs de $\chi^2$
-Pour l'étirement, c'est BP qui décrit le mieux les données~; ceci correspond
-également à nos attentes puisque leurs distributions d'étirement sont
-nombreuses. Nous notons que cette fois NN et NR sont bien représentatives des
-données. Quant à la masse,
+d'étirements se divisent par redshift. Pour la masse, étant donné que toutes les
+simulations utilisent les mêmes \wgtmap, les différences sont moins notables. NR
+donne cependant une meilleure représentation des données, mais pas de manière
+significative. Pour l'étirement, c'est BP qui décrit le mieux les données~; ceci
+correspond également à nos attentes puisque leurs distributions d'étirement sont
+nombreuses. Nous notons cependant que pour ce paramètre, les modèles NN et NR
+sont bien représentatifs des données, mais ont par contre une certaine
+difficulté à reproduire la distribution de LOWZ. En effet, par la nature ciblée
+du sondage, la prédiction du modèle de~\citetalias{nicolas2021} ne peut
+s'appliquer, ce qui mène à leurs valeurs de $\chi^2$. Nous présentons
+Figure~\ref{fig:lowz1d} l'accord entre données simulées et réelles de
+l'échantillon LOWZ pour les différents modèles.
 
-Les résultats sont cependant compatibles entre eux, et nous pouvons considérer
-tous ces modèles comme donnant de bonnes représentations des données.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP}
+    \caption[Histogrammes uni-dimensionnels des étirements des données simulées
+    et réelles pour l'échantillon LOWZ]{Histogrammes normés des étirements des
+        données simulées (en lignes pleines colorées) et des données réelles (en
+        rouge) pour le sondage LOWZ selon le modèle. \textit{De gauche à
+        droite}~: résultats pour les modèles SK, BP, NN et NR, respectivement.
+        Les valeurs de $\chi^2$ entre les données simulées et réelles sont
+        indiquées dans le coin supérieur droit de chaque figure, et de vert à
+        rouge du plus petit au plus grand. Nous indiquons en points noirs le
+        modèle d'étirement de~\citetalias{nicolas2021} au redshift moyen de
+    l'échantillon LOWZ.}
+    \label{fig:lowz1d}
+\end{figure}
+
+Il reste que dans la pratique, tous sondages confondus, les résultats des
+différents modèles sont compatibles entre eux, et nous pouvons tous les
+considérer comme de bonnes représentations des données. Pour LOWZ
+spécifiquement, nous pourrions améliorer la simulation du sondage \textit{via}
+la modification du modèle~\citetalias{nicolas2021} pour l'étirement, notamment
+en incluant les données de ZTF (Chapitre~\ref{ch:stretch}
+Section~\ref{ssec:zres}) ou en utilisant la fraction de jeunes étoiles
+escomptée. En effet, le modèle d'évolution de la fraction de jeunes étoiles
+$\delta(z)$ donne une valeur de 50\% de jeunes SNe~Ia à $z = 0,05$~; or dans
+notre cas, le sondage se situe à un redshift moyen de $z = 0,03$ mais les
+données testées (voir Chapitre~\ref{ch:snana}, Figure~\ref{fig:snana_func}) du
+modèle NR n'en possèdent que 20\%, réduit à 15\% dans les données conservées.
+Comme nous avons créé notre \hostlib\ en utilisant le redshift de chaque entrée,
+l'accord avec les données est de fait erroné, et il est probable que la vraie
+fraction soit encore plus faible en observant ces résultats
+Figure~\ref{fig:lowzdump}.
+
+\sidecaptionvpos{figure}{c}
+\begin{SCfigure}[1][ht]
+    \centering
+    \includegraphics[width=.5\linewidth]{snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ}
+    \caption[Histogrammes des données testées et conservées du modèle NR pour le
+    sondage LOWZ]{Histogrammes des étirements des données de LOWZ~:\textit{en
+        rouge} celles de Pantheon~; \textit{en violet} les données testées et
+        \textit{en orange} les données conservées pour le modèle NR. Le
+        modèle~\citetalias{nicolas2021} évalué aux fractions des jeunes SNe~Ia
+        pour ces deux échantillons sont tracés en marqueurs de la couleur
+        correspondante~; le modèle évalué au redshift moyen de la distribution
+        est tracé en marqueurs noirs. Les parties vieilles des données testées
+    et conservées sont en pointillés.}
+    \label{fig:lowzdump}
+\end{SCfigure}
+\sidecaptionvpos{figure}{t}
 
 \subsection{Accord entre les données~: analyse
 bi-dimensionnelle}\label{ssec:comp2d}
 
-Nous étudions pour cela les distributions d'étirement en fonction du
-redshift et les distributions d'étirement en fonction de la masse de la galaxie
-hôte.
-
-Nous représentons les distributions en histogrammes 2D en couleurs pour les
-données simulées, et en points dispersés pour les données réelles. Pour
-déterminer l'accord entre ces deux échantillons de manière quantitative, nous
-avons utilisé une estimation par noyau pour convertir les données simulées en
-densité de probabilité bi-dimensionnelle, permettant de calculer une probabilité
-totale traduisant l'accord entre les données réelles et le noyau. Deux exemples
-sont donnés Figure~\ref{fig:2dhex}, et les résultats sont
-indiqués~\ref{tab:chi2comp}~: une plus grande probabilité représente un meilleur
-accord.
-
-% Before comparing the $w$ v $\Omega_m$ values, we looked at the correspondence
-% between simulated data and actual data to ensure the improvement of our
-% LsSFR-based approach. The main idea being the evolution of the underlying
-% stretch distribution as a function of redshift, we represented $x_1$ v $z$ in
-% log-scale using a 2D hexagonal colored histogram for the simulated data and dots
-% for the Pantheon values. We also looked at the $x_1$ v $M\mathrm{host}$ plot to
-% ponder the relationship these two main characteristics of the SNe~Ia on one hand
-% and the host galaxies on the other (see \ref{fig:P21vN21}). We then computed a
-% 2D kernel of each set of parameters based on the simulations and determined the
-% associated $\chi^2$ between the data and the kernels. The results are summarized
-% in Table \ref{tab:chi2comp} and the code in the \textit{SNprop} module.
+Nous présentons maintenant les distributions d'étirement en fonction du redshift
+d'une part et les distributions d'étirement en fonction de la masse de la
+galaxie hôte d'autre part. Pour déterminer l'accord entre les échantillons réels
+et simulés de manière quantitative, nous avons utilisé une estimation par noyau
+pour convertir les données simulées en densité de probabilité bi-dimensionnelle,
+permettant de calculer une probabilité totale traduisant l'accord entre les
+données réelles et le noyau. Deux exemples sont donnés Figure~\ref{fig:2dhex},
+où nous représentons les distributions des données simulées \textit{via} son
+estimation par noyau en couleurs et en points dispersés pour les données
+réelles. Les résultats sont indiqués dans le Tableau~\ref{tab:chi2comp}~: une
+plus grande probabilité représente un meilleur accord.
 
 \begin{figure}[ht]
     \centering
-    \begin{subfigure}[]{.45\linewidth}
+    \begin{subfigure}[]{.48\linewidth}
         \centering
-        \includegraphics[width=\linewidth]{FULL-SEDSNF_NR_NR_MS_kernel}
+        \includegraphics[width=\linewidth]{FULL-SNFSUPP_NR_NR_MS_kernel}
         \caption[Accord entre données réelles et simulées pour les paramètres de
         masse et d'étirement]{\footnotesize\textit{En abscisse}~: masse
         ($> 10^7\si{\Msun}$).\\\hspace*{15.5pt}
@@ -882,20 +923,20 @@ accord.
         \label{fig:hexnrms}
     \end{subfigure}
     \hfill
-    \begin{subfigure}[]{.45\linewidth}
+    \begin{subfigure}[]{.48\linewidth}
         \centering
-        \includegraphics[width=\linewidth]{FULL-SEDSNF_NR_NR_RS_kernel}
+        \includegraphics[width=\linewidth]{FULL-SNFSUPP_NR_NR_RS_kernel}
         \caption[Accord entre données réelles et simulées pour les paramètres de
         redshift et d'étirement]{\footnotesize\textit{En abscisse}~: redshift
         (logarithmique).\\\hspace*{15.5pt}
     \textit{En ordonnée}~: étirement.}
         \label{fig:hexnrrs}
     \end{subfigure}
-    \caption[Accord entre les données réelles et simulées avec le modèle SEDSNf
-    pour les saveurs NR\_NR]{Accord entre les données réelles et simulées avec
-    le modèle SEDSNf pour les saveurs NR\_NR. L'estimation par noyau donnant la
-    densité de probabilité est indiquée en couleur (voir la barre de couleur).
-    L'accord est indiqué sous la forme d'un $\chi^2$ en haut à gauche.}
+    \caption[Accord entre les données réelles et simulées pour le modèle
+    NR]{Accord entre les données réelles et simulées pour le modèle NR.
+        L'estimation par noyau donnant la densité de probabilité est indiquée en
+        couleur (voir la barre de couleur). L'accord est indiqué sous la forme
+    d'une probabilité en haut à gauche.}
     \label{fig:2dhex}
 \end{figure}
 
@@ -910,35 +951,79 @@ accord.
     \begin{tabular}{lccc}
         \toprule
                 & \multicolumn{3}{c}{Probabilité} \\ \cmidrule(lr){2-4}
-        Modèles & $x_1$ vs $z$ & $x_1$ vs $M_*$ & Somme \\
+        Modèles & $x_1$ vs $M_*$ & $x_1$ vs $z$ & Somme \\
         \midrule
-        \ccg\ SK\_SK & \ccy\ 102,76 & \ccg\ 252,71 & \ccg\ 355,47 \\
-        \ccy\ BP\_BP & \ccg\ 103,16 & \ccy\ 246,34 & \ccy\ 349,50 \\
-        \cco\ NN\_NN & \cco\ 102,51 & \cco\ 235,88 & \cco\ 338,39 \\
-        \ccr\ NR\_NR & \ccr\ 102,35 & \cco\ 235,88 & \ccr\ 338,23 \\
+        \ccg\ SK & \ccy\ 103,03 & \ccg\ 252,57 & \ccg\ 355,60 \\
+        \ccy\ BP & \ccg\ 103,37 & \ccy\ 246,49 & \ccy\ 349,85 \\
+        \cco\ NN & \cco\ 102,35 & \cco\ 236,25 & \cco\ 338,60 \\
+        \ccr\ NR & \ccr\ 102,32 & \ccr\ 235,61 & \ccr\ 338,93 \\
         \bottomrule
     \end{tabular}
     \begin{tablenotes}[flushleft]
-        \item \small \textbf{\hspace{-3,2pt}Notes.} Pour chaque simulation, une
-            estimation par noyau bi-dimensionnelle est calculée sur les données
-            simulées et utilisée pour déterminer chaque probabilité.
+        \item \small \textbf{\hspace{-3,2pt}Notes.} Pour chaque simulation, nous
+            calculons une estimation par noyau bi-dimensionnelle sur les données
+            simulées et nous l'utilisons pour déterminer chaque probabilité.
     \end{tablenotes}
     \end{threeparttable}
 \end{table}
 
-Pour discuter de ces résultats, 
-
-
-Nous notons qu
 Nous observons que la modélisation~\citetalias{scolnic2016} est la meilleure des
 4 sur la combinaison de ces des distributions~; la
 modélisation~\citetalias{popovic2021a} est deuxième, et les
 modélisations~\citetalias{nicolas2021} et NR on un score similaire les plaçant
-comme les modélisations les moins bien ajustées aux données.
+comme les modélisations les moins bien ajustées aux données. Les résultats
+ne diffèrent que très peu sur les distributions conjointes de redshift et
+d'étirement, et la différence
 
-\section{Résultats}\label{sec:simres}
+\section{Impact sur la cosmologie~: $w$}\label{sec:simres}
+
+Maintenant que nous avons observé l'accord de chacun de modèles aux données
+réelles, nous pouvons étudier le biais cosmologique du fait de traiter des
+données ayant leur propre physique avec une correction potentiellement
+différente. Pour cela, comme introduit Section~\ref{ssec:snaimpl}, nous
+appliquons la méthode BBC7D \citep[][voir Chapitre~\ref{ch:snana}
+Section~\ref{ssec:bbc7D}]{popovic2021a} sur les données des différents modèles
+avec chacun des échantillons de BiasCor. Nous obtenons ainsi 16 échantillons
+corrigés (dont le nombre de données est indiqué Tableau~\ref{tab:ratio}), chacun
+ayant une valeur de $w$, $\gamma$, $\alpha$ et $\beta$~; pour rappel, nous avons
+fixé $\Omega_M$ à $\num{0.315}\pm\num{0.005}$, et nous ne nous intéressons donc
+pas à la variation de ce paramètre.
+
+
 What we want is not so much $w$ than $\Delta w$ wrt. best current work. We find
 x\% and here are the contours.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.5\linewidth]{wfit_covmat_FULL-SNFSUPP_2}
+    \caption[]{Valeurs de $w$ déterminées par ajustement avec la méthode BBC7D
+    \citepalias[][voir Chapitre~\ref{ch:snana}]{popovic2021a}}
+    \label{fig:wfit}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[]{.48\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{wfit_covmat_FULL-SNFSUPP_2}
+        \caption[Valeurs de $w$ avec le modèle de masse SNfsupp]{Valeurs de
+        $w$.}
+        \label{fig:cosmow}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[]{.48\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{gammafit_covmat_FULL-SNFSUPP_2}
+        \caption[Valeurs de $\gamma$ avec le modèle de masse SNfsupp]{Valeurs de
+        $\gamma$.}
+        \label{fig:cosmow}
+    \end{subfigure}
+    \caption[Résultats cosmologiques~: $w$ et $\gamma$]{Résultats
+        cosmologiques~: valeurs de $w$ et $\gamma$ déterminées par ajustement
+        avec la méthode BBC7D \citepalias[][voir
+    Chapitre~\ref{ch:snana}]{popovic2021a}}
+    \label{fig:cosmo}
+\end{figure}
 
 \section{Discussion}\label{sec:simdisc}
 We expected to have a higher/lower, and we got that.
@@ -950,6 +1035,13 @@ We expected to have a higher/lower, and we got that.
 
 Should be nice.
 
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=.8\linewidth]{FULL-SNFSUPP_all_RS-MS_kernels}
+    \caption[Ajustement en 2D pour tous les modèles]{Accord données réelles et
+    simulées en 2D pour tous les modèles.}
+    \label{fig:2dhexall}
+\end{figure}
 
 \clearpage
 

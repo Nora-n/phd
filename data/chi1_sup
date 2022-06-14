@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrr}
+\toprule
+{} &     SK &     BP &     NN &     NR \\
+\midrule
+redshift &   4.34 &   4.92 &   5.36 &   6.26 \\
+stretch  &   5.01 &   2.91 &   4.01 &   3.83 \\
+mass     &   4.97 &   4.43 &   3.96 &   3.58 \\
+Somme    &  14.32 &  12.26 &  13.33 &  13.67 \\
+Proba    &   0.36 &   1.00 &   0.59 &   0.49 \\
+\bottomrule
+\end{tabular}

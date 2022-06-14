@@ -123,7 +123,7 @@ Ces caractéristiques permettent, lors de la simulation d'une supernova, de la
 placer à une position autour du centre galactique selon le profil de
 \textsc{Sérsic} afin de déterminer la luminosité de surface locale et d'ajouter
 un bruit Poissonnien aux courbes de lumières qui suivront \citep{kessler2019}.
-Dans notre cas le plus général, la \hostlib\ présente également les
+Dans notre cas le plus complexe, la \hostlib\ présente également les
 caractéristiques qu'une SN de cette galaxie hôte doit respecter~:
 \begin{enumerate}[resume]
     \item Sa couleur \texttt{C}~;
@@ -165,7 +165,7 @@ La \simlib, de son côté, présente pour chaque champ d'observation~:
     \item la taille d'un pixel \texttt{PIXSIZE}.
 \end{enumerate}
 et pour chaque observation~:
-\begin{enumerate}
+\begin{enumerate}[resume]
     \item la date d'observation exprimée en jours julien modifié \texttt{MJD}
         associée à un identifiant \texttt{IDEXPT}~;
     \item le filtre concerné par l'observation (\texttt{FLT})~;
@@ -209,9 +209,9 @@ Figure~\ref{fig:snana_func}. Cette librairie a une importance capitale depuis
 l'inclusion de la masse de l'hôte comme traceur environnemental des propriétés
 sous-jacentes des SNe~Ia (voir Chapitre~\ref{ch:env})~; lorsqu'une \hostlib\
 n'inclut pas de marche de magnitude, celle est qui ajoute aux galaxies de $M_* <
-\SI{1e10}{\Msun}$ une variation de magnitude de \SI{0.025}{mag} et à celles de
-$M_* > \SI{1e10}{\Msun}$ une variation de \SI{-0.025}{mag} pour correspondre aux
-observations de marche de magnitude basées sur la masse.
+10^{10}\si{\Msun}$ une variation de magnitude de \SI{0.025}{mag} et à celles de
+$M_* > 10^{10}\si{\Msun}$ une variation de \SI{-0.025}{mag} pour correspondre
+aux observations de marche de magnitude basées sur la masse.
 
 La simulation d'une supernova suit ensuite 3 étapes majeures, décrites
 dans~\cite{kessler2019}~:
@@ -250,9 +250,9 @@ rose étiquetée «~Lien avec l'environnement~». L'attribution de ces deux
 paramètres varie selon les postulats de corrélations que nous avons implémentés,
 nous y reviendrons au chapitre suivant.
 
-Avec le redshift choisi, à cette étape est définit un distance réel, $\mu_{\rm
-vrai}$, \textit{via} sa définition (donnée Chapitre~\ref{ch:sne}), en supposant
-une cosmologie sous-jacente. Dans notre cas, nous utilisons le modèle
+Avec le redshift choisi, à cette étape est définit un module de distance réel,
+$\mu_{\rm vrai}$, \textit{via} sa définition (donnée Chapitre~\ref{ch:sne}), en
+supposant une cosmologie sous-jacente. Dans notre cas, nous utilisons le modèle
 $w$CDM avec valeurs définies dans le Tableau~\ref{tab:cosmoinput}.
 
 \begin{table}[ht]
@@ -281,18 +281,18 @@ corrélations linéaires magnitude-étirement et magnitude-couleur, respectiveme
 (voir Chapitre~\ref{ch:sne}). Dans cette équation, leurs valeurs sont fixées à
 \num{0.145} et \num{3.1}, respectivement, suivant l'analyse
 de~\cite{popovic2021a}. $M$ est également fixé, à \SI{-19.3}{mag}. La marche de
-magnitude $\gamma_{\rm env}$ varie selon la source de la corrélation à l'environnement~:
-pour une corrélation avec la masse $M_*$ de la galaxie hôte, $\gamma_{\rm env} =
-\pm \SI{0.025}{mag}$ pour $M_* > 10^{10}\si{\Msun}$ et $M_* < 10^{10}\si{\Msun}$
-respectivement~; pour une corrélation avec l'âge de la SN, $\gamma_{\rm env} =
-\pm \SI{0.065}{mag}$ pour les SNe~Ia jeunes et vieilles, respectivement. De
-cette manière, nous pouvons déduire la valeur de $m_{B, \rm vrai}$ de la
-magnitude apparente.
+magnitude $\gamma_{\rm env}$ varie selon la source de la corrélation à
+l'environnement~: pour une corrélation avec la masse $M_*$ de la galaxie hôte,
+$\gamma_{\rm env} = \pm \SI{0.025}{mag}$ pour $M_* > 10^{10}\si{\Msun}$ et $M_*
+< 10^{10}\si{\Msun}$ respectivement~; pour une corrélation avec l'âge de la SN,
+$\gamma_{\rm env} = \pm \SI{0.065}{mag}$ pour les SNe~Ia jeunes et vieilles,
+respectivement. De cette manière, nous pouvons déduire la valeur de $m_{B, \rm
+vrai}$ de la magnitude apparente.
 
 Le modèle se voit ensuite appliquer des effets de dispersion intrinsèque (dans
-notre cas celui décrit dans~\cite{guy2010}, nommé G10
-\defcitealias{guy2010}{G10}), de lentillage faible, de redshift pour le placer
-dans le référentiel héliocentrique, et d'extinction galactique de la Voie
+notre cas celui décrit dans~\cite{guy2010}, nommé
+G10\defcitealias{guy2010}{G10}), de lentillage faible, de redshift pour le
+placer dans le référentiel héliocentrique, et d'extinction galactique de la Voie
 Lactée, appliqués à $m_{B, \rm vrai}$. Ces différents effets mènent à simuler
 une magnitude en haut de l'atmosphère, avant qu'un instrument ne l'acquiert. Les
 détails de ces procédures sont développés dans~\cite{kessler2019}. Cette partie
@@ -322,8 +322,8 @@ idéalement adaptées pour les sondages à recherche glissante pour lesquelles l
 même instrument sert à la détection et à la mesure de courbes de lumière, par
 exemple les sondages PS1, SDSS et SNLS que nous avons présentés
 Chapitre~\ref{ch:surveys}~; à l'inverse, l'échantillon LOWZ (voir
-Section~\ref{sec:lowz}, qui est à la fois une recherche ciblée et qui repose sur
-des suivis de programmes de recherche indépendants, n'a pas de journaux de
+Section~\ref{sec:lowz}), qui est à la fois une recherche ciblée et qui repose
+sur des suivis de programmes de recherche indépendants, n'a pas de journaux de
 données de recherche permettant une simulation idéale, et requiert donc des
 approximations et des suppositions supplémentaires. Pour plus de détail sur ces
 deux paragraphes, voir Section~6 de~\cite{kessler2019}.
@@ -367,8 +367,9 @@ suivant correspondants aux numéros des encadrés de la
 Figure~\ref{fig:snana_func}~:
 \begin{enumerate}
     \item Sélection d'un redshift à partir d'un modèle de taux de SNe~Ia~;
-    \item Correspondance avec une galaxie hôte de la \hostlib\ et génération du
-        modèle avec les paramètres d'étirement et de couleur correspondants~;
+    \item Correspondance avec une galaxie hôte de la \hostlib\ pondérée par une
+        \wgtmap\ et génération du modèle avec les paramètres d'étirement et de
+        couleur correspondants~;
     \item Simulation de la réponse instrumentale menant à la courbe de lumière~;
     \item Application des critères de détection et de sélection des données~;
     \item Conservation des données passant les précédentes étapes.
@@ -429,9 +430,9 @@ Correction} \citep[\bbc,][]{kessler2017}. BEAMS est l'acronyme de
 \textit{Bayesian Estimation Applied to Multiple Species} (estimation bayésienne
 appliquée à de multiples espèces), une méthode d'ajusteur établie
 dans~\cite{kunz2007} visant à prendre en compte de manière réaliste la
-contamination de données non-Ia dans celles des SNe~Ia qui affects l'étude de la
-cosmologie avec les SNe~Ia. Dans notre cas, nous ne simulons pas de SNe non-Ia
-et ignorons les termes de vraisemblances qui y sont reliés.
+contamination de données non-Ia dans celles des SNe~Ia qui affectent l'étude de
+la cosmologie avec les SNe~Ia. Dans notre cas, nous ne simulons pas de SNe
+non-Ia et ignorons les termes de vraisemblances qui y sont reliés.
 
 \subsection{Présentation}\label{ssec:bbcintro}
 
@@ -449,11 +450,11 @@ Un ajustement du diagramme de \textsc{Hubble} pourrait donner un décalage à ce
 modèle, mais reste sous-optimal étant donné que les biais de sélection et
 d'ajustement de courbes de lumière ne sont pas pris en compte. L'intérêt de
 \bbc\ est d'inclure la mesure de ces biais dans le calcul du module de
-distance~; ainsi la SN se voit attribuée un module de distance selon le cadre de
+distance~; ainsi la SN se voit attribuer un module de distance selon le cadre de
 la méthode \bbc, définit dans \citep{popovic2021a}~:
 \begin{equation}\label{eq:mucorr}
     \mu^* = m_B + \alpha x_1 - \beta c - M_{z_i} + \delta\mu_{\rm env} +
-    \delta\mu _\mathrm{biais}
+    \delta\mu_{\rm biais}
 \end{equation}
 où l'étoile indique une grandeur corrigée du biais.
 
@@ -468,12 +469,12 @@ avec $X_* = \log(M_*)$~; $S = \num{10.0}$ la valeur de la séparation hôte mass
 ou non~; $\tau_X$ la largeur de la marche de magnitude~; et $\gamma_{\rm env}$
 l'amplitude de la différence magnitude entre les SNe~Ia dont l'hôte est massif
 ($X_* > S$) ou non ($X_* < S$) pour la \textit{mass step} ou entre les SNe~Ia
-vieilles ou jeunes pour la \textit{age step}.$S$ et $\tau_X$ sont des valeurs
-fixes. Le logiciel ne permettant pas encore d'utiliser l'âge comme traceur,
-cette implémentation du biais dû à l'âge de l'environnement n'est pas
-représentative de la réalité~; nous en discutons au chapitre suivant. 
+vieilles ou jeunes pour la \textit{age step}. Dans nos simulations, $S$ et
+$\tau_X$ sont des valeurs fixes. Le logiciel ne permettant pas encore d'utiliser
+l'âge comme traceur, cette implémentation du biais dû à l'âge de l'environnement
+n'est pas représentative de la réalité~; nous en discutons au chapitre suivant. 
 
-$\delta\mu_{\rm bias}$ est la correction au module de distance. Cette mesure
+$\delta\mu_{\rm biais}$ est la correction au module de distance. Cette mesure
 s'effectue à l'aide d'un échantillon de taille conséquente, $N \approx
 \num{1e6}$ SNe~Ia simulées, appelé BiasCor. Il existe différentes manières de
 mesurer ce biais selon les variables avec lesquelles il est calculé, que nous
@@ -488,10 +489,10 @@ ceux-ci les SNe~Ia sont indépendantes de la cosmologie. Les $M_{z_i}$ sont alor
 les écarts de distance dans ces intervalles de redshift $z_i$, tel que $\mu =
 \mu_{\rm vrai}$ lorsque les valeurs initiales de $m_B$, $x_1$ et $c$ de la
 partie Génération (Section~\ref{ssec:simsn}) sont entrées à la place des valeurs
-ajustées dans l'Équation~\ref{eq:mucorr}. Ce sont ces valeurs qui sont utilisées
-pour ajuster la cosmologie. En effet, pour l'ajustement nous partons d'un modèle
-cosmologique plat $w$CDM où $\Omega_M + \Omega_{\Lambda} = 1$, pour définir
-\citep{kessler2017}~:
+ajustées dans l'Équation~\ref{eq:mucorr}. Ce sont ces $M_{z_i}$ qui sont
+utilisées pour ajuster la cosmologie. En effet, pour l'ajustement nous partons
+d'un modèle cosmologique plat $w$CDM où $\Omega_M + \Omega_{\Lambda} = 1$, pour
+définir \citep{kessler2017}~:
 \begin{align}\label{eq:mumodel}
     \mu_{\text{modèle}} & = -2,5\log\left(\frac{d_L}{\SI{10}{pc}}\right)
                              \quad\text{avec}\\
