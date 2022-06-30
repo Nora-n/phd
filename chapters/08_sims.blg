@@ -3,45 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: 08_sims.aux
 The style file: ../main/aa_url.bst
 Database file #1: ../chapters/99_references.bib
+Warning--I didn't find a database entry for "BP"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 9 entries,
+You've used 10 entries,
             3173 wiz_defined-function locations,
-            776 strings with 9713 characters,
-and the built_in function-call counts, 11205 in all, are:
-= -- 733
-> -- 1411
-< -- 2
-+ -- 474
-- -- 465
-* -- 1702
-:= -- 1908
-add.period$ -- 9
-call.type$ -- 9
-change.case$ -- 191
-chr.to.int$ -- 9
-cite$ -- 9
-duplicate$ -- 181
-empty$ -- 279
-format.name$ -- 487
-if$ -- 1979
+            786 strings with 9960 characters,
+and the built_in function-call counts, 11532 in all, are:
+= -- 761
+> -- 1422
+< -- 3
++ -- 478
+- -- 468
+* -- 1733
+:= -- 1971
+add.period$ -- 10
+call.type$ -- 10
+change.case$ -- 197
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 199
+empty$ -- 304
+format.name$ -- 491
+if$ -- 2038
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 9
-newline$ -- 31
-num.names$ -- 36
-pop$ -- 186
+newline$ -- 34
+num.names$ -- 40
+pop$ -- 191
 preamble$ -- 1
-purify$ -- 191
+purify$ -- 196
 quote$ -- 0
-skip$ -- 145
+skip$ -- 157
 stack$ -- 0
-substring$ -- 192
-swap$ -- 345
+substring$ -- 203
+swap$ -- 351
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 81
+type$ -- 90
 warning$ -- 0
-while$ -- 36
+while$ -- 39
 width$ -- 0
-write$ -- 102
+write$ -- 114
+(There was 1 warning)

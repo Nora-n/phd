@@ -292,7 +292,7 @@ FUNCTION {bbl.volume}
 { "Vol." }
 
 FUNCTION {bbl.of}
-{ "of" }
+{ "de" }
 
 FUNCTION {bbl.number}
 { "no." }
@@ -351,19 +351,19 @@ FUNCTION {bbl.th}
 
 MACRO {jan} {"Jan."}
 
-MACRO {feb} {"Feb."}
+MACRO {feb} {"Fév."}
 
 MACRO {mar} {"Mar."}
 
-MACRO {apr} {"Apr."}
+MACRO {apr} {"Avr."}
 
-MACRO {may} {"May"}
+MACRO {may} {"Mai"}
 
-MACRO {jun} {"Jun."}
+MACRO {jun} {"Juin"}
 
-MACRO {jul} {"Jul."}
+MACRO {jul} {"Juil."}
 
-MACRO {aug} {"Aug."}
+MACRO {aug} {"Août."}
 
 MACRO {sep} {"Sep."}
 
@@ -371,7 +371,7 @@ MACRO {oct} {"Oct."}
 
 MACRO {nov} {"Nov."}
 
-MACRO {dec} {"Dec."}
+MACRO {dec} {"Déc."}
 
 FUNCTION {eng.ord}
 { duplicate$ "1" swap$ *

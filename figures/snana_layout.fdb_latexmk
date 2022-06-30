@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1655210325 "snana_layout.tex" "snana_layout.pdf" "snana_layout" 1655210325
+["pdflatex"] 1655470825 "snana_layout.tex" "snana_layout.pdf" "snana_layout" 1655470825
   "../data/SDSS.txt" 1653411104 530 3ac6f4930620004bddff98ff8881be07 ""
   "../data/basemodel.txt" 1634659071 50513 3cd38ffe5ecc8e04d20ac59be647fcb2 ""
   "../data/cFitted.txt" 1653493513 1542 5c65cd143a84a0907c310b3d2cb3667b ""
@@ -307,8 +307,8 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1574355709 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1574355731 4126118 3219b18f729588c7f78ea00d1865c641 ""
   "lc_2005gg_NOSALT.pdf" 1653485983 101696 fecf1f89c1e0488f362fc3c53b20d0e3 ""
-  "snana_layout.aux" 1655210314 109 8a37bfa0fcf022a2264e9d8e6b9f849f ""
-  "snana_layout.tex" 1655210324 23272 01773ff2922388dbee61966abbc06816 ""
+  "snana_layout.aux" 1655468854 109 8a37bfa0fcf022a2264e9d8e6b9f849f ""
+  "snana_layout.tex" 1655470825 23254 55f4456cd518912ca9542298a21e8665 ""
   "timeseries.pdf" 1653487910 198532 2c63a7b14b69fd465f29919fb79ba241 ""
   "timeseries_sdss.pdf" 1653487924 187859 87827d3359adbc78c0eeadf8d488e122 ""
   (generated)

@@ -3,6 +3,7 @@
 
 \RequirePackage[authoryear]{natbib}
 \setcitestyle{aysep={}}
+\setcitestyle{citesep={~;}}
 \RequirePackage[utf8x]{inputenc}
 \RequirePackage[T1]{fontenc}
 \RequirePackage[french]{babel}
@@ -178,6 +179,9 @@
 \RequirePackage{booktabs}
 % Title, table and notes
 \RequirePackage{threeparttable}
+% redefine the minimum amount of space that is used by the caption and the notes
+% https://tex.stackexchange.com/a/355973
+\renewcommand{\TPTminimum}{\linewidth}
 % Set caption of notes to \small
 \appto\TPTnoteSettings{\small}
 % Self-explanatory
@@ -205,13 +209,13 @@
   retain-explicit-plus,         % p.ex. +45°
   angle-symbol-over-decimal,    % p.ex. 0.''11
 }
-\def\Lsun{\ensuremath{L_{\odot}}}
-\def\Rsun{\ensuremath{R_{\odot}}}
-\def\Tsun{\ensuremath{T_{\odot}}}
-\def\Msun{\ensuremath{M_{\odot}}}
-\def\Rearth{\ensuremath{R_{\oplus}}}
-\def\Mearth{\ensuremath{M_{\oplus}}}
-\def\Tearth{\ensuremath{T_{\oplus}}}
+\def\Lsun{L\ensuremath{_{\odot}}}
+\def\Rsun{R\ensuremath{_{\odot}}}
+\def\Tsun{T\ensuremath{_{\odot}}}
+\def\Msun{M\ensuremath{_{\odot}}}
+\def\Rearth{R\ensuremath{_{\oplus}}}
+\def\Mearth{M\ensuremath{_{\oplus}}}
+\def\Tearth{T\ensuremath{_{\oplus}}}
 \DeclareSIUnit\pc{pc}           % parsec
 \DeclareSIUnit\as{as}           % arcsec
 \DeclareSIUnit\mag{mag}         % mag
@@ -279,7 +283,7 @@
 \setlist[itemize, 2]{label = *}
 
 \newcommand{\ed}[2]{#1\endnote{\textcolor{black}{#1} : #2}}
-\newcommand{\obar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+\newcommand{\obar}[1]{\mkern\ 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern\ 1.5mu}
 \newcommand{\opto}[2]{\ensuremath\underset{#2}{\overset{#1}{\longrightarrow}}}
 \newcommand{\prob}[2]{\mathcal{P}\left(#1 \mid #2\right)}
 

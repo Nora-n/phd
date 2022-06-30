@@ -1,12 +1,8 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {VI.1}Mod\IeC {\'e}lisation de l'\IeC {\'e}tirement}{\reset@font\mtcSfont 50}{section.6.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.1.1}Param\IeC {\'e}trisations}{\reset@font\mtcSSfont 51}{subsection.6.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.1.2}Impl\IeC {\'e}mentation}{\reset@font\mtcSSfont 52}{subsection.6.1.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {VI.2}R\IeC {\'e}sultats}{\reset@font\mtcSfont 54}{section.6.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.2.1}Comparaison aux donn\IeC {\'e}es}{\reset@font\mtcSSfont 54}{subsection.6.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.2.2}Tests suppl\IeC {\'e}mentaires}{\reset@font\mtcSSfont 57}{subsection.6.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.2.3}Discussion}{\reset@font\mtcSSfont 61}{subsection.6.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {VI.3}Inclusion des donn\IeC {\'e}es de ZTF}{\reset@font\mtcSfont 62}{section.6.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.3.1}Pr\IeC {\'e}diction}{\reset@font\mtcSSfont 62}{subsection.6.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.3.2}Impl\IeC {\'e}mentation}{\reset@font\mtcSSfont 63}{subsection.6.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.3.3}R\IeC {\'e}sultats}{\reset@font\mtcSSfont 64}{subsection.6.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {VI.4}Conclusion}{\reset@font\mtcSfont 67}{section.6.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {VI.1}Mod\IeC {\'e}lisation de l'\IeC {\'e}tirement}{\reset@font\mtcSfont 58}{section.6.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.1.1}Param\IeC {\'e}trisations}{\reset@font\mtcSSfont 59}{subsection.6.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.1.2}Impl\IeC {\'e}mentation}{\reset@font\mtcSSfont 60}{subsection.6.1.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {VI.2}R\IeC {\'e}sultats}{\reset@font\mtcSfont 62}{section.6.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.2.1}Comparaison aux donn\IeC {\'e}es}{\reset@font\mtcSSfont 62}{subsection.6.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.2.2}Tests suppl\IeC {\'e}mentaires}{\reset@font\mtcSSfont 65}{subsection.6.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {VI.2.3}Discussion}{\reset@font\mtcSSfont 68}{subsection.6.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {VI.3}Conclusion}{\reset@font\mtcSfont 70}{section.6.3}}

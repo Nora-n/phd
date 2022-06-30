@@ -1,5 +1,11 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{Briday}(2021)}]{briday2021}
+\textsc{Briday M.} 2021, «~{{\'E}tude de l'impact de l'environnement
+  galactique sur la standardisation des Supernovae de Type Ia}~», Theses,
+  {Université Claude Bernard -- Lyon I},
+  \href{https://tel.archives-ouvertes.fr/tel-03621515}{HAL thèses}
 
 \bibitem[{\textsc{{Briday}} {et~al.}(2022)\textsc{{Briday}},
   \textsc{{Rigault}}, \textsc{{Graziani}}, \textsc{{Copin}},

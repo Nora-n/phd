@@ -1,4 +1,4 @@
-\begin{thebibliography}{107}
+\begin{thebibliography}{118}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abbott}} {et~al.}(2019)\textsc{{Abbott}}, \textsc{{Allam}},
@@ -431,6 +431,12 @@
   \href{http://dx.doi.org/10.1088/1475-7516/2019/10/005}{\color{magenta}\jcap},
   \href{https://ui.adsabs.harvard.edu/abs/2019JCAP...10..005F}{2019, 005}
 
+\bibitem[{\textsc{{Fitzpatrick}}(1999)}]{fitzpatrick1999}
+\textsc{{Fitzpatrick} E.~L.} 1999, «~{Correcting for the Effects of
+  Interstellar Extinction}~»,
+  \href{http://dx.doi.org/10.1086/316293}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/1999PASP..111...63F}{111, 63}
+
 \bibitem[{\textsc{{Folatelli}} {et~al.}(2010)\textsc{{Folatelli}},
   \textsc{{Phillips}}, \textsc{{Burns}}, \textsc{{Contreras}},
   \textsc{{Hamuy}}, \textsc{{Freedman}}, \textsc{{Persson}},
@@ -817,6 +823,15 @@
   \href{http://dx.doi.org/10.1086/522030}{\color{magenta}\apjl},
   \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...667L..37H}{667, L37}
 
+\bibitem[{\textsc{{Hubble}}(1926)}]{hubble1926}
+\textsc{{Hubble} E.~P.} 1926, «~{Extragalactic nebulae.}~»,
+  \href{http://dx.doi.org/10.1086/143018}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1926ApJ....64..321H}{64, 321}
+
+\bibitem[{\textsc{{Hubble}}(1936)}]{hubble1936}
+\textsc{{Hubble} E.~P.} 1936, «~{Realm of the Nebulae}~», {Realm of the
+  Nebulae}
+
 \bibitem[{\textsc{{Ivezi{\'c}}} {et~al.}(2019)\textsc{{Ivezi{\'c}}},
   \textsc{{Kahn}}, \textsc{{Tyson}}, \textsc{{Abel}}, \textsc{{Acosta}},
   \textsc{{Allsman}}, \textsc{{Alonso}}, \textsc{{AlSayyad}},
@@ -979,6 +994,15 @@
   Series, Vol. 4008, {\em Optical and IR Telescope Instrumentation and
   Detectors}, ed. M.~{Iye} \& A.~F. {Moorwood},
   \href{https://ui.adsabs.harvard.edu/abs/2000SPIE.4008..104K}{104--113}
+
+\bibitem[{\textsc{{Kelly}} {et~al.}(2010)\textsc{{Kelly}}, \textsc{{Hicken}},
+  \textsc{{Burke}}, \textsc{{Mandel}} et \textsc{{Kirshner}}}]{kelly2010}
+\textsc{{Kelly} P.~L.}, \textsc{{Hicken} M.}, \textsc{{Burke} D.~L.},
+  \textsc{{Mandel} K.~S.} et \textsc{{Kirshner} R.~P.} 2010, «~{Hubble
+  Residuals of Nearby Type Ia Supernovae are Correlated with Host Galaxy
+  Masses}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/715/2/743}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2010ApJ...715..743K}{715, 743}
 
 \bibitem[{\textsc{{Kennicutt}}(1998)}]{kennicutt1998}
 \textsc{{Kennicutt} R.} 1998, «~{Emission-Line Diagnostics of Galaxy Evolution
@@ -1338,6 +1362,15 @@
   \href{http://dx.doi.org/10.3847/1538-4357/abf14f}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2021ApJ...913...49P}{913, 49}
 
+\bibitem[{\textsc{{Pruzhinskaya}} {et~al.}(2020)\textsc{{Pruzhinskaya}},
+  \textsc{{Novinskaya}}, \textsc{{Pauna}} et
+  \textsc{{Rosnet}}}]{pruzhinskaya2020}
+\textsc{{Pruzhinskaya} M.~V.}, \textsc{{Novinskaya} A.~K.}, \textsc{{Pauna} N.}
+  et \textsc{{Rosnet} P.} 2020, «~{The dependence of Type Ia Supernovae SALT2
+  light-curve parameters on host galaxy morphology}~»,
+  \href{http://dx.doi.org/10.1093/mnras/staa3173}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2020MNRAS.499.5121P}{499, 5121}
+
 \bibitem[{\textsc{{Rabinowitz}} {et~al.}(2003)\textsc{{Rabinowitz}},
   \textsc{{Baltay}}, \textsc{{Emmet}}, \textsc{{Hurteau}}, \textsc{{Snyder}},
   \textsc{{Andrews}}, \textsc{{Ellman}}, \textsc{{Morgan}}, \textsc{{Bauer}},
@@ -1439,6 +1472,37 @@
   Energy}~», \href{http://dx.doi.org/10.1086/510378}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...659...98R}{659, 98}
 
+\bibitem[{\textsc{{Riess}} {et~al.}(2021)\textsc{{Riess}}, \textsc{{Yuan}},
+  \textsc{{Macri}}, \textsc{{Scolnic}}, \textsc{{Brout}}, \textsc{{Casertano}},
+  \textsc{{Jones}}, \textsc{{Murakami}}, \textsc{{Breuval}}, \textsc{{Brink}},
+  \textsc{{Filippenko}}, \textsc{{Hoffmann}}, \textsc{{Jha}},
+  \textsc{{Kenworthy}}, \textsc{{Mackenty}}, \textsc{{Stahl}} et
+  \textsc{{Zheng}}}]{riess2021}
+\textsc{{Riess} A.~G.}, \textsc{{Yuan} W.}, \textsc{{Macri} L.~M.} {et~al.}
+  2021, «~{A Comprehensive Measurement of the Local Value of the Hubble
+  Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the
+  SH0ES Team}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/2021arXiv211204510R}{arXiv e-prints,
+  arXiv:2112.04510}
+
+\bibitem[{\textsc{{Rigault}} {et~al.}(2015)\textsc{{Rigault}},
+  \textsc{{Aldering}}, \textsc{{Kowalski}}, \textsc{{Copin}},
+  \textsc{{Antilogus}}, \textsc{{Aragon}}, \textsc{{Bailey}},
+  \textsc{{Baltay}}, \textsc{{Baugh}}, \textsc{{Bongard}}, \textsc{{Boone}},
+  \textsc{{Buton}}, \textsc{{Chen}}, \textsc{{Chotard}}, \textsc{{Fakhouri}},
+  \textsc{{Feindt}}, \textsc{{Fagrelius}}, \textsc{{Fleury}},
+  \textsc{{Fouchez}}, \textsc{{Gangler}}, \textsc{{Hayden}}, \textsc{{Kim}},
+  \textsc{{Leget}}, \textsc{{Lombardo}}, \textsc{{Nordin}}, \textsc{{Pain}},
+  \textsc{{Pecontal}}, \textsc{{Pereira}}, \textsc{{Perlmutter}},
+  \textsc{{Rabinowitz}}, \textsc{{Runge}}, \textsc{{Rubin}},
+  \textsc{{Saunders}}, \textsc{{Smadja}}, \textsc{{Sofiatti}},
+  \textsc{{Suzuki}}, \textsc{{Tao}} et \textsc{{Weaver}}}]{rigault2015}
+\textsc{{Rigault} M.}, \textsc{{Aldering} G.}, \textsc{{Kowalski} M.} {et~al.}
+  2015, «~{Confirmation of a Star Formation Bias in Type Ia Supernova
+  Distances and its Effect on the Measurement of the Hubble Constant}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/802/1/20}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2015ApJ...802...20R}{802, 20}
+
 \bibitem[{\textsc{{Rigault}} {et~al.}(2020)\textsc{{Rigault}},
   \textsc{{Brinnel}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
   \textsc{{Aragon}}, \textsc{{Bailey}}, \textsc{{Baltay}}, \textsc{{Barbary}},
@@ -1511,6 +1575,19 @@
   Astronomical Society,
   \href{https://ui.adsabs.harvard.edu/abs/2020sea..confE.182R}{182}
 
+\bibitem[{\textsc{{Roman}} {et~al.}(2018)\textsc{{Roman}}, \textsc{{Hardin}},
+  \textsc{{Betoule}}, \textsc{{Astier}}, \textsc{{Balland}}, \textsc{{Ellis}},
+  \textsc{{Fabbro}}, \textsc{{Guy}}, \textsc{{Hook}}, \textsc{{Howell}},
+  \textsc{{Lidman}}, \textsc{{Mitra}}, \textsc{{M{\"o}ller}},
+  \textsc{{Mour{\~a}o}}, \textsc{{Neveu}}, \textsc{{Palanque-Delabrouille}},
+  \textsc{{Pritchet}}, \textsc{{Regnault}}, \textsc{{Ruhlmann-Kleider}},
+  \textsc{{Saunders}} et \textsc{{Sullivan}}}]{roman2018}
+\textsc{{Roman} M.}, \textsc{{Hardin} D.}, \textsc{{Betoule} M.} {et~al.} 2018,
+  «~{Dependence of Type Ia supernova luminosities on their local
+  environment}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201731425}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2018A&A...615A..68R}{615, A68}
+
 \bibitem[{\textsc{{Rubin}} {et~al.}(2015)\textsc{{Rubin}}, \textsc{{Aldering}},
   \textsc{{Barbary}}, \textsc{{Boone}}, \textsc{{Chappell}}, \textsc{{Currie}},
   \textsc{{Deustua}}, \textsc{{Fagrelius}}, \textsc{{Fruchter}},
@@ -1572,6 +1649,13 @@
   Supernova Rate}~»,
   \href{http://dx.doi.org/10.1086/452632}{\color{magenta}\apjl},
   \href{https://ui.adsabs.harvard.edu/abs/2005ApJ...629L..85S}{629, L85}
+
+\bibitem[{\textsc{{Schlafly}} et \textsc{{Finkbeiner}}(2011)}]{schlafly2011}
+\textsc{{Schlafly} E.~F.} et \textsc{{Finkbeiner} D.~P.} 2011, «~{Measuring
+  Reddening with Sloan Digital Sky Survey Stellar Spectra and Recalibrating
+  SFD}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/737/2/103}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2011ApJ...737..103S}{737, 103}
 
 \bibitem[{\textsc{{Schmidt}} {et~al.}(1989)\textsc{{Schmidt}},
   \textsc{{Weymann}} et \textsc{{Foltz}}}]{schmidt1989}
@@ -1790,11 +1874,37 @@
   \href{http://dx.doi.org/10.1051/0004-6361/201425379}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2015A&A...581A..54T}{581, A54}
 
+\bibitem[{\textsc{{Taylor}} {et~al.}(2011)\textsc{{Taylor}},
+  \textsc{{Hopkins}}, \textsc{{Baldry}}, \textsc{{Brown}}, \textsc{{Driver}},
+  \textsc{{Kelvin}}, \textsc{{Hill}}, \textsc{{Robotham}},
+  \textsc{{Bland-Hawthorn}}, \textsc{{Jones}}, \textsc{{Sharp}},
+  \textsc{{Thomas}}, \textsc{{Liske}}, \textsc{{Loveday}}, \textsc{{Norberg}},
+  \textsc{{Peacock}}, \textsc{{Bamford}}, \textsc{{Brough}},
+  \textsc{{Colless}}, \textsc{{Cameron}}, \textsc{{Conselice}},
+  \textsc{{Croom}}, \textsc{{Frenk}}, \textsc{{Gunawardhana}},
+  \textsc{{Kuijken}}, \textsc{{Nichol}}, \textsc{{Parkinson}},
+  \textsc{{Phillipps}}, \textsc{{Pimbblet}}, \textsc{{Popescu}},
+  \textsc{{Prescott}}, \textsc{{Sutherland}}, \textsc{{Tuffs}}, \textsc{{van
+  Kampen}} et \textsc{{Wijesinghe}}}]{taylor2011}
+\textsc{{Taylor} E.~N.}, \textsc{{Hopkins} A.~M.}, \textsc{{Baldry} I.~K.}
+  {et~al.} 2011, «~{Galaxy And Mass Assembly (GAMA): stellar mass
+  estimates}~»,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2011.19536.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2011MNRAS.418.1587T}{418, 1587}
+
 \bibitem[{\textsc{{Tonry}} {et~al.}(2006)\textsc{{Tonry}}, \textsc{{Onaka}},
   \textsc{{Luppino}} et \textsc{{Isani}}}]{tonry2006}
 \textsc{{Tonry} J.}, \textsc{{Onaka} P.}, \textsc{{Luppino} G.} et
   \textsc{{Isani} S.} 2006, «~{The Pan-STARRS Gigapixel Camera}~», dans The
   Advanced Maui Optical and Space Surveillance Technologies Conference,
   \href{https://ui.adsabs.harvard.edu/abs/2006amos.confE..47T}{E47}
+
+\bibitem[{\textsc{{Walcher}} {et~al.}(2011)\textsc{{Walcher}},
+  \textsc{{Groves}}, \textsc{{Budav{\'a}ri}} et \textsc{{Dale}}}]{walcher2011}
+\textsc{{Walcher} J.}, \textsc{{Groves} B.}, \textsc{{Budav{\'a}ri} T.} et
+  \textsc{{Dale} D.} 2011, «~{Fitting the integrated spectral energy
+  distributions of galaxies}~»,
+  \href{http://dx.doi.org/10.1007/s10509-010-0458-z}{\color{magenta}\apss},
+  \href{https://ui.adsabs.harvard.edu/abs/2011Ap&SS.331....1W}{331, 1}
 
 \end{thebibliography}

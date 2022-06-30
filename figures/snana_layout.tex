@@ -70,7 +70,7 @@
             %left delimiter=|,
             nodes={anchor=center, align=center}]
             (Mhostlib) at ([shift={(1, 0)}]x1dist.east)
-            {ID & $z$ & $M_{\rm host}$ & $x_1$ & $c$ & $\Delta$mag \\
+            {ID & $z$ & $M_*$ & $x_1$ & $c$ & $\Delta$mag \\
             \vdots & \vdots & \vdots & \vdots & \vdots & \vdots\\
             \vdots & \vdots & \vdots & \vdots & \vdots & \vdots\\
             \vdots & \vdots & \vdots & \vdots & \vdots & \vdots\\
@@ -134,7 +134,7 @@
             %shift={($(WEIGHTMAP.south)+(0,-0.4cm)$)}, anchor=north,
             xmin=8, xmax=12.3,
             ymin=0, ymax=1,
-            xlabel=$M_{\rm host}$, ylabel=$P(M)$,
+            xlabel=$M_*$, ylabel=$P(M)$,
             axis lines=left,
             clip=true]
             \addplot[black, samples=500]
@@ -381,7 +381,7 @@
         \begin{axis}[name=cdump, scale=0.7,
             at={(mdump.below south west)},
             yshift=-0.3cm, anchor=north west,
-            xmin=-0.3, xmax=0.4,
+            xmin=-0.3, xmax=0.5,
             ymin=0, ymax=7.2,
             xlabel=$c$, ylabel=$P$,
             axis lines=left,

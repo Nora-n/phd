@@ -2,57 +2,50 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: ../main/aa_url.bst
-Illegal, another \bibstyle command---line 1257 of file main.aux
- : \bibstyle
- :          {../main/aa_url}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 1258 of file main.aux
- : \bibdata
- :         {../chapters/99_references}
-I'm skipping whatever remains of this command
 Database file #1: ../chapters/99_references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in calzetti2013
-You've used 107 entries,
+Warning--empty publisher in hubble1936
+You've used 118 entries,
             3173 wiz_defined-function locations,
-            1569 strings with 99571 characters,
-and the built_in function-call counts, 227571 in all, are:
-= -- 14206
-> -- 32432
-< -- 29
-+ -- 10868
-- -- 10758
-* -- 35966
-:= -- 38478
-add.period$ -- 107
-call.type$ -- 107
-change.case$ -- 4009
-chr.to.int$ -- 110
-cite$ -- 108
-duplicate$ -- 2351
-empty$ -- 3569
-format.name$ -- 11005
-if$ -- 39817
+            1651 strings with 104125 characters,
+and the built_in function-call counts, 238090 in all, are:
+= -- 14917
+> -- 33615
+< -- 33
++ -- 11266
+- -- 11145
+* -- 37490
+:= -- 40259
+add.period$ -- 118
+call.type$ -- 118
+change.case$ -- 4182
+chr.to.int$ -- 121
+cite$ -- 120
+duplicate$ -- 2571
+empty$ -- 3923
+format.name$ -- 11417
+if$ -- 41711
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 88
-newline$ -- 325
-num.names$ -- 442
-pop$ -- 4018
+missing$ -- 99
+newline$ -- 358
+num.names$ -- 486
+pop$ -- 4192
 preamble$ -- 1
-purify$ -- 4005
+purify$ -- 4178
 quote$ -- 0
-skip$ -- 1901
+skip$ -- 2085
 stack$ -- 0
-substring$ -- 2495
-swap$ -- 7764
+substring$ -- 2749
+swap$ -- 8065
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 963
-warning$ -- 1
-while$ -- 451
+type$ -- 1059
+warning$ -- 2
+while$ -- 494
 width$ -- 0
-write$ -- 1179
-(There were 2 error messages)
+write$ -- 1298
+(There were 2 warnings)

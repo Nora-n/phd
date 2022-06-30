@@ -1,0 +1,10 @@
+\babel@toc {french}{}
+\contentsline {chapter}{\numberline {I}Perspectives et discussion}{1}{chapter.1}
+\contentsline {section}{\numberline {I.1}\IeC {\'E}tirement~: inclusion des donn\IeC {\'e}es de ZTF}{2}{section.1.1}
+\contentsline {subsection}{\numberline {I.1.1}Pr\IeC {\'e}diction}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {I.1.2}Impl\IeC {\'e}mentation}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {I.1.3}R\IeC {\'e}sultats}{4}{subsection.1.1.3}
+\contentsline {section}{\numberline {I.2}Simulations~: am\IeC {\'e}liorations}{6}{section.1.2}
+\contentsline {subsection}{\numberline {I.2.1}XXX}{7}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {I.2.2}XXX}{7}{subsection.1.2.2}
+\contentsfinish 
