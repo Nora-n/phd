@@ -1,4 +1,4 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{5}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Bellm}} {et~al.}(2019)\textsc{{Bellm}}, \textsc{{Kulkarni}},
@@ -41,6 +41,13 @@
   \href{http://dx.doi.org/10.1088/1538-3873/aaecbe}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8002B}{131, 018002}
 
+\bibitem[{\textsc{{Brout}} et \textsc{{Scolnic}}(2021)}]{brout2021}
+\textsc{{Brout} D.} et \textsc{{Scolnic} D.} 2021, «~{It's Dust: Solving the
+  Mysteries of the Intrinsic Scatter and Host-galaxy Dependence of Standardized
+  Type Ia Supernova Brightnesses}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/abd69b}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2021ApJ...909...26B}{909, 26}
+
 \bibitem[{\textsc{{Graham}} {et~al.}(2019)\textsc{{Graham}},
   \textsc{{Kulkarni}}, \textsc{{Bellm}}, \textsc{{Adams}},
   \textsc{{Barbarino}}, \textsc{{Blagorodnova}}, \textsc{{Bodewits}},
@@ -80,5 +87,34 @@
   {et~al.} 2019, «~{The Zwicky Transient Facility: Science Objectives}~»,
   \href{http://dx.doi.org/10.1088/1538-3873/ab006c}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131g8001G}{131, 078001}
+
+\bibitem[{\textsc{{Popovic}} {et~al.}(2021)\textsc{{Popovic}},
+  \textsc{{Brout}}, \textsc{{Kessler}} et \textsc{{Scolnic}}}]{popovic2021b}
+\textsc{{Popovic} B.}, \textsc{{Brout} D.}, \textsc{{Kessler} R.} et
+  \textsc{{Scolnic} D.} 2021, «~{The Pantheon+ Analysis: Forward-Modeling the
+  Dust and Intrinsic Colour Distributions of Type Ia Supernovae, and
+  Quantifying their Impact on Cosmological Inferences}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/2021arXiv211204456P}{arXiv e-prints,
+  arXiv:2112.04456}
+
+\bibitem[{\textsc{{Rigault}} {et~al.}(2020)\textsc{{Rigault}},
+  \textsc{{Brinnel}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
+  \textsc{{Aragon}}, \textsc{{Bailey}}, \textsc{{Baltay}}, \textsc{{Barbary}},
+  \textsc{{Bongard}}, \textsc{{Boone}}, \textsc{{Buton}}, \textsc{{Childress}},
+  \textsc{{Chotard}}, \textsc{{Copin}}, \textsc{{Dixon}}, \textsc{{Fagrelius}},
+  \textsc{{Feindt}}, \textsc{{Fouchez}}, \textsc{{Gangler}}, \textsc{{Hayden}},
+  \textsc{{Hillebrandt}}, \textsc{{Howell}}, \textsc{{Kim}},
+  \textsc{{Kowalski}}, \textsc{{Kuesters}}, \textsc{{Leget}},
+  \textsc{{Lombardo}}, \textsc{{Lin}}, \textsc{{Nordin}}, \textsc{{Pain}},
+  \textsc{{Pecontal}}, \textsc{{Pereira}}, \textsc{{Perlmutter}},
+  \textsc{{Rabinowitz}}, \textsc{{Runge}}, \textsc{{Rubin}},
+  \textsc{{Saunders}}, \textsc{{Smadja}}, \textsc{{Sofiatti}},
+  \textsc{{Suzuki}}, \textsc{{Taubenberger}}, \textsc{{Tao}} et
+  \textsc{{Thomas}}}]{rigault2020}
+\textsc{{Rigault} M.}, \textsc{{Brinnel} V.}, \textsc{{Aldering} G.} {et~al.}
+  2020, «~{Strong dependence of Type Ia supernova standardization on the local
+  specific star formation rate}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201730404}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2020A&A...644A.176R}{644, A176}
 
 \end{thebibliography}

@@ -86,11 +86,11 @@ lequel nous présentons le modèle de base ajusté sur l'échantillon de base
 \end{SCfigure}
 
 Nous remarquons que s'il existe bien un pic de petit étirement, le modèle N21 ne
-saurait le caractériser correctement, la distribution étant trop écartée de ce
-que nous pourrions considérer comme la moyenne de ce mode de petit étirement. Il
-reste bien plus proche que le modèle Howell+dérive ajusté sur l'échantillon de
-base (ci-après HD), représenté en fins pointillés verts
-Figure~\ref{fig:N21HDZTFerr}.
+le caractérise que partiellement~; la distribution du modèle étant écartée
+d'environ \num{0.30} de cce que nous pourrions considérer comme la moyenne de ce
+mode de petit étirement. Il reste bien plus proche que le modèle Howell+dérive
+ajusté sur l'échantillon de base (ci-après HD), représenté en fins pointillés
+verts Figure~\ref{fig:N21HDZTFerr}.
 
 \subsection{Implémentation}\label{ssec:xamel}
 
@@ -103,17 +103,17 @@ l'échantillon fiduciel+ZTF (conservatif+ZTF) sont présentés dans le
 Tableau~\ref{tab:modelresults_ztf}. Comme attendu, les paramètres du mode de
 grand étirement $(\mu_1,\sigma_1$) ne diffèrent pas significativement des
 résultats précédents, mais la moyenne du mode de petit étirement $\mu_2$ est
-bien plus basse et incompatible avec les résultats de base. Nous pouvons
-également noter une baisse de l'amplitude du mode 1 dans la combinaison linéaire
-composant la distribution sous-jacente de la vieille population, donnant donc
-plus d'amplitude au mode de petits étirements.
+bien plus basse et écartée de $\approx 3\sigma$ des résultats de base. Nous
+pouvons également noter une baisse de l'amplitude du mode 1 dans la combinaison
+linéaire composant la distribution sous-jacente de la vieille population,
+donnant donc plus d'amplitude au mode de petits étirements.
 
 \begin{table*}
     \centering
         \caption[Valeurs des paramètres du modèle d'étirement de base selon
         l'échantillon avec les données de ZTF]{Valeurs des paramètres issus des
             meilleurs ajustements du modèle de distribution de l'étirement de
-            base lorsqu'il est appliqué à l'ensemble de données de base
+            base lorsqu'il est appliqué à l'ensemble de données fiduciel
             seulement (569 SNe~Ia), à l'échantillon fiduciel avec ZTF (1207) ou
         à l'échantillon conservatif avec ZTF (815).}
         \label{tab:modelresults_ztf}
@@ -125,7 +125,7 @@ plus d'amplitude au mode de petits étirements.
                              & $\mu_2$             & $\sigma_2$
                              & $a$ \\
             \midrule
-            Base             & $ 0.37 \pm 0.04$    & $0.61 \pm 0.03$
+            Fiduciel         & $ 0.37 \pm 0.04$    & $0.61 \pm 0.03$
                              & $-1.22 \pm 0.11$    & $0.56 \pm 0.07$
                              & $ 0.51 \pm 0.07$ \\
             Fiduciel+ZTF     & $ 0.33 \pm 0.03$    & $0.64 \pm 0.02$
@@ -306,9 +306,8 @@ Howell+dérive est de 20,7, excluant cette modélisation comme bonne
 représentation des données par rapport au modèle de base. L'exclusion des
 modèles non-dérivants est également renforcée, le premier modèle non-dérivant
 ayant un AIC 49,7 plus petit que notre modèle de référence, et 29,2 plus petit
-que Howell+dérive. De manière surprenante, le modèle asymétrique pur est rendu à
-l'avant-dernière place du classement étant maintenant l'une des pires
-modélisations alors qu'elle était la première non-dérivante précédemment.
+que Howell+dérive. Le modèle asymétrique pur est toujours exclut, mais cette
+fois rendu à l'avant-dernière place du classement.
 
 Bien que l'ajout de ces données donne plus de robustesse aux conclusions
 principales sur la dérive de l'étirement avec le redshift, la question se pose
@@ -318,9 +317,9 @@ modèles N21 et N21+ZTF, ajustés sur leurs échantillons respectifs, quand nous
 comparons aux données des sondages. La Figure~\ref{fig:bzcomp} et le
 Tableau~\ref{tab:bzcomp} résument ces résultats.
 
-\begin{figure}[ht]
+\begin{figure}[p]
     \centerfloat
-    \includegraphics[width=0.8\linewidth]{model_N21+ZTF_on_allsurvs}
+    \includegraphics[width=1\linewidth]{model_N21+ZTF_on_allsurvs}
     \caption[Comparaison de la capacité des modèles N21 et N21+ZTF à représenter
     les données des sondages]{Comparaison de la capacité des modèles N21 et
     N21+ZTF à représenter les données des sondages. Pour chaque sondage, nous
@@ -364,7 +363,7 @@ est inclus dans l'échantillon total que quand il ne l'est pas.}
 \end{table}
 
 Nous observons que le modèle N21 présente une meilleure capacité à décrire les
-données que ne sont pas ZTF, avec une différence de $-2\ln(L)$ augmentant de SNf
+données qui ne sont pas ZTF, avec une différence de $-2\ln(L)$ augmentant de SNf
 à PS1 où nous trouvons une différence de 7,76 en faveur de N21, avant de
 redescendre jusqu'à avoir une différence de -0,57 en faveur de N21+ZTF. En
 revanche, chaque modèle présente une meilleure capacité à décrire son
@@ -374,32 +373,113 @@ une plage limitée de redshift, biaise la capacité du modèle à représenter l
 données en lui imposant de reproduire les caractéristiques de cet échantillon
 particulier.
 
+\subsection{Conclusion}\label{ssec:ztfconc}
+
+Grâce aux début de publication des résultats du nouveau sondage ZTF, nous avons
+pu étendre l'étude initiale du Chapitre~\ref{ch:stretch} et créer un nouveau
+sous-échantillon limité en volume, faisant passer notre échantillon combiné de
+569 à 1207 SNe~Ia (et de 422 à 815 avec les coupes conservatives). Ainsi, compte
+tenu de l'ensemble de données actuel, nous suggérons l'utilisation du modèle de
+population d'étirements évoluant avec le redshift suivant~:
+\begin{align*}\label{eqconclusion:stretchz}
+    X_1\left(z \right) =
+        \delta(z)&\times\mathcal{N}(\mu_1,\sigma_1{}^2)\,+\nonumber\\
+        (1-\delta(z))&\times \left[a\times\mathcal{N}(\mu_1,\sigma_1{}^2) +
+        (1-a)\times\mathcal{N}(\mu_2,\sigma_2{}^2)\right],
+    \tag{\ref{eq:stretchz}}
+\end{align*}
+avec $a=0.45$, $\mu_1=0.33$, $\mu_2=-1.50$, $\sigma_1=0.64$, et $\sigma_2=0.58$
+(voir Tableau~\ref{tab:modelresults_ztf}), et d'utiliser le modèle de dérive
+de la population d'âge avec le redshift suivant~:
+\begin{align*}
+    \delta(z) & = \left( K^{-1} \times (1+z)^{-2.8} +1 \right)^{-1}
+    \tag{\ref{eq:deltaz}}
+\end{align*}
+avec $K=0.87$.
+
+Au travers de l'ajout des données de ZTF à notre étude, nous avons pu rendre
+plus robuste la conclusion selon laquelle les modèles d'étirements des SNe~Ia
+n'incluant pas de dérive avec le redshift étaient tous exclus en tant que bonnes
+représentations de données par rapport aux modèles dérivants, mais nous avons
+également renforcé la pertinence du modèle de base à cet effet. Si l'accord sur
+les autres sondages est moindre que précédemment, nous pouvons nous attendre à
+ce que des données telles que celles du LSST à moyen redshift ou Subaru à haut
+redshift permettent de rééquilibrer cette différence statistique sur la plage de
+redshifts sondés pour continuer d'améliorer cette définition de
+sous-populations, tout en continuant à utiliser les qualités du sondage ZTF à
+cet effort.
 
 \section{Simulations~: améliorations}\label{sec:simpersp}
 
-Types de simulations~:
-\begin{itemize}
-    \item SSIZE
-    \item VFULL
-    \item BVSIZE~?
-\end{itemize}
+Dans le chapitre précédent, nous avons implémenté le premier modèle d'étirement
+à l'ensemble de logiciels \snana. Bien que les résultats de ces simulations
+soient concluant, nous proposons différentes approches et perspectives qui
+permettraient d'étendre ces analyses.
 
-% Using a different tracer: simulate with age and fit with mass for the time
-% being, but could extend to different tracers like local color;
+\subsection{Types de simulations}\label{ssec:types}
 
-% Effects of dust in the model
+Nous pouvons implémenter différentes manières d'effectuer ces simulations, que
+nous appelons «~types~».
 
-% Evolution of galaxies: evolution of age with redshift (K) could be freed.
+En premier lieu, nous pourrions réduire les incertitudes statistiques de
+l'approche précédente en augmentant le nombre de données simulées~; ceci
+demanderait en retour d'augmenter drastiquement la taille de l'échantillon de
+BiasCor, déjà proche de $10^6$ données mais qui ne permet pas de corriger toutes
+les SNe des données simulées ($\approx 15\%$ n'ont pas de BiasCor).
 
-% Simulation allow to test the effect of selection; upcoming surveys use galaxy
-% redshit: what is the effect of selection
-% Galactic selection function
+Pour étudier l'impact des modélisations sur l'état de la cosmologie actuelle,
+une approche serait de simuler une grand nombre de fois ($\approx \num{100}$)
+des échantillons de la taille de l'échantillon de Pantheon ($\approx
+\num{1000}$) et de combiner les résultats, permettant ainsi d'avoir des
+incertitudes statistiques réalistes.
 
-\subsection{XXX}
-%\label{ssec:xxx}
+Ces types et des variations ont été implémentées, mais la complexité des
+simulations avec \snana\ nous ont amenæ à modifier les paramètres de simulation
+jusqu'au dernier moment, rendant impossible le fait d'effectivement réaliser ces
+types de simulations tout en restant à notre portée pour le futur.
 
-\subsection{XXX}
-%\label{ssec:xxx}
+\subsection{Variation de paramètres}\label{ssec:pvar}
+
+Avec l'ajout des données de ZTF, notre modèle d'évolution de l'étirement avec le
+redshift a été augmenté. Ces nouveaux paramètres pourraient être utilisés,
+notamment pour tenter de représenter plus efficacement l'échantillon ciblé LOWZ
+qui présente un pic de petits étirements autour de $x_1 \approx -1.50$. À cet
+effet, nous pourrions utiliser non pas de le redshift de l'échantillon mais
+directement la fraction attendue pour décrire l'étirement de la \hostlib\
+utilisée pour simuler cet échantillon~; cette approche briserait en quelque
+sorte l'approche prospective de notre étude, mais apparaît comme nécessaire pour
+simuler des données elles-mêmes sélectionnées.
+
+Dans toute cette thèse, nous avons utilisé l'équation de l'évolution de la
+fraction de jeunes étoiles $\delta(z)$ donnée dans le Chapitre~\ref{ch:env},
+avec les résultats des paramètres $K$ et $\phi$ de~\cite{rigault2020}~; ceux-ci
+pourraient être variés, notamment le paramètre $K$ qui est obtenu pour fixer la
+fraction de jeunes étoiles à 50\% à $z = \num{0.05}$.
+
+\subsection{Traceurs environnementaux}\label{ssec:envtrac}
+
+Comme nous avons pu le voir, l'ajout du traceur de l'âge d'une SN permettrait
+d'augmenter la robustesse de notre étude et pourrait s'avérer être un outil
+probant des propriétés intrinsèques des SNe~Ia. Nous pourrions étendre d'autant
+plus ces analyses en intégrant d'autres traceurs utilisés en cosmologie, comme
+la couleur locale.
+
+En plus des effets environnementaux des SNe~Ia dont nous avons pu discuter
+Chapitre~\ref{ch:env}, de récentes études (\cite{brout2021}) proposent
+d'intégrer les effets de rougissement dus à la poussière des galaxies
+conjointement aux variations intrinsèques des couleurs des SNe~Ia dans le modèle
+\texttt{SALT2}. Ceci a permis de mieux décrire les propriétés des SNe les plus
+rouges, et propose une approche pour décrire la marche de magnitude basée sur la
+masse causée par une différence sur le paramètre $\beta$ effectif selon la masse
+des galaxies hôtes. \cite{popovic2021b} ont intégré cette approche à leurs
+simulations pour établir une approche prospective de détermination des
+distributions mères de poussière et de couleur, et trouvent une incertitude
+systématique due à ces effets sur la mesure de $w$ de \num{0.005}. Ces résultats
+sont prometteurs en vue d'améliorer la recherche sur les effets des propriétés
+des galaxies hôtes sur les échantillons de SNe~Ia, et pourraient à terme amener
+à une modélisation continue de dépendance avec la masse des galaxies hôtes
+plutôt qu'une modélisation en marche de magnitude. L'inclusion de ces approches
+augmenterait alors également notre étude.
 
 \clearpage
 

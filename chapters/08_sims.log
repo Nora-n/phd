@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  30 JUN 2022 20:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  1 JUL 2022 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3613,10 +3613,10 @@ File: ../figures/briday_steps-few.png Graphic file (type png)
 Package pdftex.def Info: ../figures/briday_steps-few.png  used on input line 1184.
 (pdftex.def)             Requested size: 364.19667pt x 216.9755pt.
 
-LaTeX Warning: Reference `ssec:bbcintro' on page 20 undefined on input line 1200.
+LaTeX Warning: Reference `ssec:bbcintro' on page 20 undefined on input line 1203.
 
 
-LaTeX Warning: Reference `ch:snana' on page 20 undefined on input line 1206.
+LaTeX Warning: Reference `ch:snana' on page 20 undefined on input line 1209.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3625,29 +3625,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <../figures/wfit_covmat_FULL-SNFSUPP_2.pdf, id=645, 360.22792pt x 360.34042pt>
 File: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf>
-Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1214.
+Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1217.
 (pdftex.def)             Requested size: 227.62206pt x 227.69745pt.
 
 
-LaTeX Warning: Reference `ch:snana' on page 21 undefined on input line 1216.
+LaTeX Warning: Reference `ch:snana' on page 21 undefined on input line 1219.
 
 
-LaTeX Warning: Reference `ch:snana' on page 21 undefined on input line 1216.
+LaTeX Warning: Reference `ch:snana' on page 21 undefined on input line 1219.
 
 <../figures/HR_covmat-FULL-SNFSUPP_2.pdf, id=646, 1164.8232pt x 1164.75104pt>
 File: ../figures/HR_covmat-FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/HR_covmat-FULL-SNFSUPP_2.pdf>
-Package pdftex.def Info: ../figures/HR_covmat-FULL-SNFSUPP_2.pdf  used on input line 1222.
+Package pdftex.def Info: ../figures/HR_covmat-FULL-SNFSUPP_2.pdf  used on input line 1225.
 (pdftex.def)             Requested size: 455.24411pt x 455.2108pt.
 
-LaTeX Warning: Reference `ch:snana' on page 21 undefined on input line 1225.
+LaTeX Warning: Reference `ch:snana' on page 21 undefined on input line 1228.
 
 
-LaTeX Warning: Reference `ch:snana' on page 21 undefined on input line 1225.
+LaTeX Warning: Reference `ch:snana' on page 21 undefined on input line 1228.
 
 [21 <../figures/wfit_covmat_FULL-SNFSUPP_2.pdf>] [22 <../figures/HR_covmat-FULL-SNFSUPP_2.pdf>]
 
-Package natbib Warning: Citation `BP' on page 23 undefined on input line 1287.
+Package natbib Warning: Citation `BP' on page 23 undefined on input line 1290.
 
 [23]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -3684,31 +3684,31 @@ Package natbib Warning: Citation `BP' on page 23 undefined on input line 1287.
 
 File: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf>
-Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf  used on input line 1343.
+Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf  used on input line 1346.
 (pdftex.def)             Requested size: 225.77737pt x 227.62204pt.
 <../figures/snana_diagnostic_fyvM_NRSNF.pdf, id=711, 353.24158pt x 356.13101pt>
 File: ../figures/snana_diagnostic_fyvM_NRSNF.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_fyvM_NRSNF.pdf>
-Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNF.pdf  used on input line 1350.
+Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNF.pdf  used on input line 1353.
 (pdftex.def)             Requested size: 225.77737pt x 227.62204pt.
 <../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf, id=712, 353.24158pt x 356.13101pt>
 File: ../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf>
-Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf  used on input line 1357.
+Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf  used on input line 1360.
 (pdftex.def)             Requested size: 225.77737pt x 227.62204pt.
 File: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf>
-Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1409.
+Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1412.
 (pdftex.def)             Requested size: 227.55492pt x 227.62204pt.
 <../figures/wfit_covmat_FULL-SNF_2.pdf, id=713, 360.22792pt x 360.34042pt>
 File: ../figures/wfit_covmat_FULL-SNF_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SNF_2.pdf>
-Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNF_2.pdf  used on input line 1417.
+Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNF_2.pdf  used on input line 1420.
 (pdftex.def)             Requested size: 227.55492pt x 227.62204pt.
 <../figures/wfit_covmat_FULL-SEDSNF_2.pdf, id=714, 360.22792pt x 360.34042pt>
 File: ../figures/wfit_covmat_FULL-SEDSNF_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SEDSNF_2.pdf>
-Package pdftex.def Info: ../figures/wfit_covmat_FULL-SEDSNF_2.pdf  used on input line 1425.
+Package pdftex.def Info: ../figures/wfit_covmat_FULL-SEDSNF_2.pdf  used on input line 1428.
 (pdftex.def)             Requested size: 227.55492pt x 227.62204pt.
 
 
@@ -3716,7 +3716,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [24 <../figures/snana_diagnostic_fyvM_NRSNF.pdf> <../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf> <../figures/wfit_covmat_FULL-SNF_2.pdf> <../figures/wfit_covmat_FULL-SEDSNF_2.pdf>]
 
-LaTeX Warning: Reference `ch:stretch' on page 25 undefined on input line 1522.
+LaTeX Warning: Reference `ch:stretch' on page 25 undefined on input line 1525.
 
 [25
 
@@ -3778,11 +3778,11 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the 08_sims.log file.
 
 [29]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1576.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1576.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1579.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1579.
  (./08_sims.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1576.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1576.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1579.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1579.
 Package rerunfilecheck Info: File `08_sims.brf' has not changed.
 (rerunfilecheck)             Checksum: CBE535B3C5A0BF97D5408D1CFF08E8B1;2751.
 
@@ -3802,7 +3802,7 @@ pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist,
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb>
-Output written on 08_sims.pdf (29 pages, 13078154 bytes).
+Output written on 08_sims.pdf (29 pages, 13078375 bytes).
 PDF statistics:
  1114 PDF objects out of 1200 (max. 8388607)
  922 compressed objects within 10 object streams

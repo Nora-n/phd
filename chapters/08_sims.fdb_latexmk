@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex 08_sims"] 1656612044 "08_sims.aux" "08_sims.bbl" "08_sims" 1656612178
-  "../chapters/99_references.bib" 1655981127 227300 69a57c6a677a03916a8bcdfd651fe541 ""
+["bibtex 08_sims"] 1656673110 "08_sims.aux" "08_sims.bbl" "08_sims" 1656673110
+  "../chapters/99_references.bib" 1656673109 228329 9ca98fd2dd3c77a4b1762772d2f69c15 ""
   "../main/aa_url.bst" 1655472336 33738 c570759059e9f1117a0f0653b032a3c6 ""
-  "08_sims.aux" 1656612178 29650 a8282dae0384f1856c9a0b29bb746e0c ""
+  "08_sims.aux" 1656672477 29650 bcdc4a2ac8a0736bde64befcd7b20c06 ""
   "08_sims.bcf" 0 -1 0 ""
   (generated)
   "08_sims.blg"
   "08_sims.bbl"
-["pdflatex"] 1656612176 "08_sims.tex" "08_sims.pdf" "08_sims" 1656612178
+["pdflatex"] 1656672475 "08_sims.tex" "08_sims.pdf" "08_sims" 1656673110
   "../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf" 1656594244 1787112 5362aec447a768e70ef867ace0a3100d ""
   "../figures/HR_covmat-FULL-SNFSUPP_2.pdf" 1656087211 144881 76bcc14b2ce1189d38ddc0d291690ef0 ""
   "../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf" 1656072580 198944 814cdbaca8a7c19b5b72946169c0cf4c ""
@@ -599,13 +599,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1574355709 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1574355731 4126118 3219b18f729588c7f78ea00d1865c641 ""
-  "08_sims.aux" 1656612178 29650 a8282dae0384f1856c9a0b29bb746e0c ""
-  "08_sims.bbl" 1656612044 7038 ad245162c62f2f10ca4b1b48de6ff21a "bibtex 08_sims"
-  "08_sims.brf" 1656612178 2751 cbe535b3c5a0bf97d5408d1cff08e8b1 ""
-  "08_sims.lof" 1656612178 3210 6c8e5d39c76765dc18048e79babddf71 ""
-  "08_sims.lot" 1656612178 1730 686828ba3fe9b35b26c1f45b54a1a3a7 ""
-  "08_sims.tex" 1656612175 83011 d0af747d053baf7d5058f78012e3bcdc ""
-  "08_sims.toc" 1656612178 2340 43d9f7f9e31209f17b640838bcefa655 ""
+  "08_sims.aux" 1656672477 29650 bcdc4a2ac8a0736bde64befcd7b20c06 ""
+  "08_sims.bbl" 1656673110 7038 ad245162c62f2f10ca4b1b48de6ff21a "bibtex 08_sims"
+  "08_sims.brf" 1656672477 2751 cbe535b3c5a0bf97d5408d1cff08e8b1 ""
+  "08_sims.lof" 1656672477 3210 6c8e5d39c76765dc18048e79babddf71 ""
+  "08_sims.lot" 1656672477 1730 686828ba3fe9b35b26c1f45b54a1a3a7 ""
+  "08_sims.tex" 1656672475 83274 efab6e1fd27f9ac5d8cb783c868508b2 ""
+  "08_sims.toc" 1656672477 2340 43d9f7f9e31209f17b640838bcefa655 ""
   (generated)
   "08_sims.log"
   "08_sims.mlt1"

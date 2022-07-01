@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{20}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abbott}} {et~al.}(2019)\textsc{{Abbott}}, \textsc{{Allam}},
@@ -58,46 +58,6 @@
   \href{http://dx.doi.org/10.1051/0004-6361:200809796}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2008A&A...492..631A}{492, 631}
 
-\bibitem[{\textsc{{Bellm}} {et~al.}(2019)\textsc{{Bellm}}, \textsc{{Kulkarni}},
-  \textsc{{Graham}}, \textsc{{Dekany}}, \textsc{{Smith}}, \textsc{{Riddle}},
-  \textsc{{Masci}}, \textsc{{Helou}}, \textsc{{Prince}}, \textsc{{Adams}},
-  \textsc{{Barbarino}}, \textsc{{Barlow}}, \textsc{{Bauer}}, \textsc{{Beck}},
-  \textsc{{Belicki}}, \textsc{{Biswas}}, \textsc{{Blagorodnova}},
-  \textsc{{Bodewits}}, \textsc{{Bolin}}, \textsc{{Brinnel}}, \textsc{{Brooke}},
-  \textsc{{Bue}}, \textsc{{Bulla}}, \textsc{{Burruss}}, \textsc{{Cenko}},
-  \textsc{{Chang}}, \textsc{{Connolly}}, \textsc{{Coughlin}},
-  \textsc{{Cromer}}, \textsc{{Cunningham}}, \textsc{{De}},
-  \textsc{{Delacroix}}, \textsc{{Desai}}, \textsc{{Duev}}, \textsc{{Eadie}},
-  \textsc{{Farnham}}, \textsc{{Feeney}}, \textsc{{Feindt}}, \textsc{{Flynn}},
-  \textsc{{Franckowiak}}, \textsc{{Frederick}}, \textsc{{Fremling}},
-  \textsc{{Gal-Yam}}, \textsc{{Gezari}}, \textsc{{Giomi}},
-  \textsc{{Goldstein}}, \textsc{{Golkhou}}, \textsc{{Goobar}},
-  \textsc{{Groom}}, \textsc{{Hacopians}}, \textsc{{Hale}}, \textsc{{Henning}},
-  \textsc{{Ho}}, \textsc{{Hover}}, \textsc{{Howell}}, \textsc{{Hung}},
-  \textsc{{Huppenkothen}}, \textsc{{Imel}}, \textsc{{Ip}},
-  \textsc{{Ivezi{\'c}}}, \textsc{{Jackson}}, \textsc{{Jones}},
-  \textsc{{Juric}}, \textsc{{Kasliwal}}, \textsc{{Kaspi}}, \textsc{{Kaye}},
-  \textsc{{Kelley}}, \textsc{{Kowalski}}, \textsc{{Kramer}}, \textsc{{Kupfer}},
-  \textsc{{Landry}}, \textsc{{Laher}}, \textsc{{Lee}}, \textsc{{Lin}},
-  \textsc{{Lin}}, \textsc{{Lunnan}}, \textsc{{Giomi}}, \textsc{{Mahabal}},
-  \textsc{{Mao}}, \textsc{{Miller}}, \textsc{{Monkewitz}}, \textsc{{Murphy}},
-  \textsc{{Ngeow}}, \textsc{{Nordin}}, \textsc{{Nugent}}, \textsc{{Ofek}},
-  \textsc{{Patterson}}, \textsc{{Penprase}}, \textsc{{Porter}},
-  \textsc{{Rauch}}, \textsc{{Rebbapragada}}, \textsc{{Reiley}},
-  \textsc{{Rigault}}, \textsc{{Rodriguez}}, \textsc{{van Roestel}},
-  \textsc{{Rusholme}}, \textsc{{van Santen}}, \textsc{{Schulze}},
-  \textsc{{Shupe}}, \textsc{{Singer}}, \textsc{{Soumagnac}}, \textsc{{Stein}},
-  \textsc{{Surace}}, \textsc{{Sollerman}}, \textsc{{Szkody}},
-  \textsc{{Taddia}}, \textsc{{Terek}}, \textsc{{Van Sistine}}, \textsc{{van
-  Velzen}}, \textsc{{Vestrand}}, \textsc{{Walters}}, \textsc{{Ward}},
-  \textsc{{Ye}}, \textsc{{Yu}}, \textsc{{Yan}} et
-  \textsc{{Zolkower}}}]{bellm2019}
-\textsc{{Bellm} E.~C.}, \textsc{{Kulkarni} S.~R.}, \textsc{{Graham} M.~J.}
-  {et~al.} 2019, «~{The Zwicky Transient Facility: System Overview,
-  Performance, and First Results}~»,
-  \href{http://dx.doi.org/10.1088/1538-3873/aaecbe}{\color{magenta}\pasp},
-  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8002B}{131, 018002}
-
 \bibitem[{\textsc{{Briday}} {et~al.}(2022)\textsc{{Briday}},
   \textsc{{Rigault}}, \textsc{{Graziani}}, \textsc{{Copin}},
   \textsc{{Aldering}}, \textsc{{Amenouche}}, \textsc{{Brinnel}},
@@ -115,46 +75,6 @@
   Understanding AIC and BIC in Model Selection~»,
   \href{http://dx.doi.org/10.1177/0049124104268644}{\color{magenta}Sociological
   Methods \& Research}, 33, 261
-
-\bibitem[{\textsc{{Graham}} {et~al.}(2019)\textsc{{Graham}},
-  \textsc{{Kulkarni}}, \textsc{{Bellm}}, \textsc{{Adams}},
-  \textsc{{Barbarino}}, \textsc{{Blagorodnova}}, \textsc{{Bodewits}},
-  \textsc{{Bolin}}, \textsc{{Brady}}, \textsc{{Cenko}}, \textsc{{Chang}},
-  \textsc{{Coughlin}}, \textsc{{De}}, \textsc{{Eadie}}, \textsc{{Farnham}},
-  \textsc{{Feindt}}, \textsc{{Franckowiak}}, \textsc{{Fremling}},
-  \textsc{{Gezari}}, \textsc{{Ghosh}}, \textsc{{Goldstein}},
-  \textsc{{Golkhou}}, \textsc{{Goobar}}, \textsc{{Ho}},
-  \textsc{{Huppenkothen}}, \textsc{{Ivezi{\'c}}}, \textsc{{Jones}},
-  \textsc{{Juric}}, \textsc{{Kaplan}}, \textsc{{Kasliwal}}, \textsc{{Kelley}},
-  \textsc{{Kupfer}}, \textsc{{Lee}}, \textsc{{Lin}}, \textsc{{Lunnan}},
-  \textsc{{Mahabal}}, \textsc{{Miller}}, \textsc{{Ngeow}}, \textsc{{Nugent}},
-  \textsc{{Ofek}}, \textsc{{Prince}}, \textsc{{Rauch}}, \textsc{{van Roestel}},
-  \textsc{{Schulze}}, \textsc{{Singer}}, \textsc{{Sollerman}},
-  \textsc{{Taddia}}, \textsc{{Yan}}, \textsc{{Ye}}, \textsc{{Yu}},
-  \textsc{{Barlow}}, \textsc{{Bauer}}, \textsc{{Beck}}, \textsc{{Belicki}},
-  \textsc{{Biswas}}, \textsc{{Brinnel}}, \textsc{{Brooke}}, \textsc{{Bue}},
-  \textsc{{Bulla}}, \textsc{{Burruss}}, \textsc{{Connolly}}, \textsc{{Cromer}},
-  \textsc{{Cunningham}}, \textsc{{Dekany}}, \textsc{{Delacroix}},
-  \textsc{{Desai}}, \textsc{{Duev}}, \textsc{{Feeney}}, \textsc{{Flynn}},
-  \textsc{{Frederick}}, \textsc{{Gal-Yam}}, \textsc{{Giomi}}, \textsc{{Groom}},
-  \textsc{{Hacopians}}, \textsc{{Hale}}, \textsc{{Helou}}, \textsc{{Henning}},
-  \textsc{{Hover}}, \textsc{{Hillenbrand}}, \textsc{{Howell}}, \textsc{{Hung}},
-  \textsc{{Imel}}, \textsc{{Ip}}, \textsc{{Jackson}}, \textsc{{Kaspi}},
-  \textsc{{Kaye}}, \textsc{{Kowalski}}, \textsc{{Kramer}}, \textsc{{Kuhn}},
-  \textsc{{Landry}}, \textsc{{Laher}}, \textsc{{Mao}}, \textsc{{Masci}},
-  \textsc{{Monkewitz}}, \textsc{{Murphy}}, \textsc{{Nordin}},
-  \textsc{{Patterson}}, \textsc{{Penprase}}, \textsc{{Porter}},
-  \textsc{{Rebbapragada}}, \textsc{{Reiley}}, \textsc{{Riddle}},
-  \textsc{{Rigault}}, \textsc{{Rodriguez}}, \textsc{{Rusholme}}, \textsc{{van
-  Santen}}, \textsc{{Shupe}}, \textsc{{Smith}}, \textsc{{Soumagnac}},
-  \textsc{{Stein}}, \textsc{{Surace}}, \textsc{{Szkody}}, \textsc{{Terek}},
-  \textsc{{Van Sistine}}, \textsc{{van Velzen}}, \textsc{{Vestrand}},
-  \textsc{{Walters}}, \textsc{{Ward}}, \textsc{{Zhang}} et
-  \textsc{{Zolkower}}}]{graham2019}
-\textsc{{Graham} M.~J.}, \textsc{{Kulkarni} S.~R.}, \textsc{{Bellm} E.~C.}
-  {et~al.} 2019, «~{The Zwicky Transient Facility: Science Objectives}~»,
-  \href{http://dx.doi.org/10.1088/1538-3873/ab006c}{\color{magenta}\pasp},
-  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131g8001G}{131, 078001}
 
 \bibitem[{\textsc{{Hinton}} {et~al.}(2019)\textsc{{Hinton}}, \textsc{{Davis}},
   \textsc{{Kim}}, \textsc{{Brout}}, \textsc{{D'Andrea}}, \textsc{{Kessler}},

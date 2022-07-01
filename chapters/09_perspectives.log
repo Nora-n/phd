@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  30 JUN 2022 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  1 JUL 2022 13:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3435,7 +3435,7 @@ LaTeX Warning: Reference `ch:sample' on page 2 undefined on input line 58.
 
 LaTeX Warning: Reference `fig:mod_all' on page 2 undefined on input line 69.
 
-<../figures/model_N21+HD+ZTF_on_ZTF.pdf, id=51, 403.20764pt x 282.35918pt>
+<../figures/model_N21+HD+ZTF_on_ZTF.pdf, id=55, 403.20764pt x 282.35918pt>
 File: ../figures/model_N21+HD+ZTF_on_ZTF.pdf Graphic file (type pdf)
 <use ../figures/model_N21+HD+ZTF_on_ZTF.pdf>
 Package pdftex.def Info: ../figures/model_N21+HD+ZTF_on_ZTF.pdf  used on input line 77.
@@ -3445,7 +3445,7 @@ Package pdftex.def Info: ../figures/model_N21+HD+ZTF_on_ZTF.pdf  used on input l
 LaTeX Warning: Reference `eq:stretchz' on page 3 undefined on input line 163.
 
 [3]
-<../figures/stretchevol_all-oth_vs_ztf-weighted.pdf, id=97, 530.03967pt x 340.17519pt>
+<../figures/stretchevol_all-oth_vs_ztf-weighted.pdf, id=101, 530.03967pt x 340.17519pt>
 File: ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf Graphic file (type pdf)
 <use ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf>
 Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf  used on input line 181.
@@ -3483,7 +3483,7 @@ Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf  use
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../figures/mod_comp_ztf-fr.pdf, id=122, 342.79208pt x 270.85168pt>
+<../figures/mod_comp_ztf-fr.pdf, id=126, 342.79208pt x 270.85168pt>
 File: ../figures/mod_comp_ztf-fr.pdf Graphic file (type pdf)
 <use ../figures/mod_comp_ztf-fr.pdf>
 Package pdftex.def Info: ../figures/mod_comp_ztf-fr.pdf  used on input line 215.
@@ -3502,17 +3502,43 @@ LaTeX Warning: Reference `eq:likelihood' on page 5 undefined on input line 289.
 
 LaTeX Warning: Reference `ssec:testsupp' on page 6 undefined on input line 303.
 
-<../figures/model_N21+ZTF_on_allsurvs.pdf, id=160, 728.42267pt x 710.84044pt>
+<../figures/model_N21+ZTF_on_allsurvs.pdf, id=164, 728.42267pt x 710.84044pt>
 File: ../figures/model_N21+ZTF_on_allsurvs.pdf Graphic file (type pdf)
 <use ../figures/model_N21+ZTF_on_allsurvs.pdf>
-Package pdftex.def Info: ../figures/model_N21+ZTF_on_allsurvs.pdf  used on input line 323.
-(pdftex.def)             Requested size: 364.19667pt x 355.40851pt.
-[6
+Package pdftex.def Info: ../figures/model_N21+ZTF_on_allsurvs.pdf  used on input line 322.
+(pdftex.def)             Requested size: 455.24411pt x 444.26334pt.
+
+LaTeX Warning: Reference `ch:stretch' on page 6 undefined on input line 379.
+
+
+LaTeX Warning: Reference `eq:stretchz' on page 6 undefined on input line 390.
+
+
+LaTeX Warning: Reference `eq:stretchz' on page 6 undefined on input line 390.
+
+
+Underfull \vbox (badness 1377) has occurred while \output is active []
+
+ [6
 
 
 
 
 ] [7 <../figures/model_N21+ZTF_on_allsurvs.pdf>]
+
+LaTeX Warning: Reference `eq:deltaz' on page 8 undefined on input line 397.
+
+
+LaTeX Warning: Reference `eq:deltaz' on page 8 undefined on input line 397.
+
+[8]
+
+LaTeX Warning: Reference `ch:env' on page 9 undefined on input line 454.
+
+
+LaTeX Warning: Reference `ch:env' on page 9 undefined on input line 468.
+
+[9]
 \openout4 = `09_perspectives.mtc'.
 
 \openout4 = `09_perspectives.mtc'.
@@ -3526,7 +3552,7 @@ Package pdftex.def Info: ../figures/model_N21+ZTF_on_allsurvs.pdf  used on input
 \tf@brf=\write10
 \openout10 = `09_perspectives.brf'.
 
- [8
+ [10
 
 ])
 Package minitoc Info: I0009
@@ -3540,34 +3566,34 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 09_perspectives.log file.
 
-[9
+[11
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 498.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 498.
  (./09_perspectives.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 418.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 498.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 498.
 Package rerunfilecheck Info: File `09_perspectives.brf' has not changed.
-(rerunfilecheck)             Checksum: CFC094E3E69F736A242F5452D1FC5489;132.
+(rerunfilecheck)             Checksum: 20D2D3743073B858640F096D2E599FC4;293.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 55860 strings out of 492982
- 1155580 string characters out of 6134895
- 1448698 words of memory out of 5000000
- 58245 multiletter control sequences out of 15000+600000
- 561472 words of font info for 150 fonts, out of 8000000 for 9000
+ 55921 strings out of 492982
+ 1156327 string characters out of 6134895
+ 1449728 words of memory out of 5000000
+ 58268 multiletter control sequences out of 15000+600000
+ 563064 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,16n,132p,10458b,2410s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb>
-Output written on 09_perspectives.pdf (9 pages, 962817 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb>
+Output written on 09_perspectives.pdf (11 pages, 993488 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 31 named destinations out of 1000 (max. 500000)
- 34401 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 369 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 34929 words of extra memory for PDF output out of 35830 (max. 10000000)
 

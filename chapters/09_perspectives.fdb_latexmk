@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex 09_perspectives"] 1656613660 "09_perspectives.aux" "09_perspectives.bbl" "09_perspectives" 1656613717
-  "../chapters/99_references.bib" 1655981127 227300 69a57c6a677a03916a8bcdfd651fe541 ""
+["bibtex 09_perspectives"] 1656674326 "09_perspectives.aux" "09_perspectives.bbl" "09_perspectives" 1656674328
+  "../chapters/99_references.bib" 1656673109 228329 9ca98fd2dd3c77a4b1762772d2f69c15 ""
   "../main/aa_url.bst" 1655472336 33738 c570759059e9f1117a0f0653b032a3c6 ""
-  "09_perspectives.aux" 1656613717 11849 e7bb4078eed401dd777c91ce3eab0dc4 ""
+  "09_perspectives.aux" 1656674327 14343 c2e3ed8a645e8a87a222956a9d8a3475 ""
   "09_perspectives.bcf" 0 -1 0 ""
   (generated)
   "09_perspectives.bbl"
   "09_perspectives.blg"
-["pdflatex"] 1656613716 "09_perspectives.tex" "09_perspectives.pdf" "09_perspectives" 1656613717
+["pdflatex"] 1656674326 "09_perspectives.tex" "09_perspectives.pdf" "09_perspectives" 1656674328
   "../figures/mod_comp_ztf-fr.pdf" 1652891954 166188 017a67ddc5152f8ad20bf81cb25b6ea9 ""
   "../figures/model_N21+HD+ZTF_on_ZTF.pdf" 1652884701 173171 4aa47d738492b42d53cb266036c69eea ""
   "../figures/model_N21+ZTF_on_allsurvs.pdf" 1655300825 434718 83cfa55c5f8c9e74d4699ed2d601eb44 ""
@@ -23,6 +23,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx2074.tfm" 1480098696 3584 7666d038713b9e38abb5c2e0f6972188 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/eccc1095.tfm" 1480098696 3072 1b1df026a15993ee98d265b49cf8d5f2 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/eccc1200.tfm" 1480098696 3072 1e3dcc56ea731d0f3645bbefe8c8608c ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm" 1480098696 3584 178baad7ffca7f5d3428a83bd7cc64c3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm" 1480098696 3584 49064b465390a8e316a3c8417a050403 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1480098696 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1480098696 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
@@ -62,6 +63,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1480098701 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1480098701 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1480098701 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1480098733 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1480098733 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1480098733 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1480098733 35469 70d41d2b9ea31d5d813066df7c99281c ""
@@ -70,6 +72,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1480098733 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1480098733 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1480098733 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1480098733 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf" 1517780329 65383 41122389b773143b8838359cdbd9aa14 ""
@@ -562,13 +565,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1574355709 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1574355731 4126118 3219b18f729588c7f78ea00d1865c641 ""
-  "09_perspectives.aux" 1656613717 11849 e7bb4078eed401dd777c91ce3eab0dc4 ""
-  "09_perspectives.bbl" 1656613660 5558 2260597bbc16b87a08623942beec37f5 "bibtex 09_perspectives"
-  "09_perspectives.brf" 1656613717 132 cfc094e3e69f736a242f5452d1fc5489 ""
-  "09_perspectives.lof" 1656613717 947 22c7a22aa3d2b68f65575ef211bf8cd2 ""
-  "09_perspectives.lot" 1656613717 795 de0077a9f7aa612efa2ed8169eae2ed5 ""
-  "09_perspectives.tex" 1656613715 21080 2cd2bf7f2a93709daa51f1f2660f53fa ""
-  "09_perspectives.toc" 1656613717 743 2abd0b564d1c2d5ccb43fe370b22e37f ""
+  "09_perspectives.aux" 1656674327 14343 c2e3ed8a645e8a87a222956a9d8a3475 ""
+  "09_perspectives.bbl" 1656674326 7765 3102aec7bde03c8a488bf0569e084302 "bibtex 09_perspectives"
+  "09_perspectives.brf" 1656674327 293 20d2d3743073b858640f096d2e599fc4 ""
+  "09_perspectives.lof" 1656674327 947 22c7a22aa3d2b68f65575ef211bf8cd2 ""
+  "09_perspectives.lot" 1656674327 795 de0077a9f7aa612efa2ed8169eae2ed5 ""
+  "09_perspectives.tex" 1656674320 26685 9bc71368300559a194cab092b5853b1b ""
+  "09_perspectives.toc" 1656674327 962 5af412cca2ae967434302fcee63c4316 ""
   (generated)
   "09_perspectives.pdf"
   "09_perspectives.mtc"

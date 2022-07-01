@@ -4,7 +4,9 @@
 \contentsline {subsection}{\numberline {I.1.1}Pr\IeC {\'e}diction}{2}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {I.1.2}Impl\IeC {\'e}mentation}{3}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {I.1.3}R\IeC {\'e}sultats}{4}{subsection.1.1.3}
-\contentsline {section}{\numberline {I.2}Simulations~: am\IeC {\'e}liorations}{6}{section.1.2}
-\contentsline {subsection}{\numberline {I.2.1}XXX}{7}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {I.2.2}XXX}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {I.1.4}Conclusion}{6}{subsection.1.1.4}
+\contentsline {section}{\numberline {I.2}Simulations~: am\IeC {\'e}liorations}{8}{section.1.2}
+\contentsline {subsection}{\numberline {I.2.1}Types de simulations}{8}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {I.2.2}Variation de param\IeC {\`e}tres}{9}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {I.2.3}Traceurs environnementaux}{9}{subsection.1.2.3}
 \contentsfinish 

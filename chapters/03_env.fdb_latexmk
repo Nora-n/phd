@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex 03_env"] 1655999846 "03_env.aux" "03_env.bbl" "03_env" 1656323642
-  "../chapters/99_references.bib" 1655981127 227300 69a57c6a677a03916a8bcdfd651fe541 ""
+["bibtex 03_env"] 1656673109 "03_env.aux" "03_env.bbl" "03_env" 1656673109
+  "../chapters/99_references.bib" 1656673109 228329 9ca98fd2dd3c77a4b1762772d2f69c15 ""
   "../main/aa_url.bst" 1655472336 33738 c570759059e9f1117a0f0653b032a3c6 ""
   "03_env.aux" 1656323642 27488 a12e73c60e47bd1b1e20a0c9e972fa52 ""
   "03_env.bcf" 0 -1 0 ""
   (generated)
   "03_env.blg"
   "03_env.bbl"
-["pdflatex"] 1656323640 "03_env.tex" "03_env.pdf" "03_env" 1656323642
+["pdflatex"] 1656323640 "03_env.tex" "03_env.pdf" "03_env" 1656673109
   "../figures/IZ18.jpg" 1655390105 678851 1d94c31f15dd9bef84834062c5e3f7cc ""
   "../figures/NGC3147.png" 1655389853 6036670 babca4bf97f0d205d0d29d061aac8415 ""
   "../figures/deltaz_hist.pdf" 1652110308 103719 c91ac9c225221cbb957348f9a18b5867 ""
@@ -581,7 +581,7 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1574355709 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1574355731 4126118 3219b18f729588c7f78ea00d1865c641 ""
   "03_env.aux" 1656323642 27488 a12e73c60e47bd1b1e20a0c9e972fa52 ""
-  "03_env.bbl" 1655999846 20974 1e72cd2cfebb7dc0deb4fc0c17734bd0 "bibtex 03_env"
+  "03_env.bbl" 1656673109 20974 1e72cd2cfebb7dc0deb4fc0c17734bd0 "bibtex 03_env"
   "03_env.brf" 1656323642 1758 4aab93252713554a4b5bac6e02dfd993 ""
   "03_env.lof" 1656323642 1131 339ad5abb4b2957ece4eb151059a13a5 ""
   "03_env.lot" 1656323642 143 f0f232cbdbf7ad97a567b59fb973d3a5 ""
