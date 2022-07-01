@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrr}
+\toprule
+{} &     SK &     BP &     NN &     NR \\
+\midrule
+LOWZ  &  14.63 &  10.29 &  37.05 &  36.84 \\
+SDSS  &   7.03 &   8.52 &   7.66 &   7.05 \\
+PS1   &  10.35 &   3.58 &   4.06 &   4.29 \\
+SNLS  &  15.14 &  23.13 &  15.03 &  15.00 \\
+Somme &  47.15 &  45.52 &  63.80 &  63.18 \\
+Proba &   0.44 &   1.00 &   0.00 &   0.00 \\
+\bottomrule
+\end{tabular}
