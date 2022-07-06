@@ -1,14 +1,12 @@
 \babel@toc {french}{}
-\contentsline {chapter}{\numberline {1}Contexte cosmologique}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Bases de relativit\IeC {\'e} g\IeC {\'e}n\IeC {\'e}rale}{4}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Concepts initiaux}{4}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}M\IeC {\'e}trique et \IeC {\'e}quations de conservation}{4}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}D\IeC {\'e}finition de la constante cosmologique}{4}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}Introduction du mod\IeC {\`e}le standard de la cosmologie}{4}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Univers plat, homog\IeC {\`e}ne et isotrope}{4}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}M\IeC {\'e}trique de Friedmann-Lema\IeC {\^\i }tre-Robertson-Walker}{4}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Le mod\IeC {\`e}le $\Lambda $ CDM}{4}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Mesure cosmologiques}{4}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}\IeC {\^A}ge de l'Univers}{4}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Distance de luminosit\IeC {\'e}}{4}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Int\IeC {\'e}r\IeC {\^e}t des supernovae de type Ia}{4}{subsection.1.3.3}
+\contentsline {chapter}{\numberline {I}Contexte cosmologique}{1}{chapter.1}
+\contentsline {section}{\numberline {I.1}Bases de relativit\IeC {\'e} g\IeC {\'e}n\IeC {\'e}rale}{2}{section.1.1}
+\contentsline {subsection}{\numberline {I.1.1}Concepts initiaux}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {I.1.2}M\IeC {\'e}trique FLRW en Univers plat}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {I.1.3}\IeC {\'E}quations phares et param\IeC {\`e}tres cosmologiques}{5}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {I.1.4}Mod\IeC {\`e}le standard de la cosmologie~: \ensuremath {\Lambda }CDM\spacefactor \@m {}\relax }{7}{subsection.1.1.4}
+\contentsline {section}{\numberline {I.2}Mesures cosmologiques}{9}{section.1.2}
+\contentsline {subsection}{\numberline {I.2.1}\IeC {\^A}ge de l'Univers}{9}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {I.2.2}Distance de luminosit\IeC {\'e}}{10}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {I.2.3}Int\IeC {\'e}r\IeC {\^e}t des supernovae de type Ia}{10}{subsection.1.2.3}
+\contentsfinish 

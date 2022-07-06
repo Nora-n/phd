@@ -2,50 +2,115 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: ../main/aa_url.bst
+Illegal, another \bibstyle command---line 239 of file main.aux
+ : \bibstyle
+ :          {../main/aa_url}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 240 of file main.aux
+ : \bibdata
+ :         {../chapters/99_references}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 414 of file main.aux
+ : \bibstyle
+ :          {../main/aa_url}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 415 of file main.aux
+ : \bibdata
+ :         {../chapters/99_references}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 689 of file main.aux
+ : \bibstyle
+ :          {../main/aa_url}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 690 of file main.aux
+ : \bibdata
+ :         {../chapters/99_references}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 1457 of file main.aux
+ : \bibstyle
+ :          {../main/aa_url}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 1458 of file main.aux
+ : \bibdata
+ :         {../chapters/99_references}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 1983 of file main.aux
+ : \bibstyle
+ :          {../main/aa_url}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 1984 of file main.aux
+ : \bibdata
+ :         {../chapters/99_references}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 2174 of file main.aux
+ : \bibstyle
+ :          {../main/aa_url}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 2175 of file main.aux
+ : \bibdata
+ :         {../chapters/99_references}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 2317 of file main.aux
+ : \bibstyle
+ :          {../main/aa_url}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 2318 of file main.aux
+ : \bibdata
+ :         {../chapters/99_references}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 2444 of file main.aux
+ : \bibstyle
+ :          {../main/aa_url}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 2445 of file main.aux
+ : \bibdata
+ :         {../chapters/99_references}
+I'm skipping whatever remains of this command
 Database file #1: ../chapters/99_references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--I didn't find a database entry for "BP"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in calzetti2013
 Warning--empty publisher in hubble1936
-You've used 118 entries,
+You've used 124 entries,
             3173 wiz_defined-function locations,
-            1651 strings with 104125 characters,
-and the built_in function-call counts, 238090 in all, are:
-= -- 14917
-> -- 33615
-< -- 33
-+ -- 11266
-- -- 11145
-* -- 37490
-:= -- 40259
-add.period$ -- 118
-call.type$ -- 118
-change.case$ -- 4182
-chr.to.int$ -- 121
-cite$ -- 120
-duplicate$ -- 2571
-empty$ -- 3923
-format.name$ -- 11417
-if$ -- 41711
+            1701 strings with 106844 characters,
+and the built_in function-call counts, 244485 in all, are:
+= -- 15343
+> -- 34382
+< -- 37
++ -- 11524
+- -- 11397
+* -- 38433
+:= -- 41349
+add.period$ -- 124
+call.type$ -- 124
+change.case$ -- 4290
+chr.to.int$ -- 127
+cite$ -- 126
+duplicate$ -- 2689
+empty$ -- 4108
+format.name$ -- 11681
+if$ -- 42852
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 99
-newline$ -- 358
-num.names$ -- 486
-pop$ -- 4192
+missing$ -- 105
+newline$ -- 376
+num.names$ -- 510
+pop$ -- 4297
 preamble$ -- 1
-purify$ -- 4178
+purify$ -- 4286
 quote$ -- 0
-skip$ -- 2085
+skip$ -- 2180
 stack$ -- 0
-substring$ -- 2749
-swap$ -- 8065
+substring$ -- 2872
+swap$ -- 8258
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1059
+type$ -- 1113
 warning$ -- 2
-while$ -- 494
+while$ -- 518
 width$ -- 0
-write$ -- 1298
-(There were 2 warnings)
+write$ -- 1363
+(There were 16 error messages)

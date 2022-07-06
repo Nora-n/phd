@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex 06_stretch"] 1656673109 "06_stretch.aux" "06_stretch.bbl" "06_stretch" 1656673109
-  "../chapters/99_references.bib" 1656673109 228329 9ca98fd2dd3c77a4b1762772d2f69c15 ""
+["bibtex 06_stretch"] 1657137909 "06_stretch.aux" "06_stretch.bbl" "06_stretch" 1657137909
+  "../chapters/99_references.bib" 1657137909 247209 858b886d43d0aa6ec0cc6ea1c5277a1a ""
   "../main/aa_url.bst" 1655472336 33738 c570759059e9f1117a0f0653b032a3c6 ""
-  "06_stretch.aux" 1656669511 31717 ced60c2c3b2a8a12ec64f6956d803ed9 ""
+  "06_stretch.aux" 1656690965 31717 ced60c2c3b2a8a12ec64f6956d803ed9 ""
   "06_stretch.bcf" 0 -1 0 ""
   (generated)
   "06_stretch.blg"
   "06_stretch.bbl"
-["pdflatex"] 1656669510 "06_stretch.tex" "06_stretch.pdf" "06_stretch" 1656673109
+["pdflatex"] 1656690963 "06_stretch.tex" "06_stretch.pdf" "06_stretch" 1657137909
   "../figures/bbc_comp_PS1_hist-nr_viridis.pdf" 1652640525 426737 1fd7955ad95418bdb6975167546820fc ""
   "../figures/mod_comp-supercut.pdf" 1652880091 100473 031503f8f5b23d06b3a76b36af277c86 ""
   "../figures/mod_comp.pdf" 1652272031 99806 05467a8e95db7e4fbe715dbb931611de ""
@@ -17,7 +17,7 @@
   "../figures/model_base_hist.pdf" 1652635132 225297 31a134f01bc88547fa5aa0e2ef2a869c ""
   "../figures/stretchevol_all-oth_vs_snf-weighted.pdf" 1652872836 194375 3d4b7e7af2501724dbca0ea7fb081762 ""
   "../main/main.tex" 1656092899 1156 f99a7dadf78716703de39f3416a1397a ""
-  "../main/phd-preambulle.sty" 1656082482 14816 24dbbaf8d55ea05a3e9a9c5fea99e300 ""
+  "../main/phd-preambulle.sty" 1656690963 15058 8d114fc99a634a4f6d9456706a11abd9 ""
   "/etc/texmf/web2c/texmf.cnf" 1574190141 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1480098696 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -573,13 +573,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1574355709 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1574355731 4126118 3219b18f729588c7f78ea00d1865c641 ""
-  "06_stretch.aux" 1656669511 31717 ced60c2c3b2a8a12ec64f6956d803ed9 ""
-  "06_stretch.bbl" 1656673109 22886 7bdd64554dd57aa5ed7d69687ea5b186 "bibtex 06_stretch"
-  "06_stretch.brf" 1656669511 2691 4ba3f478628b1738bd920f211570bb58 ""
-  "06_stretch.lof" 1656669511 1782 08988b094cbb662698600e4f1f93e88c ""
-  "06_stretch.lot" 1656669511 1082 6a8637d7052478a02511187514cbdbaa ""
+  "06_stretch.aux" 1656690965 31717 ced60c2c3b2a8a12ec64f6956d803ed9 ""
+  "06_stretch.bbl" 1657137909 22886 7bdd64554dd57aa5ed7d69687ea5b186 "bibtex 06_stretch"
+  "06_stretch.brf" 1656690965 2691 4ba3f478628b1738bd920f211570bb58 ""
+  "06_stretch.lof" 1656690965 1782 08988b094cbb662698600e4f1f93e88c ""
+  "06_stretch.lot" 1656690965 1082 6a8637d7052478a02511187514cbdbaa ""
   "06_stretch.tex" 1656669510 52693 3c27cf32f4bc6f35bb401d52a94653dc ""
-  "06_stretch.toc" 1656669511 839 4f6ae2458adcf07cad517095a9bae501 ""
+  "06_stretch.toc" 1656690965 839 4f6ae2458adcf07cad517095a9bae501 ""
   (generated)
   "06_stretch.mtc1"
   "06_stretch.pdf"

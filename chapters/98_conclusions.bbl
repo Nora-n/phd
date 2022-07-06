@@ -1,0 +1,101 @@
+\begin{thebibliography}{6}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Briday}} {et~al.}(2022)\textsc{{Briday}},
+  \textsc{{Rigault}}, \textsc{{Graziani}}, \textsc{{Copin}},
+  \textsc{{Aldering}}, \textsc{{Amenouche}}, \textsc{{Brinnel}},
+  \textsc{{Kim}}, \textsc{{Kim}}, \textsc{{Lezmy}}, \textsc{{Nicolas}},
+  \textsc{{Nordin}}, \textsc{{Perlmutter}}, \textsc{{Rosnet}} et
+  \textsc{{Smith}}}]{briday2022}
+\textsc{{Briday} M.}, \textsc{{Rigault} M.}, \textsc{{Graziani} R.} {et~al.}
+  2022, «~{Accuracy of environmental tracers and consequences for determining
+  the Type Ia supernova magnitude step}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/202141160}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2022A&A...657A..22B}{657, A22}
+
+\bibitem[{\textsc{{Childress}} {et~al.}(2013)\textsc{{Childress}},
+  \textsc{{Aldering}}, \textsc{{Antilogus}}, \textsc{{Aragon}},
+  \textsc{{Bailey}}, \textsc{{Baltay}}, \textsc{{Bongard}}, \textsc{{Buton}},
+  \textsc{{Canto}}, \textsc{{Cellier-Holzem}}, \textsc{{Chotard}},
+  \textsc{{Copin}}, \textsc{{Fakhouri}}, \textsc{{Gangler}}, \textsc{{Guy}},
+  \textsc{{Hsiao}}, \textsc{{Kerschhaggl}}, \textsc{{Kim}},
+  \textsc{{Kowalski}}, \textsc{{Loken}}, \textsc{{Nugent}}, \textsc{{Paech}},
+  \textsc{{Pain}}, \textsc{{Pecontal}}, \textsc{{Pereira}},
+  \textsc{{Perlmutter}}, \textsc{{Rabinowitz}}, \textsc{{Rigault}},
+  \textsc{{Runge}}, \textsc{{Scalzo}}, \textsc{{Smadja}}, \textsc{{Tao}},
+  \textsc{{Thomas}}, \textsc{{Weaver}} et \textsc{{Wu}}}]{childress2013}
+\textsc{{Childress} M.}, \textsc{{Aldering} G.}, \textsc{{Antilogus} P.}
+  {et~al.} 2013, «~{Host Galaxy Properties and Hubble Residuals of Type Ia
+  Supernovae from the Nearby Supernova Factory}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/770/2/108}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2013ApJ...770..108C}{770, 108}
+
+\bibitem[{\textsc{{L{\'e}get}} {et~al.}(2020)\textsc{{L{\'e}get}},
+  \textsc{{Gangler}}, \textsc{{Mondon}}, \textsc{{Aldering}},
+  \textsc{{Antilogus}}, \textsc{{Aragon}}, \textsc{{Bailey}},
+  \textsc{{Baltay}}, \textsc{{Barbary}}, \textsc{{Bongard}}, \textsc{{Boone}},
+  \textsc{{Buton}}, \textsc{{Chotard}}, \textsc{{Copin}}, \textsc{{Dixon}},
+  \textsc{{Fagrelius}}, \textsc{{Feindt}}, \textsc{{Fouchez}},
+  \textsc{{Hayden}}, \textsc{{Hillebrandt}}, \textsc{{Kim}},
+  \textsc{{Kowalski}}, \textsc{{Kuesters}}, \textsc{{Lombardo}},
+  \textsc{{Lin}}, \textsc{{Nordin}}, \textsc{{Pain}}, \textsc{{Pecontal}},
+  \textsc{{Pereira}}, \textsc{{Perlmutter}}, \textsc{{Ponder}},
+  \textsc{{Pruzhinskaya}}, \textsc{{Rabinowitz}}, \textsc{{Rigault}},
+  \textsc{{Runge}}, \textsc{{Rubin}}, \textsc{{Saunders}}, \textsc{{Says}},
+  \textsc{{Smadja}}, \textsc{{Sofiatti}}, \textsc{{Suzuki}},
+  \textsc{{Taubenberger}}, \textsc{{Tao}} et \textsc{{Thomas}}}]{leget2020}
+\textsc{{L{\'e}get} P.~F.}, \textsc{{Gangler} E.}, \textsc{{Mondon} F.}
+  {et~al.} 2020, «~{SUGAR: An improved empirical model of Type Ia supernovae
+  based on spectral features}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201834954}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2020A&A...636A..46L}{636, A46}
+
+\bibitem[{\textsc{{Nicolas}} {et~al.}(2021)\textsc{{Nicolas}},
+  \textsc{{Rigault}}, \textsc{{Copin}}, \textsc{{Graziani}},
+  \textsc{{Aldering}}, \textsc{{Briday}}, \textsc{{Kim}}, \textsc{{Nordin}},
+  \textsc{{Perlmutter}} et \textsc{{Smith}}}]{nicolas2021}
+\textsc{{Nicolas} N.}, \textsc{{Rigault} M.}, \textsc{{Copin} Y.} {et~al.}
+  2021, «~{Redshift evolution of the underlying type Ia supernova stretch
+  distribution}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/202038447}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2021A&A...649A..74N}{649, A74}
+
+\bibitem[{\textsc{{Rigault}} {et~al.}(2020)\textsc{{Rigault}},
+  \textsc{{Brinnel}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
+  \textsc{{Aragon}}, \textsc{{Bailey}}, \textsc{{Baltay}}, \textsc{{Barbary}},
+  \textsc{{Bongard}}, \textsc{{Boone}}, \textsc{{Buton}}, \textsc{{Childress}},
+  \textsc{{Chotard}}, \textsc{{Copin}}, \textsc{{Dixon}}, \textsc{{Fagrelius}},
+  \textsc{{Feindt}}, \textsc{{Fouchez}}, \textsc{{Gangler}}, \textsc{{Hayden}},
+  \textsc{{Hillebrandt}}, \textsc{{Howell}}, \textsc{{Kim}},
+  \textsc{{Kowalski}}, \textsc{{Kuesters}}, \textsc{{Leget}},
+  \textsc{{Lombardo}}, \textsc{{Lin}}, \textsc{{Nordin}}, \textsc{{Pain}},
+  \textsc{{Pecontal}}, \textsc{{Pereira}}, \textsc{{Perlmutter}},
+  \textsc{{Rabinowitz}}, \textsc{{Runge}}, \textsc{{Rubin}},
+  \textsc{{Saunders}}, \textsc{{Smadja}}, \textsc{{Sofiatti}},
+  \textsc{{Suzuki}}, \textsc{{Taubenberger}}, \textsc{{Tao}} et
+  \textsc{{Thomas}}}]{rigault2020}
+\textsc{{Rigault} M.}, \textsc{{Brinnel} V.}, \textsc{{Aldering} G.} {et~al.}
+  2020, «~{Strong dependence of Type Ia supernova standardization on the local
+  specific star formation rate}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201730404}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2020A&A...644A.176R}{644, A176}
+
+\bibitem[{\textsc{{Rigault}} {et~al.}(2013)\textsc{{Rigault}},
+  \textsc{{Copin}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
+  \textsc{{Aragon}}, \textsc{{Bailey}}, \textsc{{Baltay}}, \textsc{{Bongard}},
+  \textsc{{Buton}}, \textsc{{Canto}}, \textsc{{Cellier-Holzem}},
+  \textsc{{Childress}}, \textsc{{Chotard}}, \textsc{{Fakhouri}},
+  \textsc{{Feindt}}, \textsc{{Fleury}}, \textsc{{Gangler}},
+  \textsc{{Greskovic}}, \textsc{{Guy}}, \textsc{{Kim}}, \textsc{{Kowalski}},
+  \textsc{{Lombardo}}, \textsc{{Nordin}}, \textsc{{Nugent}}, \textsc{{Pain}},
+  \textsc{{P{\'e}contal}}, \textsc{{Pereira}}, \textsc{{Perlmutter}},
+  \textsc{{Rabinowitz}}, \textsc{{Runge}}, \textsc{{Saunders}},
+  \textsc{{Scalzo}}, \textsc{{Smadja}}, \textsc{{Tao}}, \textsc{{Thomas}} et
+  \textsc{{Weaver}}}]{rigault2013}
+\textsc{{Rigault} M.}, \textsc{{Copin} Y.}, \textsc{{Aldering} G.} {et~al.}
+  2013, «~{Evidence of environmental dependencies of Type Ia supernovae from
+  the Nearby Supernova Factory indicated by local H{\ensuremath{\alpha}}}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201322104}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2013A&A...560A..66R}{560, A66}
+
+\end{thebibliography}

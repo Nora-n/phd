@@ -1,0 +1,46 @@
+\begin{thebibliography}{4}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Einstein}}(1915)}]{einstein1915}
+\textsc{{Einstein} A.} 1915, «~{Die Feldgleichungen der Gravitation}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/1915SPAW.......844E}{Sitzungsberichte
+  der K{\"o}niglich Preu{\ss}ischen Akademie der Wissenschaften (Berlin, 844}
+
+\bibitem[{\textsc{{Hubble}}(1929)}]{hubble1929}
+\textsc{{Hubble} E.} 1929, «~{A Relation between Distance and Radial Velocity
+  among Extra-Galactic Nebulae}~»,
+  \href{http://dx.doi.org/10.1073/pnas.15.3.168}{\color{magenta}Proceedings of
+  the National Academy of Science},
+  \href{https://ui.adsabs.harvard.edu/abs/1929PNAS...15..168H}{15, 168}
+
+\bibitem[{\textsc{{Perlmutter}} {et~al.}(1999)\textsc{{Perlmutter}},
+  \textsc{{Aldering}}, \textsc{{Goldhaber}}, \textsc{{Knop}},
+  \textsc{{Nugent}}, \textsc{{Castro}}, \textsc{{Deustua}}, \textsc{{Fabbro}},
+  \textsc{{Goobar}}, \textsc{{Groom}}, \textsc{{Hook}}, \textsc{{Kim}},
+  \textsc{{Kim}}, \textsc{{Lee}}, \textsc{{Nunes}}, \textsc{{Pain}},
+  \textsc{{Pennypacker}}, \textsc{{Quimby}}, \textsc{{Lidman}},
+  \textsc{{Ellis}}, \textsc{{Irwin}}, \textsc{{McMahon}},
+  \textsc{{Ruiz-Lapuente}}, \textsc{{Walton}}, \textsc{{Schaefer}},
+  \textsc{{Boyle}}, \textsc{{Filippenko}}, \textsc{{Matheson}},
+  \textsc{{Fruchter}}, \textsc{{Panagia}}, \textsc{{Newberg}}, \textsc{{Couch}}
+  et \textsc{{Project}}}]{perlmutter1999}
+\textsc{{Perlmutter} S.}, \textsc{{Aldering} G.}, \textsc{{Goldhaber} G.}
+  {et~al.} 1999, «~{Measurements of {\ensuremath{\Omega}} and
+  {\ensuremath{\Lambda}} from 42 High-Redshift Supernovae}~»,
+  \href{http://dx.doi.org/10.1086/307221}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1999ApJ...517..565P}{517, 565}
+
+\bibitem[{\textsc{{Riess}} {et~al.}(1998)\textsc{{Riess}},
+  \textsc{{Filippenko}}, \textsc{{Challis}}, \textsc{{Clocchiatti}},
+  \textsc{{Diercks}}, \textsc{{Garnavich}}, \textsc{{Gilliland}},
+  \textsc{{Hogan}}, \textsc{{Jha}}, \textsc{{Kirshner}}, \textsc{{Leibundgut}},
+  \textsc{{Phillips}}, \textsc{{Reiss}}, \textsc{{Schmidt}},
+  \textsc{{Schommer}}, \textsc{{Smith}}, \textsc{{Spyromilio}},
+  \textsc{{Stubbs}}, \textsc{{Suntzeff}} et \textsc{{Tonry}}}]{riess1998}
+\textsc{{Riess} A.~G.}, \textsc{{Filippenko} A.~V.}, \textsc{{Challis} P.}
+  {et~al.} 1998, «~{Observational Evidence from Supernovae for an Accelerating
+  Universe and a Cosmological Constant}~»,
+  \href{http://dx.doi.org/10.1086/300499}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/1998AJ....116.1009R}{116, 1009}
+
+\end{thebibliography}

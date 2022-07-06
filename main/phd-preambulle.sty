@@ -236,6 +236,16 @@
 
 % Sections fantômes dans la table of contents
 \makeatletter
+\newcommand{\appch}[2]{%
+  \phantomsection
+  \refstepcounter{chapter}%
+  \chapter*{#1}%
+  \addtocounter{chapter}{-1}%
+  \def\@currentlabelname{App: #1}%
+  \def\@currentlabel{\thechapter}%
+  \label{#2}%
+  \addcontentsline{toc}{chapter}{#1}%
+}
 \newcommand{\appsec}[2]{%
   \phantomsection
   \refstepcounter{section}%

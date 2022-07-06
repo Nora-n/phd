@@ -1,19 +1,19 @@
 # Fdb version 3
-["bibtex 09_perspectives"] 1656674326 "09_perspectives.aux" "09_perspectives.bbl" "09_perspectives" 1656674328
-  "../chapters/99_references.bib" 1656673109 228329 9ca98fd2dd3c77a4b1762772d2f69c15 ""
+["bibtex 09_perspectives"] 1657137909 "09_perspectives.aux" "09_perspectives.bbl" "09_perspectives" 1657137909
+  "../chapters/99_references.bib" 1657137909 247209 858b886d43d0aa6ec0cc6ea1c5277a1a ""
   "../main/aa_url.bst" 1655472336 33738 c570759059e9f1117a0f0653b032a3c6 ""
-  "09_perspectives.aux" 1656674327 14343 c2e3ed8a645e8a87a222956a9d8a3475 ""
+  "09_perspectives.aux" 1656690966 14343 c2e3ed8a645e8a87a222956a9d8a3475 ""
   "09_perspectives.bcf" 0 -1 0 ""
   (generated)
   "09_perspectives.bbl"
   "09_perspectives.blg"
-["pdflatex"] 1656674326 "09_perspectives.tex" "09_perspectives.pdf" "09_perspectives" 1656674328
+["pdflatex"] 1656690964 "09_perspectives.tex" "09_perspectives.pdf" "09_perspectives" 1657137909
   "../figures/mod_comp_ztf-fr.pdf" 1652891954 166188 017a67ddc5152f8ad20bf81cb25b6ea9 ""
   "../figures/model_N21+HD+ZTF_on_ZTF.pdf" 1652884701 173171 4aa47d738492b42d53cb266036c69eea ""
   "../figures/model_N21+ZTF_on_allsurvs.pdf" 1655300825 434718 83cfa55c5f8c9e74d4699ed2d601eb44 ""
   "../figures/stretchevol_all-oth_vs_ztf-weighted.pdf" 1652877387 250092 a0742e72861c4e74240a343146a570eb ""
   "../main/main.tex" 1656092899 1156 f99a7dadf78716703de39f3416a1397a ""
-  "../main/phd-preambulle.sty" 1656082482 14816 24dbbaf8d55ea05a3e9a9c5fea99e300 ""
+  "../main/phd-preambulle.sty" 1656690963 15058 8d114fc99a634a4f6d9456706a11abd9 ""
   "/etc/texmf/web2c/texmf.cnf" 1574190141 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1480098696 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -565,13 +565,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1574355709 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1574355731 4126118 3219b18f729588c7f78ea00d1865c641 ""
-  "09_perspectives.aux" 1656674327 14343 c2e3ed8a645e8a87a222956a9d8a3475 ""
-  "09_perspectives.bbl" 1656674326 7765 3102aec7bde03c8a488bf0569e084302 "bibtex 09_perspectives"
-  "09_perspectives.brf" 1656674327 293 20d2d3743073b858640f096d2e599fc4 ""
-  "09_perspectives.lof" 1656674327 947 22c7a22aa3d2b68f65575ef211bf8cd2 ""
-  "09_perspectives.lot" 1656674327 795 de0077a9f7aa612efa2ed8169eae2ed5 ""
+  "09_perspectives.aux" 1656690966 14343 c2e3ed8a645e8a87a222956a9d8a3475 ""
+  "09_perspectives.bbl" 1657137909 7765 3102aec7bde03c8a488bf0569e084302 "bibtex 09_perspectives"
+  "09_perspectives.brf" 1656690966 293 20d2d3743073b858640f096d2e599fc4 ""
+  "09_perspectives.lof" 1656690966 947 22c7a22aa3d2b68f65575ef211bf8cd2 ""
+  "09_perspectives.lot" 1656690966 795 de0077a9f7aa612efa2ed8169eae2ed5 ""
   "09_perspectives.tex" 1656674320 26685 9bc71368300559a194cab092b5853b1b ""
-  "09_perspectives.toc" 1656674327 962 5af412cca2ae967434302fcee63c4316 ""
+  "09_perspectives.toc" 1656690966 962 5af412cca2ae967434302fcee63c4316 ""
   (generated)
   "09_perspectives.pdf"
   "09_perspectives.mtc"
