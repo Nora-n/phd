@@ -4,44 +4,44 @@ The top-level auxiliary file: 01_cosmology.aux
 The style file: ../main/aa_url.bst
 Database file #1: ../chapters/99_references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 8 entries,
+You've used 10 entries,
             3173 wiz_defined-function locations,
-            768 strings with 24308 characters,
-and the built_in function-call counts, 47295 in all, are:
-= -- 2764
-> -- 7597
-< -- 2
-+ -- 2537
-- -- 2529
-* -- 7852
-:= -- 8042
-add.period$ -- 8
-call.type$ -- 8
-change.case$ -- 875
-chr.to.int$ -- 8
-cite$ -- 8
-duplicate$ -- 158
-empty$ -- 248
-format.name$ -- 2543
-if$ -- 8097
+            786 strings with 24757 characters,
+and the built_in function-call counts, 48032 in all, are:
+= -- 2825
+> -- 7619
+< -- 4
++ -- 2545
+- -- 2535
+* -- 7929
+:= -- 8171
+add.period$ -- 10
+call.type$ -- 10
+change.case$ -- 885
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 196
+empty$ -- 309
+format.name$ -- 2551
+if$ -- 8240
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 8
-newline$ -- 28
-num.names$ -- 32
-pop$ -- 869
+missing$ -- 10
+newline$ -- 34
+num.names$ -- 40
+pop$ -- 877
 preamble$ -- 1
-purify$ -- 875
+purify$ -- 885
 quote$ -- 0
-skip$ -- 126
+skip$ -- 157
 stack$ -- 0
-substring$ -- 165
-swap$ -- 1718
+substring$ -- 204
+swap$ -- 1730
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
+type$ -- 90
 warning$ -- 0
-while$ -- 32
+while$ -- 40
 width$ -- 0
-write$ -- 91
+write$ -- 113

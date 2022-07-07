@@ -1,5 +1,9 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{Alpheratz}(2018)}]{alpheratz2018}
+\textsc{Alpheratz}. 2018, «~{Grammaire du français inclusif}~», {\em
+  {Grammaire du français inclusif}}, ed. V.~S. Linguistique
 
 \bibitem[{\textsc{{Einstein}}(1915)}]{einstein1915}
 \textsc{{Einstein} A.} 1915, «~{Die Feldgleichungen der Gravitation}~»,

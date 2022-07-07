@@ -53,12 +53,13 @@ que le paquet \snana\ a vu le jour \citep{kessler2009a}. Son objectif est de
 fournir aux différents groupes un outil public et fiable permettant la
 reproductibilité des analyses. C'est un ensemble de logiciels, incluant un
 ajusteur de courbes de lumière, un simulateur Monte Carlo, et un ajusteur de
-cosmologie, simulant des catalogues de données plutôt que des images de sondages
-pour une plus grande efficacité. Les logiciels intègrent des modèles existants
-mais offrent également la possibilité de s'adapter à de nouveaux modèles, ne se
-limitant pas qu'aux SNe~Ia (il y a par exemple des modèles de Kilo Novae) et
-admettant depuis des corrélations entre une SN et son environnement, devenues
-aussi importantes que la qualité d'ajustement comme discuté
+cosmologie, simulant des catalogues de données\footnote{une autre approche
+    pourrait simuler des images, mais ceci augmenterait exponentiellement le
+temps de calcul}. Les logiciels intègrent des modèles existants mais offrent
+également la possibilité de s'adapter à de nouveaux modèles, ne se limitant
+pas qu'aux SNe~Ia (il y a par exemple des modèles de Kilo Novae) et
+admettant depuis des corrélations entre une SN et son environnement,
+devenues aussi importantes que la qualité d'ajustement comme discuté
 Chapitre~\ref{ch:env}.
 
 En effet, la décennie passée a vu de nombreux efforts être dirigés vers
@@ -169,8 +170,9 @@ et pour chaque observation~:
     \item la date d'observation exprimée en jours julien modifié \texttt{MJD}
         associée à un identifiant \texttt{IDEXPT}~;
     \item le filtre concerné par l'observation (\texttt{FLT})~;
-    \item les caractéristiques de la caméra CCD (\texttt{CCD GAIN} et
-        \texttt{CCD NOISE}) au moment de l'acquisition~;
+    \item les caractéristiques de la caméra CCD\footnote{\textit{charged coupled
+        device}, un capteur photographique} (\texttt{CCD GAIN} et \texttt{CCD
+        NOISE}) au moment de l'acquisition~;
     \item le bruit dû à l'atmosphère \textit{via} le paramètre \texttt{SKYSIG}
         donnant le bruit par pixel, sommé sur l'ouverture effective dérivée par
         un ajustement de \textit{Point Spread Function} (PSF) par les données
@@ -178,7 +180,7 @@ et pour chaque observation~:
         de][pour les détails]{kessler2009a}~;
     \item le point zéro moyen \texttt{ZPTAVG} et son erreur \texttt{ZPTERR}
         permettant de convertir la magnitude observée $m$ en flux $F$ en
-        comptages de CCD \textit{via} la relation $F =
+        comptages de photons arrivant sur une CCD \textit{via} la relation $F =
         10^{-0.4(m-\texttt{ZPTAVG})}$.
 \end{enumerate}
 En plus de ces données, d'autres caractéristiques comme les périodes de
@@ -207,11 +209,12 @@ la distribution des masses de galaxies hôtes effectivement observée par le
 sondage. Un exemple est indiquée sous le titre encadré \wgtmap\ dans la
 Figure~\ref{fig:snana_func}. Cette librairie a une importance capitale depuis
 l'inclusion de la masse de l'hôte comme traceur environnemental des propriétés
-sous-jacentes des SNe~Ia (voir Chapitre~\ref{ch:env})~; lorsqu'une \hostlib\
-n'inclut pas de marche de magnitude, celle est qui ajoute aux galaxies de $M_* <
-10^{10}\si{\Msun}$ une variation de magnitude de \SI{0.025}{mag} et à celles de
-$M_* > 10^{10}\si{\Msun}$ une variation de \SI{-0.025}{mag} pour correspondre
-aux observations de marche de magnitude basées sur la masse.
+sous-jacentes des SNe~Ia (voir Chapitre~\ref{ch:env}). En effet, lorsqu'une
+\hostlib\ n'inclut pas de marche de magnitude, c'est la \wgtmap\ qui ajoute aux
+galaxies de $M_* < 10^{10}\si{\Msun}$ une variation de magnitude de
+\SI{0.025}{mag} et à celles de $M_* > 10^{10}\si{\Msun}$ une variation de
+\SI{-0.025}{mag} pour correspondre aux observations de marche de magnitude
+basées sur la masse.
 
 La simulation d'une supernova suit ensuite 3 étapes majeures, décrites
 dans~\cite{kessler2019}~:
@@ -490,11 +493,12 @@ les écarts de distance dans ces intervalles de redshift $z_i$, tel que $\mu =
 \mu_{\rm vrai}$ lorsque les valeurs initiales de $m_B$, $x_1$ et $c$ de la
 partie Génération (Section~\ref{ssec:simsn}) sont entrées à la place des valeurs
 ajustées dans l'Équation~\ref{eq:mucorr}. Ce sont ces $M_{z_i}$ qui sont
-utilisées pour ajuster la cosmologie. En effet, pour l'ajustement nous partons
-d'un modèle cosmologique plat $w$CDM où $\Omega_M + \Omega_{\Lambda} = 1$, pour
-définir \citep{kessler2017}~:
+utilisées pour ajuster la cosmologie. Pour l'ajustement nous partons d'un modèle
+cosmologique plat $w$CDM où $\Omega_M + \Omega_{\Lambda} = 1$, pour définir
+\citep{kessler2017}\footnote{l'équation du module de distance a été corrigée par
+rapport à l'article, conformément à l'équation~\ref{eq:mucosmo}}~:
 \begin{align}\label{eq:mumodel}
-    \mu_{\text{modèle}} & = -2,5\log\left(\frac{d_L}{\SI{10}{pc}}\right)
+    \mu_{\text{modèle}} & = 5\log\left(\frac{d_L}{\SI{10}{pc}}\right)
                              \quad\text{avec}\\
     d_L(z,w,\Omega_M)   & = (1+z)
                             \frac{c}{H_0}
@@ -705,7 +709,10 @@ indépendant des paramètres de SNe, il permet d'examiner des corrélations entr
 n'importe quelle propriété de galaxie hôte et la magnitude des SNe~Ia.
 
 C'est avec ce formalisme de \bbc\ que nous traitons nos simulations dans le
-chapitre suivant.
+chapitre suivant, dans lequel nous répertorions les corrélations que nous
+voulons tester et créons pour ce faire nos propres \hostlib\ où l'étirement est
+donné par le modèle du Chapitre~\ref{ch:stretch} et publié
+dans~\cite{nicolas2021}.
 
 \clearpage
 

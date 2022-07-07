@@ -2,12 +2,12 @@
 \begin{document}
 \mainmatter
 
-\dominitoc
-\faketableofcontents
-\dominilof
-\fakelistoffigures
-\dominilot
-\fakelistoftables
+% \dominitoc
+% \faketableofcontents
+% \dominilof
+% \fakelistoffigures
+% \dominilot
+% \fakelistoftables
 
 \chapter{Contexte cosmologique}\label{ch:cosmo}
 
@@ -27,12 +27,12 @@ l'observation.
 Dans ce chapitre, nous donnons quelques notions et éléments de contexte
 permettant de comprendre comment les SNe~Ia s'intègrent à la cosmologie
 observationnelle moderne. Ainsi, dans la première section (\ref{sec:bases}) nous
-discutons des bases nécessaires de relativité générale, qui nous mènera dans la
-deuxième section (\ref{sec:MS}) au modèle cosmologique le plus robuste et qui
-constitue la base de notre description du monde aujourd'hui. Enfin, nous verrons
-dans la troisième et dernière section de ce chapitre (\ref{sec:dist}) quelles
-sont les grandeurs d'intérêt à la cosmologie observationnelle et comment les
-SNe~Ia permettent d'agrandir notre connaissance sur l'Univers.
+discutons des bases nécessaires de relativité générale, ce qui nous mènera à
+présenter le modèle cosmologique le plus robuste et qui constitue la base de
+notre description du monde aujourd'hui. Ensuite, nous verrons dans la seconde
+section de ce chapitre (\ref{sec:dist}) quelles sont les grandeurs d'intérêt à
+la cosmologie observationnelle et comment les SNe~Ia permettent d'agrandir notre
+connaissance sur l'Univers.
 
 \vfill
 \minitoc
@@ -57,7 +57,7 @@ de la physique moderne}]{einstein1905}, à savoir~:
 \begin{enumerate}
     \item Les lois de la physique (\textit{hormis la gravitation}) sont
         invariantes par changement de référentiel galiléen\footnote{en quelques
-            mots, nous pouvons traduire un référentiel comme um observataire,
+            mots, nous pouvons traduire un référentiel comme an observataire,
             c'est-à-dire un lieu de mesure de distances et de durées de
             référence~; il est dit «~galiléen~», ou «~inertiel~», quand il n'est
             pas en accélération~: il peut l'être à une vitesse constante par
@@ -102,9 +102,9 @@ les effets sont minimes aux vitesses que nous connaissons, et les variations
 bien plus faibles que ce que nos instruments pouvaient mesurer alors\footnote{il
 faudrait aller à 85\% de la vitesse de la lumière, soit $\approx
 \SI{260000}{km.s^{-1}}$, pour dilater le temps d'un facteur 2}. Parmi les
-conséquences peu intuitives en plus de la dilatation des durées, nous pouvons citer
-la relativité de la simultanéité\footnote{deux événements à deux endroits
-différents qui sont simultanés dans un référentiel ne le sont en général pas
+conséquences peu intuitives en plus de la dilatation des durées, nous pouvons
+citer la relativité de la simultanéité\footnote{deux événements à deux endroits
+    différents qui sont simultanés dans un référentiel ne le sont en général pas
 dans un autre référentiel en mouvement par rapport au premier} et la contraction
 des longueurs.
 
@@ -140,7 +140,7 @@ temps à reprendre sa forme quand celle-ci est enlevée.
 Nous décrivons maintenant les grandeurs et équations décrivant la géométrie de
 l'espace-temps en fonction de l'énergie qui y est appliquée.
 
-\subsection{Métrique FLRW en Univers plat}\label{ssec:cons}
+\subsection{Métrique FLRW en univers plat}\label{ssec:cons}
 
 Les formalisme mathématique nécessaire pour décrire des espaces courbés en
 quatre dimensions utilise des objets définis par la géométrie différentielles,
@@ -167,7 +167,8 @@ avec $\d w = v-u$ et $\d w^T$ sa transposée. Cette matrice diagonale ne mélang
 pas les dimensions entre elles, et est souvent omise puisqu'elle décrit un effet
 nul sur les coordonnées de l'espace, sans rotation ou translation~: une
 modification de cette matrice traduirait une modification de la géométrie entre
-ces deux points.
+ces deux points comme un planisphère indique l'échelle à utiliser pour faire
+correspondre une distance du plan à une distance réelle.
 
 Dans un espace-temps plat à quatre dimensions, la «~distance~» entre deux
 événements caractérisés par $u=(t,x,y,z)$ et $v=(t',x',y',z')$ est notée $\d s$
@@ -231,7 +232,9 @@ l'Univers, que nous appelons paramètre de \textsc{Hubble} $H(t)$, tel que
 et nous appelons constante de \textsc{Hubble} sa valeur aujourd'hui~; nous
 notons $H(t=t_0) = H_0$. Notons également qu'une contraction ou dilatation de
 l'espace-temps implique inévitablement la variation de la longueur d'onde d'un
-photon avec le facteur d'échelle~; nous l'appelons \textit{redshift} pour
+photon avec le facteur d'échelle~; nous l'appelons
+\textit{redshift}\footnote{nous décidons de garder le terme dans cette langue
+dans la suite pour éviter la verbosité de son équivalent français} pour
 «~décalage vers le rouge~», et nous le notons $z$ tel que
 \begin{equation}\label{eq:z}
     \frac{a_0}{a(t)} = \frac{\lambda_0}{\lambda_e} = 1+z
@@ -305,10 +308,11 @@ Le fait que l'énergie soit conservée dans le temps se traduit par la divergenc
 nulle du tenseur énergie-impulsion, de telle sorte qu'un fluide parfait est
 caractérisé par l'équation de conservation
 \begin{equation}\label{eq:cons}
-    \dot{\rho} = -3H\rho(1+w)
+    \dot{\rho} = -\frac{3H}{c^2}\rho(1+w)
 \end{equation}
-avec $w \triangleq p/\rho c^2$ le paramètre d'état du fluide en question. En
-effet, de cette équation différentielle nous déduisons
+avec $w \triangleq\footnote{signifie «~égal par définition~»} p/\rho c^2$ le
+paramètre d'état du fluide en question. En effet, de cette équation
+différentielle nous déduisons
 \begin{equation}\label{eq:rho}
     \rho(t) \propto a(t)^{-3(1+w)}
 \end{equation}
@@ -332,8 +336,8 @@ et le fluide présentera des comportements variés selon la valeur de $w$~:
         = \text{constante}$. Ce paramètre d'état décrirait alors un fluide à
         pression négative mais dont la densité d'énergie de se dilue pas avec le
         facteur d'échelle… autrement dit, un comportement qui pourrait convenir
-        pour décrire l'effet énergétique de la constante cosmologique~; on
-        qualifie une telle forme d'énergie de «~sombre~».
+        pour décrire l'effet énergétique de la constante cosmologique~; nous
+        qualifions une telle forme d'énergie de «~sombre~».
 \end{itemize}
 
 À partir de cette idée de fluide parfait et avec l'équation~\ref{eq:ein} dans le
@@ -360,9 +364,9 @@ différents $\rho$ pour obtenir la forme
                \right]
 \end{equation}
 
-Comme $\rho_R \propto a^{-4}$, $\DS\frac{\rho_R}{\rho_R(t_0)} = \frac{a_0}{a}^4$,
-et de même $\DS\frac{\rho_M}{\rho_M(t_0)} = \frac{a_0}{a}^3$~; nous pouvons
-donc réécrire
+Comme $\rho_R \propto a^{-4}$, $\DS\frac{\rho_R}{\rho_R(t_0)} =
+\frac{a_0}{a}^4$, et de même $\DS\frac{\rho_M}{\rho_M(t_0)} = \frac{a_0}{a}^3$~;
+nous pouvons donc réécrire
 \begin{equation}
     H^2 \triangleq \left( \frac{\dot{a}}{a} \right)^2 =
         H_0{}^2 \left[ \Omega_R \left( \frac{a_0}{a} \right)^4 +
@@ -435,28 +439,41 @@ Le modèle vers lequel ces différentes sondes convergent est appelé le «~mod�
 de concordance~». Sans les détailler, en dehors des SNe~Ia il existe des mesures
 de ces paramètres cosmologiques \textit{via} le fonds diffus cosmologique
 (\textit{Cosmic Microwave Background}, CMB) et les oscillations acoustiques des
-baryons (\textit{Baryon Acoustic Oscillations}, BAO) notamment.
-Ce modèle, dit «~standard~», décrit les observations de l'Univers \textit{via}
-l'implication de matière sombre\footnote{c'est-à-dire une forme d'énergie
-    similaire à la matière, avec un comportement gravitationnel attractif et un
-    paramètre d'état $w=0$ mais invisible par rayonnement
-électromagnétique} froide\footnote{on entend par là non-relativiste,
-c'est-à-dire se déplaçant à des vitesses faibles devant celle de la lumière} et
-d'une constante cosmologique $\Lambda$ (probablement sous forme d'énergie
-sombre)~; il est pour cela appelé $\Lambda CDM$ pour \textit{Lambda Cold Dark
-Matter}. Il permet de rendre compte de l'origine et de la structure du fonds
-diffus cosmologique, de la composition en atomes et de la structure des grandes
-échelles de l'Univers, ainsi que de son expansion accélérée. Si ses capacités
-prédictives sont remarquables, la nature précise de la matière et de l'énergie
-sombres reste pour le moment un mystère.
+baryons (\textit{Baryon Acoustic Oscillations}, BAO) notamment. Ce modèle, dit
+«~standard~», décrit un Univers plat constitué de matière
+sombre\footnote{c'est-à-dire une forme d'énergie similaire à la matière, avec un
+    comportement gravitationnel attractif et un paramètre d'état $w=0$ mais
+    invisible par rayonnement électromagnétique et n'interagissant pas avec la
+matière ordinaire non plus} froide\footnote{nous entendons par là
+    non-relativiste, c'est-à-dire se déplaçant à des vitesses faibles devant
+celle de la lumière} et d'une constante cosmologique $\Lambda$ (probablement
+sous forme d'énergie sombre)~; il est pour cela appelé $\Lambda CDM$ pour
+\textit{Lambda Cold Dark Matter}. Il permet de rendre compte de l'origine et
+de la structure du fonds diffus cosmologique, de la composition en atomes et
+de la structure des grandes échelles de l'Univers, ainsi que de son
+expansion accélérée. Si ses capacités prédictives sont remarquables, la
+nature précise de la matière et de l'énergie sombres reste pour le moment un
+mystère. \cite{planck2018} rapportent trouver $\Omega_M = \num{0.3111} \pm
+\num{0.0056}$ et $\Omega_\Lambda = \num{0.6886} \pm \num{0.0056}$, avec
+$\Omega_R$ considéré comme nul étant donné sa dépendance en $a^{-4}$.
 
 Il existe d'autres modèles de cosmologie, laissant certains paramètres varier~;
 c'est le cas du modèle $w$CDM pour lequel le paramètre d'état de l'énergie
-sombre n'est pas fixé à \num{-1}. Nous ne parvenons cependant pas encore à
-réfuter l'un ou l'autre des modèles avec les mesures actuelles des paramètres~:
-la combinaison SN+CMB+BAO de~\cite{scolnic2018} trouve en effet $w =
-\num{-1.014}\pm\num{0.040}$, compatible avec $\Lambda$CDM. Nous présentons
-Figure~\ref{fig:cosmocomb} les contraintes combinées de ces sondes pour $w$CDM.
+sombre n'est pas fixé à \num{-1}~: dans ce cas, nous écrivons
+l'équation~\ref{eq:h2} dans sa forme générale~:
+\begin{equation}\label{eq:h2w}
+    H^2 \triangleq \left( \frac{\dot{a}}{a} \right)^2 =
+    H_0{}^2 \left[ \Omega_R \left( 1+z \right)^4 +
+        \Omega_M \left( 1+z \right)^3 +
+    \Omega_\Lambda \left( 1+z \right)^{3(1+w)} \right]
+\end{equation}
+où $w=-1$ correspond à une constante cosmologique ne se diluant pas avec le
+temps. Nous ne parvenons cependant pas encore à réfuter l'un ou l'autre des
+modèles avec les mesures actuelles des paramètres~: la combinaison SN+CMB+BAO
+de~\cite{scolnic2018} trouvent en effet $w = \num{-1.014}\pm\num{0.040}$,
+et~\cite{planck2018} trouvent $w = \num{-1.03}\pm\num{0.03}$, valeurs
+compatibles avec $\Lambda$CDM. Nous présentons Figure~\ref{fig:cosmocomb} les
+contraintes combinées de ces sondes pour $w$CDM.
 
 \begin{SCfigure}[1][ht]
     \centering
@@ -474,14 +491,21 @@ Figure~\ref{fig:cosmocomb} les contraintes combinées de ces sondes pour $w$CDM.
 Il est cependant sujet à une tension historique du fait de l'incompatibilité de
 la mesure de $H_0$ entre le CMB et les SNe~Ia~: en effet, ces deux méthodes
 trouvent des valeurs respectives de \SI{67.4\pm0.5}{km.s^{-1}.Mpc^{-1}} et
-\SI{73.04\pm1.04}{km.s^{-1}.Mpc^{-1}}. L'étude de cette incohérence est
-actuellement au cœur de la cosmologie moderne, chacune de ces sondes ayant fait
-ses preuves quant à leur fiabilité de mesures.
+\SI{73.04\pm1.04}{km.s^{-1}.Mpc^{-1}}\footnote{cette unité, qui peut paraître
+    déconcertante, est bien homogène à des \si{s^{-1}} puisque nous parlons de
+    \textit{taux} d'expansion, mais elle est plus appréciable sous cette forme
+    puisque nous pouvons y lire que pour chaque \si{Mpc} (unité de distance
+    astronomique) qui nous sépare actuellement d'un objet, l'expansion de
+    l'Univers le fait s'écarter de nous de $\approx \SI{70}{km.s^{-1}}$, ou
+\SI{252000}{km.h^{-1}}.}. L'étude de cette incohérence est actuellement au
+cœur de la cosmologie moderne, chacune de ces sondes ayant fait ses preuves
+quant à leur fiabilité de mesures.
 
 \section{Mesures cosmologiques}\label{sec:dist}
 
-Nous discutons dans cette section des grandeurs qui servent un intérêt à notre
-étude.
+Nous discutons dans cette section des grandeurs qui servent un intérêt à la
+compréhension de l'impact des paramètres cosmologiques sur des grandeurs
+appréciables ou pour notre étude.
 
 \subsection{Âge de l'Univers}\label{ssec:age}
 
@@ -497,7 +521,7 @@ facteur d'échelle avec le temps.
 Nous utilisons pour cela le redshift $z$ d'un objet, qui est caractérisé par
 l'équation~\ref{eq:z}, et la définition du taux d'expansion $H(z)$ de
 l'équation~\ref{eq:hz}. Nous définissons alors l'âge de l'Univers comme celui
-que l'on trouverait pour un corps de redshift infini. Nous pouvons le relier au
+que nous trouverions pour un corps de redshift infini. Nous pouvons le relier au
 temps qu'il s'est écoulé entre son émission et sa réception par~:
 \begin{align}
     t(z) & = \int_{0}^{t(z=\infty)} \d t' = \int_{0}^{a(z=\infty)} \frac{\d a'}{\dot{a}'}
@@ -513,7 +537,7 @@ où $E(z)$ se déduit de la définition de $H^2$ de l'équation~\ref{eq:h2}~:
 \end{equation}
 L'âge de l'Univers dépend donc de la répartition de son énergie selon les
 différentes formes qui le composent, c'est-à-dire du modèle~; dans le cadre du
-modèle $\Lambda$CDM, il est estimé à $t_0 \SI{13.797\pm0.023}{Gans}$
+modèle $\Lambda$CDM, il est estimé à $t_0 = \SI{13.797\pm0.023}{Gans}$
 par~\cite{planck2018}. Une modification de la fraction ou du paramètre d'état de
 l'énergie sombre, notamment, amènerait à une variation de cette valeur.
 
@@ -521,9 +545,126 @@ l'énergie sombre, notamment, amènerait à une variation de cette valeur.
 
 Si une variation de l'âge de l'Univers n'aurait pas grande incidence sur notre
 rapport au monde, un effet notable de l'histoire de son expansion se remarque
-sur les distances des sources lumineuses à nous. En effet,
+sur les distances des sources lumineuses à nous. En effet, une source lumineuse
+dans l'espace diffuse sa luminosité\footnote{c'est l'énergie émise par unité de
+temps} $L$ sur une sphère centrée autour de son point d'émission~: pour an
+observataire à une distance $d$ de cette source, la sphère est de surface $4\pi
+d^2$ et le flux\footnote{c'est-à-dire, l'énergie par unité de surface ou la
+fraction de l'énergie totale} $F$ de l'objet se calcule selon~:
+\begin{equation}\label{eq:f}
+    F = \frac{L}{4\pi d^2}
+\end{equation}
+
+Comme nous l'avons vu, la distance entre deux objets dépend non seulement de
+leurs mouvements propres respectifs, mais également de l'étirement de
+l'espace-temps qui a pu s'y ajouter entre l'émission et la réception, qui domine
+assez rapidement sur le mouvement propre des corps. En négligeant donc les
+vitesses particulières et avec un raisonnement similaire à celui pour déterminer
+l'âge de l'Univers de la section~\ref{ssec:age} (nous déterminons cette distance
+dans un espace en expansion en calculant $\int_{t(z)}^{t_0} \frac{c\d
+t'}{a(t')}$), nous obtenons cette distance dite «~comobile~» par~:
+\begin{equation}
+    d_C(z) = \frac{c}{H_0} \int_{0}^{z} \frac{\d z'}{E(z')}
+\end{equation}
+
+Cependant, les photons qui traversent l'espace subissent un effet supplémentaire
+dû à cette expansion~: en plus de l'allongement de la distance, ils subissent un
+effet de dilution énergétique traduit par le décalage vers le rouge de leur
+longueur d'onde, c'est-à-dire le redshift~; nous définissons ainsi la distance
+de luminosité par~:
+\begin{equation}\label{eq:dl}
+    d_L(z) = (1+z)d_C(z) = \frac{c(1+z)}{H_0} \int_{0}^{z} \d z'
+    \left[
+        \Omega_R \left( 1+z \right)^4 +
+        \Omega_M \left( 1+z \right)^3 +
+        \Omega_\Lambda %\left( 1+z \right)^{3(1+w)}
+    \right]^{-1/2}
+\end{equation}
+
+C'est cette distance-là qui est utilisée dans l'équation~\ref{eq:f} pour
+déterminer le flux d'un astre lumineux.
 
 \subsection{Intérêt des supernovae de type Ia}\label{ssec:intsne}
+
+Nous pouvons commencer à entrevoir que la mesure du flux d'un astre pourrait
+permettre de contraindre les paramètres cosmologiques $\Omega_i$ de
+l'équation~\ref{eq:dl}. Nous utilisons cependant d'autres grandeurs reliées au
+flux émis pour exprimer ce que nous mesurons~: les magnitudes. La magnitude
+apparente $m$ d'un objet émettant un flux $F$ est exprimée \textit{via} la
+relation définie dans~\cite{pogson1856}~:
+\begin{equation}\label{eq:m}
+    m = -2,5\log \left(F\right) + \text{cst} =
+    -2,5\log \left( \frac{L}{4\pi d^2} \right) + \text{cst}
+\end{equation}
+
+D'une part, $L$ n'est pas connue et mesurable \textit{a priori}, mais d'autre
+part cette constante n'est pas définie. Pour s'en restreindre, nous pouvons
+utiliser une référence de magnitude connue qui fait intervenir la même constante
+et soustraire les deux magnitudes apparentes. Cette référence est souvent celle
+de l'étoile Véga, la cinquième étoile la plus brillante du ciel dont nous
+connaissons la distance par une mesure directe (la parallaxe, que nous ne
+détaillons pas ici) et fut autour de -\SI{12000}{ans} l'étoile
+polaire\footnote{cette définition n'est en effet pas fixe et absolue~; nous
+    définissons l'étoile polaire comme une étoile visible à l'œil nu et qui se
+    trouve sur l'axe de rotation de la Terre (au-dessus d'un de ses pôles, il
+    peut donc y en avoir deux). Comme cet axe tourne dans le temps, comme le
+    fait une
+toupie, l'étoile considérée comme polaire change}, mais il reste dans ce cas que
+la luminosité $L$ du corps dont nous exprimons $m$ et la luminosité $L_0$ de la
+référence sont encore inconnues.
+
+Pour se passer de ce terme dans l'équation~\ref{eq:m}, nous définissons la
+magnitude dite «~absolue~», $M$, comme étant la magnitude que nous mesurerions
+si l'objet était placé à une distance $d_0 = \SI{10}{pc}$ de nous~: $M =
+-2,5\log \left( \frac{L}{4\pi d_0^2} \right) + \text{cst}$. Dans ce cas, la
+soustraction donne ce que nous appelons le module de distance $\mu$, tel que~:
+\begin{align}\label{eq:mucosmo}
+    \mu = m - M = -2,5\log \left( \frac{L}{4\pi d^2} \right) & +
+    \cancel{\text{cst}} + 2,5\log \left( \frac{L}{4\pi d_0^2} \right) -
+    \cancel{\text{cst}}\nonumber\\
+    \mu = m-M & = 5\log \left( \frac{d_L}{d_0} \right)
+\end{align}
+en utilisant les propriétés de la fonction $\log$.
+
+Ainsi, à partir de la mesure de $m$ et de la connaissance de $M$, nous pouvons y
+faire correspondre la valeur de droite de l'équation~\ref{eq:mucosmo} qui est
+reliée aux paramètres cosmologiques par l'équation~\ref{eq:dl}. C'est de cette
+manière que~\cite{hubble1929} a rempli son diagramme (dit «~diagramme de
+\textsc{Hubble}~») module de distance-redshift et déterminé la première valeur
+de $H_0$, qu'il avait estimée à \SI{500}{km.s^{-1}.Mpc^{-1}} (soit 7 fois
+supérieure à la valeur estimée aujourd'hui).
+
+Nous remarquons cependant que cette magnitude absolue n'est pas une donnée, et
+sans sa connaissance il est impossible de déterminer la distance d'un
+corps\footnote{prenons deux bougies qui éclairent différemment~: si vous ne
+    voyiez que deux points lumineux dont l'un est plus fort que l'autre, comment
+savoir laquelle des bougies est la plus proche~?}. Un type d'objet pour lequel
+$M$ est connu et constant dans sa catégorie est qualifié de «~chandelle
+standard~».
+
+C'est notamment pour cela que les SNe~Ia se révèlent d'une importance capitale
+dans cette étude. Nous pouvons distinguer trois raisons majeurs pour cela~:
+\begin{enumerate}
+    \item ces astres sont connus pour leur régularité dans leur luminosité
+        totale émise, et donc dans leur magnitude absolue. Ce sont ainsi des
+        objets permettant cette calibration~;
+
+    \item ce sont des événements cosmologiques d'une luminosité très importante,
+        visibles à des distances (ou des redshifts) relativement grandes ($z
+        \approx 1.2\footnote{c'est-à-dire des objets qui ont émis leur
+        lumière quand l'Univers était approximativement moitié plus jeune}$ avec
+        des télescopes sur Terre)~; c'est important puisque plus nous avons des
+        points de mesure variés sur la distance $d_L$, plus nous aurons de
+        contraintes sur les paramètres cosmologiques~;
+
+    \item enfin, étant des événements explosifs survenant à la fin de vie de
+        certaines étoiles, leur nombre augmente naturellement avec le temps,
+        permettant une augmentation continue de possibles points de mesure.
+\end{enumerate}
+
+Nous discutons dans le chapitre suivant les définitions et caractéristiques de
+ces astres afin d'en cerner les avantages d'une part mais également les limites
+d'autre part.
 
 \newpage
 
@@ -535,8 +676,8 @@ sur les distances des sources lumineuses à nous. En effet,
 \minilot
 \vfill
 
-\bibliographystyle{../main/aa_url}
-\shorthandoff{:}
-\bibliography{../chapters/99_references}
+% \bibliographystyle{../main/aa_url}
+% \shorthandoff{:}
+% \bibliography{../chapters/99_references}
 
 \end{document}

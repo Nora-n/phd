@@ -804,8 +804,8 @@ INPUT 01_cosmology.mlt1
 INPUT 01_cosmology.aux
 INPUT ./01_cosmology.brf
 INPUT ./01_cosmology.brf
-INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
@@ -813,11 +813,14 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb
@@ -827,6 +830,7 @@ INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb

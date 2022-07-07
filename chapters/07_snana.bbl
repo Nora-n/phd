@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{20}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
@@ -194,6 +194,16 @@
   Supernova Distance Moduli}~»,
   \href{http://dx.doi.org/10.1088/0004-637X/740/2/72}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2011ApJ...740...72M}{740, 72}
+
+\bibitem[{\textsc{{Nicolas}} {et~al.}(2021)\textsc{{Nicolas}},
+  \textsc{{Rigault}}, \textsc{{Copin}}, \textsc{{Graziani}},
+  \textsc{{Aldering}}, \textsc{{Briday}}, \textsc{{Kim}}, \textsc{{Nordin}},
+  \textsc{{Perlmutter}} et \textsc{{Smith}}}]{nicolas2021}
+\textsc{{Nicolas} N.}, \textsc{{Rigault} M.}, \textsc{{Copin} Y.} {et~al.}
+  2021, «~{Redshift evolution of the underlying type Ia supernova stretch
+  distribution}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/202038447}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2021A&A...649A..74N}{649, A74}
 
 \bibitem[{\textsc{{Perrett}} {et~al.}(2012)\textsc{{Perrett}},
   \textsc{{Sullivan}}, \textsc{{Conley}}, \textsc{{Gonz{\'a}lez-Gait{\'a}n}},

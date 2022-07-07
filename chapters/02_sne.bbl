@@ -1,4 +1,16 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{2}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Baade}} et \textsc{{Zwicky}}(1934)}]{baade1934}
+\textsc{{Baade} W.} et \textsc{{Zwicky} F.} 1934, «~{On Super-novae}~»,
+  \href{http://dx.doi.org/10.1073/pnas.20.5.254}{\color{magenta}Proceedings of
+  the National Academy of Science},
+  \href{https://ui.adsabs.harvard.edu/abs/1934PNAS...20..254B}{20, 254}
+
+\bibitem[{\textsc{Fourmanoit}(2010)}]{fourmanoit2010}
+\textsc{Fourmanoit N.} 2010, «~{Analyse des 5 ans de donn{\'e}es de
+  l'exp{\'e}rience SuperNova Legacy Survey}~», Thèse, {Université Pierre et
+  Marie Curie -- Paris VI},
+  \href{https://tel.archives-ouvertes.fr/tel-00587450}{HAL thèses}
 
 \end{thebibliography}

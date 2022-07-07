@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Alam}} {et~al.}(2015)\textsc{{Alam}}, \textsc{{Albareti}},
@@ -112,6 +112,13 @@
   \href{http://dx.doi.org/10.1007/BF01332580}{\color{magenta}Zeitschrift fur
   Physik}, \href{https://ui.adsabs.harvard.edu/abs/1922ZPhy...10..377F}{10,
   377}
+
+\bibitem[{\textsc{{Hubble}}(1929)}]{hubble1929}
+\textsc{{Hubble} E.} 1929, «~{A Relation between Distance and Radial Velocity
+  among Extra-Galactic Nebulae}~»,
+  \href{http://dx.doi.org/10.1073/pnas.15.3.168}{\color{magenta}Proceedings of
+  the National Academy of Science},
+  \href{https://ui.adsabs.harvard.edu/abs/1929PNAS...15..168H}{15, 168}
 
 \bibitem[{\textsc{{Perlmutter}} {et~al.}(1999)\textsc{{Perlmutter}},
   \textsc{{Aldering}}, \textsc{{Goldhaber}}, \textsc{{Knop}},
@@ -282,6 +289,12 @@
   {et~al.} 2020, «~{Planck 2018 results. VI. Cosmological parameters}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201833910}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2020A&A...641A...6P}{641, A6}
+
+\bibitem[{\textsc{{Pogson}}(1856)}]{pogson1856}
+\textsc{{Pogson} N.} 1856, «~{Magnitudes of Thirty-six of the Minor Planets
+  for the first day of each month of the year 1857}~»,
+  \href{http://dx.doi.org/10.1093/mnras/17.1.12}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/1856MNRAS..17...12P}{17, 12}
 
 \bibitem[{\textsc{{Riess}} {et~al.}(1998)\textsc{{Riess}},
   \textsc{{Filippenko}}, \textsc{{Challis}}, \textsc{{Clocchiatti}},
