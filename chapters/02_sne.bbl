@@ -1,5 +1,14 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{20}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Althaus}} {et~al.}(2010)\textsc{{Althaus}},
+  \textsc{{C{\'o}rsico}}, \textsc{{Isern}} et
+  \textsc{{Garc{\'\i}a-Berro}}}]{althaus2010}
+\textsc{{Althaus} L.~G.}, \textsc{{C{\'o}rsico} A.~H.}, \textsc{{Isern} J.} et
+  \textsc{{Garc{\'\i}a-Berro} E.} 2010, «~{Evolutionary and pulsational
+  properties of white dwarf stars}~»,
+  \href{http://dx.doi.org/10.1007/s00159-010-0033-1}{\color{magenta}\aapr},
+  \href{https://ui.adsabs.harvard.edu/abs/2010A&ARv..18..471A}{18, 471}
 
 \bibitem[{\textsc{{Baade}} et \textsc{{Zwicky}}(1934)}]{baade1934}
 \textsc{{Baade} W.} et \textsc{{Zwicky} F.} 1934, «~{On Super-novae}~»,
@@ -7,10 +16,213 @@
   the National Academy of Science},
   \href{https://ui.adsabs.harvard.edu/abs/1934PNAS...20..254B}{20, 254}
 
+\bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
+  \textsc{{Kessler}}, \textsc{{Guy}}, \textsc{{Mosher}}, \textsc{{Hardin}},
+  \textsc{{Biswas}}, \textsc{{Astier}}, \textsc{{El-Hage}}, \textsc{{Konig}},
+  \textsc{{Kuhlmann}}, \textsc{{Marriner}}, \textsc{{Pain}},
+  \textsc{{Regnault}}, \textsc{{Balland}}, \textsc{{Bassett}},
+  \textsc{{Brown}}, \textsc{{Campbell}}, \textsc{{Carlberg}},
+  \textsc{{Cellier-Holzem}}, \textsc{{Cinabro}}, \textsc{{Conley}},
+  \textsc{{D'Andrea}}, \textsc{{DePoy}}, \textsc{{Doi}}, \textsc{{Ellis}},
+  \textsc{{Fabbro}}, \textsc{{Filippenko}}, \textsc{{Foley}},
+  \textsc{{Frieman}}, \textsc{{Fouchez}}, \textsc{{Galbany}},
+  \textsc{{Goobar}}, \textsc{{Gupta}}, \textsc{{Hill}}, \textsc{{Hlozek}},
+  \textsc{{Hogan}}, \textsc{{Hook}}, \textsc{{Howell}}, \textsc{{Jha}},
+  \textsc{{Le Guillou}}, \textsc{{Leloudas}}, \textsc{{Lidman}},
+  \textsc{{Marshall}}, \textsc{{M{\"o}ller}}, \textsc{{Mour{\~a}o}},
+  \textsc{{Neveu}}, \textsc{{Nichol}}, \textsc{{Olmstead}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Perlmutter}}, \textsc{{Prieto}},
+  \textsc{{Pritchet}}, \textsc{{Richmond}}, \textsc{{Riess}},
+  \textsc{{Ruhlmann-Kleider}}, \textsc{{Sako}}, \textsc{{Schahmaneche}},
+  \textsc{{Schneider}}, \textsc{{Smith}}, \textsc{{Sollerman}},
+  \textsc{{Sullivan}}, \textsc{{Walton}} et \textsc{{Wheeler}}}]{betoule2014}
+\textsc{{Betoule} M.}, \textsc{{Kessler} R.}, \textsc{{Guy} J.} {et~al.} 2014,
+  «~{Improved cosmological constraints from a joint analysis of the SDSS-II
+  and SNLS supernova samples}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201423413}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2014A&A...568A..22B}{568, A22}
+
+\bibitem[{\textsc{{Chandrasekhar}}(1931)}]{chandrasekhar1931}
+\textsc{{Chandrasekhar} S.} 1931, «~{The Maximum Mass of Ideal White
+  Dwarfs}~», \href{http://dx.doi.org/10.1086/143324}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1931ApJ....74...81C}{74, 81}
+
+\bibitem[{\textsc{{Elias}} {et~al.}(1985)\textsc{{Elias}}, \textsc{{Matthews}},
+  \textsc{{Neugebauer}} et \textsc{{Persson}}}]{elias1985}
+\textsc{{Elias} J.~H.}, \textsc{{Matthews} K.}, \textsc{{Neugebauer} G.} et
+  \textsc{{Persson} S.~E.} 1985, «~{Type I supernovae in the infrared and
+  their use as distance indicators.}~»,
+  \href{http://dx.doi.org/10.1086/163456}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1985ApJ...296..379E}{296, 379}
+
+\bibitem[{\textsc{{Filippenko}}(1988)}]{filippenko1988}
+\textsc{{Filippenko} A.~V.} 1988, «~{Taxonomy of supernovae.}~»,
+  \href{http://dx.doi.org/10.1017/S132335800002275X}{\color{magenta}\pasa},
+  \href{https://ui.adsabs.harvard.edu/abs/1988PASA....7..540F}{7, 540}
+
 \bibitem[{\textsc{Fourmanoit}(2010)}]{fourmanoit2010}
 \textsc{Fourmanoit N.} 2010, «~{Analyse des 5 ans de donn{\'e}es de
   l'exp{\'e}rience SuperNova Legacy Survey}~», Thèse, {Université Pierre et
   Marie Curie -- Paris VI},
   \href{https://tel.archives-ouvertes.fr/tel-00587450}{HAL thèses}
+
+\bibitem[{\textsc{{Guy}} {et~al.}(2007)\textsc{{Guy}}, \textsc{{Astier}},
+  \textsc{{Baumont}}, \textsc{{Hardin}}, \textsc{{Pain}}, \textsc{{Regnault}},
+  \textsc{{Basa}}, \textsc{{Fouchez}}, \textsc{{Hook}}, \textsc{{Howell}},
+  \textsc{{Perrett}}, \textsc{{Pritchet}}, \textsc{{Rich}},
+  \textsc{{Sullivan}}, \textsc{{Antilogus}}, \textsc{{Aubourg}},
+  \textsc{{Bazin}}, \textsc{{Bronder}}, \textsc{{Filiol}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Ripoche}} et
+  \textsc{{Ruhlmann-Kleider}}}]{guy2007}
+\textsc{{Guy} J.}, \textsc{{Astier} P.}, \textsc{{Baumont} S.} {et~al.} 2007,
+  «~{SALT2: using distant supernovae to improve the use of type Ia supernovae
+  as distance indicators}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361:20066930}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2007A&A...466...11G}{466, 11}
+
+\bibitem[{\textsc{{Hamuy}} {et~al.}(1996)\textsc{{Hamuy}}, \textsc{{Phillips}},
+  \textsc{{Suntzeff}}, \textsc{{Schommer}}, \textsc{{Maza}} et
+  \textsc{{Aviles}}}]{hamuy1996}
+\textsc{{Hamuy} M.}, \textsc{{Phillips} M.~M.}, \textsc{{Suntzeff} N.~B.}
+  {et~al.} 1996, «~{The Absolute Luminosities of the Calan/Tololo Type IA
+  Supernovae}~», \href{http://dx.doi.org/10.1086/118190}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/1996AJ....112.2391H}{112, 2391}
+
+\bibitem[{\textsc{{Heger}} {et~al.}(2003)\textsc{{Heger}}, \textsc{{Fryer}},
+  \textsc{{Woosley}}, \textsc{{Langer}} et \textsc{{Hartmann}}}]{heger2003}
+\textsc{{Heger} A.}, \textsc{{Fryer} C.~L.}, \textsc{{Woosley} S.~E.},
+  \textsc{{Langer} N.} et \textsc{{Hartmann} D.~H.} 2003, «~{How Massive
+  Single Stars End Their Life}~»,
+  \href{http://dx.doi.org/10.1086/375341}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2003ApJ...591..288H}{591, 288}
+
+\bibitem[{\textsc{{Kessler}} {et~al.}(2009)\textsc{{Kessler}},
+  \textsc{{Becker}}, \textsc{{Cinabro}}, \textsc{{Vanderplas}},
+  \textsc{{Frieman}}, \textsc{{Marriner}}, \textsc{{Davis}}, \textsc{{Dilday}},
+  \textsc{{Holtzman}}, \textsc{{Jha}}, \textsc{{Lampeitl}}, \textsc{{Sako}},
+  \textsc{{Smith}}, \textsc{{Zheng}}, \textsc{{Nichol}}, \textsc{{Bassett}},
+  \textsc{{Bender}}, \textsc{{Depoy}}, \textsc{{Doi}}, \textsc{{Elson}},
+  \textsc{{Filippenko}}, \textsc{{Foley}}, \textsc{{Garnavich}},
+  \textsc{{Hopp}}, \textsc{{Ihara}}, \textsc{{Ketzeback}},
+  \textsc{{Kollatschny}}, \textsc{{Konishi}}, \textsc{{Marshall}},
+  \textsc{{McMillan}}, \textsc{{Miknaitis}}, \textsc{{Morokuma}},
+  \textsc{{M{\"o}rtsell}}, \textsc{{Pan}}, \textsc{{Prieto}},
+  \textsc{{Richmond}}, \textsc{{Riess}}, \textsc{{Romani}},
+  \textsc{{Schneider}}, \textsc{{Sollerman}}, \textsc{{Takanashi}},
+  \textsc{{Tokita}}, \textsc{{van der Heyden}}, \textsc{{Wheeler}},
+  \textsc{{Yasuda}} et \textsc{{York}}}]{kessler2009b}
+\textsc{{Kessler} R.}, \textsc{{Becker} A.~C.}, \textsc{{Cinabro} D.} {et~al.}
+  2009, «~{First-Year Sloan Digital Sky Survey-II Supernova Results: Hubble
+  Diagram and Cosmological Parameters}~»,
+  \href{http://dx.doi.org/10.1088/0067-0049/185/1/32}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2009ApJS..185...32K}{185, 32}
+
+\bibitem[{\textsc{{L{\'e}get}} {et~al.}(2020)\textsc{{L{\'e}get}},
+  \textsc{{Gangler}}, \textsc{{Mondon}}, \textsc{{Aldering}},
+  \textsc{{Antilogus}}, \textsc{{Aragon}}, \textsc{{Bailey}},
+  \textsc{{Baltay}}, \textsc{{Barbary}}, \textsc{{Bongard}}, \textsc{{Boone}},
+  \textsc{{Buton}}, \textsc{{Chotard}}, \textsc{{Copin}}, \textsc{{Dixon}},
+  \textsc{{Fagrelius}}, \textsc{{Feindt}}, \textsc{{Fouchez}},
+  \textsc{{Hayden}}, \textsc{{Hillebrandt}}, \textsc{{Kim}},
+  \textsc{{Kowalski}}, \textsc{{Kuesters}}, \textsc{{Lombardo}},
+  \textsc{{Lin}}, \textsc{{Nordin}}, \textsc{{Pain}}, \textsc{{Pecontal}},
+  \textsc{{Pereira}}, \textsc{{Perlmutter}}, \textsc{{Ponder}},
+  \textsc{{Pruzhinskaya}}, \textsc{{Rabinowitz}}, \textsc{{Rigault}},
+  \textsc{{Runge}}, \textsc{{Rubin}}, \textsc{{Saunders}}, \textsc{{Says}},
+  \textsc{{Smadja}}, \textsc{{Sofiatti}}, \textsc{{Suzuki}},
+  \textsc{{Taubenberger}}, \textsc{{Tao}} et \textsc{{Thomas}}}]{leget2020}
+\textsc{{L{\'e}get} P.~F.}, \textsc{{Gangler} E.}, \textsc{{Mondon} F.}
+  {et~al.} 2020, «~{SUGAR: An improved empirical model of Type Ia supernovae
+  based on spectral features}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201834954}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2020A&A...636A..46L}{636, A46}
+
+\bibitem[{\textsc{{Minkowski}}(1941)}]{minkowski1941}
+\textsc{{Minkowski} R.} 1941, «~{Spectra of Supernovae}~»,
+  \href{http://dx.doi.org/10.1086/125315}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/1941PASP...53..224M}{53, 224}
+
+\bibitem[{\textsc{{Pereira}} {et~al.}(2013)\textsc{{Pereira}},
+  \textsc{{Thomas}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
+  \textsc{{Baltay}}, \textsc{{Benitez-Herrera}}, \textsc{{Bongard}},
+  \textsc{{Buton}}, \textsc{{Canto}}, \textsc{{Cellier-Holzem}},
+  \textsc{{Chen}}, \textsc{{Childress}}, \textsc{{Chotard}}, \textsc{{Copin}},
+  \textsc{{Fakhouri}}, \textsc{{Fink}}, \textsc{{Fouchez}}, \textsc{{Gangler}},
+  \textsc{{Guy}}, \textsc{{Hillebrandt}}, \textsc{{Hsiao}},
+  \textsc{{Kerschhaggl}}, \textsc{{Kowalski}}, \textsc{{Kromer}},
+  \textsc{{Nordin}}, \textsc{{Nugent}}, \textsc{{Paech}}, \textsc{{Pain}},
+  \textsc{{P{\'e}contal}}, \textsc{{Perlmutter}}, \textsc{{Rabinowitz}},
+  \textsc{{Rigault}}, \textsc{{Runge}}, \textsc{{Saunders}}, \textsc{{Smadja}},
+  \textsc{{Tao}}, \textsc{{Taubenberger}}, \textsc{{Tilquin}} et
+  \textsc{{Wu}}}]{pereira2013}
+\textsc{{Pereira} R.}, \textsc{{Thomas} R.~C.}, \textsc{{Aldering} G.} {et~al.}
+  2013, «~{Spectrophotometric time series of SN 2011fe from the Nearby
+  Supernova Factory}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201221008}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2013A&A...554A..27P}{554, A27}
+
+\bibitem[{\textsc{{Phillips}}(1993)}]{phillips1993}
+\textsc{{Phillips} M.~M.} 1993, «~{The Absolute Magnitudes of Type IA
+  Supernovae}~»,
+  \href{http://dx.doi.org/10.1086/186970}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/1993ApJ...413L.105P}{413, L105}
+
+\bibitem[{\textsc{{R{\"o}pke}} {et~al.}(2012)\textsc{{R{\"o}pke}},
+  \textsc{{Kromer}}, \textsc{{Seitenzahl}}, \textsc{{Pakmor}}, \textsc{{Sim}},
+  \textsc{{Taubenberger}}, \textsc{{Ciaraldi-Schoolmann}},
+  \textsc{{Hillebrandt}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
+  \textsc{{Baltay}}, \textsc{{Benitez-Herrera}}, \textsc{{Bongard}},
+  \textsc{{Buton}}, \textsc{{Canto}}, \textsc{{Cellier-Holzem}},
+  \textsc{{Childress}}, \textsc{{Chotard}}, \textsc{{Copin}},
+  \textsc{{Fakhouri}}, \textsc{{Fink}}, \textsc{{Fouchez}}, \textsc{{Gangler}},
+  \textsc{{Guy}}, \textsc{{Hachinger}}, \textsc{{Hsiao}}, \textsc{{Chen}},
+  \textsc{{Kerschhaggl}}, \textsc{{Kowalski}}, \textsc{{Nugent}},
+  \textsc{{Paech}}, \textsc{{Pain}}, \textsc{{Pecontal}}, \textsc{{Pereira}},
+  \textsc{{Perlmutter}}, \textsc{{Rabinowitz}}, \textsc{{Rigault}},
+  \textsc{{Runge}}, \textsc{{Saunders}}, \textsc{{Smadja}}, \textsc{{Suzuki}},
+  \textsc{{Tao}}, \textsc{{Thomas}}, \textsc{{Tilquin}} et
+  \textsc{{Wu}}}]{ropke2012}
+\textsc{{R{\"o}pke} F.~K.}, \textsc{{Kromer} M.}, \textsc{{Seitenzahl} I.~R.}
+  {et~al.} 2012, «~{Constraining Type Ia Supernova Models: SN 2011fe as a Test
+  Case}~»,
+  \href{http://dx.doi.org/10.1088/2041-8205/750/1/L19}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2012ApJ...750L..19R}{750, L19}
+
+\bibitem[{\textsc{{Scolnic}} {et~al.}(2018)\textsc{{Scolnic}},
+  \textsc{{Jones}}, \textsc{{Rest}}, \textsc{{Pan}}, \textsc{{Chornock}},
+  \textsc{{Foley}}, \textsc{{Huber}}, \textsc{{Kessler}}, \textsc{{Narayan}},
+  \textsc{{Riess}}, \textsc{{Rodney}}, \textsc{{Berger}}, \textsc{{Brout}},
+  \textsc{{Challis}}, \textsc{{Drout}}, \textsc{{Finkbeiner}},
+  \textsc{{Lunnan}}, \textsc{{Kirshner}}, \textsc{{Sanders}},
+  \textsc{{Schlafly}}, \textsc{{Smartt}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{Wood-Vasey}}, \textsc{{Foley}}, \textsc{{Hand}}, \textsc{{Johnson}},
+  \textsc{{Burgett}}, \textsc{{Chambers}}, \textsc{{Draper}},
+  \textsc{{Hodapp}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Bresolin}},
+  \textsc{{Gall}}, \textsc{{Kotak}}, \textsc{{McCrum}} et
+  \textsc{{Smith}}}]{scolnic2018}
+\textsc{{Scolnic} D.~M.}, \textsc{{Jones} D.~O.}, \textsc{{Rest} A.} {et~al.}
+  2018, «~{The Complete Light-curve Sample of Spectroscopically Confirmed SNe
+  Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon
+  Sample}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
+
+\bibitem[{\textsc{{Tripp}}(1998)}]{tripp1998}
+\textsc{{Tripp} R.} 1998, «~{A two-parameter luminosity correction for Type IA
+  supernovae}~», \aap,
+  \href{https://ui.adsabs.harvard.edu/abs/1998A&A...331..815T}{331, 815}
+
+\bibitem[{\textsc{{Webbink}}(1984)}]{webbink1984}
+\textsc{{Webbink} R.~F.} 1984, «~{Double white dwarfs as progenitors of R
+  Coronae Borealis stars and type I supernovae.}~»,
+  \href{http://dx.doi.org/10.1086/161701}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1984ApJ...277..355W}{277, 355}
+
+\bibitem[{\textsc{{Whelan}} et \textsc{{Iben}}(1973)}]{whelan1973}
+\textsc{{Whelan} J.} et \textsc{{Iben}, Icko J.} 1973, «~{Binaries and
+  Supernovae of Type I}~»,
+  \href{http://dx.doi.org/10.1086/152565}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1973ApJ...186.1007W}{186, 1007}
 
 \end{thebibliography}

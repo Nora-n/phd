@@ -7,6 +7,8 @@
 \RequirePackage[utf8x]{inputenc}
 \RequirePackage[T1]{fontenc}
 \RequirePackage[french]{babel}
+% Pour l'alphabet phonétique international TIPA
+\RequirePackage{tipa}
 % Enlever l'espace après la virgule pour les nombres
 \RequirePackage{icomma}
 \frenchbsetup{StandardLists=true}
@@ -208,6 +210,10 @@
   separate-uncertainty,         % x ± dx
   retain-explicit-plus,         % p.ex. +45°
   angle-symbol-over-decimal,    % p.ex. 0.''11
+  range-units=brackets,         % (0 to 40) m
+  open-bracket= [,
+  close-bracket= ],
+  range-phrase=\textup{--},     % 0--40 m
 }
 \def\Lsun{L\ensuremath{_{\odot}}}
 \def\Rsun{R\ensuremath{_{\odot}}}

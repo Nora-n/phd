@@ -142,8 +142,8 @@ l'espace-temps en fonction de l'énergie qui y est appliquée.
 
 \subsection{Métrique FLRW en univers plat}\label{ssec:cons}
 
-Les formalisme mathématique nécessaire pour décrire des espaces courbés en
-quatre dimensions utilise des objets définis par la géométrie différentielles,
+Le formalisme mathématique nécessaire pour décrire des espaces courbés en
+quatre dimensions utilise des objets définis par la géométrie différentielle,
 notamment les tenseurs. Ce sont des augmentations des matrices de rotation et
 translation en 3D, qui associent à une grandeur sur une dimension une
 combinaison des autres. Dans la pratique classique de la physique, nous
@@ -155,7 +155,7 @@ d'un espace orthonormé qui vérifie\footnote{c'est le théorème de
 \end{equation}
 avec $\d p = p'-p$ pour $p = x,$ $y$ ou $z$, et nous pouvons définir de manière
 indépendante un durée $\d t$ entre deux événements survenant à $t$ et $t'$ telle
-que $\d t = t'-t$. Nous écrivons de manière compacte pour la première
+que $\d t = t'-t$. Nous écrivons de manière compacte pour la première équation~:
 \begin{equation}
     (\d L)^2 = \d w^T\left(\begin{array}{c c c}
             1 & 0 & 0\\
@@ -167,8 +167,9 @@ avec $\d w = v-u$ et $\d w^T$ sa transposée. Cette matrice diagonale ne mélang
 pas les dimensions entre elles, et est souvent omise puisqu'elle décrit un effet
 nul sur les coordonnées de l'espace, sans rotation ou translation~: une
 modification de cette matrice traduirait une modification de la géométrie entre
-ces deux points comme un planisphère indique l'échelle à utiliser pour faire
-correspondre une distance du plan à une distance réelle.
+ces deux points. Nous pourrions comparer cela à un planisphère, qui indique
+l'échelle à utiliser pour faire correspondre une distance du plan à une distance
+réelle.
 
 Dans un espace-temps plat à quatre dimensions, la «~distance~» entre deux
 événements caractérisés par $u=(t,x,y,z)$ et $v=(t',x',y',z')$ est notée $\d s$
@@ -245,17 +246,17 @@ mesurée à la réception.
 \subsection{Équations phares et paramètres cosmologiques}\label{ssec:rgeq}
 
 Si $g_{\mu\nu}$ est une grandeur mathématique utile, la réelle courbure physique
-de l'espace-temps est définie par le tenseur d'\textsc{Einstein}, $G_{\mu\nu}$.
-C'est une grandeur physique, continue et dérivable deux fois avec une divergence
-nulle\footnote{autrement dit, qui conserve le volume}, qui est nulle quand la
-courbure est nulle (redonnant les équations de \textsc{Newton} aux limites
-classiques) et qui dépend de $g_{\mu\nu}$. Dans le formalisme de la relativité
-générale, la courbure de l'espace-temps en un point est reliée à l'énergie en ce
-point~; notamment, la masse (que nous pouvons définir en énergie) courbe
-l'espace pour créer l'effet de gravitation. Cette énergie est définie par un
-autre tenseur $T_{\mu\nu}$, appelé «~énergie-impulsion~», également une grandeur
-physique de divergence nulle. Ces grandeurs sont alors reliées par l'équation
-d'\textsc{Einstein}~:
+de l'espace-temps est définie par le tenseur d'\textsc{Einstein}, $G_{\mu\nu}$,
+construit à partir de $g_{\mu\nu}$. C'est une grandeur physique, continue et
+dérivable deux fois avec une divergence nulle\footnote{autrement dit, qui
+conserve le volume}, qui est égale à 0 quand la courbure est nulle (redonnant
+les équations de \textsc{Newton} aux limites classiques). Dans le formalisme de
+la relativité générale, la courbure de l'espace-temps en un point est reliée à
+l'énergie en ce point~; notamment, la masse (que nous pouvons définir en
+énergie) courbe l'espace pour créer l'effet de gravitation. Cette énergie est
+définie par un autre tenseur $T_{\mu\nu}$, appelé «~énergie-impulsion~»,
+également une grandeur physique de divergence nulle. Ces grandeurs sont alors
+reliées par l'équation d'\textsc{Einstein}~:
 \begin{equation}\label{eq:ein}
     G_{\mu\nu} = \frac{8\pi\mathcal{G}}{c^4}T_{\mu\nu}
 \end{equation}
@@ -311,8 +312,8 @@ caractérisé par l'équation de conservation
     \dot{\rho} = -\frac{3H}{c^2}\rho(1+w)
 \end{equation}
 avec $w \triangleq\footnote{signifie «~égal par définition~»} p/\rho c^2$ le
-paramètre d'état du fluide en question. En effet, de cette équation
-différentielle nous déduisons
+paramètre d'état du fluide en question. En effet, après résolution de cette
+équation différentielle nous déduisons
 \begin{equation}\label{eq:rho}
     \rho(t) \propto a(t)^{-3(1+w)}
 \end{equation}
@@ -334,7 +335,7 @@ et le fluide présentera des comportements variés selon la valeur de $w$~:
 
     \item si $w=-1$, c'est-à-dire $p < 0$, nous aurions alors $\rho \propto a^0
         = \text{constante}$. Ce paramètre d'état décrirait alors un fluide à
-        pression négative mais dont la densité d'énergie de se dilue pas avec le
+        pression négative mais dont la densité d'énergie ne se dilue pas avec le
         facteur d'échelle… autrement dit, un comportement qui pourrait convenir
         pour décrire l'effet énergétique de la constante cosmologique~; nous
         qualifions une telle forme d'énergie de «~sombre~».
@@ -355,7 +356,7 @@ définir une densité dite «~critique~»~:
     \rho_c = \frac{3c^2H_0{}^2}{8\pi\mathcal{G}}
 \end{equation}
 et ainsi, selon la nature des fluides composant l'Univers, nous séparons les
-différents $\rho$ pour obtenir la forme
+différents types de densités $\rho$ pour obtenir la forme~:
 \begin{equation}
     H^2 \triangleq \left( \frac{\dot{a}}{a} \right)^2 =
     H_0{}^2 \left[ \frac{\rho_R(t_0)}{\rho_c}\frac{\rho_R}{\rho_R(t_0)} +
@@ -365,7 +366,8 @@ différents $\rho$ pour obtenir la forme
 \end{equation}
 
 Comme $\rho_R \propto a^{-4}$, $\DS\frac{\rho_R}{\rho_R(t_0)} =
-\frac{a_0}{a}^4$, et de même $\DS\frac{\rho_M}{\rho_M(t_0)} = \frac{a_0}{a}^3$~;
+\left(\frac{a_0}{a}\right)^4$, et de même $\DS\frac{\rho_M}{\rho_M(t_0)} =
+\left(\frac{a_0}{a}^3\right)$~;
 nous pouvons donc réécrire
 \begin{equation}
     H^2 \triangleq \left( \frac{\dot{a}}{a} \right)^2 =
@@ -383,9 +385,24 @@ et finalement obtenir, avec l'équation~\ref{eq:z}~:
 en notant $\Omega_X \triangleq \DS \frac{\rho_X(t_0)}{\rho_c}$ pour $X = R$ ou
 $M$, et $\Omega_\Lambda = \DS \frac{\Lambda c^2}{3 H_0{}^2}$. Ce sont ces
 densités réduites, dont la somme est égale à 1 par construction (autrement dit,
-$\sum_i \Omega_i = 1$) que nous appelons \textit{paramètres cosmologiques}~; ils
+$\sum_i \Omega_i = 1$) que nous appelons «~paramètres cosmologiques~»~; ils
 constituent avec $H_0$ la base de l'histoire et de l'évolution de l'Univers
 étant donné qu'ils caractérisent la variation du taux d'expansion (au carré).
+Nous présentons Figure~\ref{fig:aevol} différentes évolutions du facteur
+d'échelle selon la répartition énergétique de l'Univers.
+
+\sidecaptionvpos{figure}{c}
+\begin{SCfigure}[1][ht]
+    \centering
+    \includegraphics[width=.5\linewidth]{aevol_o}
+    \caption[Évolution du facteur d'échelle en fonction de la répartition
+    énergétique de l'Univers]{Évolution du facteur d'échelle en fonction de la
+        répartition énergétique de l'Univers. Le temps est indiqué par rapport à
+        aujourd'hui (facteur d'échelle = 1). Les premiers modèles impliquent un
+        Univers en expansion éternelle, le dernier un Univers qui s'effondrera
+    sous l'effet de la masse.}\label{fig:aevol}
+\end{SCfigure}
+\sidecaptionvpos{figure}{t}
 
 \subsection{Modèle standard de la cosmologie~: \lcdm}\label{sec:MS}
 
@@ -420,7 +437,7 @@ détaillons le principe de ces mesures dans la section suivante).
 \end{SCfigure}
 
 Cette mesure implique la découverte de l'expansion accélérée de l'Univers, étant
-donné qu'aucune autre forme d'énergie de rivalise actuellement avec celle-ci et
+donné qu'aucune autre forme d'énergie ne rivalise actuellement avec celle-ci et
 que, contrairement aux autres, sa densité ne se dilue pas avec le temps~;
 autrement dit, l'Univers est voué, sauf preuve du contraire, à s'étendre
 indéfiniment en isolant les structures qui ne sont pas en interaction
@@ -442,7 +459,7 @@ de ces paramètres cosmologiques \textit{via} le fonds diffus cosmologique
 baryons (\textit{Baryon Acoustic Oscillations}, BAO) notamment. Ce modèle, dit
 «~standard~», décrit un Univers plat constitué de matière
 sombre\footnote{c'est-à-dire une forme d'énergie similaire à la matière, avec un
-    comportement gravitationnel attractif et un paramètre d'état $w=0$ mais
+    comportement gravitationnel attractif et un paramètre d'état $w=0$, mais
     invisible par rayonnement électromagnétique et n'interagissant pas avec la
 matière ordinaire non plus} froide\footnote{nous entendons par là
     non-relativiste, c'est-à-dire se déplaçant à des vitesses faibles devant
@@ -582,7 +599,11 @@ de luminosité par~:
 \end{equation}
 
 C'est cette distance-là qui est utilisée dans l'équation~\ref{eq:f} pour
-déterminer le flux d'un astre lumineux.
+déterminer le flux d'un astre lumineux. Sa dépendance avec le redshift
+implique qu'à bas redshift, nous pouvons prendre au premier ordre en $z$~:
+\begin{equation}\label{eq:dlz0}
+    d_L \underset{z \ll 1}{=} \frac{zc}{H_0}
+\end{equation}
 
 \subsection{Intérêt des supernovae de type Ia}\label{ssec:intsne}
 
@@ -590,12 +611,17 @@ Nous pouvons commencer à entrevoir que la mesure du flux d'un astre pourrait
 permettre de contraindre les paramètres cosmologiques $\Omega_i$ de
 l'équation~\ref{eq:dl}. Nous utilisons cependant d'autres grandeurs reliées au
 flux émis pour exprimer ce que nous mesurons~: les magnitudes. La magnitude
-apparente $m$ d'un objet émettant un flux $F$ est exprimée \textit{via} la
-relation définie dans~\cite{pogson1856}~:
+apparente $m$ d'un objet émettant un flux $F$ est définie \textit{via} la
+relation de~\cite{pogson1856}~:
 \begin{equation}\label{eq:m}
     m = -2,5\log \left(F\right) + \text{cst} =
     -2,5\log \left( \frac{L}{4\pi d^2} \right) + \text{cst}
 \end{equation}
+Elle s'exprime en magnitudes (de symbole «~mag~») et, par construction, augmente
+quand la luminosité diminue\footnote{le Soleil a une magnitude apparente de
+    -\SI{26.74}{mag}~; la pleine Lune de -\SI{12}{mag}~; l'œil humain peut
+    percevoir jusqu'à \SI{6}{mag} sans pollution lumineuse~; le télescope
+spatiale \textsc{Hubble} a comme limite \SI{32}{mag}}.
 
 D'une part, $L$ n'est pas connue et mesurable \textit{a priori}, mais d'autre
 part cette constante n'est pas définie. Pour s'en restreindre, nous pouvons
@@ -655,14 +681,32 @@ dans cette étude. Nous pouvons distinguer trois raisons majeurs pour cela~:
         lumière quand l'Univers était approximativement moitié plus jeune}$ avec
         des télescopes sur Terre)~; c'est important puisque plus nous avons des
         points de mesure variés sur la distance $d_L$, plus nous aurons de
-        contraintes sur les paramètres cosmologiques~;
+        contraintes sur les paramètres cosmologiques. Notamment, pour $z \ll
+        1$ l'équation~\ref{eq:dlz0} implique que leur module de distance ne
+        dépend que de $H_0$, ce qui permet de contraindre ce paramètre
+        indépendamment des autres~;
 
     \item enfin, étant des événements explosifs survenant à la fin de vie de
         certaines étoiles, leur nombre augmente naturellement avec le temps,
         permettant une augmentation continue de possibles points de mesure.
 \end{enumerate}
 
-Nous discutons dans le chapitre suivant les définitions et caractéristiques de
+Ces caractéristiques sont à l'origine de leur utilisation
+par~\cite{perlmutter1999}, permettant de déterminer que l'Univers est composé à
+$\approx$ 70\% d'énergie sombre (voir Figure~\ref{fig:perlm_w}).
+
+\begin{figure}[]
+    \centering
+    \includegraphics[width=\linewidth]{perlmutter_sne-w}
+    \caption[Diagramme de \textsc{Hubble} avec les 42 SNe~Ia historiques de
+    1999]{(a)~: diagramme de \textsc{Hubble} avec les 42 SNe~Ia historiques
+        utilisées par~\cite{perlmutter1999} d'où provient la figure. (b)~:
+        résidus de \textsc{Hubble} (différence de la magnitude mesurée avec le
+        meilleur modèle ajusté). (c)~: écart à la valeur attendue du modèle en
+    prenant en compte les erreurs de mesure.}\label{fig:perlm_w}
+\end{figure}
+
+Nous discutons dans le chapitre suivant des définitions et caractéristiques de
 ces astres afin d'en cerner les avantages d'une part mais également les limites
 d'autre part.
 

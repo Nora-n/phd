@@ -209,15 +209,15 @@ En dehors de la masse à l'instant $t_0$ de l'observation, le taux de formation
 stellaire (en anglais \textit{stellar formation rate}, SFR), exprimé en unité de
 masses solaires formées par année (c'est-à-dire \si{\Msun.an^{-1}}), se trouve
 être une caractéristique cruciale pour décrire les propriétés des étoiles d'une
-galaxie. Son estimation se base sur l'émission de raies H$\alpha$, l'un des
+galaxie. Son estimation se base sur l'émission de raies $H\alpha$, l'un des
 indicateurs traditionnellement les plus utilisés pour mesurer le SFR
 \citep{kennicutt1998}. Il repose sur le fait que les étoiles massives ($\gtrsim
 \SI{20}{\Msun}$) génèrent des photons ultra-violets (donc à haute énergie)
 capables d'ioniser les gaz d'hydrogène de leur environnement
 \citep{calzetti2013} en grande quantité. Ces atomes excités vont ensuite se
 recombiner, produisant diverses raies d'émission dont certaines dans la série de
-\textsc{Balmer}, fournissant les raies H$\alpha$ dont la longueur d'onde dans le
-vide est $\lambda_{\mathrm{H}\alpha} = \SI{656.5}{nm}$. L'étude de cette raie
+\textsc{Balmer}, fournissant les raies $H\alpha$ dont la longueur d'onde dans le
+vide est $\lambda_{H\alpha} = \SI{656.5}{nm}$. L'étude de cette raie
 permet l'estimation de la formation stellaire du fait que les étoiles massives
 ont une courte durée de vie, à l'échelle de millions d'années, et que leur
 capacité à générer de tels photons décroît très rapidement~: le flux généré
@@ -227,10 +227,10 @@ présence d'hydrogène ionisé est donc un indicateur direct de la présence de
 formation stellaire \textit{via} la correspondance donnée
 dans~\cite{calzetti2013}:
 \begin{equation}\label{eq:sfrha}
-    \mathrm{SFR}(\mathrm{H}\alpha)\,[\si{\Msun.an^{-1}}] =
-    5,45\times 10^{-42}L(\mathrm{H}\a)\,[\si{erg.s^{-1}}]
+    \mathrm{SFR}(H\alpha)\,[\si{\Msun.an^{-1}}] =
+    5,45\times 10^{-42}L(H\a)\,[\si{erg.s^{-1}}]
 \end{equation}
-avec $L(\mathrm{H}\alpha)$ la luminosité des raies d'émission, obtenue par un
+avec $L(H\alpha)$ la luminosité des raies d'émission, obtenue par un
 ajustement spectral.
 
 \subsection{Taux de formation stellaire spécifique
@@ -478,12 +478,12 @@ traceur des propriétés des SNe~Ia que les autres.
 \subsection{Implications en cosmologie moderne}\label{ssec:mcosmo}
 
 Cette correction en fonction de la masse est actuellement utilisée pour corriger
-les SNe~Ia qui sont utilisées dans la détermination de H$_0$. En effet, la
-mesure directe de H$_0$ se base sur la mesure de distances avec les SNe~Ia,
+les SNe~Ia qui sont utilisées dans la détermination de $H_0$. En effet, la
+mesure directe de $H_0$ se base sur la mesure de distances avec les SNe~Ia,
 comme nous avons pu le voir dans le Chapitre~\ref{ch:cosmo}, mais celle-ci doit
 être calibrée en premier lieu. Pour cela, l'équipe \textit{Supernovae and
-$\mathrm{H}_0$ for the Equation of State of dark energy}~\citep[SH0ES,
-Supernovae et H$_0$ pour l'équation d'état de l'énergie sombre][]{riess2021}
+$H_0$ for the Equation of State of dark energy}~\citep[SH0ES,
+Supernovae et $H_0$ pour l'équation d'état de l'énergie sombre][]{riess2021}
 utilise des céphéides, de jeunes étoiles parmi les plus brillantes et dont la
 magnitude absolue varie périodiquement~; l'étude de cette loi magnitude-période
 en permet la calibration et donc l'ancrage d'une première distance.
@@ -492,14 +492,14 @@ SH0ES applique cette étude pour des galaxies à la fois hôtes de céphéides e
 SNe~Ia, calibrant ainsi la distance des SNe~Ia en fonction de leur magnitude.
 Cependant, l'environnement de ces galaxies est particulier, et est corrigée par
 l'équipe en utilisant la standardisation en magnitude basée sur la masse~; ceci
-augmente la valeur de H$_0$ de \SI{0.3}{km.s^{-1}.Mpc^{-1}} par rapport à une
-absence de standardisation, pour une valeur finale de $\mathrm{H}_0 =
+augmente la valeur de $H_0$ de \SI{0.3}{km.s^{-1}.Mpc^{-1}} par rapport à une
+absence de standardisation, pour une valeur finale de $H_0 =
 \SI{73.04\pm1.04}{km.s^{-1}.Mpc^{-1}}$. Ce résultat, pourtant d'une qualité
 d'étude irréfutable, est en désaccord à 5$\sigma$\footnote{c'est-à-dire qu'il
     n'y a qu'une chance sur 1 million que ces deux valeurs soient cohérentes et
 que les mesures différentes soient le résultat d'une incertitude de calcul}
 avec la mesure indirecte du programme \textit{Planck}+$\Lambda$CDM
-\citep{planck2018}, tout aussi irréfutablement précis, donnant $\mathrm{H}_0 =
+\citep{planck2018}, tout aussi irréfutablement précis, donnant $H_0 =
 \SI{67.4\pm0.5}{km.s^{-1}.Mpc^{-1}}$~; cette tension est au cœur de
 nombreuses discussions sur l'origine des différences.
 
@@ -507,7 +507,7 @@ L'utilisation de la marche de magnitude basée sur l'âge permet de réduire cet
 incohérence étant donné que dans ces galaxies environ 95\% des environnements
 sont jeunes~; ainsi, \cite{rigault2015} proposent l'utilisation de cette
 corrélation âge-magnitude qui induirait sur la plus récente valeur une réduction
-de \num{-1.94} sur la mesure directe, amenant la valeur à $\mathrm{H}_0 =
+de \num{-1.94} sur la mesure directe, amenant la valeur à $H_0 =
 \SI{71.10\pm1.04}{km.s^{-1}.Mpc^{-1}}$ et réduisant la tension. Cet exemple
 permet de mesurer l'importance de la considération de l'environnement des SNe~Ia
 dans leur correcte utilisation cosmologique.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  6 JUL 2022 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  8 JUL 2022 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -93,7 +93,19 @@ Package babel Info: Making ? an active character on input line 414.
 )) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
-) (/usr/share/texlive/texmf-dist/tex/latex/was/icomma.sty
+) (/usr/share/texmf/tex/latex/tipa/tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+ (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+ (/usr/share/texmf/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 357.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))) (/usr/share/texlive/texmf-dist/tex/latex/was/icomma.sty
 Package: icomma 2002/03/10 v2.0 (WaS)
 ) (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
@@ -142,7 +154,8 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 \cp@tempcnt=\count105
 ) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
- (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks22
@@ -152,8 +165,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -2342,6 +2354,12 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 15.
+ (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
@@ -2354,6 +2372,9 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    ... okay on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+T3\textscriptg already defined.
+
+fontencoding T3 patched
 )
 LaTeX Info: Redefining \degres on input line 15.
 LaTeX Info: Redefining \dots on input line 15.
@@ -3412,7 +3433,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]) (../chapters/13_introduction.tex [7] [8
 
-] [9])
+] [9]
+Overfull \hbox (12.12047pt too wide) in paragraph at lines 107--113
+\T1/cmr/m/n/12 (-20) les ré-sul-tats prin-ci-paux sont vi-sibles sur son site : [][]https://www.alpheratz.fr/linguistique/genre-
+ []
+
+)
 Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM main.toc on input line 22.
 Package minitoc Info: I0033
@@ -3459,7 +3485,7 @@ Package minitoc Info: I0033
 
 ] [12]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 93.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 90.
  [13])
 \tf@toc=\write7
 \openout7 = `main.toc'.
@@ -3563,34 +3589,56 @@ Chapitre I.
 (./main.mtc1) [1
 
 ] [2] [3] [4] [5] [6]
+<../figures/aevol_o.pdf, id=715, 461.02365pt x 346.77519pt>
+File: ../figures/aevol_o.pdf Graphic file (type pdf)
+<use ../figures/aevol_o.pdf>
+Package pdftex.def Info: ../figures/aevol_o.pdf  used on input line 397.
+(pdftex.def)             Requested size: 227.62206pt x 171.21242pt.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\spacefactor' on input line 386.
+(hyperref)                removing `\spacefactor' on input line 407.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@m' on input line 386.
+(hyperref)                removing `\@m' on input line 407.
 
-<../figures/scolnic_snlambda.png, id=702, 1052.93375pt x 1050.92625pt>
+<../figures/scolnic_snlambda.png, id=723, 1052.93375pt x 1050.92625pt>
 File: ../figures/scolnic_snlambda.png Graphic file (type png)
 <use ../figures/scolnic_snlambda.png>
-Package pdftex.def Info: ../figures/scolnic_snlambda.png  used on input line 407.
+Package pdftex.def Info: ../figures/scolnic_snlambda.png  used on input line 428.
 (pdftex.def)             Requested size: 273.14923pt x 272.62502pt.
-[7] [8 <../figures/scolnic_snlambda.png>]
-<../figures/scolnic_combined.png, id=738, 1053.9375pt x 1058.95625pt>
+[7]
+Underfull \vbox (badness 1655) has occurred while \output is active []
+
+ [8 <../figures/aevol_o.pdf> <../figures/scolnic_snlambda.png>]
+<../figures/scolnic_combined.png, id=786, 1053.9375pt x 1058.95625pt>
 File: ../figures/scolnic_combined.png Graphic file (type png)
 <use ../figures/scolnic_combined.png>
-Package pdftex.def Info: ../figures/scolnic_combined.png  used on input line 463.
+Package pdftex.def Info: ../figures/scolnic_combined.png  used on input line 497.
 (pdftex.def)             Requested size: 273.14923pt x 274.44958pt.
- [9 <../figures/scolnic_combined.png>] [10]
+
+Underfull \vbox (badness 6542) has occurred while \output is active []
+
+ [9] [10 <../figures/scolnic_combined.png>] [11] [12]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 698.
+
+<../figures/perlmutter_sne-w.png, id=875, 1000.73875pt x 1169.36874pt>
+File: ../figures/perlmutter_sne-w.png Graphic file (type png)
+<use ../figures/perlmutter_sne-w.png>
+Package pdftex.def Info: ../figures/perlmutter_sne-w.png  used on input line 700.
+(pdftex.def)             Requested size: 455.24411pt x 531.95656pt.
+[13] [14 <../figures/perlmutter_sne-w.png>]
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
  (./main.mlf1)
 Package minitoc Info: I0006
-(minitoc)             main.mlt1 is empty on input line 536.
-) (../chapters/02_sne.tex [11] [12
+(minitoc)             main.mlt1 is empty on input line 721.
+) (../chapters/02_sne.tex [15] [16
 
 ]
 Chapitre II.
@@ -3598,35 +3646,96 @@ Chapitre II.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc2) [13]
+(./main.mtc2) [17]
+<../figures/fourmanoit_sne.png, id=934, 1040.88875pt x 750.805pt>
+File: ../figures/fourmanoit_sne.png Graphic file (type png)
+<use ../figures/fourmanoit_sne.png>
+Package pdftex.def Info: ../figures/fourmanoit_sne.png  used on input line 65.
+(pdftex.def)             Requested size: 364.19667pt x 262.69403pt.
+
+Underfull \hbox (badness 1874) in paragraph at lines 79--79
+[][][]\T1/cmr/m/n/10 (+20) .[][]il est usuel d'ex-pri-mer les masses des corps par rap-port à celle du So-leil : $\OML/cmm/m/it/10 M[] \OT1/cmr/m/n/10 (+20) =
+ []
+
+[18 <../figures/fourmanoit_sne.png>] [19]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 154.
+
+<../figures/2011fe_lightcurves.pdf, id=994, 597.23125pt x 845.1575pt>
+File: ../figures/2011fe_lightcurves.pdf Graphic file (type pdf)
+<use ../figures/2011fe_lightcurves.pdf>
+Package pdftex.def Info: ../figures/2011fe_lightcurves.pdf  used on input line 158.
+(pdftex.def)             Requested size: 455.24411pt x 247.18962pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 191.
+
+<../figures/2011fe_spectro.pdf, id=1004, 597.23125pt x 845.1575pt>
+File: ../figures/2011fe_spectro.pdf Graphic file (type pdf)
+<use ../figures/2011fe_spectro.pdf>
+Package pdftex.def Info: ../figures/2011fe_spectro.pdf  used on input line 195.
+(pdftex.def)             Requested size: 455.24411pt x 608.3527pt.
+[20]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 36.
- [14]
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 234.
+ [21 <../figures/2011fe_lightcurves.pdf>] [22 <../figures/2011fe_spectro.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 276.
+
+<../figures/lc_JLA.pdf, id=1048, 857.77109pt x 505.12016pt>
+File: ../figures/lc_JLA.pdf Graphic file (type pdf)
+<use ../figures/lc_JLA.pdf>
+Package pdftex.def Info: ../figures/lc_JLA.pdf  used on input line 280.
+(pdftex.def)             Requested size: 218.51521pt x 128.67676pt.
+<../figures/colorstretch_corr_JLA.pdf, id=1049, 870.5221pt x 502.68074pt>
+File: ../figures/colorstretch_corr_JLA.pdf Graphic file (type pdf)
+<use ../figures/colorstretch_corr_JLA.pdf>
+Package pdftex.def Info: ../figures/colorstretch_corr_JLA.pdf  used on input line 286.
+(pdftex.def)             Requested size: 218.51521pt x 126.1761pt.
+[23]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 327.
+
+<../figures/hd_panth.pdf, id=1082, 442.05101pt x 441.86841pt>
+File: ../figures/hd_panth.pdf Graphic file (type pdf)
+<use ../figures/hd_panth.pdf>
+Package pdftex.def Info: ../figures/hd_panth.pdf  used on input line 329.
+(pdftex.def)             Requested size: 364.19667pt x 364.06049pt.
+[24 <../figures/lc_JLA.pdf> <../figures/colorstretch_corr_JLA.pdf
+
+pdfTeX warning: pdflatex (file ../figures/colorstretch_corr_JLA.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [25 <../figures/hd_panth.pdf>]
+\openout4 = `main.mtc'.
+
+\openout4 = `main.mtc'.
+
+ (./main.mlf2)
 Package minitoc Info: I0006
-(minitoc)             main.mlf2 is empty on input line 51.
-Package minitoc Info: I0006
-(minitoc)             main.mlt2 is empty on input line 53.
-) (../chapters/03_env.tex
+(minitoc)             main.mlt2 is empty on input line 363.
+) (../chapters/03_env.tex [26]
 Chapitre III.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc3) [15
+(./main.mtc3) [27
 
 ]
-<../figures/hubble_gmorph.png, id=832, 1893.0725pt x 815.045pt>
+<../figures/hubble_gmorph.png, id=1459, 1893.0725pt x 815.045pt>
 File: ../figures/hubble_gmorph.png Graphic file (type png)
 <use ../figures/hubble_gmorph.png>
 Package pdftex.def Info: ../figures/hubble_gmorph.png  used on input line 80.
 (pdftex.def)             Requested size: 455.24411pt x 196.00032pt.
- [16 <../figures/hubble_gmorph.png>]
-<../figures/m87.pdf, id=850, 614.295pt x 794.97pt>
+ [28 <../figures/hubble_gmorph.png>]
+<../figures/m87.pdf, id=1478, 614.295pt x 794.97pt>
 File: ../figures/m87.pdf Graphic file (type pdf)
 <use ../figures/m87.pdf>
 Package pdftex.def Info: ../figures/m87.pdf  used on input line 120.
 (pdftex.def)             Requested size: 130.58205pt x 142.26378pt.
-<../figures/NGC3147.png, id=852, 2007.5pt x 1833.85126pt>
+<../figures/NGC3147.png, id=1480, 2007.5pt x 1833.85126pt>
 File: ../figures/NGC3147.png Graphic file (type png)
 <use ../figures/NGC3147.png>
 Package pdftex.def Info: ../figures/NGC3147.png  used on input line 128.
@@ -3636,40 +3745,40 @@ Overfull \hbox (10.05136pt too wide) in paragraph at lines 128--130
  [][] 
  []
 
-<../figures/IZ18.jpg, id=853, 671.50874pt x 748.7975pt>
+<../figures/IZ18.jpg, id=1481, 671.50874pt x 748.7975pt>
 File: ../figures/IZ18.jpg Graphic file (type jpg)
 <use ../figures/IZ18.jpg>
 Package pdftex.def Info: ../figures/IZ18.jpg  used on input line 136.
 (pdftex.def)             Requested size: 127.57774pt x 142.26378pt.
-[17 <../figures/m87.pdf> <../figures/NGC3147.png> <../figures/IZ18.jpg>] [18]
-<../figures/deltaz_hist.pdf, id=929, 411.4159pt x 222.40985pt>
+[29 <../figures/m87.pdf> <../figures/NGC3147.png> <../figures/IZ18.jpg>] [30]
+<../figures/deltaz_hist.pdf, id=1557, 411.4159pt x 222.40985pt>
 File: ../figures/deltaz_hist.pdf Graphic file (type pdf)
 <use ../figures/deltaz_hist.pdf>
 Package pdftex.def Info: ../figures/deltaz_hist.pdf  used on input line 288.
 (pdftex.def)             Requested size: 364.19667pt x 196.8853pt.
- [19]
-<../figures/x1gmorph.jpeg, id=949, 299.55914pt x 115.99335pt>
+ [31]
+<../figures/x1gmorph.jpeg, id=1576, 299.55914pt x 115.99335pt>
 File: ../figures/x1gmorph.jpeg Graphic file (type jpg)
 <use ../figures/x1gmorph.jpeg>
 Package pdftex.def Info: ../figures/x1gmorph.jpeg  used on input line 312.
 (pdftex.def)             Requested size: 134.82553pt x 142.26378pt.
-<../figures/rigault_x1vM.pdf, id=959, 597.23125pt x 845.1575pt>
+<../figures/rigault_x1vM.pdf, id=1586, 597.23125pt x 845.1575pt>
 File: ../figures/rigault_x1vM.pdf Graphic file (type pdf)
 <use ../figures/rigault_x1vM.pdf>
 Package pdftex.def Info: ../figures/rigault_x1vM.pdf  used on input line 324.
 (pdftex.def)             Requested size: 182.62111pt x 142.26378pt.
-<../figures/roman_ghub.png, id=973, 1176.395pt x 940.51375pt>
+<../figures/roman_ghub.png, id=1600, 1176.395pt x 940.51375pt>
 File: ../figures/roman_ghub.png Graphic file (type png)
 <use ../figures/roman_ghub.png>
 Package pdftex.def Info: ../figures/roman_ghub.png  used on input line 386.
 (pdftex.def)             Requested size: 227.62206pt x 181.97151pt.
- [20 <../figures/deltaz_hist.pdf>]
-<../figures/rigault_ahub-cut.png, id=1004, 1707.37875pt x 927.465pt>
+ [32 <../figures/deltaz_hist.pdf>]
+<../figures/rigault_ahub-cut.png, id=1625, 1707.37875pt x 927.465pt>
 File: ../figures/rigault_ahub-cut.png Graphic file (type png)
 <use ../figures/rigault_ahub-cut.png>
 Package pdftex.def Info: ../figures/rigault_ahub-cut.png  used on input line 438.
 (pdftex.def)             Requested size: 209.51395pt x 113.81102pt.
-<../figures/rigault_ghub.png, id=1005, 1896.08376pt x 849.1725pt>
+<../figures/rigault_ghub.png, id=1626, 1896.08376pt x 849.1725pt>
 File: ../figures/rigault_ghub.png Graphic file (type png)
 <use ../figures/rigault_ghub.png>
 Package pdftex.def Info: ../figures/rigault_ghub.png  used on input line 444.
@@ -3679,13 +3788,13 @@ Overfull \hbox (35.59341pt too wide) in paragraph at lines 444--445
  [][] 
  []
 
-[21 <../figures/x1gmorph.jpeg> <../figures/rigault_x1vM.pdf>] [22 <../figures/roman_ghub.png>]
-<../figures/model_base_hist-nomodel.pdf, id=1046, 486.55167pt x 255.0512pt>
+[33 <../figures/x1gmorph.jpeg> <../figures/rigault_x1vM.pdf>] [34 <../figures/roman_ghub.png>]
+<../figures/model_base_hist-nomodel.pdf, id=1667, 486.55167pt x 255.0512pt>
 File: ../figures/model_base_hist-nomodel.pdf Graphic file (type pdf)
 <use ../figures/model_base_hist-nomodel.pdf>
 Package pdftex.def Info: ../figures/model_base_hist-nomodel.pdf  used on input line 526.
 (pdftex.def)             Requested size: 364.19667pt x 190.9182pt.
- [23 <../figures/rigault_ahub-cut.png> <../figures/rigault_ghub.png>] [24 <../figures/model_base_hist-nomodel.pdf>]
+ [35 <../figures/rigault_ahub-cut.png> <../figures/rigault_ghub.png>] [36 <../figures/model_base_hist-nomodel.pdf>]
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
@@ -3693,41 +3802,40 @@ Package pdftex.def Info: ../figures/model_base_hist-nomodel.pdf  used on input l
  (./main.mlf3)
 Package minitoc Info: I0006
 (minitoc)             main.mlt3 is empty on input line 578.
-) (../chapters/04_surveys.tex [25
+) (../chapters/04_surveys.tex [37
 
-] [26
+] [38
 
 ]
 Chapitre IV.
-[27]
+[39]
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
- (./main.mtc4) [28]
-<../figures/bands_SNF.pdf, id=1173, 404.80768pt x 301.15501pt>
+ (./main.mtc4) [40]
+<../figures/bands_SNF.pdf, id=1792, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNF.pdf Graphic file (type pdf)
 <use ../figures/bands_SNF.pdf>
 Package pdftex.def Info: ../figures/bands_SNF.pdf  used on input line 107.
 (pdftex.def)             Requested size: 200.30852pt x 149.01935pt.
-<../figures/2011fe_lightcurves.pdf, id=1178, 597.23125pt x 845.1575pt>
 File: ../figures/2011fe_lightcurves.pdf Graphic file (type pdf)
 <use ../figures/2011fe_lightcurves.pdf>
 Package pdftex.def Info: ../figures/2011fe_lightcurves.pdf  used on input line 118.
 (pdftex.def)             Requested size: 245.82875pt x 133.48036pt.
- [29] [30 <../figures/2011fe_lightcurves.pdf> <../figures/bands_SNF.pdf>]
-<../figures/hist_SNF_zxc.pdf, id=1225, 731.13103pt x 225.24101pt>
+ [41] [42 <../figures/bands_SNF.pdf>]
+<../figures/hist_SNF_zxc.pdf, id=1839, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNF_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNF_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SNF_zxc.pdf  used on input line 204.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
- [31 <../figures/hist_SNF_zxc.pdf>]
-<../figures/bands_SDSS.pdf, id=1262, 404.80768pt x 301.15501pt>
+ [43 <../figures/hist_SNF_zxc.pdf>]
+<../figures/bands_SDSS.pdf, id=1876, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SDSS.pdf Graphic file (type pdf)
 <use ../figures/bands_SDSS.pdf>
 Package pdftex.def Info: ../figures/bands_SDSS.pdf  used on input line 254.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_2005gg.pdf, id=1267, 406.34096pt x 296.715pt>
+<../figures/lc_2005gg.pdf, id=1881, 406.34096pt x 296.715pt>
 File: ../figures/lc_2005gg.pdf Graphic file (type pdf)
 <use ../figures/lc_2005gg.pdf>
 Package pdftex.def Info: ../figures/lc_2005gg.pdf  used on input line 261.
@@ -3735,54 +3843,50 @@ Package pdftex.def Info: ../figures/lc_2005gg.pdf  used on input line 261.
 
 Underfull \vbox (badness 3590) has occurred while \output is active []
 
- [32 <../figures/bands_SDSS.pdf> <../figures/lc_2005gg.pdf>]
-
-LaTeX Warning: Reference `sec:salt' on page 33 undefined on input line 355.
-
-[33]
-<../figures/hist_SDSS_zxc.pdf, id=1359, 731.13103pt x 225.24101pt>
+ [44 <../figures/bands_SDSS.pdf> <../figures/lc_2005gg.pdf>] [45]
+<../figures/hist_SDSS_zxc.pdf, id=1973, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SDSS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SDSS_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SDSS_zxc.pdf  used on input line 364.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-<../figures/bands_PS1.pdf, id=1373, 404.80768pt x 301.15501pt>
+<../figures/bands_PS1.pdf, id=1987, 404.80768pt x 301.15501pt>
 File: ../figures/bands_PS1.pdf Graphic file (type pdf)
 <use ../figures/bands_PS1.pdf>
 Package pdftex.def Info: ../figures/bands_PS1.pdf  used on input line 411.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_550041.pdf, id=1378, 406.34096pt x 296.715pt>
+<../figures/lc_550041.pdf, id=1992, 406.34096pt x 296.715pt>
 File: ../figures/lc_550041.pdf Graphic file (type pdf)
 <use ../figures/lc_550041.pdf>
 Package pdftex.def Info: ../figures/lc_550041.pdf  used on input line 418.
 (pdftex.def)             Requested size: 223.07211pt x 162.8904pt.
- [34 <../figures/hist_SDSS_zxc.pdf>]
+ [46 <../figures/hist_SDSS_zxc.pdf>]
 Underfull \vbox (badness 1210) has occurred while \output is active []
 
- [35 <../figures/bands_PS1.pdf> <../figures/lc_550041.pdf>] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-34.def
+ [47 <../figures/bands_PS1.pdf> <../figures/lc_550041.pdf>] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
 )
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 489.
 
-<../figures/hist_PS1_zxc.pdf, id=1470, 731.13103pt x 225.24101pt>
+<../figures/hist_PS1_zxc.pdf, id=2084, 731.13103pt x 225.24101pt>
 File: ../figures/hist_PS1_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_PS1_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_PS1_zxc.pdf  used on input line 520.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-[36]
-<../figures/bands_SNLS.pdf, id=1500, 404.80768pt x 301.15501pt>
+[48]
+<../figures/bands_SNLS.pdf, id=2113, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNLS.pdf Graphic file (type pdf)
 <use ../figures/bands_SNLS.pdf>
 Package pdftex.def Info: ../figures/bands_SNLS.pdf  used on input line 570.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_04D1hx.pdf, id=1505, 406.34096pt x 296.715pt>
+<../figures/lc_04D1hx.pdf, id=2118, 406.34096pt x 296.715pt>
 File: ../figures/lc_04D1hx.pdf Graphic file (type pdf)
 <use ../figures/lc_04D1hx.pdf>
 Package pdftex.def Info: ../figures/lc_04D1hx.pdf  used on input line 577.
 (pdftex.def)             Requested size: 223.07211pt x 162.8904pt.
- [37 <../figures/hist_PS1_zxc.pdf>]
-<../figures/hist_SNLS_zxc.pdf, id=1547, 731.13103pt x 225.24101pt>
+ [49 <../figures/hist_PS1_zxc.pdf>]
+<../figures/hist_SNLS_zxc.pdf, id=2160, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNLS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNLS_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SNLS_zxc.pdf  used on input line 618.
@@ -3790,16 +3894,16 @@ Package pdftex.def Info: ../figures/hist_SNLS_zxc.pdf  used on input line 618.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38 <../figures/bands_SNLS.pdf> <../figures/lc_04D1hx.pdf>]
+ [50 <../figures/bands_SNLS.pdf> <../figures/lc_04D1hx.pdf>]
 Underfull \vbox (badness 3039) has occurred while \output is active []
 
- [39 <../figures/hist_SNLS_zxc.pdf>]
-<../figures/bands_HST.pdf, id=1627, 411.85757pt x 301.15501pt>
+ [51 <../figures/hist_SNLS_zxc.pdf>]
+<../figures/bands_HST.pdf, id=2240, 411.85757pt x 301.15501pt>
 File: ../figures/bands_HST.pdf Graphic file (type pdf)
 <use ../figures/bands_HST.pdf>
 Package pdftex.def Info: ../figures/bands_HST.pdf  used on input line 684.
 (pdftex.def)             Requested size: 273.14923pt x 199.73251pt.
- [40 <../figures/bands_HST.pdf>]
+ [52 <../figures/bands_HST.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 717.
@@ -3808,44 +3912,44 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 744.
 
-<../figures/hist_HST_zxc.pdf, id=1657, 731.13103pt x 225.24101pt>
+<../figures/hist_HST_zxc.pdf, id=2270, 731.13103pt x 225.24101pt>
 File: ../figures/hist_HST_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_HST_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_HST_zxc.pdf  used on input line 746.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-[41 <../figures/hist_HST_zxc.pdf>]
-<../figures/hist_LOWZ_zxc.pdf, id=1705, 731.13103pt x 225.24101pt>
+[53 <../figures/hist_HST_zxc.pdf>]
+<../figures/hist_LOWZ_zxc.pdf, id=2318, 731.13103pt x 225.24101pt>
 File: ../figures/hist_LOWZ_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_LOWZ_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_LOWZ_zxc.pdf  used on input line 772.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
- [42 <../figures/hist_LOWZ_zxc.pdf>]
-<../figures/bands_ZTF.pdf, id=1736, 404.80768pt x 301.15501pt>
+ [54 <../figures/hist_LOWZ_zxc.pdf>]
+<../figures/bands_ZTF.pdf, id=2349, 404.80768pt x 301.15501pt>
 File: ../figures/bands_ZTF.pdf Graphic file (type pdf)
 <use ../figures/bands_ZTF.pdf>
 Package pdftex.def Info: ../figures/bands_ZTF.pdf  used on input line 825.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_ZTF19aantarc.pdf, id=1741, 399.29103pt x 296.715pt>
+<../figures/lc_ZTF19aantarc.pdf, id=2354, 399.29103pt x 296.715pt>
 File: ../figures/lc_ZTF19aantarc.pdf Graphic file (type pdf)
 <use ../figures/lc_ZTF19aantarc.pdf>
 Package pdftex.def Info: ../figures/lc_ZTF19aantarc.pdf  used on input line 833.
 (pdftex.def)             Requested size: 223.07211pt x 165.76537pt.
- [43 <../figures/bands_ZTF.pdf> <../figures/lc_ZTF19aantarc.pdf>]
+ [55 <../figures/bands_ZTF.pdf> <../figures/lc_ZTF19aantarc.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 884.
 
-<../figures/hist_ZTF_zxc.pdf, id=1788, 731.13103pt x 225.24101pt>
+<../figures/hist_ZTF_zxc.pdf, id=2400, 731.13103pt x 225.24101pt>
 File: ../figures/hist_ZTF_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_ZTF_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_ZTF_zxc.pdf  used on input line 886.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-<../figures/hist_all_zxc.pdf, id=1791, 507.51895pt x 704.10483pt>
+<../figures/hist_all_zxc.pdf, id=2403, 507.51895pt x 704.10483pt>
 File: ../figures/hist_all_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_all_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_all_zxc.pdf  used on input line 903.
 (pdftex.def)             Requested size: 364.19667pt x 505.27905pt.
-[44 <../figures/hist_ZTF_zxc.pdf>] [45 <../figures/hist_all_zxc.pdf>] [46]
+[56 <../figures/hist_ZTF_zxc.pdf>] [57 <../figures/hist_all_zxc.pdf>] [58]
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
@@ -3855,7 +3959,7 @@ Package pdftex.def Info: ../figures/hist_all_zxc.pdf  used on input line 903.
 
 \openout4 = `main.mtc'.
 
- (./main.mlt4)) (../chapters/05_sample.tex [47] [48
+ (./main.mlt4)) (../chapters/05_sample.tex [59] [60
 
 ]
 Chapitre V.
@@ -3863,67 +3967,64 @@ Chapitre V.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc5) [49] [50] [51]
-<../figures/zmax_method_snls-01.pdf, id=1927, 499.71544pt x 253.45119pt>
+(./main.mtc5) [61] [62] [63]
+<../figures/zmax_method_snls-01.pdf, id=2540, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-01.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-01.pdf>
 Package pdftex.def Info: ../figures/zmax_method_snls-01.pdf  used on input line 200.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
-<../figures/zmax_method_snls-02.pdf, id=1928, 499.71544pt x 253.45119pt>
+<../figures/zmax_method_snls-02.pdf, id=2541, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-02.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-02.pdf>
 Package pdftex.def Info: ../figures/zmax_method_snls-02.pdf  used on input line 207.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
- [52]
-<../figures/zmax_method_results.pdf, id=1942, 518.83969pt x 356.1977pt>
+ [64]
+<../figures/zmax_method_results.pdf, id=2555, 518.83969pt x 356.1977pt>
 File: ../figures/zmax_method_results.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_results.pdf>
 Package pdftex.def Info: ../figures/zmax_method_results.pdf  used on input line 271.
 (pdftex.def)             Requested size: 318.66948pt x 218.7858pt.
- [53 <../figures/zmax_method_snls-01.pdf> <../figures/zmax_method_snls-02.pdf>]
-
-LaTeX Warning: Reference `eq:mxc' on page 54 undefined on input line 301.
-
-<../figures/zmax_maglim_snls.pdf, id=1986, 536.6527pt x 345.17519pt>
+ [65 <../figures/zmax_method_snls-01.pdf> <../figures/zmax_method_snls-02.pdf>]
+<../figures/zmax_maglim_snls.pdf, id=2600, 536.6527pt x 345.17519pt>
 File: ../figures/zmax_maglim_snls.pdf Graphic file (type pdf)
 <use ../figures/zmax_maglim_snls.pdf>
 Package pdftex.def Info: ../figures/zmax_maglim_snls.pdf  used on input line 317.
 (pdftex.def)             Requested size: 432.48051pt x 278.1841pt.
-[54 <../figures/zmax_method_results.pdf>] [55 <../figures/zmax_maglim_snls.pdf>]
-<../figures/speceff-all.pdf, id=2044, 468.07358pt x 340.17519pt>
+ [66 <../figures/zmax_method_results.pdf>] [67 <../figures/zmax_maglim_snls.pdf>]
+<../figures/speceff-all.pdf, id=2655, 468.07358pt x 340.17519pt>
 File: ../figures/speceff-all.pdf Graphic file (type pdf)
 <use ../figures/speceff-all.pdf>
 Package pdftex.def Info: ../figures/speceff-all.pdf  used on input line 366.
 (pdftex.def)             Requested size: 227.62206pt x 165.42596pt.
-<../figures/snls_malmquist.png, id=2068, 1531.7225pt x 1056.94875pt>
+<../figures/snls_malmquist.png, id=2679, 1531.7225pt x 1056.94875pt>
 File: ../figures/snls_malmquist.png Graphic file (type png)
 <use ../figures/snls_malmquist.png>
 Package pdftex.def Info: ../figures/snls_malmquist.png  used on input line 392.
 (pdftex.def)             Requested size: 227.62206pt x 157.06784pt.
-<../figures/ps1_malmquist.png, id=2078, 1253.68375pt x 829.0975pt>
+<../figures/ps1_malmquist.png, id=2689, 1253.68375pt x 829.0975pt>
 File: ../figures/ps1_malmquist.png Graphic file (type png)
 <use ../figures/ps1_malmquist.png>
 Package pdftex.def Info: ../figures/ps1_malmquist.png  used on input line 411.
 (pdftex.def)             Requested size: 227.62206pt x 150.52151pt.
- [56 <../figures/speceff-all.pdf>]
-<../figures/sdss_malmquist.png, id=2118, 1279.78125pt x 866.23625pt>
+ [68 <../figures/speceff-all.pdf>]
+<../figures/sdss_malmquist.png, id=2729, 1279.78125pt x 866.23625pt>
 File: ../figures/sdss_malmquist.png Graphic file (type png)
 <use ../figures/sdss_malmquist.png>
 Package pdftex.def Info: ../figures/sdss_malmquist.png  used on input line 438.
 (pdftex.def)             Requested size: 227.62206pt x 154.06532pt.
- [57 <../figures/snls_malmquist.png> <../figures/ps1_malmquist.png> <../figures/sdss_malmquist.png>]
-<../figures/hist_surveys_cuts_nospace.pdf, id=2135, 444.45978pt x 431.2856pt>
+ [69 <../figures/snls_malmquist.png> <../figures/ps1_malmquist.png> <../figures/sdss_malmquist.png>]
+<../figures/hist_surveys_cuts_nospace.pdf, id=2745, 444.45978pt x 431.2856pt>
 File: ../figures/hist_surveys_cuts_nospace.pdf Graphic file (type pdf)
 <use ../figures/hist_surveys_cuts_nospace.pdf>
 Package pdftex.def Info: ../figures/hist_surveys_cuts_nospace.pdf  used on input line 512.
 (pdftex.def)             Requested size: 364.19667pt x 353.41298pt.
-<../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf, id=2146, 360.651pt x 301.90685pt>
+<../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf, id=2756, 360.651pt x 301.90685pt>
 File: ../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf>
 Package pdftex.def Info: ../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf  used on input line 541.
 (pdftex.def)             Requested size: 432.48051pt x 362.06065pt.
- [58] [59 <../figures/hist_surveys_cuts_nospace.pdf>] [60 <../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf>]
-<../figures/both-cut_SDSS_SNLS_PS1.pdf, id=2211, 511.96727pt x 263.33275pt>
+ [70] [71 <../figures/hist_surveys_cuts_nospace.pdf>] [72 <../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf>]
+<../figures/both-cut_SDSS_SNLS_PS1.pdf, id=2822, 511.96727pt x 263.33275pt>
 File: ../figures/both-cut_SDSS_SNLS_PS1.pdf Graphic file (type pdf)
 <use ../figures/both-cut_SDSS_SNLS_PS1.pdf>
 Package pdftex.def Info: ../figures/both-cut_SDSS_SNLS_PS1.pdf  used on input line 612.
@@ -3931,22 +4032,22 @@ Package pdftex.def Info: ../figures/both-cut_SDSS_SNLS_PS1.pdf  used on input li
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [73]
 Underfull \vbox (badness 1389) has occurred while \output is active []
 
- [62 <../figures/both-cut_SDSS_SNLS_PS1.pdf>]
-<../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf, id=2255, 360.651pt x 301.90685pt>
+ [74 <../figures/both-cut_SDSS_SNLS_PS1.pdf>]
+<../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf, id=2865, 360.651pt x 301.90685pt>
 File: ../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf>
 Package pdftex.def Info: ../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf  used on input line 715.
 (pdftex.def)             Requested size: 364.19667pt x 304.89586pt.
- [63 <../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf>]
-<../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf, id=2287, 544.93951pt x 301.90685pt>
+ [75 <../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf>]
+<../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf, id=2898, 544.93951pt x 301.90685pt>
 File: ../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf>
 Package pdftex.def Info: ../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf  used on input line 747.
 (pdftex.def)             Requested size: 500.77129pt x 277.43518pt.
- [64 <../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf>]
+ [76 <../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf>]
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
@@ -3956,9 +4057,9 @@ Package pdftex.def Info: ../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf  used 
 
 \openout4 = `main.mtc'.
 
- (./main.mlt5)) (../chapters/06_stretch.tex [65
+ (./main.mlt5)) (../chapters/06_stretch.tex [77
 
-] [66
+] [78
 
 ]
 Chapitre VI.
@@ -3966,34 +4067,31 @@ Chapitre VI.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc6) [67]
-
-LaTeX Warning: Reference `ssec:snf' on page 68 undefined on input line 54.
-
-<../figures/model_base_hist.pdf, id=2367, 486.55167pt x 255.0512pt>
+(./main.mtc6) [79]
+<../figures/model_base_hist.pdf, id=2978, 486.55167pt x 255.0512pt>
 File: ../figures/model_base_hist.pdf Graphic file (type pdf)
 <use ../figures/model_base_hist.pdf>
 Package pdftex.def Info: ../figures/model_base_hist.pdf  used on input line 72.
 (pdftex.def)             Requested size: 455.24411pt x 238.64677pt.
-[68 <../figures/model_base_hist.pdf>]
+ [80 <../figures/model_base_hist.pdf>]
 Overfull \hbox (20.13852pt too wide) in paragraph at lines 119--122
 []\T1/cmr/m/n/12 (-20) L'estimation du maxi-mum de vrai-sem-blance des cinq pa-ra-mètres libres $[] \OMS/cmsy/m/n/12 ^^Q \OT1/cmr/m/n/12 (-20) ([])$
  []
 
-[69]
-<../figures/stretchevol_all-oth_vs_snf-weighted.pdf, id=2414, 530.03967pt x 340.17519pt>
+[81]
+<../figures/stretchevol_all-oth_vs_snf-weighted.pdf, id=3026, 530.03967pt x 340.17519pt>
 File: ../figures/stretchevol_all-oth_vs_snf-weighted.pdf Graphic file (type pdf)
 <use ../figures/stretchevol_all-oth_vs_snf-weighted.pdf>
 Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_snf-weighted.pdf  used on input line 203.
 (pdftex.def)             Requested size: 455.24411pt x 292.17122pt.
- [70] [71 <../figures/stretchevol_all-oth_vs_snf-weighted.pdf>]
-<../figures/mod_comp.pdf, id=2472, 355.69597pt x 255.87701pt>
+ [82] [83 <../figures/stretchevol_all-oth_vs_snf-weighted.pdf>]
+<../figures/mod_comp.pdf, id=3084, 355.69597pt x 255.87701pt>
 File: ../figures/mod_comp.pdf Graphic file (type pdf)
 <use ../figures/mod_comp.pdf>
 Package pdftex.def Info: ../figures/mod_comp.pdf  used on input line 342.
 (pdftex.def)             Requested size: 455.24411pt x 327.49413pt.
- [72] [73 <../figures/mod_comp.pdf>] [74] [75]
-<../figures/model_all_evol.pdf, id=2552, 731.13103pt x 1020.21103pt>
+ [84] [85 <../figures/mod_comp.pdf>] [86] [87]
+<../figures/model_all_evol.pdf, id=3164, 731.13103pt x 1020.21103pt>
 File: ../figures/model_all_evol.pdf Graphic file (type pdf)
 <use ../figures/model_all_evol.pdf>
 Package pdftex.def Info: ../figures/model_all_evol.pdf  used on input line 537.
@@ -4002,10 +4100,7 @@ Package pdftex.def Info: ../figures/model_all_evol.pdf  used on input line 537.
 
 LaTeX Warning: Float too large for page by 65.94391pt on input line 562.
 
-
-LaTeX Warning: Reference `sec:pmod' on page 76 undefined on input line 565.
-
-<../figures/mod_comp_zonly.pdf, id=2558, 355.69597pt x 253.91283pt>
+<../figures/mod_comp_zonly.pdf, id=3171, 355.69597pt x 253.91283pt>
 File: ../figures/mod_comp_zonly.pdf Graphic file (type pdf)
 <use ../figures/mod_comp_zonly.pdf>
 Package pdftex.def Info: ../figures/mod_comp_zonly.pdf  used on input line 633.
@@ -4013,23 +4108,23 @@ Package pdftex.def Info: ../figures/mod_comp_zonly.pdf  used on input line 633.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/mod_comp-supercut.pdf, id=2565, 342.79208pt x 255.87701pt>
+<../figures/mod_comp-supercut.pdf, id=3178, 342.79208pt x 255.87701pt>
 File: ../figures/mod_comp-supercut.pdf Graphic file (type pdf)
 <use ../figures/mod_comp-supercut.pdf>
 Package pdftex.def Info: ../figures/mod_comp-supercut.pdf  used on input line 696.
 (pdftex.def)             Requested size: 250.38564pt x 186.90189pt.
-<../figures/mod_comp_6mod.pdf, id=2566, 342.79208pt x 245.82036pt>
+<../figures/mod_comp_6mod.pdf, id=3179, 342.79208pt x 245.82036pt>
 File: ../figures/mod_comp_6mod.pdf Graphic file (type pdf)
 <use ../figures/mod_comp_6mod.pdf>
 Package pdftex.def Info: ../figures/mod_comp_6mod.pdf  used on input line 708.
 (pdftex.def)             Requested size: 250.38564pt x 179.55614pt.
-[76] [77 <../figures/model_all_evol.pdf>] [78 <../figures/mod_comp_zonly.pdf> <../figures/mod_comp-supercut.pdf> <../figures/mod_comp_6mod.pdf>]
-<../figures/bbc_comp_PS1_hist-nr_viridis.pdf, id=3071, 403.14243pt x 282.02518pt>
+[88] [89 <../figures/model_all_evol.pdf>] [90 <../figures/mod_comp_zonly.pdf> <../figures/mod_comp-supercut.pdf> <../figures/mod_comp_6mod.pdf>]
+<../figures/bbc_comp_PS1_hist-nr_viridis.pdf, id=3682, 403.14243pt x 282.02518pt>
 File: ../figures/bbc_comp_PS1_hist-nr_viridis.pdf Graphic file (type pdf)
 <use ../figures/bbc_comp_PS1_hist-nr_viridis.pdf>
 Package pdftex.def Info: ../figures/bbc_comp_PS1_hist-nr_viridis.pdf  used on input line 782.
 (pdftex.def)             Requested size: 341.43307pt x 238.86185pt.
- [79] [80 <../figures/bbc_comp_PS1_hist-nr_viridis.pdf>] [81] [82]
+ [91] [92 <../figures/bbc_comp_PS1_hist-nr_viridis.pdf>] [93] [94]
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
@@ -4039,9 +4134,9 @@ Package pdftex.def Info: ../figures/bbc_comp_PS1_hist-nr_viridis.pdf  used on in
 
 \openout4 = `main.mtc'.
 
- (./main.mlt6)) (../chapters/07_snana.tex [83
+ (./main.mlt6)) (../chapters/07_snana.tex [95
 
-] [84
+] [96
 
 ]
 Chapitre VII.
@@ -4051,53 +4146,61 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <20.74> not available
 
 \openout4 = `main.mtc'.
 
-(./main.mtc7) [85] [86]
+(./main.mtc7
+Overfull \hbox (0.55652pt too wide) detected at line 10
+ [][][]\T1/cmr/bx/n/10.95 104[][]
+ []
+
+) [97] [98]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 144.
+               Default added (so using `tbp') on input line 145.
 
-[87] [88] [89] [90] [91]
-<../figures/snana_layout.pdf, id=3341, 683.0629pt x 1012.30498pt>
+[99] [100] [101] [102] [103]
+<../figures/snana_layout.pdf, id=3952, 683.0629pt x 1012.30498pt>
 File: ../figures/snana_layout.pdf Graphic file (type pdf)
 <use ../figures/snana_layout.pdf>
-Package pdftex.def Info: ../figures/snana_layout.pdf  used on input line 402.
+Package pdftex.def Info: ../figures/snana_layout.pdf  used on input line 405.
 (pdftex.def)             Requested size: 455.24411pt x 674.70358pt.
 
 
-LaTeX Warning: Float too large for page by 64.44453pt on input line 423.
+LaTeX Warning: Float too large for page by 64.44453pt on input line 426.
 
-[92] [93 <../figures/snana_layout.pdf>] [94]
+[104] [105 <../figures/snana_layout.pdf>]
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [106]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 565.
+               Default added (so using `tbp') on input line 569.
 
-<../figures/bbc1D.pdf, id=3527, 132.59337pt x 214.06575pt>
+<../figures/bbc1D.pdf, id=4134, 132.59337pt x 214.06575pt>
 File: ../figures/bbc1D.pdf Graphic file (type pdf)
 <use ../figures/bbc1D.pdf>
-Package pdftex.def Info: ../figures/bbc1D.pdf  used on input line 567.
+Package pdftex.def Info: ../figures/bbc1D.pdf  used on input line 571.
 (pdftex.def)             Requested size: 265.18607pt x 428.13043pt.
-<../figures/matrices.pdf, id=3531, 181.80623pt x 171.93636pt>
+[107]
+<../figures/matrices.pdf, id=4151, 181.80623pt x 171.93636pt>
 File: ../figures/matrices.pdf Graphic file (type pdf)
 <use ../figures/matrices.pdf>
-Package pdftex.def Info: ../figures/matrices.pdf  used on input line 599.
+Package pdftex.def Info: ../figures/matrices.pdf  used on input line 603.
 (pdftex.def)             Requested size: 273.14923pt x 258.35513pt.
-[95] [96 <../figures/bbc1D.pdf>]
-<../figures/matrices_cube.pdf, id=3581, 664.22556pt x 317.24724pt>
+<../figures/matrices_cube.pdf, id=4156, 664.22556pt x 317.24724pt>
 File: ../figures/matrices_cube.pdf Graphic file (type pdf)
 <use ../figures/matrices_cube.pdf>
-Package pdftex.def Info: ../figures/matrices_cube.pdf  used on input line 639.
+Package pdftex.def Info: ../figures/matrices_cube.pdf  used on input line 643.
 (pdftex.def)             Requested size: 364.19667pt x 173.94435pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 659.
+               Default added (so using `tbp') on input line 663.
 
-<../figures/bbc5D.pdf, id=3583, 171.13937pt x 285.59799pt>
+<../figures/bbc5D.pdf, id=4158, 171.13937pt x 285.59799pt>
 File: ../figures/bbc5D.pdf Graphic file (type pdf)
 <use ../figures/bbc5D.pdf>
-Package pdftex.def Info: ../figures/bbc5D.pdf  used on input line 661.
+Package pdftex.def Info: ../figures/bbc5D.pdf  used on input line 665.
 (pdftex.def)             Requested size: 342.27786pt x 571.19458pt.
-[97 <../figures/matrices.pdf>] [98 <../figures/matrices_cube.pdf>] [99 <../figures/bbc5D.pdf>]
+[108] [109 <../figures/bbc1D.pdf>] [110 <../figures/matrices.pdf>] [111 <../figures/matrices_cube.pdf>] [112 <../figures/bbc5D.pdf>]
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
@@ -4107,7 +4210,9 @@ Package pdftex.def Info: ../figures/bbc5D.pdf  used on input line 661.
 
 \openout4 = `main.mtc'.
 
- (./main.mlt7)) (../chapters/08_sims.tex [100
+ (./main.mlt7)) (../chapters/08_sims.tex [113
+
+] [114
 
 ]
 Chapitre VIII.
@@ -4120,42 +4225,40 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1.
 
 Overfull \hbox (0.55652pt too wide) detected at line 1
- [][][]\T1/cmr/bx/n/10.95 102[][]
+ [][][]\T1/cmr/bx/n/10.95 116[][]
  []
 
 
 Overfull \hbox (0.55652pt too wide) detected at line 6
- [][][]\T1/cmr/bx/n/10.95 104[][]
- []
-
-
-Overfull \hbox (0.55652pt too wide) detected at line 13
- [][][]\T1/cmr/bx/n/10.95 112[][]
- []
-
-
-Overfull \hbox (0.55652pt too wide) detected at line 16
  [][][]\T1/cmr/bx/n/10.95 118[][]
  []
 
 
-Overfull \hbox (0.55652pt too wide) detected at line 20
- [][][]\T1/cmr/bx/n/10.95 125[][]
+Overfull \hbox (0.55652pt too wide) detected at line 13
+ [][][]\T1/cmr/bx/n/10.95 126[][]
  []
 
-) [101
 
-]
+Overfull \hbox (0.55652pt too wide) detected at line 16
+ [][][]\T1/cmr/bx/n/10.95 132[][]
+ []
+
+
+Overfull \hbox (0.55652pt too wide) detected at line 20
+ [][][]\T1/cmr/bx/n/10.95 139[][]
+ []
+
+) [115]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 36.
- [102] [103] [104]
-<../figures/model_mass_Howell_hist_SED-nonan.pdf, id=3804, 484.00156pt x 260.0512pt>
+ [116] [117] [118]
+<../figures/model_mass_Howell_hist_SED-nonan.pdf, id=4427, 484.00156pt x 260.0512pt>
 File: ../figures/model_mass_Howell_hist_SED-nonan.pdf Graphic file (type pdf)
 <use ../figures/model_mass_Howell_hist_SED-nonan.pdf>
 Package pdftex.def Info: ../figures/model_mass_Howell_hist_SED-nonan.pdf  used on input line 278.
 (pdftex.def)             Requested size: 455.24411pt x 244.59894pt.
- [105 <../figures/model_mass_Howell_hist_SED-nonan.pdf>]
-<../figures/mass_comp_df-nobug.pdf, id=3838, 342.79208pt x 246.7588pt>
+ [119 <../figures/model_mass_Howell_hist_SED-nonan.pdf>]
+<../figures/mass_comp_df-nobug.pdf, id=4462, 342.79208pt x 246.7588pt>
 File: ../figures/mass_comp_df-nobug.pdf Graphic file (type pdf)
 <use ../figures/mass_comp_df-nobug.pdf>
 Package pdftex.def Info: ../figures/mass_comp_df-nobug.pdf  used on input line 391.
@@ -4168,7 +4271,7 @@ Underfull \hbox (badness 1097) in paragraph at lines 402--402
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/mass_model_all_evol.pdf, id=3841, 731.09268pt x 1020.21103pt>
+<../figures/mass_model_all_evol.pdf, id=4465, 731.09268pt x 1020.21103pt>
 File: ../figures/mass_model_all_evol.pdf Graphic file (type pdf)
 <use ../figures/mass_model_all_evol.pdf>
 Package pdftex.def Info: ../figures/mass_model_all_evol.pdf  used on input line 407.
@@ -4176,48 +4279,48 @@ Package pdftex.def Info: ../figures/mass_model_all_evol.pdf  used on input line 
 
 LaTeX Warning: Float too large for page by 56.50618pt on input line 429.
 
-[106]
-<../figures/model_mass_yfrac-best.pdf, id=3854, 1092.48103pt x 261.376pt>
+[120]
+<../figures/model_mass_yfrac-best.pdf, id=4478, 1092.48103pt x 261.376pt>
 File: ../figures/model_mass_yfrac-best.pdf Graphic file (type pdf)
 <use ../figures/model_mass_yfrac-best.pdf>
 Package pdftex.def Info: ../figures/model_mass_yfrac-best.pdf  used on input line 450.
 (pdftex.def)             Requested size: 546.29153pt x 130.70363pt.
- [107 <../figures/mass_comp_df-nobug.pdf>] [108 <../figures/mass_model_all_evol.pdf>]
+ [121 <../figures/mass_comp_df-nobug.pdf>] [122 <../figures/mass_model_all_evol.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 540.
 
-<../figures/deltaz_hist_yo-random.pdf, id=3907, 406.91185pt x 224.44316pt>
+<../figures/deltaz_hist_yo-random.pdf, id=4528, 406.91185pt x 224.44316pt>
 File: ../figures/deltaz_hist_yo-random.pdf Graphic file (type pdf)
 <use ../figures/deltaz_hist_yo-random.pdf>
 Package pdftex.def Info: ../figures/deltaz_hist_yo-random.pdf  used on input line 542.
 (pdftex.def)             Requested size: 364.19667pt x 200.88393pt.
-[109 <../figures/model_mass_yfrac-best.pdf>] [110 <../figures/deltaz_hist_yo-random.pdf>] [111]
-<../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf, id=3979, 353.24158pt x 356.13101pt>
+[123 <../figures/model_mass_yfrac-best.pdf>] [124 <../figures/deltaz_hist_yo-random.pdf>] [125]
+<../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf, id=4601, 353.24158pt x 356.13101pt>
 File: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf>
 Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf  used on input line 710.
 (pdftex.def)             Requested size: 227.62206pt x 229.48265pt.
- [112 <../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf>]
-<../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf, id=4016, 1164.75104pt x 1164.75104pt>
+ [126 <../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf>]
+<../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf, id=4638, 1164.75104pt x 1164.75104pt>
 File: ../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf>
 Package pdftex.def Info: ../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf  used on input line 754.
 (pdftex.def)             Requested size: 364.19667pt x 364.19708pt.
- [113 <../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf>]
-<../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf, id=4045, 1164.75104pt x 369.781pt>
+ [127 <../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf>]
+<../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf, id=4666, 1164.75104pt x 369.781pt>
 File: ../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf>
 Package pdftex.def Info: ../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf  used on input line 870.
 (pdftex.def)             Requested size: 455.24411pt x 144.52998pt.
- [114]
-<../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf, id=4061, 293.88708pt x 335.58682pt>
+ [128]
+<../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf, id=4682, 293.88708pt x 335.58682pt>
 File: ../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf>
 Package pdftex.def Info: ../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf  used on input line 904.
 (pdftex.def)             Requested size: 227.62206pt x 259.92859pt.
- [115 <../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf>]
-<../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf, id=4088, 874.24603pt x 1453.83104pt>
+ [129 <../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf>]
+<../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf, id=4709, 874.24603pt x 1453.83104pt>
 File: ../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf Graphic file (type pdf)
 <use ../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf>
 Package pdftex.def Info: ../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf  used on input line 966.
@@ -4226,23 +4329,23 @@ Package pdftex.def Info: ../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf  used on 
 
 LaTeX Warning: Float too large for page by 8.82225pt on input line 975.
 
-[116 <../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf>] [117 <../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf>]
-<../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf, id=4198, 360.22792pt x 360.34042pt>
+[130 <../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf>] [131 <../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf>]
+<../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf, id=4820, 360.22792pt x 360.34042pt>
 File: ../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf>
 Package pdftex.def Info: ../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1058.
 (pdftex.def)             Requested size: 218.51521pt x 218.5867pt.
-<../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf, id=4199, 360.22792pt x 360.34042pt>
+<../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf, id=4821, 360.22792pt x 360.34042pt>
 File: ../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf Graphic file (type pdf)
 <use ../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf>
 Package pdftex.def Info: ../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf  used on input line 1066.
 (pdftex.def)             Requested size: 218.51521pt x 218.5867pt.
-<../figures/betafit_covmat_FULL-SNFSUPP_2.pdf, id=4202, 360.22792pt x 360.34042pt>
+<../figures/betafit_covmat_FULL-SNFSUPP_2.pdf, id=4824, 360.22792pt x 360.34042pt>
 File: ../figures/betafit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/betafit_covmat_FULL-SNFSUPP_2.pdf>
 Package pdftex.def Info: ../figures/betafit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1084.
 (pdftex.def)             Requested size: 218.51521pt x 218.5867pt.
-<../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf, id=4203, 360.22792pt x 360.34042pt>
+<../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf, id=4825, 360.22792pt x 360.34042pt>
 File: ../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf>
 Package pdftex.def Info: ../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1092.
@@ -4251,12 +4354,12 @@ Package pdftex.def Info: ../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf  used on 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[118] [119 <../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf> <../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf> <../figures/betafit_covmat_FULL-SNFSUPP_2.pdf> <../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf>]
+[132] [133 <../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf> <../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf> <../figures/betafit_covmat_FULL-SNFSUPP_2.pdf> <../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1182.
 
-<../figures/briday_steps-few.png, id=4266, 1812.7725pt x 1080.035pt>
+<../figures/briday_steps-few.png, id=4888, 1812.7725pt x 1080.035pt>
 File: ../figures/briday_steps-few.png Graphic file (type png)
 <use ../figures/briday_steps-few.png>
 Package pdftex.def Info: ../figures/briday_steps-few.png  used on input line 1184.
@@ -4264,22 +4367,22 @@ Package pdftex.def Info: ../figures/briday_steps-few.png  used on input line 118
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120 <../figures/briday_steps-few.png>]
-<../figures/wfit_covmat_FULL-SNFSUPP_2.pdf, id=4280, 360.22792pt x 360.34042pt>
+ [134 <../figures/briday_steps-few.png>]
+<../figures/wfit_covmat_FULL-SNFSUPP_2.pdf, id=4901, 360.22792pt x 360.34042pt>
 File: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf>
 Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1217.
 (pdftex.def)             Requested size: 227.62206pt x 227.69745pt.
-<../figures/HR_covmat-FULL-SNFSUPP_2.pdf, id=4283, 1164.8232pt x 1164.75104pt>
+<../figures/HR_covmat-FULL-SNFSUPP_2.pdf, id=4904, 1164.8232pt x 1164.75104pt>
 File: ../figures/HR_covmat-FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/HR_covmat-FULL-SNFSUPP_2.pdf>
 Package pdftex.def Info: ../figures/HR_covmat-FULL-SNFSUPP_2.pdf  used on input line 1225.
 (pdftex.def)             Requested size: 455.24411pt x 455.2108pt.
- [121 <../figures/wfit_covmat_FULL-SNFSUPP_2.pdf>] [122 <../figures/HR_covmat-FULL-SNFSUPP_2.pdf>]
+ [135 <../figures/wfit_covmat_FULL-SNFSUPP_2.pdf>] [136 <../figures/HR_covmat-FULL-SNFSUPP_2.pdf>]
 
-Package natbib Warning: Citation `BP' on page 123 undefined on input line 1290.
+Package natbib Warning: Citation `BP' on page 137 undefined on input line 1290.
 
-[123]
+[137]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -4316,12 +4419,12 @@ File: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf>
 Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf  used on input line 1346.
 (pdftex.def)             Requested size: 225.77737pt x 227.62204pt.
-<../figures/snana_diagnostic_fyvM_NRSNF.pdf, id=4345, 353.24158pt x 356.13101pt>
+<../figures/snana_diagnostic_fyvM_NRSNF.pdf, id=4967, 353.24158pt x 356.13101pt>
 File: ../figures/snana_diagnostic_fyvM_NRSNF.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_fyvM_NRSNF.pdf>
 Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNF.pdf  used on input line 1353.
 (pdftex.def)             Requested size: 225.77737pt x 227.62204pt.
-<../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf, id=4346, 353.24158pt x 356.13101pt>
+<../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf, id=4968, 353.24158pt x 356.13101pt>
 File: ../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf>
 Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf  used on input line 1360.
@@ -4330,12 +4433,12 @@ File: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf>
 Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1412.
 (pdftex.def)             Requested size: 227.55492pt x 227.62204pt.
-<../figures/wfit_covmat_FULL-SNF_2.pdf, id=4347, 360.22792pt x 360.34042pt>
+<../figures/wfit_covmat_FULL-SNF_2.pdf, id=4969, 360.22792pt x 360.34042pt>
 File: ../figures/wfit_covmat_FULL-SNF_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SNF_2.pdf>
 Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNF_2.pdf  used on input line 1420.
 (pdftex.def)             Requested size: 227.55492pt x 227.62204pt.
-<../figures/wfit_covmat_FULL-SEDSNF_2.pdf, id=4348, 360.22792pt x 360.34042pt>
+<../figures/wfit_covmat_FULL-SEDSNF_2.pdf, id=4970, 360.22792pt x 360.34042pt>
 File: ../figures/wfit_covmat_FULL-SEDSNF_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SEDSNF_2.pdf>
 Package pdftex.def Info: ../figures/wfit_covmat_FULL-SEDSNF_2.pdf  used on input line 1428.
@@ -4344,12 +4447,12 @@ Package pdftex.def Info: ../figures/wfit_covmat_FULL-SEDSNF_2.pdf  used on input
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[124 <../figures/snana_diagnostic_fyvM_NRSNF.pdf> <../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf> <../figures/wfit_covmat_FULL-SNF_2.pdf> <../figures/wfit_covmat_FULL-SEDSNF_2.pdf>] [125
+[138 <../figures/snana_diagnostic_fyvM_NRSNF.pdf> <../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf> <../figures/wfit_covmat_FULL-SNF_2.pdf> <../figures/wfit_covmat_FULL-SEDSNF_2.pdf>] [139
 
 
 
 
-] [126]
+] [140]
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
@@ -4359,9 +4462,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \openout4 = `main.mtc'.
 
- (./main.mlt8)) (../chapters/09_perspectives.tex [127
+ (./main.mlt8)) (../chapters/09_perspectives.tex [141
 
-] [128
+] [142
 
 ]
 Chapitre IX.
@@ -4371,27 +4474,27 @@ Chapitre IX.
 
 (./main.mtc9
 Overfull \hbox (0.55652pt too wide) detected at line 1
- [][][]\T1/cmr/bx/n/10.95 130[][]
+ [][][]\T1/cmr/bx/n/10.95 144[][]
  []
 
 
 Overfull \hbox (0.55652pt too wide) detected at line 6
- [][][]\T1/cmr/bx/n/10.95 136[][]
+ [][][]\T1/cmr/bx/n/10.95 150[][]
  []
 
-) [129]
-<../figures/model_N21+HD+ZTF_on_ZTF.pdf, id=4506, 403.20764pt x 282.35918pt>
+) [143]
+<../figures/model_N21+HD+ZTF_on_ZTF.pdf, id=5128, 403.20764pt x 282.35918pt>
 File: ../figures/model_N21+HD+ZTF_on_ZTF.pdf Graphic file (type pdf)
 <use ../figures/model_N21+HD+ZTF_on_ZTF.pdf>
 Package pdftex.def Info: ../figures/model_N21+HD+ZTF_on_ZTF.pdf  used on input line 77.
 (pdftex.def)             Requested size: 273.14923pt x 191.2865pt.
- [130 <../figures/model_N21+HD+ZTF_on_ZTF.pdf>] [131]
-<../figures/stretchevol_all-oth_vs_ztf-weighted.pdf, id=4538, 530.03967pt x 340.17519pt>
+ [144 <../figures/model_N21+HD+ZTF_on_ZTF.pdf>] [145]
+<../figures/stretchevol_all-oth_vs_ztf-weighted.pdf, id=5159, 530.03967pt x 340.17519pt>
 File: ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf Graphic file (type pdf)
 <use ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf>
 Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf  used on input line 181.
 (pdftex.def)             Requested size: 455.24411pt x 292.17122pt.
- [132 <../figures/stretchevol_all-oth_vs_ztf-weighted.pdf>]
+ [146 <../figures/stretchevol_all-oth_vs_ztf-weighted.pdf>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -4424,13 +4527,13 @@ Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf  use
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../figures/mod_comp_ztf-fr.pdf, id=4558, 342.79208pt x 270.85168pt>
+<../figures/mod_comp_ztf-fr.pdf, id=5179, 342.79208pt x 270.85168pt>
 File: ../figures/mod_comp_ztf-fr.pdf Graphic file (type pdf)
 <use ../figures/mod_comp_ztf-fr.pdf>
 Package pdftex.def Info: ../figures/mod_comp_ztf-fr.pdf  used on input line 215.
 (pdftex.def)             Requested size: 315.25172pt x 249.09564pt.
- [133 <../figures/mod_comp_ztf-fr.pdf>]
-<../figures/model_N21+ZTF_on_allsurvs.pdf, id=4592, 728.42267pt x 710.84044pt>
+ [147 <../figures/mod_comp_ztf-fr.pdf>]
+<../figures/model_N21+ZTF_on_allsurvs.pdf, id=5213, 728.42267pt x 710.84044pt>
 File: ../figures/model_N21+ZTF_on_allsurvs.pdf Graphic file (type pdf)
 <use ../figures/model_N21+ZTF_on_allsurvs.pdf>
 Package pdftex.def Info: ../figures/model_N21+ZTF_on_allsurvs.pdf  used on input line 322.
@@ -4438,12 +4541,12 @@ Package pdftex.def Info: ../figures/model_N21+ZTF_on_allsurvs.pdf  used on input
 
 Underfull \vbox (badness 1377) has occurred while \output is active []
 
- [134
+ [148
 
 
 
 
-] [135 <../figures/model_N21+ZTF_on_allsurvs.pdf>] [136] [137]
+] [149 <../figures/model_N21+ZTF_on_allsurvs.pdf>] [150] [151]
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
@@ -4453,67 +4556,67 @@ Underfull \vbox (badness 1377) has occurred while \output is active []
 
 \openout4 = `main.mtc'.
 
- (./main.mlt9)) (../chapters/98_conclusions.tex [138
+ (./main.mlt9)) (../chapters/98_conclusions.tex [152
 
-] [139
+] [153
 
 ]) (./main.bbl (./main.brf)
 \tf@brf=\write10
 \openout10 = `main.brf'.
 
- [140] [141
+ [154] [155
 
-] [142] [143] [144] [145] [146] [147] [148]
+] [156] [157] [158] [159] [160] [161] [162] [163]
 
 Package caption Warning: \label without proper reference on input line 466.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:bbc' on page 149 undefined on input line 1931.
+LaTeX Warning: Reference `tab:bbc' on page 164 undefined on input line 2014.
 
 
 Package caption Warning: \label without proper reference on input line 470.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:bbc' on page 149 undefined on input line 1931.
+LaTeX Warning: Reference `tab:bbc' on page 164 undefined on input line 2014.
 
 
 Package caption Warning: \label without proper reference on input line 103.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:skasym' on page 149 undefined on input line 1931.
+LaTeX Warning: Reference `tab:skasym' on page 164 undefined on input line 2014.
 
 
 Package caption Warning: \label without proper reference on input line 513.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:ps1cuts' on page 149 undefined on input line 1973.
+LaTeX Warning: Reference `tab:ps1cuts' on page 164 undefined on input line 2056.
 
 
 Package caption Warning: \label without proper reference on input line 468.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:bbc' on page 149 undefined on input line 1973.
+LaTeX Warning: Reference `tab:bbc' on page 164 undefined on input line 2056.
 
 
 Package caption Warning: \label without proper reference on input line 105.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:skasym' on page 149 undefined on input line 1973.
+LaTeX Warning: Reference `tab:skasym' on page 164 undefined on input line 2056.
 
 
 Package caption Warning: \label without proper reference on input line 153.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:sklowz' on page 149 undefined on input line 1973.
+LaTeX Warning: Reference `tab:sklowz' on page 164 undefined on input line 2056.
 
-[149])
+[164])
 
 Package natbib Warning: There were undefined citations.
 
@@ -4527,14 +4630,14 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[150]
+[165]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 38C6C4D8B4B7268A5D84E491B1A282DD;17523.
+(rerunfilecheck)             Checksum: 7DD77167A36E3E9C8ED2EEB253F3179D;19310.
 
 
 LaTeX Warning: There were undefined references.
@@ -4544,25 +4647,26 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 60359 strings out of 492982
- 1221609 string characters out of 6134895
- 1586277 words of memory out of 5000000
- 61420 multiletter control sequences out of 15000+600000
- 592007 words of font info for 380 fonts, out of 8000000 for 9000
+ 61290 strings out of 492982
+ 1235004 string characters out of 6134895
+ 1598625 words of memory out of 5000000
+ 62215 multiletter control sequences out of 15000+600000
+ 595294 words of font info for 400 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,21n,130p,10407b,2912s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.53} has been referenced but does not exist, replaced by a fixed one
+ 81i,21n,130p,10407b,2921s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.80} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.42} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.66} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.44} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/publ
-ic/tex-gyre/qbkri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (170 pages, 42811269 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/shar
+e/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1728.pfb></usr/share/texmf/fonts/type1/fkr/tipa/tipa10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (185 pages, 43856022 bytes).
 PDF statistics:
- 6013 PDF objects out of 6186 (max. 8388607)
- 4978 compressed objects within 50 object streams
- 735 named destinations out of 1000 (max. 500000)
- 63513 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 6714 PDF objects out of 7423 (max. 8388607)
+ 5379 compressed objects within 54 object streams
+ 808 named destinations out of 1000 (max. 500000)
+ 63536 words of extra memory for PDF output out of 74296 (max. 10000000)
 

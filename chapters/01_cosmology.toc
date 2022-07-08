@@ -7,6 +7,6 @@
 \contentsline {subsection}{\numberline {I.1.4}Mod\IeC {\`e}le standard de la cosmologie~: \ensuremath {\Lambda }CDM\spacefactor \@m {}\relax }{7}{subsection.1.1.4}
 \contentsline {section}{\numberline {I.2}Mesures cosmologiques}{10}{section.1.2}
 \contentsline {subsection}{\numberline {I.2.1}\IeC {\^A}ge de l'Univers}{10}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {I.2.2}Distance de luminosit\IeC {\'e}}{10}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {I.2.3}Int\IeC {\'e}r\IeC {\^e}t des supernovae de type Ia}{11}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {I.2.2}Distance de luminosit\IeC {\'e}}{11}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {I.2.3}Int\IeC {\'e}r\IeC {\^e}t des supernovae de type Ia}{12}{subsection.1.2.3}
 \contentsfinish 
