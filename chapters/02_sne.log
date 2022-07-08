@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  7 JUL 2022 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  8 JUL 2022 10:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3423,17 +3423,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<../figures/fourmanoit_sne.png, id=54, 1040.88875pt x 750.805pt>
-File: ../figures/fourmanoit_sne.png Graphic file (type png)
-<use ../figures/fourmanoit_sne.png>
-Package pdftex.def Info: ../figures/fourmanoit_sne.png  used on input line 34.
-(pdftex.def)             Requested size: 364.19667pt x 262.69403pt.
+
+./02_sne.tex:34: LaTeX Error: File `fourmanoit_sne' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...aphics[width=.8\linewidth]{fourmanoit_sne}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 53.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <../figures/fourmanoit_sne.png>] [3]
+[2]
 \openout4 = `02_sne.mtc'.
 
 \openout4 = `02_sne.mtc'.
@@ -3445,7 +3451,9 @@ Package minitoc Info: I0006
 \tf@brf=\write10
 \openout10 = `02_sne.brf'.
 
- [4])
+ [3] [4
+
+])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 02_sne.maf file.
@@ -3457,9 +3465,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 02_sne.log file.
 
-[5
-
-]
+[5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
  (./02_sne.aux)
@@ -3469,18 +3475,18 @@ Package rerunfilecheck Info: File `02_sne.brf' has not changed.
 (rerunfilecheck)             Checksum: 34AF7C326E3BE403D0425DAD0AE00B07;96.
  ) 
 Here is how much of TeX's memory you used:
- 55928 strings out of 492982
- 1155406 string characters out of 6134895
+ 55936 strings out of 492982
+ 1155321 string characters out of 6134895
  1442246 words of memory out of 5000000
- 58422 multiletter control sequences out of 15000+600000
+ 58418 multiletter control sequences out of 15000+600000
  555039 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,11n,132p,10449b,2386s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb>
-Output written on 02_sne.pdf (5 pages, 289729 bytes).
+Output written on 02_sne.pdf (5 pages, 233896 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
+ 198 PDF objects out of 1000 (max. 8388607)
  169 compressed objects within 2 object streams
  24 named destinations out of 1000 (max. 500000)
- 27778 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 27773 words of extra memory for PDF output out of 29859 (max. 10000000)
 
