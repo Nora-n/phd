@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  8 JUL 2022 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.21)  14 JUL 2022 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -110,7 +110,14 @@ Package: icomma 2002/03/10 v2.0 (WaS)
 ) (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count100
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2012/05/23 Federico Garcia
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read1
+)) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
@@ -147,19 +154,19 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutheight=\dimen111
 \Gm@layouthoffset=\dimen112
 \Gm@layoutvoffset=\dimen113
-\Gm@dimlist=\toks21
-) (/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
+\Gm@dimlist=\toks23
+)
+(/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count104
 \cp@tempcnt=\count105
 ) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
-
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
 )
 \XKV@depth=\count106
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -382,7 +389,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
+\@emptytoks=\toks26
 \ex@=\dimen157
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -410,21 +417,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \dotsspace@=\muskip16
 \c@parentequation=\count271
 \dspbrk@lvl=\count272
-\tag@help=\toks25
+\tag@help=\toks27
 \row@=\count273
 \column@=\count274
 \maxfields@=\count275
-\andhelp@=\toks26
+\andhelp@=\toks28
 \eqnshift@=\dimen160
 \alignsep@=\dimen161
 \tagshift@=\dimen162
 \tagwidth@=\dimen163
 \totwidth@=\dimen164
 \lineht@=\dimen165
-\@envbody=\toks27
+\@envbody=\toks29
 \multlinegap=\skip66
 \multlinetaggap=\skip67
-\mathdisplay@stack=\toks28
+\mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -1443,7 +1450,7 @@ Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \WF@size=\dimen186
 \c@WF@wrappedlines=\count286
 \WF@box=\box48
-\WF@everypar=\toks29
+\WF@everypar=\toks31
 Package: wrapfig 2003/01/31  v 3.6
 ) (/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
@@ -1483,7 +1490,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \aftertitleunit=\skip73
 \ttl@plus=\dimen198
 \ttl@minus=\dimen199
-\ttl@toksa=\toks30
+\ttl@toksa=\toks32
 \titlewidth=\dimen256
 \titlewidthlast=\dimen257
 \titlewidthfirst=\dimen258
@@ -1514,7 +1521,7 @@ Package minitoc Info: I0023
 (minitoc)             part level macros available.
 Package minitoc Info: I0003
 (minitoc)             chapter level macros available.
-\mtc@toks=\toks31
+\mtc@toks=\toks33
 \mtc@strutbox=\box51
 \mtc@hstrutbox=\box52
 Package minitoc Info: I0002
@@ -1545,7 +1552,142 @@ Package minitoc Info: I0010
 File: english.mld 2006/01/13
 ) (/usr/share/texlive/texmf-dist/tex/latex/minitoc/english.mld
 File: english.mld 2006/01/13
-)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/glossaries-extra/glossaries-extra.sty
+Package: glossaries-extra 2018/02/26 v1.27 (NLCT)
+\@glsxtr@docdefval=\count295
+ (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2017/11/14 v4.35 (NLCT)
+ (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+\@glsmfirst=\toks34
+\@glsmrest=\toks35
+) (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2017/11/12 v2.29 (NLCT)
+ (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count296
+) (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2017/11/12 v2.29 (NLCT)
+ (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count297
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count298
+\FP@xia=\count299
+\FP@xib=\count300
+\FP@xfa=\count301
+\FP@xfb=\count302
+\FP@rega=\count303
+\FP@regb=\count304
+\FP@regs=\count305
+\FP@times=\count306
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count307
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks36
+\@dtl@tmpcount=\count308
+\dtl@tmplength=\skip81
+\dtl@sortresult=\count309
+\@dtl@numgrpsepcount=\count310
+\@dtl@datatype=\count311
+\dtl@codeA=\count312
+\dtl@codeB=\count313
+\@dtl@foreach@level=\count314
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
+Package: glossaries-compatible-307 2017/11/14 v4.35 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2018/02/21 v1.3.5 (NLCT) Track Languages
+ (/usr/share/texlive/texmf-dist/tex/generic/tracklang/tracklang.tex)) (/usr/share/texlive/texmf-dist/tex/latex/glossaries-french/glossaries-french.ldf
+File: glossaries-french.ldf 2016/12/12 v1.1
+)
+\gls@level=\count315
+\@gls@tmpb=\toks37
+\gls@tmplen=\skip82
+\glskeylisttok=\toks38
+\glslabeltok=\toks39
+\glsshorttok=\toks40
+\glslongtok=\toks41
+ (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2017/11/14 v4.35 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2017/11/14 v4.35 (NLCT)
+\glslistdottedwidth=\skip83
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2017/11/14 v4.35 (NLCT)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip84
+\LTright=\skip85
+\LTpre=\skip86
+\LTpost=\skip87
+\LTchunksize=\count316
+\LTcapwidth=\dimen260
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@cols=\count317
+\LT@rows=\count318
+\c@LT@tables=\count319
+\c@LT@chunks=\count320
+\LT@p@ftn=\toks42
+)
+\glsdescwidth=\skip88
+\glspagelistwidth=\skip89
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2017/11/14 v4.35 (NLCT)
+ (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count321
+\ST@wd=\dimen261
+\ST@rightskip=\skip90
+\ST@leftskip=\skip91
+\ST@parfillskip=\skip92
+\ST@pageleft=\dimen262
+\ST@headht=\dimen263
+\ST@tailht=\dimen264
+\ST@pagesofar=\dimen265
+\ST@pboxht=\dimen266
+\ST@lineht=\dimen267
+\ST@stretchht=\dimen268
+\ST@prevht=\dimen269
+\ST@toadd=\dimen270
+\ST@dimen=\dimen271
+\ST@pbox=\box57
+)) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2017/11/14 v4.35 (NLCT)
+\glstreeindent=\skip93
+))
+\glsxtrresourcecount=\count322
+\@glsxtrnewgls@inner=\count323
+\glsshortpltok=\toks43
+\glslongpltok=\toks44
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -1589,13 +1731,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen260
-\Hy@linkcounter=\count295
-\Hy@pagecounter=\count296
+\@linkdim=\dimen272
+\Hy@linkcounter=\count324
+\Hy@pagecounter=\count325
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count297
+\Hy@SavedSpaceFactor=\count326
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -1604,7 +1746,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
 Package hyperref Info: Option `unicode' set `true' on input line 4383.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO)
 )
 Package hyperref Info: Option `psdextra' set `true' on input line 4383.
@@ -1623,21 +1766,20 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 ))
-\c@Hy@tempcnt=\count298
+\c@Hy@tempcnt=\count327
  (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen261
-\Fld@menulength=\count299
-\Field@Width=\dimen262
-\Fld@charsize=\dimen263
+\XeTeXLinkMargin=\dimen273
+\Fld@menulength=\count328
+\Field@Width=\dimen274
+\Fld@charsize=\dimen275
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -1647,16 +1789,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count300
-\c@Item=\count301
-\c@Hfootnote=\count302
+\Hy@abspage=\count329
+\c@Item=\count330
+\c@Hfootnote=\count331
 )
 Package hyperref Info: Driver: hpdftex.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count303
-\c@bookmark@seq@number=\count304
-\Hy@SectionHShift=\skip81
+\Fld@listcount=\count332
+\c@bookmark@seq@number=\count333
+\Hy@SectionHShift=\skip94
 ) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -1667,16 +1809,16 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen264
-\extrarowheight=\dimen265
-\NC@list=\toks32
-\extratabsurround=\skip82
-\backup@length=\skip83
+\col@sep=\dimen276
+\extrarowheight=\dimen277
+\NC@list=\toks45
+\extratabsurround=\skip95
+\backup@length=\skip96
 )
-\everycr=\toks33
-\minrowclearance=\skip84
+\everycr=\toks46
+\minrowclearance=\skip97
 )
-\rownum=\count305
+\rownum=\count334
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -1693,11 +1835,11 @@ File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
  (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks34
-\pgfutil@tempdima=\dimen266
-\pgfutil@tempdimb=\dimen267
+\pgfutil@everybye=\toks47
+\pgfutil@tempdima=\dimen278
+\pgfutil@tempdimb=\dimen279
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box53
+\pgfutil@abb=\box58
  (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
@@ -1707,111 +1849,111 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
  (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks35
-\pgfkeys@temptoks=\toks36
+\pgfkeys@pathtoks=\toks48
+\pgfkeys@temptoks=\toks49
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks37
+\pgfkeys@tmptoks=\toks50
 ))
-\pgf@x=\dimen268
-\pgf@y=\dimen269
-\pgf@xa=\dimen270
-\pgf@ya=\dimen271
-\pgf@xb=\dimen272
-\pgf@yb=\dimen273
-\pgf@xc=\dimen274
-\pgf@yc=\dimen275
+\pgf@x=\dimen280
+\pgf@y=\dimen281
+\pgf@xa=\dimen282
+\pgf@ya=\dimen283
+\pgf@xb=\dimen284
+\pgf@yb=\dimen285
+\pgf@xc=\dimen286
+\pgf@yc=\dimen287
 \w@pgf@writea=\write5
-\r@pgf@reada=\read1
-\c@pgf@counta=\count306
-\c@pgf@countb=\count307
-\c@pgf@countc=\count308
-\c@pgf@countd=\count309
-\t@pgf@toka=\toks38
-\t@pgf@tokb=\toks39
-\t@pgf@tokc=\toks40
+\r@pgf@reada=\read2
+\c@pgf@counta=\count335
+\c@pgf@countb=\count336
+\c@pgf@countc=\count337
+\c@pgf@countd=\count338
+\t@pgf@toka=\toks51
+\t@pgf@tokb=\toks52
+\t@pgf@tokc=\toks53
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count310
-\pgfsyssoftpath@bigbuffer@items=\count311
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+\pgfsyssoftpath@smallbuffer@items=\count339
+\pgfsyssoftpath@bigbuffer@items=\count340
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen276
-\pgfmath@count=\count312
-\pgfmath@box=\box54
-\pgfmath@toks=\toks41
-\pgfmath@stack@operand=\toks42
-\pgfmath@stack@operation=\toks43
+\pgfmath@dimen=\dimen288
+\pgfmath@count=\count341
+\pgfmath@box=\box59
+\pgfmath@toks=\toks54
+\pgfmath@stack@operand=\toks55
+\pgfmath@stack@operation=\toks56
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count313
+\c@pgfmathroundto@lastzeros=\count342
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen277
-\pgf@picmaxx=\dimen278
-\pgf@picminy=\dimen279
-\pgf@picmaxy=\dimen280
-\pgf@pathminx=\dimen281
-\pgf@pathmaxx=\dimen282
-\pgf@pathminy=\dimen283
-\pgf@pathmaxy=\dimen284
-\pgf@xx=\dimen285
-\pgf@xy=\dimen286
-\pgf@yx=\dimen287
-\pgf@yy=\dimen288
-\pgf@zx=\dimen289
-\pgf@zy=\dimen290
+\pgf@picminx=\dimen289
+\pgf@picmaxx=\dimen290
+\pgf@picminy=\dimen291
+\pgf@picmaxy=\dimen292
+\pgf@pathminx=\dimen293
+\pgf@pathmaxx=\dimen294
+\pgf@pathminy=\dimen295
+\pgf@pathmaxy=\dimen296
+\pgf@xx=\dimen297
+\pgf@xy=\dimen298
+\pgf@yx=\dimen299
+\pgf@yy=\dimen300
+\pgf@zx=\dimen301
+\pgf@zy=\dimen302
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen291
-\pgf@path@lasty=\dimen292
+\pgf@path@lastx=\dimen303
+\pgf@path@lasty=\dimen304
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen293
-\pgf@shorten@start@additional=\dimen294
+\pgf@shorten@end@additional=\dimen305
+\pgf@shorten@start@additional=\dimen306
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box55
-\pgf@hbox=\box56
-\pgf@layerbox@main=\box57
-\pgf@picture@serial@count=\count314
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count343
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen295
+\pgflinewidth=\dimen307
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen296
-\pgf@pt@y=\dimen297
-\pgf@pt@temp=\dimen298
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+\pgf@pt@x=\dimen308
+\pgf@pt@y=\dimen309
+\pgf@pt@temp=\dimen310
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen299
+\pgfarrowsep=\dimen311
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen300
-\pgf@sys@shading@range@num=\count315
+\pgf@max=\dimen312
+\pgf@sys@shading@range@num=\count344
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box58
+\pgfexternal@startupbox=\box63
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -1820,91 +1962,91 @@ File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box59
+\pgfnodeparttextbox=\box64
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen301
-\pgf@nodesepend=\dimen302
+\pgf@nodesepstart=\dimen313
+\pgf@nodesepend=\dimen314
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen303
-\pgffor@skip=\dimen304
-\pgffor@stack=\toks44
-\pgffor@toks=\toks45
+\pgffor@iter=\dimen315
+\pgffor@skip=\dimen316
+\pgffor@stack=\toks57
+\pgffor@toks=\toks58
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count316
-\pgfplotmarksize=\dimen305
+\pgf@plot@mark@count=\count345
+\pgfplotmarksize=\dimen317
 )
-\tikz@lastx=\dimen306
-\tikz@lasty=\dimen307
-\tikz@lastxsaved=\dimen308
-\tikz@lastysaved=\dimen309
-\tikzleveldistance=\dimen310
-\tikzsiblingdistance=\dimen311
-\tikz@figbox=\box60
-\tikz@figbox@bg=\box61
-\tikz@tempbox=\box62
-\tikz@tempbox@bg=\box63
-\tikztreelevel=\count317
-\tikznumberofchildren=\count318
-\tikznumberofcurrentchild=\count319
-\tikz@fig@count=\count320
+\tikz@lastx=\dimen318
+\tikz@lasty=\dimen319
+\tikz@lastxsaved=\dimen320
+\tikz@lastysaved=\dimen321
+\tikzleveldistance=\dimen322
+\tikzsiblingdistance=\dimen323
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count346
+\tikznumberofchildren=\count347
+\tikznumberofcurrentchild=\count348
+\tikz@fig@count=\count349
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count321
-\pgfmatrixcurrentcolumn=\count322
-\pgf@matrix@numberofcolumns=\count323
+\pgfmatrixcurrentrow=\count350
+\pgfmatrixcurrentcolumn=\count351
+\pgf@matrix@numberofcolumns=\count352
 )
-\tikz@expandcount=\count324
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+\tikz@expandcount=\count353
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks46
-\t@pgfplots@tokb=\toks47
-\t@pgfplots@tokc=\toks48
-\pgfplots@tmpa=\dimen312
-\c@pgfplots@coordindex=\count325
-\c@pgfplots@scanlineindex=\count326
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+\t@pgfplots@toka=\toks59
+\t@pgfplots@tokb=\toks60
+\t@pgfplots@tokc=\toks61
+\pgfplots@tmpa=\dimen324
+\c@pgfplots@coordindex=\count354
+\c@pgfplots@scanlineindex=\count355
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary arithmetics for your pgf version...
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count327
+\c@pgfmathroundto@lastzeros=\count356
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count328
+\c@pgfplotsarray@tmp=\count357
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count329
-\t@pgfplotstable@a=\toks49
+\c@pgfplotstable@counta=\count358
+\t@pgfplotstable@a=\toks62
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count330
+\c@pgfplotslibrarysurf@no=\count359
  (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen313
-\pgfdecoratedremainingdistance=\dimen314
-\pgfdecoratedinputsegmentcompleteddistance=\dimen315
-\pgfdecoratedinputsegmentremainingdistance=\dimen316
-\pgf@decorate@distancetomove=\dimen317
-\pgf@decorate@repeatstate=\count331
-\pgfdecorationsegmentamplitude=\dimen318
-\pgfdecorationsegmentlength=\dimen319
+\pgfdecoratedcompleteddistance=\dimen325
+\pgfdecoratedremainingdistance=\dimen326
+\pgfdecoratedinputsegmentcompleteddistance=\dimen327
+\pgfdecoratedinputsegmentremainingdistance=\dimen328
+\pgf@decorate@distancetomove=\dimen329
+\pgf@decorate@repeatstate=\count360
+\pgfdecorationsegmentamplitude=\dimen330
+\pgfdecorationsegmentlength=\dimen331
 )
-\tikz@lib@dec@box=\box64
+\tikz@lib@dec@box=\box69
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count332
-\pgfplots@xmin@reg=\dimen320
-\pgfplots@xmax@reg=\dimen321
-\pgfplots@ymin@reg=\dimen322
-\pgfplots@ymax@reg=\dimen323
-\pgfplots@zmin@reg=\dimen324
-\pgfplots@zmax@reg=\dimen325
+\pgfplots@numplots=\count361
+\pgfplots@xmin@reg=\dimen332
+\pgfplots@xmax@reg=\dimen333
+\pgfplots@ymin@reg=\dimen334
+\pgfplots@ymax@reg=\dimen335
+\pgfplots@zmin@reg=\dimen336
+\pgfplots@zmax@reg=\dimen337
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
@@ -1917,20 +2059,20 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen326
+\arrowsize=\dimen338
 )) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks50
-\MT@count=\count333
+\MT@toks=\toks63
+\MT@count=\count362
 LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen327
+\MT@outer@kern=\dimen339
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count334
+\MT@listname@count=\count363
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 913.
 LaTeX Info: Redefining \lslig on input line 913.
-\MT@outer@space=\skip85
+\MT@outer@space=\skip98
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
@@ -2027,67 +2169,62 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 Package: gensymb 2003/07/02 v1.0 (WaS)
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip86
-\enit@outerparindent=\dimen328
-\enit@toks=\toks51
-\enit@inbox=\box65
-\enitdp@description=\count335
+\labelindent=\skip99
+\enit@outerparindent=\dimen340
+\enit@toks=\toks64
+\enit@inbox=\box70
+\enitdp@description=\count364
 ) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen329
-\lightrulewidth=\dimen330
-\cmidrulewidth=\dimen331
-\belowrulesep=\dimen332
-\belowbottomsep=\dimen333
-\aboverulesep=\dimen334
-\abovetopsep=\dimen335
-\cmidrulesep=\dimen336
-\cmidrulekern=\dimen337
-\defaultaddspace=\dimen338
-\@cmidla=\count336
-\@cmidlb=\count337
-\@aboverulesep=\dimen339
-\@belowrulesep=\dimen340
-\@thisruleclass=\count338
-\@lastruleclass=\count339
-\@thisrulewidth=\dimen341
+\heavyrulewidth=\dimen341
+\lightrulewidth=\dimen342
+\cmidrulewidth=\dimen343
+\belowrulesep=\dimen344
+\belowbottomsep=\dimen345
+\aboverulesep=\dimen346
+\abovetopsep=\dimen347
+\cmidrulesep=\dimen348
+\cmidrulekern=\dimen349
+\defaultaddspace=\dimen350
+\@cmidla=\count365
+\@cmidlb=\count366
+\@aboverulesep=\dimen351
+\@belowrulesep=\dimen352
+\@thisruleclass=\count367
+\@lastruleclass=\count368
+\@thisrulewidth=\dimen353
 ) (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box66
+\@tempboxb=\box71
 ) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip87
-\multirow@cntb=\count340
-\multirow@dima=\skip88
-\bigstrutjot=\dimen342
+\multirow@colwidth=\skip100
+\multirow@cntb=\count369
+\multirow@dima=\skip101
+\bigstrutjot=\dimen354
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count341
-\mult@box=\box67
-\multicol@leftmargin=\dimen343
-\c@unbalance=\count342
-\c@collectmore=\count343
-\doublecol@number=\count344
-\multicoltolerance=\count345
-\multicolpretolerance=\count346
-\full@width=\dimen344
-\page@free=\dimen345
-\premulticols=\dimen346
-\postmulticols=\dimen347
-\multicolsep=\skip89
-\multicolbaselineskip=\skip90
-\partial@page=\box68
-\last@line=\box69
-\maxbalancingoverflow=\dimen348
-\mult@rightbox=\box70
-\mult@grightbox=\box71
-\mult@gfirstbox=\box72
-\mult@firstbox=\box73
-\@tempa=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
+\c@tracingmulticols=\count370
+\mult@box=\box72
+\multicol@leftmargin=\dimen355
+\c@unbalance=\count371
+\c@collectmore=\count372
+\doublecol@number=\count373
+\multicoltolerance=\count374
+\multicolpretolerance=\count375
+\full@width=\dimen356
+\page@free=\dimen357
+\premulticols=\dimen358
+\postmulticols=\dimen359
+\multicolsep=\skip102
+\multicolbaselineskip=\skip103
+\partial@page=\box73
+\last@line=\box74
+\maxbalancingoverflow=\dimen360
+\mult@rightbox=\box75
+\mult@grightbox=\box76
+\mult@gfirstbox=\box77
+\mult@firstbox=\box78
 \@tempa=\box79
 \@tempa=\box80
 \@tempa=\box81
@@ -2100,75 +2237,80 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box88
 \@tempa=\box89
 \@tempa=\box90
-\c@columnbadness=\count347
-\c@finalcolumnbadness=\count348
-\last@try=\dimen349
-\multicolovershoot=\dimen350
-\multicolundershoot=\dimen351
-\mult@nat@firstbox=\box91
-\colbreak@box=\box92
-\mc@col@check@num=\count349
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\c@columnbadness=\count376
+\c@finalcolumnbadness=\count377
+\last@try=\dimen361
+\multicolovershoot=\dimen362
+\multicolundershoot=\dimen363
+\mult@nat@firstbox=\box96
+\colbreak@box=\box97
+\mc@col@check@num=\count378
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
-\TX@col@width=\dimen352
-\TX@old@table=\dimen353
-\TX@old@col=\dimen354
-\TX@target=\dimen355
-\TX@delta=\dimen356
-\TX@cols=\count350
-\TX@ftn=\toks52
+\TX@col@width=\dimen364
+\TX@old@table=\dimen365
+\TX@old@col=\dimen366
+\TX@target=\dimen367
+\TX@delta=\dimen368
+\TX@cols=\count379
+\TX@ftn=\toks65
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count351
-\rotFPtop=\skip91
-\rotFPbot=\skip92
-\rot@float@box=\box93
-\rot@mess@toks=\toks53
+\c@r@tfl@t=\count380
+\rotFPtop=\skip104
+\rotFPbot=\skip105
+\rot@float@box=\box98
+\rot@mess@toks=\toks66
 ) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2017/11/26 v2.7k A comprehensive (SI) units package
  (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box94
-\l__siunitx_tmp_dim=\dimen357
-\l__siunitx_tmp_int=\count352
-\l__siunitx_number_mantissa_length_int=\count353
-\l__siunitx_number_uncert_length_int=\count354
-\l__siunitx_round_int=\count355
-\l__siunitx_process_decimal_int=\count356
-\l__siunitx_process_uncertainty_int=\count357
-\l__siunitx_process_fixed_int=\count358
-\l__siunitx_process_integer_min_int=\count359
-\l__siunitx_process_precision_int=\count360
-\l__siunitx_group_min_int=\count361
-\l__siunitx_angle_marker_box=\box95
-\l__siunitx_angle_unit_box=\box96
-\l__siunitx_angle_marker_dim=\dimen358
-\l__siunitx_angle_unit_dim=\dimen359
-\l__siunitx_unit_int=\count362
-\l__siunitx_unit_denominator_int=\count363
-\l__siunitx_unit_numerator_int=\count364
-\l__siunitx_unit_prefix_int=\count365
-\l__siunitx_unit_prefix_base_int=\count366
-\l__siunitx_unit_prefix_gram_int=\count367
-\l__siunitx_number_product_int=\count368
-\c__siunitx_one_fill_skip=\skip93
-\l__siunitx_table_unit_align_skip=\skip94
-\l__siunitx_table_exponent_dim=\dimen360
-\l__siunitx_table_integer_dim=\dimen361
-\l__siunitx_table_mantissa_dim=\dimen362
-\l__siunitx_table_marker_dim=\dimen363
-\l__siunitx_table_result_dim=\dimen364
-\l__siunitx_table_uncert_dim=\dimen365
-\l__siunitx_table_fill_pre_dim=\dimen366
-\l__siunitx_table_fill_post_dim=\dimen367
-\l__siunitx_table_fill_mid_dim=\dimen368
-\l__siunitx_table_pre_box=\box97
-\l__siunitx_table_post_box=\box98
-\l__siunitx_table_mantissa_box=\box99
-\l__siunitx_table_result_box=\box100
-\l__siunitx_table_number_align_skip=\skip95
-\l__siunitx_table_text_align_skip=\skip96
+\l__siunitx_tmp_box=\box99
+\l__siunitx_tmp_dim=\dimen369
+\l__siunitx_tmp_int=\count381
+\l__siunitx_number_mantissa_length_int=\count382
+\l__siunitx_number_uncert_length_int=\count383
+\l__siunitx_round_int=\count384
+\l__siunitx_process_decimal_int=\count385
+\l__siunitx_process_uncertainty_int=\count386
+\l__siunitx_process_fixed_int=\count387
+\l__siunitx_process_integer_min_int=\count388
+\l__siunitx_process_precision_int=\count389
+\l__siunitx_group_min_int=\count390
+\l__siunitx_angle_marker_box=\box100
+\l__siunitx_angle_unit_box=\box101
+\l__siunitx_angle_marker_dim=\dimen370
+\l__siunitx_angle_unit_dim=\dimen371
+\l__siunitx_unit_int=\count391
+\l__siunitx_unit_denominator_int=\count392
+\l__siunitx_unit_numerator_int=\count393
+\l__siunitx_unit_prefix_int=\count394
+\l__siunitx_unit_prefix_base_int=\count395
+\l__siunitx_unit_prefix_gram_int=\count396
+\l__siunitx_number_product_int=\count397
+\c__siunitx_one_fill_skip=\skip106
+\l__siunitx_table_unit_align_skip=\skip107
+\l__siunitx_table_exponent_dim=\dimen372
+\l__siunitx_table_integer_dim=\dimen373
+\l__siunitx_table_mantissa_dim=\dimen374
+\l__siunitx_table_marker_dim=\dimen375
+\l__siunitx_table_result_dim=\dimen376
+\l__siunitx_table_uncert_dim=\dimen377
+\l__siunitx_table_fill_pre_dim=\dimen378
+\l__siunitx_table_fill_post_dim=\dimen379
+\l__siunitx_table_fill_mid_dim=\dimen380
+\l__siunitx_table_pre_box=\box102
+\l__siunitx_table_post_box=\box103
+\l__siunitx_table_mantissa_box=\box104
+\l__siunitx_table_result_box=\box105
+\l__siunitx_table_number_align_skip=\skip108
+\l__siunitx_table_text_align_skip=\skip109
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2284,32 +2426,32 @@ Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \siInBookmark with sig. 'om' on line 7432.
 .................................................
-\g__file_internal_ior=\read2
+\g__file_internal_ior=\read3
  (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 )) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count369
+\BKM@id=\count398
 )) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count370
-\lst@gtempboxa=\box101
-\lst@token=\toks54
-\lst@length=\count371
-\lst@currlwidth=\dimen369
-\lst@column=\count372
-\lst@pos=\count373
-\lst@lostspace=\dimen370
-\lst@width=\dimen371
-\lst@newlines=\count374
-\lst@lineno=\count375
-\lst@maxwidth=\dimen372
+\lst@mode=\count399
+\lst@gtempboxa=\box106
+\lst@token=\toks67
+\lst@length=\count400
+\lst@currlwidth=\dimen381
+\lst@column=\count401
+\lst@pos=\count402
+\lst@lostspace=\dimen382
+\lst@width=\dimen383
+\lst@newlines=\count403
+\lst@lineno=\count404
+\lst@maxwidth=\dimen384
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count376
-\lst@skipnumbers=\count377
-\lst@framebox=\box102
+\c@lstnumber=\count405
+\lst@skipnumbers=\count406
+\lst@framebox=\box107
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
@@ -2317,19 +2459,12 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
  (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
  Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix <2008/02/07> (tvz)
-\FV@CodeLineNo=\count378
-\FV@InFile=\read3
-\FV@TabBox=\box103
-\c@FancyVerbLine=\count379
-\FV@StepNumber=\count380
+\FV@CodeLineNo=\count407
+\FV@InFile=\read4
+\FV@TabBox=\box108
+\c@FancyVerbLine=\count408
+\FV@StepNumber=\count409
 \FV@OutFile=\write6
-)) (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
-Package: subfiles 2012/05/23 Federico Garcia
- (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks55
-\verbatim@line=\toks56
-\verbatim@in@stream=\read4
 ))
 
 LaTeX Warning: Unused global option(s):
@@ -2337,61 +2472,67 @@ LaTeX Warning: Unused global option(s):
 
 (./main.aux
 
+LaTeX Warning: Label `fig:aevol_l' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:aevol_l' multiply defined.
+
+
 LaTeX Warning: Label `eqconclusion:stretchz' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 38.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 38.
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 T3\textscriptg already defined.
 
 fontencoding T3 patched
 )
-LaTeX Info: Redefining \degres on input line 15.
-LaTeX Info: Redefining \dots on input line 15.
-LaTeX Info: Redefining \up on input line 15.
+LaTeX Info: Redefining \degres on input line 38.
+LaTeX Info: Redefining \dots on input line 38.
+LaTeX Info: Redefining \up on input line 38.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count381
-\scratchdimen=\dimen373
-\scratchbox=\box104
-\nofMPsegments=\count382
-\nofMParguments=\count383
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count384
-\MPscratchDim=\dimen374
-\MPnumerator=\count385
-\makeMPintoPDFobject=\count386
-\everyMPtoPDFconversion=\toks58
+\scratchcounter=\count410
+\scratchdimen=\dimen385
+\scratchbox=\box109
+\nofMPsegments=\count411
+\nofMParguments=\count412
+\everyMPshowfont=\toks68
+\MPscratchCnt=\count413
+\MPscratchDim=\dimen386
+\MPnumerator=\count414
+\makeMPintoPDFobject=\count415
+\everyMPtoPDFconversion=\toks69
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -2445,25 +2586,30 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip97
-\RaggedLeftLeftskip=\skip98
-\RaggedRightLeftskip=\skip99
-\CenteringRightskip=\skip100
-\RaggedLeftRightskip=\skip101
-\RaggedRightRightskip=\skip102
-\CenteringParfillskip=\skip103
-\RaggedLeftParfillskip=\skip104
-\RaggedRightParfillskip=\skip105
-\JustifyingParfillskip=\skip106
-\CenteringParindent=\skip107
-\RaggedLeftParindent=\skip108
-\RaggedRightParindent=\skip109
-\JustifyingParindent=\skip110
+\CenteringLeftskip=\skip110
+\RaggedLeftLeftskip=\skip111
+\RaggedRightLeftskip=\skip112
+\CenteringRightskip=\skip113
+\RaggedLeftRightskip=\skip114
+\RaggedRightRightskip=\skip115
+\CenteringParfillskip=\skip116
+\RaggedLeftParfillskip=\skip117
+\RaggedRightParfillskip=\skip118
+\JustifyingParfillskip=\skip119
+\CenteringParindent=\skip120
+\RaggedLeftParindent=\skip121
+\RaggedRightParindent=\skip122
+\JustifyingParindent=\skip123
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
 Package caption Info: rotating package is loaded.
+Package caption Info: supertabular package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package minitoc(hints) Info: I0049
@@ -2502,23 +2648,23 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-\AtBeginShipoutBox=\box105
-Package backref Info: ** backref set up for natbib ** on input line 15.
-Package hyperref Info: Link coloring ON on input line 15.
+\AtBeginShipoutBox=\box110
+Package backref Info: ** backref set up for natbib ** on input line 38.
+Package hyperref Info: Link coloring ON on input line 38.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count387
+\c@section@level=\count416
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
  ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
-LaTeX Info: Redefining \microtypecontext on input line 15.
+LaTeX Info: Redefining \microtypecontext on input line 38.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2533,14 +2679,14 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 )
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 15.
-Package gensymb Info: Math companion symbols declared on input line 15.
-LaTeX Info: Redefining \degree on input line 15.
-LaTeX Info: Redefining \celsius on input line 15.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 15.
-LaTeX Info: Redefining \ohm on input line 15.
-Package gensymb Info: Using \textohm for \ohm on input line 15.
-Package gensymb Info: Using \textmu for \micro on input line 15.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 38.
+Package gensymb Info: Math companion symbols declared on input line 38.
+LaTeX Info: Redefining \degree on input line 38.
+LaTeX Info: Redefining \celsius on input line 38.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 38.
+LaTeX Info: Redefining \ohm on input line 38.
+Package gensymb Info: Using \textohm for \ohm on input line 38.
+Package gensymb Info: Using \textmu for \micro on input line 38.
  (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
@@ -2549,832 +2695,832 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \highlight with sig. '' on line 15.
+. Defining command \highlight with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \per with sig. '' on line 15.
+. Defining command \per with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \raiseto with sig. '' on line 15.
+. Defining command \raiseto with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tothe with sig. '' on line 15.
+. Defining command \tothe with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kilogram with sig. '' on line 15.
+. Defining command \kilogram with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \metre with sig. '' on line 15.
+. Defining command \metre with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \meter with sig. '' on line 15.
+. Defining command \meter with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mole with sig. '' on line 15.
+. Defining command \mole with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \second with sig. '' on line 15.
+. Defining command \second with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ampere with sig. '' on line 15.
+. Defining command \ampere with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kelvin with sig. '' on line 15.
+. Defining command \kelvin with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \candela with sig. '' on line 15.
+. Defining command \candela with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \gram with sig. '' on line 15.
+. Defining command \gram with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \yocto with sig. '' on line 15.
+. Defining command \yocto with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \zepto with sig. '' on line 15.
+. Defining command \zepto with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \atto with sig. '' on line 15.
+. Defining command \atto with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \femto with sig. '' on line 15.
+. Defining command \femto with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pico with sig. '' on line 15.
+. Defining command \pico with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nano with sig. '' on line 15.
+. Defining command \nano with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \milli with sig. '' on line 15.
+. Defining command \milli with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \centi with sig. '' on line 15.
+. Defining command \centi with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \deci with sig. '' on line 15.
+. Defining command \deci with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \deca with sig. '' on line 15.
+. Defining command \deca with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \deka with sig. '' on line 15.
+. Defining command \deka with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hecto with sig. '' on line 15.
+. Defining command \hecto with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kilo with sig. '' on line 15.
+. Defining command \kilo with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mega with sig. '' on line 15.
+. Defining command \mega with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \giga with sig. '' on line 15.
+. Defining command \giga with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tera with sig. '' on line 15.
+. Defining command \tera with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \peta with sig. '' on line 15.
+. Defining command \peta with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \exa with sig. '' on line 15.
+. Defining command \exa with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \zetta with sig. '' on line 15.
+. Defining command \zetta with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \yotta with sig. '' on line 15.
+. Defining command \yotta with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \becquerel with sig. '' on line 15.
+. Defining command \becquerel with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \degreeCelsius with sig. '' on line 15.
+. Defining command \degreeCelsius with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \coulomb with sig. '' on line 15.
+. Defining command \coulomb with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \farad with sig. '' on line 15.
+. Defining command \farad with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \gray with sig. '' on line 15.
+. Defining command \gray with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hertz with sig. '' on line 15.
+. Defining command \hertz with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \henry with sig. '' on line 15.
+. Defining command \henry with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \joule with sig. '' on line 15.
+. Defining command \joule with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \katal with sig. '' on line 15.
+. Defining command \katal with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \lumen with sig. '' on line 15.
+. Defining command \lumen with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \lux with sig. '' on line 15.
+. Defining command \lux with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newton with sig. '' on line 15.
+. Defining command \newton with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pascal with sig. '' on line 15.
+. Defining command \pascal with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \radian with sig. '' on line 15.
+. Defining command \radian with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \siemens with sig. '' on line 15.
+. Defining command \siemens with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \sievert with sig. '' on line 15.
+. Defining command \sievert with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \steradian with sig. '' on line 15.
+. Defining command \steradian with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tesla with sig. '' on line 15.
+. Defining command \tesla with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \volt with sig. '' on line 15.
+. Defining command \volt with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \watt with sig. '' on line 15.
+. Defining command \watt with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \weber with sig. '' on line 15.
+. Defining command \weber with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \arcmin with sig. '' on line 15.
+. Defining command \arcmin with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \arcminute with sig. '' on line 15.
+. Defining command \arcminute with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \arcsecond with sig. '' on line 15.
+. Defining command \arcsecond with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hectare with sig. '' on line 15.
+. Defining command \hectare with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hour with sig. '' on line 15.
+. Defining command \hour with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \litre with sig. '' on line 15.
+. Defining command \litre with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \liter with sig. '' on line 15.
+. Defining command \liter with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \minute with sig. '' on line 15.
+. Defining command \minute with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \percent with sig. '' on line 15.
+. Defining command \percent with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tonne with sig. '' on line 15.
+. Defining command \tonne with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \astronomicalunit with sig. '' on line 15.
+. Defining command \astronomicalunit with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \atomicmassunit with sig. '' on line 15.
+. Defining command \atomicmassunit with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \electronvolt with sig. '' on line 15.
+. Defining command \electronvolt with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \dalton with sig. '' on line 15.
+. Defining command \dalton with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \clight with sig. '' on line 15.
+. Defining command \clight with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \electronmass with sig. '' on line 15.
+. Defining command \electronmass with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \planckbar with sig. '' on line 15.
+. Defining command \planckbar with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \elementarycharge with sig. '' on line 15.
+. Defining command \elementarycharge with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \bohr with sig. '' on line 15.
+. Defining command \bohr with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hartree with sig. '' on line 15.
+. Defining command \hartree with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \angstrom with sig. '' on line 15.
+. Defining command \angstrom with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \barn with sig. '' on line 15.
+. Defining command \barn with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \bel with sig. '' on line 15.
+. Defining command \bel with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \decibel with sig. '' on line 15.
+. Defining command \decibel with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \knot with sig. '' on line 15.
+. Defining command \knot with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mmHg with sig. '' on line 15.
+. Defining command \mmHg with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nauticalmile with sig. '' on line 15.
+. Defining command \nauticalmile with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \neper with sig. '' on line 15.
+. Defining command \neper with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \squared with sig. '' on line 15.
+. Defining command \squared with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cubic with sig. '' on line 15.
+. Defining command \cubic with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cubed with sig. '' on line 15.
+. Defining command \cubed with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pc with sig. '' on line 15.
+. Defining command \pc with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \as with sig. '' on line 15.
+. Defining command \as with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \A with sig. '' on line 15.
+. Defining command \A with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pA with sig. '' on line 15.
+. Defining command \pA with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nA with sig. '' on line 15.
+. Defining command \nA with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \uA with sig. '' on line 15.
+. Defining command \uA with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mA with sig. '' on line 15.
+. Defining command \mA with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kA with sig. '' on line 15.
+. Defining command \kA with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \Hz with sig. '' on line 15.
+. Defining command \Hz with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mHz with sig. '' on line 15.
+. Defining command \mHz with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kHz with sig. '' on line 15.
+. Defining command \kHz with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \MHz with sig. '' on line 15.
+. Defining command \MHz with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \GHz with sig. '' on line 15.
+. Defining command \GHz with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \THz with sig. '' on line 15.
+. Defining command \THz with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mol with sig. '' on line 15.
+. Defining command \mol with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fmol with sig. '' on line 15.
+. Defining command \fmol with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pmol with sig. '' on line 15.
+. Defining command \pmol with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nmol with sig. '' on line 15.
+. Defining command \nmol with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \umol with sig. '' on line 15.
+. Defining command \umol with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mmol with sig. '' on line 15.
+. Defining command \mmol with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kmol with sig. '' on line 15.
+. Defining command \kmol with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \V with sig. '' on line 15.
+. Defining command \V with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pV with sig. '' on line 15.
+. Defining command \pV with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nV with sig. '' on line 15.
+. Defining command \nV with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \uV with sig. '' on line 15.
+. Defining command \uV with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mV with sig. '' on line 15.
+. Defining command \mV with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kV with sig. '' on line 15.
+. Defining command \kV with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hl with sig. '' on line 15.
+. Defining command \hl with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ml with sig. '' on line 15.
+. Defining command \ml with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ul with sig. '' on line 15.
+. Defining command \ul with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \hL with sig. '' on line 15.
+. Defining command \hL with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mL with sig. '' on line 15.
+. Defining command \mL with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \uL with sig. '' on line 15.
+. Defining command \uL with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pg with sig. '' on line 15.
+. Defining command \pg with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ug with sig. '' on line 15.
+. Defining command \ug with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mg with sig. '' on line 15.
+. Defining command \mg with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kg with sig. '' on line 15.
+. Defining command \kg with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \amu with sig. '' on line 15.
+. Defining command \amu with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \W with sig. '' on line 15.
+. Defining command \W with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \uW with sig. '' on line 15.
+. Defining command \uW with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mW with sig. '' on line 15.
+. Defining command \mW with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kW with sig. '' on line 15.
+. Defining command \kW with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \MW with sig. '' on line 15.
+. Defining command \MW with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \GW with sig. '' on line 15.
+. Defining command \GW with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \J with sig. '' on line 15.
+. Defining command \J with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kJ with sig. '' on line 15.
+. Defining command \kJ with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \eV with sig. '' on line 15.
+. Defining command \eV with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \meV with sig. '' on line 15.
+. Defining command \meV with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \keV with sig. '' on line 15.
+. Defining command \keV with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \MeV with sig. '' on line 15.
+. Defining command \MeV with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \GeV with sig. '' on line 15.
+. Defining command \GeV with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \TeV with sig. '' on line 15.
+. Defining command \TeV with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kWh with sig. '' on line 15.
+. Defining command \kWh with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \nm with sig. '' on line 15.
+. Defining command \nm with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \um with sig. '' on line 15.
+. Defining command \um with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mm with sig. '' on line 15.
+. Defining command \mm with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cm with sig. '' on line 15.
+. Defining command \cm with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \dm with sig. '' on line 15.
+. Defining command \dm with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \km with sig. '' on line 15.
+. Defining command \km with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \K with sig. '' on line 15.
+. Defining command \K with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \dB with sig. '' on line 15.
+. Defining command \dB with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fF with sig. '' on line 15.
+. Defining command \fF with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \pF with sig. '' on line 15.
+. Defining command \pF with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \N with sig. '' on line 15.
+. Defining command \N with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mN with sig. '' on line 15.
+. Defining command \mN with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kN with sig. '' on line 15.
+. Defining command \kN with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \MN with sig. '' on line 15.
+. Defining command \MN with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \Pa with sig. '' on line 15.
+. Defining command \Pa with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kPa with sig. '' on line 15.
+. Defining command \kPa with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \MPa with sig. '' on line 15.
+. Defining command \MPa with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \GPa with sig. '' on line 15.
+. Defining command \GPa with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \mohm with sig. '' on line 15.
+. Defining command \mohm with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kohm with sig. '' on line 15.
+. Defining command \kohm with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \Mohm with sig. '' on line 15.
+. Defining command \Mohm with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fs with sig. '' on line 15.
+. Defining command \fs with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ps with sig. '' on line 15.
+. Defining command \ps with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ns with sig. '' on line 15.
+. Defining command \ns with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \us with sig. '' on line 15.
+. Defining command \us with sig. '' on line 38.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ms with sig. '' on line 15.
+. Defining command \ms with sig. '' on line 38.
 .................................................
-\c@lstlisting=\count388
-\c__siunitx_mathsf_int=\count389
-LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+\c@lstlisting=\count417
+\c__siunitx_mathsf_int=\count418
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -3384,7 +3530,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count390
+\c__siunitx_mathtt_int=\count419
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -3434,13 +3580,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 ]) (../chapters/13_introduction.tex [7] [8
 
 ] [9]
-Overfull \hbox (12.12047pt too wide) in paragraph at lines 107--113
+Overfull \hbox (12.12047pt too wide) in paragraph at lines 108--114
 \T1/cmr/m/n/12 (-20) les ré-sul-tats prin-ci-paux sont vi-sibles sur son site : [][]https://www.alpheratz.fr/linguistique/genre-
  []
 
 )
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 22.
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 45.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mtc1.
 \openout4 = `main.mtc1'.
@@ -3491,7 +3637,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 \openout7 = `main.toc'.
 
 Package minitoc Info: I0034
-(minitoc)             PREPARING MINILOFS FROM main.lof on input line 24.
+(minitoc)             PREPARING MINILOFS FROM main.lof on input line 47.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mlf1.
 \openout4 = `main.mlf1'.
@@ -3535,7 +3681,7 @@ Package minitoc Info: I0033
 \openout8 = `main.lof'.
 
 Package minitoc Info: I0037
-(minitoc)             PREPARING MINILOTS FROM main.lot on input line 26.
+(minitoc)             PREPARING MINILOTS FROM main.lot on input line 49.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mlt1.
 \openout4 = `main.mlt1'.
@@ -3589,46 +3735,49 @@ Chapitre I.
 (./main.mtc1) [1
 
 ] [2] [3] [4] [5] [6]
-<../figures/aevol_o.pdf, id=715, 461.02365pt x 346.77519pt>
+<../figures/aevol_o.pdf, id=717, 461.02365pt x 346.77519pt>
 File: ../figures/aevol_o.pdf Graphic file (type pdf)
 <use ../figures/aevol_o.pdf>
-Package pdftex.def Info: ../figures/aevol_o.pdf  used on input line 397.
-(pdftex.def)             Requested size: 227.62206pt x 171.21242pt.
+Package pdftex.def Info: ../figures/aevol_o.pdf  used on input line 406.
+(pdftex.def)             Requested size: 218.51521pt x 164.3654pt.
+<../figures/Hevol.pdf, id=718, 461.02365pt x 346.77519pt>
+File: ../figures/Hevol.pdf Graphic file (type pdf)
+<use ../figures/Hevol.pdf>
+Package pdftex.def Info: ../figures/Hevol.pdf  used on input line 412.
+(pdftex.def)             Requested size: 218.51521pt x 164.3654pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\spacefactor' on input line 407.
+(hyperref)                removing `\spacefactor' on input line 429.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@m' on input line 407.
+(hyperref)                removing `\@m' on input line 429.
 
-<../figures/scolnic_snlambda.png, id=723, 1052.93375pt x 1050.92625pt>
+[7]
+<../figures/scolnic_snlambda.png, id=748, 1052.93375pt x 1050.92625pt>
 File: ../figures/scolnic_snlambda.png Graphic file (type png)
 <use ../figures/scolnic_snlambda.png>
-Package pdftex.def Info: ../figures/scolnic_snlambda.png  used on input line 428.
+Package pdftex.def Info: ../figures/scolnic_snlambda.png  used on input line 450.
 (pdftex.def)             Requested size: 273.14923pt x 272.62502pt.
-[7]
-Underfull \vbox (badness 1655) has occurred while \output is active []
-
- [8 <../figures/aevol_o.pdf> <../figures/scolnic_snlambda.png>]
-<../figures/scolnic_combined.png, id=786, 1053.9375pt x 1058.95625pt>
+ [8 <../figures/aevol_o.pdf> <../figures/Hevol.pdf>]
+<../figures/scolnic_combined.png, id=816, 1053.9375pt x 1058.95625pt>
 File: ../figures/scolnic_combined.png Graphic file (type png)
 <use ../figures/scolnic_combined.png>
-Package pdftex.def Info: ../figures/scolnic_combined.png  used on input line 497.
+Package pdftex.def Info: ../figures/scolnic_combined.png  used on input line 519.
 (pdftex.def)             Requested size: 273.14923pt x 274.44958pt.
+ [9 <../figures/scolnic_snlambda.png>]
+Underfull \vbox (badness 2213) has occurred while \output is active []
 
-Underfull \vbox (badness 6542) has occurred while \output is active []
-
- [9] [10 <../figures/scolnic_combined.png>] [11] [12]
+ [10 <../figures/scolnic_combined.png>] [11] [12]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 698.
+               Default added (so using `tbp') on input line 724.
 
-<../figures/perlmutter_sne-w.png, id=875, 1000.73875pt x 1169.36874pt>
+<../figures/perlmutter_sne-w.png, id=904, 1000.73875pt x 1169.36874pt>
 File: ../figures/perlmutter_sne-w.png Graphic file (type png)
 <use ../figures/perlmutter_sne-w.png>
-Package pdftex.def Info: ../figures/perlmutter_sne-w.png  used on input line 700.
+Package pdftex.def Info: ../figures/perlmutter_sne-w.png  used on input line 726.
 (pdftex.def)             Requested size: 455.24411pt x 531.95656pt.
 [13] [14 <../figures/perlmutter_sne-w.png>]
 \openout4 = `main.mtc'.
@@ -3637,7 +3786,7 @@ Package pdftex.def Info: ../figures/perlmutter_sne-w.png  used on input line 700
 
  (./main.mlf1)
 Package minitoc Info: I0006
-(minitoc)             main.mlt1 is empty on input line 721.
+(minitoc)             main.mlt1 is empty on input line 747.
 ) (../chapters/02_sne.tex [15] [16
 
 ]
@@ -3647,7 +3796,7 @@ Chapitre II.
 \openout4 = `main.mtc'.
 
 (./main.mtc2) [17]
-<../figures/fourmanoit_sne.png, id=934, 1040.88875pt x 750.805pt>
+<../figures/fourmanoit_sne.png, id=964, 1040.88875pt x 750.805pt>
 File: ../figures/fourmanoit_sne.png Graphic file (type png)
 <use ../figures/fourmanoit_sne.png>
 Package pdftex.def Info: ../figures/fourmanoit_sne.png  used on input line 65.
@@ -3660,53 +3809,53 @@ Underfull \hbox (badness 1874) in paragraph at lines 79--79
 [18 <../figures/fourmanoit_sne.png>] [19]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 154.
+               Default added (so using `tbp') on input line 155.
 
-<../figures/2011fe_lightcurves.pdf, id=994, 597.23125pt x 845.1575pt>
+<../figures/2011fe_lightcurves.pdf, id=1024, 597.23125pt x 845.1575pt>
 File: ../figures/2011fe_lightcurves.pdf Graphic file (type pdf)
 <use ../figures/2011fe_lightcurves.pdf>
-Package pdftex.def Info: ../figures/2011fe_lightcurves.pdf  used on input line 158.
+Package pdftex.def Info: ../figures/2011fe_lightcurves.pdf  used on input line 159.
 (pdftex.def)             Requested size: 455.24411pt x 247.18962pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 191.
+               Default added (so using `tbp') on input line 194.
 
-<../figures/2011fe_spectro.pdf, id=1004, 597.23125pt x 845.1575pt>
+<../figures/2011fe_spectro.pdf, id=1034, 597.23125pt x 845.1575pt>
 File: ../figures/2011fe_spectro.pdf Graphic file (type pdf)
 <use ../figures/2011fe_spectro.pdf>
-Package pdftex.def Info: ../figures/2011fe_spectro.pdf  used on input line 195.
+Package pdftex.def Info: ../figures/2011fe_spectro.pdf  used on input line 198.
 (pdftex.def)             Requested size: 455.24411pt x 608.3527pt.
 [20]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 234.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 239.
  [21 <../figures/2011fe_lightcurves.pdf>] [22 <../figures/2011fe_spectro.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 276.
+               Default added (so using `tbp') on input line 281.
 
-<../figures/lc_JLA.pdf, id=1048, 857.77109pt x 505.12016pt>
-File: ../figures/lc_JLA.pdf Graphic file (type pdf)
-<use ../figures/lc_JLA.pdf>
-Package pdftex.def Info: ../figures/lc_JLA.pdf  used on input line 280.
-(pdftex.def)             Requested size: 218.51521pt x 128.67676pt.
-<../figures/colorstretch_corr_JLA.pdf, id=1049, 870.5221pt x 502.68074pt>
-File: ../figures/colorstretch_corr_JLA.pdf Graphic file (type pdf)
-<use ../figures/colorstretch_corr_JLA.pdf>
-Package pdftex.def Info: ../figures/colorstretch_corr_JLA.pdf  used on input line 286.
-(pdftex.def)             Requested size: 218.51521pt x 126.1761pt.
+<../figures/lc_JLA_nora.pdf, id=1076, 524.51604pt x 505.12016pt>
+File: ../figures/lc_JLA_nora.pdf Graphic file (type pdf)
+<use ../figures/lc_JLA_nora.pdf>
+Package pdftex.def Info: ../figures/lc_JLA_nora.pdf  used on input line 285.
+(pdftex.def)             Requested size: 218.51521pt x 210.43796pt.
+<../figures/colorstretch_corr_JLA_nora.pdf, id=1077, 537.26704pt x 502.68074pt>
+File: ../figures/colorstretch_corr_JLA_nora.pdf Graphic file (type pdf)
+<use ../figures/colorstretch_corr_JLA_nora.pdf>
+Package pdftex.def Info: ../figures/colorstretch_corr_JLA_nora.pdf  used on input line 291.
+(pdftex.def)             Requested size: 218.51521pt x 204.44365pt.
 [23]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 327.
+               Default added (so using `tbp') on input line 332.
 
-<../figures/hd_panth.pdf, id=1082, 442.05101pt x 441.86841pt>
+<../figures/hd_panth.pdf, id=1112, 442.05101pt x 441.86841pt>
 File: ../figures/hd_panth.pdf Graphic file (type pdf)
 <use ../figures/hd_panth.pdf>
-Package pdftex.def Info: ../figures/hd_panth.pdf  used on input line 329.
+Package pdftex.def Info: ../figures/hd_panth.pdf  used on input line 334.
 (pdftex.def)             Requested size: 364.19667pt x 364.06049pt.
-[24 <../figures/lc_JLA.pdf> <../figures/colorstretch_corr_JLA.pdf
+[24 <../figures/lc_JLA_nora.pdf> <../figures/colorstretch_corr_JLA_nora.pdf
 
-pdfTeX warning: pdflatex (file ../figures/colorstretch_corr_JLA.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ../figures/colorstretch_corr_JLA_nora.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] [25 <../figures/hd_panth.pdf>]
 \openout4 = `main.mtc'.
 
@@ -3714,7 +3863,7 @@ pdfTeX warning: pdflatex (file ../figures/colorstretch_corr_JLA.pdf): PDF inclus
 
  (./main.mlf2)
 Package minitoc Info: I0006
-(minitoc)             main.mlt2 is empty on input line 363.
+(minitoc)             main.mlt2 is empty on input line 368.
 ) (../chapters/03_env.tex [26]
 Chapitre III.
 \openout4 = `main.mtc'.
@@ -3724,75 +3873,78 @@ Chapitre III.
 (./main.mtc3) [27
 
 ]
-<../figures/hubble_gmorph.png, id=1459, 1893.0725pt x 815.045pt>
+<../figures/hubble_gmorph.png, id=1487, 1893.0725pt x 815.045pt>
 File: ../figures/hubble_gmorph.png Graphic file (type png)
 <use ../figures/hubble_gmorph.png>
-Package pdftex.def Info: ../figures/hubble_gmorph.png  used on input line 80.
+Package pdftex.def Info: ../figures/hubble_gmorph.png  used on input line 69.
 (pdftex.def)             Requested size: 455.24411pt x 196.00032pt.
  [28 <../figures/hubble_gmorph.png>]
-<../figures/m87.pdf, id=1478, 614.295pt x 794.97pt>
+<../figures/m87.pdf, id=1505, 614.295pt x 794.97pt>
 File: ../figures/m87.pdf Graphic file (type pdf)
 <use ../figures/m87.pdf>
-Package pdftex.def Info: ../figures/m87.pdf  used on input line 120.
+Package pdftex.def Info: ../figures/m87.pdf  used on input line 109.
 (pdftex.def)             Requested size: 130.58205pt x 142.26378pt.
-<../figures/NGC3147.png, id=1480, 2007.5pt x 1833.85126pt>
+<../figures/NGC3147.png, id=1507, 2007.5pt x 1833.85126pt>
 File: ../figures/NGC3147.png Graphic file (type png)
 <use ../figures/NGC3147.png>
-Package pdftex.def Info: ../figures/NGC3147.png  used on input line 128.
+Package pdftex.def Info: ../figures/NGC3147.png  used on input line 117.
 (pdftex.def)             Requested size: 155.7328pt x 142.26378pt.
 
-Overfull \hbox (10.05136pt too wide) in paragraph at lines 128--130
+Overfull \hbox (10.05136pt too wide) in paragraph at lines 117--119
  [][] 
  []
 
-<../figures/IZ18.jpg, id=1481, 671.50874pt x 748.7975pt>
+<../figures/IZ18.jpg, id=1508, 671.50874pt x 748.7975pt>
 File: ../figures/IZ18.jpg Graphic file (type jpg)
 <use ../figures/IZ18.jpg>
-Package pdftex.def Info: ../figures/IZ18.jpg  used on input line 136.
+Package pdftex.def Info: ../figures/IZ18.jpg  used on input line 125.
 (pdftex.def)             Requested size: 127.57774pt x 142.26378pt.
 [29 <../figures/m87.pdf> <../figures/NGC3147.png> <../figures/IZ18.jpg>] [30]
-<../figures/deltaz_hist.pdf, id=1557, 411.4159pt x 222.40985pt>
+<../figures/deltaz_hist.pdf, id=1571, 411.4159pt x 222.40985pt>
 File: ../figures/deltaz_hist.pdf Graphic file (type pdf)
 <use ../figures/deltaz_hist.pdf>
-Package pdftex.def Info: ../figures/deltaz_hist.pdf  used on input line 288.
+Package pdftex.def Info: ../figures/deltaz_hist.pdf  used on input line 258.
 (pdftex.def)             Requested size: 364.19667pt x 196.8853pt.
- [31]
-<../figures/x1gmorph.jpeg, id=1576, 299.55914pt x 115.99335pt>
+<../figures/x1gmorph.jpeg, id=1574, 299.55914pt x 115.99335pt>
 File: ../figures/x1gmorph.jpeg Graphic file (type jpg)
 <use ../figures/x1gmorph.jpeg>
-Package pdftex.def Info: ../figures/x1gmorph.jpeg  used on input line 312.
+Package pdftex.def Info: ../figures/x1gmorph.jpeg  used on input line 282.
 (pdftex.def)             Requested size: 134.82553pt x 142.26378pt.
-<../figures/rigault_x1vM.pdf, id=1586, 597.23125pt x 845.1575pt>
+<../figures/rigault_x1vM.pdf, id=1584, 597.23125pt x 845.1575pt>
 File: ../figures/rigault_x1vM.pdf Graphic file (type pdf)
 <use ../figures/rigault_x1vM.pdf>
-Package pdftex.def Info: ../figures/rigault_x1vM.pdf  used on input line 324.
+Package pdftex.def Info: ../figures/rigault_x1vM.pdf  used on input line 294.
 (pdftex.def)             Requested size: 182.62111pt x 142.26378pt.
-<../figures/roman_ghub.png, id=1600, 1176.395pt x 940.51375pt>
+ [31]
+<../figures/roman_ghub.png, id=1622, 1176.395pt x 940.51375pt>
 File: ../figures/roman_ghub.png Graphic file (type png)
 <use ../figures/roman_ghub.png>
-Package pdftex.def Info: ../figures/roman_ghub.png  used on input line 386.
+Package pdftex.def Info: ../figures/roman_ghub.png  used on input line 373.
 (pdftex.def)             Requested size: 227.62206pt x 181.97151pt.
  [32 <../figures/deltaz_hist.pdf>]
-<../figures/rigault_ahub-cut.png, id=1625, 1707.37875pt x 927.465pt>
+<../figures/rigault_ahub-cut.png, id=1649, 1707.37875pt x 927.465pt>
 File: ../figures/rigault_ahub-cut.png Graphic file (type png)
 <use ../figures/rigault_ahub-cut.png>
-Package pdftex.def Info: ../figures/rigault_ahub-cut.png  used on input line 438.
+Package pdftex.def Info: ../figures/rigault_ahub-cut.png  used on input line 425.
 (pdftex.def)             Requested size: 209.51395pt x 113.81102pt.
-<../figures/rigault_ghub.png, id=1626, 1896.08376pt x 849.1725pt>
+<../figures/rigault_ghub.png, id=1650, 1896.08376pt x 849.1725pt>
 File: ../figures/rigault_ghub.png Graphic file (type png)
 <use ../figures/rigault_ghub.png>
-Package pdftex.def Info: ../figures/rigault_ghub.png  used on input line 444.
+Package pdftex.def Info: ../figures/rigault_ghub.png  used on input line 431.
 (pdftex.def)             Requested size: 254.10863pt x 113.81102pt.
 
-Overfull \hbox (35.59341pt too wide) in paragraph at lines 444--445
+Overfull \hbox (35.59341pt too wide) in paragraph at lines 431--432
  [][] 
  []
 
-[33 <../figures/x1gmorph.jpeg> <../figures/rigault_x1vM.pdf>] [34 <../figures/roman_ghub.png>]
-<../figures/model_base_hist-nomodel.pdf, id=1667, 486.55167pt x 255.0512pt>
+[33 <../figures/x1gmorph.jpeg> <../figures/rigault_x1vM.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34 <../figures/roman_ghub.png>]
+<../figures/model_base_hist-nomodel.pdf, id=1690, 486.55167pt x 255.0512pt>
 File: ../figures/model_base_hist-nomodel.pdf Graphic file (type pdf)
 <use ../figures/model_base_hist-nomodel.pdf>
-Package pdftex.def Info: ../figures/model_base_hist-nomodel.pdf  used on input line 526.
+Package pdftex.def Info: ../figures/model_base_hist-nomodel.pdf  used on input line 513.
 (pdftex.def)             Requested size: 364.19667pt x 190.9182pt.
  [35 <../figures/rigault_ahub-cut.png> <../figures/rigault_ghub.png>] [36 <../figures/model_base_hist-nomodel.pdf>]
 \openout4 = `main.mtc'.
@@ -3801,7 +3953,7 @@ Package pdftex.def Info: ../figures/model_base_hist-nomodel.pdf  used on input l
 
  (./main.mlf3)
 Package minitoc Info: I0006
-(minitoc)             main.mlt3 is empty on input line 578.
+(minitoc)             main.mlt3 is empty on input line 565.
 ) (../chapters/04_surveys.tex [37
 
 ] [38
@@ -3814,7 +3966,7 @@ Chapitre IV.
 \openout4 = `main.mtc'.
 
  (./main.mtc4) [40]
-<../figures/bands_SNF.pdf, id=1792, 404.80768pt x 301.15501pt>
+<../figures/bands_SNF.pdf, id=1815, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNF.pdf Graphic file (type pdf)
 <use ../figures/bands_SNF.pdf>
 Package pdftex.def Info: ../figures/bands_SNF.pdf  used on input line 107.
@@ -3824,18 +3976,18 @@ File: ../figures/2011fe_lightcurves.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../figures/2011fe_lightcurves.pdf  used on input line 118.
 (pdftex.def)             Requested size: 245.82875pt x 133.48036pt.
  [41] [42 <../figures/bands_SNF.pdf>]
-<../figures/hist_SNF_zxc.pdf, id=1839, 731.13103pt x 225.24101pt>
+<../figures/hist_SNF_zxc.pdf, id=1863, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNF_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNF_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SNF_zxc.pdf  used on input line 204.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
  [43 <../figures/hist_SNF_zxc.pdf>]
-<../figures/bands_SDSS.pdf, id=1876, 404.80768pt x 301.15501pt>
+<../figures/bands_SDSS.pdf, id=1900, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SDSS.pdf Graphic file (type pdf)
 <use ../figures/bands_SDSS.pdf>
 Package pdftex.def Info: ../figures/bands_SDSS.pdf  used on input line 254.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_2005gg.pdf, id=1881, 406.34096pt x 296.715pt>
+<../figures/lc_2005gg.pdf, id=1905, 406.34096pt x 296.715pt>
 File: ../figures/lc_2005gg.pdf Graphic file (type pdf)
 <use ../figures/lc_2005gg.pdf>
 Package pdftex.def Info: ../figures/lc_2005gg.pdf  used on input line 261.
@@ -3844,17 +3996,17 @@ Package pdftex.def Info: ../figures/lc_2005gg.pdf  used on input line 261.
 Underfull \vbox (badness 3590) has occurred while \output is active []
 
  [44 <../figures/bands_SDSS.pdf> <../figures/lc_2005gg.pdf>] [45]
-<../figures/hist_SDSS_zxc.pdf, id=1973, 731.13103pt x 225.24101pt>
+<../figures/hist_SDSS_zxc.pdf, id=1997, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SDSS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SDSS_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_SDSS_zxc.pdf  used on input line 364.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-<../figures/bands_PS1.pdf, id=1987, 404.80768pt x 301.15501pt>
+<../figures/bands_PS1.pdf, id=2011, 404.80768pt x 301.15501pt>
 File: ../figures/bands_PS1.pdf Graphic file (type pdf)
 <use ../figures/bands_PS1.pdf>
 Package pdftex.def Info: ../figures/bands_PS1.pdf  used on input line 411.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_550041.pdf, id=1992, 406.34096pt x 296.715pt>
+<../figures/lc_550041.pdf, id=2016, 406.34096pt x 296.715pt>
 File: ../figures/lc_550041.pdf Graphic file (type pdf)
 <use ../figures/lc_550041.pdf>
 Package pdftex.def Info: ../figures/lc_550041.pdf  used on input line 418.
@@ -3869,36 +4021,33 @@ File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 489.
 
-<../figures/hist_PS1_zxc.pdf, id=2084, 731.13103pt x 225.24101pt>
+<../figures/hist_PS1_zxc.pdf, id=2107, 731.13103pt x 225.24101pt>
 File: ../figures/hist_PS1_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_PS1_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_PS1_zxc.pdf  used on input line 520.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
 [48]
-<../figures/bands_SNLS.pdf, id=2113, 404.80768pt x 301.15501pt>
+<../figures/bands_SNLS.pdf, id=2136, 404.80768pt x 301.15501pt>
 File: ../figures/bands_SNLS.pdf Graphic file (type pdf)
 <use ../figures/bands_SNLS.pdf>
-Package pdftex.def Info: ../figures/bands_SNLS.pdf  used on input line 570.
+Package pdftex.def Info: ../figures/bands_SNLS.pdf  used on input line 571.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_04D1hx.pdf, id=2118, 406.34096pt x 296.715pt>
+<../figures/lc_04D1hx.pdf, id=2141, 406.34096pt x 296.715pt>
 File: ../figures/lc_04D1hx.pdf Graphic file (type pdf)
 <use ../figures/lc_04D1hx.pdf>
-Package pdftex.def Info: ../figures/lc_04D1hx.pdf  used on input line 577.
+Package pdftex.def Info: ../figures/lc_04D1hx.pdf  used on input line 578.
 (pdftex.def)             Requested size: 223.07211pt x 162.8904pt.
  [49 <../figures/hist_PS1_zxc.pdf>]
-<../figures/hist_SNLS_zxc.pdf, id=2160, 731.13103pt x 225.24101pt>
+<../figures/hist_SNLS_zxc.pdf, id=2183, 731.13103pt x 225.24101pt>
 File: ../figures/hist_SNLS_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_SNLS_zxc.pdf>
-Package pdftex.def Info: ../figures/hist_SNLS_zxc.pdf  used on input line 618.
+Package pdftex.def Info: ../figures/hist_SNLS_zxc.pdf  used on input line 619.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [50 <../figures/bands_SNLS.pdf> <../figures/lc_04D1hx.pdf>]
 Underfull \vbox (badness 3039) has occurred while \output is active []
 
  [51 <../figures/hist_SNLS_zxc.pdf>]
-<../figures/bands_HST.pdf, id=2240, 411.85757pt x 301.15501pt>
+<../figures/bands_HST.pdf, id=2263, 411.85757pt x 301.15501pt>
 File: ../figures/bands_HST.pdf Graphic file (type pdf)
 <use ../figures/bands_HST.pdf>
 Package pdftex.def Info: ../figures/bands_HST.pdf  used on input line 684.
@@ -3912,24 +4061,24 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 744.
 
-<../figures/hist_HST_zxc.pdf, id=2270, 731.13103pt x 225.24101pt>
+<../figures/hist_HST_zxc.pdf, id=2294, 731.13103pt x 225.24101pt>
 File: ../figures/hist_HST_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_HST_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_HST_zxc.pdf  used on input line 746.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
 [53 <../figures/hist_HST_zxc.pdf>]
-<../figures/hist_LOWZ_zxc.pdf, id=2318, 731.13103pt x 225.24101pt>
+<../figures/hist_LOWZ_zxc.pdf, id=2341, 731.13103pt x 225.24101pt>
 File: ../figures/hist_LOWZ_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_LOWZ_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_LOWZ_zxc.pdf  used on input line 772.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
  [54 <../figures/hist_LOWZ_zxc.pdf>]
-<../figures/bands_ZTF.pdf, id=2349, 404.80768pt x 301.15501pt>
+<../figures/bands_ZTF.pdf, id=2372, 404.80768pt x 301.15501pt>
 File: ../figures/bands_ZTF.pdf Graphic file (type pdf)
 <use ../figures/bands_ZTF.pdf>
 Package pdftex.def Info: ../figures/bands_ZTF.pdf  used on input line 825.
 (pdftex.def)             Requested size: 223.07211pt x 165.95743pt.
-<../figures/lc_ZTF19aantarc.pdf, id=2354, 399.29103pt x 296.715pt>
+<../figures/lc_ZTF19aantarc.pdf, id=2377, 399.29103pt x 296.715pt>
 File: ../figures/lc_ZTF19aantarc.pdf Graphic file (type pdf)
 <use ../figures/lc_ZTF19aantarc.pdf>
 Package pdftex.def Info: ../figures/lc_ZTF19aantarc.pdf  used on input line 833.
@@ -3939,12 +4088,12 @@ Package pdftex.def Info: ../figures/lc_ZTF19aantarc.pdf  used on input line 833.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 884.
 
-<../figures/hist_ZTF_zxc.pdf, id=2400, 731.13103pt x 225.24101pt>
+<../figures/hist_ZTF_zxc.pdf, id=2424, 731.13103pt x 225.24101pt>
 File: ../figures/hist_ZTF_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_ZTF_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_ZTF_zxc.pdf  used on input line 886.
 (pdftex.def)             Requested size: 455.24411pt x 140.24599pt.
-<../figures/hist_all_zxc.pdf, id=2403, 507.51895pt x 704.10483pt>
+<../figures/hist_all_zxc.pdf, id=2427, 507.51895pt x 704.10483pt>
 File: ../figures/hist_all_zxc.pdf Graphic file (type pdf)
 <use ../figures/hist_all_zxc.pdf>
 Package pdftex.def Info: ../figures/hist_all_zxc.pdf  used on input line 903.
@@ -3968,63 +4117,63 @@ Chapitre V.
 \openout4 = `main.mtc'.
 
 (./main.mtc5) [61] [62] [63]
-<../figures/zmax_method_snls-01.pdf, id=2540, 499.71544pt x 253.45119pt>
+<../figures/zmax_method_snls-01.pdf, id=2563, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-01.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-01.pdf>
 Package pdftex.def Info: ../figures/zmax_method_snls-01.pdf  used on input line 200.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
-<../figures/zmax_method_snls-02.pdf, id=2541, 499.71544pt x 253.45119pt>
+<../figures/zmax_method_snls-02.pdf, id=2564, 499.71544pt x 253.45119pt>
 File: ../figures/zmax_method_snls-02.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_snls-02.pdf>
 Package pdftex.def Info: ../figures/zmax_method_snls-02.pdf  used on input line 207.
 (pdftex.def)             Requested size: 223.07211pt x 113.13928pt.
  [64]
-<../figures/zmax_method_results.pdf, id=2555, 518.83969pt x 356.1977pt>
+<../figures/zmax_method_results.pdf, id=2578, 518.83969pt x 356.1977pt>
 File: ../figures/zmax_method_results.pdf Graphic file (type pdf)
 <use ../figures/zmax_method_results.pdf>
 Package pdftex.def Info: ../figures/zmax_method_results.pdf  used on input line 271.
 (pdftex.def)             Requested size: 318.66948pt x 218.7858pt.
  [65 <../figures/zmax_method_snls-01.pdf> <../figures/zmax_method_snls-02.pdf>]
-<../figures/zmax_maglim_snls.pdf, id=2600, 536.6527pt x 345.17519pt>
+<../figures/zmax_maglim_snls.pdf, id=2623, 536.6527pt x 345.17519pt>
 File: ../figures/zmax_maglim_snls.pdf Graphic file (type pdf)
 <use ../figures/zmax_maglim_snls.pdf>
 Package pdftex.def Info: ../figures/zmax_maglim_snls.pdf  used on input line 317.
 (pdftex.def)             Requested size: 432.48051pt x 278.1841pt.
  [66 <../figures/zmax_method_results.pdf>] [67 <../figures/zmax_maglim_snls.pdf>]
-<../figures/speceff-all.pdf, id=2655, 468.07358pt x 340.17519pt>
+<../figures/speceff-all.pdf, id=2679, 468.07358pt x 340.17519pt>
 File: ../figures/speceff-all.pdf Graphic file (type pdf)
 <use ../figures/speceff-all.pdf>
 Package pdftex.def Info: ../figures/speceff-all.pdf  used on input line 366.
 (pdftex.def)             Requested size: 227.62206pt x 165.42596pt.
-<../figures/snls_malmquist.png, id=2679, 1531.7225pt x 1056.94875pt>
+<../figures/snls_malmquist.png, id=2703, 1531.7225pt x 1056.94875pt>
 File: ../figures/snls_malmquist.png Graphic file (type png)
 <use ../figures/snls_malmquist.png>
 Package pdftex.def Info: ../figures/snls_malmquist.png  used on input line 392.
 (pdftex.def)             Requested size: 227.62206pt x 157.06784pt.
-<../figures/ps1_malmquist.png, id=2689, 1253.68375pt x 829.0975pt>
+<../figures/ps1_malmquist.png, id=2713, 1253.68375pt x 829.0975pt>
 File: ../figures/ps1_malmquist.png Graphic file (type png)
 <use ../figures/ps1_malmquist.png>
 Package pdftex.def Info: ../figures/ps1_malmquist.png  used on input line 411.
 (pdftex.def)             Requested size: 227.62206pt x 150.52151pt.
  [68 <../figures/speceff-all.pdf>]
-<../figures/sdss_malmquist.png, id=2729, 1279.78125pt x 866.23625pt>
+<../figures/sdss_malmquist.png, id=2753, 1279.78125pt x 866.23625pt>
 File: ../figures/sdss_malmquist.png Graphic file (type png)
 <use ../figures/sdss_malmquist.png>
 Package pdftex.def Info: ../figures/sdss_malmquist.png  used on input line 438.
 (pdftex.def)             Requested size: 227.62206pt x 154.06532pt.
  [69 <../figures/snls_malmquist.png> <../figures/ps1_malmquist.png> <../figures/sdss_malmquist.png>]
-<../figures/hist_surveys_cuts_nospace.pdf, id=2745, 444.45978pt x 431.2856pt>
+<../figures/hist_surveys_cuts_nospace.pdf, id=2769, 444.45978pt x 431.2856pt>
 File: ../figures/hist_surveys_cuts_nospace.pdf Graphic file (type pdf)
 <use ../figures/hist_surveys_cuts_nospace.pdf>
 Package pdftex.def Info: ../figures/hist_surveys_cuts_nospace.pdf  used on input line 512.
 (pdftex.def)             Requested size: 364.19667pt x 353.41298pt.
-<../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf, id=2756, 360.651pt x 301.90685pt>
+<../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf, id=2780, 360.651pt x 301.90685pt>
 File: ../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf>
 Package pdftex.def Info: ../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf  used on input line 541.
 (pdftex.def)             Requested size: 432.48051pt x 362.06065pt.
  [70] [71 <../figures/hist_surveys_cuts_nospace.pdf>] [72 <../figures/stretchs-cut_btw_sup_hist_stac_x1.pdf>]
-<../figures/both-cut_SDSS_SNLS_PS1.pdf, id=2822, 511.96727pt x 263.33275pt>
+<../figures/both-cut_SDSS_SNLS_PS1.pdf, id=2845, 511.96727pt x 263.33275pt>
 File: ../figures/both-cut_SDSS_SNLS_PS1.pdf Graphic file (type pdf)
 <use ../figures/both-cut_SDSS_SNLS_PS1.pdf>
 Package pdftex.def Info: ../figures/both-cut_SDSS_SNLS_PS1.pdf  used on input line 612.
@@ -4033,16 +4182,16 @@ Package pdftex.def Info: ../figures/both-cut_SDSS_SNLS_PS1.pdf  used on input li
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [73]
-Underfull \vbox (badness 1389) has occurred while \output is active []
+Underfull \vbox (badness 3590) has occurred while \output is active []
 
  [74 <../figures/both-cut_SDSS_SNLS_PS1.pdf>]
-<../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf, id=2865, 360.651pt x 301.90685pt>
+<../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf, id=2889, 360.651pt x 301.90685pt>
 File: ../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf>
 Package pdftex.def Info: ../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf  used on input line 715.
 (pdftex.def)             Requested size: 364.19667pt x 304.89586pt.
  [75 <../figures/stretchs-cut_btw_sup_hist_ztf_x1.pdf>]
-<../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf, id=2898, 544.93951pt x 301.90685pt>
+<../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf, id=2921, 544.93951pt x 301.90685pt>
 File: ../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf Graphic file (type pdf)
 <use ../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf>
 Package pdftex.def Info: ../figures/stretchs-cut_btw_hist_stac_ztf_x1.pdf  used on input line 747.
@@ -4068,7 +4217,7 @@ Chapitre VI.
 \openout4 = `main.mtc'.
 
 (./main.mtc6) [79]
-<../figures/model_base_hist.pdf, id=2978, 486.55167pt x 255.0512pt>
+<../figures/model_base_hist.pdf, id=3002, 486.55167pt x 255.0512pt>
 File: ../figures/model_base_hist.pdf Graphic file (type pdf)
 <use ../figures/model_base_hist.pdf>
 Package pdftex.def Info: ../figures/model_base_hist.pdf  used on input line 72.
@@ -4079,19 +4228,19 @@ Overfull \hbox (20.13852pt too wide) in paragraph at lines 119--122
  []
 
 [81]
-<../figures/stretchevol_all-oth_vs_snf-weighted.pdf, id=3026, 530.03967pt x 340.17519pt>
+<../figures/stretchevol_all-oth_vs_snf-weighted.pdf, id=3049, 530.03967pt x 340.17519pt>
 File: ../figures/stretchevol_all-oth_vs_snf-weighted.pdf Graphic file (type pdf)
 <use ../figures/stretchevol_all-oth_vs_snf-weighted.pdf>
 Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_snf-weighted.pdf  used on input line 203.
 (pdftex.def)             Requested size: 455.24411pt x 292.17122pt.
  [82] [83 <../figures/stretchevol_all-oth_vs_snf-weighted.pdf>]
-<../figures/mod_comp.pdf, id=3084, 355.69597pt x 255.87701pt>
-File: ../figures/mod_comp.pdf Graphic file (type pdf)
-<use ../figures/mod_comp.pdf>
-Package pdftex.def Info: ../figures/mod_comp.pdf  used on input line 342.
-(pdftex.def)             Requested size: 455.24411pt x 327.49413pt.
- [84] [85 <../figures/mod_comp.pdf>] [86] [87]
-<../figures/model_all_evol.pdf, id=3164, 731.13103pt x 1020.21103pt>
+<../figures/mod_comp-fr.pdf, id=3107, 355.69597pt x 258.6269pt>
+File: ../figures/mod_comp-fr.pdf Graphic file (type pdf)
+<use ../figures/mod_comp-fr.pdf>
+Package pdftex.def Info: ../figures/mod_comp-fr.pdf  used on input line 342.
+(pdftex.def)             Requested size: 455.24411pt x 331.01367pt.
+ [84] [85 <../figures/mod_comp-fr.pdf>] [86] [87]
+<../figures/model_all_evol.pdf, id=3187, 731.13103pt x 1020.21103pt>
 File: ../figures/model_all_evol.pdf Graphic file (type pdf)
 <use ../figures/model_all_evol.pdf>
 Package pdftex.def Info: ../figures/model_all_evol.pdf  used on input line 537.
@@ -4100,26 +4249,27 @@ Package pdftex.def Info: ../figures/model_all_evol.pdf  used on input line 537.
 
 LaTeX Warning: Float too large for page by 65.94391pt on input line 562.
 
-<../figures/mod_comp_zonly.pdf, id=3171, 355.69597pt x 253.91283pt>
-File: ../figures/mod_comp_zonly.pdf Graphic file (type pdf)
-<use ../figures/mod_comp_zonly.pdf>
-Package pdftex.def Info: ../figures/mod_comp_zonly.pdf  used on input line 633.
-(pdftex.def)             Requested size: 250.38564pt x 178.73735pt.
+<../figures/mod_comp_zonly-fr.pdf, id=3194, 355.69597pt x 258.6269pt>
+File: ../figures/mod_comp_zonly-fr.pdf Graphic file (type pdf)
+<use ../figures/mod_comp_zonly-fr.pdf>
+Package pdftex.def Info: ../figures/mod_comp_zonly-fr.pdf  used on input line 633.
+(pdftex.def)             Requested size: 250.38564pt x 182.05574pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/mod_comp-supercut.pdf, id=3178, 342.79208pt x 255.87701pt>
+<../figures/mod_comp-supercut.pdf, id=3201, 355.69597pt x 258.6269pt>
 File: ../figures/mod_comp-supercut.pdf Graphic file (type pdf)
 <use ../figures/mod_comp-supercut.pdf>
 Package pdftex.def Info: ../figures/mod_comp-supercut.pdf  used on input line 696.
-(pdftex.def)             Requested size: 250.38564pt x 186.90189pt.
-<../figures/mod_comp_6mod.pdf, id=3179, 342.79208pt x 245.82036pt>
+(pdftex.def)             Requested size: 250.38564pt x 182.05574pt.
+[88] [89 <../figures/model_all_evol.pdf>]
+<../figures/mod_comp_6mod.pdf, id=3232, 355.69597pt x 245.82036pt>
 File: ../figures/mod_comp_6mod.pdf Graphic file (type pdf)
 <use ../figures/mod_comp_6mod.pdf>
 Package pdftex.def Info: ../figures/mod_comp_6mod.pdf  used on input line 708.
-(pdftex.def)             Requested size: 250.38564pt x 179.55614pt.
-[88] [89 <../figures/model_all_evol.pdf>] [90 <../figures/mod_comp_zonly.pdf> <../figures/mod_comp-supercut.pdf> <../figures/mod_comp_6mod.pdf>]
-<../figures/bbc_comp_PS1_hist-nr_viridis.pdf, id=3682, 403.14243pt x 282.02518pt>
+(pdftex.def)             Requested size: 250.38564pt x 173.0408pt.
+ [90 <../figures/mod_comp_zonly-fr.pdf> <../figures/mod_comp-supercut.pdf> <../figures/mod_comp_6mod.pdf>]
+<../figures/bbc_comp_PS1_hist-nr_viridis.pdf, id=3704, 403.14243pt x 282.02518pt>
 File: ../figures/bbc_comp_PS1_hist-nr_viridis.pdf Graphic file (type pdf)
 <use ../figures/bbc_comp_PS1_hist-nr_viridis.pdf>
 Package pdftex.def Info: ../figures/bbc_comp_PS1_hist-nr_viridis.pdf  used on input line 782.
@@ -4157,7 +4307,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 145.
 
 [99] [100] [101] [102] [103]
-<../figures/snana_layout.pdf, id=3952, 683.0629pt x 1012.30498pt>
+<../figures/snana_layout.pdf, id=3978, 683.0629pt x 1012.30498pt>
 File: ../figures/snana_layout.pdf Graphic file (type pdf)
 <use ../figures/snana_layout.pdf>
 Package pdftex.def Info: ../figures/snana_layout.pdf  used on input line 405.
@@ -4172,20 +4322,20 @@ Underfull \vbox (badness 1590) has occurred while \output is active []
  [106]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 569.
+               Default added (so using `tbp') on input line 570.
 
-<../figures/bbc1D.pdf, id=4134, 132.59337pt x 214.06575pt>
+<../figures/bbc1D.pdf, id=4159, 132.59337pt x 214.06575pt>
 File: ../figures/bbc1D.pdf Graphic file (type pdf)
 <use ../figures/bbc1D.pdf>
-Package pdftex.def Info: ../figures/bbc1D.pdf  used on input line 571.
+Package pdftex.def Info: ../figures/bbc1D.pdf  used on input line 572.
 (pdftex.def)             Requested size: 265.18607pt x 428.13043pt.
 [107]
-<../figures/matrices.pdf, id=4151, 181.80623pt x 171.93636pt>
+<../figures/matrices.pdf, id=4176, 181.80623pt x 171.93636pt>
 File: ../figures/matrices.pdf Graphic file (type pdf)
 <use ../figures/matrices.pdf>
 Package pdftex.def Info: ../figures/matrices.pdf  used on input line 603.
 (pdftex.def)             Requested size: 273.14923pt x 258.35513pt.
-<../figures/matrices_cube.pdf, id=4156, 664.22556pt x 317.24724pt>
+<../figures/matrices_cube.pdf, id=4181, 664.22556pt x 317.24724pt>
 File: ../figures/matrices_cube.pdf Graphic file (type pdf)
 <use ../figures/matrices_cube.pdf>
 Package pdftex.def Info: ../figures/matrices_cube.pdf  used on input line 643.
@@ -4195,7 +4345,7 @@ Package pdftex.def Info: ../figures/matrices_cube.pdf  used on input line 643.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 663.
 
-<../figures/bbc5D.pdf, id=4158, 171.13937pt x 285.59799pt>
+<../figures/bbc5D.pdf, id=4183, 171.13937pt x 285.59799pt>
 File: ../figures/bbc5D.pdf Graphic file (type pdf)
 <use ../figures/bbc5D.pdf>
 Package pdftex.def Info: ../figures/bbc5D.pdf  used on input line 665.
@@ -4245,144 +4395,152 @@ Overfull \hbox (0.55652pt too wide) detected at line 16
 
 
 Overfull \hbox (0.55652pt too wide) detected at line 20
- [][][]\T1/cmr/bx/n/10.95 139[][]
+ [][][]\T1/cmr/bx/n/10.95 140[][]
  []
 
 ) [115]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 36.
  [116] [117] [118]
-<../figures/model_mass_Howell_hist_SED-nonan.pdf, id=4427, 484.00156pt x 260.0512pt>
+<../figures/model_mass_Howell_hist_SED-nonan.pdf, id=4452, 484.00156pt x 260.0512pt>
 File: ../figures/model_mass_Howell_hist_SED-nonan.pdf Graphic file (type pdf)
 <use ../figures/model_mass_Howell_hist_SED-nonan.pdf>
 Package pdftex.def Info: ../figures/model_mass_Howell_hist_SED-nonan.pdf  used on input line 278.
 (pdftex.def)             Requested size: 455.24411pt x 244.59894pt.
  [119 <../figures/model_mass_Howell_hist_SED-nonan.pdf>]
-<../figures/mass_comp_df-nobug.pdf, id=4462, 342.79208pt x 246.7588pt>
+<../figures/mass_comp_df-nobug.pdf, id=4489, 342.79208pt x 249.1355pt>
 File: ../figures/mass_comp_df-nobug.pdf Graphic file (type pdf)
 <use ../figures/mass_comp_df-nobug.pdf>
-Package pdftex.def Info: ../figures/mass_comp_df-nobug.pdf  used on input line 391.
-(pdftex.def)             Requested size: 273.14923pt x 196.63167pt.
+Package pdftex.def Info: ../figures/mass_comp_df-nobug.pdf  used on input line 392.
+(pdftex.def)             Requested size: 273.14923pt x 198.52554pt.
 
-Underfull \hbox (badness 1097) in paragraph at lines 402--402
+Underfull \hbox (badness 1097) in paragraph at lines 403--403
 \T1/cmr/m/n/10.95 (+20) SED-SNf, res-pec-ti-ve-ment (voir lé-
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../figures/mass_model_all_evol.pdf, id=4465, 731.09268pt x 1020.21103pt>
+<../figures/mass_model_all_evol.pdf, id=4492, 731.09268pt x 1020.21103pt>
 File: ../figures/mass_model_all_evol.pdf Graphic file (type pdf)
 <use ../figures/mass_model_all_evol.pdf>
-Package pdftex.def Info: ../figures/mass_model_all_evol.pdf  used on input line 407.
+Package pdftex.def Info: ../figures/mass_model_all_evol.pdf  used on input line 408.
 (pdftex.def)             Requested size: 500.77129pt x 698.82478pt.
 
-LaTeX Warning: Float too large for page by 56.50618pt on input line 429.
+LaTeX Warning: Float too large for page by 56.50618pt on input line 430.
 
 [120]
-<../figures/model_mass_yfrac-best.pdf, id=4478, 1092.48103pt x 261.376pt>
+<../figures/model_mass_yfrac-best.pdf, id=4505, 1092.48103pt x 261.376pt>
 File: ../figures/model_mass_yfrac-best.pdf Graphic file (type pdf)
 <use ../figures/model_mass_yfrac-best.pdf>
-Package pdftex.def Info: ../figures/model_mass_yfrac-best.pdf  used on input line 450.
+Package pdftex.def Info: ../figures/model_mass_yfrac-best.pdf  used on input line 451.
 (pdftex.def)             Requested size: 546.29153pt x 130.70363pt.
  [121 <../figures/mass_comp_df-nobug.pdf>] [122 <../figures/mass_model_all_evol.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 540.
+               Default added (so using `tbp') on input line 543.
 
-<../figures/deltaz_hist_yo-random.pdf, id=4528, 406.91185pt x 224.44316pt>
+<../figures/deltaz_hist_yo-random.pdf, id=4557, 406.91185pt x 224.44316pt>
 File: ../figures/deltaz_hist_yo-random.pdf Graphic file (type pdf)
 <use ../figures/deltaz_hist_yo-random.pdf>
-Package pdftex.def Info: ../figures/deltaz_hist_yo-random.pdf  used on input line 542.
+Package pdftex.def Info: ../figures/deltaz_hist_yo-random.pdf  used on input line 545.
 (pdftex.def)             Requested size: 364.19667pt x 200.88393pt.
-[123 <../figures/model_mass_yfrac-best.pdf>] [124 <../figures/deltaz_hist_yo-random.pdf>] [125]
-<../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf, id=4601, 353.24158pt x 356.13101pt>
+[123 <../figures/model_mass_yfrac-best.pdf>] [124 <../figures/deltaz_hist_yo-random.pdf>]
+Underfull \vbox (badness 4927) has occurred while \output is active []
+
+ [125]
+<../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf, id=4630, 353.24158pt x 356.13101pt>
 File: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf>
-Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf  used on input line 710.
+Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf  used on input line 713.
 (pdftex.def)             Requested size: 227.62206pt x 229.48265pt.
  [126 <../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf>]
-<../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf, id=4638, 1164.75104pt x 1164.75104pt>
+<../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf, id=4667, 1164.75104pt x 1164.75104pt>
 File: ../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf>
-Package pdftex.def Info: ../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf  used on input line 754.
+Package pdftex.def Info: ../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf  used on input line 757.
 (pdftex.def)             Requested size: 364.19667pt x 364.19708pt.
- [127 <../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf>]
-<../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf, id=4666, 1164.75104pt x 369.781pt>
+ [127]
+<../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf, id=4681, 1164.75104pt x 369.781pt>
 File: ../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf>
-Package pdftex.def Info: ../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf  used on input line 870.
+Package pdftex.def Info: ../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf  used on input line 873.
 (pdftex.def)             Requested size: 455.24411pt x 144.52998pt.
- [128]
-<../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf, id=4682, 293.88708pt x 335.58682pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128 <../figures/snana_diagnostic_hist_all-panth_only_allSNFSUPP.pdf>]
+<../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf, id=4713, 293.88708pt x 335.58682pt>
 File: ../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf>
-Package pdftex.def Info: ../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf  used on input line 904.
+Package pdftex.def Info: ../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf  used on input line 911.
 (pdftex.def)             Requested size: 227.62206pt x 259.92859pt.
+
+Underfull \vbox (badness 1365) has occurred while \output is active []
+
  [129 <../figures/snana_diagnostic_hist_x1-panth_LOWZ_SNFSUPP.pdf>]
-<../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf, id=4709, 874.24603pt x 1453.83104pt>
+<../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf, id=4741, 874.24603pt x 1453.83104pt>
 File: ../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf Graphic file (type pdf)
 <use ../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf>
-Package pdftex.def Info: ../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf  used on input line 966.
+Package pdftex.def Info: ../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf  used on input line 973.
 (pdftex.def)             Requested size: 409.71692pt x 681.34853pt.
 
 
-LaTeX Warning: Float too large for page by 8.82225pt on input line 975.
+LaTeX Warning: Float too large for page by 8.82225pt on input line 982.
 
 [130 <../figures/snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ.pdf>] [131 <../figures/FULL-SNFSUPP_all_RS-MS_kernels.pdf>]
-<../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf, id=4820, 360.22792pt x 360.34042pt>
+<../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf, id=4852, 360.22792pt x 360.34042pt>
 File: ../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf>
-Package pdftex.def Info: ../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1058.
+Package pdftex.def Info: ../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1066.
 (pdftex.def)             Requested size: 218.51521pt x 218.5867pt.
-<../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf, id=4821, 360.22792pt x 360.34042pt>
+<../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf, id=4853, 360.22792pt x 360.34042pt>
 File: ../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf Graphic file (type pdf)
 <use ../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf>
-Package pdftex.def Info: ../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf  used on input line 1066.
+Package pdftex.def Info: ../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf  used on input line 1074.
 (pdftex.def)             Requested size: 218.51521pt x 218.5867pt.
-<../figures/betafit_covmat_FULL-SNFSUPP_2.pdf, id=4824, 360.22792pt x 360.34042pt>
+<../figures/betafit_covmat_FULL-SNFSUPP_2.pdf, id=4856, 360.22792pt x 360.34042pt>
 File: ../figures/betafit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/betafit_covmat_FULL-SNFSUPP_2.pdf>
-Package pdftex.def Info: ../figures/betafit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1084.
+Package pdftex.def Info: ../figures/betafit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1092.
 (pdftex.def)             Requested size: 218.51521pt x 218.5867pt.
-<../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf, id=4825, 360.22792pt x 360.34042pt>
+<../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf, id=4857, 360.22792pt x 360.34042pt>
 File: ../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf>
-Package pdftex.def Info: ../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1092.
+Package pdftex.def Info: ../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1100.
 (pdftex.def)             Requested size: 218.51521pt x 218.5867pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [132] [133 <../figures/alphafit_covmat_FULL-SNFSUPP_2.pdf> <../figures/alphafit_covmat_FULL-SNFSUPP_2-bias.pdf> <../figures/betafit_covmat_FULL-SNFSUPP_2.pdf> <../figures/gammafit_covmat_FULL-SNFSUPP_2.pdf>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1182.
-
-<../figures/briday_steps-few.png, id=4888, 1812.7725pt x 1080.035pt>
+<../figures/briday_steps-few.png, id=4917, 1812.7725pt x 1080.035pt>
 File: ../figures/briday_steps-few.png Graphic file (type png)
 <use ../figures/briday_steps-few.png>
-Package pdftex.def Info: ../figures/briday_steps-few.png  used on input line 1184.
+Package pdftex.def Info: ../figures/briday_steps-few.png  used on input line 1161.
 (pdftex.def)             Requested size: 364.19667pt x 216.9755pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [134 <../figures/briday_steps-few.png>]
-<../figures/wfit_covmat_FULL-SNFSUPP_2.pdf, id=4901, 360.22792pt x 360.34042pt>
+<../figures/wfit_covmat_FULL-SNFSUPP_2.pdf, id=4936, 360.22792pt x 360.34042pt>
 File: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf>
-Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1217.
+Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1211.
 (pdftex.def)             Requested size: 227.62206pt x 227.69745pt.
-<../figures/HR_covmat-FULL-SNFSUPP_2.pdf, id=4904, 1164.8232pt x 1164.75104pt>
+<../figures/HR_covmat-FULL-SNFSUPP_2.pdf, id=4939, 1164.8232pt x 1164.75104pt>
 File: ../figures/HR_covmat-FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/HR_covmat-FULL-SNFSUPP_2.pdf>
-Package pdftex.def Info: ../figures/HR_covmat-FULL-SNFSUPP_2.pdf  used on input line 1225.
+Package pdftex.def Info: ../figures/HR_covmat-FULL-SNFSUPP_2.pdf  used on input line 1219.
 (pdftex.def)             Requested size: 455.24411pt x 455.2108pt.
  [135 <../figures/wfit_covmat_FULL-SNFSUPP_2.pdf>] [136 <../figures/HR_covmat-FULL-SNFSUPP_2.pdf>]
+<../figures/wevol.pdf, id=4996, 468.07358pt x 341.77519pt>
+File: ../figures/wevol.pdf Graphic file (type pdf)
+<use ../figures/wevol.pdf>
+Package pdftex.def Info: ../figures/wevol.pdf  used on input line 1252.
+(pdftex.def)             Requested size: 318.66948pt x 232.68567pt.
 
-Package natbib Warning: Citation `BP' on page 137 undefined on input line 1290.
 
-[137]
+Package natbib Warning: Citation `BP' on page 137 undefined on input line 1273.
+
+[137 <../figures/wevol.pdf>] [138]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -4417,42 +4575,42 @@ Package natbib Warning: Citation `BP' on page 137 undefined on input line 1290.
 
 File: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf>
-Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf  used on input line 1346.
+Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNFSUPP.pdf  used on input line 1335.
 (pdftex.def)             Requested size: 225.77737pt x 227.62204pt.
-<../figures/snana_diagnostic_fyvM_NRSNF.pdf, id=4967, 353.24158pt x 356.13101pt>
+<../figures/snana_diagnostic_fyvM_NRSNF.pdf, id=5028, 353.24158pt x 356.13101pt>
 File: ../figures/snana_diagnostic_fyvM_NRSNF.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_fyvM_NRSNF.pdf>
-Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNF.pdf  used on input line 1353.
+Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSNF.pdf  used on input line 1342.
 (pdftex.def)             Requested size: 225.77737pt x 227.62204pt.
-<../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf, id=4968, 353.24158pt x 356.13101pt>
+<../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf, id=5029, 353.24158pt x 356.13101pt>
 File: ../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf Graphic file (type pdf)
 <use ../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf>
-Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf  used on input line 1360.
+Package pdftex.def Info: ../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf  used on input line 1349.
 (pdftex.def)             Requested size: 225.77737pt x 227.62204pt.
 File: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf>
-Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1412.
+Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNFSUPP_2.pdf  used on input line 1368.
 (pdftex.def)             Requested size: 227.55492pt x 227.62204pt.
-<../figures/wfit_covmat_FULL-SNF_2.pdf, id=4969, 360.22792pt x 360.34042pt>
+<../figures/wfit_covmat_FULL-SNF_2.pdf, id=5030, 360.22792pt x 360.34042pt>
 File: ../figures/wfit_covmat_FULL-SNF_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SNF_2.pdf>
-Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNF_2.pdf  used on input line 1420.
+Package pdftex.def Info: ../figures/wfit_covmat_FULL-SNF_2.pdf  used on input line 1376.
 (pdftex.def)             Requested size: 227.55492pt x 227.62204pt.
-<../figures/wfit_covmat_FULL-SEDSNF_2.pdf, id=4970, 360.22792pt x 360.34042pt>
+<../figures/wfit_covmat_FULL-SEDSNF_2.pdf, id=5031, 360.22792pt x 360.34042pt>
 File: ../figures/wfit_covmat_FULL-SEDSNF_2.pdf Graphic file (type pdf)
 <use ../figures/wfit_covmat_FULL-SEDSNF_2.pdf>
-Package pdftex.def Info: ../figures/wfit_covmat_FULL-SEDSNF_2.pdf  used on input line 1428.
+Package pdftex.def Info: ../figures/wfit_covmat_FULL-SEDSNF_2.pdf  used on input line 1384.
 (pdftex.def)             Requested size: 227.55492pt x 227.62204pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[138 <../figures/snana_diagnostic_fyvM_NRSNF.pdf> <../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf> <../figures/wfit_covmat_FULL-SNF_2.pdf> <../figures/wfit_covmat_FULL-SEDSNF_2.pdf>] [139
+[139 <../figures/snana_diagnostic_fyvM_NRSNF.pdf> <../figures/snana_diagnostic_fyvM_NRSEDSNF.pdf> <../figures/wfit_covmat_FULL-SNF_2.pdf> <../figures/wfit_covmat_FULL-SEDSNF_2.pdf>] [140
 
 
 
 
-] [140]
+]
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
@@ -4483,13 +4641,13 @@ Overfull \hbox (0.55652pt too wide) detected at line 6
  []
 
 ) [143]
-<../figures/model_N21+HD+ZTF_on_ZTF.pdf, id=5128, 403.20764pt x 282.35918pt>
+<../figures/model_N21+HD+ZTF_on_ZTF.pdf, id=5183, 403.20764pt x 282.35918pt>
 File: ../figures/model_N21+HD+ZTF_on_ZTF.pdf Graphic file (type pdf)
 <use ../figures/model_N21+HD+ZTF_on_ZTF.pdf>
 Package pdftex.def Info: ../figures/model_N21+HD+ZTF_on_ZTF.pdf  used on input line 77.
 (pdftex.def)             Requested size: 273.14923pt x 191.2865pt.
  [144 <../figures/model_N21+HD+ZTF_on_ZTF.pdf>] [145]
-<../figures/stretchevol_all-oth_vs_ztf-weighted.pdf, id=5159, 530.03967pt x 340.17519pt>
+<../figures/stretchevol_all-oth_vs_ztf-weighted.pdf, id=5213, 530.03967pt x 340.17519pt>
 File: ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf Graphic file (type pdf)
 <use ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf>
 Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf  used on input line 181.
@@ -4527,20 +4685,17 @@ Package pdftex.def Info: ../figures/stretchevol_all-oth_vs_ztf-weighted.pdf  use
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../figures/mod_comp_ztf-fr.pdf, id=5179, 342.79208pt x 270.85168pt>
+<../figures/mod_comp_ztf-fr.pdf, id=5234, 342.79208pt x 270.85168pt>
 File: ../figures/mod_comp_ztf-fr.pdf Graphic file (type pdf)
 <use ../figures/mod_comp_ztf-fr.pdf>
 Package pdftex.def Info: ../figures/mod_comp_ztf-fr.pdf  used on input line 215.
 (pdftex.def)             Requested size: 315.25172pt x 249.09564pt.
  [147 <../figures/mod_comp_ztf-fr.pdf>]
-<../figures/model_N21+ZTF_on_allsurvs.pdf, id=5213, 728.42267pt x 710.84044pt>
+<../figures/model_N21+ZTF_on_allsurvs.pdf, id=5268, 728.42267pt x 710.84044pt>
 File: ../figures/model_N21+ZTF_on_allsurvs.pdf Graphic file (type pdf)
 <use ../figures/model_N21+ZTF_on_allsurvs.pdf>
 Package pdftex.def Info: ../figures/model_N21+ZTF_on_allsurvs.pdf  used on input line 322.
 (pdftex.def)             Requested size: 455.24411pt x 444.26334pt.
-
-Underfull \vbox (badness 1377) has occurred while \output is active []
-
  [148
 
 
@@ -4564,59 +4719,59 @@ Underfull \vbox (badness 1377) has occurred while \output is active []
 \tf@brf=\write10
 \openout10 = `main.brf'.
 
- [154] [155
+ [154] [155] [156
 
-] [156] [157] [158] [159] [160] [161] [162] [163]
+] [157] [158] [159] [160] [161] [162] [163] [164] [165]
 
 Package caption Warning: \label without proper reference on input line 466.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:bbc' on page 164 undefined on input line 2014.
+LaTeX Warning: Reference `tab:bbc' on page 166 undefined on input line 2015.
 
 
 Package caption Warning: \label without proper reference on input line 470.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:bbc' on page 164 undefined on input line 2014.
+LaTeX Warning: Reference `tab:bbc' on page 166 undefined on input line 2015.
 
 
 Package caption Warning: \label without proper reference on input line 103.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:skasym' on page 164 undefined on input line 2014.
+LaTeX Warning: Reference `tab:skasym' on page 166 undefined on input line 2015.
 
 
 Package caption Warning: \label without proper reference on input line 513.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:ps1cuts' on page 164 undefined on input line 2056.
+LaTeX Warning: Reference `tab:ps1cuts' on page 166 undefined on input line 2057.
 
 
 Package caption Warning: \label without proper reference on input line 468.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:bbc' on page 164 undefined on input line 2056.
+LaTeX Warning: Reference `tab:bbc' on page 166 undefined on input line 2057.
 
 
 Package caption Warning: \label without proper reference on input line 105.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:skasym' on page 164 undefined on input line 2056.
+LaTeX Warning: Reference `tab:skasym' on page 166 undefined on input line 2057.
 
 
 Package caption Warning: \label without proper reference on input line 153.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:sklowz' on page 164 undefined on input line 2056.
+LaTeX Warning: Reference `tab:sklowz' on page 166 undefined on input line 2057.
 
-[164])
+[166])
 
 Package natbib Warning: There were undefined citations.
 
@@ -4630,14 +4785,14 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[165]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+[167]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 7DD77167A36E3E9C8ED2EEB253F3179D;19310.
+(rerunfilecheck)             Checksum: E94096110D3AD3A0B4FF9187CA951639;19787.
 
 
 LaTeX Warning: There were undefined references.
@@ -4647,26 +4802,26 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 61290 strings out of 492982
- 1235004 string characters out of 6134895
- 1598625 words of memory out of 5000000
- 62215 multiletter control sequences out of 15000+600000
- 595294 words of font info for 400 fonts, out of 8000000 for 9000
+ 67862 strings out of 492982
+ 1366805 string characters out of 6134895
+ 1806969 words of memory out of 5000000
+ 68681 multiletter control sequences out of 15000+600000
+ 594762 words of font info for 393 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,21n,130p,10407b,2921s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,21n,130p,10407b,2896s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.80} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.66} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.65} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.44} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/shar
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/shar
 e/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1728.pfb></usr/share/texmf/fonts/type1/fkr/tipa/tipa10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (185 pages, 43856022 bytes).
+Output written on main.pdf (187 pages, 43872491 bytes).
 PDF statistics:
- 6714 PDF objects out of 7423 (max. 8388607)
- 5379 compressed objects within 54 object streams
- 808 named destinations out of 1000 (max. 500000)
- 63536 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 6807 PDF objects out of 7423 (max. 8388607)
+ 5463 compressed objects within 55 object streams
+ 814 named destinations out of 1000 (max. 500000)
+ 63546 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -2,12 +2,12 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Impact sur la cosmologie~: simulations}{1}{chapter.1}
 \contentsline {figure}{\numberline {I.1}{\ignorespaces $M_*$ en fonction du LsSFR des SNe~Ia de SNfactory et mod\IeC {\`e}le de masse s\IeC {\'e}lectionn\IeC {\'e} ajust\IeC {\'e}}}{5}{figure.caption.5}
-\contentsline {figure}{\numberline {I.2}{\ignorespaces $\Delta $AIC entre le mod\IeC {\`e}le Howell et les autres mod\IeC {\`e}les}}{7}{figure.caption.8}
+\contentsline {figure}{\numberline {I.2}{\ignorespaces $\Delta $AIC entre le mod\IeC {\`e}le Bi-normal et les autres mod\IeC {\`e}les}}{7}{figure.caption.8}
 \contentsline {figure}{\numberline {I.3}{\ignorespaces Mod\IeC {\`e}les impl\IeC {\'e}ment\IeC {\'e}s et test\IeC {\'e}s dans l'\IeC {\'e}tude de l'\IeC {\'e}volution de l'\IeC {\'e}tirement avec le redshift}}{8}{figure.caption.9}
 \contentsline {figure}{\numberline {I.4}{\ignorespaces Comparaison de la pr\IeC {\'e}diction de l'\IeC {\'e}volution de la fraction de jeunes SNe~Ia en fonction de la masse de la galaxie h\IeC {\^o}te}}{9}{figure.caption.10}
 \contentsline {figure}{\numberline {I.5}{\ignorespaces Repr\IeC {\'e}sentation du choix de l'\IeC {\^a}ge d'une SN et de l'assignation de masse et d'\IeC {\'e}tirement en fonction du redshift}}{10}{figure.caption.12}
 \contentsline {figure}{\numberline {I.6}{\ignorespaces Fraction de jeunes \IeC {\'e}toiles en fonction de la masse pour le mod\IeC {\`e}le de masse SNfsupp}}{12}{figure.caption.15}
-\contentsline {figure}{\numberline {I.7}{\ignorespaces Histogrammes uni-dimensionnels des donn\IeC {\'e}es simul\IeC {\'e}es et r\IeC {\'e}elles}}{13}{figure.caption.16}
+\contentsline {figure}{\numberline {I.7}{\ignorespaces Histogrammes uni-dimensionnels des donn\IeC {\'e}es simul\IeC {\'e}es et r\IeC {\'e}elles}}{14}{figure.caption.16}
 \contentsline {figure}{\numberline {I.8}{\ignorespaces Histogrammes uni-dimensionnels des \IeC {\'e}tirements des donn\IeC {\'e}es simul\IeC {\'e}es et r\IeC {\'e}elles pour l'\IeC {\'e}chantillon LOWZ}}{15}{figure.caption.21}
 \contentsline {figure}{\numberline {I.9}{\ignorespaces Histogrammes des donn\IeC {\'e}es test\IeC {\'e}es et conserv\IeC {\'e}es du mod\IeC {\`e}le NR pour le sondage LOWZ}}{16}{figure.caption.22}
 \contentsline {figure}{\numberline {I.10}{\ignorespaces Accord entre les donn\IeC {\'e}es r\IeC {\'e}elles et simul\IeC {\'e}es en 2 dimensions pour tous les mod\IeC {\`e}les}}{17}{figure.caption.23}
@@ -16,6 +16,7 @@
 \contentsline {figure}{\numberline {I.13}{\ignorespaces Marche de magnitude des SNe~Ia en fonction du traceur}}{20}{figure.caption.28}
 \contentsline {figure}{\numberline {I.14}{\ignorespaces R\IeC {\'e}sultats cosmologiques~: $w$}}{21}{figure.caption.29}
 \contentsline {figure}{\numberline {I.15}{\ignorespaces R\IeC {\'e}sultats cosmologiques~: r\IeC {\'e}sidus de \textsc {Hubble}}}{22}{figure.caption.30}
-\contentsline {figure}{\numberline {I.16}{\ignorespaces \IeC {\'E}volution de la fraction de jeunes \IeC {\'e}toiles en fonction de la masse pour les diff\IeC {\'e}rents mod\IeC {\`e}les de masse}}{24}{figure.caption.31}
-\contentsline {figure}{\numberline {I.17}{\ignorespaces R\IeC {\'e}sultats cosmologiques~: $w$ selon le mod\IeC {\`e}le de masse}}{24}{figure.caption.32}
+\contentsline {figure}{\numberline {I.16}{\ignorespaces Effet d'une variation de $w$ sur le facteur d'\IeC {\'e}chelle de l'Univers}}{23}{figure.caption.31}
+\contentsline {figure}{\numberline {I.17}{\ignorespaces \IeC {\'E}volution de la fraction de jeunes \IeC {\'e}toiles en fonction de la masse pour les diff\IeC {\'e}rents mod\IeC {\`e}les de masse}}{25}{figure.caption.32}
+\contentsline {figure}{\numberline {I.18}{\ignorespaces R\IeC {\'e}sultats cosmologiques~: $w$ selon le mod\IeC {\`e}le de masse}}{25}{figure.caption.33}
 \contentsfinish 

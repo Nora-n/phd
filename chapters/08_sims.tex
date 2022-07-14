@@ -15,8 +15,8 @@
 
 Nous avons vu dans le chapitre précédent la manière dont \snana\ permettait de
 traiter les biais et corrélations environnementales dans le calcul des
-paramètres cosmologiques, et ainsi pourquoi son utilisation dans notre thèse
-était pertinente.
+paramètres cosmologiques, et ainsi la raison pour laquelle son utilisation dans
+notre thèse était pertinente.
 
 Dans ce chapitre, nous présentons les simulations que nous avons effectuées avec
 le logiciel. Dans un premier lieu, nous discutons des différentes corrélations
@@ -36,7 +36,7 @@ regarder l'impact de ces différentes hypothèses sur la valeur calculée de $w$
 \section{Présentation des \hostlib}\label{sec:hpres}
 
 Dans sa forme la plus générale, une \hostlib\ ne possède pas de valeurs liées à
-des paramètres de SNe~Ia (comme l'étirement ou la couleur)~; en effet, elle sert
+des paramètres de SNe~Ia (comme l'étirement ou la couleur). En effet, elle sert
 originellement à utiliser le redshift photométrique de la galaxie hôte comme
 valeur antérieure dans l'ajustement du redshift de la SN et à ajouter du bruit à
 la SN simulée (voir Chapitre~\ref{ch:snana}). Avant d'intégrer notre modèle à
@@ -49,8 +49,8 @@ BP\defcitealias{popovic2021a}{BP}.
 
 Dans leurs travaux, \citetalias{scolnic2016} n'incluent pas de lien d'étirement
 ou de couleur avec les propriétés de la galaxie hôte mais uniquement une marche
-de magnitude en fonction de sa masse $M_*$. Celle-ci est inclut dans les
-\wgtmap\ des sondages, et est de \SI{0.05}{mag}. Le tirage des paramètres $x_1$
+de magnitude en fonction de sa masse $M_*$. Celle-ci est incluse dans les
+\wgtmap\ des sondages et est de \SI{0.05}{mag}. Le tirage des paramètres $x_1$
 et $c$ se font alors depuis des distributions asymétriques Gaussiennes, une par
 sondage simulé, décrites par~:
 \begin{equation}\label{eq:skasym}
@@ -151,7 +151,7 @@ $a=\frac{A_1}{A_2}$.
         \begin{tablenotes}[flushleft]
         \item\small \textbf{\hspace{-3,2pt}Notes.} Les caractéristiques sont
             celles reportées dans l'annexe C de~\cite{scolnic2018}, mais les
-            valeurs y étant erronées nous avons utilisé celles de l'équipe
+            valeurs y étant erronées, nous avons utilisé celles de l'équipe
             directement.
         \end{tablenotes}
     \end{threeparttable}
@@ -165,8 +165,8 @@ Ceci est effectué en découpant les données des sondages en intervalles selon
 $M_*$~; dans chacun de ces intervalles sont déterminés les paramètres des
 Gaussiennes asymétriques, puis à chaque entrée de la \hostlib\ sont sélectionnés
 des paramètres d'étirement et de couleur selon la valeur de la masse de la
-galaxie hôte. Ainsi, par rapport à SK, ces \hostlib\ présentent 2 colonnes
-supplémentaires, une pour $x_1$ et une pour $c$, attribuant à chaque entrée une
+galaxie hôte. Ainsi, par rapport à SK, ces \hostlib\ présentent deux colonnes
+supplémentaires~: une pour $x_1$ et une pour $c$, attribuant à chaque entrée une
 valeur de ces paramètres à associer à la SN simulée. 
 
 Ce procédé est réalisé pour LOWZ d'une part, menant à une \hostlib\ que nous
@@ -175,7 +175,7 @@ SNLS d'autre part, menant à une \hostlib\ que nous nommons «~BP\_highz~». Les
 valeurs des paramètres correspondants sont disponibles dans l'annexe A2
 de~\citetalias{popovic2021a}.
 
-Ce sont ces \hostlib\ qui constituent la base de notre étude~; en réalité, les
+Ce sont ces \hostlib\ qui constituent la base de notre étude~: en réalité, les
 \hostlib\ SK sont celles de BP où nous avons retiré le tirage des colonnes $x_1$
 et $c$.
 
@@ -188,7 +188,7 @@ d'une modélisation prospective plutôt que purement phénoménologique. Pour no
 son environnement, en correspondance avec nos travaux précédents
 \citep[][ci-après NN]{nicolas2021}\defcitealias{nicolas2021}{NN}. Nous
 augmentons donc les \hostlib\ en faisant correspondre un âge à chaque entrée des
-tables~; ainsi, par rapport aux \hostlib\ BP, nous avons donc une colonne
+tables. Ainsi, par rapport aux \hostlib\ BP, nous avons donc une colonne
 indiquant si la SN est jeune ou vieille, et nommons ces \hostlib\ «~NN~». La
 réalisation de cette \hostlib\ est présentée dans la Section~\ref{sec:hmake}.
 
@@ -212,7 +212,7 @@ avons besoin que les propriétés des galaxies hôtes suivent les distributions 
 ce qui a été observé par les différents sondages simulés. Bien que nous
 soutenions que le LsSFR est un meilleur traceur de l'environnement d'une SN
 \citep{briday2022}, la plupart des sondages caractérisent les galaxies avec leur
-masse stellaire. Étant donné que le LsSFR repose sur la masse de la galaxie
+masse stellaire. Étant donné que le LsSFR est lié à la masse de la galaxie
 hôte\footnote{pour rappel~: $\mathrm{sSFR} = \frac{\rm SFR}{M_*}$}, nous ne
 pouvons pas uniquement nous baser sur la valeur du redshift $z$ d'une entrée des
 \hostlib\ BP pour y assigner un étirement. Nous attendons effectivement que les
@@ -221,7 +221,7 @@ galaxies de $M \gtrsim 7$ n'en contiennent que des jeunes.
 
 Par conséquent, afin de comparer les implications de notre modélisation basée
 sur le LsSFR avec ce que les autres sondages ont observé, nous avons dû
-modéliser les masses des galaxies hôtes par rapport au LsSFR~; nous avons pour
+modéliser les masses des galaxies hôtes par rapport au LsSFR. Nous avons pour
 cela utilisé le même échantillon du Chapitre~\ref{ch:sample} que pour la
 modélisation de l'étirement du Chapitre~\ref{ch:stretch}. Cependant, nous
 soulignons que cette étude n'a pas pour volonté de décrire l'évolution des
@@ -297,14 +297,15 @@ Gaussienne asymétrique pure) et les modèles ne convergeant pas. Ainsi, nous
 présentons les modèles suivants~:
 
 \begin{itemize}
-    \item «~Howell~» d'après~\cite{howell2007}, avec une Gaussienne simple pour
-        chacune des populations jeune et âgée (voir Chapitre~\ref{ch:stretch})~;
+    \item «~Bi-normal~»\footnote{Même paramétrisation que le modèle
+            «~Howell~»~\citep{howell2007} pour le stretch, voir
+        Chapitre~\ref{ch:stretch}.}, avec une Gaussienne simple pour chacune des
+        populations jeune et âgée~;
 
-    \item «~Howell+asym~» où la population jeune est une simple Gaussienne et la
+    \item «~Normal+asym~» où la population jeune est une simple Gaussienne et la
         population vieille est une Gaussienne asymétrique~;
 
-    \item «~Howell asym~» où les deux populations jeune et âgée sont
-        asymétriques.
+    \item «~Bi-asym~» où les deux populations jeune et âgée sont asymétriques.
 \end{itemize}
 
 \subsection{Comparaison aux données}\label{ssec:mres}
@@ -338,9 +339,9 @@ Tableau~\ref{tab:modelcomp}.
         \begin{tabular}{lcccccccccc}
             %\hline\hline & & & & & & \\[-0.6em]
             \toprule &
-            & \multicolumn{3}{c}{Howell ($k=4$)}
-            & \multicolumn{3}{c}{Howell+asym ($k=5$)}
-            & \multicolumn{3}{c}{Howell asym ($k=6$)} \\
+            & \multicolumn{3}{c}{Bi-normal ($k=4$)}
+            & \multicolumn{3}{c}{Normal+asym ($k=5$)}
+            & \multicolumn{3}{c}{Bi-asym ($k=6$)} \\
             \cmidrule(lr){3-5}\cmidrule(lr){6-8}\cmidrule(lr){9-11}
             Échantillon & N$_{\rm SNe~Ia}$ &
             $-2\ln(L)$ & AIC & $\Delta$AIC &
@@ -372,13 +373,13 @@ Tableau~\ref{tab:modelcomp}.
                 de paramètres libres $k$, et pour chaque échantillon étudié son
                 $-2\ln(L)$ (voir Équation~\ref{eq:likelihood}), son AIC et la
                 différence d'AIC ($\Delta$AIC) entre ce modèle et le modèle
-                Howell, choisi comme référence car présentant l'AIC le plus
+                Bi-normal, choisi comme référence car présentant l'AIC le plus
                 faible pour 6 comparaisons sur 8.
         \end{tablenotes}
     \end{threeparttable}
 \end{table}
 
-Après calcul, le modèle Howell est celui qui se détache le plus, étant celui de
+Après calcul, le modèle Bi-normal est celui qui se détache le plus, étant celui de
 plus petit AIC pour 6 modèles sur 8, et est celui représenté sur la
 Figure~\ref{fig:massmodel}~; cependant tous les modèles sont considérés comme
 étant de bonnes représentations des données. Nous présentons
@@ -389,8 +390,8 @@ modèles implémentés variant en redshift.
 \begin{SCfigure}[1][h!]
     \centering
     \includegraphics[width=.6\linewidth]{mass_comp_df-nobug}
-    \caption[$\Delta$AIC entre le modèle Howell et les autres
-    modèles]{$\Delta$AIC entre le modèle Howell et les autres modèles (voir
+    \caption[$\Delta$AIC entre le modèle Bi-normal et les autres
+    modèles]{$\Delta$AIC entre le modèle Bi-normal et les autres modèles (voir
         Tableau~\ref{tab:modelcomp}). Tous les modèles sont dérivants. Les
         marqueurs bleus, orange, verts, rouges montrent les résultats lorsque
         l'analyse est effectuée sur l'échantillon SNf, SEDSNf, fiduciel,
@@ -407,14 +408,14 @@ modèles implémentés variant en redshift.
     \includegraphics[width=1.1\linewidth]{mass_model_all_evol.pdf}
     \caption[Modèles implémentés et testés dans l'étude de l'évolution de
     l'étirement avec le redshift]{\scriptsize Modèles implémentés et testés dans
-        l'étude de l'évolution de la masse avec le redshift. Les modèles Howell,
-        Howell+asym et Howell asym sont tracés dans la colonne de gauche, du
+        l'étude de l'évolution de la masse avec le redshift. Les modèles Bi-normal,
+        Normal+asym et Bi-asym sont tracés dans la colonne de gauche, du
         milieu et de droite, respectivement. Les échantillons sur lesquels ils
         sont ajustés correspondent aux lignes et à la couleur de fond du
         graphique~: SNf (bleu), SEDSNf (orange), fiduciel (vert), fiduciel avec
         SEDSNf (rouge)~; ce sont les mêmes couleurs que dans la
         Figure~\ref{fig:massmod_comp}. Les quantités $\Delta(-2\ln(L))$ et
-        $\Delta$AIC par rapport au modèle Howell de chaque ligne sont indiqués
+        $\Delta$AIC par rapport au modèle Bi-normal de chaque ligne sont indiqués
         pour chaque modèle figure. Nous avons tracé dix réalisations des modèles
         selon la valeur du redshift moyen considéré, de la valeur la plus basse
         de notre échantillon ($z = 0,02$) à la valeur maximale des données
@@ -455,32 +456,34 @@ les résultats sont présentés Figure~\ref{fig:ypc}.
         selon chaque échantillon utilisé pour l'ajustement. Alors que le sens de
         variation devrait être constant, pratiquement tous les modèles finissent
         par remonter après $M_* \approx 10^{11}\si{\Msun}$, sauf le modèle
-        Howell ajusté sur SEDSNf. Nous excluons les modèles Howell+asym et
-    Howell asym par ce critère.}
+        Bi-normal ajusté sur SEDSNf. Nous excluons les modèles Normal+asym et
+    Bi-asym par ce critère.}
     \label{fig:ypc}
 \end{figure}
 
 Nous trouvons alors que tous les modèles finissent par présenter une remontée de
 la fraction de jeunes étoiles quand la masse $M_* > 10^{11}\si{\Msun}$, sauf le
-modèle Howell ajusté sur l'échantillon SEDSNf. Cela provient de l'incertitude
+modèle Bi-normal ajusté sur l'échantillon SEDSNf. Cela provient de l'incertitude
 des courbes Gaussiennes des sous-populations jeunes étant bien plus larges que
 celles des sous-populations vieilles, donnant pour les masses élevée un rapport
 de probabilité en faveur des jeunes SNe~Ia. Ceci ne correspondant pas à une
-réalité physique, nous rejetons tous les modèles Howell+asym et Howell asym de
-notre étude à partir de ces résultats. Parmi les modèles Howell, seul celui
+réalité physique, nous rejetons tous les modèles Normal+asym et Bi-asym de
+notre étude à partir de ces résultats. Parmi les modèles Bi-normal, seul celui
 ajusté sur SNf passe en effet par 50\% à $M_*=10^{10}\si{\Msun}$.
 
 Nous conservons ainsi les modèles suivants~:
 \begin{enumerate}
-    \item Le modèle Howell ajusté sur SEDSNf~;
-    \item Le modèle Howell ajusté sur SNf~;
+    \item Le modèle Bi-normal ajusté sur SEDSNf~;
+    \item Le modèle Bi-normal ajusté sur SNf~;
 \end{enumerate}
 et pour reproduire artificiellement la descente de la fraction de jeunes étoiles
 en fonction de la masse attendue, nous avons également~:
 \begin{enumerate}[resume]
-    \item «~SNfsupp~» («~suppressed~», «~réprimé~»)~: le modèle Howell ajusté
+    \item «~SNfsupp~» («~suppressed~», «~réprimé~»)~: le modèle Bi-normal ajusté
         sur SNf, mais pour lequel les objets de $M_* > 10^{11}\si{\Msun}$ sont
-        automatiquement associés à des SNe~Ia âgées.
+        automatiquement associés à des SNe~Ia âgées. Il ne constitue pas un
+        modèle analytique en soit et n'est donc pas tracé Figure~\ref{fig:ypc},
+        mais son effet est visible Figure~\ref{fig:fyvMsupp}.
 \end{enumerate}
 
 Nous prenons le modèle SNfsupp comme référence~; les implications du choix de
@@ -491,8 +494,8 @@ Tableau~\ref{tab:massmodelresults}.
 \begin{table}[ht]
     \centerfloat
     \caption[Valeurs des paramètres issus des meilleurs ajustement du modèle
-    Howell sur les échantillons SNf et SEDSNf]{Valeurs des paramètres issus des
-    meilleurs ajustement du modèle Howell sur les échantillons SNf et SEDSNf.}
+    Bi-normal sur les échantillons SNf et SEDSNf]{Valeurs des paramètres issus des
+    meilleurs ajustement du modèle Bi-normal sur les échantillons SNf et SEDSNf.}
     \label{tab:massmodelresults}
     \begin{tabular}{lcccc}
         \toprule
@@ -639,10 +642,10 @@ pourcentages de l'échantillon Pantheon.
             \multicolumn{5}{c}{Après \bbc} \\
             \cmidrule(lr){3-7}
             Données & BiasCor &
-            Total (\%) & LOWZ & SDSS & PS1 & SNLS \\
+            Total (/1022) & LOWZ & SDSS & PS1 & SNLS \\
             \midrule
             \multicolumn{2}{c}{Pantheon} &
-            1022 & 172 & 335 & 279 & 236 \\
+            1022 (1.00) & 172 & 335 & 279 & 236 \\
             \midrule
             \multirow{4}{*}{SK} 
             & SK & 13333 (13.05) & 13.64 & 7.29 & 19.63 & 13.00 \\
@@ -896,7 +899,11 @@ modèle NR n'en possèdent que 20\%, réduit à 15\% dans les données conservé
 Comme nous avons créé notre \hostlib\ en utilisant le redshift de chaque entrée,
 l'accord avec les données est de fait erroné, et il est probable que la vraie
 fraction soit encore plus faible en observant ces résultats
-Figure~\ref{fig:lowzdump}.
+Figure~\ref{fig:lowzdump}. Pour y remédier, nous pourrions utiliser le modèle
+d'étirement Base+const\footnote{C'est le modèle de base avec une fraction fixe
+de jeunes étoiles.} du Chapitre~\ref{ch:stretch} en ajustant la fraction aux
+données de LOWZ, et utiliser ce modèle indépendemment du redshift de la
+\hostlib.
 
 \sidecaptionvpos{figure}{c}
 \begin{SCfigure}[1][ht]
@@ -1006,7 +1013,8 @@ Nous observons que la modélisation~\citetalias{scolnic2016} est la meilleure de
 4 sur la combinaison de ces des distributions~; la
 modélisation~\citetalias{popovic2021a} est deuxième, et les
 modélisations~\citetalias{nicolas2021} et NR ont un score similaire les plaçant
-comme les modélisations les moins bien ajustées aux données. Les résultats ne
+comme les modélisations les moins bien ajustées aux données, ce qui est attendu
+étant donné la différence du nombre de paramètres libres. Les résultats ne
 diffèrent que très peu sur les distributions conjointes de redshift et de masse,
 et la majeure partie de la différence entre les modèles vient de la modélisation
 conjointe de l'étirement et du redshift pour laquelle les valeurs de
@@ -1073,7 +1081,7 @@ leur correction des données est cohérente avec leur génération.
         ajustement avec la méthode BBC7D (voir
         Chapitre~\ref{ch:snana}). La figure de droite met en
         évidence que le modèle NR perçoit une valeur de référence de $\alpha =
-    0,155$.}
+    0,155$ au lieu de \num{0.145}.}
     \label{fig:cosmo1}
 \end{figure}
 
@@ -1120,11 +1128,6 @@ couleur n'est pas un paramètre que nous modifions dans la \hostlib\ NR~;
 celle-ci utilise en effet les paramètres de BP, et nous avançons que le biais
 sur $\beta$ est dû à un effet subtile reliant la couleur à l'étirement.
 
-% parce que les autres modèles de masse (SNf, SEDSNf) donnent un
-% meilleur accord avec ce paramètre (ce qui n'est pas le cas pour $\alpha$)~; mais
-% ceci ne change pas les valeurs de $w$ de manière significative comme nous
-% pourrons le voir dans la suite.
-
 Sur l'ensemble de ces figures, nous voyons que les modèles SK, BP et NN sont
 consistants avec eux-mêmes puisque les valeurs de sorties sont compatibles avec
 les valeurs d'entrée. S'il n'y a pas tant d'écart à \num{0.145} pour $\alpha$
@@ -1140,12 +1143,6 @@ plus hautes et la ligne du haute des valeurs plus basses. Ces effets sont
 corrélés puisque l'absence de corrélation entre galaxie et étirement/couleur du
 modèle SK est compensé dans la valeur de marche de magnitude.
 
-% When data in SK world, where no correlation betw galaxy and sn, but the
-% correlation is assume to depend on galaxy propertires, the recoerd values of
-% alpha and beta are too small; due to the fact taht the correlation is inferred
-% to be in gamma. NR got gamma and put in alpha; SK thinks there is no
-% correlaation and sticks other correlations in gamma (overestimates).
-
 Pour NR, nous supposons que le fait que nous devons modifier la valeur de
 $\alpha_{\rm ref}$ provient d'une mauvaise interprétation de la corrélation de
 la magnitude avec l'âge par \snana~; le programme corrige cette magnitude
@@ -1159,27 +1156,7 @@ méthode \bbc7D de $\gamma_{\rm masse} \approx \num{.100}$, soit deux fois plus
 élevée que les valeurs trouvées pour les autres simulations (de valeur d'entrée
 \SI{0.05}{mag}).
 
-Cette déviation est attendue étant donné que la masse constitue un mauvais
-traceur de l'âge d'une SN. Il est cependant intéressant de voir ces valeurs plus
-basse que celle d'entrée~: c'est d'une part cohérent avec le fait que la
-simulation voie un $\alpha_{\rm ref} = \num{0.155}$ (la baisse de $\gamma$ est
-compensée dans $\alpha$, comme pour SK en tant que BiasCor), et d'autre part ce
-résultat est en total accord avec l'étude de~\cite{briday2022}. En effet,
-l'auteur rapporte dans cet article qu'un traceur moins efficace à différencier
-les populations de SNe~Ia attribuera une marche de magnitude plus faible qu'un
-traceur plus discriminant~; notamment, dans leur figure 4 (recopiée
-Figure~\ref{fig:briday_steps}), une valeur de $\gamma =
-\SI{0.13}{mag}$ avec le LsSFR se traduirait par une valeur de $\gamma \approx
-\SI{0.10}{mag}$ avec la masse globale (sur la ligne noire sous la masse
-globale).
-
-% Input of .130, but can't get it back because mass tracing age is bad. No truth
-% parameter for gamma. It's of interest for it to be lower than 0.130, quite
-% close though. Decreased value goes to alpha. COmparatively in the data, we see
-% a higher value because the simulated age step is too big or correlation
-% between x1 and age not strong enough (could go even more in alpha).
-
-\begin{figure}[]
+\begin{figure}[t]
     \centering
     \includegraphics[width=.8\linewidth]{briday_steps-few}
     \caption[Marche de magnitude des SNe~Ia en fonction du traceur]{Marche de
@@ -1194,6 +1171,23 @@ globale).
         donnerait une marche de magnitude autour de \SI{0.10}{mag} sur cette
     ligne.}\label{fig:briday_steps}
 \end{figure}
+
+Cette déviation est attendue étant donné que la masse constitue un mauvais
+traceur de l'âge d'une SN. Il est cependant intéressant de voir ces valeurs plus
+basse que celle d'entrée~: c'est d'une part cohérent avec le fait que la
+simulation voie un $\alpha_{\rm ref} = \num{0.155}$ (la baisse de $\gamma$ est
+compensée dans $\alpha$, comme pour SK en tant que BiasCor), et d'autre part ce
+résultat est en total accord avec l'étude de~\cite{briday2021}\footnote{publiée
+en anglais dans~\cite{briday2022}}. L'auteur rapporte dans cet article qu'un
+traceur moins efficace à différencier les populations de SNe~Ia attribuera une
+marche de magnitude plus faible qu'un traceur plus discriminant~; notamment,
+dans sa figure 8.1 (recopiée Figure~\ref{fig:briday_steps}), une valeur de
+$\gamma = \SI{0.13}{mag}$ avec le LsSFR se traduirait par une valeur de $\gamma
+\approx \SI{0.10}{mag}$ avec la masse globale (sur la ligne noire sous la masse
+globale). Notre résultat est donc une confirmation de cet effet, réalisé de
+manière complètement indépendante avec des données et des méthodes différentes,
+ce qui vient conforter l'hypothèse que l'âge pourrait être le traceur des
+propriétés intrinsèques des SNe~Ia.
 
 \subsection{Résultats de cosmologie}\label{ssec:simw}
 
@@ -1229,9 +1223,11 @@ puisque les modèles NN et NR forment les mêmes BiasCor.
     \label{fig:hr}
 \end{figure}
 
-Pour rappel, nous définissons $w$, le paramètre d'état de l'énergie sombre,
-\textit{via} l'équation mathématique reliant la pression du fluide parfait la
-décrivant au facteur d'échelle $a$ de l'Univers~:
+Pour rappel\footnote{Voir Chapitre~\ref{ch:cosmo}.}, nous définissons $w$, le
+paramètre d'état de l'énergie sombre, \textit{via} l'équation mathématique
+reliant la pression du fluide parfait la décrivant à sa densité d'énergie ($w =
+p/\rho c^2$). Nous avions obtenu l'évolution de cette dernière en fonction du
+facteur d'échelle $a$ de l'Univers suivant l'équation~\ref{eq:rho}~:
 \begin{equation}
     \rho(t) \propto a(t)^{-3(1+w)}
 \end{equation}
@@ -1242,53 +1238,39 @@ alors qu'une valeur de $w$ plus grande que \num{-1.00} (par exemple,
 plus petite en augmenterait la puissance ($\rho(t) \propto a(t)^{+x}$ avec $x >
 0$)~; autrement dit, si $w > -1$ alors l'énergie sombre était plus puissante
 dans le passé et le sera moins dans le futur, et donc que l'Univers est en
-réalité plus jeune que ce que l'on croit, et inversement. Les données actuelles
-de Pantheon \citep{scolnic2018} contraignent $w$ à $\pm \num{0.220}$ à elles
-seules, et à $\pm \num{0.040}$ avec d'autres sondes, donnant des résultats
-compatibles avec \num{-1.00}~; les futurs relevés visent une détermination à
-$\pm \num{0.020}$, ce qui pourrait mettre en évidence un décalage à $w =
-\num{-1.00}$. À cet effet, nos simulations sont représentatives de ce qui pourra
-être atteint dans un futur proche.
+réalité plus jeune que ce que l'on croit, et inversement. Ceci est illustré
+Figure~\ref{fig:wevol}. Les données actuelles de Pantheon \citep{scolnic2018}
+contraignent $w$ à $\pm \num{0.220}$ à elles seules, et à $\pm \num{0.040}$ avec
+d'autres sondes, donnant des résultats compatibles avec \num{-1.00}~; les futurs
+relevés visent une détermination à $\pm \num{0.020}$, ce qui pourrait mettre en
+évidence un décalage à $w = \num{-1.00}$. À cet effet, nos simulations sont
+représentatives de ce qui pourra être atteint dans un futur proche.
 
-% \begin{figure}[p]
-%     \vspace*{-3.2cm}
-%     \thisfloatpagestyle{empty}
-%     \centerfloat
-%     \begin{subfigure}[]{.8\linewidth}
-%         \centering
-%         \includegraphics[width=\linewidth]{HR_covmat-FULL-SNFSUPP_2}
-%         \caption[Valeurs des résidus de \textsc{Hubble}]{Valeurs des
-%         résidus de \textsc{Hubble}.}
-%         \label{fig:hr}
-%     \end{subfigure}\smallbreak
-%     \begin{subfigure}[]{.8\linewidth}
-%         \centering
-%         \includegraphics[width=\linewidth]{BC_covmat-FULL-SNFSUPP_2}
-%         \caption[Valeurs de $\delta\mu_{\rm biais}$]{Valeurs de $\delta\mu_{\rm
-%         biais}$.}
-%         \label{fig:bc}
-%     \end{subfigure}
-%     \caption[Résultats cosmologiques~: résidus de \textsc{Hubble} et
-%     $\delta\mu_{\rm biais}$]{Résultats cosmologiques~: résidus de
-%         \textsc{Hubble} et $\delta\mu_{\rm biais}$ déterminés par ajustement
-%     avec la méthode BBC7D (voir Chapitre~\ref{ch:snana}).}
-%     \label{fig:hrbc}
-% \end{figure}
+\sidecaptionvpos{figure}{c}
+\begin{SCfigure}[1]
+    \centering
+    \includegraphics[width=.7\linewidth]{wevol}
+    \caption[Effet d'une variation de $w$ sur le facteur d'échelle de
+    l'Univers]{Effet d'une variation de $w$ sur le facteur d'échelle de
+    l'Univers. Une valeur $< -1$ (par exemple, \num{-1.1}) ferait que l'Univers
+est plus âgé que ce que nous croyons, et inversement.}
+    \label{fig:wevol}
+\end{SCfigure}
+\sidecaptionvpos{figure}{t}
 
-Sur la première figure, nous observons que les trois premiers modèles corrigés
-de manière cohérente avec leur génération (sur la diagonale donc) sont tous
-compatibles avec $w = -1,00$, bien que NN s'en écarte un peu. En revanche, le
-modèle SK rend incompatible les autres modèles, que ce soit en l'utilisant pour
-les données (colonne de gauche) ou en tant que BiasCor (ligne du haut),
-introduisant un biais jusqu'à 4\% pour l'échantillon NN\_SK. Si cela ressemble
-aux résultats de standardisation, ici cela résulte d'une sous- ou sur-correction
-systématique selon l'utilisation de SK, comme nous pouvons le voir
-Figure~\ref{fig:hr}~: les modèles donnant $w = \num{-1.00}$ sont équilibrés
-autour de 0, alors qu'une sous-correction augmente cette valeur. Les
-échantillons BP\_NN et NN\_BP, en revanche, donnent des valeurs compatibles avec
-\num{-1.00}~; étant donné que les résultats cosmologiques actuels se basent sur
-un approche semblable à celle de~\citetalias{BP}, ce résultat conforte la
-validité du modèle NN.
+Sur la Figure~\ref{fig:wfit}, nous observons que les trois premiers modèles
+corrigés de manière cohérente avec leur génération (sur la diagonale donc) sont
+tous compatibles avec $w = -1,00$. En revanche, le modèle SK rend incompatible
+les autres modèles, que ce soit en l'utilisant pour les données (colonne de
+gauche) ou en tant que BiasCor (ligne du haut), introduisant un biais jusqu'à
+4\% pour l'échantillon NN\_SK. Si cela ressemble aux résultats de
+standardisation, ici cela résulte d'une sous- ou sur-correction systématique
+selon l'utilisation de SK, comme nous pouvons le voir Figure~\ref{fig:hr}~: les
+modèles donnant $w = \num{-1.00}$ sont équilibrés autour de 0, alors qu'une
+sous-correction augmente cette valeur. Les échantillons BP\_NN et NN\_BP, en
+revanche, donnent des valeurs compatibles avec \num{-1.00}~; étant donné que les
+résultats cosmologiques actuels se basent sur un approche semblable à celle
+de~\citetalias{BP}, ce résultat conforte la validité du modèle NN.
 
 Alors que les trois premiers modèles utilisent la masse comme traceur de la
 marche de magnitude et ne contiennent pas d'évolution du vrai $\gamma$ avec le
@@ -1313,20 +1295,6 @@ corrélations avec l'âge d'une SN mais que la correction utilisée ne le suppos
 pas (résultat NR\_BP par exemple), et jusqu'à 8\% si la correction n'inclut
 aucune corrélation à la galaxie (résultat NR\_SK).
 
-% ~; nous avançons que ce résultat
-% découle d'une part des mésinterprétations de la relation âge-magnitude comme
-% conséquence de l'évolution de ces paramètres. En effet, comme nous l'observons
-% Figure~\ref{fig:hr}, c'est à partir de $z \approx \num{0.50}$ que les résidus de
-% \textsc{Hubble} de la colonne NR se voient dépasser la ligne horizontale orange
-% là où ceux de NN en sont en-deçà~; or, à ce redshift nous nous attendons à ce
-% que la marche de magnitude moyenne commence à se faire ressentir entre les
-% populations jeunes et âgées, passant de $\left< \gamma_{\rm env}
-% \right>_{z=0.05} = 0$ à $\left< \gamma_{\rm env} \right>_{z=0.5} = 0.03$ et
-% atteignant $\left< \gamma_{\rm env} \right>_{z=1.0} = 0.05$.
-% We see a bias of 8% in maximum. Talk about mass the correct way
-% Current cosmology is BP; BP an NN are okay with each other, that's great. But
-% if we live in NR and assume BP, w wrong by up to 5% !!
-
 \subsection{Systématiques dues au choix du modèle de masse}\label{ssec:modsys}
 
 Le choix du modèle de masse diffère principalement dans la fraction retrouvée de
@@ -1334,6 +1302,27 @@ jeunes étoiles en fonction de la masse, dont nous donnons les représentations
 graphiques Figure~\ref{fig:fyvM}. Nous exposons ici les différences
 cosmologiques dues au choix de la modélisation de la masse, présentées sur les
 valeurs de $w$ Figure~\ref{fig:wdiff}.
+
+Nous observons que les différents modèles de masse donnent des fractions de
+jeunes étoiles totale similaires entre eux ($\approx 45\%$)~; leur distribution
+n'est cependant pas la même. En effet, à $M_* > 10^{11}\si{\Msun}$ le modèle
+SNfsupp est (par construction) dénué de jeunes étoiles, mais les \wgtmap\ ne
+favorisent pas ces masses-là donc la différence n'est pas si notable. En
+revanche, à $M_* \approx 10^{10}\si{\Msun}$, partie privilégiée par les \wgtmap,
+le modèle SEDSNf a la plus haute fraction de jeunes étoiles (point pentagonal
+orange Figure~\ref{fig:fyvM}).
+
+Cette variation pourrait influencer les valeurs de $\alpha$ et $\beta$, mais
+ceci n'est pas présent de manière notable. En revanche, elle semble se refléter
+dans les valeurs de $w$ comme l'indique la Figure~\ref{fig:wdiff}, où nous y
+observons une augmentation moyenne des valeurs dans les deux colonnes de
+droites. Les observations précédentes restent cependant valables~: le modèle NN
+est cohérent avec lui-même et avec le modèle BP, les corrélations entre l'âge
+d'une SN et ses propriétés ne sont pas traitées optimalement par \snana\ et le
+biais potentiel sur la mesure de $w$ se trouverait entre 4 et 8\%. Nous pouvons
+estimer que le choix du modèle de masse contribue à $\approx \num{0.01}$ de la
+dispersion de $w$, et que les effets de l'âge sur la marche de magnitude et
+l'évolution avec le redshift sont les effets dominants.
 
 \newgeometry{margin=0.5cm}
 \begin{landscape}
@@ -1370,39 +1359,6 @@ valeurs de $w$ Figure~\ref{fig:wdiff}.
     \label{fig:fyvM}
 \end{figure}
 
-% \begin{figure}[h!]
-%     \centerfloat
-%     \thisfloatpagestyle{empty}
-%     % \vspace{-2.2cm}
-%     \begin{subfigure}[]{.30\linewidth}
-%         \centering
-%         \includegraphics[height=8cm]{gammafit_covmat_FULL-SNFSUPP_2}
-%         \caption[Valeurs de $\beta$ avec le modèle de masse SNf]{Valeurs de
-%         $\beta$ pour SNf.}
-%         \label{fig:betasnfsupp}
-%     \end{subfigure}
-%     % \hfill
-%     \begin{subfigure}[]{.30\linewidth}
-%         \centering
-%         \includegraphics[height=8cm]{gammafit_covmat_FULL-SNF_2}
-%         \caption[Valeurs de $\beta$ avec le modèle de masse SNf]{Valeurs de
-%         $\beta$ pour SNf.}
-%         \label{fig:betasnf}
-%     \end{subfigure}
-%     % \hfill
-%     \begin{subfigure}[]{.30\linewidth}
-%         \centering
-%         \includegraphics[height=8cm]{gammafit_covmat_FULL-SEDSNF_2}
-%         \caption[Valeurs de $\beta$ avec le modèle de masse SEDSNf]{Valeurs de
-%         $\beta$ pour SEDSNf.}
-%         \label{fig:betased}
-%     \end{subfigure}
-%     \caption[Résultats cosmologiques~: $\gamma$ selon le modèle de
-%     masse]{Résultats cosmologiques~: valeurs de $\gamma$ pour les modèles de
-%         masse SNfsupp \textit{à gauche}, SNf \textit{au milieu} et SEDSNf
-%     \textit{à droite}.}
-%     \label{fig:bdiff}
-% \end{figure}
 \begin{figure}[h!]
     \centerfloat
     \thisfloatpagestyle{empty}
@@ -1438,66 +1394,6 @@ valeurs de $w$ Figure~\ref{fig:wdiff}.
 \end{figure}
 \end{landscape}
 \restoregeometry
-
-% \begin{figure}[h!]
-%     \centering
-%     \begin{subfigure}[]{.48\linewidth}
-%         \centering
-%         \includegraphics[width=\linewidth]{wfit_covmat_FULL-SNF_2}
-%         \caption[Valeurs de $w$ avec le modèle de masse SNf]{Valeurs de
-%         $w$ pour SNf.}
-%         \label{fig:wfitsnf}
-%     \end{subfigure}
-%     \hfill
-%     \begin{subfigure}[]{.48\linewidth}
-%         \centering
-%         \includegraphics[width=\linewidth]{wfit_covmat_FULL-SEDSNF_2}
-%         \caption[Valeurs de $w$ avec le modèle de masse SEDSNf]{Valeurs de
-%         $w$ pour SEDSNf.}
-%         \label{fig:wfitsed}
-%     \end{subfigure}
-%     \caption[Résultats cosmologiques~: $w$ selon le modèle de masse]{Résultats
-%         cosmologiques~: valeurs de $w$ pour les modèles de masse SNF \textit{à
-%     gauche} et SEDSNf \textit{à droite}.}
-%     \label{fig:wdiff}
-% \end{figure}
-
-% Same fraction of young accross the model, but distribution is not the same. At
-% 10^12, higher fraction of young in those. Based on mass weigth, not a not of
-% these so small differences. Cut at 10^12, both consistent. Higher fraction of
-% young at 10^10 in SNF and supp rather than in SED: more young in the weigthing
-% because it favors these masses.
-
-Nous observons que les différents modèles de masse donnent des fractions de
-jeunes étoiles totale similaires entre eux ($\approx 45\%$)~; leur distribution
-n'est cependant pas la même. En effet, à $M_* > 10^{11}\si{\Msun}$ le modèle
-SNfsupp est (par construction) dénué de jeunes étoiles, mais les \wgtmap\ ne
-favorisent pas ces masses-là donc la différence n'est pas si notable. En
-revanche, à $M_* \approx 10^{10}\si{\Msun}$, partie privilégiée par les \wgtmap,
-le modèle SEDSNf a la plus haute fraction de jeunes étoiles (point pentagonal
-orange Figure~\ref{fig:fyvM}).
-
-Cette variation pourrait influencer les valeurs de $\alpha$ et $\beta$, mais
-ceci n'est pas présent de manière notable. En revanche, elle semble se refléter
-dans les valeurs de $w$ comme l'indique la Figure~\ref{fig:wdiff}, où nous y
-observons une augmentation moyenne des valeurs dans les deux colonnes de
-droites. Les observations précédentes restent cependant valables~: le modèle NN
-est cohérent avec lui-même et avec le modèle BP, les corrélations entre l'âge
-d'une SN et ses propriétés ne sont pas traitées optimalement par \snana\ et le
-biais potentiel sur la mesure de $w$ se trouverait entre 4 et 8\%. Nous pouvons
-estimer que le choix du modèle de masse contribue à $\approx \num{0.01}$ de la
-dispersion de $w$, et que les effets de l'âge sur la marche de magnitude et
-l'évolution avec le redshift sont les effets dominants.
-
-% , SNfsupp (Figure~\ref{fig:fyvMsupp})
-% présente la plus faible fraction de jeunes étoiles avec 1\% de moins que les
-% autres modèles. L'impact sur la standardisation n'affecte que les valeurs de
-% $\beta$. Ainsi, toutes choses égales par ailleurs, il semblerait qu'une plus
-% grande fraction de jeunes étoiles dans un échantillon cause une certaine
-% diminution du paramètre $\beta$.
-
-% Mass modeling contribute to 0.01 to the scatter in w. Effect of actual age
-% evolution/step is the dominant effect.
 
 \section{Conclusion}\label{sec:simccl}
 

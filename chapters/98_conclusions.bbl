@@ -1,5 +1,11 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{11}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{Briday}(2021)}]{briday2021}
+\textsc{Briday M.} 2021, «~{{\'E}tude de l'impact de l'environnement
+  galactique sur la standardisation des Supernovae de Type Ia}~», Thèse,
+  {Université Claude Bernard -- Lyon I},
+  \href{https://tel.archives-ouvertes.fr/tel-03621515}{HAL thèses}
 
 \bibitem[{\textsc{{Briday}} {et~al.}(2022)\textsc{{Briday}},
   \textsc{{Rigault}}, \textsc{{Graziani}}, \textsc{{Copin}},
@@ -30,6 +36,20 @@
   \href{http://dx.doi.org/10.1088/0004-637X/770/2/108}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2013ApJ...770..108C}{770, 108}
 
+\bibitem[{\textsc{{Guy}} {et~al.}(2007)\textsc{{Guy}}, \textsc{{Astier}},
+  \textsc{{Baumont}}, \textsc{{Hardin}}, \textsc{{Pain}}, \textsc{{Regnault}},
+  \textsc{{Basa}}, \textsc{{Fouchez}}, \textsc{{Hook}}, \textsc{{Howell}},
+  \textsc{{Perrett}}, \textsc{{Pritchet}}, \textsc{{Rich}},
+  \textsc{{Sullivan}}, \textsc{{Antilogus}}, \textsc{{Aubourg}},
+  \textsc{{Bazin}}, \textsc{{Bronder}}, \textsc{{Filiol}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Ripoche}} et
+  \textsc{{Ruhlmann-Kleider}}}]{guy2007}
+\textsc{{Guy} J.}, \textsc{{Astier} P.}, \textsc{{Baumont} S.} {et~al.} 2007,
+  «~{SALT2: using distant supernovae to improve the use of type Ia supernovae
+  as distance indicators}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361:20066930}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2007A&A...466...11G}{466, 11}
+
 \bibitem[{\textsc{{L{\'e}get}} {et~al.}(2020)\textsc{{L{\'e}get}},
   \textsc{{Gangler}}, \textsc{{Mondon}}, \textsc{{Aldering}},
   \textsc{{Antilogus}}, \textsc{{Aragon}}, \textsc{{Bailey}},
@@ -59,6 +79,16 @@
   distribution}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/202038447}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2021A&A...649A..74N}{649, A74}
+
+\bibitem[{\textsc{{Popovic}} {et~al.}(2021)\textsc{{Popovic}},
+  \textsc{{Brout}}, \textsc{{Kessler}}, \textsc{{Scolnic}} et
+  \textsc{{Lu}}}]{popovic2021a}
+\textsc{{Popovic} B.}, \textsc{{Brout} D.}, \textsc{{Kessler} R.},
+  \textsc{{Scolnic} D.} et \textsc{{Lu} L.} 2021, «~{Improved Treatment of
+  Host-galaxy Correlations in Cosmological Analyses with Type Ia
+  Supernovae}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/abf14f}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2021ApJ...913...49P}{913, 49}
 
 \bibitem[{\textsc{{Rigault}} {et~al.}(2020)\textsc{{Rigault}},
   \textsc{{Brinnel}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
@@ -97,5 +127,32 @@
   the Nearby Supernova Factory indicated by local H{\ensuremath{\alpha}}}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201322104}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2013A&A...560A..66R}{560, A66}
+
+\bibitem[{\textsc{{Scolnic}} et \textsc{{Kessler}}(2016)}]{scolnic2016}
+\textsc{{Scolnic} D.} et \textsc{{Kessler} R.} 2016, «~{Measuring Type Ia
+  Supernova Populations of Stretch and Color and Predicting Distance
+  Biases}~»,
+  \href{http://dx.doi.org/10.3847/2041-8205/822/2/L35}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...822L..35S}{822, L35}
+
+\bibitem[{\textsc{{Scolnic}} {et~al.}(2018)\textsc{{Scolnic}},
+  \textsc{{Jones}}, \textsc{{Rest}}, \textsc{{Pan}}, \textsc{{Chornock}},
+  \textsc{{Foley}}, \textsc{{Huber}}, \textsc{{Kessler}}, \textsc{{Narayan}},
+  \textsc{{Riess}}, \textsc{{Rodney}}, \textsc{{Berger}}, \textsc{{Brout}},
+  \textsc{{Challis}}, \textsc{{Drout}}, \textsc{{Finkbeiner}},
+  \textsc{{Lunnan}}, \textsc{{Kirshner}}, \textsc{{Sanders}},
+  \textsc{{Schlafly}}, \textsc{{Smartt}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{Wood-Vasey}}, \textsc{{Foley}}, \textsc{{Hand}}, \textsc{{Johnson}},
+  \textsc{{Burgett}}, \textsc{{Chambers}}, \textsc{{Draper}},
+  \textsc{{Hodapp}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Bresolin}},
+  \textsc{{Gall}}, \textsc{{Kotak}}, \textsc{{McCrum}} et
+  \textsc{{Smith}}}]{scolnic2018}
+\textsc{{Scolnic} D.~M.}, \textsc{{Jones} D.~O.}, \textsc{{Rest} A.} {et~al.}
+  2018, «~{The Complete Light-curve Sample of Spectroscopically Confirmed SNe
+  Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon
+  Sample}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
 
 \end{thebibliography}

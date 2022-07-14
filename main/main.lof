@@ -1,13 +1,13 @@
 \babel@toc {french}{}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Contexte cosmologique}{1}{chapter.1}
-\contentsline {figure}{\numberline {I.1}{\ignorespaces \IeC {\'E}volution du facteur d'\IeC {\'e}chelle en fonction de la r\IeC {\'e}partition \IeC {\'e}nerg\IeC {\'e}tique de l'Univers}}{8}{figure.caption.9}
-\contentsline {figure}{\numberline {I.2}{\ignorespaces Contraintes sur les param\IeC {\`e}tres cosmologiques $\Omega _\Lambda $ et $\Omega _M$ par les SNe~Ia seulement}}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {I.1}{\ignorespaces \IeC {\'E}volution du facteur d'\IeC {\'e}chelle en fonction de la r\IeC {\'e}partition \IeC {\'e}nerg\IeC {\'e}tique de l'Univers et de $H_0$}}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {I.2}{\ignorespaces Contraintes sur les param\IeC {\`e}tres cosmologiques $\Omega _\Lambda $ et $\Omega _M$ par les SNe~Ia seulement}}{9}{figure.caption.10}
 \contentsline {figure}{\numberline {I.3}{\ignorespaces Contraintes sur les param\IeC {\`e}tres cosmologiques $w$ et $\Omega _M$ par la combinaison SNe~Ia, CMB et BAO}}{10}{figure.caption.11}
 \contentsline {figure}{\numberline {I.4}{\ignorespaces Diagramme de \textsc {Hubble} avec les 42 SNe~Ia historiques de 1999}}{14}{figure.caption.12}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Supernovae de type Ia}{17}{chapter.2}
-\contentsline {figure}{\numberline {II.1}{\ignorespaces Classification des diff\IeC {\'e}rents types de SNe selon leurs caract\IeC {\'e}ristique spectrales}}{18}{figure.caption.13}
+\contentsline {figure}{\numberline {II.1}{\ignorespaces Classification des diff\IeC {\'e}rents types de SNe selon leurs caract\IeC {\'e}ristiques spectrales}}{18}{figure.caption.13}
 \contentsline {figure}{\numberline {II.2}{\ignorespaces Courbe de lumi\IeC {\`e}re de la SN~Ia SN2011fe}}{21}{figure.caption.14}
 \contentsline {figure}{\numberline {II.3}{\ignorespaces S\IeC {\'e}rie spectro-temporelle de la SN~Ia SN2011fe}}{22}{figure.caption.15}
 \contentsline {figure}{\numberline {II.4}{\ignorespaces D\IeC {\'e}pendance de la magnitude absolue des SNe~Ia de la collaboration JLA avec l'\IeC {\'e}tirement et la couleur}}{24}{figure.caption.16}
@@ -16,7 +16,7 @@
 \contentsline {xchapter}{Variabilit\'es environnementales des SNe~Ia}{27}{chapter.3}
 \contentsline {figure}{\numberline {III.1}{\ignorespaces Classification morphologique des galaxies}}{28}{figure.caption.18}
 \contentsline {figure}{\numberline {III.2}{\ignorespaces Exemples de morphologies de galaxies}}{29}{figure.caption.19}
-\contentsline {figure}{\numberline {III.3}{\ignorespaces \IeC {\'E}volution de la fration de jeunes \IeC {\'e}toiles en fonction du redshift}}{32}{figure.caption.20}
+\contentsline {figure}{\numberline {III.3}{\ignorespaces \IeC {\'E}volution de la fraction de jeunes \IeC {\'e}toiles en fonction du redshift}}{32}{figure.caption.20}
 \contentsline {figure}{\numberline {III.4}{\ignorespaces Corr\IeC {\'e}lations entre l'\IeC {\'e}tirement d'une SN~Ia et la morphologie ou la masse de sa galaxie h\IeC {\^o}te}}{33}{figure.caption.21}
 \contentsline {figure}{\numberline {III.5}{\ignorespaces Marche de magnitude bas\IeC {\'e}e sur la masse}}{34}{figure.caption.22}
 \contentsline {figure}{\numberline {III.6}{\ignorespaces Marches de magnitudes selon l'\IeC {\^a}ge et la masse}}{35}{figure.caption.23}
@@ -48,7 +48,7 @@
 \contentsline {figure}{\numberline {V.7}{\ignorespaces Biais de \textsc {Malmquist} moyen en fonction du redshift pour le sondage SDSS}}{69}{figure.caption.53}
 \contentsline {figure}{\numberline {V.8}{\ignorespaces Histogrammes des sondages coup\IeC {\'e}s pour notre \IeC {\'e}tude}}{71}{figure.caption.56}
 \contentsline {figure}{\numberline {V.9}{\ignorespaces Pr\IeC {\'e}sentation des donn\IeC {\'e}es d'\IeC {\'e}tirement en fonction du redshift pour l'\IeC {\'e}chantillon complet}}{72}{figure.caption.57}
-\contentsline {figure}{\numberline {V.10}{\ignorespaces Histogrammes de test de similarit\IeC {\'e} de \textsc {Kolmogorov-Smirnov} entre les sondages SDSS et PS1 d'une part, PS1 et SNLS d'autre par, en \IeC {\'e}tirement et en couleur}}{74}{figure.caption.58}
+\contentsline {figure}{\numberline {V.10}{\ignorespaces Histogrammes de test de similarit\IeC {\'e} de \textsc {Kolmogorov-Smirnov} entre les sondages SDSS et PS1 d'une part, PS1 et SNLS d'autre part, en \IeC {\'e}tirement et en couleur}}{74}{figure.caption.58}
 \contentsline {figure}{\numberline {V.11}{\ignorespaces Pr\IeC {\'e}sentation des donn\IeC {\'e}es d'\IeC {\'e}tirement en fonction du redshift pour ZTF}}{75}{figure.caption.61}
 \contentsline {figure}{\numberline {V.12}{\ignorespaces Pr\IeC {\'e}sentation des donn\IeC {\'e}es d'\IeC {\'e}tirement en fonction du redshift pour l'\IeC {\'e}chantillon de base combin\IeC {\'e} aux donn\IeC {\'e}es de ZTF}}{76}{figure.caption.62}
 \addvspace {10\p@ }
@@ -73,12 +73,12 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Impact sur la cosmologie~: simulations}{115}{chapter.8}
 \contentsline {figure}{\numberline {VIII.1}{\ignorespaces $M_*$ en fonction du LsSFR des SNe~Ia de SNfactory et mod\IeC {\`e}le de masse s\IeC {\'e}lectionn\IeC {\'e} ajust\IeC {\'e}}}{119}{figure.caption.94}
-\contentsline {figure}{\numberline {VIII.2}{\ignorespaces $\Delta $AIC entre le mod\IeC {\`e}le Howell et les autres mod\IeC {\`e}les}}{121}{figure.caption.97}
+\contentsline {figure}{\numberline {VIII.2}{\ignorespaces $\Delta $AIC entre le mod\IeC {\`e}le Bi-normal et les autres mod\IeC {\`e}les}}{121}{figure.caption.97}
 \contentsline {figure}{\numberline {VIII.3}{\ignorespaces Mod\IeC {\`e}les impl\IeC {\'e}ment\IeC {\'e}s et test\IeC {\'e}s dans l'\IeC {\'e}tude de l'\IeC {\'e}volution de l'\IeC {\'e}tirement avec le redshift}}{122}{figure.caption.98}
 \contentsline {figure}{\numberline {VIII.4}{\ignorespaces Comparaison de la pr\IeC {\'e}diction de l'\IeC {\'e}volution de la fraction de jeunes SNe~Ia en fonction de la masse de la galaxie h\IeC {\^o}te}}{123}{figure.caption.99}
 \contentsline {figure}{\numberline {VIII.5}{\ignorespaces Repr\IeC {\'e}sentation du choix de l'\IeC {\^a}ge d'une SN et de l'assignation de masse et d'\IeC {\'e}tirement en fonction du redshift}}{124}{figure.caption.101}
 \contentsline {figure}{\numberline {VIII.6}{\ignorespaces Fraction de jeunes \IeC {\'e}toiles en fonction de la masse pour le mod\IeC {\`e}le de masse SNfsupp}}{126}{figure.caption.104}
-\contentsline {figure}{\numberline {VIII.7}{\ignorespaces Histogrammes uni-dimensionnels des donn\IeC {\'e}es simul\IeC {\'e}es et r\IeC {\'e}elles}}{127}{figure.caption.105}
+\contentsline {figure}{\numberline {VIII.7}{\ignorespaces Histogrammes uni-dimensionnels des donn\IeC {\'e}es simul\IeC {\'e}es et r\IeC {\'e}elles}}{128}{figure.caption.105}
 \contentsline {figure}{\numberline {VIII.8}{\ignorespaces Histogrammes uni-dimensionnels des \IeC {\'e}tirements des donn\IeC {\'e}es simul\IeC {\'e}es et r\IeC {\'e}elles pour l'\IeC {\'e}chantillon LOWZ}}{129}{figure.caption.110}
 \contentsline {figure}{\numberline {VIII.9}{\ignorespaces Histogrammes des donn\IeC {\'e}es test\IeC {\'e}es et conserv\IeC {\'e}es du mod\IeC {\`e}le NR pour le sondage LOWZ}}{130}{figure.caption.111}
 \contentsline {figure}{\numberline {VIII.10}{\ignorespaces Accord entre les donn\IeC {\'e}es r\IeC {\'e}elles et simul\IeC {\'e}es en 2 dimensions pour tous les mod\IeC {\`e}les}}{131}{figure.caption.112}
@@ -87,12 +87,13 @@
 \contentsline {figure}{\numberline {VIII.13}{\ignorespaces Marche de magnitude des SNe~Ia en fonction du traceur}}{134}{figure.caption.117}
 \contentsline {figure}{\numberline {VIII.14}{\ignorespaces R\IeC {\'e}sultats cosmologiques~: $w$}}{135}{figure.caption.118}
 \contentsline {figure}{\numberline {VIII.15}{\ignorespaces R\IeC {\'e}sultats cosmologiques~: r\IeC {\'e}sidus de \textsc {Hubble}}}{136}{figure.caption.119}
-\contentsline {figure}{\numberline {VIII.16}{\ignorespaces \IeC {\'E}volution de la fraction de jeunes \IeC {\'e}toiles en fonction de la masse pour les diff\IeC {\'e}rents mod\IeC {\`e}les de masse}}{138}{figure.caption.120}
-\contentsline {figure}{\numberline {VIII.17}{\ignorespaces R\IeC {\'e}sultats cosmologiques~: $w$ selon le mod\IeC {\`e}le de masse}}{138}{figure.caption.121}
+\contentsline {figure}{\numberline {VIII.16}{\ignorespaces Effet d'une variation de $w$ sur le facteur d'\IeC {\'e}chelle de l'Univers}}{137}{figure.caption.120}
+\contentsline {figure}{\numberline {VIII.17}{\ignorespaces \IeC {\'E}volution de la fraction de jeunes \IeC {\'e}toiles en fonction de la masse pour les diff\IeC {\'e}rents mod\IeC {\`e}les de masse}}{139}{figure.caption.121}
+\contentsline {figure}{\numberline {VIII.18}{\ignorespaces R\IeC {\'e}sultats cosmologiques~: $w$ selon le mod\IeC {\`e}le de masse}}{139}{figure.caption.122}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Perspectives et discussion}{143}{chapter.9}
-\contentsline {figure}{\numberline {IX.1}{\ignorespaces Accord entre les mod\IeC {\`e}les N21+ZTF et HD+ZTF et l'histogramme des \IeC {\'e}tirements de ZTF}}{144}{figure.caption.122}
-\contentsline {figure}{\numberline {IX.2}{\ignorespaces \IeC {\'E}volution de l'\IeC {\'e}tirement moyen des SNe~Ia en fonction du redshift issu de la pr\IeC {\'e}diction de notre mod\IeC {\`e}le de base selon l'\IeC {\'e}chantillon utilis\IeC {\'e}}}{146}{figure.caption.125}
-\contentsline {figure}{\numberline {IX.3}{\ignorespaces $\Delta $AIC entre le mod\IeC {\`e}le de base et les autres mod\IeC {\`e}les}}{147}{figure.caption.126}
-\contentsline {figure}{\numberline {IX.4}{\ignorespaces Comparaison de la capacit\IeC {\'e} des mod\IeC {\`e}les N21 et N21+ZTF \IeC {\`a} repr\IeC {\'e}senter les donn\IeC {\'e}es des sondages}}{149}{figure.caption.129}
+\contentsline {figure}{\numberline {IX.1}{\ignorespaces Accord entre les mod\IeC {\`e}les N21+ZTF et HD+ZTF et l'histogramme des \IeC {\'e}tirements de ZTF}}{144}{figure.caption.123}
+\contentsline {figure}{\numberline {IX.2}{\ignorespaces \IeC {\'E}volution de l'\IeC {\'e}tirement moyen des SNe~Ia en fonction du redshift issu de la pr\IeC {\'e}diction de notre mod\IeC {\`e}le de base selon l'\IeC {\'e}chantillon utilis\IeC {\'e}}}{146}{figure.caption.126}
+\contentsline {figure}{\numberline {IX.3}{\ignorespaces $\Delta $AIC entre le mod\IeC {\`e}le de base et les autres mod\IeC {\`e}les}}{147}{figure.caption.127}
+\contentsline {figure}{\numberline {IX.4}{\ignorespaces Comparaison de la capacit\IeC {\'e} des mod\IeC {\`e}les N21 et N21+ZTF \IeC {\`a} repr\IeC {\'e}senter les donn\IeC {\'e}es des sondages}}{149}{figure.caption.130}
 \contentsfinish 

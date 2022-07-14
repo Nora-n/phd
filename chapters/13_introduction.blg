@@ -4,47 +4,44 @@ The top-level auxiliary file: 13_introduction.aux
 The style file: ../main/aa_url.bst
 Database file #1: ../chapters/99_references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--can't use both author and editor fields in alpheratz2018
-Warning--empty publisher in alpheratz2018
 You've used 5 entries,
             3173 wiz_defined-function locations,
-            734 strings with 6996 characters,
-and the built_in function-call counts, 4596 in all, are:
-= -- 304
-> -- 515
+            735 strings with 6996 characters,
+and the built_in function-call counts, 4568 in all, are:
+= -- 308
+> -- 512
 < -- 3
-+ -- 174
-- -- 169
-* -- 656
-:= -- 793
++ -- 173
+- -- 168
+* -- 651
+:= -- 788
 add.period$ -- 5
 call.type$ -- 5
 change.case$ -- 76
 chr.to.int$ -- 5
-cite$ -- 7
-duplicate$ -- 97
-empty$ -- 161
-format.name$ -- 176
-if$ -- 820
+cite$ -- 5
+duplicate$ -- 98
+empty$ -- 154
+format.name$ -- 175
+if$ -- 816
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 5
 newline$ -- 19
-num.names$ -- 21
-pop$ -- 76
+num.names$ -- 20
+pop$ -- 75
 preamble$ -- 1
 purify$ -- 76
 quote$ -- 0
-skip$ -- 80
+skip$ -- 77
 stack$ -- 0
 substring$ -- 98
 swap$ -- 132
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 42
-warning$ -- 2
-while$ -- 20
+type$ -- 45
+warning$ -- 0
+while$ -- 19
 width$ -- 0
-write$ -- 56
-(There were 2 warnings)
+write$ -- 57

@@ -20,14 +20,15 @@ Afin de continuer à améliorer cette standardisation, la recherche avec les
 SNe~Ia étudie les meilleurs paramètres permettant de les décrire. Certains
 travaux augmentent le nombre de paramètres décrivant leurs variabilités
 \citep[c'est le cas de SUGAR, décrit dans][]{leget2020}, s'écartant ainsi des
-descriptions classiques de \texttt{SALT2}, d'autres implémentent des traceurs
-environnementaux jugés plus pertinents à leur étude \citep[par exemple, le LsSFR
-dans][ou la masse de la galaxie hôte dans~\citet{childress2013}]{rigault2013} qui
-permettraient de distinguer deux populations au sein des SNe~Ia.
-\cite{briday2022} se sont intéressæs à la qualité de ces différents traceurs
-afin de déterminer lequel amène à leur meilleure caractérisation. Mais si les
-possibilités d'amélioration de description et de compréhension sont nombreuses,
-la dérive des propriétés mêmes des SNe~Ia avec le redshift reste peu étudiée.
+descriptions classiques de \texttt{SALT2}~\citep{guy2007}~; d'autres
+implémentent des traceurs environnementaux jugés plus pertinents à leur étude
+\citep[par exemple, le LsSFR dans][ou la masse de la galaxie hôte
+dans~\citet{childress2013}]{rigault2013} qui permettraient de distinguer deux
+populations au sein des SNe~Ia~; \cite{briday2022} se sont intéressæs à la
+qualité de ces différents traceurs afin de déterminer lequel amène à leur
+meilleure caractérisation. Mais si les possibilités d'amélioration de
+description et de compréhension sont nombreuses, la dérive des propriétés mêmes
+des SNe~Ia avec le redshift reste peu étudiée.
 
 À cet effet, notre thèse s'est focalisée à tester cette hypothèse en se basant
 sur la fonction d'évolution de l'âge moyen des SNe~Ia avec le redshift établie
@@ -38,7 +39,7 @@ données permettant cette analyse, c'est-à-dire qui soit exempt de biais de
 sélection et représente tous les étirements qu'il soit possible d'observer.
 
 Cet échantillon a permis d'établir deux modèles de distribution d'étirement
-différents selon l'âge des SNe~Ia amenant à une dérive de l'étirement moyen des
+différents selon l'âge des SNe~Ia, amenant à une dérive de l'étirement moyen des
 SNe~Ia \textit{via} l'évolution des fractions respectives entre vieilles et
 jeunes SNe~Ia. Cette approche a ensuite été testée avec d'autres modèles,
 dérivants ou non, et nous ont amenæ à montrer que tout modèle non-dérivant était
@@ -56,11 +57,62 @@ travail a permis de mettre en lumière l'existence d'un biais aux alentours de
 des variabilités intrinsèques des SNe~Ia. Ce travail constitue le cœur d'un
 second article en rédaction.
 
+Nous résumons ces travaux de la manière suivante~:
+\begin{itemize}
+    \item Nous supposons que l'âge moyen des SNe~Ia évolue avec le
+        redshift suivant le modèle de~\cite{rigault2020}~;
+    \item Nous avons établi un échantillon d'étude exempt de biais de sélection
+        affectant l'étirement grâce à des coupes en redshift basées sur la
+        magnitude limite des télescopes~; cet échantillon contient des données
+        allant de $z = \num{0.02}$ à $z = \num{2.26}$~;
+    \item Nous avons étudié l'étirement de cette échantillon en fonction de
+        l'âge des SNe~Ia selon différentes modélisations, avec et sans
+        évolution, et avons conclus que tout modèle non-dérivant était exclus en
+        tant que bonne représentation des données par rapport à notre modèle de
+        base, publié dans~\cite{nicolas2021}~;
+    \item Nous avons pris en main l'ensemble de logiciels \snana\ et amélioré
+        les tables habituellement utilisées par la communauté pour y inclure une
+        caractéristique d'âge basée sur le redshift et la masse de la galaxie
+        hôte d'une supernova, permettant en même temps de remplacer les modèles
+        rétrospectifs (exclus par l'étude précédente) par notre modèle
+        prospectif~;
+    \item Nous avons simulé une variété d'échantillons selon différentes
+        hypothèses de corrélation en croisant les données utilisées pour la
+        génération et la standardisation afin d'estimer le biais cosmologique dû
+        à une modélisation non-représentative de la réalité~;
+    \item Nous trouvons un accord aux données réelles de cette modélisation
+        comparable (parfois meilleur) aux implémentations cosmologiques des
+        études utilisant \snana\ les plus complètes \citep{scolnic2016,
+        scolnic2018, popovic2021a}, attestant de la force de l'hypothèse
+        initiale ainsi que celle du modèle prospectif établi en début de thèse~;
+        celui-ci ne faillit qu'au niveau de la reproduction du seul sondage
+        ciblé de l'étude (LOWZ) qui est par construction non-représentatif de la
+        nature~;
+    \item Nous rapportons une cohérence des résultats cosmologiques ($w=-1$)
+        lorsque les échantillons générés sont corrigés en supposant les mêmes
+        corrélations, à l'exception du modèle pour lequel \snana\ n'a pas tous
+        les outils pour le traiter correctement~: le biais calculé pour un
+        Univers régit par une marche de magnitude basée sur l'âge mais corrigé
+        par \snana\ avec une marche basée sur la masse est de 4\% au mieux, 8\%
+        au pire~;
+    \item Nous relevons que ce défaut de compréhension des implications de l'âge
+        comme traceur des propriétés des SNe~Ia est en accord avec les résultats
+        de~\cite{briday2021, briday2022} présentant la réduction de la valeur
+        trouvée de marche de magnitude selon la capacité d'un traceur à
+        discriminer deux populations~: notre implémentation à $\gamma_\text{âge}
+        = \SI{0.130}{mag}$ est diminuée à $\gamma_{\rm masse} =
+        \SI{0.100}{mag}$, appuyant à nouveau et de manière indépendante
+        l'hypothèse selon laquelle l'âge est le meilleur traceur des propriétés
+        intrinsèques des SNe~Ia.
+\end{itemize}
+
 Ainsi, au travers de ces résultats, nous suggérons aux différentes analyses
 cosmologiques se basant sur des simulations et des distributions sous-jacentes
 d'étirement d'utiliser le modèle évoluant avec le redshift du
-Chapitre~\ref{ch:stretch}, et mettons en garde la communauté quant à
-l'utilisation de traceurs moins performant que le LsSFR.
+Chapitre~\ref{ch:stretch}, et mettons en garde la communauté quant à la
+complexité des analyses environnementales~: si beaucoup de traceurs sont
+corrélés, ils ne sont pas tous équivalents et leurs implications quant à
+l'évolution avec le redshift diffèrent. 
 
 % \bibliographystyle{../main/aa_url}
 % \shorthandoff{:}

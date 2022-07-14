@@ -1,7 +1,7 @@
 \babel@toc {french}{}
 \contentsline {chapter}{\numberline {I}Cr\'eation d'un \'echantillon complet}{1}{chapter.1}
 \contentsline {section}{\numberline {I.1}Notion de compl\IeC {\'e}tude}{2}{section.1.1}
-\contentsline {subsection}{\numberline {I.1.1}Strat\IeC {\'e}gies d'observations}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {I.1.1}Strat\IeC {\'e}gies d'observation}{2}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {I.1.2}Biais de \textsc {Malmquist} et solution}{3}{subsection.1.1.2}
 \contentsline {section}{\numberline {I.2}\IeC {\'E}chantillon d'\IeC {\'e}tude}{3}{section.1.2}
 \contentsline {subsection}{\numberline {I.2.1}Confection}{3}{subsection.1.2.1}

@@ -47,7 +47,7 @@ notre modèle de référence.
 
 Pour modéliser l'évolution de la distribution complète de l'étirement des SNe en
 fonction du redshift, nous devons modéliser la distribution de l'étirement des
-SNe pour chaque sous-échantillon d'âge étant donné notre modèle susmentionné de
+SNe pour chaque sous-échantillon d'âge, étant donné notre modèle susmentionné de
 l'évolution de la fraction des SNe~Ia jeunes et vieilles avec le temps cosmique.
 \cite{rigault2020} ont présenté la relation entre l'étirement des SN et la
 mesure du LsSFR, un traceur de l'âge des progéniteurs, en utilisant
@@ -133,7 +133,7 @@ Pour l'échantillon SNfactory, nous pouvons facilement fixer $y^i = p_y^i$, la
 probabilité d'avoir $\log(\mathrm{LsSFR}) \geq -10,82$ (voir
 Figure~\ref{fig:stretchlssfr}) afin de minimiser l'Équation~\ref{eq:likelihood}
 par rapport à $\overrightarrow{\theta}$. Les résultats de l'ajustement de ce
-modèle avec les SNe~Ia de SNf sont présentés dans la
+modèle avec les SNe~Ia de SNf sont présentés dans le
 Tableau~\ref{tab:modelresults} et illustrés Figure~\ref{fig:evol_all}.
 
 \begin{table*}
@@ -167,7 +167,7 @@ Tableau~\ref{tab:modelresults} et illustrés Figure~\ref{fig:evol_all}.
 \subsubsection*{Sans LsSFR}\label{sssec:z}
 
 Lorsque les mesures directes de LsSFR font défaut (c'est-à-dire en absence de
-$p_y^i$), nous pouvons étendre cette analyse aux autres échantillons que
+$p_y^i$), nous pouvons étendre cette analyse aux échantillons autres que
 SNfactory en utilisant l'évolution avec le redshift de la fraction $\delta(z)$
 des jeunes SNe~Ia (Équation~\ref{eq:deltaz}) comme un indicateur alternatif de
 la probabilité qu'une SN soit jeune correspondant à son
@@ -185,11 +185,11 @@ SNfactory) et $\delta(z^i)$, la fraction attendue de jeunes SNe~Ia au redshift
 $z^i$ de la SN sinon.\bigbreak
 
 Les résultats de l'ajustement de ce modèle à l'ensemble des 569 (respectivement
-422) SNe~Ia de l'échantillon fiduciel (conservatif) sont présentés dans la
+422) SNe~Ia de l'échantillon fiduciel (conservatif) sont présentés dans le
 Tableau~\ref{tab:modelresults}, et l'évolution prédite de l'étirement avec le
 redshift ($x_1$ attendu compte tenu de la distribution de
 l'équation~\ref{eq:stretchz}) est illustrée sous la forme d'une bande bleue dans
-la Figure~\ref{fig:evol_all} qui tient compte des erreurs des paramètres et de
+la Figure~\ref{fig:evol_all}, qui tient compte des erreurs des paramètres et de
 leurs covariances. Cette figure montre que l'étirement moyen mesuré des SNe~Ia
 par intervalle de redshift (contenant tous le même nombre de données) suit de
 près notre modélisation de la dérive avec le redshift. C'est en effet ce que
@@ -229,8 +229,8 @@ Dans la Section~\ref{ssec:pmod}, nous avons modélisé la distribution
 sous-jacente de l'étirement des SNe~Ia en suivant~\cite{rigault2020},
 c'est-à-dire avec une unique Gaussienne pour les jeunes SNe et un mélange de
 deux Gaussiennes pour la population des vieilles SNe~Ia, la première étant la
-même que pour la jeune population et la seconde une qui est spécifique aux SNe à
-déclin rapide qui semblent n'exister que dans les environnements localement
+même que pour la jeune population et la seconde étant spécifique aux SNe à
+déclin rapide, qui semblent n'exister que dans les environnements localement
 vieux. C'est ce que nous appelons notre modèle de base. Cependant, pour
 tester différents choix de modélisation, nous avons mis en œuvre une suite de
 paramétrisations alternatives que nous avons également ajustées aux données en
@@ -241,7 +241,7 @@ d'âge, en supposant une distribution normale unique pour chacune des population
 jeune et âgée. Nous avons donc considéré un modèle «~Howell+dérive~», comportant
 une seule Gaussienne par groupe d'âge et intégrant la dérive avec $\delta(z)$ de
 l'équation~\ref{eq:deltaz}. L'évolution moyenne de l'étirement avec le redshift
-ce modèle est tracé en vert Figure~\ref{fig:evol_all}.
+de ce modèle est tracée en vert Figure~\ref{fig:evol_all}.
 
 Alternativement, comme nous cherchons à vérifier l'existence d'une évolution
 avec le redshift, nous avons également testé des modèles constants en limitant
@@ -312,7 +312,7 @@ Figure~\ref{fig:mod_comp}.
             & 1484,2 & 1494,2 & $-27,5$
             & 1101,2 & 1111,2 & $-21,7$ 
             \\
-            Base+const & $f$ & 6
+            Base+constant & $f$ & 6
             & 1484,2 & 1496,2 & $-29,5$
             & 1101,2 & 1113,2 & $-23,7$ 
             \\
@@ -339,7 +339,7 @@ Figure~\ref{fig:mod_comp}.
 
 \begin{figure}[ht]
 %    \centering
-    \includegraphics[width=\linewidth]{mod_comp.pdf}
+    \includegraphics[width=\linewidth]{mod_comp-fr.pdf}
     \caption[$\Delta$AIC entre le modèle de base et les autres
     modèles]{$\Delta$AIC entre le modèle de référence et les autres
         modèles (voir Tableau~\ref{tab:comp}). Les marqueurs bleus pleins et
@@ -355,7 +355,7 @@ Figure~\ref{fig:mod_comp}.
 \end{figure}
 
 Parce que les divers modèles présentent différents degrés de liberté, nous avons
-utilise le critère d'information d'\textsc{Akaike}~\citep[AIC, voir par
+utilisé le critère d'information d'\textsc{Akaike}~\citep[AIC, voir par
 exemple][]{burnham2004} pour comparer leur capacité à décrire correctement les
 observations. Cet estimateur pénalise l'ajout de degrés de liberté
 supplémentaire afin d'éviter un ajustement excessif des données. Il est défini
@@ -413,7 +413,7 @@ référence.
 Afin de s'assurer que nos résultats ne sont pas influencés par le
 sous-échantillon HST incomplètement modélisé, nous avons recalculé le
 $\Delta$AIC pour chaque modèle en excluant cet ensemble de données~; cela n'a
-pas modifié le $\Delta$AIC de plus que quelques dixièmes. La cohérence de ces
+pas modifié le $\Delta$AIC de plus de quelques dixièmes. La cohérence de ces
 valeurs avec celles du Tableau~\ref{tab:comp} montre que le sous-échantillon HST
 n'influence pas nos conclusions.
 
@@ -423,17 +423,17 @@ $\sigma_{\pm}$ pour chaque échantillon lorsqu'un modèle Gaussien asymétrique 
 sélection en utilisant nos coupes fiducielles (voir Chapitre~\ref{ch:sample}).
 Nos résultats sont en accord étroit avec ceux de~\cite{scolnic2016} pour SNLS et
 SDSS et avec les résultats rapportés par~\cite{scolnic2018} pour PS1, qui ont
-dérivé ces paramètres de modèle en utilisant le formalisme complet BBC, qui
-utilise de nombreuses simulations pour modéliser les effets de sélection
-observationnels \citep[voir les détails par exemple Section~3 de][et le
-Chapitre~\ref{ch:snana}]{kessler2017}. L'accord entre notre ajustement des
+dérivé ces paramètres de modèle en utilisant le formalisme complet BBC. Ce
+dernier utilise de nombreuses simulations pour modéliser les effets de
+sélection observationnels \citep[voir les détails par exemple Section~3 de][et
+le Chapitre~\ref{ch:snana}]{kessler2017}. L'accord entre notre ajustement des
 Gaussiennes asymétriques sur la partie supposée sans effets de sélection des
 échantillons et les résultats dérivés en utilisant le formalisme BBC soutient
 notre approche pour construire un échantillon avec des effets de sélection
 observationnels négligeables. Si nous devions utiliser les valeurs les mieux
 ajustées de~\cite{scolnic2016} et de~\cite{scolnic2018} pour les paramètres
 asymétriques $\mu_0,\sigma_{\pm}$ pour les échantillons SNLS, SDSS et PS1
-respectivement, le $\Delta$AIC entre notre modèle modèle de dérive de référence
+respectivement, le $\Delta$AIC entre notre modèle de dérive de référence
 et la modélisation BBC irait encore plus loin, passant de -32 à -47. Nous
 discutons plus en détail de la conséquence de ce résultat pour la cosmologie
 dans la Section~\ref{ssec:disc}.
@@ -484,7 +484,7 @@ populations jeune et âgée semblent effectivement partager le même mode
 sous-jacent d'étirement élevé. De plus, nous pouvons nous demander si un mode de
 faible étirement pourrait également exister dans la population jeune (voir la
 Figure~\ref{fig:stretchlssfr}). Nous avons testé cette hypothèse en permettant à
-cette population d'être également bimodale, en rajoutant également deux
+cette population d'être aussi bimodale, en rajoutant deux
 paramètres ($\mu_2^{\rm Y}, \sigma_2^{\rm Y}$, ligne 4
 Figure~\ref{fig:mod_all}). Nous avons constaté que l'amplitude d'un tel mode de
 faible étirement est fondamentalement 0 dans cette jeune population, n'apportant
@@ -542,7 +542,7 @@ sont présentés Figure~\ref{fig:mod_all}.
         dérivants sont tracés dans la colonne de gauche et leur version
         constante dans la colonne de droite. Les deux modèles ne se basant pas
         sur des catégories d'âge (la simple Gaussienne et la Gaussienne
-        asymétriques) sont représentées dans la dernière ligne côte à côte
+        asymétrique) sont représentées dans la dernière ligne côte à côte,
         conjointement à l'histogramme des étirements de notre échantillon. Les
         quantités $\Delta(-2\ln(L))$ et $\Delta$AIC par rapport au modèle de
         référence (ligne 2) sont indiqués dans les coins extérieurs de chaque
@@ -630,7 +630,7 @@ Cette question a reçu une analyse dédiée dans~\cite{briday2022}.
 
 \begin{SCfigure}[0.8][h!]
 %    \centering
-    \includegraphics[width=.55\linewidth]{mod_comp_zonly.pdf}
+    \includegraphics[width=.55\linewidth]{mod_comp_zonly-fr.pdf}
     \caption[$\Delta$AIC entre le modèle de base et les autres modèles sans
     utiliser le LsSFR]{$\Delta$AIC entre le modèle de référence et les autres
         modèles sans utiliser le LsSFR (voir Tableau~\ref{tab:comp_zonly}). La
@@ -710,10 +710,10 @@ ce test.
     aléatoirement de l'échantillon fiduciel]{$\Delta$AIC entre le modèle de
         base et les autres modèles, avec ici en marqueurs orange les
         résultats pour 200 modèles ajustés avec des données de la taille de
-        l'échantillon conservatif mais tirées aléatoirement de l'échantillon
+        l'échantillon conservatif, mais tirées aléatoirement de l'échantillon
         fiduciel. Bien qu'une augmentation du $\Delta$AIC par rapport au cas
-        fiduciel survient par moment, aucun modèle n'obtient de meilleur AIC
-        que le modèle de base, s'imposant encore comme le modèle de
+        fiduciel survienne par moment, aucun modèle n'obtient de meilleur AIC
+        que le modèle de base, celui-ci s'imposant encore comme le modèle de
     référence.}
     \label{fig:mod_comp_cal}
 \end{SCfigure}
@@ -808,7 +808,7 @@ nous avons déjà mis en évidence que même si un modèle par échantillon sans
 dérive pouvait donner des résultats comparables dans la partie limitée en volume
 des différents échantillons, ces modèles seraient différents lorsqu'ils
 seraient extrapolés à des redshifts plus élevés, précisément là où la
-distribution sous-jacente sera important pour corriger les biais de
+distribution sous-jacente sera importante pour corriger les biais de
 \textsc{Malmquist}.
 
 À l'ère de la cosmologie moderne, où nous visons à mesurer $w_0$ à un niveau
@@ -825,10 +825,10 @@ d'étirement sous-jacente des SNe~Ia en fonction du redshift. Nous avons
 construit Chapitre~\ref{ch:sample} des sous-échantillons de SNe effectivement
 limités en volume à partir de l'ensemble de données Pantheon \citep[][SDSS, PS1,
 SNLS]{scolnic2018} auxquels nous avons ajouté les données HST et SNfactory
-\citep{rigault2020} pour les intervalles à haut et bas redshift, respectivement.
-Nous n'avons considéré que les SNe qui ont été découvertes dans la plage de
-redshifts de chaque enquête dans laquelle les effets de sélection
-observationnels sont négligeable, de sorte que les étendues de SNe~Ia observées
+\citep{rigault2020} pour les intervalles à haut et bas redshifts,
+respectivement. Nous n'avons considéré que les SNe qui ont été découvertes dans
+la plage de redshifts de chaque enquête dans laquelle les effets de sélection
+observationnels sont négligeables, de sorte que les étendues de SNe~Ia observées
 constituent un échantillon aléatoire de la véritable distribution sous-jacente.
 Nous avons ainsi obtenu un échantillon fiduciel de base de 569 SNe~Ia (422 SNe
 lorsque des coupes plus conservatives sont appliquées). 
@@ -839,7 +839,7 @@ jeunes et vieilles en fonction du redshift, chaque population d'âge ayant sa
 propre distribution d'étirement sous-jacente.
 
 En plus de ce modèle de base, nous avons étudié diverses distributions, y
-compris des modèles indépendants du redshift~; nous avons également étudié la
+compris des modèles indépendants du redshift. Nous avons également étudié la
 prédiction à partir d'une distribution d'étirement gaussienne asymétrique par
 échantillon, utilisée par exemple par l'algorithme de correction de biais de
 \textsc{Malmquist} BBC \citep{scolnic2016, kessler2017}. Nos conclusions sont
@@ -847,7 +847,7 @@ prédiction à partir d'une distribution d'étirement gaussienne asymétrique pa
 
 \begin{enumerate}
     \item La distribution sous-jacente de l'étirement des SNe~Ia est
-        significativement dépendant du redshift, comme l'ont suggéré
+        significativement dépendante du redshift, comme l'ont suggéré
         précédemment~\cite{howell2007} par exemple, d'une manière que les effets
         de sélection observationnels seuls ne peuvent expliquer. Ce résultat est
         largement indépendant des détails de chaque modèle âge-population~;
@@ -874,7 +874,7 @@ prédiction à partir d'une distribution d'étirement gaussienne asymétrique pa
         nécessaires peuvent être acceptables étant donné le grand nombre de
         SNe~Ia dans les études cosmologiques, l'extrapolation des distributions
         des propriétés des SNe~Ia de la partie limitée en volume d'une
-        étude à sa partie limitée en magnitude et affectée par du biais de
+        étude à sa partie limitée en magnitude et affectée par le biais de
         \textsc{Malmquist} serait toujours inexacte en raison de l'évolution
         avec le redshift.
     \item Compte tenu de l'ensemble de données actuel, nous suggérons
@@ -899,7 +899,7 @@ prédiction à partir d'une distribution d'étirement gaussienne asymétrique pa
 
 La prochaine étape de cette ligne d'analyse consiste à incorporer notre modèle
 dans le cadre de SNANA \citep{kessler2009a}, un ensemble de logiciels de
-production de données simulées basées sur les données réelles d'observations.
+production de données simulées basées sur les données réelles d'observation.
 Cela va permettre à la fois de tenir compte plus
 précisément des fonctions de sélection observationnelles et de tester l'effet
 de notre modèle sur la détermination des paramètres cosmologiques. Cette étude

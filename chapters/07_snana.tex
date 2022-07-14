@@ -11,13 +11,13 @@
 \chapter{Introduction \`a \snana}\label{ch:snana}
 \epigraph{\openquote\textit{A common mistake that people make when trying to
 design something completely foolproof is to underestimate the ingenuity of
-complete fools}\closequote}{Douglas \textsc{Adams}, \textit{Mostly Harmless}}
+complete fools.}\closequote}{Douglas \textsc{Adams}, \textit{Mostly Harmless}}
 
-Nous avons vu Chapitre~\ref{ch:sne} qu'à partir de 1993, grâce la
+Nous avons vu au Chapitre~\ref{ch:sne} qu'à partir de 1993, grâce la
 standardisation des SNe~Ia par l'étude de leurs caractéristiques d'étirement et
 de couleur notamment, la cosmologie basée sur les SNe~Ia a pu prospérer, donnant
 une incertitude sur les modules de distances d'environ 15\%~; si cela était
-suffisant à améliorer la précision de l'époque, dominée par les incertitudes
+suffisant pour améliorer la précision de l'époque, dominée par les incertitudes
 statistiques, la source principale d'erreur sur les mesures de paramètres
 cosmologiques est depuis devenue l'incertitude systématique.
 
@@ -63,7 +63,7 @@ devenues aussi importantes que la qualité d'ajustement comme discuté
 Chapitre~\ref{ch:env}.
 
 En effet, la décennie passée a vu de nombreux efforts être dirigés vers
-l'implémentation de simulations de qualités pour corriger les biais dépendant du
+l'implémentation de simulations de qualité pour corriger les biais dépendant du
 redshift du module de distance ayant pour cause les effets de sélections, et
 \snana\ établit un cadre d'étude permettant de simuler ces effets pour
 différents sondages \citep{kessler2019}. Ces effets peuvent être d'origines
@@ -81,16 +81,16 @@ est à l'étude dans notre thèse.
 
 Nous pouvons résumer son fonctionnement à trois étapes clés~: (1) la simulation
 d'une courbe de lumière de SN~Ia et (2) son ajustement, regroupées dans la
-Section~\ref{sec:snanasim}), et (3) un ajuster de cosmologie \textit{via} la
+Section~\ref{sec:snanasim}), et (3) un ajusteur de cosmologie \textit{via} la
 dérivation de la distance des SNe~Ia (Section~\ref{sec:biais}).
 
 \section{Simulation}\label{sec:snanasim}
 
-Nous présentons dans cette section les étapes-clés des simulations avec \snana\
+Nous présentons dans cette section les étapes clés des simulations avec \snana\
 (dont le pipeline est automatisé par \texttt{PIPPIN} \citep{hinton2020}), telles
-que nous les effectuons. Dans la Section~\ref{ssec:simprep} nous introduisons
+que nous les effectuons. Dans la Section~\ref{ssec:simprep}, nous introduisons
 les concepts fondamentaux régissant le fonctionnement du logiciel~; les étapes
-successives de génération (Section~\ref{ssec:simsn}), réponse instrumentale
+successives de génération (Section~\ref{ssec:simsn}), de réponse instrumentale
 (Section~\ref{ssec:siminst}) et de détection (Section~\ref{ssec:simdetec})
 viennent ensuite. Un résumé est proposé Section~\ref{ssec:simshort}, avec la
 Figure~\ref{fig:snana_func}.
@@ -98,8 +98,8 @@ Figure~\ref{fig:snana_func}.
 \subsection{Préparation d'une simulation}\label{ssec:simprep}
 
 Les simulations avec \snana\ reposent sur deux librairies principales~: (1) une
-librairie de galaxies hôtes (\hostlib) décrivant le lien entre une SN et son
-environnement, et (2) une librairie des caractéristiques instrumentales d'un
+table de galaxies hôtes (\hostlib) décrivant le lien entre une SN et son
+environnement, et (2) une table des caractéristiques instrumentales d'un
 télescope (\simlib) reproduisant les observations d'un sondage et leurs
 conditions de relevé. Dans notre approche de la manière dont nos simulations
 fonctionnent, ces librairies précèdent le procédé de simulation.
@@ -136,7 +136,7 @@ caractéristiques qu'une SN de cette galaxie hôte doit respecter~:
 La \hostlib\ apparaît donc, dans notre cadre d'étude, comme l'élément clé
 permettant de faire varier les distributions sous-jacentes des paramètres des
 SNe~Ia. Nous décrivons la réalisation de celle-ci et les différentes
-implémentations de \hostlib\ Chapitre~\ref{ch:sims}~; pour le moment nous nous
+implémentations de \hostlib\ Chapitre~\ref{ch:sims}. Pour le moment nous nous
 contentons de décrire sa construction par l'utilisation de distributions des
 paramètres de couleur et d'étirement générant ladite table. Cette étape est
 représentée dans le cadre supérieur gris de la Figure~\ref{fig:snana_func}, et
@@ -167,7 +167,7 @@ La \simlib, de son côté, présente pour chaque champ d'observation~:
 \end{enumerate}
 et pour chaque observation~:
 \begin{enumerate}[resume]
-    \item la date d'observation exprimée en jours julien modifié \texttt{MJD}
+    \item la date d'observation exprimée en jours juliens modifiés \texttt{MJD}
         associée à un identifiant \texttt{IDEXPT}~;
     \item le filtre concerné par l'observation (\texttt{FLT})~;
     \item les caractéristiques de la caméra CCD\footnote{\textit{charged coupled
@@ -216,13 +216,13 @@ galaxies de $M_* < 10^{10}\si{\Msun}$ une variation de magnitude de
 \SI{-0.025}{mag} pour correspondre aux observations de marche de magnitude
 basées sur la masse.
 
-La simulation d'une supernova suit ensuite 3 étapes majeures, décrites
+La simulation d'une supernova suit ensuite trois étapes majeures, décrites
 dans~\cite{kessler2019}~:
 \begin{enumerate}
     \item Génération de la source et application d'effets cosmologiques,
         simulant la propagation de sa lumière de son origine au haut de
         l'atmosphère~;
-    \item Simulation de la réponse instrumentale selon le sondage (par exemple
+    \item Simulation de la réponse instrumentale selon le sondage (par exemple,
         conversion de la magnitude en flux de photons captés par une caméra CCD,
         bruit de l'instrument…)~;
     \item Simulation de la détection, incluant les critères pour que la SN soit
@@ -240,7 +240,7 @@ donc associé un redshift ($z_{\rm CMB}$ dans le référentiel du fonds diffus
 cosmologique) à partir d'un modèle de taux de SNe~Ia (différent selon le
 sondage), un maximum d'émission $t_0$ choisi au hasard sur une plage avant et
 après la période d'observation de sondage, et une valeur d'étirement $x_1$ et de
-couleur $c$. Notre approche est d'effectuer un tirage des ces paramètres depuis
+couleur $c$. Notre approche est d'effectuer un tirage de ces paramètres depuis
 la \hostlib, pondérée par la \wgtmap\ du sondage, en faisant correspondre le
 redshift choisi initialement avec une des entrées de la table. Ce tirage donne
 également la valeur de la marche de magnitude à appliquer. C'est de cette
@@ -253,15 +253,15 @@ rose étiquetée «~Lien avec l'environnement~». L'attribution de ces deux
 paramètres varie selon les postulats de corrélations que nous avons implémentés,
 nous y reviendrons au chapitre suivant.
 
-Avec le redshift choisi, à cette étape est définit un module de distance réel,
+Avec le redshift choisi, à cette étape est défini un module de distance réel,
 $\mu_{\rm vrai}$, \textit{via} sa définition (donnée Chapitre~\ref{ch:sne}), en
 supposant une cosmologie sous-jacente. Dans notre cas, nous utilisons le modèle
 $w$CDM avec valeurs définies dans le Tableau~\ref{tab:cosmoinput}.
 
 \begin{table}[ht]
     \centering
-    \caption[Valeur des paramètres cosmologiques utilisés pour la détermination
-    du module de distance réel de la SN simulée]{Valeur des paramètres
+    \caption[Valeurs des paramètres cosmologiques utilisés pour la détermination
+    du module de distance réel de la SN simulée]{Valeurs des paramètres
         cosmologiques utilisés pour la détermination du module de distance réel
     de la SN simulée.}
     \label{tab:cosmoinput}
@@ -296,8 +296,8 @@ Le modèle se voit ensuite appliquer des effets de dispersion intrinsèque (dans
 notre cas celui décrit dans~\cite{guy2010}, nommé
 G10\defcitealias{guy2010}{G10}), de lentillage faible, de redshift pour le
 placer dans le référentiel héliocentrique, et d'extinction galactique de la Voie
-Lactée, appliqués à $m_{B, \rm vrai}$. Ces différents effets mènent à simuler
-une magnitude en haut de l'atmosphère, avant qu'un instrument ne l'acquiert. Les
+Lactée, appliqués à $m_{B, \rm vrai}$. Ces différents effets amènent à simuler
+une magnitude en haut de l'atmosphère, avant qu'un instrument ne l'acquière. Les
 détails de ces procédures sont développés dans~\cite{kessler2019}. Cette partie
 est illustrée par la flèche pointillée bleue étiquetée «~Génération~» allant de
 la partie «~Création \hostlib~» numérotée «~2~» à la représentation d'une série
@@ -308,15 +308,15 @@ numérotée «~3~».
 
 Une fois les séries temporelles du spectre de la SN formées, le programme simule
 le flux effectivement reçu et le bruit mesurés par le télescope du sondage
-reproduit. Comme décrit dans la Section~\ref{ssec:simprep}, celle-ci est fixée
-par les journaux d'observation du sondages résumés dans la \simlib. Elle permet
-d'appliquer les qualités d'observation du télescope à chaque époque de la série
-temporelle, mimant l'acquisition ou non des points photométriques par les bandes
-optiques de l'instrument et menant à l'établissement d'une courbe de lumière.
-Cette étape est représentée dans la partie «~Instrument~» en bleu dans la
-Figure~\ref{fig:snana_func}, numérotée «~3~». C'est également dans cette partie,
-mais non représentée sur la figure, qu'un bruit Poissonnien est ajouté à la
-mesure selon la luminosité de surface locale induite par la position de la SN
+reproduit. Comme décrit dans la Section~\ref{ssec:simprep}, ceux-ci sont fixés
+par les journaux d'observation des sondages résumés dans chaque \simlib. Elles
+permettent d'appliquer les qualités d'observation du télescope à chaque époque
+d'une série temporelle, mimant l'acquisition ou non des points photométriques
+par les bandes optiques de l'instrument et menant à l'établissement d'une courbe
+de lumière. Cette étape est représentée dans la partie «~Instrument~» en bleu
+dans la Figure~\ref{fig:snana_func}, numérotée «~3~». C'est également dans cette
+partie, mais non représentée sur la figure, qu'un bruit Poissonnien est ajouté à
+la mesure selon la luminosité de surface locale induite par la position de la SN
 par rapport au centre de sa galaxie hôte. Ces étapes simulent la transformation
 du signal en haut de l'atmosphère au signal effectivement reçu sur Terre.
 
@@ -336,20 +336,20 @@ deux paragraphes, voir Section~6 de~\cite{kessler2019}.
 Comme décrit dans le Chapitre~\ref{ch:surveys}, chacun des sondages de SNe~Ia
 observant le ciel acquiert des images successives à la recherche d'événements
 transitoires, mais ne déclenche l'acquisition continue et le suivi d'un candidat
-uniquement si sa courbe de lumière respecte certains critères. Cette étape est
-incluse dans le procédé de simulations de \snana, et comprend le rapport signal
-sur bruit des données (SNR) et le nombre de détections relativement au pic
+que si sa courbe de lumière respecte certains critères. Cette étape est incluse
+dans le procédé de simulations de \snana, et comprend le rapport signal sur
+bruit des données (SNR) ainsi que le nombre de détections relativement au pic
 d'émission ($T_{\rm rest}$) que chaque sondage requiert dans sa recherche.
-Enfin, l'efficacité spectroscopique en fonction de la magnitude est simulée en
-amont de la simulation, \textit{via} l'utilisation de fausses données de SN, et
-est utilisée pour effectuer la sélection des données.
+Enfin, l'efficacité spectroscopique en fonction de la magnitude est reproduite
+en amont de la simulation, \textit{via} l'utilisation de fausses données de SN,
+et est utilisée pour effectuer la sélection des données.
 
 La partie d'ajustement des données détectées est également faite avec
 \texttt{SALT2} et n'est donc pas détaillée une nouvelle fois ici, mais tout un
 stage de \snana\ y est consacré. De manière succincte, cet ajustement extrait
 les paramètres $m_B$, $x_1$, $c$ et $t_0$ à partir des courbes de lumières
 passant les critères de détection. $m_B$ correspond à la magnitude de la SN,
-$x_1$ à son étirement, $c$ à sa couleur et $t_0$ au temps de maximum de
+$x_1$ à son étirement, $c$ à sa couleur et $t_0$ au jour du maximum de
 luminosité. À partir de leurs valeurs, une coupe supplémentaire est effectuée
 pour ne conserver que les données de qualité cosmologiques, notamment devant
 vérifier $-3 < x_1 < 3$~; les autres SNe~Ia ne passeront pas la sélection sur
@@ -366,7 +366,7 @@ respectivement.
 
 En partant de tables de \hostlib, \simlib, \wgtmap\ et d'efficacité
 spectroscopique, nous décrivons ainsi les étapes d'une simulation dans l'ordre
-suivant correspondants aux numéros des encadrés de la
+suivant correspondant aux numéros des encadrés de la
 Figure~\ref{fig:snana_func}~:
 \begin{enumerate}
     \item Sélection d'un redshift à partir d'un modèle de taux de SNe~Ia~;
@@ -404,31 +404,31 @@ de~\cite{popovic2021a}.
     \centerfloat
     \includegraphics[width=1\linewidth]{snana_layout}
     \caption[Schéma de fonctionnement d'une simulation avec
-    \snana]{\footnotesize Les tables de \wgtmap, \simlib, et de l'efficacité
+    \snana]{\footnotesize Les tables de \wgtmap, \simlib et de l'efficacité
         spectroscopique sont des données, ici celles du sondage SDSS. En amont
         de la simulation, une \hostlib\ est créée (\textit{en gris}, «~Création
         \hostlib~»). Pour simuler une SN~Ia, un redshift est sélectionné depuis
-        une distribution (étape 1 \textit{en rose}, partie «Tirage») et est
-        relié à un environnement \textit{via} un tirage la \hostlib\ pondérée
-        par une carte de poids (étape 2 \textit{en gris}). À ce tirage sont
-        reliées les valeurs de $x_1$ et $c$ permettant de générer une série
-        temporelle de SN. Une simulation d'observation est effectuée en y
-        appliquant les paramètres simulés du télescope d'un sondage grâce à une
-        \simlib, donnant une courbe de lumière théorique (étape 3 \textit{en
-        bleu}, partie «~Instrument~»). Cette courbe de lumière doit ensuite
-        passer les critères de détection et de qualité (étape 4 \textit{en
-        vert}, partie «~Sélection~»), et pourra alors être ajustée et conservée
-        (orange) ou non (vert). Nous indiquons \textit{en orange} (étape 5,
-        partie «~Conservé~») et pour chaque étape de ce procédé l'évolution des
-        distributions de masse, étirement, couleur et redshift d'une de nos
-    simulations. L'analyse se trouve Chapitre~\ref{ch:sims}}
-    \label{fig:snana_func}
+        une distribution (étape 1 \textit{en rose}, partie «~Tirage~») et est
+        relié à un environnement \textit{via} un tirage sur la \hostlib,
+        elle-même pondérée par une carte de poids (étape 2 \textit{en gris}). À
+        ce tirage correspondent les valeurs de $x_1$ et $c$ permettant de
+        générer une série temporelle de SN. Une simulation d'observation est
+        effectuée en y appliquant les paramètres simulés du télescope d'un
+        sondage grâce à une \simlib, donnant une courbe de lumière théorique
+        (étape 3 \textit{en bleu}, partie «~Instrument~»). Cette courbe de
+        lumière doit ensuite passer les critères de détection et de qualité
+        (étape 4 \textit{en vert}, partie «~Sélection~»), et pourra alors être
+        ajustée et conservée (orange) ou non (vert). Nous indiquons \textit{en
+        orange} (étape 5, partie «~Conservé~») et pour chaque étape de ce
+        procédé l'évolution des distributions de masse, étirement, couleur et
+        redshift d'une de nos simulations. L'analyse se trouve
+    Chapitre~\ref{ch:sims}.}\label{fig:snana_func}
 \end{figure}
 
 \section{Correction de biais et cosmologie}\label{sec:biais}
 
 Dans cette section nous présentons l'étape d'ajusteur de cosmologie avec
-corrections des biais de \snana\ basé sur la méthode \textit{BEAMS with Bias
+correction des biais de \snana\ basée sur la méthode \textit{BEAMS with Bias
 Correction} \citep[\bbc,][]{kessler2017}. BEAMS est l'acronyme de
 \textit{Bayesian Estimation Applied to Multiple Species} (estimation bayésienne
 appliquée à de multiples espèces), une méthode d'ajusteur établie
@@ -493,10 +493,10 @@ les écarts de distance dans ces intervalles de redshift $z_i$, tel que $\mu =
 \mu_{\rm vrai}$ lorsque les valeurs initiales de $m_B$, $x_1$ et $c$ de la
 partie Génération (Section~\ref{ssec:simsn}) sont entrées à la place des valeurs
 ajustées dans l'Équation~\ref{eq:mucorr}. Ce sont ces $M_{z_i}$ qui sont
-utilisées pour ajuster la cosmologie. Pour l'ajustement nous partons d'un modèle
-cosmologique plat $w$CDM où $\Omega_M + \Omega_{\Lambda} = 1$, pour définir
-\citep{kessler2017}\footnote{l'équation du module de distance a été corrigée par
-rapport à l'article, conformément à l'équation~\ref{eq:mucosmo}}~:
+utilisées pour ajuster la cosmologie. Pour l'ajustement, nous partons d'un
+modèle cosmologique plat $w$CDM où $\Omega_M + \Omega_{\Lambda} = 1$, pour
+définir \citep{kessler2017}\footnote{l'équation du module de distance a été
+corrigée par rapport à l'article, conformément à l'équation~\ref{eq:mucosmo}}~:
 \begin{align}\label{eq:mumodel}
     \mu_{\text{modèle}} & = 5\log\left(\frac{d_L}{\SI{10}{pc}}\right)
                              \quad\text{avec}\\
@@ -509,7 +509,8 @@ rapport à l'article, conformément à l'équation~\ref{eq:mucosmo}}~:
                              \right]^{1/2}
 \end{align}
 et \saltmu\ utilise le paquet
-\texttt{MINUIT}\footnote{\href{www.cern.ch/minuit}{www.cern.ch/minuit}}
+\texttt{MINUIT}\footnote{\href{https://root.cern.ch/download/minuit.pdf}
+{https://root.cern.ch/download/minuit.pdf}}
 \citep{james1975} pour ajuster la quantité~:
 \begin{equation}
     \chi^2_{\rm HD} = \sum_i \frac{
@@ -533,8 +534,8 @@ moyenne à \num{0.315} et une largeur de \num{0.005}, et plate pour $w$ avec
 comme bornes $-1,5 < w < -0,5$. Pour plus de détails sur son fonctionnement,
 voir Section~5.6 de~\cite{kessler2017}.
 
-Nous discutons maintenant des différentes implémentation de \bbc\ pour le calcul
-de $\delta\mu_{\rm biais}$.
+Nous discutons maintenant des différentes implémentations de \bbc\ pour le
+calcul de $\delta\mu_{\rm biais}$.
 
 \subsection{\bbc1D}\label{ssec:bbc1D}
 
@@ -574,12 +575,11 @@ schéma de fonctionnement est donné Figure~\ref{fig:bbc1d}.
         \bbc\ lorsqu'elle est dans sa version à 1 dimension. De l'échantillon
         BiasCor sont déterminées les valeurs $\delta\mu_{\rm biais}$ à ajouter
         au module de distance en le découpant dans des intervalles de redshift
-        pour y calculer la moyenne pondérée. Avec les données elles permettes de
-        déterminer les modules de distances corrigés $\mu^*$, qui sont ensuite
-        traités par \saltmu\ pour avoir les $\alpha$, $\beta$, $\gamma_{\rm
-        env}$, $M_{z_i}$ et $\sigma_{\mu}$ qui permettent l'ajustement
-    cosmologique par \wfit.}
-    \label{fig:bbc1d}
+        pour y calculer la moyenne pondérée. Avec les données, elles permettent
+        de déterminer les modules de distances corrigés $\mu^*$, qui sont
+        ensuite traités par \saltmu\ pour avoir les $\alpha$, $\beta$,
+        $\gamma_{\rm env}$, $M_{z_i}$ et $\sigma_{\mu}$ qui permettent
+    l'ajustement cosmologique par \wfit.}\label{fig:bbc1d}
 \end{figure}
 
 \subsection{\bbc5D}\label{ssec:bbc5D}
@@ -593,7 +593,7 @@ $\delta_{x_1}$ et $\delta_c$ à appliquer sont alors calculées de l'interpolati
 des moyennes pondérées des SNe dans chacune des cellules. Nous représentons ce
 procédé Figure~\ref{fig:mat}, où les exposants correspondent aux intervalles
 selon $c$, $x_1$ et $z$ respectivement, pour lesquels le nombre total
-d'intervalles est $C$, $X$ et $Z$, respectivement~; l'indice $p$ indique le
+d'intervalles est $C$, $X$ et $Z$, respectivement. L'indice $p$ indique le
 paramètre à sélectionner dans la cellule en question pour obtenir le biais
 correspondant.
 
@@ -628,7 +628,7 @@ avec
 
 C'est de la dimension de $\delta\mu_{\rm biais}$ que \bbc5D tire son nom. En
 effet, une version 3D avec uniquement le découpage susmentionné peut exister
-\citep{scolnic2016}, mais il se trouve que les valeurs de corrections de biais
+\citep{scolnic2016}, mais il se trouve que les valeurs de correction de biais
 dépendent des valeurs de $\alpha$ et $\beta$ utilisées. Pour reproduire cette
 corrélation et étant donné que ces coefficients ont des valeurs discrètes, ces
 paramètres sont générés sur une grille de taille $2\times2$, encapsulant les
@@ -688,15 +688,15 @@ hôte.
 
 L'idée de cet ajout est d'attribuer un décalage de magnitude de $+\theta$ à une
 moitié \textit{aléatoire} de l'échantillon BiasCor, et $-\theta$ à l'autre
-moitié~; ce paramètre, complètement décorrélé des propriétés environnementales,
-est donc par essence différent de $\gamma_{\rm env}$, et permet une plus grande
+moitié. Ce paramètre, complètement décorrélé des propriétés environnementales,
+est donc par essence différent de $\gamma_{\rm env}$ et permet une plus grande
 flexibilité que d'utiliser $\delta\mu_{\rm env} = \pm\gamma_{\rm env}/2$ pour
 $X_* \gtrless S$, respectivement.
 
 Ces paramètres sont utilisés à chaque étape de l'ajustement \bbc, passant d'un
 $\delta\mu_{\rm biais}$ en 5 dimensions ($\overrightarrow{x_5} = \{z, x_1, c,
 \alpha, \beta\}$) à 7 dimensions $\{\overrightarrow{x_5}, \theta, M_*\}$.
-$\delta\mu_{\rm biais}$ est interpolé pour les six premières, et évalué dans des
+$\delta\mu_{\rm biais}$ est interpolé pour les 6 premières et évalué dans des
 intervalles selon $M_*$. Les valeurs $\delta\mu_{\rm env}$ permettent
 l'interpolation de l'échantillon BiasCor entre $\pm\theta$ suivant~:
 \begin{equation}
@@ -710,7 +710,7 @@ n'importe quelle propriété de galaxie hôte et la magnitude des SNe~Ia.
 
 C'est avec ce formalisme de \bbc\ que nous traitons nos simulations dans le
 chapitre suivant, dans lequel nous répertorions les corrélations que nous
-voulons tester et créons pour ce faire nos propres \hostlib\ où l'étirement est
+voulons tester et créons pour ce faire nos propres \hostlib, où l'étirement est
 donné par le modèle du Chapitre~\ref{ch:stretch} et publié
 dans~\cite{nicolas2021}.
 

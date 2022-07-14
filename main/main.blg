@@ -7,49 +7,46 @@ Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--I didn't find a database entry for "BP"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Warning--can't use both author and editor fields in alpheratz2018
-Warning--empty publisher in alpheratz2018
-Warning--empty publisher in calzetti2013
 Warning--empty publisher in hubble1936
 You've used 141 entries,
             3173 wiz_defined-function locations,
-            1829 strings with 123152 characters,
-and the built_in function-call counts, 283719 in all, are:
-= -- 17733
-> -- 40154
+            1830 strings with 123152 characters,
+and the built_in function-call counts, 283706 in all, are:
+= -- 17738
+> -- 40151
 < -- 48
-+ -- 13453
-- -- 13309
-* -- 44699
-:= -- 48031
++ -- 13452
+- -- 13308
+* -- 44700
+:= -- 48027
 add.period$ -- 141
 call.type$ -- 141
 change.case$ -- 4996
 chr.to.int$ -- 144
-cite$ -- 145
-duplicate$ -- 3024
-empty$ -- 4631
-format.name$ -- 13627
-if$ -- 49658
+cite$ -- 142
+duplicate$ -- 3028
+empty$ -- 4625
+format.name$ -- 13626
+if$ -- 49656
 int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 121
 newline$ -- 427
-num.names$ -- 579
+num.names$ -- 578
 pop$ -- 4995
 preamble$ -- 1
 purify$ -- 4991
 quote$ -- 0
-skip$ -- 2446
+skip$ -- 2441
 stack$ -- 0
 substring$ -- 3203
-swap$ -- 9602
+swap$ -- 9605
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1263
-warning$ -- 4
-while$ -- 585
+type$ -- 1266
+warning$ -- 1
+while$ -- 584
 width$ -- 0
-write$ -- 1550
-(There were 5 warnings)
+write$ -- 1552
+(There were 2 warnings)

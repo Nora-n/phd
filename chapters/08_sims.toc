@@ -9,15 +9,15 @@
 \contentsline {subsection}{\numberline {I.2.1}Mod\IeC {\'e}lisation du lien entre masse et redshift}{4}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {I.2.2}Comparaison aux donn\IeC {\'e}es}{6}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {I.2.3}S\IeC {\'e}lection des mod\IeC {\`e}les}{6}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {I.2.4}G\IeC {\'e}n\IeC {\'e}ration des \texttt {HOSTLIB}}{7}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {I.2.4}G\IeC {\'e}n\IeC {\'e}ration des \texttt {HOSTLIB}}{9}{subsection.1.2.4}
 \contentsline {subsection}{\numberline {I.2.5}Impl\IeC {\'e}mentation}{10}{subsection.1.2.5}
-\contentsline {subsection}{R\IeC {\'e}sum\IeC {\'e}}{11}{subsection.1.2.6}
+\contentsline {subsection}{R\IeC {\'e}sum\IeC {\'e}}{12}{subsection.1.2.6}
 \contentsline {section}{\numberline {I.3}Comparaison des donn\IeC {\'e}es simul\IeC {\'e}es aux donn\IeC {\'e}es r\IeC {\'e}elles}{12}{section.1.3}
 \contentsline {subsection}{\numberline {I.3.1}Accord entre les donn\IeC {\'e}es~: analyse uni-dimensionnelle}{13}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {I.3.2}Accord entre les donn\IeC {\'e}es~: analyse bi-dimensionnelle}{15}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {I.3.2}Accord entre les donn\IeC {\'e}es~: analyse bi-dimensionnelle}{16}{subsection.1.3.2}
 \contentsline {section}{\numberline {I.4}Impact sur la cosmologie}{18}{section.1.4}
 \contentsline {subsection}{\numberline {I.4.1}R\IeC {\'e}sultats de standardisation}{18}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {I.4.2}R\IeC {\'e}sultats de cosmologie}{21}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {I.4.3}Syst\IeC {\'e}matiques dues au choix du mod\IeC {\`e}le de masse}{23}{subsection.1.4.3}
-\contentsline {section}{\numberline {I.5}Conclusion}{25}{section.1.5}
+\contentsline {subsection}{\numberline {I.4.3}Syst\IeC {\'e}matiques dues au choix du mod\IeC {\`e}le de masse}{24}{subsection.1.4.3}
+\contentsline {section}{\numberline {I.5}Conclusion}{26}{section.1.5}
 \contentsfinish 
