@@ -4,49 +4,48 @@ The top-level auxiliary file: main.aux
 The style file: ../main/aa_url.bst
 Database file #1: ../chapters/99_references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Warning--I didn't find a database entry for "BP"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--empty publisher in hubble1936
-You've used 141 entries,
+You've used 143 entries,
             3173 wiz_defined-function locations,
-            1830 strings with 123152 characters,
-and the built_in function-call counts, 283706 in all, are:
-= -- 17738
-> -- 40151
+            1843 strings with 124368 characters,
+and the built_in function-call counts, 286416 in all, are:
+= -- 17914
+> -- 40504
 < -- 48
-+ -- 13452
-- -- 13308
-* -- 44700
-:= -- 48027
-add.period$ -- 141
-call.type$ -- 141
-change.case$ -- 4996
-chr.to.int$ -- 144
-cite$ -- 142
-duplicate$ -- 3028
-empty$ -- 4625
-format.name$ -- 13626
-if$ -- 49656
++ -- 13571
+- -- 13425
+* -- 45118
+:= -- 48489
+add.period$ -- 143
+call.type$ -- 143
+change.case$ -- 5043
+chr.to.int$ -- 146
+cite$ -- 144
+duplicate$ -- 3068
+empty$ -- 4686
+format.name$ -- 13747
+if$ -- 50132
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 121
-newline$ -- 427
-num.names$ -- 578
-pop$ -- 4995
+missing$ -- 123
+newline$ -- 433
+num.names$ -- 586
+pop$ -- 5041
 preamble$ -- 1
-purify$ -- 4991
+purify$ -- 5038
 quote$ -- 0
-skip$ -- 2441
+skip$ -- 2471
 stack$ -- 0
-substring$ -- 3203
-swap$ -- 9605
+substring$ -- 3242
+swap$ -- 9691
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1266
+type$ -- 1284
 warning$ -- 1
-while$ -- 584
+while$ -- 592
 width$ -- 0
-write$ -- 1552
-(There were 2 warnings)
+write$ -- 1574
+(There was 1 warning)

@@ -119,7 +119,7 @@
     pdfsubject={Manuscrit de th\`ese pour l'obtention du dipl\^ome de doctorat},
     pdfkeywords={cosmology, phd, supernovae},
     linktoc=page,           % Titre pas clicable mais page si
-    backref=section,        % Add link to go back to section
+    backref=page,        % Add link to go back to section
     colorlinks=true,        % false: boxed links; true: colored links
     linkcolor=dgreen,       % color of internal links
     citecolor=magenta,      % color of links to bibliography
@@ -133,7 +133,7 @@
 % Add an upward arrow next to backref,
 % from https://tex.stackexchange.com/a/173063
 \renewcommand\backrefxxx[3]{%
-  \hyperlink{page.#1}{$\uparrow$~Section #2}}
+  \hyperlink{page.#1}{$\uparrow$~Page #1}}
 % Make ref to multiple sections with \cref: doesn't seem to work...
 % \RequirePackage{cleveref}
 

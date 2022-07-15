@@ -5,45 +5,45 @@ The style file: ../main/aa_url.bst
 Database file #1: ../chapters/99_references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in hubble1936
-You've used 25 entries,
+You've used 29 entries,
             3173 wiz_defined-function locations,
-            905 strings with 20879 characters,
-and the built_in function-call counts, 38915 in all, are:
-= -- 2478
-> -- 5212
+            938 strings with 23694 characters,
+and the built_in function-call counts, 45724 in all, are:
+= -- 2909
+> -- 6152
 < -- 10
-+ -- 1747
-- -- 1722
-* -- 5995
-:= -- 6597
-add.period$ -- 25
-call.type$ -- 25
-change.case$ -- 674
-chr.to.int$ -- 25
-cite$ -- 26
-duplicate$ -- 517
-empty$ -- 811
-format.name$ -- 1780
-if$ -- 6858
++ -- 2063
+- -- 2034
+* -- 7066
+:= -- 7756
+add.period$ -- 29
+call.type$ -- 29
+change.case$ -- 794
+chr.to.int$ -- 29
+cite$ -- 30
+duplicate$ -- 597
+empty$ -- 934
+format.name$ -- 2100
+if$ -- 8047
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 22
-newline$ -- 79
-num.names$ -- 102
-pop$ -- 676
+missing$ -- 26
+newline$ -- 91
+num.names$ -- 118
+pop$ -- 794
 preamble$ -- 1
-purify$ -- 673
+purify$ -- 793
 quote$ -- 0
-skip$ -- 430
+skip$ -- 491
 stack$ -- 0
-substring$ -- 567
-swap$ -- 1261
+substring$ -- 648
+swap$ -- 1485
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 222
+type$ -- 258
 warning$ -- 1
-while$ -- 100
+while$ -- 116
 width$ -- 0
-write$ -- 276
+write$ -- 320
 (There was 1 warning)

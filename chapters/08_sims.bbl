@@ -1,0 +1,121 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{Briday}(2021)}]{briday2021}
+\textsc{Briday M.} 2021, «~{{\'E}tude de l'impact de l'environnement
+  galactique sur la standardisation des Supernovae de Type Ia}~», Thèse,
+  {Université Claude Bernard -- Lyon I},
+  \href{https://tel.archives-ouvertes.fr/tel-03621515}{HAL thèses}
+
+\bibitem[{\textsc{{Briday}} {et~al.}(2022)\textsc{{Briday}},
+  \textsc{{Rigault}}, \textsc{{Graziani}}, \textsc{{Copin}},
+  \textsc{{Aldering}}, \textsc{{Amenouche}}, \textsc{{Brinnel}},
+  \textsc{{Kim}}, \textsc{{Kim}}, \textsc{{Lezmy}}, \textsc{{Nicolas}},
+  \textsc{{Nordin}}, \textsc{{Perlmutter}}, \textsc{{Rosnet}} et
+  \textsc{{Smith}}}]{briday2022}
+\textsc{{Briday} M.}, \textsc{{Rigault} M.}, \textsc{{Graziani} R.} {et~al.}
+  2022, «~{Accuracy of environmental tracers and consequences for determining
+  the Type Ia supernova magnitude step}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/202141160}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2022A&A...657A..22B}{657, A22}
+
+\bibitem[{\textsc{{Burnham}}(2004)}]{burnham2004}
+\textsc{{Burnham}, Kenneth \&~{Anderson} D.~R.} 2004, «~Multimodel Inference:
+  Understanding AIC and BIC in Model Selection~»,
+  \href{http://dx.doi.org/10.1177/0049124104268644}{\color{magenta}Sociological
+  Methods \& Research}, 33, 261
+
+\bibitem[{\textsc{{Howell}} {et~al.}(2007)\textsc{{Howell}},
+  \textsc{{Sullivan}}, \textsc{{Conley}} et \textsc{{Carlberg}}}]{howell2007}
+\textsc{{Howell} D.~A.}, \textsc{{Sullivan} M.}, \textsc{{Conley} A.} et
+  \textsc{{Carlberg} R.} 2007, «~{Predicted and Observed Evolution in the Mean
+  Properties of Type Ia Supernovae with Redshift}~»,
+  \href{http://dx.doi.org/10.1086/522030}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...667L..37H}{667, L37}
+
+\bibitem[{\textsc{{Nicolas}} {et~al.}(2021)\textsc{{Nicolas}},
+  \textsc{{Rigault}}, \textsc{{Copin}}, \textsc{{Graziani}},
+  \textsc{{Aldering}}, \textsc{{Briday}}, \textsc{{Kim}}, \textsc{{Nordin}},
+  \textsc{{Perlmutter}} et \textsc{{Smith}}}]{nicolas2021}
+\textsc{{Nicolas} N.}, \textsc{{Rigault} M.}, \textsc{{Copin} Y.} {et~al.}
+  2021, «~{Redshift evolution of the underlying type Ia supernova stretch
+  distribution}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/202038447}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2021A&A...649A..74N}{649, A74}
+
+\bibitem[{\textsc{{Popovic}} {et~al.}(2021)\textsc{{Popovic}},
+  \textsc{{Brout}}, \textsc{{Kessler}}, \textsc{{Scolnic}} et
+  \textsc{{Lu}}}]{popovic2021a}
+\textsc{{Popovic} B.}, \textsc{{Brout} D.}, \textsc{{Kessler} R.},
+  \textsc{{Scolnic} D.} et \textsc{{Lu} L.} 2021, «~{Improved Treatment of
+  Host-galaxy Correlations in Cosmological Analyses with Type Ia
+  Supernovae}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/abf14f}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2021ApJ...913...49P}{913, 49}
+
+\bibitem[{\textsc{{Rigault}} {et~al.}(2020)\textsc{{Rigault}},
+  \textsc{{Brinnel}}, \textsc{{Aldering}}, \textsc{{Antilogus}},
+  \textsc{{Aragon}}, \textsc{{Bailey}}, \textsc{{Baltay}}, \textsc{{Barbary}},
+  \textsc{{Bongard}}, \textsc{{Boone}}, \textsc{{Buton}}, \textsc{{Childress}},
+  \textsc{{Chotard}}, \textsc{{Copin}}, \textsc{{Dixon}}, \textsc{{Fagrelius}},
+  \textsc{{Feindt}}, \textsc{{Fouchez}}, \textsc{{Gangler}}, \textsc{{Hayden}},
+  \textsc{{Hillebrandt}}, \textsc{{Howell}}, \textsc{{Kim}},
+  \textsc{{Kowalski}}, \textsc{{Kuesters}}, \textsc{{Leget}},
+  \textsc{{Lombardo}}, \textsc{{Lin}}, \textsc{{Nordin}}, \textsc{{Pain}},
+  \textsc{{Pecontal}}, \textsc{{Pereira}}, \textsc{{Perlmutter}},
+  \textsc{{Rabinowitz}}, \textsc{{Runge}}, \textsc{{Rubin}},
+  \textsc{{Saunders}}, \textsc{{Smadja}}, \textsc{{Sofiatti}},
+  \textsc{{Suzuki}}, \textsc{{Taubenberger}}, \textsc{{Tao}} et
+  \textsc{{Thomas}}}]{rigault2020}
+\textsc{{Rigault} M.}, \textsc{{Brinnel} V.}, \textsc{{Aldering} G.} {et~al.}
+  2020, «~{Strong dependence of Type Ia supernova standardization on the local
+  specific star formation rate}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201730404}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2020A&A...644A.176R}{644, A176}
+
+\bibitem[{\textsc{{Scolnic}} et \textsc{{Kessler}}(2016)}]{scolnic2016}
+\textsc{{Scolnic} D.} et \textsc{{Kessler} R.} 2016, «~{Measuring Type Ia
+  Supernova Populations of Stretch and Color and Predicting Distance
+  Biases}~»,
+  \href{http://dx.doi.org/10.3847/2041-8205/822/2/L35}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...822L..35S}{822, L35}
+
+\bibitem[{\textsc{{Scolnic}} {et~al.}(2018)\textsc{{Scolnic}},
+  \textsc{{Jones}}, \textsc{{Rest}}, \textsc{{Pan}}, \textsc{{Chornock}},
+  \textsc{{Foley}}, \textsc{{Huber}}, \textsc{{Kessler}}, \textsc{{Narayan}},
+  \textsc{{Riess}}, \textsc{{Rodney}}, \textsc{{Berger}}, \textsc{{Brout}},
+  \textsc{{Challis}}, \textsc{{Drout}}, \textsc{{Finkbeiner}},
+  \textsc{{Lunnan}}, \textsc{{Kirshner}}, \textsc{{Sanders}},
+  \textsc{{Schlafly}}, \textsc{{Smartt}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{Wood-Vasey}}, \textsc{{Foley}}, \textsc{{Hand}}, \textsc{{Johnson}},
+  \textsc{{Burgett}}, \textsc{{Chambers}}, \textsc{{Draper}},
+  \textsc{{Hodapp}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Bresolin}},
+  \textsc{{Gall}}, \textsc{{Kotak}}, \textsc{{McCrum}} et
+  \textsc{{Smith}}}]{scolnic2018}
+\textsc{{Scolnic} D.~M.}, \textsc{{Jones} D.~O.}, \textsc{{Rest} A.} {et~al.}
+  2018, «~{The Complete Light-curve Sample of Spectroscopically Confirmed SNe
+  Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon
+  Sample}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
+
+\bibitem[{\textsc{{Taylor}} {et~al.}(2011)\textsc{{Taylor}},
+  \textsc{{Hopkins}}, \textsc{{Baldry}}, \textsc{{Brown}}, \textsc{{Driver}},
+  \textsc{{Kelvin}}, \textsc{{Hill}}, \textsc{{Robotham}},
+  \textsc{{Bland-Hawthorn}}, \textsc{{Jones}}, \textsc{{Sharp}},
+  \textsc{{Thomas}}, \textsc{{Liske}}, \textsc{{Loveday}}, \textsc{{Norberg}},
+  \textsc{{Peacock}}, \textsc{{Bamford}}, \textsc{{Brough}},
+  \textsc{{Colless}}, \textsc{{Cameron}}, \textsc{{Conselice}},
+  \textsc{{Croom}}, \textsc{{Frenk}}, \textsc{{Gunawardhana}},
+  \textsc{{Kuijken}}, \textsc{{Nichol}}, \textsc{{Parkinson}},
+  \textsc{{Phillipps}}, \textsc{{Pimbblet}}, \textsc{{Popescu}},
+  \textsc{{Prescott}}, \textsc{{Sutherland}}, \textsc{{Tuffs}}, \textsc{{van
+  Kampen}} et \textsc{{Wijesinghe}}}]{taylor2011}
+\textsc{{Taylor} E.~N.}, \textsc{{Hopkins} A.~M.}, \textsc{{Baldry} I.~K.}
+  {et~al.} 2011, «~{Galaxy And Mass Assembly (GAMA): stellar mass
+  estimates}~»,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2011.19536.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2011MNRAS.418.1587T}{418, 1587}
+
+\end{thebibliography}

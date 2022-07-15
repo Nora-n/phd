@@ -27,10 +27,10 @@
 \contentsline {subsection}{\numberline {III.1.3}Masse stellaire}{30}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {III.1.4}Taux de formation stellaire}{30}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {III.1.5}Taux de formation stellaire sp\IeC {\'e}cifique spectroscopique et \IeC {\^a}ge}{31}{subsection.3.1.5}
-\contentsline {section}{\numberline {III.2}Corr\IeC {\'e}lations des SNe~Ia \IeC {\`a} l'environnement}{31}{section.3.2}
-\contentsline {subsection}{\numberline {III.2.1}Marche de magnitude bas\IeC {\'e}e sur la masse}{32}{subsection.3.2.1}
+\contentsline {section}{\numberline {III.2}Corr\IeC {\'e}lations des SNe~Ia \IeC {\`a} l'environnement}{32}{section.3.2}
+\contentsline {subsection}{\numberline {III.2.1}Marche de magnitude bas\IeC {\'e}e sur la masse}{33}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {III.2.2}Marche de magnitude bas\IeC {\'e}e sur l'\IeC {\^a}ge}{33}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {III.2.3}Implications en cosmologie moderne}{33}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {III.2.3}Implications en cosmologie moderne}{34}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {III.2.4}Ancrage de notre th\IeC {\`e}se~: \IeC {\'e}tude de l'\IeC {\'e}tirement en fonction de l'\IeC {\^a}ge}{35}{subsection.3.2.4}
 \contentsline {chapter}{\numberline {IV}Pr\'esentation des sondages}{39}{chapter.4}
 \contentsline {section}{\numberline {IV.1}The Nearby Supernova factory}{41}{section.4.1}

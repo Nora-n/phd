@@ -9,7 +9,9 @@
 % \fakelistoftables
 
 \chapter{Variabilit\'es environnementales des SNe~Ia}\label{ch:env}
-\epigraph{\openquote Citation\closequote}{\textsc{Autaire}, \textit{Livre}}
+
+\epigraph{\openquote \textit{I like to think the moon is there even if I am not
+looking at it.}\closequote}{Albert \textsc{Einstein}}
 
 Dans le chapitre précédent, nous avons vu comment la physique des SNe~Ia
 permettait de les utiliser comme des indicateurs de distance suffisamment précis
@@ -82,8 +84,8 @@ Figure~\ref{fig:gpict} par des images prises par le télescope spatial
 
 \begin{itemize}
     \item \textbf{Les elliptiques}, nommées par leur géométrie apparente,
-        donnant lieu à des astres de luminosité continue\footnote{donc sans
-        sous-structure ou trou, mais cependant pas constante} et diffuse sur
+        donnant lieu à des astres de luminosité continue\footnote{Donc sans
+        sous-structure ou trou, mais cependant pas constante.} et diffuse sur
         leur surface. La classification va de E0 à E7 selon leur allongement, de
         sphérique à plate, respectivement~;
     \item \textbf{Les spirales}, présentant un bulbe central concentré en
@@ -162,8 +164,8 @@ intégrante des efforts de calibration pour la cosmologie observationnelle
 \subsection{Masse stellaire}\label{ssec:mhost}
 
 La masse stellaire $M_*$, exprimée en unité de masses solaires
-(\si{\Msun})\footnote{nous avons typiquement $10^{8}\si{\Msun} < M_* <
-10^{12}\si{\Msun}$}, constitue une autre caractéristique des galaxies. N'étant
+(\si{\Msun})\footnote{Nous avons typiquement $10^{8}\si{\Msun} < M_* <
+10^{12}\si{\Msun}$.}, constitue une autre caractéristique des galaxies. N'étant
 pas une observable directe, elle se déduit par d'autres paramètres.
 \cite{taylor2011} présentent une méthode de détermination de $M_*$ relativement
 simple se basant sur la couleur des galaxies \textit{via} les magnitudes ($K$
@@ -173,8 +175,8 @@ corrigées) $g$ et $i$ des galaxies, telle que~:
 \end{equation}
 avec $M_i$ la magnitude absolue de la galaxie dans la bande $i$. D'une manière
 plus générale, celle-ci est déterminée par un ajustement de distributions
-spectrales d'énergie\footnote{c'est-à-dire une mesure de flux lumineux en
-fonction de la longueur d'onde} (en anglais, \textit{spectral energy
+spectrales d'énergie\footnote{C'est-à-dire une mesure de flux lumineux en
+fonction de la longueur d'onde.} (en anglais, \textit{spectral energy
 distributions}, SED) générées à partir de modèles d'évolution stellaire (prenant
 notamment en entrée une masse stellaire initiale et une paramétrisation de
 l'historique de formation stellaire) avec la SED de la galaxie étudiée
@@ -225,10 +227,22 @@ que~:
 \begin{equation}\label{eq:ssfr}
     \mathrm{sSFR} = \frac{\mathrm{SFR}}{M_*}
 \end{equation}
-On l'appelle alors «~local~», et on le dénote LsSFR, quand ce ratio calculé dans
-un environnement projeté de \SI{1}{kpc} autour de l'astre en question. Cette
-approche locale a pour but de déterminer plus précisément l'âge qu'avec des
-caractéristiques globales (morphologie, masse stellaire totale…).
+Nous l'appelons alors «~local~», et nous le dénotons LsSFR, quand ce ratio
+calculé dans un environnement projeté de \SI{1}{kpc} autour de l'astre en
+question. Cette approche locale a pour but de déterminer plus précisément l'âge
+qu'avec des caractéristiques globales (morphologie, masse stellaire totale…).
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=.8\linewidth]{deltaz_hist}
+    \caption[Évolution de la fraction de jeunes étoiles en fonction du
+    redshift]{Évolution de la fraction de jeunes étoiles en fonction du
+        redshift. La fraction est fixée à 50\% à $z=0,05$, représentée par le
+        point noir. Les histogrammes représentent l'évolution du nombre de
+        SNe~Ia relevées par différents sondages, montrant l'évolution de l'âge
+    attendu des SNe à l'intérieur même des relevés.}
+    \label{fig:deltaz}
+\end{figure}
 
 Il est attendu que la formation stellaire soit plus élevée à haut redshift (au
 début de l'histoire de l'Univers) qu'à bas redshift, où les galaxies sont plus
@@ -252,18 +266,6 @@ Les travaux de~\cite{rigault2020} combinent alors la fraction de jeunes étoiles
 avec $K=0,87$ en fixant $\delta(0,05) = \psi(0,05) = 0,5$ et $\phi = 2,8$. Nous
 donnons Figure~\ref{fig:deltaz} une représentation graphique de l'évolution de
 la fraction de jeunes étoiles en fonction du redshift.
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.8\linewidth]{deltaz_hist}
-    \caption[Évolution de la fraction de jeunes étoiles en fonction du
-    redshift]{Évolution de la fraction de jeunes étoiles en fonction du
-        redshift. La fraction est fixée à 50\% à $z=0,05$, représentée par le
-        point noir. Les histogrammes représentent l'évolution du nombre de
-        SNe~Ia relevées par différents sondages, montrant l'évolution de l'âge
-    attendu des SNe à l'intérieur même des relevés.}
-    \label{fig:deltaz}
-\end{figure}
 
 \section{Corrélations des SNe~Ia à l'environnement}\label{sec:envcorr}
 
@@ -305,12 +307,12 @@ Figures~\ref{fig:x1gmorph} et~\ref{fig:mcorrx1}, respectivement).
     \label{fig:x1corrs}
 \end{figure}
 
-De plus, \cite{mannucci2005, scannapieco2005} avancent l'existence de deux
-populations de SNe~Ia, dont le taux d'apparition de l'une serait proportionnel à
-la masse stellaire globale et celui des secondes proportionnel au taux de
-formation stellaire. Cette dichotomie de taux de SNe~Ia selon la masse d'une
-part et le SFR d'autre part a lancé la notion d'âge de SNe~Ia, partant d'abord
-de deux types~:
+De plus, \cite{mannucci2005, scannapieco2005, sullivan2006} avancent l'existence
+de deux populations de SNe~Ia, dont le taux d'apparition de l'une serait
+proportionnel à la masse stellaire globale et celui des secondes proportionnel
+au taux de formation stellaire. Cette dichotomie de taux de SNe~Ia selon la
+masse d'une part et le SFR d'autre part a lancé la notion d'âge de SNe~Ia,
+partant d'abord de deux types~:
 \begin{itemize}
     \item \textbf{Les promptes}~: elles sont associées à des étoiles
         relativement jeunes, entre \num{100} et \SI{500}{Mans}, de taux
@@ -319,10 +321,10 @@ de deux types~:
         \SI{1}{Gans}, et de taux proportionnel à $M_*$.
 \end{itemize}
 
-Ainsi, le LsSFR serait également un traceur de l'âge des SNe~Ia en plus de
-décrire l'évolution de la fraction de jeunes étoiles avec le redshift. Une étude
-complète de la capacité de ce traceur à déterminer l'âge d'une SNe~Ia a été
-effectuée dans~\cite{briday2021, briday2022}.
+Ainsi, \cite{rigault2020} stipule que le LsSFR serait également un traceur de
+l'âge des SNe~Ia en plus de décrire l'évolution de la fraction de jeunes étoiles
+avec le redshift. Une étude complète de la capacité de ce traceur à déterminer
+l'âge d'une SNe~Ia a été effectuée dans~\cite{briday2021, briday2022}.
 
 Cependant, afin d'améliorer la mesure des paramètres cosmologiques, il faut
 avoir une correction sur leur luminosité qui elle-même améliore la mesure de
@@ -391,7 +393,7 @@ tel que~:
 \end{equation}
 
 L'origine de cette corrélation reste cependant peu motivée autrement
-qu'empiriquement. En effet, comme présenté au début de la
+qu'empiriquement. Cependant, comme présenté au début de la
 Section~\ref{sec:envpres}, les galaxies sont des objets larges, et leurs
 propriétés globales ne peuvent que partiellement décrire la physique de toutes
 les SNe~Ia qui s'y trouveraient. 
@@ -401,7 +403,7 @@ les SNe~Ia qui s'y trouveraient.
 L'utilisation du LsSFR vise à réduire cette incertitude, en utilisant des
 propriétés environnementales locales plutôt que globales. À cet effet,
 \cite{rigault2020} rapportent une marche de magnitude basée sur l'âge de $\gamma
-= \SI{0.13}{mag}$, dont nous présentons un graphique Figure~\ref{fig:rigahub}.
+= \SI{0.16}{mag}$, dont nous présentons un graphique Figure~\ref{fig:rigahub}.
 
 % \begin{figure}[ht]
 %     \centering
@@ -442,8 +444,8 @@ propriétés environnementales locales plutôt que globales. À cet effet,
         deux populations (et leurs erreurs). Les couleurs correspondent à la
         probabilité qu'une SN~Ia soit jeune, voir barre de couleur. Nous
         observons que les SNe~Ia vieilles sont plus lumineuses de
-        -\SI{0.130}{mag} que les jeunes, alors que les SNe dans des
-    environnements massifs ne le sont que de -\SI{0.065}{mag}.}
+        -\SI{0.16}{mag} que les jeunes, alors que les SNe dans des
+    environnements massifs ne le sont que de -\SI{0.12}{mag}.}
     \label{fig:rig}
 \end{figure}
 
@@ -454,13 +456,20 @@ la marche de magnitude moyenne varie avec le redshift, pouvant mener à des
 estimations plus précises basées sur l'utilisation de paramètres plus pertinents
 (car locaux). Nous notons notamment que~\cite{rigault2020} ont mesuré la marche
 de magnitude trouvée en utilisant la masse des galaxies hôtes de leur
-échantillons, et trouvent en effet une différence proche des autres études avec
-$\gamma = \SI{0.065}{mag}$ comme le montre la Figure~\ref{fig:rigghub}. Cette
-étude montre la différence d'efficacité d'un paramètre à discriminer deux
+échantillons, et trouvent une différence proche d'autres
+études~\citep{kelly2010, sullivan2010, gupta2011, childress2013} avec $\gamma =
+\SI{0.12}{mag}$ comme le montre la Figure~\ref{fig:rigghub}. Cependant, les
+auteurs rapportent des valeurs différentes quand l'ajustement des marches est
+faite de manière conjointe~: les deux traceurs sont corrélés puisque le LsSFR
+est relié à la masse de la galaxie hôte. Les valeurs sont alors
+$\gamma_\text{âge} = \SI{0.13}{mag}$ et $\gamma{\rm masse} = \SI{0.06}{mag}$.
+Cette étude montre la différence d'efficacité d'un paramètre à discriminer deux
 populations et les conséquences que de telles différences causent sur la mesure
 d'un même paramètre. Cette question est l'objet principal de la thèse
 de~\cite{briday2021} qui a montré que le LsSFR se trouve être un meilleur
-traceur des propriétés des SNe~Ia que les autres.
+traceur des propriétés des SNe~Ia que les autres, réévaluant en même temps la
+valeur attendue de marche basée sur l'âge à \SI{0.13}{mag}. C'est cette valeur
+que nous utiliserons dans la suite.
 
 \subsection{Implications en cosmologie moderne}\label{ssec:mcosmo}
 
@@ -482,9 +491,9 @@ l'équipe en utilisant la standardisation en magnitude basée sur la masse~; cec
 augmente la valeur de $H_0$ de \SI{0.3}{km.s^{-1}.Mpc^{-1}} par rapport à une
 absence de standardisation, pour une valeur finale de $H_0 =
 \SI{73.04\pm1.04}{km.s^{-1}.Mpc^{-1}}$. Ce résultat, pourtant d'une qualité
-d'étude irréfutable, est en désaccord à 5$\sigma$\footnote{c'est-à-dire qu'il
+d'étude irréfutable, est en désaccord à 5$\sigma$\footnote{C'est-à-dire qu'il
     n'y a qu'une chance sur 1 million que ces deux valeurs soient cohérentes et
-que les mesures différentes soient le résultat d'une incertitude de calcul}
+que les mesures différentes soient le résultat d'une incertitude de calcul.}
 avec la mesure indirecte du programme \textit{Planck}+$\Lambda$CDM
 \citep{planck2018}, tout aussi irréfutablement précis, donnant $H_0 =
 \SI{67.4\pm0.5}{km.s^{-1}.Mpc^{-1}}$. Cette tension est au cœur de

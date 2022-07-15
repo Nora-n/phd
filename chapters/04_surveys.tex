@@ -167,11 +167,12 @@ détermination de la masse stellaire de la galaxie. Cette coupe réduit
 l'échantillon à 147 objets.
 
 Les SNe considérées comme trop «~anormales~» sont exclues car supposées non
-représentatives de la population générale que l'on souhaite étudier. Elles sont
-au nombre de 6.
+représentatives de la population générale que nous souhaitons étudier. Elles
+sont au nombre de 6.
 
 Finalement, parmi ces 141, ne sont conservées que celles provenant directement
-des collaborations internes, c'est-à-dire celles de SNf, PTF et LSQ.
+des collaborations internes et qui proviennent d'observations non-ciblées (voir
+Section~\ref{ssec:stratobs}), c'est-à-dire celles de SNf, PTF et LSQ.
 L'échantillon final est alors de 114 données. L'ensemble de ces critères de
 sélection est résumé Tableau~\ref{tab:snfcuts}.
 
@@ -188,7 +189,7 @@ sélection est résumé Tableau~\ref{tab:snfcuts}.
         $0,02 < z < 0,08$               & 160 \\
         Hôte $g$ et $i$ non contaminées & 147 \\
         SNe~Ia «~normales~»             & 141 \\
-        SNf LSQ ou PTF seulement        & 114 \\
+        SNf, LSQ ou PTF seulement       & 114 \\
         \bottomrule
     \end{tabular}
 \end{table}
@@ -196,8 +197,8 @@ sélection est résumé Tableau~\ref{tab:snfcuts}.
 Grâce au suivi spectroscopique de tous les candidats à $r \lesssim
 \SI{19,5}{mag}$ et ces limitations en redshift, ces données sont considérées
 comme étant limitées en volume, c'est-à-dire un tirage aléatoire des populations
-sous-jacentes de SNe~Ia. On présente Figure~\ref{fig:snfhist} les distributions
-de redshift, étirement et couleur de ces 114 SNe~Ia.
+sous-jacentes de SNe~Ia. Nous présentons Figure~\ref{fig:snfhist} les
+distributions de redshift, étirement et couleur de ces 114 SNe~Ia.
 
 \begin{figure}[ht]
     \centering
@@ -644,20 +645,20 @@ constituent la plus grande part des données à haut redshift de notre
 
 \subsection{Introduction}\label{ssec:hstintro}
 
-Le sondage \textit{\textsc{Hubble} Higher $z$ Supernova
-Search} \citep[HHZSS,][]{strolger2004}, sous-programme de GOODS, est un des
-premiers sondages de recherche de SNe depuis l'espace. Son but principal est
-d'étudier la présence de biais astrophysiques rendant les SNe~Ia intrinsèquement
-moins lumineuses avec la distance, imitant une preuve de l'existence de
-l'énergie sombre. Ce programme vise à relever des données au-delà de $z = 1$,
-entre $1 < z < 2$. Dans cette plage, les SNe~Ia devraient exploser à une époque
-de décélération cosmique, devenant ainsi relativement plus brillantes qu'à des
-décalages vers le rouge plus faibles. On s'attend à ce que cela se distingue
-clairement des simples effets de mesure astrophysiques, permettant une meilleure
-connaissance des SNe~Ia. Étudier de manière approfondie et fiable ces SNe~Ia et
-réaliser les observations de suivi nécessaires pour une telle étude nécessite
-des observations plus profondes que ce qui peut être réalisé avec des télescopes
-terrestres. Les observations de ce sondage s'étendent sur une plage
+Le sondage \textit{\textsc{Hubble} Higher $z$ Supernova Search}
+\citep[HHZSS,][]{strolger2004}, sous-programme de GOODS, est un des premiers
+sondages de recherche de SNe depuis l'espace. Son but principal est d'étudier la
+présence de biais astrophysiques rendant les SNe~Ia intrinsèquement moins
+lumineuses avec la distance, imitant une preuve de l'existence de l'énergie
+sombre. Ce programme vise à relever des données au-delà de $z = 1$, entre $1 < z
+< 2$. Dans cette plage, les SNe~Ia devraient exploser à une époque de
+décélération cosmique, devenant ainsi relativement plus brillantes qu'à des
+décalages vers le rouge plus faibles. Nous nous attendons à ce que cela se
+distingue clairement des simples effets de mesure astrophysiques, permettant une
+meilleure connaissance des SNe~Ia. Étudier de manière approfondie et fiable ces
+SNe~Ia et réaliser les observations de suivi nécessaires pour une telle étude
+nécessite des observations plus profondes que ce qui peut être réalisé avec des
+télescopes terrestres. Les observations de ce sondage s'étendent sur une plage
 \SI{8}{mois}.
 
 \subsection{Détection des supernovae}\label{ssec:hstdetec}
@@ -701,8 +702,8 @@ observées. Une méthode secondaire d'identification des SNe~Ia par photométrie
 détaillent les données ayant la plus haute qualité, qualifiées de «~dorées~»~:
 celles dont la classification est certaine (rapport signal sur bruit $\gtrsim$
 20) et dont la photométrie est suffisante pour amener à une estimation de
-distance robuste, facilement caractérisée par les erreurs de mesure. On relève
-42 données de~\cite{strolger2004} et 21 de~\cite{riess2007}.
+distance robuste, facilement caractérisée par les erreurs de mesure. Nous
+relevons 42 données de~\cite{strolger2004} et 21 de~\cite{riess2007}.
 
 \subsection{Données conservées}\label{ssec:hstdata}
 
@@ -760,7 +761,7 @@ Astrophysics} de Harvard, nommés CfA1 à 4 \citep{riess1999, jha2006,
 hicken2009a, hicken2009b, hicken2012} et des 2 publications du \textit{Carnegie
 Supernova Project} \citep[CSP,][]{contreras2010, folatelli2010,
 stritzinger2011}. Ils ne feront pas l'objet de plus de détails étant donné que
-ce sont tous les sondages à recherche ciblée que l'on écarte de notre
+ce sont tous les sondages à recherche ciblée que nous écartons de notre
 échantillon et qui n'interviendront que dans le Chapitre~\ref{ch:sims}. Cette
 combinaison de sondages, résultant en 172 SNe~Ia après les coupes
 de~\cite{scolnic2018}, est appelée \textit{LOWZ}, leurs données s'étalant entre
@@ -854,7 +855,7 @@ de ce système permet une grande efficacité de détection et de suivi. Le sonda
 travaille également avec le télescope P200 de \SI{5}{m} et le Keck de
 \SI{10}{m}, et se verra prochainement accompagné d'une seconde SEDm sur un
 télescope de \SI{2.5}{m} à Kitt Pick. Ainsi, des \num{1e5} alertes par nuit, ce
-sont typiquement 7 qui sont des SNe~Ia. On compte à peu près 3700 SNe~Ia
+sont typiquement 7 qui sont des SNe~Ia. Nous comptons à peu près 3700 SNe~Ia
 spectroscopiquement confirmées dans les données de la seconde publication.
 
 \subsection{Données conservées}\label{ssec:ztfdata}

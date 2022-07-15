@@ -213,7 +213,7 @@ ce qui a été observé par les différents sondages simulés. Bien que nous
 soutenions que le LsSFR est un meilleur traceur de l'environnement d'une SN
 \citep{briday2022}, la plupart des sondages caractérisent les galaxies avec leur
 masse stellaire. Étant donné que le LsSFR est lié à la masse de la galaxie
-hôte\footnote{pour rappel~: $\mathrm{sSFR} = \frac{\rm SFR}{M_*}$}, nous ne
+hôte\footnote{Pour rappel~: $\mathrm{sSFR} = \frac{\rm SFR}{M_*}$.}, nous ne
 pouvons pas uniquement nous baser sur la valeur du redshift $z$ d'une entrée des
 \hostlib\ BP pour y assigner un étirement. Nous attendons effectivement que les
 galaxies vers $M_*\approx12$ ne contiennent des SNe~Ia vieilles  alors que les
@@ -226,7 +226,7 @@ cela utilisé le même échantillon du Chapitre~\ref{ch:sample} que pour la
 modélisation de l'étirement du Chapitre~\ref{ch:stretch}. Cependant, nous
 soulignons que cette étude n'a pas pour volonté de décrire l'évolution des
 masses des galaxies hôtes (qui sont des propriétés globales) avec le LsSFR d'une
-supernova (étant une propriété intrinsèque de celles-ci)~: son utilité est
+supernova (étant une propriété intrinsèque de celle-ci)~: son utilité est
 d'associer de manière cohérente un âge à une SN caractérisée par un certain
 redshift et par une masse de galaxie hôte.
 
@@ -234,7 +234,7 @@ redshift et par une masse de galaxie hôte.
 
 De la même manière que dans le Chapitre~\ref{ch:stretch}, nous utilisons le
 LsSFR comme traceur de l'âge d'une SN, mais cette fois sur les estimations de
-masse du sondage SNf. Ensuite nous modélisons les populations jeune et vieille
+masse du sondage SNf. Ensuite, nous modélisons les populations jeune et vieille
 par une série de paramétrisations différentes et choisissons celle qui a le plus
 faible AIC. Cependant, les masses SNf ont été calculées à l'aide de l'Équation~8
 de~\cite{taylor2011} (voir~\cite{rigault2020}) alors que d'autres études du
@@ -244,20 +244,20 @@ pourraient donner des valeurs de sortie différentes pour une même galaxie.
 L'estimation de \textsc{Taylor} utilise la magnitude AB absolue en bande $i$
 d'une galaxie, $M_i$. Elle est déduite de la magnitude apparente $m_i$
 connaissant le redshift de la galaxie mais suppose que la bande $i$ observée est
-proche de celle du référentiel de repos, ce qui est vrai pour les redshift de
+proche de celle du référentiel de repos, ce qui est vrai pour les redshifts de
 SNf qui sont inférieurs à $z\approx 0,05$. Les relevés de l'échantillon Pantheon
 sont à des redshifts plus élevés et ont utilisé un ajustement des distributions
 spectrales d'énergie (en anglais SED pour \textit{spectral energy
 distributions}) des galaxies pour éviter les corrections K dans cette procédure.
 
-Nous avons appliqué la même analyse à l'échantillon SNf~; les données ainsi
-calculées sont nommées «~SEDSNf~» par la suite, et l'échantillon fiduciel
+Nous avons appliqué la même analyse à l'échantillon SNf~: les données ainsi
+calculées sont nommées «~SEDSNf~» par la suite et l'échantillon fiduciel
 utilisant SEDSNf est nommé «~SED fiduciel~». À cause de l'absence de 4 galaxies
 hôtes dans les catalogues de données nécessaires à ce calcul, l'échantillon
 SEDSNf est réduit à 110 données, au lien de 114 pour SNf. Nous indiquons
 également que nous nous limitons pour cette étude aux galaxies de $M_* >
 10^7\si{\Msun}$, étant donné que les valeurs inférieures servent à indiquer
-qu'aucune galaxie hôte n'a été définie~; l'échantillon fiduciel tombe alors à
+qu'aucune galaxie hôte n'a été définie. L'échantillon fiduciel tombe alors à
 548 données, et SED Fiduciel à 544.
 
 Nous avons donc réalisé cette étude de l'évolution des distributions
@@ -283,13 +283,13 @@ sous-jacentes de masse avec le LsSFR en utilisant~:
         c'est-à-dire qu'elle ait $\log \mathrm{LsSFR} \geq -10,82$
         \citep[voir][et Chapitre~\ref{ch:stretch}]{rigault2020}. \textit{À
         droite}~: histogramme pondéré par $p_y$ des étirements des SNe, ainsi
-        que le modèle sélectionné ajusté~; les contributions des populations
+        que le modèle sélectionné ajusté. Les contributions des populations
     jeune et âgée sont indiquées en violet et jaune, respectivement.}
     \label{fig:massmodel}
 \end{figure}
 
 D'après la forme des histogrammes de la Figure~\ref{fig:massmodel}, nous avons
-implémentés différentes modélisations. Cette étude étant annexe à la simulation
+implémenté différentes modélisations. Cette étude étant annexe à la simulation
 par \snana, nous ne présentons que les plus pertinentes et omettons les
 modélisations n'ayant pas d'intérêt physique ou mathématique, c'est-à-dire les
 modélisations constantes avec le redshift (notamment les Gaussienne simple et
@@ -381,7 +381,7 @@ Tableau~\ref{tab:modelcomp}.
 
 Après calcul, le modèle Bi-normal est celui qui se détache le plus, étant celui de
 plus petit AIC pour 6 modèles sur 8, et est celui représenté sur la
-Figure~\ref{fig:massmodel}~; cependant tous les modèles sont considérés comme
+Figure~\ref{fig:massmodel}. Tous les modèles sont cependant considérés comme
 étant de bonnes représentations des données. Nous présentons
 Figure~\ref{fig:massmod_comp} une illustration des résultats du tableau
 précédent, et Figure~\ref{fig:massmod_all} les représentations graphiques des
@@ -393,7 +393,7 @@ modèles implémentés variant en redshift.
     \caption[$\Delta$AIC entre le modèle Bi-normal et les autres
     modèles]{$\Delta$AIC entre le modèle Bi-normal et les autres modèles (voir
         Tableau~\ref{tab:modelcomp}). Tous les modèles sont dérivants. Les
-        marqueurs bleus, orange, verts, rouges montrent les résultats lorsque
+        marqueurs bleus, orange, verts et rouges montrent les résultats lorsque
         l'analyse est effectuée sur l'échantillon SNf, SEDSNf, fiduciel,
         fiduciel avec SEDSNf, respectivement (voir légende). Les bandes de
         couleur illustrent la validité des modèles, d'acceptable ($\Delta$AIC >
@@ -408,24 +408,24 @@ modèles implémentés variant en redshift.
     \includegraphics[width=1.1\linewidth]{mass_model_all_evol.pdf}
     \caption[Modèles implémentés et testés dans l'étude de l'évolution de
     l'étirement avec le redshift]{\scriptsize Modèles implémentés et testés dans
-        l'étude de l'évolution de la masse avec le redshift. Les modèles Bi-normal,
-        Normal+asym et Bi-asym sont tracés dans la colonne de gauche, du
-        milieu et de droite, respectivement. Les échantillons sur lesquels ils
-        sont ajustés correspondent aux lignes et à la couleur de fond du
+        l'étude de l'évolution de la masse avec le redshift. Les modèles
+        Bi-normal, Normal+asym et Bi-asym sont tracés dans la colonne de gauche,
+        du milieu et de droite, respectivement. Les échantillons sur lesquels
+        ils sont ajustés correspondent aux lignes et à la couleur de fond du
         graphique~: SNf (bleu), SEDSNf (orange), fiduciel (vert), fiduciel avec
-        SEDSNf (rouge)~; ce sont les mêmes couleurs que dans la
+        SEDSNf (rouge), correspondant aux mêmes couleurs que dans la
         Figure~\ref{fig:massmod_comp}. Les quantités $\Delta(-2\ln(L))$ et
-        $\Delta$AIC par rapport au modèle Bi-normal de chaque ligne sont indiqués
-        pour chaque modèle figure. Nous avons tracé dix réalisations des modèles
-        selon la valeur du redshift moyen considéré, de la valeur la plus basse
-        de notre échantillon ($z = 0,02$) à la valeur maximale des données
-        totales (sans coupe en redshift) de SNLS ($z = 1,06$) représentés en
-        couleur allant du jaune (bas redshift, plus vieil environnement) au
-        violet (haut redshift, environnement jeune) et les distributions des
-        populations jeune et vieille constituant le modèle total sont en gris
-        pointillé et fin pointillé, respectivement. Nous y retrouvons
-        l'information que tous les modèles sont compatibles en tant que bonnes
-    représentations des données par rapport au modèle de base.}
+        $\Delta$AIC par rapport au modèle Bi-normal de chaque ligne sont
+        indiquées pour chaque modèle figure. Nous avons tracé dix réalisations
+        des modèles selon la valeur du redshift moyen considéré, de la valeur la
+        plus basse de notre échantillon ($z = 0,02$) à la valeur maximale des
+        données totales (sans coupe en redshift) de SNLS ($z = 1,06$). Ces
+        modèles sont représentés en couleur allant du jaune (bas redshift, plus
+        vieil environnement) au violet (haut redshift, environnement jeune) et
+        les distributions des populations jeune et vieille constituant le modèle
+        total sont en gris pointillé et fin pointillé, respectivement. Nous y
+        retrouvons l'information que tous les modèles sont compatibles en tant
+    que bonnes représentations des données par rapport au modèle de base.}
     \label{fig:massmod_all}
 \end{figure}
 
@@ -435,7 +435,7 @@ Avec la multitude de modèles possibles pour établir nos \hostlib, nous avons d
 effectuer une sélection. Étant donné que notre but est d'associer de manière
 cohérente un âge de SN définie par un redshift et une masse de galaxie hôte, une
 caractéristique primordiale au modèle choisi est d'avoir une évolution de la
-fraction de jeunes SNe~Ia physiquement cohérente avec les observations~; nous
+fraction de jeunes SNe~Ia physiquement cohérente avec les observations. nous
 nous attendons notamment à ce que la fraction de jeunes étoiles soit $\approx$ 1
 pour les $M_* \gtrsim 10^7\si{\Msun}$, diminue progressivement jusqu'à $\approx
 50\%$ pour $M_* \approx 10^{10}\si{\Msun}$ et continue sa progression vers 0
@@ -465,7 +465,7 @@ Nous trouvons alors que tous les modèles finissent par présenter une remontée
 la fraction de jeunes étoiles quand la masse $M_* > 10^{11}\si{\Msun}$, sauf le
 modèle Bi-normal ajusté sur l'échantillon SEDSNf. Cela provient de l'incertitude
 des courbes Gaussiennes des sous-populations jeunes étant bien plus larges que
-celles des sous-populations vieilles, donnant pour les masses élevée un rapport
+celles des sous-populations vieilles, donnant pour les masses élevées un rapport
 de probabilité en faveur des jeunes SNe~Ia. Ceci ne correspondant pas à une
 réalité physique, nous rejetons tous les modèles Normal+asym et Bi-asym de
 notre étude à partir de ces résultats. Parmi les modèles Bi-normal, seul celui
@@ -486,16 +486,17 @@ en fonction de la masse attendue, nous avons également~:
         mais son effet est visible Figure~\ref{fig:fyvMsupp}.
 \end{enumerate}
 
-Nous prenons le modèle SNfsupp comme référence~; les implications du choix de
+Nous prenons le modèle SNfsupp comme référence. Les implications du choix de
 modélisation de masse est discuté Section~\ref{ssec:modsys}. Les valeurs des
 paramètres des modèles SEDSNf et SNf sont indiquées
 Tableau~\ref{tab:massmodelresults}.
 
 \begin{table}[ht]
     \centerfloat
-    \caption[Valeurs des paramètres issus des meilleurs ajustement du modèle
-    Bi-normal sur les échantillons SNf et SEDSNf]{Valeurs des paramètres issus des
-    meilleurs ajustement du modèle Bi-normal sur les échantillons SNf et SEDSNf.}
+    \caption[Valeurs des paramètres issus des meilleurs ajustements du modèle
+    Bi-normal sur les échantillons SNf et SEDSNf]{Valeurs des paramètres issus
+        des meilleurs ajustements du modèle Bi-normal sur les échantillons SNf
+    et SEDSNf.}
     \label{tab:massmodelresults}
     \begin{tabular}{lcccc}
         \toprule
@@ -538,7 +539,7 @@ attendue de jeunes étoiles en utilisant $\delta(z)$ donnée
 $r$ entre 0 et 1 et en le comparant à la valeur de la fraction susmentionnée. Si
 $r < \delta(z)$, alors la SN simulée sera jeune et inversement. Plus $z$
 augmente et plus $\delta(z)$ augmente, et donc plus la probabilité d'être
-assigné jeune augmente. Ceci est présenté Figure~\ref{fig:deltaz_rand}.
+assignée jeune augmente. Ceci est présenté Figure~\ref{fig:deltaz_rand}.
 
 \begin{figure}[]
     \centering
@@ -551,7 +552,7 @@ assigné jeune augmente. Ceci est présenté Figure~\ref{fig:deltaz_rand}.
         redshift. \textit{Histogrammes}~: nombres de SNe~Ia des 3 sondages
         principaux de l'échantillon Pantheon \citep{scolnic2018} (pas à
         l'échelle). \textit{Lignes rouges verticales}~: pour chaque $z$ de la
-        \hostlib, un nombre aléatoire $r$ entre 0 et 1 est tiré~: s'il est
+        \hostlib, un nombre aléatoire $r$ entre 0 et 1 est tiré. S'il est
         supérieur (inférieur) à $\delta(z)$ à ce redshift, alors la SN sera
         assignée vieille (jeune) et les valeurs de masse et d'étirement générées
         seront tirées des distributions sous-jacentes vieilles (jeunes) des
@@ -570,7 +571,7 @@ colonne~; ceci conclut la confection des \hostlib\ NN.
 Les \hostlib\ NR possèdent un autre colonne supplémentaire, où à chaque valeur
 d'âge est associée une valeur de variation de magnitude, de +\SI{0,065}{mag}
 pour les jeunes (moins lumineuses) et de -\SI{0,065}{mag} pour les vieilles
-(plus lumineuses), qui remplacent le valeurs de marche de magnitude basées sur
+(plus lumineuses), qui remplacent les valeurs de marche de magnitude basées sur
 la masse implémentées dans les autres approches et qui sont associées au
 \wgtmap.
 
@@ -581,15 +582,15 @@ nous appelons «~types~». Une approche serait de simuler 100 fois des
 échantillons de la taille de l'échantillon de Pantheon ($\approx \num{1000}$) et
 de combiner les résultats, permettant ainsi d'avoir des incertitudes
 statistiques réalistes. Bien que nous ayons entamé la réalisation d'une telle
-approche, le plus simple et moins coûteux en temps a été de simuler un
-échantillon d'une taille conséquente ($\approx \num{13 000}$) avec un BiasCor 50
-fois plus grand, donnant une idée de l'incertitude systématique due aux
-différents modèles de corrélations (SK, BP, NN, NR).
+approche, le plus simple et moins chronophage a été de simuler un échantillon
+d'une taille conséquente ($\approx \num{13 000}$) avec un BiasCor cinquante fois
+plus grand, donnant une idée de l'incertitude systématique due aux différents
+modèles de corrélations (SK, BP, NN, NR).
 
 Pour quantifier cela, nous conservons les données simulées et les échantillons
 BiasCor associés de chaque modélisation, afin d'utiliser les données d'un modèle
 et de les corriger avec le BiasCor d'un autre~: l'idée derrière cette pratique
-est de connaître le potentiel biais dû au fait de méconnaître la physique réelle
+est d'évaluer le potentiel biais dû au fait de méconnaître la physique réelle
 qui régit les propriétés intrinsèques des SNe~Ia. Pour les distinguer, nous les
 nommons de la manière suivante~:
 \begin{center}
@@ -699,7 +700,7 @@ d'ajustement des données simulées aux données réelles.
 Avant de comparer les résultats cosmologiques, nous nous sommes intéressæ à la
 correspondance entre les données simulées et les données réelles afin
 d'apprécier les implications sur les distributions des différentes
-modélisations. Nous présentons dans cette section les différents diagnostiques
+modélisations. Nous présentons dans cette section les différents diagnostics
 nous permettant de comparer à la fois graphiquement et numériquement l'accord
 entre les données simulées et données réelles.
 
@@ -723,14 +724,14 @@ et pour le modèle NR.
 \sidecaptionvpos{figure}{t}
 
 Ensuite, pour avoir une comparaison efficace, nous effectuons une sélection
-aléatoire des données de chaque sondage pour reproduire les ratio attendus. Les
+aléatoire des données de chaque sondage pour reproduire les ratios attendus. Les
 quantités de données de ces mesures, exprimées en pourcentages de l'échantillon
 Pantheon, sont égales aux ratios du plus petit sondage simulé des données non
 échantillonnées~: ceux de la colonne «~SDSS~» du Tableau~\ref{tab:ratio}.
 
 Nous rappelons que les modèles~\citetalias{popovic2021a}
 et~\citetalias{scolnic2016} utilisent des distributions des paramètres
-spécifiquement ajustés aux données~; BP utilisent des distributions gaussiennes
+spécifiquement ajustés aux données~: BP utilisent des distributions gaussiennes
 asymétriques, avec 3 paramètres libres, dans des intervalles de
 \SI{0.2e10}{\Msun} (10 pour LOWZ, 20 pour les autres) pour reproduire
 l'étirement des SNe~Ia~; SK incluent également des distributions gaussiennes
@@ -769,7 +770,7 @@ graphiques sont données Figure~\ref{fig:hist1d}.
     \label{fig:hist1d}
 \end{figure}
 
-Pour chacune des comparaison, nous calculons une valeur de $\chi^2$. Pour cela,
+Pour chacune des comparaisons, nous calculons une valeur de $\chi^2$. Pour cela,
 nous normalisons les histogrammes des données simulées au nombre de données de
 Pantheon, puis calculons~:
 \begin{equation}\label{eq:chi21d}
@@ -811,7 +812,7 @@ Tableau~\ref{tab:chi21d}.
                 une sélection des données est réalisée pour correspondre aux
                 ratios des données de Pantheon, et le calcul du $\chi^2$ est la
                 moyenne sur 500 de ces tirages à chaque fois. La probabilité est
-                données par rapport au meilleur modèle (BP), telle que
+                donnés par rapport au meilleur modèle (BP), telle que
                 $\mathcal{P}_{\text{modèle}} =
                 \exp^{(\chi^2_{\rm BP} - \chi^2_{\text{modèle}})/2}$.
         \end{tablenotes}
@@ -821,21 +822,21 @@ Tableau~\ref{tab:chi21d}.
 D'une manière globale, le modèle BP apparaît comme la meilleure description des
 données, NN et NR donnent des résultats similaires et SK a le moins bon accord.
 Pour le redshift cependant, c'est le modèle SK qui est le mieux ajusté aux
-données~; ceci correspond à nos attentes puisque leurs distributions
-d'étirements se divisent par redshift. Pour la masse, étant donné que toutes les
-simulations utilisent les mêmes \wgtmap, les différences sont moins notables. NR
-donne cependant une meilleure représentation des données, mais pas de manière
-significative. Pour l'étirement, c'est BP qui décrit le mieux les données~; ceci
-correspond également à nos attentes puisque leurs distributions d'étirement sont
-nombreuses. Nous notons cependant que pour ce paramètre, les modèles NN et NR
-sont bien représentatifs des données. En regardant par échantillon, nous
-observons qu'en réalité les modèles NN et NR performent en moyenne bien mieux
-que les deux autres mais ont par contre une certaine difficulté à reproduire la
-distribution de LOWZ. En effet, par la nature ciblée du sondage, la prédiction
-du modèle de~\citetalias{nicolas2021} ne peut s'appliquer, ce qui mène à leurs
-valeurs de $\chi^2$ que nous détaillons Tableau~\ref{tab:chix1}. Nous présentons
-Figure~\ref{fig:lowz1d} l'accord entre données simulées et réelles de
-l'échantillon LOWZ pour les différents modèles.
+données. Ceci correspond à nos attentes puisque leurs distributions
+d'étirements se divisent suivant le redshift. Pour la masse, étant donné que
+toutes les simulations utilisent les mêmes \wgtmap, les différences sont moins
+notables. NR donne cependant une meilleure représentation des données, mais pas
+de manière significative. Pour l'étirement, c'est BP qui décrit le mieux les
+données. Ceci correspond également à nos attentes puisque leurs distributions
+d'étirements sont nombreuses. Nous notons cependant que pour ce paramètre, les
+modèles NN et NR sont bien représentatifs des données. En regardant par
+échantillon, nous observons qu'en réalité les modèles NN et NR performent en
+moyenne bien mieux que les deux autres mais ont par contre une certaine
+difficulté à reproduire la distribution de LOWZ. En effet, par la nature ciblée
+du sondage, la prédiction du modèle de~\citetalias{nicolas2021} ne peut
+s'appliquer, ce qui mène à leurs valeurs de $\chi^2$ que nous détaillons
+Tableau~\ref{tab:chix1}. Nous présentons Figure~\ref{fig:lowz1d} l'accord entre
+données simulées et réelles de l'échantillon LOWZ pour les différents modèles.
 
 \begin{table}[ht]
     \centering
@@ -889,21 +890,20 @@ différents modèles sont compatibles entre eux, et nous pouvons tous les
 considérer comme de bonnes représentations des données. Pour LOWZ
 spécifiquement, nous pourrions améliorer la simulation du sondage \textit{via}
 la modification du modèle~\citetalias{nicolas2021} pour l'étirement, notamment
-en incluant les données de ZTF (Chapitre~\ref{ch:stretch}
-Section~\ref{ssec:zres}) ou en utilisant la fraction de jeunes étoiles
-escomptée. En effet, le modèle d'évolution de la fraction de jeunes étoiles
-$\delta(z)$ donne une valeur de 50\% de jeunes SNe~Ia à $z = 0,05$~; or dans
-notre cas, le sondage se situe à un redshift moyen de $z = 0,03$ mais les
-données testées (voir Chapitre~\ref{ch:snana}, Figure~\ref{fig:snana_func}) du
-modèle NR n'en possèdent que 20\%, réduit à 15\% dans les données conservées.
-Comme nous avons créé notre \hostlib\ en utilisant le redshift de chaque entrée,
-l'accord avec les données est de fait erroné, et il est probable que la vraie
-fraction soit encore plus faible en observant ces résultats
-Figure~\ref{fig:lowzdump}. Pour y remédier, nous pourrions utiliser le modèle
-d'étirement Base+const\footnote{C'est le modèle de base avec une fraction fixe
-de jeunes étoiles.} du Chapitre~\ref{ch:stretch} en ajustant la fraction aux
-données de LOWZ, et utiliser ce modèle indépendemment du redshift de la
-\hostlib.
+en incluant les données de ZTF (Section~\ref{ssec:zres}) ou en utilisant la
+fraction de jeunes étoiles escomptée. En effet, le modèle d'évolution de la
+fraction de jeunes étoiles $\delta(z)$ donne une valeur de 50\% de jeunes SNe~Ia
+à $z = 0,05$. Or dans notre cas, le sondage se situe à un redshift moyen de $z =
+0,03$ mais les données testées (voir Chapitre~\ref{ch:snana},
+Figure~\ref{fig:snana_func}) du modèle NR n'en possèdent que 20\%, réduits à
+15\% dans les données conservées. Comme nous avons créé notre \hostlib\ en
+utilisant le redshift de chaque entrée, l'accord avec les données est de fait
+erroné, et il est probable que la vraie fraction soit encore plus faible en
+observant ces résultats Figure~\ref{fig:lowzdump}. Pour y remédier, nous
+pourrions utiliser le modèle d'étirement Base+const\footnote{C'est le modèle de
+base avec une fraction fixe de jeunes étoiles.} du Chapitre~\ref{ch:stretch} en
+ajustant la fraction aux données de LOWZ, et utiliser ce modèle indépendamment
+du redshift de la \hostlib.
 
 \sidecaptionvpos{figure}{c}
 \begin{SCfigure}[1][ht]
@@ -976,7 +976,7 @@ plus grande probabilité représente un meilleur accord.
         simulées (en couleur) en 2D pour tous les modèles. \textit{À gauche}~:
         étirement en ordonnée et masse en abscisse. \textit{À droite}~:
         étirement en ordonnée et redshift en abscisse. \textit{De haut en bas}~:
-    modèles SK, BP, NN et NR, respectivement, voir légende~; les couleurs
+    modèles SK, BP, NN et NR, respectivement, voir légende. Les couleurs
 correspondent à celles de la Figure~\ref{fig:hist1d}.}
     \label{fig:2dhex}
 \end{figure}
@@ -1010,36 +1010,36 @@ correspondent à celles de la Figure~\ref{fig:hist1d}.}
 \end{table}
 
 Nous observons que la modélisation~\citetalias{scolnic2016} est la meilleure des
-4 sur la combinaison de ces des distributions~; la
+quatre sur la combinaison de ces distributions~; la
 modélisation~\citetalias{popovic2021a} est deuxième, et les
-modélisations~\citetalias{nicolas2021} et NR ont un score similaire les plaçant
-comme les modélisations les moins bien ajustées aux données, ce qui est attendu
-étant donné la différence du nombre de paramètres libres. Les résultats ne
-diffèrent que très peu sur les distributions conjointes de redshift et de masse,
-et la majeure partie de la différence entre les modèles vient de la modélisation
+modélisations~\citetalias{nicolas2021} et NR ont un score similaire, les plaçant
+comme les modélisations les moins bien ajustées aux données. C'est attendu étant
+donné la différence du nombre de paramètres libres. Les résultats ne diffèrent
+que très peu sur les distributions conjointes de redshift et de masse, et la
+majeure partie de la différence entre les modèles vient de la modélisation
 conjointe de l'étirement et du redshift pour laquelle les valeurs de
 probabilités varient plus rapidement du fait de la faible étendue des données
 (voir barres de couleur). Nous observons cependant que les modèles SK et BP
-présentent deux nuages de probabilité à peu près équivalents à $z < 0,1$,
-correspondant au sondage LOWZ, alors que pour NN et NR le nuage de point de haut
-étirement est plus prononcé que celui de petit étirement. Ceci découle
+présentent deux nuages de probabilités à peu près équivalents à $z < 0,1$,
+correspondant au sondage LOWZ. À l'inverse pour NN et NR, le nuage de point de
+haut étirement est plus prononcé que celui de petit étirement. Ceci découle
 naturellement de la différence de modélisation de l'étirement de ce sondage,
 comme discuté précédemment. Nous notons cependant que les quatre modèles donnent
 un accord similaire aux données réelles.
 
 \section{Impact sur la cosmologie}\label{sec:simres}
 
-Maintenant que nous avons observé l'accord de chacun de modèles aux données
-réelles, nous pouvons étudier le biais cosmologique du fait de traiter des
+Maintenant que nous avons observé l'accord de chacun des modèles aux données
+réelles, nous pouvons étudier le biais cosmologique causé par un traitement de
 données ayant leur propre physique avec une correction potentiellement
 différente. Pour cela, comme introduit Section~\ref{ssec:snaimpl}, nous
-appliquons la méthode BBC7D \citep[][voir Chapitre~\ref{ch:snana}
+appliquons la méthode BBC7D \citep[][voir
 Section~\ref{ssec:bbc7D}]{popovic2021a} sur les données des différents modèles
 avec chacun des échantillons de BiasCor. Nous obtenons ainsi 16 échantillons
 corrigés de taille $\approx \num{13000}$ (dont le nombre de données est indiqué
 Tableau~\ref{tab:ratio}), chacun ayant une valeur de $w$, $\gamma_{\rm masse}$,
-$\alpha$ et $\beta$~; pour rappel, nous avons fixé $\Omega_M$ à
-$\num{0.315}\pm\num{0.005}$, et nous ne nous intéressons donc pas à la variation
+$\alpha$ et $\beta$. Pour rappel, nous avons fixé $\Omega_M$ à
+$\num{0.315}\pm\num{0.005}$~; nous ne nous intéressons donc pas à la variation
 de ce paramètre.
 
 Nous présentons Section~\ref{ssec:simabg} les résultats pour les paramètres de
@@ -1054,7 +1054,7 @@ Afin d'avoir des résultats cosmologiques significatifs, nous nous sommes
 intéressæ aux valeurs des paramètres $\alpha$, $\beta$ et $\gamma$ ajustées de
 nos simulations.  Les résultats pour $\alpha$ sont indiqués sur la
 Figure~\ref{fig:cosmo1}, et ceux de $\beta$ et $\gamma$ sont indiqués
-Figure~\ref{fig:cosmo2}~; les couleurs représentent l'écart aux valeurs de
+Figure~\ref{fig:cosmo2}. Les couleurs représentent l'écart aux valeurs de
 référence, avec $\gamma_{\rm ref} = \num{0.05}$. Nous nous attendons à ce que
 les échantillons diagonaux ne présentent pas de biais de mesure, étant donné que
 leur correction des données est cohérente avec leur génération.
@@ -1109,7 +1109,7 @@ leur correction des données est cohérente avec leur génération.
     \label{fig:cosmo2}
 \end{figure}
 
-Nous soulignons que le fait que les deux dernières lignes soient les mêmes
+Nous relevons que les deux dernières lignes présentent les mêmes valeurs. Cela
 provient du fait que le procédé \bbc7D ne prend pas en compte la variation de
 magnitude du modèle NR quand l'échantillon est utilisé comme BiasCor, puisqu'il
 est évalué en tant que $\theta$ pour les données.
@@ -1124,36 +1124,36 @@ une valeur satisfaisante. Ce biais est montré \textit{via} l'utilisation de
 $\Delta\alpha = \alpha - \alpha_{\rm ref}$ sur la Figure~\ref{fig:cosmoda}. Nous
 n'avons cependant pas ajusté la valeur $\beta$ de référence pour NR, bien
 qu'elles soient $\approx 2\sigma$ écartées de la valeur de référence, puisque la
-couleur n'est pas un paramètre que nous modifions dans la \hostlib\ NR~;
+couleur n'est pas un paramètre que nous modifions dans la \hostlib\ NR~:
 celle-ci utilise en effet les paramètres de BP, et nous avançons que le biais
-sur $\beta$ est dû à un effet subtile reliant la couleur à l'étirement.
+sur $\beta$ est dû à un effet subtil reliant la couleur à l'étirement.
 
 Sur l'ensemble de ces figures, nous voyons que les modèles SK, BP et NN sont
 consistants avec eux-mêmes puisque les valeurs de sorties sont compatibles avec
-les valeurs d'entrée. S'il n'y a pas tant d'écart à \num{0.145} pour $\alpha$
-dans les termes non-diagonaux, nous notons que le modèle SK (pour lequel il
-n'existe pas de corrélation entre galaxie et étirement/couleur) utilisé en tant
-que données (colonne de gauche) présente des valeurs réduites quand il est
-corrigé par les autres modèles (qui, eux, supposent des corrélations)~; 
-celles-ci sont augmentées quand SK est utilisé comme BiasCor (ligne du haut). Ce
-même résultat se retrouve dans pour les valeurs de $\beta$
-(Figure~\ref{fig:cosmob}), mais ce phénomène est inversé pour les valeurs de
-$\gamma$ (Figure~\ref{fig:cosmog})~: la colonne de gauche présente des valeurs
-plus hautes et la ligne du haute des valeurs plus basses. Ces effets sont
-corrélés puisque l'absence de corrélation entre galaxie et étirement/couleur du
-modèle SK est compensé dans la valeur de marche de magnitude.
+la valeur d'entrée. S'il n'y a pas tant d'écart à \num{0.145} pour $\alpha$ dans
+les termes non-diagonaux, nous notons que le modèle SK (pour lequel il n'existe
+pas de corrélation entre galaxie et étirement/couleur) utilisé en tant que
+données (colonne de gauche) présente des valeurs réduites quand il est corrigé
+par les autres modèles (qui, eux, supposent des corrélations)~;  les valeurs
+sont augmentées quand SK est utilisé comme BiasCor (ligne du haut). Ce même
+résultat se retrouve pour les valeurs de $\beta$ (Figure~\ref{fig:cosmob}),
+mais ce phénomène est inversé pour les valeurs de $\gamma$
+(Figure~\ref{fig:cosmog})~: la colonne de gauche présente des valeurs plus
+hautes et la ligne du haut des valeurs plus basses. Ces effets sont corrélés
+puisque l'absence de corrélation entre galaxie et étirement/couleur du modèle SK
+est compensé dans la valeur de marche de magnitude.
 
-Pour NR, nous supposons que le fait que nous devons modifier la valeur de
-$\alpha_{\rm ref}$ provient d'une mauvaise interprétation de la corrélation de
-la magnitude avec l'âge par \snana~; le programme corrige cette magnitude
-\textit{via} la valeur de la masse de la galaxie hôte, et ne possède pas toute
-l'information nécessaire pour comprendre cette corrélation. Ceci se répercute
-sur les résultats de $\gamma_{\rm masse}$~; en effet, alors que sa valeur
-d'entrée de marche de magnitude basée sur l'âge est de \SI{0.130}{mag},
-l'échantillon NR en tant que données (colonne de droite Figure~\ref{fig:cosmog})
-donne des valeurs de marche de magnitude basées sur la masse ajustées par la
-méthode \bbc7D de $\gamma_{\rm masse} \approx \num{.100}$, soit deux fois plus
-élevée que les valeurs trouvées pour les autres simulations (de valeur d'entrée
+Pour NR, nous supposons que nous devons modifier la valeur de $\alpha_{\rm ref}$
+en réponse à une mauvaise interprétation de la corrélation de la magnitude avec
+l'âge par \snana. Le programme corrige cette magnitude \textit{via} la valeur de
+la masse de la galaxie hôte et ne possède pas toute l'information nécessaire
+pour comprendre cette corrélation. Ceci se répercute sur les résultats de
+$\gamma_{\rm masse}$. En effet, alors que sa valeur d'entrée de marche de
+magnitude basée sur l'âge est de \SI{0.130}{mag}, l'échantillon NR en tant que
+données (colonne de droite, Figure~\ref{fig:cosmog}) donne des valeurs de marche
+de magnitude basées sur la masse et ajustées par la méthode \bbc7D de
+$\gamma_{\rm masse} \approx \num{.100}$, soit deux fois plus élevée que les
+valeurs trouvées pour les autres simulations (de valeur d'entrée
 \SI{0.05}{mag}).
 
 \begin{figure}[t]
@@ -1164,7 +1164,7 @@ méthode \bbc7D de $\gamma_{\rm masse} \approx \num{.100}$, soit deux fois plus
         de~\cite{briday2021}. Les valeurs des marches de magnitude (points
         ouverts pour les traceurs locaux et pleins pour les globaux) sont
         déterminées sur l'échantillon SNf. Selon la capacité des traceurs à
-        distinguer les populations de SNe~Ia (traduit par leur contamination),
+        distinguer les populations de SNe~Ia (traduite par leur contamination),
         la marche de magnitude trouvée varie linéairement suivant la droite
         noire (avec son erreur en bande grise). En prenant le LsSFR comme
         traceur de référence avec $\gamma = \SI{0.13}{mag}$, la masse globale
@@ -1174,13 +1174,13 @@ méthode \bbc7D de $\gamma_{\rm masse} \approx \num{.100}$, soit deux fois plus
 
 Cette déviation est attendue étant donné que la masse constitue un mauvais
 traceur de l'âge d'une SN. Il est cependant intéressant de voir ces valeurs plus
-basse que celle d'entrée~: c'est d'une part cohérent avec le fait que la
+basses que celle d'entrée~: c'est d'une part cohérent avec le fait que la
 simulation voie un $\alpha_{\rm ref} = \num{0.155}$ (la baisse de $\gamma$ est
 compensée dans $\alpha$, comme pour SK en tant que BiasCor), et d'autre part ce
-résultat est en total accord avec l'étude de~\cite{briday2021}\footnote{publiée
-en anglais dans~\cite{briday2022}}. L'auteur rapporte dans cet article qu'un
+résultat est en total accord avec l'étude de~\cite{briday2021}\footnote{Publiée
+en anglais dans~\cite{briday2022}.}. L'auteur rapporte dans cet article qu'un
 traceur moins efficace à différencier les populations de SNe~Ia attribuera une
-marche de magnitude plus faible qu'un traceur plus discriminant~; notamment,
+marche de magnitude plus faible qu'un traceur plus discriminant. Notamment,
 dans sa figure 8.1 (recopiée Figure~\ref{fig:briday_steps}), une valeur de
 $\gamma = \SI{0.13}{mag}$ avec le LsSFR se traduirait par une valeur de $\gamma
 \approx \SI{0.10}{mag}$ avec la masse globale (sur la ligne noire sous la masse
@@ -1195,16 +1195,16 @@ Dans la section précédente, nous nous sommes intéressæ aux corrélations
 intrinsèques aux SNe~Ia impactant les paramètres de standardisation. Dans cette
 section, nous présentons les résultats des valeurs de $w$ ajustées par \wfit\
 (voir Section~\ref{ssec:bbcintro}) avec une valeur fixée de $\Omega_M =
-\num{0.315}$~; dans ce cas, ce sont des évolutions avec le redshift (erronées ou
-non) qui impactent la valeur de $w$. Ainsi, nous présentons
-Figure~\ref{fig:wfit} les résultats des valeurs ajustées de $w$, où les couleurs
-représentent l'écart à la valeur de référence ($w = \num{-1.00}$), et pour
-comprendre ces résultats, nous avons observé les évolutions des résidus de
-\textsc{Hubble} (voir Chapitre~\ref{ch:snana}) en fonction du redshift pour
-chaque échantillon, représentées Figure~\ref{fig:hr}. De même que précédemment,
-nous nous attendons à ce que les termes diagonaux soient compatibles avec
-\num{-1.00}, et à ce que les deux dernières lignes des figures soient similaires
-puisque les modèles NN et NR forment les mêmes BiasCor.
+\num{0.315}$. Ce sont des évolutions avec le redshift (erronées ou non) qui
+impactent la valeur de $w$. Ainsi, nous présentons Figure~\ref{fig:wfit} les
+résultats des valeurs ajustées de $w$, où les couleurs représentent l'écart à la
+valeur de référence ($w = \num{-1.00}$), et pour comprendre ces résultats, nous
+avons observé les évolutions des résidus de \textsc{Hubble} (voir
+Chapitre~\ref{ch:snana}) en fonction du redshift pour chaque échantillon,
+représentées Figure~\ref{fig:hr}. De même que précédemment, nous nous attendons
+à ce que les termes diagonaux soient compatibles avec \num{-1.00}, et à ce que
+les deux dernières lignes des figures soient similaires puisque les modèles NN
+et NR forment les mêmes BiasCor.
 
 \begin{figure}[ht]
     \centering
@@ -1236,15 +1236,16 @@ alors qu'une valeur de $w$ plus grande que \num{-1.00} (par exemple,
 \num{-0.95}) impliquerait que l'effet de l'énergie sombre diminue avec le temps
 ($\rho(t)$ de la forme $\rho(t) \propto a(t)^{-x}$ avec $x > 0$) et une valeur
 plus petite en augmenterait la puissance ($\rho(t) \propto a(t)^{+x}$ avec $x >
-0$)~; autrement dit, si $w > -1$ alors l'énergie sombre était plus puissante
-dans le passé et le sera moins dans le futur, et donc que l'Univers est en
-réalité plus jeune que ce que l'on croit, et inversement. Ceci est illustré
+0$). Autrement dit, si $w > -1$, alors l'énergie sombre était plus puissante
+dans le passé et le sera moins dans le futur. L'Univers serait donc en réalité
+plus jeune que ce que nous croyons, et inversement. Ceci est illustré
 Figure~\ref{fig:wevol}. Les données actuelles de Pantheon \citep{scolnic2018}
 contraignent $w$ à $\pm \num{0.220}$ à elles seules, et à $\pm \num{0.040}$ avec
-d'autres sondes, donnant des résultats compatibles avec \num{-1.00}~; les futurs
-relevés visent une détermination à $\pm \num{0.020}$, ce qui pourrait mettre en
-évidence un décalage à $w = \num{-1.00}$. À cet effet, nos simulations sont
-représentatives de ce qui pourra être atteint dans un futur proche.
+d'autres sondes, donnant des résultats compatibles avec \num{-1.00}. Les futurs
+relevés visent quant à eux une détermination à $\pm \num{0.020}$, ce qui
+pourrait mettre en évidence un décalage à $w = \num{-1.00}$. À cet effet, nos
+simulations sont représentatives de ce qui pourra être atteint dans un futur
+proche.
 
 \sidecaptionvpos{figure}{c}
 \begin{SCfigure}[1]
@@ -1270,18 +1271,18 @@ modèles donnant $w = \num{-1.00}$ sont équilibrés autour de 0, alors qu'une
 sous-correction augmente cette valeur. Les échantillons BP\_NN et NN\_BP, en
 revanche, donnent des valeurs compatibles avec \num{-1.00}~; étant donné que les
 résultats cosmologiques actuels se basent sur un approche semblable à celle
-de~\citetalias{BP}, ce résultat conforte la validité du modèle NN.
+de~\citetalias{popovic2021a}, ce résultat conforte la validité du modèle NN.
 
 Alors que les trois premiers modèles utilisent la masse comme traceur de la
 marche de magnitude et ne contiennent pas d'évolution du vrai $\gamma$ avec le
 redshift, le modèle NR utilise l'âge et donc présente une évolution de $\gamma$
-avec le redshift. En effet, à $z=0,05$, il est attendu 50\% de jeunes étoiles~;
-ainsi à ce redshift, deux SNe~Ia auront soit aucune déviation due à une marche
-de magnitude (deux jeunes ou deux vieilles), soit une différence de magnitude
-entre elles de \SI{0.130}{mag}, soit une moyenne à \SI{0.065}{mag}~; à
-l'inverse, à haut redshift les SNe~Ia sont principalement jeunes, donc la
-différence de magnitude entre 2 SNe~Ia tend en moyenne vers \SI{0}{mag}. Par
-rapport à la marche de magnitude basée sur la masse, ce modèle sur-évalue la
+avec le redshift. En effet, à $z=0,05$, il est attendu 50\% de jeunes étoiles. À
+ce redshift, deux SNe~Ia auront donc soit aucune déviation due à une marche de
+magnitude (deux jeunes ou deux vieilles), soit une différence de magnitude entre
+elles de \SI{0.130}{mag}, résultant en une moyenne à \SI{0.065}{mag}. À
+l'inverse, à haut redshift, les SNe~Ia sont principalement jeunes et la
+différence de magnitude entre 2 SNe~Ia tendra donc en moyenne vers \SI{0}{mag}.
+Par rapport à la marche de magnitude basée sur la masse, ce modèle sur-évalue la
 marche à bas redshift et la sous-évalue à haut redshift. Ceci est visible sur la
 Figure~\ref{fig:hr} où, dans la colonne de droite, les points à bas redshift
 sont plus bas que dans les autres modèles et les points à haut redshift
@@ -1304,19 +1305,19 @@ cosmologiques dues au choix de la modélisation de la masse, présentées sur le
 valeurs de $w$ Figure~\ref{fig:wdiff}.
 
 Nous observons que les différents modèles de masse donnent des fractions de
-jeunes étoiles totale similaires entre eux ($\approx 45\%$)~; leur distribution
-n'est cependant pas la même. En effet, à $M_* > 10^{11}\si{\Msun}$ le modèle
-SNfsupp est (par construction) dénué de jeunes étoiles, mais les \wgtmap\ ne
-favorisent pas ces masses-là donc la différence n'est pas si notable. En
-revanche, à $M_* \approx 10^{10}\si{\Msun}$, partie privilégiée par les \wgtmap,
-le modèle SEDSNf a la plus haute fraction de jeunes étoiles (point pentagonal
-orange Figure~\ref{fig:fyvM}).
+jeunes étoiles totales similaires entre elles ($\approx 45\%$) mais leurs
+distributions ne sont cependant pas les mêmes. En effet, à $M_* >
+10^{11}\si{\Msun}$ le modèle SNfsupp est (par construction) dénué de jeunes
+étoiles, mais les \wgtmap\ ne favorisent pas ces masses-là donc la différence
+n'est pas si notable. En revanche, à $M_* \approx 10^{10}\si{\Msun}$, partie
+privilégiée par les \wgtmap, le modèle SEDSNf a la plus haute fraction de jeunes
+étoiles (point pentagonal orange, Figure~\ref{fig:fyvM}).
 
 Cette variation pourrait influencer les valeurs de $\alpha$ et $\beta$, mais
 ceci n'est pas présent de manière notable. En revanche, elle semble se refléter
-dans les valeurs de $w$ comme l'indique la Figure~\ref{fig:wdiff}, où nous y
+dans les valeurs de $w$ comme l'indique la Figure~\ref{fig:wdiff}, où nous
 observons une augmentation moyenne des valeurs dans les deux colonnes de
-droites. Les observations précédentes restent cependant valables~: le modèle NN
+droite. Les observations précédentes restent cependant valables~: le modèle NN
 est cohérent avec lui-même et avec le modèle BP, les corrélations entre l'âge
 d'une SN et ses propriétés ne sont pas traitées optimalement par \snana\ et le
 biais potentiel sur la mesure de $w$ se trouverait entre 4 et 8\%. Nous pouvons
@@ -1367,7 +1368,7 @@ l'évolution avec le redshift sont les effets dominants.
         \centering
         \includegraphics[height=8cm]{wfit_covmat_FULL-SNFSUPP_2}
         \caption[Valeurs de $w$ avec le modèle de masse SNf]{Valeurs de
-        $w$ pour SNf.}
+        $w$ pour SNfsupp.}
         \label{fig:wsnfsupp}
     \end{subfigure}
     % \hfill
@@ -1413,19 +1414,19 @@ de~\citetalias{scolnic2016} et \citetalias{popovic2021a}. Nous obtenons alors 16
 $\gamma_{\rm masse}$ et $w$.
 
 À travers cette analyse et l'implémentation du modèle~\citetalias{nicolas2021}
-d'un bout à l'autre du \textit{pipeline} d'analyse cosmologique \snana, nous
+d'un bout à l'autre du pipeline d'analyse cosmologique \snana, nous
 avons pu mettre en lumière les éléments suivants~:
 \begin{enumerate}
     \item Nous avons testé la robustesse du modèle d'évolution de l'étirement
-        avec le redshift développé dans~\cite{nicolas2021} et présenté
+        avec le redshift développé dans~\cite{nicolas2021} et présenté au
         Chapitre~\ref{ch:stretch}, qui a été utilisé avec succès pour reproduire
         les sondages totaux et non coupés en redshift~; celui-ci s'est notamment
         avéré être une meilleure description des données à haut redshift que les
         modèles SK ou BP, confortant les indices en faveur de cette évolution~;
     \item chacune des modélisations (SK, BP, NN, NR) sont de bonnes
-        réprésentations des données. La nature ciblée du sondage LOWZ en fait
-        un échantillon que nous n'avons pas pu reproduire dans l'état avec notre
-        approche de notre modèle prospectif d'étirement mais il pourrait y être
+        représentations des données. La nature ciblée du sondage LOWZ en fait
+        un échantillon que nous n'avons pas pu reproduire dans l'état, suivant
+        notre approche de modèle prospectif d'étirement, mais il pourrait y être
         ajusté~;
     % \item Nous avons mis en évidence la limite actuelle de l'ensemble de
     %     logiciels \snana\ à prendre en considération l'âge d'une SN comme
@@ -1446,7 +1447,7 @@ avons pu mettre en lumière les éléments suivants~:
     \item par rapport à l'état de l'art actuel des analyses cosmologiques
         \citepalias{popovic2021a}, il pourrait y avoir un biais de l'ordre de
         4\% si l'âge constitue le paramètre à l'origine des propriétés des
-        SNe~Ia. Cette valeur, compatible avec les incertitude actuelles, pourra
+        SNe~Ia. Cette valeur, compatible avec les incertitudes actuelles, pourra
         se révéler critique à l'ère des futurs grands relevés cosmologiques
         comme LSST qui apporteront rapidement $\approx \num{15000}$ données
         cosmologiques de SNe~Ia.

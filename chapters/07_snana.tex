@@ -9,9 +9,8 @@
 % \fakelistoftables
 
 \chapter{Introduction \`a \snana}\label{ch:snana}
-\epigraph{\openquote\textit{A common mistake that people make when trying to
-design something completely foolproof is to underestimate the ingenuity of
-complete fools.}\closequote}{Douglas \textsc{Adams}, \textit{Mostly Harmless}}
+\epigraph{\openquote\textit{Soon I'll find the right words, they'll be very
+simple.}\closequote}{Jack \textsc{Kerouac}, \textit{Some of the Dharma}}
 
 Nous avons vu au Chapitre~\ref{ch:sne} qu'à partir de 1993, grâce la
 standardisation des SNe~Ia par l'étude de leurs caractéristiques d'étirement et
@@ -53,9 +52,9 @@ que le paquet \snana\ a vu le jour \citep{kessler2009a}. Son objectif est de
 fournir aux différents groupes un outil public et fiable permettant la
 reproductibilité des analyses. C'est un ensemble de logiciels, incluant un
 ajusteur de courbes de lumière, un simulateur Monte Carlo, et un ajusteur de
-cosmologie, simulant des catalogues de données\footnote{une autre approche
+cosmologie, simulant des catalogues de données\footnote{Une autre approche
     pourrait simuler des images, mais ceci augmenterait exponentiellement le
-temps de calcul}. Les logiciels intègrent des modèles existants mais offrent
+temps de calcul.}. Les logiciels intègrent des modèles existants mais offrent
 également la possibilité de s'adapter à de nouveaux modèles, ne se limitant
 pas qu'aux SNe~Ia (il y a par exemple des modèles de Kilo Novae) et
 admettant depuis des corrélations entre une SN et son environnement,
@@ -170,8 +169,8 @@ et pour chaque observation~:
     \item la date d'observation exprimée en jours juliens modifiés \texttt{MJD}
         associée à un identifiant \texttt{IDEXPT}~;
     \item le filtre concerné par l'observation (\texttt{FLT})~;
-    \item les caractéristiques de la caméra CCD\footnote{\textit{charged coupled
-        device}, un capteur photographique} (\texttt{CCD GAIN} et \texttt{CCD
+    \item les caractéristiques de la caméra CCD\footnote{\textit{Charged Coupled
+        Device}, un capteur photographique.} (\texttt{CCD GAIN} et \texttt{CCD
         NOISE}) au moment de l'acquisition~;
     \item le bruit dû à l'atmosphère \textit{via} le paramètre \texttt{SKYSIG}
         donnant le bruit par pixel, sommé sur l'ouverture effective dérivée par
@@ -444,8 +443,8 @@ de distance de la SN simulée serait $\mu_{\rm vrai}$ de
 l'Équation~\ref{eq:mutrue}, et un ajustement du diagramme de \textsc{Hubble}
 avec ces valeurs ne redonnerait que la cosmologie d'entrée. Avec les valeurs de
 $m_B$, $x_1$, $c$ et les caractéristiques de l'environnement de l'ajustement par
-\texttt{SALT2.4} qui aura passé les étapes précédentes, on aurait un module de
-distance de la forme
+\texttt{SALT2.4} qui aura passé les étapes précédentes, nous aurions un module
+de distance de la forme
 \begin{equation}\label{eq:mu}
     \mu = m_B - M + \alpha x_1 - \beta c + \gamma_{\rm env}
 \end{equation}
@@ -495,8 +494,8 @@ partie Génération (Section~\ref{ssec:simsn}) sont entrées à la place des val
 ajustées dans l'Équation~\ref{eq:mucorr}. Ce sont ces $M_{z_i}$ qui sont
 utilisées pour ajuster la cosmologie. Pour l'ajustement, nous partons d'un
 modèle cosmologique plat $w$CDM où $\Omega_M + \Omega_{\Lambda} = 1$, pour
-définir \citep{kessler2017}\footnote{l'équation du module de distance a été
-corrigée par rapport à l'article, conformément à l'équation~\ref{eq:mucosmo}}~:
+définir \citep{kessler2017}\footnote{L'équation du module de distance a été
+corrigée par rapport à l'article, conformément à l'équation~\ref{eq:mucosmo}.}~:
 \begin{align}\label{eq:mumodel}
     \mu_{\text{modèle}} & = 5\log\left(\frac{d_L}{\SI{10}{pc}}\right)
                              \quad\text{avec}\\
@@ -611,7 +610,7 @@ correspondant.
     \label{fig:mat}
 \end{figure}
 
-Avec ce découpage, on obtient cette fois~:
+Avec ce découpage, nous obtenons cette fois~:
 \begin{align}\label{eq:mu5D}
     \mu^* & = m_B^* + \alpha x_1^* - \beta c^* - M_{z_i}
             + \delta\mu_{\rm env} \nonumber\\

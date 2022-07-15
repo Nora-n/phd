@@ -1,48 +1,47 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: 08_sims.aux
-I found no \citation commands---while reading file 08_sims.aux
-I found no \bibdata command---while reading file 08_sims.aux
-I found no \bibstyle command---while reading file 08_sims.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            83 strings with 488 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+The style file: ../main/aa_url.bst
+Database file #1: ../chapters/99_references.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 10 entries,
+            3173 wiz_defined-function locations,
+            784 strings with 9956 characters,
+and the built_in function-call counts, 11532 in all, are:
+= -- 761
+> -- 1422
+< -- 3
++ -- 478
+- -- 468
+* -- 1733
+:= -- 1971
+add.period$ -- 10
+call.type$ -- 10
+change.case$ -- 197
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 199
+empty$ -- 304
+format.name$ -- 491
+if$ -- 2038
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 9
+newline$ -- 34
+num.names$ -- 40
+pop$ -- 191
+preamble$ -- 1
+purify$ -- 196
 quote$ -- 0
-skip$ -- 0
+skip$ -- 157
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 203
+swap$ -- 351
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 90
 warning$ -- 0
-while$ -- 0
+while$ -- 39
 width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+write$ -- 114

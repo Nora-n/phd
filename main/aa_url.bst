@@ -301,7 +301,7 @@ FUNCTION {bbl.nr}
 { "no." }
 
 FUNCTION {bbl.in}
-{ "dans" }
+{ "in" }
 
 FUNCTION {bbl.pages}
 { "" }
