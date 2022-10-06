@@ -1,2 +1,18 @@
 
 data/fitres_*
+
+*.aux
+
+*.fdb_latexmk
+
+*.fls
+
+*.log
+
+*.gz
+
+*.blg
+
+*.brf
+
+*.ps
