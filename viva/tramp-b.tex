@@ -1,0 +1,56 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+\usepackage{mathtools}
+
+\begin{document}
+\begin{tikzpicture}[]
+    \def\r{2.5}
+    \filldraw[dashed, fill=black!20] (0,0) circle (\r);
+    \node[scale=.5] (candle1) at (-0.5,1) {\twemoji{candle}};
+    \node[scale=.5] (candle2) at (-1,-1) {\twemoji{candle}};
+    \node[scale=.5] (candle3) at (0.7,-0.5) {\twemoji{candle}};
+    \node[scale=.5] (candle4) at (1.5,0.3) {\twemoji{candle}};
+    \node[scale=.5] (candle5) at (0.5,1.5) {\twemoji{candle}};
+    \node[scale=.5] (candle6) at (0,-1.5) {\twemoji{candle}};
+    \node[scale=.5] (candle7) at (-1.5,0) {\twemoji{candle}};
+    % \foreach \i in {0,10,...,360}{
+    %     \draw[->, firebrick] (\i:\r) --++ (\i:0.5);}
+    % %\node[Purple!70] (H0text) at (60:{\r+0.7}) {$H_0$};
+    \foreach \c in {candle1, candle2, candle3, candle4, candle5, candle6,
+    candle7}{
+        \foreach \i in {20, 60, ..., 360}{
+            \draw[shift=(\c), ->, cornflowerblue]
+                (\i:.5) -- ($(\c.center) + (\i:.25)$);}}
+    \oeil[shift={(0, 0)}, rotate=70, scale=.5];
+    % Grandeurs
+    \node[inner sep=0] (Og) at (0,0) {};
+    \node[inner sep=0] (Rg) at (candle5.center) {};
+    \draw[|<->|] (Og) --
+    node[below, midway, sloped]
+    {$d_L$} (Rg);
+    \draw[Red!70, -stealth] (candle5.center) --++
+        (72:0.7) node [left] {$v$};
+    % cosmo params
+    \begin{scope}[xshift=5cm, yshift=1cm]
+        \node[Purple!70, draw, anchor=south west] (H0text) at (0,0)
+            {$H_0$~: taux d'expansion};
+        \node[above] (titletext) at (H0text.north) {Param\`etres cosmologiques~:};
+        \node[cornflowerblue, draw, below, anchor=north west]
+        (OMtext) at (H0text.south west) {$\Omega_m$~: densit\'e de la mati\`ere};
+        \node[firebrick, below, anchor=north west] (OLtext) at (OMtext.south west)
+            {~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~};
+        \node[orange!70, below, anchor=north west] (wtext) at (OLtext.south west)
+            {~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~};
+        \coordinate (xright) at ($([shift={(2pt,0)}]OLtext.east)+(.5,0)$);
+        \draw[->] ([shift={(2pt,0)}]H0text.east) -- (xright|-H0text.east)
+            node [right] (hubbletext) {$d_L \nearrow \Rightarrow v \nearrow$};
+        \draw[->] ([shift={(2pt,0)}]OMtext.east) -- (xright|-OMtext.east)
+            node [right] (hubbletext) {Contracte l'espace};
+    \end{scope}
+
+\end{tikzpicture}
+\end{document}
+
+
+
+

@@ -1,0 +1,22 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+
+\begin{document}
+\begin{tikzpicture}[]
+    \def\r{2}
+    \draw[] (0,0) circle (\r);
+    \filldraw[limegreen] (0,0) --
+        (0:\r) coordinate (Gb) arc (0:{360/3}:\r) coordinate (Ge) -- cycle;
+    \node[] (Gtext) at (60:\r/2) {$\Omega_R$};
+    \filldraw[cornflowerblue] (0,0) --
+        ({360/3}:\r) coordinate (Bb) arc
+        ({360/3}:{2*360/3}:\r) coordinate (Be) --
+        cycle;
+    \node[] (Btext) at (180:\r/2) {$\Omega_M$};
+    \filldraw[firebrick] (0,0) --
+        ({2*360/3}:\r) coordinate (Rb) arc
+        ({2*360/3}:360:\r) coordinate (Re) --
+        cycle;
+    \node[] (Rtext) at (300:\r/2) {$\Omega_\Lambda$};
+\end{tikzpicture}
+\end{document}

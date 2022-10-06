@@ -1,0 +1,19 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+
+\begin{document}
+\begin{tikzpicture}[]
+    \def\r{2}
+    \draw[] (0,0) circle (\r);
+    \filldraw[cornflowerblue] (0,0) --
+        (0:\r) coordinate (Bb) arc
+        (0:{0.30*360}:\r) coordinate (Be) --
+        cycle;
+        \node[] (Btext) at ({0.30*360/2}:\r/2) {$\Omega_M$};
+    \filldraw[firebrick] (0,0) --
+        (Be) coordinate (Rb) arc
+        ({(0.30)*360}:{(0.30+0.70)*360}:\r) coordinate (Re) --
+        cycle;
+    \node[] (Rtext) at ({(0.30+0.70)*360/1.5}:\r/2) {$\Omega_\Lambda$};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,60 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+
+\begin{document}
+\begin{tikzpicture}[]
+    \node[Purple!70, draw, anchor=south west] (SKtext) at (0,0)
+        {\textsc{Scolnic} \& \textsc{Kessler} (2016) : SK};
+    \node[left=12pt, anchor=center] (kSK) at (SKtext.west) {15};
+    \node[left, anchor=east] (commSK) at (kSK.west) {M\'ethode de r\'ef\'erence};
+    \node[above] (titletext) at (SKtext.north) {Mod\`eles de \texttt{HOSTLIB}};
+    \node[] at (kSK|-titletext) {$N_{\rm param}$};
+    \node[cornflowerblue, draw, below=12pt, anchor=north west]
+        (BPtext) at (SKtext.south west)
+        {\textsc{Popovic} et al. (2021) : BP};
+    \node[left=12pt, anchor=center] (kBP) at (BPtext.west) {210};
+    \node[left, anchor=east] (commBP) at (kBP.west) {M\'ethode r\'ecente};
+    \node[ForestGreen, draw, below=12pt, anchor=north west]
+        (NNtext) at (BPtext.south west)
+        {\textsc{Nicolas} et al. (2021) : NN};
+    \node[left=12pt, anchor=center] (kNN) at (NNtext.west) {9};
+    \node[orange, draw, below=12pt, anchor=north west]
+        (NRtext) at (NNtext.south west)
+        {\textsc{Nicolas} \& \textsc{Rigault} : NR};
+    \node[left=12pt, anchor=center] (kNR) at (NRtext.west) {9};
+    \node[left, anchor=east] (commNN) at ($(kNN.west)!0.5!(kNR.west)$) {M\'ethode
+    du futur (?)};
+    \draw[->] ([shift={(2pt,0)}]NRtext.east) --++ (1.5,0) coordinate (xright)
+        node [right] (nrtext) {$
+            \left\{
+                \begin{array}{rcl}
+                    \text{\^age} & \longrightarrow & \Delta\rm mag\\
+                    \text{\^age} & \longrightarrow & x_1
+                \end{array}
+        \right.$};
+    \draw[->] ([shift={(2pt,0)}]SKtext.east) -- (xright|-SKtext.east)
+        node [right] (hubbletext) {$
+            \left\{
+                \begin{array}{rcl}
+                    M_*            & \longrightarrow & \Delta\rm mag\\
+                    \text{sondage} & \longrightarrow & x_1
+                \end{array}
+        \right.$};
+    \draw[->] ([shift={(2pt,0)}]BPtext.east) -- (xright|-BPtext.east)
+        node [right] (hubbletext) {$
+            \left\{
+                \begin{array}{rcl}
+                    M_* & \longrightarrow & \Delta\rm mag\\
+                    M_* & \longrightarrow & x_1
+                \end{array}
+        \right.$};
+    \draw[->] ([shift={(2pt,0)}]NNtext.east) -- (xright|-NNtext.east)
+        node [right] (hubbletext) {$
+            \left\{
+                \begin{array}{rcl}
+                    M_*          & \longrightarrow & \Delta\rm mag\\
+                    \text{\^age} & \longrightarrow & x_1
+                \end{array}
+        \right.$};
+\end{tikzpicture}
+\end{document}

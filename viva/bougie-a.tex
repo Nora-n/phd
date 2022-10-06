@@ -1,0 +1,25 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+
+\begin{document}
+\begin{tikzpicture}[]
+    \filldraw[dashed, fill=orange!20] (0,0) circle (1cm);
+    \node[anchor=center] (candle) at (0,0) {\twemoji{candle}};
+    \node[] (center) at (candle.center) {$\times$};
+    \oeil[shift={(1.8cm, 0)}, rotate=180];
+    % Grandeurs
+    \node[below=.5cm, inner sep=0] (Og) at (candle.center) {};
+    \node[below=.5cm, inner sep=0] (Rg) at (1cm,0) {};
+    \draw[|<->|] (Og) --
+    node[below, midway, sloped]
+    {$d_{L,1} = \SI{1}{m}$} (Rg);
+    \node[] (L) at (2.5,1.5) {$L_{\rm tot}$};
+    \node[align=center] at (1.5,-1.5) {$\DS M = -2.5\log\left(\frac{L_{\rm
+    tot}}{L_0}\right)$\\Magnitude absolue};
+    \draw[-latex] (0,1) to [bend left, in=150, out=70] (L.west);
+    \node[orange!70] (S) at (2.5,1) {$S_1$};
+    \draw[orange!70, -latex] (-0.25,0.5) to [bend left, in=150, out=50] (S.west);
+    \node[cornflowerblue] (F) at (2.5,.5) {$F_1 = L_{\rm tot}/S_1$};
+    \draw[cornflowerblue, -latex] (1.05,0) to [bend left, in=150, out=50] (F.west);
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,32 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+\usepackage{mathtools}
+
+\begin{document}
+\begin{tikzpicture}[]
+    \filldraw[dashed, fill=orange!10] (0,0) circle (2cm);
+    \node[anchor=center] (candle) at (0,0) {\twemoji{candle}};
+    \node[] (center) at (candle.center) {$\times$};
+    \oeil[shift={(2.8cm, 0)}, rotate=180];
+    % Grandeurs
+    \node[below=.5cm, inner sep=0] (Og) at (candle.center) {};
+    \node[below=.5cm, inner sep=0] (Rg) at (2cm,0) {};
+    \draw[|<->|] (Og) --
+    node[below, midway, sloped]
+    {$d_{L, 2} = \SI{2}{m}$} (Rg);
+    \node[] (L) at (3.5,2.7) {$L_{\rm tot}$};
+    \node[align=center] at (1.5,-2.5) {$\DS m =
+    -2.5\log\left(\frac{F}{F_0}\right)$\\Magnitude apparente};
+    \draw[-latex] (0,2) to [bend left, in=160, out=70] (L.west);
+    \node[orange!70] (S) at (3.5,2)
+    {$ S_2 & = 4\times S_1$};
+    \draw[orange!70, -latex] (-0.5,1) to [bend left, in=150, out=50] (S.west);
+    \node[cornflowerblue] (F) at (3.5,.5)
+    {$\begin{aligned}
+            F_2 & = L_{\rm tot}/S_2\\
+            F_2 & = F_1/4
+    \end{aligned}$};
+    \draw[cornflowerblue, -latex] (2.05,0) to [bend left, in=150, out=50] (F.west);
+\end{tikzpicture}
+\end{document}
+

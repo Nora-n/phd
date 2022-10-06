@@ -1,0 +1,30 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+
+\begin{document}
+\begin{tikzpicture}[]
+    \node[Purple!70, draw, anchor=south west] (H0text) at (0,0)
+        {$H_0$~: taux d'expansion};
+    \node[above] (titletext) at (H0text.north) {Param\`etres cosmologiques~:};
+    \node[ForestGreen, draw, below, anchor=north west] (ORtext) at (H0text.south west)
+        {$\Omega_r$~: densit\'e du rayonnement};
+    \node[cornflowerblue, draw, below, anchor=north west] (OMtext) at (ORtext.south west)
+        {$\Omega_m$~: densit\'e de la mati\'ere};
+    \node[firebrick, draw, below, anchor=north west] (OLtext) at (OMtext.south west)
+        {$\Omega_\Lambda$~: densit\'e de l'\'energie sombre};
+    \node[orange!70, draw, below, anchor=north west] (wtext) at (OLtext.south west)
+        {$w$~: param\`etre d'\'etat de $\Omega_\Lambda$};
+    \draw[->] ([shift={(2pt,0)}]OLtext.east) --++ (.5,0) coordinate (xright)
+        node [right] (hubbletext) {Dilate l'espace};
+    \draw[->] ([shift={(2pt,0)}]H0text.east) -- (xright|-H0text.east)
+        node [right] (hubbletext) {$d_L \nearrow \Rightarrow v \nearrow$};
+    \draw[->] ([shift={(2pt,0)}]ORtext.east) -- (xright|-ORtext.east)
+        node [right] (hubbletext) {Faible contribution};
+    \draw[->] ([shift={(2pt,0)}]OMtext.east) -- (xright|-OMtext.east)
+        node [right] (hubbletext) {Contracte l'espace};
+    \draw[->] ([shift={(2pt,0)}]wtext.east) -- (xright|-wtext.east)
+        node [right] (hubbletext) {D\'ecrit son comportement};
+    \draw[decorate, decoration={brace, amplitude=5pt, mirror}] (ORtext.north west) --
+    (OLtext.south west) node [midway, left=4pt] (Etext) {$ \sum_{i}^{}\Omega_i = 1$};
+\end{tikzpicture}
+\end{document}

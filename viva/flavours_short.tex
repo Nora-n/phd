@@ -1,0 +1,52 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+
+\begin{document}
+\begin{tikzpicture}[]
+    \node[Purple!70, draw, anchor=south west] (SKtext) at (0,0)
+        {SK};
+    \node[above] (titletext) at (SKtext.north) {Mod\`eles};
+    \node[cornflowerblue, draw, below=12pt, anchor=north west]
+        (BPtext) at (SKtext.south west)
+        {BP};
+    \node[ForestGreen, draw, below=12pt, anchor=north west]
+        (NNtext) at (BPtext.south west)
+        {NN};
+    \node[orange, draw, below=12pt, anchor=north west]
+        (NRtext) at (NNtext.south west)
+        {NR};
+    \draw[->] ([shift={(2pt,0)}]NRtext.east) --++ (0.5,0) coordinate (xright)
+        node [right] (nrtext) {$
+            \left\{
+                \begin{array}{rcl}
+                    \text{\^age} & \longrightarrow & \Delta\rm mag\\
+                    \text{\^age} & \longrightarrow & x_1
+                \end{array}
+        \right.$};
+    \draw[->] ([shift={(2pt,0)}]SKtext.east) -- (xright|-SKtext.east)
+        node [right] (hubbletext) {$
+            \left\{
+                \begin{array}{rcl}
+                    M_*            & \longrightarrow & \Delta\rm mag\\
+                    \text{sondage} & \longrightarrow & x_1
+                \end{array}
+        \right.$};
+    \draw[->] ([shift={(2pt,0)}]BPtext.east) -- (xright|-BPtext.east)
+        node [right] (hubbletext) {$
+            \left\{
+                \begin{array}{rcl}
+                    M_* & \longrightarrow & \Delta\rm mag\\
+                    M_* & \longrightarrow & x_1
+                \end{array}
+        \right.$};
+    \draw[->] ([shift={(2pt,0)}]NNtext.east) -- (xright|-NNtext.east)
+        node [right] (hubbletext) {$
+            \left\{
+                \begin{array}{rcl}
+                    M_*          & \longrightarrow & \Delta\rm mag\\
+                    \text{\^age} & \longrightarrow & x_1
+                \end{array}
+        \right.$};
+\end{tikzpicture}
+\end{document}
+

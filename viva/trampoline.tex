@@ -1,0 +1,56 @@
+\documentclass{standalone}
+\usepackage{mintikz}
+\usepackage{mathtools}
+
+\begin{document}
+\begin{tikzpicture}[]
+    \def\r{2.5}
+    \filldraw[dashed, fill=black!20] (0,0) circle (\r);
+    \node[scale=.5] (candle1) at (-0.5,1) {\twemoji{candle}};
+    \node[scale=.5] (candle2) at (-1,-1) {\twemoji{candle}};
+    \node[scale=.5] (candle3) at (0.7,-0.5) {\twemoji{candle}};
+    \node[scale=.5] (candle4) at (1.5,0.3) {\twemoji{candle}};
+    \node[scale=.5] (candle5) at (0.5,1.5) {\twemoji{candle}};
+    \node[scale=.5] (candle6) at (0,-1.5) {\twemoji{candle}};
+    \node[scale=.5] (candle7) at (-1.5,0) {\twemoji{candle}};
+    \foreach \i in {0,10,...,360}{
+        \draw[->, firebrick] (\i:\r) --++ (\i:0.5);}
+    %\node[Purple!70] (H0text) at (60:{\r+0.7}) {$H_0$};
+    \foreach \c in {candle1, candle2, candle3, candle4, candle5, candle6,
+    candle7}{
+        \foreach \i in {20, 60, ..., 360}{
+            \draw[shift=(\c), ->, cornflowerblue]
+                (\i:.5) -- ($(\c.center) + (\i:.25)$);}}
+    \draw[Snake, ->, ForestGreen] (candle5) -- (candle1);
+    \draw[Snake, ->, ForestGreen] (candle5) -- (candle2);
+    %\draw[Snake, ->, ForestGreen] (candle5) -- (candle3);
+    \draw[Snake, ->, ForestGreen] (candle5) -- (candle4);
+    \draw[Snake, ->, ForestGreen] (candle5) -- (candle6);
+    % \node[] (center) at (0,0) {$\times$};
+    \oeil[shift={(0, 0)}, rotate=70, scale=.5];
+    % Grandeurs
+    \node[inner sep=0] (Og) at (0,0) {};
+    \node[inner sep=0] (Rg) at (candle5.center) {};
+    \draw[|<->|] (Og) --
+    node[below, midway, sloped]
+    {$d_L$} (Rg);
+    \draw[Red!70, -stealth] (candle5.center) --++
+        (72:0.7) node [left] {$v$};
+    % \node[] (L) at (3.5,2.7) {$L_{\rm tot}$};
+    % \draw[-latex] (0,2) to [bend left, in=160, out=70] (L.west);
+    % \node[orange!70] (S) at (3.5,2)
+    % {$\begin{aligned}
+    %         S_2 & = 4\pi R_2{}^2\\
+    %         S_2 & = 4\times S_1
+    % \end{aligned}$};
+    % \draw[orange!70, -latex] (-0.5,1) to [bend left, in=150, out=50] (S.west);
+    % \node[cornflowerblue] (F) at (3.5,.5)
+    % {$\begin{aligned}
+    %         F_2 & = \frac{L_{\rm tot}}{S_2}\\
+    %         F_2 & = F_1/4
+    % \end{aligned}$};
+    % \draw[cornflowerblue, -latex] (2.05,0) to [bend left, in=150, out=50] (F.west);
+\end{tikzpicture}
+\end{document}
+
+
