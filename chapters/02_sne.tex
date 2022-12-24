@@ -16,19 +16,19 @@ au monde une étoile dansante.\closequote}{\textsc{Nietzsche}, \textit{Ainsi
 parlait Zarathoustra}}
 
 Il existe toute une zoologie d'astres dans l'Univers, entre les planètes, les
-étoiles, les galaxies… Mais ceux-ci étaient pendant longtemps considérés comme
-immuables. C'est ainsi qu'en observant une nouvelle «~étoile~» dans le ciel en
-1572, l'astronome Tycho \textsc{Brahé} la nomma \textit{nova}. Ça n'est qu'un
-peu avant le milieu de XX\ieme~siècle que le terme «~supernova~» fut employé
-pour la première fois par~\cite{baade1934}, ayant déterminé que ces objets
-pouvaient émettre plus de lumière que leur galaxie hôte sur une courte période
-de temps.
+étoiles, les galaxies… Ces astres étaient pendant longtemps considérés comme
+immuables. Pourtant, en 1572 l'astronome Tycho \textsc{Brahé} vu apparaître une
+nouvelle «~étoile~» dans le ciel, et décida donc de la nommer \textit{nova}. Ce
+n'est qu'un peu avant le milieu de \textsc{xx}\ieme~siècle que le terme
+«~supernova~» fut employé pour la première fois par~\cite{baade1934}, ayant
+déterminé que ces objets pouvaient émettre plus de lumière que leur galaxie hôte
+sur une courte période de temps.
 
 Au sein des événements caractérisés comme supernovae, il existe des
 sous-catégories, dont les SNe~Ia font partie. Nous détaillons dans ce chapitre
 ce qui les définit (Section~\ref{sec:death}), quelles sont leurs propriétés
-physique d'intérêt (Section~\ref{sec:sneprop}) et comment les utiliser comme
-chandelles standardisées (Section~\ref{sec:stand}).
+physique d'intérêt (Section~\ref{sec:sneprop}) et comment les utiliser en tant
+que chandelles standardisées pour la cosmologie (Section~\ref{sec:stand}).
 
 \vfill
 \minitoc
@@ -37,11 +37,12 @@ chandelles standardisées (Section~\ref{sec:stand}).
 
 \section{Fin de vie des étoiles}\label{sec:death}
 
-Si l'existence-même des étoiles est remarquable, la fin de vie de ces
-réacteurs nucléaires en puissance l'est au moins tout autant. Nous nous
-attachons dans cette section à décrire une fin de vie particulière de ces
-astres, les supernovae, et plus particulièrement la sous-catégorie de celles
-dites de type «~Ia~»\footnote{Se lit [\textipa{\~EA}].}.
+Si l'existence-même des étoiles est remarquable, la fin de vie de ces réacteurs
+nucléaires en puissance l'est au moins tout autant. Nous nous attachons dans
+cette section à décrire une fin de vie particulière de ces astres, les
+supernovae\footnote{Le pluriel de «~supernova~» est souvent écrit de cette
+manière, et se lit «~supernové~».}, et plus particulièrement la sous-catégorie
+de celles dites de type «~Ia~»\footnote{Se lit [\textipa{\~EA}].}.
 
 \subsection{Classification}\label{ssec:class} % strolger2004, 2.2
 
@@ -52,13 +53,14 @@ diminue jusqu'à revenir à un état pré-explosion sur une durée typique de
 quelques semaines. Une première classification par~\cite{minkowski1941} a permis
 de distinguer les types I et les types II selon leur composition chimique~: les
 premières ne possèdent pas de raie d'hydrogène dans leur spectre\footnote{Mesure
-du flux lumineux selon la longueur d'onde (c'est-à-dire la «~couleur~»)~: les
-éléments chimiques rayonnent ou absorbent des couleurs particulières et
-caractéristiques.}, les secondes en ont une. Plus tard, \cite{elias1985} avec
-l'amélioration des mesures permet d'affiner cette classification en distinguant
-des sous-types Ia, Ib et Ic~: les Ia présentent des raies de silicium dans leur
-spectre, les deux autres non et sont séparées selon la force de leurs raies
-d'hélium. Cette classification est résumée Figure~\ref{fig:sne_class}.
+    du flux lumineux selon la longueur d'onde (c'est-à-dire la «~couleur~»)~:
+    les éléments chimiques rayonnent ou absorbent des couleurs particulières et
+caractéristiques.}, les secondes en ont une. Plus tard, \cite{elias1985}
+affinent cette classification en distinguant des sous-types Ia, Ib et Ic,
+grâce à l'amélioration des mesures spectrales~: les Ia présentent des raies
+de silicium dans leur spectre, les deux autres non et sont séparées selon la
+force de leurs raies d'hélium. Cette classification est résumée
+Figure~\ref{fig:sne_class}.
 
 \begin{figure}[ht]
     \centering
@@ -168,20 +170,21 @@ Ces observations s'effectuent non seulement dans le temps mais également pour
 différentes couleurs\footnote{Moyenne du flux sur une plage de longueurs
 d'ondes, que nous appelons «~bandes photométriques~».}. La diminution de magnitude
 est typiquement de \SIrange{3}{6}{mag} sur une quinzaine de jours, que la SN~Ia
-regagne ensuite sur une période de plusieurs dizaines de jours $\approx
-\SI{50}{jours}$. À partir de cette courbe se définissent plusieurs
+regagne ensuite sur une période de plusieurs dizaines de jours ($\approx
+\SI{50}{jours}$). À partir de cette courbe se définissent plusieurs
 caractéristiques~:
 
 \begin{itemize}
-    \item[$t_0$]~: date du maximum d'émission dans la bande bleue~;
-    \item[$x_0$]~: amplitude dans la bande bleue (nous définissons $m_B =
+    \item[$t_0$]: date du maximum d'émission dans la bande bleue~;
+    \item[$x_0$]: amplitude dans la bande bleue (nous définissons $m_B =
         -2,5\log(x_0)$)~;
-    \item[$x_1$]~: étirement typique de la courbe de lumière, caractérisant la
-        vitesse de l'explosion (petit $x_1 \Rightarrow$ explosion rapide)~;
-    \item[$c$]~: couleur globale de la SN, correspondant à la différence de
-        magnitude entre deux bandes~: à bas redshift ce sont les bandes bleues
-        et vertes (nous écrivons $c = B - V$), mais avec le décalage vers le
-        rouge elle peut être estimée différemment.
+    \item[$x_1$]: étirement typique de la courbe de lumière, lié à la largeur de
+        la courbe et caractérisant la vitesse de l'explosion (petit $x_1
+        \Rightarrow$ explosion rapide)~;
+    \item[$c$]: couleur globale de la SN, correspondant à la différence de
+        magnitude entre deux bandes~: à bas redshift les bandes bleues
+        et vertes sont utilisées (nous écrivons $c = B - V$), mais avec le
+        décalage vers le rouge elle peut être estimée différemment.
 \end{itemize}
 
 \subsection{Spectroscopie}\label{ssec:spectro}
@@ -225,16 +228,16 @@ estimer le redshift d'un corps (appelé alors «~redshift spectroscopique~»),
 étant donné qu'il correspond littéralement à un décalage des longueurs d'ondes
 vers le rouge. Cependant, pour n'avoir que le redshift cosmologique dû à
 l'expansion de l'Univers et non celui du mouvement propre d'une SN, nous
-observons généralement les galaxies hôtes. Outre cette avantage de mouvement
+observons généralement les galaxies hôtes. Outre cet avantage de mouvement
 propre, elles présentent des raies plus fines donnant une estimation du redshift
-plus précise (précision à $\approx \num{1e-5}$ contre $\approx \num{1e-3}$ pour
-un redshift estimé sur le spectre d'une SN), et n'étant pas des objets
-transitoires elles donnent plus de temps pour effectuer la mesure. Ces trois
-éléments sont primordiaux pour avoir la meilleure estimation de la distance de
-luminosité (qui s'obtient à partir du redshift d'après l'Équation~\ref{eq:dl}).
-Si le redshift de l'hôte vient à manquer, nous l'estimons avec le spectre de la
-SN directement~; dans le pire des cas il est estimé à partir de la photométrie
-de l'hôte.
+plus précise (précision à $\approx \num{1e-5}$ pour les galaxies contre $\approx
+\num{1e-3}$ pour un redshift estimé sur le spectre d'une SN), et n'étant pas des
+objets transitoires elles donnent plus de temps pour effectuer la mesure. Ces
+trois éléments sont primordiaux pour avoir la meilleure estimation de la
+distance de luminosité (qui s'obtient à partir du redshift d'après
+l'Équation~\ref{eq:dl}). Si le redshift de l'hôte vient à manquer, nous
+l'estimons avec le spectre de la SN directement~; dans le pire des cas il est
+estimé à partir de la photométrie de l'hôte.
 
 \subsection{Modèle \texttt{SALT2.4}}\label{ssec:salt}
 
@@ -253,13 +256,13 @@ $t_0$) et à une longueur d'onde $\lambda$ par~:
 Ici, $M_0$ est la séquence spectrale moyenne, $M_1$ la déviation au premier
 ordre autour de cette séquence et $CL$ une loi de couleur. Ce sont des
 propriétés globales du modèle~; les paramètres $x_0$, $x_1$ et $c$ sont
-spécifique à une SN, comme nous l'avons vu Section~\ref{ssec:lc}. C'est avec ce
+spécifiques à une SN, comme nous l'avons vu Section~\ref{ssec:lc}. C'est avec ce
 modèle que sont ajustées les courbes de la Figure~\ref{fig:2011fe_phot} et que
 sont extraites les valeurs des paramètres.
 
 \section{Standardisation}\label{sec:stand}
 
-En calibrant la distance des SNe~Ia avec d'autres sondes, il est possible de
+En calibrant les distances des SNe~Ia avec d'autres sondes, il est possible de
 mesurer leur magnitude absolue. Comme nous l'avons présenté précédemment, nous
 la trouvons à une valeur relativement stable, avec $M_0 =
 -\SI{19.36}{mag}$~\citep{kessler2009b}, ce qui leur a valu le terme de
@@ -308,8 +311,8 @@ plus lumineuses\footnote{Nous appelons cette corrélation
 caractérisée par un coefficient $\alpha$. Ensuite, \cite{hamuy1996} ont montré
 la dépendance avec la couleur~: les SNe~Ia les plus bleues sont plus
 lumineuses\footnote{Nous appelons cette corrélation \textit{bluer-brighter} en
-anglais.}, relation caractérisée par le coefficient $\beta$. Elles sont utilisées
-pour réduire l'incertitude sur la magnitude absolue selon~:
+anglais.}, relation caractérisée par le coefficient $\beta$. Ces corrélations
+sont utilisées pour réduire l'incertitude sur la magnitude absolue selon~:
 \begin{equation}\label{eq:mxc}
     M_B = M_0 - \alpha x_1 + \beta c
 \end{equation}
@@ -327,23 +330,13 @@ accélérée de l'Univers, comme discuté dans le chapitre précédent. Elles
 continuent d'être au cœur de la cosmologie actuelle. Nous présentons
 Figure~\ref{fig:hubdiag} le diagramme de \textsc{Hubble} avec les données
 de~\cite{scolnic2018} utilisant des SNe~Ia observées par différents sondages
-(nous les détaillons Chapitre~\ref{ch:surveys}).
-
-\begin{figure}[]
-    \centering
-    \includegraphics[width=.8\linewidth]{hd_panth}
-    \caption[Diagramme de \textsc{Hubble} avec les données de l'analyse
-    Pantheon]{Diagramme de \textsc{Hubble} avec les données de l'analyse
-        Pantheon~\citep{scolnic2018}. Figure reproduite. Nous indiquons en
-        couleur les modules de distance attendus selon la composition
-        énergétique de l'Univers~: nous illustrons ici comment les SNe~Ia
-    permettent de contraindre la physique du cosmos.}\label{fig:hubdiag}
-\end{figure}
+(nous les détaillons Chapitre~\ref{ch:surveys}) formant un échantillon nommé
+\textit{Pantheon}.
 
 Au départ, une incertitude systématique\footnote{Qui est systématiquement
 présente~; due à la physique intrinsèque des SNe~Ia.} de 8\% était suffisante
 pour discriminer des modèles cosmologiques très différents étant donné que les
-incertitudes statistiques\footnote{celles issues du nombre de points de mesure}
+incertitudes statistiques\footnote{Issues du nombre de points de mesure.}
 étaient elles-mêmes dominantes. Seulement, cela devient de moins en moins vrai
 au fur et à mesure que les incertitudes statistiques diminuent grâce à la
 quantité de données recueillies par différents télescopes. Si nous voulons
@@ -357,15 +350,25 @@ dans le chapitre suivant un aperçu des environnements des SNe~Ia et la manière
 dont ils sont utilisés pour la cosmologie moderne. Ce chapitre viendra motiver
 l'étude précise de notre thèse.
 
+\vfill
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{hd_panth}
+    \caption[Diagramme de \textsc{Hubble} avec les données de l'analyse
+    Pantheon]{Diagramme de \textsc{Hubble} avec les données de l'analyse
+        Pantheon~\citep{scolnic2018}. Figure reproduite. Nous indiquons en
+        couleur les modules de distance attendus selon la composition
+        énergétique de l'Univers~: nous illustrons ici comment les SNe~Ia
+    permettent de contraindre la physique du cosmos.}\label{fig:hubdiag}
+\end{figure}
+\vfill
+
 \newpage
 
 \thispagestyle{plain}
-% \vspace*{-3cm}
-\vfill
+\vspace*{\fill}
 \minilof
-\vfill
-\minilot
-\vfill
+\vspace*{\fill}
 
 % \bibliographystyle{../main/aa_url}
 % \shorthandoff{:}

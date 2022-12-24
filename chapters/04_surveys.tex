@@ -29,13 +29,15 @@ en comprendre les spécificités.
 
 Ainsi nous présentons dans ce chapitre les sondages dont nous utilisons les
 données ou qui apparaissent dans cette thèse. Les cinq premiers constituent
-notre échantillon de base, alors que les deux derniers ont une présence limitée
-dans notre étude. Un comparatif des caractéristiques des sondages est présenté
-Tableau~\ref{tab:sondcomp}.
+notre échantillon de base, alors que les deux suivants ont une présence limitée
+dans notre étude. Un échantillon complémentaire est ensuite introduit, et un
+résumé comparatif des caractéristiques des sondages est présenté dans la
+dernière section, notamment Tableau~\ref{tab:sondcomp}.
 
 \vfill
 
 \newpage
+\thispagestyle{plain}
 \vfill
 \minitoc
 \vfill
@@ -378,7 +380,7 @@ Le \textit{Panoramic Survey Telescope And Rapid Response System}
 \citep[Pan-STARRS,][]{chambers2016, scolnic2018} est un site d'imagerie et de
 traitement de données astronomiques à grand champ, dont le premier télescope,
 PS1 (se confondant par la suite avec le nom du sondage) est situé au sommet du
-Mont Haleakala sur l'île Maui de la chaîne d'îles hawaïenne. Son relevé a
+Mont Haleakala sur l'île Maui de la chaîne d'îles hawaïennes. Son relevé a
 commencé en 2009 pour se terminer en 2014. Son intervalle de redshifts sondés
 s'étend de $0,02 < z < 0,65$, et ses objectifs scientifiques sont nombreux. Cela
 inclut la photométrie de précision d'étoiles dans la Voie Lactée, le sondage du
@@ -446,7 +448,7 @@ spectroscopiquement sont la position et la luminosité~: \textit{Magellan} et
 \textit{Gemini} ne peuvent pointer que 5 des 10 champs du MDS, et certains
 appareils ne peuvent acquérir des données qu'à $r_{\rm P1} \lesssim
 \SI{21,5}{mag}$. La quantité de données observées par PS1 a souffert d'un manque
-de maintenant et d'accès aux télescopes ainsi que du mauvais temps, réduisant
+de maintenance et d'accès aux télescopes ainsi que du mauvais temps, réduisant
 l'efficacité de suivi. L'évolution de ce paramètre en fonction de la magnitude
 est discutée dans le chapitre suivant. En résumé, la limite de détection pour
 identifier les phénomènes transitoires produit des courbes de lumière de qualité
@@ -555,8 +557,8 @@ $r$\footnote{\href{https://www.cfht.hawaii.edu/Science/CFHTLS/cfhtlsfinalrelease
 {https://www.cfht.hawaii.edu/Science/CFHTLS/cfhtlsfinalreleaseexecsummary.html}}
 (et \SI{25,5}{mag} en bande $g$). Le système de filtre de SNLS est similaire à
 celui de SDSS (cf. Section~\ref{sec:sdss}), les bandes $g$ et $i$ étant un peu
-plus vers le rouge. Les quatre bandes de SNLS permettent au sondage mesurer la
-couleur de toutes les SNe~Ia sur l'intervalle de redshifts sondés. En effet,
+plus vers le rouge. Les quatre bandes de SNLS permettent au sondage de mesurer
+la couleur de toutes les SNe~Ia sur l'intervalle de redshifts sondés. En effet,
 avec la distance les corrections $K$ deviennent notables, et la couleur est
 définie \textit{via} la différence $B-V$ à bas redshift et $U-B$ à haut
 redshift. Ceci s'effectue grâce à un contrôle de correspondance entre ces
@@ -806,7 +808,7 @@ Section~\ref{ssec:snfdetec}), et se concentre sur la partie nord du ciel. Son
 champ de vision est de \SI{47}{deg^2}, le plus grand de tous les sondages
 jusque-là, intègre 3 filtres $gri$ nommés ztf:g, ztf:r et ztf:i et a une cadence
 moyenne de 3 jours tous champs et filtres confondus. Ses caractéristiques
-uniques lui permettent de d'observer la totalité du ciel visible plus d'une fois
+uniques lui permettent d'observer la totalité du ciel visible plus d'une fois
 par nuit en moyenne avec une magnitude limite typique de \SI{20.5}{mag},
 impliquant un rendu en SNe extrêmement élevé avec environ \num{1e5} alertes de
 candidats par nuit. En moyenne, les données récoltées ont environ 10 points de
@@ -829,6 +831,7 @@ Figure~\ref{fig:ztfbands} et un exemple de courbe de lumière produite
         du SVO \citep{rodrigo2020}.}
         \label{fig:ztfbands}
     \end{subfigure}
+    \hfill
     \begin{subfigure}[]{.49\linewidth}
         \centering
         \includegraphics[width=\linewidth]{lc_ZTF19aantarc.pdf}
@@ -860,7 +863,7 @@ spectroscopiquement confirmées dans les données de la seconde publication.
 
 \subsection{Données conservées}\label{ssec:ztfdata}
 
-Comme pour le reste des sondages, ZTF inclus des sélections supplémentaires sur
+Comme pour le reste des sondages, ZTF inclut des sélections supplémentaires sur
 les données pour qu'elles soient de qualité «~cosmologique~». Leurs critères
 sont les suivants~:
 \begin{enumerate}
@@ -915,10 +918,10 @@ Au travers des sections précédentes, nous avons pu avoir un aperçu de la
 complexité que représentent les relevés cosmologiques. La variété des
 intervalles de redshifts et donc des caractéristiques des sondages impose des
 instruments variés, des stratégies spécifiques, mais également des calibrations
-différentes. Travailler avec de nombreux pipelines d'analyse rend la combinaison
-de sondages fastidieuse. C'est cet aspect que les prochains grands relevés
-cosmologiques tentent d'améliorer~: le sondage \textit{Vera Rubin Observatory},
-\textit{via} le \textit{Large Synoptic Survey Telescope}
+différentes. Travailler avec de nombreuses chaînes d'analyses rend la
+combinaison de sondages fastidieuse. C'est cet aspect que les prochains grands
+relevés cosmologiques tentent d'améliorer~: le sondage \textit{Vera Rubin
+Observatory}, \textit{via} le \textit{Large Synoptic Survey Telescope}
 \citep[LSST,][]{ivezic2019}, a pour objectif de couvrir un intervalle de
 redshifts extrêmement grand, et le sondage de la \textit{Zwicky Transient
 Facility} répond aux difficultés particulières de la partie à faible redshift de
@@ -983,12 +986,11 @@ réunis et représente le futur de la cosmologie basée sur les SNe~Ia.
 \newpage
 
 \thispagestyle{plain}
-% \vspace*{-3cm}
-\vfill
+\vspace*{\fill}
 \minilof
-\vfill
+\vspace*{\fill}
 \minilot
-\vfill
+\vspace*{\fill}
 
 % \bibliographystyle{../main/aa_url}
 % \shorthandoff{:}
