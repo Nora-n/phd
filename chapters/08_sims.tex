@@ -31,6 +31,16 @@ regarder l'impact de ces différentes hypothèses sur la valeur calculée de $w$
 \minitoc
 \vfill
 
+\clearpage
+
+\thispagestyle{plain}
+\vspace*{-3cm}
+\vfill
+\minilof
+\vfill
+\minilot
+\vfill
+
 \newpage
 
 \section{Présentation des \hostlib}\label{sec:hpres}
@@ -715,7 +725,7 @@ et pour le modèle NR.
     \caption[Fraction de jeunes étoiles en fonction de la masse pour le modèle
     de masse SNfsupp]{\textit{En violet (jaune)}~: fraction de jeunes étoiles en
         fonction de la masse pour le modèle de masse SNfsupp au redshift moyen
-        de la \hostlib\ utilisée à hauts (bas) redshifts.\smallbreak \textit{En
+        de la \hostlib\ utilisée à bas (hauts) redshifts.\smallbreak \textit{En
         orange}~: même fraction mais pour l'échantillon simulé NR. Nous
         observons bien ici la suppression du modèle pour
     $M_* > 10^{11}\si{\Msun}$.}
@@ -910,7 +920,7 @@ du redshift de la \hostlib.
     \centering
     \includegraphics[width=.5\linewidth]{snana_diagnostic_hist_x1-panth_surv_NRSNFSUPP-LOWZ}
     \caption[Histogrammes des données testées et conservées du modèle NR pour le
-    sondage LOWZ]{Histogrammes des étirements des données de LOWZ~:\textit{en
+    sondage LOWZ]{Histogrammes des étirements des données de LOWZ~: \textit{en
         rouge} celles de Pantheon~; \textit{en violet} les données testées et
         \textit{en orange} les données conservées pour le modèle NR. Le
         modèle~\citetalias{nicolas2021} évalué aux fractions des jeunes SNe~Ia
@@ -1355,7 +1365,7 @@ l'évolution avec le redshift sont les effets dominants.
     pour les différents modèles de masse]{\textit{De gauche à droite}~: modèles
         SNfsupp, SNf et SEDSNf. \textit{En violet (jaune)}~: fraction de jeunes
         étoiles en fonction de la masse au redshift moyen de la \hostlib\
-        utilisée à hauts (bas) redshifts~; \textit{en orange}~: même fraction
+        utilisée à bas (hauts) redshifts~; \textit{en orange}~: même fraction
     mais pour l'échantillon simulé NR.}
     \label{fig:fyvM}
 \end{figure}
@@ -1423,7 +1433,7 @@ avons pu mettre en lumière les éléments suivants~:
         les sondages totaux et non coupés en redshift~; celui-ci s'est notamment
         avéré être une meilleure description des données à haut redshift que les
         modèles SK ou BP, confortant les indices en faveur de cette évolution~;
-    \item chacune des modélisations (SK, BP, NN, NR) sont de bonnes
+    \item Chacune des modélisations (SK, BP, NN, NR) sont de bonnes
         représentations des données. La nature ciblée du sondage LOWZ en fait
         un échantillon que nous n'avons pas pu reproduire dans l'état, suivant
         notre approche de modèle prospectif d'étirement, mais il pourrait y être
@@ -1431,20 +1441,20 @@ avons pu mettre en lumière les éléments suivants~:
     % \item Nous avons mis en évidence la limite actuelle de l'ensemble de
     %     logiciels \snana\ à prendre en considération l'âge d'une SN comme
     %     traceur de ses propriétés~;
-    \item nous avons mis en évidence la limite au fait de considérer la masse
+    \item Nous avons mis en évidence la limite au fait de considérer la masse
         comme un traceur efficace des propriétés dérivant de l'âge d'une SN~;
-    \item nous trouvons que $\gamma_{\rm masse}$ est réduit par rapport à
-        $\gamma_{\rm age}$, de manière consistante avec~\cite{briday2022}~;
+    \item Nous trouvons que $\gamma_{\rm masse}$ est réduit par rapport à
+        $\gamma_\text{âge}$, de manière consistante avec~\cite{briday2022}~;
         % Limitations of taking mass as a tracer of age-derived properties.
         % Gamma_mass is reduced relative to gamma_age, consistant with
         % briday2022.
-    \item nous avons montré que les modèles simulés et corrigés de la même
+    \item Nous avons montré que les modèles simulés et corrigés de la même
         manière ne présentent pas de biais dans la récupération des valeurs de
         $w$, mais qu'il existe un biais aux alentours de 5\% dans l'hypothèse
         d'une modélisation erronée (NR\_NR)~;
         % If simulate and correct in the same world, no bias; big bias of 5% due
         % to incorrect modeling (NR vs NR)
-    \item par rapport à l'état de l'art actuel des analyses cosmologiques
+    \item Par rapport à l'état de l'art actuel des analyses cosmologiques
         \citepalias{popovic2021a}, il pourrait y avoir un biais de l'ordre de
         4\% si l'âge constitue le paramètre à l'origine des propriétés des
         SNe~Ia. Cette valeur, compatible avec les incertitudes actuelles, pourra
@@ -1458,16 +1468,6 @@ avons pu mettre en lumière les éléments suivants~:
 Ces biais pourraient être corrigés avec l'implémentation de l'âge comme
 paramètre décrivant la physique intrinsèque des SNe~Ia, et ouvrirait la voix à
 l'étude du biais cosmologique issu de l'utilisation de différents traceurs.
-
-\clearpage
-
-\thispagestyle{plain}
-\vspace*{-3cm}
-\vfill
-\minilof
-\vfill
-\minilot
-\vfill
 
 % \bibliographystyle{../main/aa_url}
 % \shorthandoff{:}

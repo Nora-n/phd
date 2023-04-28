@@ -406,7 +406,7 @@
         \pgfplotstableread{../data/zFitted.txt}{\zfit}
         \begin{axis}[name=zdump, scale=0.7,
             at={(cdump.right of north east)},
-            anchor=left of north west,
+            xshift=0.5cm, anchor=left of north west,
             xmin=0, xmax=\zxmax,
             ymin=0, ymax=\zymax,
             xlabel=$z$, ylabel=$P$,
@@ -452,7 +452,7 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % Plot orange in PHOT to CONS
     \draw[orange, dashed, ->, >=Stealth] 
-        ([shift={(0.1cm,0)}]righto.east) --++ (0.4cm,0) |-
+        ([shift={(0.1cm,0)}]righto.east) --++ (0.5cm,0) |-
             node [left, rotate=90, font=\bfseries,
                   anchor=east, yshift=-0.3cm] {Ajustement conserv\'e}
         ([shift={(-0.1,-0.2)}]CONSBOX.west);
@@ -465,12 +465,12 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \begin{pgfonlayer}{background}
         \draw[fill=orange!20, rounded corners]
-            ([shift={(0, -2pt)}]CONSBOX.north east |- CONSHEAD.south east) --
+            ([shift={(2pt, -2pt)}]CONSBOX.north east |- CONSHEAD.south east) --
                 % node (CONSNUM) {} --
             ([shift={(0, -2pt)}]CONSBOX.north west |- CONSHEAD.south west)
                 node (CONSNUM) {} --
             (CONSBOX.south west) --
-            (CONSBOX.south east) --
+            ([shift={(2pt, 0pt)}]CONSBOX.south east) --
             cycle ;
         \node[below right, scale=2, draw, rounded corners] at (CONSNUM.center) {5};
         % \path (CONSBOX.north west) -- node[midway, black!10, scale=20]

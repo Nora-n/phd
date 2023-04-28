@@ -1,43 +1,43 @@
-\babel@toc {french}{}
+\babel@toc {french}{}\relax 
 \addvspace {10\p@ }
-\contentsline {xchapter}{Contexte cosmologique}{1}{chapter.1}
+\contentsline {xchapter}{Contexte cosmologique}{1}{chapter.1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Supernovae de type Ia}{17}{chapter.2}
+\contentsline {xchapter}{Supernovae de type Ia}{17}{chapter.2}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Variabilit\'es environnementales des SNe~Ia}{27}{chapter.3}
+\contentsline {xchapter}{Variabilit\'es environnementales des SNe~Ia}{27}{chapter.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Pr\'esentation des sondages}{39}{chapter.4}
-\contentsline {table}{\numberline {IV.1}{\ignorespaces Crit\IeC {\`e}res de s\IeC {\'e}lection des SNe~Ia suivies par SNfactory.\relax }}{43}{table.caption.26}
-\contentsline {table}{\numberline {IV.2}{\ignorespaces Crit\IeC {\`e}res de s\IeC {\'e}lection des SNe~Ia suivies par PS1.\relax }}{48}{table.caption.31}
-\contentsline {table}{\numberline {IV.3}{\ignorespaces Nombre de SNe~Ia de notre \IeC {\'e}chantillon HST selon la source}}{53}{table.caption.37}
-\contentsline {table}{\numberline {IV.4}{\ignorespaces Comparaison des caract\IeC {\'e}ristiques des sondages utilis\IeC {\'e}s.\relax }}{58}{table.caption.45}
+\contentsline {xchapter}{Pr\'esentation des sondages}{39}{chapter.4}%
+\contentsline {table}{\numberline {IV.1}{\ignorespaces Critères de sélection des SNe~Ia suivies par SNfactory.\relax }}{44}{table.caption.26}%
+\contentsline {table}{\numberline {IV.2}{\ignorespaces Critères de sélection des SNe~Ia suivies par PS1.\relax }}{49}{table.caption.31}%
+\contentsline {table}{\numberline {IV.3}{\ignorespaces Nombre de SNe~Ia de notre échantillon HST selon la source}}{54}{table.caption.37}%
+\contentsline {table}{\numberline {IV.4}{\ignorespaces Comparaison des caractéristiques des sondages utilisés.\relax }}{59}{table.caption.45}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Cr\'eation d'un \'echantillon complet}{61}{chapter.5}
-\contentsline {table}{\numberline {V.1}{\ignorespaces Valeurs des param\IeC {\`e}tres cosmologiques utilis\IeC {\'e}s pour la d\IeC {\'e}termination statistique du redshift limite des sondages SDSS, SNLS et PS1}}{65}{table.caption.47}
-\contentsline {table}{\numberline {V.2}{\ignorespaces Composition en SNe~Ia de notre \IeC {\'e}chantillon.\relax }}{70}{table.caption.54}
-\contentsline {table}{\numberline {V.3}{\ignorespaces Composition en SNe~Ia pour notre \IeC {\'e}chantillon ZTF.\relax }}{75}{table.caption.59}
+\contentsline {xchapter}{Cr\'eation d'un \'echantillon complet}{61}{chapter.5}%
+\contentsline {table}{\numberline {V.1}{\ignorespaces Valeurs des paramètres cosmologiques utilisés pour la détermination statistique du redshift limite des sondages SDSS, SNLS et PS1}}{66}{table.caption.47}%
+\contentsline {table}{\numberline {V.2}{\ignorespaces Composition en SNe~Ia de notre échantillon.\relax }}{71}{table.caption.54}%
+\contentsline {table}{\numberline {V.3}{\ignorespaces Composition en SNe~Ia pour notre échantillon ZTF.\relax }}{76}{table.caption.59}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{\'Evolution avec le redshift}{79}{chapter.6}
-\contentsline {table}{\numberline {VI.1}{\ignorespaces Valeurs des param\IeC {\`e}tres du mod\IeC {\`e}le d'\IeC {\'e}tirement de base selon l'\IeC {\'e}chantillon}}{82}{table.caption.64}
-\contentsline {table}{\numberline {VI.2}{\ignorespaces Comparaison de la capacit\IeC {\'e} relative de chaque mod\IeC {\`e}le \IeC {\`a} d\IeC {\'e}crire les donn\IeC {\'e}es par rapport au mod\IeC {\`e}le de base}}{84}{table.caption.67}
-\contentsline {table}{\numberline {VI.3}{\ignorespaces Param\IeC {\`e}tres de meilleur ajustement pour notre mod\IeC {\'e}lisation asym\IeC {\'e}trique par \IeC {\'e}chantillon de la distribution d'\IeC {\'e}tirement sous-jacente}}{87}{table.caption.69}
-\contentsline {table}{\numberline {VI.4}{\ignorespaces Comparaison de la capacit\IeC {\'e} relative de chaque mod\IeC {\`e}le \IeC {\`a} d\IeC {\'e}crire les donn\IeC {\'e}es par rapport au mod\IeC {\`e}le de r\IeC {\'e}f\IeC {\'e}rence sans utiliser le LsSFR}}{88}{table.caption.72}
+\contentsline {xchapter}{\'Evolution avec le redshift}{79}{chapter.6}%
+\contentsline {table}{\numberline {VI.1}{\ignorespaces Valeurs des paramètres du modèle d'étirement de base selon l'échantillon}}{83}{table.caption.64}%
+\contentsline {table}{\numberline {VI.2}{\ignorespaces Comparaison de la capacité relative de chaque modèle à décrire les données par rapport au modèle de base}}{85}{table.caption.67}%
+\contentsline {table}{\numberline {VI.3}{\ignorespaces Paramètres de meilleur ajustement pour notre modélisation asymétrique par échantillon de la distribution d'étirement sous-jacente}}{88}{table.caption.69}%
+\contentsline {table}{\numberline {VI.4}{\ignorespaces Comparaison de la capacité relative de chaque modèle à décrire les données par rapport au modèle de référence sans utiliser le LsSFR}}{89}{table.caption.72}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Introduction \`a \texttt {SNANA}}{97}{chapter.7}
-\contentsline {table}{\numberline {VII.1}{\ignorespaces Valeurs des param\IeC {\`e}tres cosmologiques utilis\IeC {\'e}s pour la d\IeC {\'e}termination du module de distance r\IeC {\'e}el de la SN simul\IeC {\'e}e}}{102}{table.caption.84}
+\contentsline {xchapter}{Introduction \`a \texttt {SNANA}}{97}{chapter.7}%
+\contentsline {table}{\numberline {VII.1}{\ignorespaces Valeurs des paramètres cosmologiques utilisés pour la détermination du module de distance réel de la SN simulée}}{103}{table.caption.84}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Impact sur la cosmologie~: simulations}{115}{chapter.8}
-\contentsline {table}{\numberline {VIII.1}{\ignorespaces Param\IeC {\`e}tres des distributions d'\IeC {\'e}tirement et de couleur pour les simulations SK}}{116}{table.caption.90}
-\contentsline {table}{\numberline {VIII.2}{\ignorespaces Param\IeC {\`e}tres de la distribution d'\IeC {\'e}tirement pour l'\IeC {\'e}chantillon LOWZ des simulations SK}}{117}{table.caption.92}
-\contentsline {table}{\numberline {VIII.3}{\ignorespaces Comparaison de la capacit\IeC {\'e} relative de chaque mod\IeC {\`e}le \IeC {\`a} d\IeC {\'e}crire les donn\IeC {\'e}es selon l'\IeC {\'e}chantillon d'ajustement}}{120}{table.caption.95}
-\contentsline {table}{\numberline {VIII.4}{\ignorespaces Valeurs des param\IeC {\`e}tres issus des meilleurs ajustements du mod\IeC {\`e}le Bi-normal sur les \IeC {\'e}chantillons SNf et SEDSNf}}{123}{table.caption.100}
-\contentsline {table}{\numberline {VIII.5}{\ignorespaces Nombre de donn\IeC {\'e}es de nos diff\IeC {\'e}rentes simulations}}{125}{table.caption.102}
-\contentsline {table}{\numberline {VIII.6}{\ignorespaces Comparaison de la capacit\IeC {\'e} de chaque simulation \IeC {\`a} repr\IeC {\'e}senter les donn\IeC {\'e}es en une dimension}}{127}{table.caption.106}
-\contentsline {table}{\numberline {VIII.7}{\ignorespaces Comparaison de la capacit\IeC {\'e} de chaque simulation \IeC {\`a} repr\IeC {\'e}senter les donn\IeC {\'e}es d'\IeC {\'e}tirement selon le sondage}}{129}{table.caption.108}
-\contentsline {table}{\numberline {VIII.8}{\ignorespaces Comparaison de la capacit\IeC {\'e} de chaque simulation \IeC {\`a} repr\IeC {\'e}senter les donn\IeC {\'e}es en deux dimensions}}{130}{table.caption.113}
+\contentsline {xchapter}{Impact sur la cosmologie~: simulations}{115}{chapter.8}%
+\contentsline {table}{\numberline {VIII.1}{\ignorespaces Paramètres des distributions d'étirement et de couleur pour les simulations SK}}{117}{table.caption.90}%
+\contentsline {table}{\numberline {VIII.2}{\ignorespaces Paramètres de la distribution d'étirement pour l'échantillon LOWZ des simulations SK}}{118}{table.caption.92}%
+\contentsline {table}{\numberline {VIII.3}{\ignorespaces Comparaison de la capacité relative de chaque modèle à décrire les données selon l'échantillon d'ajustement}}{121}{table.caption.95}%
+\contentsline {table}{\numberline {VIII.4}{\ignorespaces Valeurs des paramètres issus des meilleurs ajustements du modèle Bi-normal sur les échantillons SNf et SEDSNf}}{124}{table.caption.100}%
+\contentsline {table}{\numberline {VIII.5}{\ignorespaces Nombre de données de nos différentes simulations}}{126}{table.caption.102}%
+\contentsline {table}{\numberline {VIII.6}{\ignorespaces Comparaison de la capacité de chaque simulation à représenter les données en une dimension}}{128}{table.caption.106}%
+\contentsline {table}{\numberline {VIII.7}{\ignorespaces Comparaison de la capacité de chaque simulation à représenter les données d'étirement selon le sondage}}{130}{table.caption.108}%
+\contentsline {table}{\numberline {VIII.8}{\ignorespaces Comparaison de la capacité de chaque simulation à représenter les données en deux dimensions}}{131}{table.caption.113}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Perspectives et discussion}{143}{chapter.9}
-\contentsline {table}{\numberline {IX.1}{\ignorespaces Valeurs des param\IeC {\`e}tres du mod\IeC {\`e}le d'\IeC {\'e}tirement de base selon l'\IeC {\'e}chantillon avec les donn\IeC {\'e}es de ZTF}}{145}{table.caption.124}
-\contentsline {table}{\numberline {IX.2}{\ignorespaces Comparaison de la capacit\IeC {\'e} relative de chaque mod\IeC {\`e}le \IeC {\`a} d\IeC {\'e}crire les donn\IeC {\'e}es par rapport au mod\IeC {\`e}le de base avec les donn\IeC {\'e}es de ZTF}}{147}{table.caption.128}
-\contentsline {table}{\numberline {IX.3}{\ignorespaces Capacit\IeC {\'e} des mod\IeC {\`e}les N21 et N21+ZTF \IeC {\`a} repr\IeC {\'e}senter les donn\IeC {\'e}es}}{148}{table.caption.131}
+\contentsline {xchapter}{Perspectives et discussion}{143}{chapter.9}%
+\contentsline {table}{\numberline {IX.1}{\ignorespaces Valeurs des paramètres du modèle d'étirement de base selon l'échantillon avec les données de ZTF}}{146}{table.caption.124}%
+\contentsline {table}{\numberline {IX.2}{\ignorespaces Comparaison de la capacité relative de chaque modèle à décrire les données par rapport au modèle de base avec les données de ZTF}}{148}{table.caption.128}%
+\contentsline {table}{\numberline {IX.3}{\ignorespaces Capacité des modèles N21 et N21+ZTF à représenter les données}}{149}{table.caption.131}%
 \contentsfinish 

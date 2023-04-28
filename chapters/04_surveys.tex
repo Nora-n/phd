@@ -41,6 +41,16 @@ dernière section, notamment Tableau~\ref{tab:sondcomp}.
 \vfill
 \minitoc
 \vfill
+
+\newpage
+
+\thispagestyle{plain}
+\vspace*{\fill}
+\minilof
+\vspace*{\fill}
+\minilot
+\vspace*{\fill}
+
 \newpage
 
 \section{The Nearby Supernova factory}\label{sec:snf}
@@ -347,10 +357,10 @@ rapport au maximum d'émission en bande $B$, les critères sur les courbes de
 lumière avancés dans~\cite{kessler2009b} sont les suivants~:
 
 \begin{enumerate}
-    \item Au moins 1 mesure avant $T_{\rm rest} < \SI{0}{jour}$~;
-    \item Au moins 1 mesure après $T_{\rm rest} > \SI{10}{jours}$~;
-    \item Au moins 5 mesures entre $-15 < T_{\rm rest} < \SI{60}{jours}$~;
-    \item Au moins 1 mesure avec un rapport signal sur bruit > 5 en bande $g$,
+    \item au moins 1 mesure avant $T_{\rm rest} < \SI{0}{jour}$~;
+    \item au moins 1 mesure après $T_{\rm rest} > \SI{10}{jours}$~;
+    \item au moins 5 mesures entre $-15 < T_{\rm rest} < \SI{60}{jours}$~;
+    \item au moins 1 mesure avec un rapport signal sur bruit > 5 en bande $g$,
         $r$ et $i$~;
     \item $\mathcal{P}_{\rm fit} > 0,001$, où $\mathcal{P}_{\rm fit}$ est la
         probabilité d'optimisation par degré de liberté donné par le programme
@@ -464,19 +474,19 @@ correctement les paramètres d'optimisation et que ses propriétés
 permettent de limiter les biais systématiques dans la distance finale.
 Ainsi,~\cite{scolnic2018} utilisent les coupes suivantes~:
 \begin{enumerate}
-    \item Optimisation donnant $\chi^2/\mathrm{NDOF} < 3,0$ (avec NDOF le nombre
+    \item optimisation donnant $\chi^2/\mathrm{NDOF} < 3,0$ (avec NDOF le nombre
         de degrés de liberté), réduisant le sondage à 332 données~;
-    \item Erreur sur $x_1$ ($\s_{x_1}$) $< 1,0$, laissant 303 SNe~Ia~;
-    \item Erreur sur le pic de magnitude ($\s_{\rm pkmjd}$) $< 2,0$, ne causant
+    \item erreur sur $x_1$ ($\s_{x_1}$) $< 1,0$, laissant 303 SNe~Ia~;
+    \item erreur sur le pic de magnitude ($\s_{\rm pkmjd}$) $< 2,0$, ne causant
         aucune coupe~;
-    \item Paramètre de couleur $c$ tel que $-0,3 < c < 0,3$, rejetant 10 SNe~Ia
+    \item paramètre de couleur $c$ tel que $-0,3 < c < 0,3$, rejetant 10 SNe~Ia
         pour 293 restantes~;
-    \item Paramètre d'étirement $x_1$ tel que $-3 < x_1 < 3$, que 5 SNe~Ia ne
+    \item paramètre d'étirement $x_1$ tel que $-3 < x_1 < 3$, que 5 SNe~Ia ne
         vérifient pas~;
-    \item Extinction de la Voie Lactée $E(B-V)_{\rm MW}< \SI{0,20}{mag}$, ne
+    \item extinction de la Voie Lactée $E(B-V)_{\rm MW}< \SI{0,20}{mag}$, ne
         s'appliquant pas aux données de PS1 grâce à la faible extinction des
         champs du MDS~;
-    \item Au moins une mesure à $T_{\rm rest} > \SI{5}{jours}$, excluant 6
+    \item au moins une mesure à $T_{\rm rest} > \SI{5}{jours}$, excluant 6
         SNe~Ia pour un total de 282 SNe~Ia.
 \end{enumerate}
 Une ultime coupe de l'analyse cosmologique par \textit{BEAMS with Bias
@@ -819,7 +829,7 @@ l'échantillonnage pré-explosion. Les transmissions des filtres sont présenté
 Figure~\ref{fig:ztfbands} et un exemple de courbe de lumière produite
 \textit{via} le module \texttt{ztfidr}
 \footnote{\label{fn:ztfidr}\href{https://github.com/MickaelRigault/ztfidr}
-{https://github.com/MickaelRigault/ztfidr}} est donné Figure~\ref{fig:ztflc}. 
+{https://github.com/MickaelRigault/ztfidr}} est donné Figure~\ref{fig:ztflc}.
 
 \begin{figure}[ht]
     \centering
@@ -868,11 +878,12 @@ les données pour qu'elles soient de qualité «~cosmologique~». Leurs critère
 sont les suivants~:
 \begin{enumerate}
     \item Les données doivent provenir d'une image sans label indiquant une
-        mauvaise qualité~;
-    \item Seuls les points photométriques détectés à 5$\sigma$ sont considérés~;
-    \item Au moins 7 mesures entre -15 < $T_{\rm rest}$ < \SI{30}{jours}~;
-    \item Au moins 2 bandes avant et après le maximum d'émission parmi tous ces
-        points.
+        mauvaise qualité.
+    \item Seuls les points photométriques détectés à 5$\sigma$ sont considérés.
+    \item Il doit y avoir au moins 7 mesures entre -15 < $T_{\rm rest}$ <
+      \SI{30}{jours}.
+    \item Il doit y avoir au moins 2 bandes avant et après le maximum d'émission
+      parmi tous ces points.
 \end{enumerate}
 En plus de ces critères de qualité, l'échantillon retenu dans notre analyse suit
 les sélections suivantes~:
@@ -982,15 +993,6 @@ réunis et représente le futur de la cosmologie basée sur les SNe~Ia.
 \end{table}
 \shorthandon{:}
 \vfill
-
-\newpage
-
-\thispagestyle{plain}
-\vspace*{\fill}
-\minilof
-\vspace*{\fill}
-\minilot
-\vspace*{\fill}
 
 % \bibliographystyle{../main/aa_url}
 % \shorthandoff{:}

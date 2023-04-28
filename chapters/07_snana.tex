@@ -42,6 +42,15 @@ et le calcul des paramètres cosmologiques (Section~\ref{sec:biais}).
 \minitoc
 \vfill
 
+\clearpage
+
+\thispagestyle{plain}
+\vspace*{\fill}
+\minilof
+\vspace*{\fill}
+\minilot
+\vspace*{\fill}
+
 \newpage
 
 \section{Contexte}\label{sec:snanacont}
@@ -638,20 +647,6 @@ définies les matrices découpées en 3D précédentes. Nous utilisons $\alpha =
 intrinsèque est basée sur~\citetalias{guy2010}). Nous illustrons ce principe
 Figure~\ref{fig:mat5D}.
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=.8\linewidth]{matrices_cube.pdf}
-    \caption[Schéma de fonctionnement de la correction de biais à 5 dimensions
-    de la méthode \bbc5D]{Schéma de fonctionnement de la correction de biais à 5
-        dimensions de la méthode \bbc5D~: les paramètres $\alpha$ et $\beta$
-        sont générés sur une grille de taille $2\times2$, et à chacune des
-        valeurs de cette grille sont associées les matrices de découpe de
-    l'échantillon BiasCor en 3 dimensions~: $x_1$, $c$ et $z$. Les valeurs
-finales à ajouter au module de distance de la SN simulée résulte de
-l'interpolation en 5D du meilleur ajustement.}
-    \label{fig:mat5D}
-\end{figure}
-
 Les valeurs finales de correction sont les interpolations en 3 dimensions de
 $\delta\mu_{\rm biais}$ à chaque valeur de $\alpha$ et $\beta$ pour chaque
 itération de l'ajustement \bbc, dont les résultats sont également interpolés
@@ -659,21 +654,6 @@ linéairement. Une fois ces valeurs corrigées, $\alpha$, $\beta$, $\gamma_{\rm
 env}$, $M_{z_i}$ et $\sigma_{\mu}$ sont minimisés par \saltmu, et l'ajustement
 de $M_{z_i}$ en fonction du redshift par \wfit\ donne les valeurs des paramètres
 cosmologiques. Ce fonctionnement est résumé Figure~\ref{fig:bbc5d}.
-
-\begin{figure}[]
-    \centering
-    \includegraphics[scale=2]{bbc5D.pdf}
-    \caption[Schéma de fonctionnement de la méthode de correction de biais de
-    \bbc5D]{Schéma de fonctionnement de la méthode de correction de biais de
-        \bbc\ lorsqu'elle est dans sa version à 5 dimensions. Contrairement à
-        \bbc1D, ici l'ajustement de $\alpha$ et $\beta$ se fait en même temps
-        que la correction de biais, cette dernière étant dépendante des valeurs
-        des premières. Les valeurs de $\delta\mu_{\rm biais}$ à ajouter à $\mu$
-        \textbf{et} de $\alpha$ et $\beta$ sont les interpolations du meilleur
-        ajustement, donnant en sortie des $M_{z_i}$ qui permettent l'ajustement
-    par \wfit.}
-    \label{fig:bbc5d}
-\end{figure}
 
 \subsection{\bbc7D}\label{ssec:bbc7D}
 
@@ -714,14 +694,37 @@ voulons tester et créons pour ce faire nos propres \hostlib, où l'étirement e
 donné par le modèle du Chapitre~\ref{ch:stretch} et publié
 dans~\cite{nicolas2021}.
 
-\clearpage
+\begin{landscape}
+\begin{figure}[p]
+    \centerfloat
+    \thisfloatpagestyle{empty}
+    \includegraphics[width=\linewidth]{matrices_cube.pdf}
+    \caption[Schéma de fonctionnement de la correction de biais à 5 dimensions
+    de la méthode \bbc5D]{Schéma de fonctionnement de la correction de biais à 5
+        dimensions de la méthode \bbc5D~: les paramètres $\alpha$ et $\beta$
+        sont générés sur une grille de taille $2\times2$, et à chacune des
+        valeurs de cette grille sont associées les matrices de découpe de
+    l'échantillon BiasCor en 3 dimensions~: $x_1$, $c$ et $z$. Les valeurs
+finales à ajouter au module de distance de la SN simulée résulte de
+l'interpolation en 5D du meilleur ajustement.}
+    \label{fig:mat5D}
+\end{figure}
+\end{landscape}
 
-\thispagestyle{plain}
-\vspace*{\fill}
-\minilof
-\vspace*{\fill}
-\minilot
-\vspace*{\fill}
+\begin{figure}[]
+    \centering
+    \includegraphics[scale=2]{bbc5D.pdf}
+    \caption[Schéma de fonctionnement de la méthode de correction de biais de
+    \bbc5D]{Schéma de fonctionnement de la méthode de correction de biais de
+        \bbc\ lorsqu'elle est dans sa version à 5 dimensions. Contrairement à
+        \bbc1D, ici l'ajustement de $\alpha$ et $\beta$ se fait en même temps
+        que la correction de biais, cette dernière étant dépendante des valeurs
+        des premières. Les valeurs de $\delta\mu_{\rm biais}$ à ajouter à $\mu$
+        \textbf{et} de $\alpha$ et $\beta$ sont les interpolations du meilleur
+        ajustement, donnant en sortie des $M_{z_i}$ qui permettent l'ajustement
+    par \wfit.}
+    \label{fig:bbc5d}
+\end{figure}
 
 % \bibliographystyle{../main/aa_url}
 % \shorthandoff{:}
