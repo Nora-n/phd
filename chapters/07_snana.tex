@@ -117,16 +117,16 @@ fonctionnent, ces librairies précèdent le procédé de simulation.
 
 D'une manière générale, chaque galaxie de la \hostlib\ est décrite par~:
 \begin{enumerate}
-    \item Un numéro d'identification (\texttt{GALID})~;
-    \item Une position de son centre dans le ciel \textit{via} la donnée
+    \item un numéro d'identification (\texttt{GALID})~;
+    \item une position de son centre dans le ciel \textit{via} la donnée
         d'ascension droite (\texttt{RA\_GAL}) et de déclinaison
         (\texttt{DEC\_GAL})~;
-    \item Un redshift photométrique ($z_{\rm TRUE}$)~;
-    \item Ses magnitudes dans les différentes bandes photométriques ($grizY_{\rm
+    \item un redshift photométrique ($z_{\rm TRUE}$)~;
+    \item ses magnitudes dans les différentes bandes photométriques ($grizY_{\rm
         obs}$)~;
-    \item Un profil de \textsc{Sérsic} (décrivant l'évolution de son intensité
+    \item un profil de \textsc{Sérsic} (décrivant l'évolution de son intensité
         avec la distance $R$ de son centre)~;
-    \item Une masse en échelle logarithmique en masses solaires
+    \item une masse en échelle logarithmique en masses solaires
         (\texttt{LOGMASS}) et son erreur (\texttt{LOGMASS\_ERR}).
 \end{enumerate}
 Ces caractéristiques permettent, lors de la simulation d'une supernova, de la
@@ -136,10 +136,10 @@ un bruit Poissonnien aux courbes de lumières qui suivront \citep{kessler2019}.
 Dans notre cas le plus complexe, la \hostlib\ présente également les
 caractéristiques qu'une SN de cette galaxie hôte doit respecter~:
 \begin{enumerate}[resume]
-    \item Sa couleur \texttt{C}~;
-    \item Son étirement \texttt{X1}~:
-    \item Son âge \textit{via} le \texttt{LSSFR}~;
-    \item La marche de magnitude associée \texttt{SNMAGSHIFT} (voir
+    \item sa couleur \texttt{C}~;
+    \item son étirement \texttt{X1}~:
+    \item son âge \textit{via} le \texttt{LSSFR}~;
+    \item la marche de magnitude associée \texttt{SNMAGSHIFT} (voir
         Chapitre~\ref{ch:env}).
 \end{enumerate}
 La \hostlib\ apparaît donc, dans notre cadre d'étude, comme l'élément clé
@@ -228,13 +228,13 @@ basées sur la masse.
 La simulation d'une supernova suit ensuite trois étapes majeures, décrites
 dans~\cite{kessler2019}~:
 \begin{enumerate}
-    \item Génération de la source et application d'effets cosmologiques,
+    \item génération de la source et application d'effets cosmologiques,
         simulant la propagation de sa lumière de son origine au haut de
         l'atmosphère~;
-    \item Simulation de la réponse instrumentale selon le sondage (par exemple,
+    \item simulation de la réponse instrumentale selon le sondage (par exemple,
         conversion de la magnitude en flux de photons captés par une caméra CCD,
         bruit de l'instrument…)~;
-    \item Simulation de la détection, incluant les critères pour que la SN soit
+    \item simulation de la détection, incluant les critères pour que la SN soit
         un candidat à l'observation (voir Chapitre~\ref{ch:surveys}) et
         l'efficacité spectroscopique du sondage.
 \end{enumerate}
@@ -378,13 +378,13 @@ spectroscopique, nous décrivons ainsi les étapes d'une simulation dans l'ordre
 suivant correspondant aux numéros des encadrés de la
 Figure~\ref{fig:snana_func}~:
 \begin{enumerate}
-    \item Sélection d'un redshift à partir d'un modèle de taux de SNe~Ia~;
-    \item Correspondance avec une galaxie hôte de la \hostlib\ pondérée par une
+    \item sélection d'un redshift à partir d'un modèle de taux de SNe~Ia~;
+    \item correspondance avec une galaxie hôte de la \hostlib\ pondérée par une
         \wgtmap\ et génération du modèle avec les paramètres d'étirement et de
         couleur correspondants~;
-    \item Simulation de la réponse instrumentale menant à la courbe de lumière~;
-    \item Application des critères de détection et de sélection des données~;
-    \item Conservation des données passant les précédentes étapes.
+    \item simulation de la réponse instrumentale menant à la courbe de lumière~;
+    \item application des critères de détection et de sélection des données~;
+    \item conservation des données passant les précédentes étapes.
 \end{enumerate}
 Sur la figure, la distribution des redshifts provient de l'Équation~6
 de~\cite{perrett2012} avec les valeurs de~\cite{popovic2021a} se basant sur
@@ -408,7 +408,7 @@ SDSS \citep{sako2018}. La \wgtmap\ et l'efficacité spectroscopique sont celles
 de~\cite{popovic2021a}.
 
 \begin{figure}[p]
-    \vspace*{-3.2cm}
+    \vspace*{-2.9cm}
     \thisfloatpagestyle{empty}
     \centerfloat
     \includegraphics[width=1\linewidth]{snana_layout}
@@ -598,11 +598,11 @@ de \bbc1D, en corrigeant cette fois $m_B$, $x_1$ et $c$ à l'aide de
 l'échantillon BiasCor. Plutôt que de le séquencer uniquement en redshift pour
 déterminer $\delta_{m_B}$, il est divisé en cellules de tailles
 $(0,05~;~0,50~;~0,05)$ respectivement. Les corrections $\delta_{m_B}$,
-$\delta_{x_1}$ et $\delta_c$ à appliquer sont alors calculées de l'interpolation
-des moyennes pondérées des SNe dans chacune des cellules. Nous représentons ce
-procédé Figure~\ref{fig:mat}, où les exposants correspondent aux intervalles
-selon $c$, $x_1$ et $z$ respectivement, pour lesquels le nombre total
-d'intervalles est $C$, $X$ et $Z$, respectivement. L'indice $p$ indique le
+$\delta_{x_1}$ et $\delta_c$ à appliquer sont alors calculées à partir de
+l'interpolation des moyennes pondérées des SNe dans chacune des cellules. Nous
+représentons ce procédé Figure~\ref{fig:mat}, où les exposants correspondent aux
+intervalles selon $c$, $x_1$ et $z$ respectivement, pour lesquels le nombre
+total d'intervalles est $C$, $X$ et $Z$, respectivement. L'indice $p$ indique le
 paramètre à sélectionner dans la cellule en question pour obtenir le biais
 correspondant.
 

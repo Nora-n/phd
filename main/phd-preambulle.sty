@@ -19,9 +19,9 @@
 % Better file and folder management
 \RequirePackage{subfiles}
 % To make a landscape document
-\RequirePackage{pdflscape} 
+\RequirePackage{pdflscape}
 % Define margins globally
-\RequirePackage[margin=2.5cm, top=3cm, bottom=3cm]{geometry}
+\RequirePackage[margin=2.5cm, top=2.5cm, bottom=3.5cm]{geometry}
 % To locally change margins
 \RequirePackage{changepage}
 % To resize tables inside threeparttable for instance
@@ -225,18 +225,20 @@
 
 % Pretty units
 \RequirePackage{siunitx}
+\NewCommandCopy\mycdot\cdot
 \sisetup{%
   detect-all,
   free-standing-units,          % create standalone commands
   locale=FR,
-  inter-unit-product={\,},      % character between units
+  inter-unit-product=
+    {\ensuremath{\mycdot}},     % character between units
   separate-uncertainty,         % x ± dx
   retain-explicit-plus,         % p.ex. +45°
   % angle-symbol-over-decimal,    % p.ex. 0.''11
   range-units=brackets,         % (0 to 40) m
   open-bracket= [,
   close-bracket= ],
-  range-phrase=\textup{--},     % 0--40 m
+  range-phrase=~;~,              % 0~;~40 m
 }
 \def\Lsun{L\ensuremath{_{\odot}}}
 \def\Rsun{R\ensuremath{_{\odot}}}

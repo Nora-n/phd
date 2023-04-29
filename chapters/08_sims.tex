@@ -305,7 +305,6 @@ modélisations n'ayant pas d'intérêt physique ou mathématique, c'est-à-dire 
 modélisations constantes avec le redshift (notamment les Gaussienne simple et
 Gaussienne asymétrique pure) et les modèles ne convergeant pas. Ainsi, nous
 présentons les modèles suivants~:
-
 \begin{itemize}
     \item «~Bi-normal~»\footnote{Même paramétrisation que le modèle
             «~Howell~»~\citep{howell2007} pour le stretch, voir
@@ -413,7 +412,7 @@ modèles implémentés variant en redshift.
 \end{SCfigure}
 
 \begin{figure}[htbp]
-    \vspace*{-3cm}
+    \vspace*{-2.7cm}
     \centerfloat
     \includegraphics[width=1.1\linewidth]{mass_model_all_evol-small.pdf}
     \caption[Modèles implémentés et testés dans l'étude de l'évolution de
@@ -483,8 +482,8 @@ ajusté sur SNf passe en effet par 50\% à $M_*=10^{10}\si{\Msun}$.
 
 Nous conservons ainsi les modèles suivants~:
 \begin{enumerate}
-    \item Le modèle Bi-normal ajusté sur SEDSNf~;
-    \item Le modèle Bi-normal ajusté sur SNf~;
+    \item le modèle Bi-normal ajusté sur SEDSNf~;
+    \item le modèle Bi-normal ajusté sur SNf~;
 \end{enumerate}
 et pour reproduire artificiellement la descente de la fraction de jeunes étoiles
 en fonction de la masse attendue, nous avons également~:
@@ -977,16 +976,16 @@ plus grande probabilité représente un meilleur accord.
 % \end{figure}
 
 \begin{figure}[p]
-    \vspace*{-2.2cm}
+    \vspace*{-2cm}
     \thisfloatpagestyle{empty}
     \centerfloat
-    \includegraphics[width=.9\linewidth]{FULL-SNFSUPP_all_RS-MS_kernels}
+    \includegraphics[width=.95\linewidth]{FULL-SNFSUPP_all_RS-MS_kernels}
     \caption[Accord entre les données réelles et simulées en 2 dimensions pour
-    tous les modèles]{Accord données réelles (en points bleus transparents) et
-        simulées (en couleur) en 2D pour tous les modèles. \textit{À gauche}~:
-        étirement en ordonnée et masse en abscisse. \textit{À droite}~:
-        étirement en ordonnée et redshift en abscisse. \textit{De haut en bas}~:
-    modèles SK, BP, NN et NR, respectivement, voir légende. Les couleurs
+    tous les modèles]{Accord entre les données réelles (en points bleus
+      transparents) et simulées (en couleur) en 2D pour tous les modèles.
+      \textit{À gauche}~: étirement en ordonnée et masse en abscisse. \textit{À
+    droite}~: étirement en ordonnée et redshift en abscisse. \textit{De haut en
+  bas}~: modèles SK, BP, NN et NR, respectivement, voir légende. Les couleurs
 correspondent à celles de la Figure~\ref{fig:hist1d}.}
     \label{fig:2dhex}
 \end{figure}
@@ -1340,7 +1339,7 @@ l'évolution avec le redshift sont les effets dominants.
 \begin{figure}[p]
     \centerfloat
     \thisfloatpagestyle{empty}
-    \vspace{-0.5cm}
+    %\vspace{-0.5cm}
     \begin{subfigure}[]{.30\linewidth}
         \centering
         \includegraphics[height=8cm]{snana_diagnostic_fyvM_NRSNFSUPP}
@@ -1430,7 +1429,7 @@ avons pu mettre en lumière les éléments suivants~:
     \item Nous avons testé la robustesse du modèle d'évolution de l'étirement
         avec le redshift développé dans~\cite{nicolas2021} et présenté au
         Chapitre~\ref{ch:stretch}, qui a été utilisé avec succès pour reproduire
-        les sondages totaux et non coupés en redshift~; celui-ci s'est notamment
+        les sondages totaux et non coupés en redshift. Celui-ci s'est notamment
         avéré être une meilleure description des données à haut redshift que les
         modèles SK ou BP, confortant les indices en faveur de cette évolution~;
     \item Chacune des modélisations (SK, BP, NN, NR) sont de bonnes
@@ -1438,22 +1437,14 @@ avons pu mettre en lumière les éléments suivants~:
         un échantillon que nous n'avons pas pu reproduire dans l'état, suivant
         notre approche de modèle prospectif d'étirement, mais il pourrait y être
         ajusté~;
-    % \item Nous avons mis en évidence la limite actuelle de l'ensemble de
-    %     logiciels \snana\ à prendre en considération l'âge d'une SN comme
-    %     traceur de ses propriétés~;
     \item Nous avons mis en évidence la limite au fait de considérer la masse
         comme un traceur efficace des propriétés dérivant de l'âge d'une SN~;
     \item Nous trouvons que $\gamma_{\rm masse}$ est réduit par rapport à
         $\gamma_\text{âge}$, de manière consistante avec~\cite{briday2022}~;
-        % Limitations of taking mass as a tracer of age-derived properties.
-        % Gamma_mass is reduced relative to gamma_age, consistant with
-        % briday2022.
     \item Nous avons montré que les modèles simulés et corrigés de la même
         manière ne présentent pas de biais dans la récupération des valeurs de
         $w$, mais qu'il existe un biais aux alentours de 5\% dans l'hypothèse
         d'une modélisation erronée (NR\_NR)~;
-        % If simulate and correct in the same world, no bias; big bias of 5% due
-        % to incorrect modeling (NR vs NR)
     \item Par rapport à l'état de l'art actuel des analyses cosmologiques
         \citepalias{popovic2021a}, il pourrait y avoir un biais de l'ordre de
         4\% si l'âge constitue le paramètre à l'origine des propriétés des
@@ -1461,8 +1452,6 @@ avons pu mettre en lumière les éléments suivants~:
         se révéler critique à l'ère des futurs grands relevés cosmologiques
         comme LSST qui apporteront rapidement $\approx \num{15000}$ données
         cosmologiques de SNe~Ia.
-        % Current cosmo analysis (BP) sees a bias of 4\%, compatible with
-        % current error on $w$ but will be critical to LSST/10 000 data…
 \end{enumerate}
 
 Ces biais pourraient être corrigés avec l'implémentation de l'âge comme
